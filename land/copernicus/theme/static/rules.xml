@@ -7,13 +7,18 @@
     <rules css:if-content="#visual-portal-wrapper">
         <theme href="pan-eu.html" />
 
-        <merge attributes="class" css:theme="body" css:content="body" />
+        <drop theme="/html/head/meta" />
+        <drop theme="/html/head/title" />
+        <drop theme="/html/head/script" />
 
-        <replace css:theme="html head title" css:content="html head title" />
-        <after css:theme-children="html head" css:content="html head base" />
-        <after css:theme-children="html head" css:content="html head script" />
+        <drop css:theme="link[href*='copernicusLand.css']" />
 
-        <copy attributes="id dir" css:content="body" css:theme="body" />
+        <after content="/html/head/title" theme-children="/html/head" />
+        <after content="/html/head/meta" theme-children="/html/head" />
+        <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
+            theme-children="/html/head" />
+
+        <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
         <replace css:theme-children="#portal-personaltools-wrapper" css:content-children="#portal-personaltools-wrapper" />
 
@@ -21,7 +26,7 @@
 
         <replace css:theme-children="#nav" css:content-children="#portal-globalnav" />
 
-        <replace css:theme-children="div.top-menu ul" css:content="#portal-siteactions" />
+        <replace css:theme-children="div.top-menu ul" css:content-children="#portal-siteactions" />
 
         <replace css:theme-children="#portal-breadcrumbs" css:content-children="#portal-breadcrumbs" />
         <drop css:theme=".portlet-content" />

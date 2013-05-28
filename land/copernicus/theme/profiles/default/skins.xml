@@ -1,7 +1,7 @@
 <object name="portal_skins">
   <object name="copernicus_theme_templates" meta_type="Filesystem Directory View" directory="land.copernicus.theme:skins/copernicus_theme_templates"/>
   <object name="copernicus_theme_images" meta_type="Filesystem Directory View" directory="land.copernicus.theme:skins/copernicus_theme_images"/>
-  <object name="copenicus_theme_styles" meta_type="Filesystem Directory View" directory="land.copernicus.theme:skins/copernicus_theme_styles"/>
+  <object name="copernicus_theme_styles" meta_type="Filesystem Directory View" directory="land.copernicus.theme:skins/copernicus_theme_styles"/>
   <skin-path name="Copernicus Theme" based-on="Sunburst Theme">
     <layer name="copernicus_theme_templates" insert-after="custom"/>
     <layer name="copernicus_theme_images" insert-after="custom"/>
