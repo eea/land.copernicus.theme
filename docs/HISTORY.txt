@@ -4,4 +4,6 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
-- Initial release
+- Feature WIP: added diazo integration code for the theme; added static 
+  resources provided by designer
+  [#14617 robaaoli]

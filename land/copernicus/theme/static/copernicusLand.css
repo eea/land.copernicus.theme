@@ -1,0 +1,245 @@
+﻿
+/*  GENERAL*/
+body {
+	font-size: 13px;
+}
+
+#visual-portal-wrapper {
+	width: 1000px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+a:focus,
+a:hover,
+a:active {
+	color: #396EA2;
+	text-decoration: underline;
+}
+
+
+/*  HEADER*/
+#portal-header {
+	overflow: hidden;
+}
+
+.top-menu {
+	width: 100%; /*80%; if we have search box */
+	float: left;
+	margin: 18px 0px 15px;
+}
+
+.top-menu ul {
+	text-align: right;
+	font-size: 11px;
+}
+
+.top-menu li {
+	padding: 0px 6px;
+	border-left: 1px solid #749AC4;
+}
+
+.top-menu .first {
+	border-left: 0px;
+}
+
+#portal-searchbox {
+	width: auto;
+	float: right;
+	display: none;
+}
+
+#site-identity {
+	z-index: 100;
+	margin-top:  -30px;
+}
+
+#portal-logo {
+	margin: 0px;
+	float: left;
+	padding-left: 20px;
+}
+
+#portal-title-container {
+	/*width: 70%;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;*/
+	
+	/*  in case we keep the EEA logo and the Copernicus logo in header */
+	width: 77%;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 25px;
+	float: right;
+}
+
+#portal-title {
+	color: #A0B228;
+	font-size: 26px;
+	
+	/*  in case we keep the EEA logo and the Copernicus logo in header */
+	height: 52px;
+	float: left;
+	padding-top: 23px;
+}
+
+#copernicus-logo {
+	width: 155px;
+	display: inline-block;
+	float: right;
+}
+
+.stripe {
+	/*background: #BFD630;
+	height: 45px;
+	z-index: 0;
+	margin-top: -35px;*/
+	
+	/*  in case we keep the EEA logo and the Copernicus logo in header */
+	background: #BFD630;
+	height: 65px;
+	z-index: 0;
+	margin-top: -35px;
+}
+
+.stripe img {
+	float: right;
+}
+
+#portal-breadcrumbs {
+	background: #A0B228;
+	min-height: 18px;
+	color: #FFF;
+	margin: 0;
+	padding: 0px 0px 0px 10px;
+	overflow: hidden;
+	line-height: 1.6;
+	font-size: 11px;
+}
+
+#portal-breadcrumbs a {
+	color: #FFF;
+}
+
+
+/*  CONTENT */
+#portal-columns {
+	margin: 20px 0px;
+}
+
+#tabbed-portlet {
+	height: auto;
+	width: 760px;
+	float: left;
+}
+
+#user-corner-portlet {
+	float: right;
+}
+
+#user-corner-portlet .portletHeader {
+	border-bottom: 3px solid #BFD630;
+	color: #555;
+	padding-top: 10px;
+}
+
+#user-corner-portlet p {
+	display: block;
+	background: url(arrow.png) 0px 9px no-repeat;
+	border-bottom: 1px solid #DDD;
+	padding: 10px 15px 10px 25px;
+	font-size: 13px;
+}
+
+#nav {
+	background: #FFF;
+	overflow: hidden;
+	border-bottom: 3px solid #BFD630;
+}
+
+#nav li {
+	float: left;
+	margin-right: 10px;
+}
+
+#nav a {
+	display: block;
+	padding: 5px 10px;
+	color: #555;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#nav .selected a,
+#nav .selected a:hover {
+	background: #BFD630;
+	color: #fff;
+}
+
+#nav a:hover {
+	background: #ddd;
+}
+
+.tabbed-content .heading {
+	margin: 10px 0px;
+	width: 90%;
+	float: left;
+}
+
+.tabbed-content .printButton {
+	margin: 10px;
+	display: inline-block;
+}
+
+.tabbed-content .printButton img {
+	margin-right: 3px;
+}
+
+.tabbed-content .description {
+	padding: 10px 0px;
+}
+
+.tabbed-content .thumbnail-container {
+	padding: 10px 0px;
+}
+
+.tabbed-content .thumbnail {
+	display: inline-block;
+	width: 175px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.tabbed-content .thumbnail img {
+	width: 168px;
+	height: 126px;
+}
+
+.tabbed-content .thumbnail a {
+	width: 100%;
+	display: block;
+}
+
+
+/*  FOOTER */
+#portal-footer-wrapper {
+	border-top: 1px solid #BFD630;
+}
+
+#portal-footer-wrapper ul {
+	font-size: 11px;
+	padding-top: 5px;
+}
+
+#portal-footer-wrapper li {
+	padding: 0px 6px;
+	border-left: 1px solid #749AC4;
+}
+
+#portal-footer-wrapper .first {
+	border-left: 0px;
+}
