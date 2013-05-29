@@ -4,6 +4,10 @@
     xmlns:css="http://namespaces.plone.org/diazo/css"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+    <xsl:template match="//dl[contains(@class,'portlet-collection-user-corner')]//a">
+      <a target="_blank"><xsl:apply-templates select="./@*[contains(' href title class rel ', concat(' ', name(), ' '))]"/><xsl:value-of select="." /></a>
+    </xsl:template>
+
     <rules css:if-content="#visual-portal-wrapper">
         <theme href="pan-eu.html" />
 
@@ -31,14 +35,6 @@
 
         <replace css:theme-children="#user-corner-portlet" css:content-children=".portlet-collection-user-corner" />
     
-        <xsl:template css:match="#user-corner-portlet a">
-            <xsl:copy>
-                <xsl:attribute name="target">_blank</xsl:attribute>
-                <xsl:copy-of select="@*" />
-                <xsl:apply-templates />
-            </xsl:copy>
-        </xsl:template>
-
         <drop css:content="#portal-breadcrumbs" />
         <replace css:theme-children=".tabbed-content" css:content-children="#portal-column-content" />
 
