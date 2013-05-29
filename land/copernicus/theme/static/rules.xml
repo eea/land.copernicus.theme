@@ -36,7 +36,15 @@
         <replace css:theme-children="#user-corner-portlet" css:content-children=".portlet-collection-user-corner" />
     
         <drop css:content="#portal-breadcrumbs" />
-        <replace css:theme-children=".tabbed-content" css:content-children="#portal-column-content" />
+
+        <replace css:theme-children=".tabbed-content" css:content-children="#portal-column-content"/>
+
+        <replace css:content="#parent-fieldname-title" >
+            <xsl:copy-of select="."/>
+            <a href="javascript:window.print()" class="printButton">
+                <img src="print.png" alt="" />Print
+            </a>
+        </replace>
 
     </rules>
 </rules>
