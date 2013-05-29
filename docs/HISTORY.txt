@@ -4,6 +4,9 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- Open "User corner" portlet links in new window
+  [#14653 robaaoli]
+
 - Images and css moved from static to skins
   [#14618 robaaoli]
 

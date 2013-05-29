@@ -30,6 +30,14 @@
         <drop css:theme=".portlet-content" />
 
         <replace css:theme-children="#user-corner-portlet" css:content-children=".portlet-collection-user-corner" />
+    
+        <xsl:template css:match="#user-corner-portlet a">
+            <xsl:copy>
+                <xsl:attribute name="target">_blank</xsl:attribute>
+                <xsl:copy-of select="@*" />
+                <xsl:apply-templates />
+            </xsl:copy>
+        </xsl:template>
 
         <drop css:content="#portal-breadcrumbs" />
         <replace css:theme-children=".tabbed-content" css:content-children="#portal-column-content" />
