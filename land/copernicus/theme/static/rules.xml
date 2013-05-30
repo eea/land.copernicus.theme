@@ -45,7 +45,9 @@
                 <img src="print.png" alt="" />Print
             </a>
         </replace>
-        
+
+        <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
+
         <drop css:content="#portaltab-index_html" />
         <drop css:content="#portaltab-user-corner" />
 
