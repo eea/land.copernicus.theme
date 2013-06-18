@@ -1,0 +1,78 @@
+.icons-on .contenttype-folder {
+  /*background: no-repeat transparent 0px 4px url(/++resource++land.copernicus.content.images/land.png);*/
+  background: no-repeat transparent 0px 6px url(arrow.png);
+}
+
+.contenttype-landsection {
+  padding-left: 20px ! important;
+  /*background: no-repeat transparent 0px 2px url(/++resource++land.copernicus.content.images/land.png); */
+  background: no-repeat transparent 0px 2px url(arrow.png);
+}
+
+.contenttype-landitem {
+  padding-left: 20px ! important;
+  /* background: no-repeat transparent 0px 2px url(/++resource++land.copernicus.content.images/land.png); */
+  background: no-repeat transparent 0px 2px url(arrow.png);
+}
+
+#edit-bar {
+  background-color: #A0B228;
+  border-color: #A0B228;
+}
+
+#content-views {
+  background-color: #A0B228;
+}
+
+#contentActionMenus {
+  background-color: #A0B228;
+}
+
+#contentActionMenus dl.actionMenu a, #contentActionMenus dl.actionMenu.activated dd {
+  background-color: #A0B228;
+}
+
+#contentActionMenus dl.actionMenu.activated dd {
+  border-bottom-color: #A0B228;
+}
+
+.external-link {
+  text-align: right;
+}
+
+#archetypes-fieldname-honeypot {
+  display: none;
+}
+
+.frozenEntry {
+  opacity: 0.4;
+}
+
+dl.portlet dt, div.portletAssignments div.portletHeader {
+  background: none;
+}
+
+#edit-bar {
+  border-radius: 0;
+}
+
+#nav {
+  margin-top: 8px;
+}
+
+a.printButton {
+  padding-top: 0px ! important;
+  margin-right: 0px ! important;
+}
+
+.documentDescription {
+  text-align: justify;
+}
+
+#portal-footer-wrapper {
+  text-align: center;
+}
+
+#portaltab-pan-eu {
+  display: none;
+}

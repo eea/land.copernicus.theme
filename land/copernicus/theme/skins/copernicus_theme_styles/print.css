@@ -1,0 +1,146 @@
+
+/* GENERAL */
+body .up-menu,
+.top-menu,
+.top-menu ul,
+.top-menu li,
+.top-menu a,
+.printButton,
+#portal-breadcrumbs,
+#nav,
+#edit-bar,
+#viewlet-below-content-title,
+#user-corner-portlet,
+#portal-footer-wrapper,
+.portalMessage {  
+	display: none;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+img {
+	border: 0px; /* for IE */
+}
+
+#content-core a:link:after,
+#content-core a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;
+}
+
+#content-core .photoAlbumEntry a:link:after,
+#content-core .photoAlbumEntry a:visited:after {
+   content: ""; /*  do not display the whole URL for Pan-EU categories*/
+}
+
+
+/*  CONTENT */
+#portal-title, 
+#copernicus-logo, 
+#portal-logo,
+.stripe,
+#content {
+	position: absolute;
+}
+
+#portal-logo {
+	top: 0;
+	left: 10px;
+	z-index: 100;
+}
+
+#portal-title {
+	top: 50px;
+	left: 200px;
+	font-size: 26px;
+}
+
+#copernicus-logo {
+	top: 30px;
+	right: 90px;
+}
+
+.stripe {
+	top: 85px;
+	left: 0;
+	background: #bbb !important;
+	width: 100%;
+	z-index: 0;
+	padding: 3px 0px;
+}
+
+#EEA-logo {
+	background: url(EEA_logo_for_print.png) no-repeat;
+	float: right;
+	padding-right: 3px;
+	height: 43px;
+	width: 212px;
+}
+
+#content {
+	top: 150px;
+	left: 0;
+}
+
+.formTabs {
+	list-style-type: square;
+}
+
+.documentFirstHeading {
+	font-size: 20px;
+	color: #000;
+	font-weight: normal;
+}
+
+.photoAlbumEntry {
+	width: 190px;
+	float: left;
+	margin-right: 10px;
+}
+
+.photoAlbumEntry img {
+	width: 160px;
+	height: 120px;
+	margin: 0;
+	padding: 3px 3px 5px;
+	outline: 1px solid #ddd;
+}
+
+.photoAlbumEntryTitle,
+#fieldset-mapview { 
+	width: 100%;
+	display: block;
+}
+
+.visualClear {
+	clear: both;
+	display: block;
+	padding-top: 20px;
+}
+
+iframe,
+#fieldset-mapview,
+.mapview-field,
+.formPanel {
+	display: block;  
+	visibility: visible;
+	outline: 1px solid red;
+}
+
+body .map,
+body .map .container {
+	overflow: visible; /*  shows map */
+	width: 700px; 
+	height: 350px;
+	outline: 1px solid green;
+}
+
+#content-core .formTab .selected {
+	color: #000;
+}
+
+@page wide {
+	size: landscape;
+}
