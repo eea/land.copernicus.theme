@@ -24,13 +24,22 @@
 
         <replace css:theme-children="#nav" css:content-children="#portal-globalnav" />
 
-        <replace css:theme-children="div.top-menu ul" css:content-children="#portal-siteactions" />
+        <replace css:theme="div.top-menu ul">
+          <ul>
+            <xsl:for-each css:select="#portal-siteactions li">
+              <xsl:copy-of select="current()" />
+            </xsl:for-each>
+            <xsl:for-each css:select="#portal-personaltools-wrapper li">
+              <xsl:copy-of select="current()" />
+            </xsl:for-each>
+          </ul>
+        </replace>
 
         <replace css:theme-children="#portal-breadcrumbs" css:content-children="#portal-breadcrumbs" />
         <drop css:theme=".portlet-content" />
 
         <replace css:theme-children="#user-corner-portlet" css:content-children="#portal-column-two" />
-    
+
         <drop css:content="#portal-breadcrumbs" />
 
         <replace css:theme-children=".tabbed-content" css:content-children="#portal-column-content"/>
