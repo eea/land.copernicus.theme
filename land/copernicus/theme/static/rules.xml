@@ -53,8 +53,17 @@
 
         <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
 
-        <drop css:content="#portaltab-index_html" />
         <drop css:content="#portaltab-user-corner" />
+
+        <replace css:content="#portaltab-in-situ">
+          <xsl:copy>
+            <xsl:attribute name="class">
+              <xsl:value-of select="'frozenEntry '" />
+              <xsl:value-of select="./@class" />
+            </xsl:attribute>
+            <xsl:apply-templates />
+          </xsl:copy>
+        </replace>
 
     </rules>
 </rules>
