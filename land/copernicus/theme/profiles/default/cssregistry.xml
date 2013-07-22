@@ -3,4 +3,9 @@
     <stylesheet id="copernicusLand.css"
                 expression="request/HTTP_X_THEME_ENABLED | nothing"
                 applyPrefix="True" />
+
+    <stylesheet id="copernicusMobile.css"
+                expression="request/HTTP_X_THEME_ENABLED | nothing"
+                media="handheld, screen and (max-device-width: 480px)"
+                applyPrefix="True" />
 </object>
