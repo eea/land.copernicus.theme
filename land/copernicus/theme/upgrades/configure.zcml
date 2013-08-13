@@ -13,6 +13,11 @@
                 import_steps="cssregistry"
                 />
 
+        <genericsetup:upgradeDepends
+                title="Import profile steps with changes: skins"
+                import_steps="skins"
+                />
+
     </genericsetup:upgradeSteps>
 
 

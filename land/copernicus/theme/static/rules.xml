@@ -5,13 +5,12 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <rules css:if-content="#visual-portal-wrapper">
-        <theme href="pan-eu.html" />
+        <theme href="index.html" />
 
         <drop theme="/html/head/meta" />
         <drop theme="/html/head/title" />
         <drop theme="/html/head/script" />
-
-        <drop css:theme="link[href*='copernicusLand.css']" />
+        <drop theme="/html/head/link" />
 
         <after content="/html/head/title" theme-children="/html/head" />
         <after content="/html/head/meta" theme-children="/html/head" />
@@ -22,7 +21,26 @@
 
         <copy attributes="href" css:theme="#portal-logo" css:content="#portal-logo" />
 
-        <replace css:theme-children="#nav" css:content-children="#portal-globalnav" />
+        <replace css:theme-children="#nav">
+            <xsl:for-each css:select="#portal-globalnav li">
+                <xsl:if test="not(@id = 'portaltab-user-corner')">
+                    <xsl:element name='li'>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="@id" />
+                        </xsl:attribute>
+                        <xsl:attribute name="class">
+                            <xsl:if test="@id = 'portaltab-in-situ'">
+                                <xsl:value-of select="'frozenEntry '" />
+                            </xsl:if>
+                            <xsl:value-of select="@class" />
+                        </xsl:attribute>
+                        <h2>
+                            <xsl:copy-of select="./*"/>
+                        </h2>
+                    </xsl:element>
+                </xsl:if>
+            </xsl:for-each>
+        </replace>
 
         <replace css:theme="div.top-menu ul">
           <ul>
@@ -52,18 +70,6 @@
         </replace>
 
         <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
-
-        <drop css:content="#portaltab-user-corner" />
-
-        <replace css:content="#portaltab-in-situ">
-          <xsl:copy>
-            <xsl:attribute name="class">
-              <xsl:value-of select="'frozenEntry '" />
-              <xsl:value-of select="./@class" />
-            </xsl:attribute>
-            <xsl:apply-templates />
-          </xsl:copy>
-        </replace>
 
     </rules>
 </rules>
