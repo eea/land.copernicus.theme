@@ -28,12 +28,6 @@
                         <xsl:attribute name="id">
                             <xsl:value-of select="@id" />
                         </xsl:attribute>
-                        <xsl:attribute name="class">
-                            <xsl:if test="@id = 'portaltab-in-situ'">
-                                <xsl:value-of select="'frozenEntry '" />
-                            </xsl:if>
-                            <xsl:value-of select="@class" />
-                        </xsl:attribute>
                         <h2>
                             <xsl:copy-of select="./*"/>
                         </h2>
@@ -69,6 +63,8 @@
             </a>
         </replace>
 
+        <replace css:theme-children="#copernicus-footer-info" css:content-children="#copernicus-footer-info" />
+        
         <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
 
     </rules>

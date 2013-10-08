@@ -2,5 +2,12 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="copernicus">
+    
+    <browser:viewlet
+        name="copernicus.footer.info"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+        class=".viewlets.CopernicusFooterInfoViewlet"
+        permission="zope2.View"
+        />
 
 </configure>

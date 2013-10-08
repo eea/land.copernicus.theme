@@ -3,6 +3,12 @@ Changelog
 
 1.0dev (unreleased)
 -------------------
+- Removed frozenEntry css class from in-situ portal-tab
+  [#16967 tiberiuichim]
+
+- Added copernicus.footer.info viewlet displaying realtime last update info
+  [#17000 tiberiuichim]
+
 - Updated theme with responsive layout
   [#15251 robaaoli]
 

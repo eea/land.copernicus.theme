@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<object>
+  <order manager="plone.portalfooter" skinname="Copernicus Theme"
+         based-on="Sunburst Theme">
+    <viewlet name="copernicus.footer.info" insert-before="plone.colophon" />
+  </order>
+</object>
