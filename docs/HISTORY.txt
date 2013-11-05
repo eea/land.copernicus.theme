@@ -2,13 +2,13 @@ Changelog
 =========
 
 
-1.1 - (2013-11-5)
------------------
+1.1-dev - (2013-11-5)
+--------------------
 - Make the site layout wider
   [#17266 sonia]
 
 1.0 - (initial release)
------------
+-----------------------
 - Removed frozenEntry css class from in-situ portal-tab
   [#16967 tiberiuichim]
 
