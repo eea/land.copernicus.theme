@@ -1,9 +1,8 @@
 Changelog
 =========
 
-
-1.1-dev - (2013-11-5)
---------------------
+1.1-dev - (unreleased)
+----------------------
 - Make the site layout wider
   [#17266 sonia]
 
@@ -11,22 +10,17 @@ Changelog
 -----------------------
 - Removed frozenEntry css class from in-situ portal-tab
   [#16967 tiberiuichim]
-
 - Added copernicus.footer.info viewlet displaying realtime last update info
   [#17000 tiberiuichim]
-
 - Updated theme with responsive layout
   [#15251 robaaoli]
-
 - Undoing opening all "User corner" portlet links in new window
   [#14653 robaaoli]
-
 - Open "User corner" portlet links in new window
   [#14653 robaaoli]
-
 - Images and css moved from static to skins
   [#14618 robaaoli]
-
 - Feature WIP: added diazo integration code for the theme; added static
   resources provided by designer
   [#14617 robaaoli]
+
