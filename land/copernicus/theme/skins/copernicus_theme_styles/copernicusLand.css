@@ -1,4 +1,5 @@
 
+/* - copernicusLand.css - */
 body {
 font-size: 13px;
 color: #333;
@@ -40,14 +41,14 @@ color: #555;
 overflow: hidden;
 }
 .top-menu {
-width: 100%; /* */
+width: 100%;
 float: left;
-margin: 10px 0px 10px; /*18px 0px 15px;*/
+margin: 10px 0px 10px;
 }
 .top-menu ul {
 text-align: right;
 font-size: 11px;
-margin-right:  50px;
+margin-right:10px; /*50px;*/
 }
 .top-menu li {
 padding: 0px 6px;
@@ -86,7 +87,7 @@ font-weight: normal;
 
 #portal-title a,
 #portal-title a:hover {
-color: #A0B228;
+color: #A0B228; 
 text-decoration: none;
 }
 
@@ -202,7 +203,7 @@ border-top-left-radius: 4px;
 	background: #A0B228;
 }
 #nav a:hover {
-	background: #BFD630;
+	background: #BFD630; 
 }
 .tabbed-content .heading {
 margin: 10px 0px;
@@ -210,11 +211,10 @@ width: 90%;
 float: left;
 }
 .tabbed-content .printButton {
-margin: 10px;
 display: inline-block;
 padding-top: 7px;
 float: right;
-margin-top: -21px;
+ margin: -21px 10px 0;
 }
 .tabbed-content .printButton img {
 margin-right: 3px;
@@ -223,17 +223,16 @@ margin-right: 3px;
 padding: 10px 0px;
 }
 .photoAlbumEntry {
-width: 175px;
+width: 166px; /*175px;*/ /*  decrease width so that 5 thumbnails will fit on a row, instead of only 4 */
 float: left;
 margin-right: 10px;
-margin-bottom: 10px;
 background: none;
 padding: 0px;
 text-align: left;
 }
 .photoAlbumEntry img {
-width: 160px;
-height: 120px;
+width: 156px; /*160px; */
+height: 117px; /*120px; */  /* and we kept the 4:3 image ratio*/
 margin: 0;
 padding: 3px;
 }
@@ -329,7 +328,7 @@ text-align: left;
 }
 #portal-footer-wrapper ul {
 font-size: 11px;
-padding-top: 5px;
+padding-bottom: 5px;
 width: 400px;
 float: left;
 }
@@ -346,7 +345,7 @@ border-left: 0px;
 #portal-footer-wrapper ul.partners-logos {
 float: right;
 text-align: right;
-width: 59%;
+width: 300px;
 }
 
 #portal-footer-wrapper ul.partners-logos li {
@@ -387,39 +386,121 @@ h2 {
 	padding-left: 20px;
 }
 
-/*  RESPONSIVE LAYOUT*/
+/*  RESPONSIVE LAYOUT + changes from #17266 */
 #visual-portal-wrapper ,
 #portal-footer-wrapper {
-	width: 1200px;
+	width: 1220px; /*1200px;*/
 }
 
 #tabbed-portlet {
-	width: 74%; /*750px;*/
+	width: 75%; /*74%*/
 }
 
 #user-corner-portlet {
-	width: 21%; /*195px;*/
+	width: 20%; /*21%*/
+  float: right;
+  margin-right: 15px;
 }
 
 .widen {
-	width: 98%;
+	width: 100%; /*98%; */
+}
+
+#portal-columns {
+margin: 0px 0px 20px;
+}
+
+#tabbed-portlet #content dd {
+margin-left: 0px;
+}
+
+#portal-logo {
+padding-right: 96px;
+}
+
+
+
+@media screen and (max-width: 1152px) {
+	#visual-portal-wrapper, 
+	#portal-footer-wrapper {
+		width: 1125px; 
+	}
 }
 
 @media screen and (max-width: 1024px) {
-	#visual-portal-wrapper,
+	#visual-portal-wrapper, 
 	#portal-footer-wrapper {
-		width: 990px;
+		width: 990px; 
 	}
-
+	
 	#tabbed-portlet {
-		width: 750px;
+		width: 750px; 
 	}
-
+	
 	#user-corner-portlet {
-		width: 195px;
+		width: 195px; 
+	}
+	
+	.widen {
+		width: 740px; /*710px*/
+	}
+  
+  #portal-logo {
+    padding-right: 48px;
+  }
+}
+
+/*  iPad mini portrait mode or 800x600px tablet */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1),
+only screen and (max-width: 800px) {
+
+	#visual-portal-wrapper, 
+	#portal-footer-wrapper {
+		width: 734px; 
+	}
+	
+	#tabbed-portlet {
+		width: 732px;
+	}
+	
+	#user-corner-portlet {
+		float: none;
+		clear: both;
+	}
+	
+	#portal-logo {
+		padding-right: 5px;
+	}
+	
+	#portal-title-container {
+		width: 65%;
+	}
+	
+	.top-menu ul {
+		margin-right: 0px;
+	}
+	
+	#portal-columns {
+		padding: 0px;
+	}
+	
+	.tabbed-content .printButton {
+		float: none;
+		margin: 0px;
+	}
+	
+	#content dd {
+		margin: 0 0 1em 1em;
+	}
+	
+	#portal-footer-wrapper ul {
+		float: none;
 	}
 
-	.widen {
-		width: 710px;
-	}
 }
+
+
