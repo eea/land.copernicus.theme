@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.1-dev - (unreleased)
-----------------------
+1.1 - (2013-11-05)
+------------------
 - Make the site layout wider
   [#17266 sonia]
 
