@@ -3,6 +3,10 @@ Changelog
 
 1.2-dev - (unreleased)
 ----------------------
+* Improve site layout to make it wider
+  [tiberich #17266]
+* Move the partner logos to right column
+  [tiberich #17266]
 
 1.1 - (2013-11-05)
 ------------------
