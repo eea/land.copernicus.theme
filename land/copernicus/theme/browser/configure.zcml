@@ -10,4 +10,9 @@
         permission="zope2.View"
         />
 
+  <browser:resource
+    name="land.copernicus.theme.design.js"
+    file="design.js"
+    />
+
 </configure>

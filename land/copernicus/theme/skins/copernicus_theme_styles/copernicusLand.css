@@ -1,4 +1,3 @@
-
 /* - copernicusLand.css - */
 body {
     font-size: 13px;
@@ -253,6 +252,7 @@ body #nav {
     margin-top: 15px;
     font-weight: normal;
     font-size: 13px;
+    white-space: pre-wrap;
 }
 #content a:visited,
 dl.portlet a:visited { /* */

@@ -3,6 +3,9 @@ Changelog
 
 1.3-dev - (unreleased)
 ----------------------
+- Added design.js browser resource
+- Updated theme stylesheets
+  [robaaoli #17452]
 
 1.2 - (2013-11-08)
 ------------------

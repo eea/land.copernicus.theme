@@ -20,5 +20,16 @@
 
     </genericsetup:upgradeSteps>
 
+    <genericsetup:upgradeSteps
+            source="*"
+            destination="1004"
+            profile="land.copernicus.theme:default">
+
+        <genericsetup:upgradeDepends
+                title="Import profile steps with changes: javascripts"
+                import_steps="jsregistry"
+                />
+
+    </genericsetup:upgradeSteps>
 
 </configure>
