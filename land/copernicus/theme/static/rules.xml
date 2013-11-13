@@ -19,8 +19,6 @@
 
         <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
-        <copy attributes="href" css:theme="#portal-logo" css:content="#portal-logo" />
-
         <replace css:theme-children="#nav">
             <xsl:for-each css:select="#portal-globalnav li">
                 <xsl:if test="not(@id = 'portaltab-user-corner')">

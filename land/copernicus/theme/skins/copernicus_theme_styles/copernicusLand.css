@@ -339,7 +339,14 @@ body #portal-footer-wrapper {
 #portal-footer-wrapper .first {
     border-left: 0px;
 }
-
+.login-req-warning {
+   display: block;
+   position: absolute;
+   bottom: 14%;
+   right: 2%;
+   float: right;
+   color: #999;
+}
 
 /*  REDESIGN */
 ul.partners-logos {
