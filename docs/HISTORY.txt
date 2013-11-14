@@ -1,6 +1,9 @@
 Changelog
 =========
 
+1.4-dev - (unreleased)
+----------------------
+
 1.3 - (2013-11-14)
 ------------------
 - Changed Copernicus image link to http://www.copernicus.eu/
