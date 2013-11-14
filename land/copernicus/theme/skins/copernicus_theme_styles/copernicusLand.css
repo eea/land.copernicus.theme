@@ -106,15 +106,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 0;
     margin-top: -35px;
 }
-#EEA-logo {
-    background: url(/EEA_logo.png) 90% 0% no-repeat;
-    float: right;
-    margin-top: 6px;
-    padding-right: 3px;
-    height: 43px;
-    width: 212px;
-    padding-left: 0px;
-}
+
 #portal-breadcrumbs {
     min-height: 18px;
     color: #616161;
@@ -458,6 +450,10 @@ h2 {
     #portal-logo {
         padding-right: 48px;
     }
+    
+    .partners-logos .EEA {
+      margin-top: 20px;
+    }
 }
 
 /*  iPad mini portrait mode or 800x600px tablet */
@@ -509,5 +505,9 @@ only screen and (max-width: 800px) {
 
     #portal-footer-wrapper ul {
         float: none;
+    }
+    
+    .partners-logos .EEA {
+      margin-top: 20px;
     }
 }
