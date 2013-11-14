@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.4-dev - (unreleased)
-----------------------
+1.4 - (2013-11-14)
+------------------
 - Bug fix: fix spacing for logos
   [sonia #17444]
 
