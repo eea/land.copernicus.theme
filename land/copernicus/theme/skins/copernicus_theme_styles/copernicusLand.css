@@ -427,6 +427,14 @@ h2 {
     #portal-footer-wrapper {
         width: 1125px; 
     }
+    
+   #user-corner-portlet {
+      width: 195px; 
+    }
+    
+    .widen {
+      width: 740px; 
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -511,3 +519,4 @@ only screen and (max-width: 800px) {
       margin-top: 20px;
     }
 }
+

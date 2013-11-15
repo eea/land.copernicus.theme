@@ -3,6 +3,8 @@ Changelog
 
 1.5-dev - (unreleased)
 ----------------------
+- Bug fix: fix portal width in certain resolutions
+  [tiberich #17444]
 
 1.4 - (2013-11-14)
 ------------------
