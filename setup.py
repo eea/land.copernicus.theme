@@ -30,4 +30,10 @@ setup(name='land.copernicus.theme',
           'plone.app.theming',
           # -*- Extra requirements: -*-
       ],
+      extras_require={
+          'test': [
+              'plone.app.testing',
+              'plone.testing',
+          ],
+      },
       )
