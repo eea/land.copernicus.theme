@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.6-dev - (unreleased)
-----------------------
+1.6 - (2013-12-16)
+------------------
 - Fixed index.html linting issues
   [olimpiurob]
 - Fixed portal-title in print style sheet and other cosmetics
