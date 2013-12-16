@@ -1,4 +1,5 @@
-
+/* - print.css - */
+@media print {
 /* GENERAL */
 body .up-menu,
 .top-menu,
@@ -126,7 +127,7 @@ iframe,
 .formPanel {
 	display: block;  
 	visibility: visible;
-	outline: 1px solid red;
+//	outline: 1px solid red;
 }
 
 body .map,
@@ -143,4 +144,15 @@ body .map .container {
 
 @page wide {
 	size: landscape;
+}
+
+#portal-title a, #portal-title a:hover {
+        color: #A0B228;
+        text-decoration: none;
+        font-size: 26px;
+}
+
+.formTabs {
+        display: none;
+}
 }

@@ -3,6 +3,10 @@ Changelog
 
 1.6-dev - (unreleased)
 ----------------------
+- Fixed index.html linting issues
+  [olimpiurob]
+- Fixed portal-title in print style sheet and other cosmetics
+  [olimpiurob]
 
 1.5 - (2013-11-21)
 ------------------
