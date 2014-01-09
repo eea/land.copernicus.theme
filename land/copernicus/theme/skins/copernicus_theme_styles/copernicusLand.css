@@ -429,6 +429,20 @@ h2 {
     }
 }
 
+@media screen and (max-width: 1093px) {
+    #visual-portal-wrapper, 
+    #portal-footer-wrapper {
+        width: 1072px; 
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #visual-portal-wrapper, 
+    #portal-footer-wrapper {
+        width: 1064px; 
+    }
+}
+
 @media screen and (max-width: 1024px) {
     #visual-portal-wrapper, 
     #portal-footer-wrapper {
