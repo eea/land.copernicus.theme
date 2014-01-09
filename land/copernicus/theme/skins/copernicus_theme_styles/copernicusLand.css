@@ -395,17 +395,17 @@ h2 {
 }
 
 #tabbed-portlet {
-    width: 76%; /*74%*/
+    width: 76%;
 }
 
 #user-corner-portlet {
-    width: 22%; /*21%*/
+    width: 21%;
     float: right;
     margin-right: 9px;
 }
 
 .widen {
-    width: 100%; /*98%; */
+    width: 100%;
 }
 
 #portal-columns {
@@ -427,32 +427,12 @@ h2 {
     #portal-footer-wrapper {
         width: 1125px; 
     }
-    
-   #user-corner-portlet {
-      width: 195px; 
-    }
-    
-    .widen {
-      width: 740px; 
-    }
 }
 
 @media screen and (max-width: 1024px) {
     #visual-portal-wrapper, 
     #portal-footer-wrapper {
         width: 990px; 
-    }
-
-    #tabbed-portlet {
-        width: 750px; 
-    }
-
-    #user-corner-portlet {
-        width: 195px; 
-    }
-
-    .widen {
-        width: 740px; /*710px*/
     }
 
     #portal-logo {
