@@ -427,6 +427,10 @@ h2 {
     #portal-footer-wrapper {
         width: 1125px; 
     }
+    
+    .partners-logos a {
+        margin-bottom: 15px;
+   }
 }
 
 @media screen and (max-width: 1093px) {
