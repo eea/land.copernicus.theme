@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.7-dev - (unreleased)
-----------------------
+1.7 - (2014-01-14)
+------------------
 - Bug fix: fix theme on smaller resolutions
   [sonia #17916]
 
