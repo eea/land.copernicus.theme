@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #portal-title a,
 #portal-title a:hover {
-    color: #A0B228; 
+    color: #A0B228;
     text-decoration: none;
 }
 
@@ -106,15 +106,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 0;
     margin-top: -35px;
 }
-#EEA-logo {
-    background: url(/EEA_logo.png) 90% 0% no-repeat;
-    float: right;
-    margin-top: 6px;
-    padding-right: 3px;
-    height: 43px;
-    width: 212px;
-    padding-left: 0px;
-}
+
 #portal-breadcrumbs {
     min-height: 18px;
     color: #616161;
@@ -202,7 +194,7 @@ body #nav {
     background: #A0B228;
 }
 #nav a:hover {
-    background: #BFD630; 
+    background: #BFD630;
 }
 .tabbed-content .heading {
     margin: 10px 0px;
@@ -403,17 +395,17 @@ h2 {
 }
 
 #tabbed-portlet {
-    width: 76%; /*74%*/
+    width: 76%;
 }
 
 #user-corner-portlet {
-    width: 22%; /*21%*/
+    width: 21%;
     float: right;
     margin-right: 9px;
 }
 
 .widen {
-    width: 100%; /*98%; */
+    width: 100%;
 }
 
 #portal-columns {
@@ -431,24 +423,24 @@ h2 {
 
 
 @media screen and (max-width: 1152px) {
-    #visual-portal-wrapper, 
+    #visual-portal-wrapper,
     #portal-footer-wrapper {
-        width: 1125px; 
+        width: 1125px;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    #visual-portal-wrapper, 
+    #visual-portal-wrapper,
     #portal-footer-wrapper {
-        width: 990px; 
+        width: 990px;
     }
 
     #tabbed-portlet {
-        width: 750px; 
+        width: 750px;
     }
 
     #user-corner-portlet {
-        width: 195px; 
+        width: 195px;
     }
 
     .widen {
@@ -461,16 +453,16 @@ h2 {
 }
 
 /*  iPad mini portrait mode or 800x600px tablet */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
 and (orientation : portrait)
 and (-webkit-min-device-pixel-ratio: 1),
 only screen and (max-width: 800px) {
 
-    #visual-portal-wrapper, 
+    #visual-portal-wrapper,
     #portal-footer-wrapper {
-        width: 734px; 
+        width: 734px;
     }
 
     #tabbed-portlet {
