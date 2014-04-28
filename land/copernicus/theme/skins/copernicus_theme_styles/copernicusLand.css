@@ -588,3 +588,56 @@ only screen and (max-width: 800px) {
     width: 588px;
   }
 }
+
+@media screen and (max-width: 593px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper,
+  #tabbed-portlet {
+    width: 560px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper,
+  #tabbed-portlet {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper,
+  #tabbed-portlet {
+    width: 456px;
+  }
+
+  #portal-title-container {
+    width: 100%;
+  }
+
+  #portal-title h1 {
+    font-size: 26px;
+  }
+
+  #contentActionMenus {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  #user-corner-portlet {
+    width: 70%;
+  }
+
+  #nav li {
+    margin-right: 6px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper,
+  #tabbed-portlet {
+    width: 450px;
+  }
+}
