@@ -569,11 +569,21 @@ and (resolution: 163dpi) {
   }
 
   #tabbed-portlet {
-    width: 605px;
+    width: 595px;
   }
 
   #user-corner-portlet {
     width: 50%;
+  }
+
+  #contentActionMenus {
+    width: 98%;
+    margin-top: 5px;
+    margin-right: 11px;
+  }
+
+  .tabbed-content .printButton {
+    display: none;
   }
 }
 
@@ -584,31 +594,40 @@ and (resolution: 163dpi) {
   }
 
   #tabbed-portlet {
-    width: 588px;
+    width: 575px;
   }
 }
 
 @media screen and (max-width: 593px) {
   #visual-portal-wrapper,
-  #portal-footer-wrapper,
-  #tabbed-portlet {
+  #portal-footer-wrapper {
     width: 560px;
+  }
+
+  #tabbed-portlet {
+    width: 545px;
   }
 }
 
 @media screen and (max-width: 568px) {
   #visual-portal-wrapper,
-  #portal-footer-wrapper,
-  #tabbed-portlet {
+  #portal-footer-wrapper {
     width: 540px;
+  }
+
+  #tabbed-portlet {
+    width: 525px;
   }
 }
 
 @media screen and (max-width: 487px) {
   #visual-portal-wrapper,
-  #portal-footer-wrapper,
-  #tabbed-portlet {
+  #portal-footer-wrapper {
     width: 456px;
+  }
+
+  #tabbed-portlet {
+    width: 430px;
   }
 
   #portal-title-container {
@@ -617,11 +636,6 @@ and (resolution: 163dpi) {
 
   #portal-title h1 {
     font-size: 26px;
-  }
-
-  #contentActionMenus {
-    width: 100%;
-    margin-top: 5px;
   }
 
   #user-corner-portlet {
@@ -635,8 +649,11 @@ and (resolution: 163dpi) {
 
 @media screen and (max-width: 480px) {
   #visual-portal-wrapper,
-  #portal-footer-wrapper,
-  #tabbed-portlet {
+  #portal-footer-wrapper {
     width: 450px;
+  }
+
+  #tabbed-portlet {
+    width: 430px;
   }
 }
