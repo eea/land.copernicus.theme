@@ -460,6 +460,15 @@ h2 {
     .partners-logos .EEA {
       margin-top: 20px;
     }
+    
+    #tabbed-portlet {
+      width: 97.5%;
+    }
+    
+    #user-corner-portlet {
+      float: left;
+    }
+
 }
 
 /*  iPad mini portrait mode or 800x600px tablet */
