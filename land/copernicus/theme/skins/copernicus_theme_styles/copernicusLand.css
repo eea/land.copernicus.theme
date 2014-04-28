@@ -473,13 +473,11 @@ h2 {
 }
 
 
-/*  iPad mini portrait mode or 800x600px tablet */
+/*  iPad mini portrait mode */
 @media only screen
 and (min-device-width: 768px)
 and (max-device-width: 1024px)
-and (orientation : portrait)
-and (-webkit-min-device-pixel-ratio: 1),
-only screen and (max-width: 800px) {
+and (orientation: portrait) {
 
     #visual-portal-wrapper,
     #portal-footer-wrapper {
