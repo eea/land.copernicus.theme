@@ -475,8 +475,8 @@ h2 {
 
 /*  iPad mini portrait mode or 800x600px tablet */
 @media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
 and (orientation : portrait)
 and (-webkit-min-device-pixel-ratio: 1),
 only screen and (max-width: 800px) {
@@ -527,4 +527,64 @@ only screen and (max-width: 800px) {
     .partners-logos .EEA {
       margin-top: 20px;
     }
+}
+
+
+/* Enlarge map on smaller resolutions */
+@media screen and (max-width: 976px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 946px;
+  }
+}
+
+@media screen and (max-width: 962px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 932px;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 825px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 770px;
+  }
+
+  #tabbed-portlet {
+    width: 760px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 610px;
+  }
+
+  #tabbed-portlet {
+    width: 605px;
+  }
+
+  #user-corner-portlet {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 619px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 590px;
+  }
+
+  #tabbed-portlet {
+    width: 588px;
+  }
 }
