@@ -1,8 +1,12 @@
 Changelog
 =========
-
-1.8-dev - (unreleased)
+1.9-dev - (unreleased)
 ----------------------
+
+1.8 - (2014-04-29)
+----------------------
+- Fixed: merge with Sonia modification
+  [ovidiu]
 
 1.7 - (2014-01-14)
 ------------------
