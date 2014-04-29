@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #portal-title a,
 #portal-title a:hover {
-    color: #A0B228; 
+    color: #A0B228;
     text-decoration: none;
 }
 
@@ -194,7 +194,7 @@ body #nav {
     background: #A0B228;
 }
 #nav a:hover {
-    background: #BFD630; 
+    background: #BFD630;
 }
 .tabbed-content .heading {
     margin: 10px 0px;
@@ -423,65 +423,66 @@ h2 {
 
 
 @media screen and (max-width: 1152px) {
-    #visual-portal-wrapper, 
+    #visual-portal-wrapper,
     #portal-footer-wrapper {
-        width: 1125px; 
+        width: 1125px;
     }
-    
+
     .partners-logos a {
         margin-bottom: 15px;
    }
 }
 
 @media screen and (max-width: 1093px) {
-    #visual-portal-wrapper, 
+    #visual-portal-wrapper,
     #portal-footer-wrapper {
-        width: 1072px; 
+        width: 1072px;
     }
 }
 
 @media screen and (max-width: 1080px) {
-    #visual-portal-wrapper, 
+    #visual-portal-wrapper,
     #portal-footer-wrapper {
-        width: 1064px; 
+        width: 1064px;
     }
 }
 
 @media screen and (max-width: 1024px) {
-    #visual-portal-wrapper, 
+    #visual-portal-wrapper,
     #portal-footer-wrapper {
-        width: 990px; 
+        width: 990px;
     }
 
     #portal-logo {
         padding-right: 48px;
     }
-    
+
     .partners-logos .EEA {
-      margin-top: 20px;
+        margin-top: 20px;
     }
-    
+
     #tabbed-portlet {
-      width: 97.5%;
+        width: 97.5%;
     }
-    
+
     #user-corner-portlet {
-      float: left;
+        float: left;
+        width: 40%;
     }
 
 }
 
-/*  iPad mini portrait mode or 800x600px tablet */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait)
-and (-webkit-min-device-pixel-ratio: 1),
-only screen and (max-width: 800px) {
 
-    #visual-portal-wrapper, 
+/*  iPad mini portrait mode */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (resolution: 163dpi) {
+
+    #visual-portal-wrapper,
     #portal-footer-wrapper {
-        width: 734px; 
+        width: 734px;
     }
 
     #tabbed-portlet {
@@ -521,9 +522,138 @@ only screen and (max-width: 800px) {
     #portal-footer-wrapper ul {
         float: none;
     }
-    
+
     .partners-logos .EEA {
       margin-top: 20px;
     }
 }
 
+
+/* Enlarge map on smaller resolutions */
+@media screen and (max-width: 976px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 946px;
+  }
+}
+
+@media screen and (max-width: 962px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 932px;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 825px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 770px;
+  }
+
+  #tabbed-portlet {
+    width: 760px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 610px;
+  }
+
+  #tabbed-portlet {
+    width: 595px;
+  }
+
+  #user-corner-portlet {
+    width: 50%;
+  }
+
+  #contentActionMenus {
+    width: 98%;
+    margin-top: 5px;
+    margin-right: 11px;
+  }
+
+  .tabbed-content .printButton {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 619px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 590px;
+  }
+
+  #tabbed-portlet {
+    width: 575px;
+  }
+}
+
+@media screen and (max-width: 593px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 560px;
+  }
+
+  #tabbed-portlet {
+    width: 545px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 540px;
+  }
+
+  #tabbed-portlet {
+    width: 525px;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 456px;
+  }
+
+  #tabbed-portlet {
+    width: 430px;
+  }
+
+  #portal-title-container {
+    width: 100%;
+  }
+
+  #portal-title h1 {
+    font-size: 26px;
+  }
+
+  #user-corner-portlet {
+    width: 70%;
+  }
+
+  #nav li {
+    margin-right: 6px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #visual-portal-wrapper,
+  #portal-footer-wrapper {
+    width: 450px;
+  }
+
+  #tabbed-portlet {
+    width: 430px;
+  }
+}
