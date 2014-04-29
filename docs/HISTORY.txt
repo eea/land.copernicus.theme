@@ -5,8 +5,11 @@ Changelog
 
 1.8 - (2014-04-29)
 ----------------------
-- Fixed: merge with Sonia modification
-  [ovidiu]
+- Fixed: full-width map on 1024px resolutions, add custom resolution for iPad
+  mini selecto, remove duplicate target for 800px screens, enlarge map for
+  screens between 593px and 480px width, enlarge map on screens between 976px
+  619px width
+  [ovidiu #17785]
 
 1.7 - (2014-01-14)
 ------------------
