@@ -1,6 +1,9 @@
 Changelog
 =========
 
+1.9-dev (unreleased)
+--------------------
+
 1.8 - (2014-04-29)
 ----------------------
 - Fixed: full-width map on 1024px resolutions, add custom resolution for iPad
