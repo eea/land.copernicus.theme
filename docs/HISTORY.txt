@@ -3,6 +3,8 @@ Changelog
 
 1.9-dev (unreleased)
 --------------------
+- Fixed: deleted entry for unused ie8.css and ie9.css
+  [ovidiu #19481]
 
 1.8 - (2014-04-29)
 ----------------------
