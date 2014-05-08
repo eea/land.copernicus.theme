@@ -8,18 +8,4 @@
     expression="request/HTTP_X_THEME_ENABLED | nothing"
     media="handheld, screen and (max-device-width: 480px)"
     applyPrefix="True" />
-
-  <stylesheet title=""
-    id="ie8.css"
-    media="screen" rel="stylesheet" rendering="import"
-    cacheable="True" compression="safe" cookable="True"
-    enabled="1" expression=""
-    conditionalcomment="IE 8"/>
-
-  <stylesheet title=""
-    id="ie9.css"
-    media="screen" rel="stylesheet" rendering="import"
-    cacheable="True" compression="safe" cookable="True"
-    enabled="1" expression=""
-    conditionalcomment="IE 9"/>
 </object>
