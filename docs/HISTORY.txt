@@ -1,8 +1,8 @@
 Changelog
 =========
 
-2.0-dev - (unreleased)
-----------------------
+2.0 - (2014-05-15)
+------------------
 - Fixed: included modifications from custom
   [ovidiu]
 
