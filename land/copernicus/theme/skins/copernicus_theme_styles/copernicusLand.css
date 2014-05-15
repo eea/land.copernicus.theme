@@ -656,4 +656,9 @@ and (resolution: 163dpi) {
   #tabbed-portlet {
     width: 430px;
   }
+
+  #portal-footer-wrapper ul li {
+  display: block;
+  border-left: 0;
+  }
 }
