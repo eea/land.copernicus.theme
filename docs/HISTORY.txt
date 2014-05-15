@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.9-dev (unreleased)
---------------------
+1.9 - (2014-05-15)
+------------------
 - Fixed: deleted entry for unused ie8.css and ie9.css
   [ovidiu #19481]
 - Fixed: put z-index -1 for site-identity 
