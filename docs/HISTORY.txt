@@ -1,6 +1,9 @@
 Changelog
 =========
 
+2.0-dev - (unreleased)
+----------------------
+
 1.9 - (2014-05-15)
 ------------------
 - Fixed: deleted entry for unused ie8.css and ie9.css
