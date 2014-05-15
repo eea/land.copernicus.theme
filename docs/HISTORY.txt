@@ -5,6 +5,8 @@ Changelog
 --------------------
 - Fixed: deleted entry for unused ie8.css and ie9.css
   [ovidiu #19481]
+- Fixed: put z-index -1 for site-identity 
+  [ovidiu #19557]
 
 1.8 - (2014-04-29)
 ----------------------

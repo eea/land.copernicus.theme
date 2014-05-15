@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 #site-identity {
-    z-index: 100;
+    z-index: -1;
     margin-top: -16px;
 }
 #portal-logo {
