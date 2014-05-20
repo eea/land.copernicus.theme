@@ -675,22 +675,31 @@ and (resolution: 163dpi) {
 @media screen and (max-width: 480px) {
   #visual-portal-wrapper,
   #portal-footer-wrapper {
-    width: 450px;
-  }
-
-  #tabbed-portlet {
     width: 430px;
   }
 
+  #tabbed-portlet {
+    width: 420px;
+  }
+
   #portal-footer-wrapper ul li {
-  display: block;
-  border-left: 0;
+    display: block;
+    border-left: 0;
   }
 
   /* overrides lines 6-12 of Plone's mobile.css, which were hiding 98% of page content, on 480px mobile screens */
   #portal-column-one,
   #portal-column-two,
   #portal-column-content {
-  margin-left: 0;
+    margin-left: 0;
+  }
+
+  body .loading_message {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  body #squaresWaveG {
+    left: 95px;
   }
 }
