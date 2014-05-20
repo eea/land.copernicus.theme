@@ -460,8 +460,10 @@ h2 {
     }
 
     #visual-portal-wrapper {
+      box-shadow: none;
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
+      border-bottom: 1px solid #DDD;
     }
 
     #portal-logo {
