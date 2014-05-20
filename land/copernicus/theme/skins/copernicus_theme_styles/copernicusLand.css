@@ -579,11 +579,11 @@ and (resolution: 163dpi) {
 @media screen and (max-width: 800px) {
   #visual-portal-wrapper,
   #portal-footer-wrapper {
-    width: 770px;
+    width: 720px;
   }
 
   #tabbed-portlet {
-    width: 760px;
+    width: 700px;
   }
 }
 
