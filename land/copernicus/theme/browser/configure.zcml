@@ -15,4 +15,10 @@
     file="design.js"
     />
 
+  <browser:page
+    name="event_format"
+    class=".event_format.EventFormat"
+    permission="zope2.View"
+    for="*"
+    />
 </configure>
