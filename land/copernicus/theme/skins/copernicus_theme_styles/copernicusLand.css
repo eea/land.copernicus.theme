@@ -459,6 +459,11 @@ h2 {
         width: 990px;
     }
 
+    #visual-portal-wrapper {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
     #portal-logo {
         padding-right: 48px;
     }
