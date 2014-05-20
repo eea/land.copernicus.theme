@@ -388,6 +388,11 @@ h2 {
     padding-left: 20px;
 }
 
+#edit-bar {
+  min-height: 24px;
+}
+
+
 /*  RESPONSIVE LAYOUT + changes from #17266 */
 #visual-portal-wrapper ,
 #portal-footer-wrapper {
