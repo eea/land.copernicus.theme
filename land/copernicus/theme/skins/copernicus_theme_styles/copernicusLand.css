@@ -686,4 +686,11 @@ and (resolution: 163dpi) {
   display: block;
   border-left: 0;
   }
+
+  /* overrides lines 6-12 of Plone's mobile.css, which were hiding 98% of page content, on 480px mobile screens */
+  #portal-column-one,
+  #portal-column-two,
+  #portal-column-content {
+  margin-left: 0;
+  }
 }
