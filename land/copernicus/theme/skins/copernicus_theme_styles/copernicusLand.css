@@ -727,3 +727,42 @@ and (resolution: 163dpi) {
     left: 95px;
   }
 }
+
+
+
+
+
+
+
+.newsItem {
+	padding-bottom: 12px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 12px;
+}
+
+.newsContent {
+ float: left;
+  width: 60%;
+  margin-right: 12px;
+}
+
+.newsAbout {
+  float: right;
+  width: 30%;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+.clearfix:after {
+	clear: both;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+
