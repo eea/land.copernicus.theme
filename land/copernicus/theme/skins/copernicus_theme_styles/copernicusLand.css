@@ -565,7 +565,11 @@ and (resolution: 163dpi) {
 @media screen and (max-width: 960px) {
   #visual-portal-wrapper,
   #portal-footer-wrapper {
-    width: 928px;
+    width: 948px;
+  }
+
+  #portal-footer-wrapper ul {
+    width: 100%;
   }
 }
 
