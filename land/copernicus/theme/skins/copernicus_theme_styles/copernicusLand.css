@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 body #nav {
     background: #FFF;
     overflow: hidden;
-    padding: 0px 6px;
+    padding: 0px;
     margin-top: 0px;
 }
 #nav li {
@@ -610,6 +610,10 @@ and (resolution: 163dpi) {
   .tabbed-content .printButton {
     display: none;
   }
+
+  #nav li {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 619px) {
@@ -620,6 +624,10 @@ and (resolution: 163dpi) {
 
   #tabbed-portlet {
     width: 575px;
+  }
+
+  #nav li {
+    margin-right: 0;
   }
 }
 
@@ -632,6 +640,10 @@ and (resolution: 163dpi) {
   #tabbed-portlet {
     width: 545px;
   }
+
+  #nav li {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 568px) {
@@ -642,6 +654,10 @@ and (resolution: 163dpi) {
 
   #tabbed-portlet {
     width: 525px;
+  }
+
+  #nav li {
+    margin-right: 0;
   }
 }
 
@@ -668,7 +684,7 @@ and (resolution: 163dpi) {
   }
 
   #nav li {
-    margin-right: 6px;
+    margin-right: 0;
   }
 }
 
@@ -685,6 +701,10 @@ and (resolution: 163dpi) {
   #portal-footer-wrapper ul li {
     display: block;
     border-left: 0;
+  }
+
+  #nav li {
+    margin-right: 0;
   }
 
   /* overrides lines 6-12 of Plone's mobile.css, which were hiding 98% of page content, on 480px mobile screens */
