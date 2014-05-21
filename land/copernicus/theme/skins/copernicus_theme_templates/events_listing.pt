@@ -69,11 +69,16 @@
                     </p>
 		</div>
 		    <div class="newsAbout">
-			<div >
-				<strong>When</strong><br />
-				<span tal:replace="python:toLocalizedTime(resultObject.start(), long_format=1)">Start Date</span>
-				<!-- Pune o conditie ca atunci cand start == end sa nu mai afiseze end -->
-				to<br /><span tal:replace="python:toLocalizedTime(resultObject.end(), long_format=1)">End Date</span>
+			<div 
+                            tal:define="start_date python:toLocalizedTime(resultObject.start()); end_date python:toLocalizedTime(resultObject.end())"
+                        >
+                         <strong>When</strong><br />
+				<span
+                                    tal:replace="start_date">Start Date</span>
+                                <tal:end_date
+                                    tal:condition="python: start_date != end_date">
+				to<br /><span tal:replace="end_date">End Date</span>
+                                </tal:end_date>
 			</div>
 			<div>
 				<strong>Where</strong><br />
