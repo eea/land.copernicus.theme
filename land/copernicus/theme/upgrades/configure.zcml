@@ -4,6 +4,18 @@
         i18n_domain="copernicus">
 
     <genericsetup:upgradeSteps
+            source="1004"
+            destination="1005"
+            profile="land.copernicus.theme:default">
+
+        <genericsetup:upgradeDepends
+                title="Import profile steps with changes: types"
+                import_steps="typeinfo"
+                />
+
+    </genericsetup:upgradeSteps>
+
+    <genericsetup:upgradeSteps
             source="*"
             destination="*"
             profile="land.copernicus.theme:default">
