@@ -1,6 +1,9 @@
 Changelog
 =========
 
+2.3-dev - (unreleased)
+----------------------
+
 2.2 - (2014-05-27)
 ------------------
 - Feature: Added custom view for file_view 
