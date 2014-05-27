@@ -765,4 +765,15 @@ and (resolution: 163dpi) {
 .pull-right {
 	float: right;
 }
-
+.publication_view {
+    float: left;
+    width: 60%;
+    margin-right: 12px;
+}
+.publication_cover {
+    float: right;
+    width: 20%;
+}
+.image_cover {
+    float: right;
+}

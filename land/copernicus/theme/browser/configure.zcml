@@ -21,4 +21,11 @@
     permission="zope2.View"
     for="*"
     />
+
+  <browser:page
+    name="publication_display"
+    class=".publication_display.PublicationDisplay"
+    permission="zope2.View"
+    for="*"
+    />
 </configure>
