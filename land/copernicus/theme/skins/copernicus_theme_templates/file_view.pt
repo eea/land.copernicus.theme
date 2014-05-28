@@ -15,8 +15,10 @@
                 <p class="publication_view">
                 <metal:field use-macro="python:context.widget('file', mode='view')">File</metal:field>
                 </p>
-                <p class="publication_cover">
-                    <span class="image_cover" tal:content="structure context/publication_display">
+                <p tal:condition="context/publication_display" 
+                    class="publication_cover">
+                    <span class="image_cover" 
+                        tal:content="structure context/publication_display">
                     </span>
                 </p>
             </div>
