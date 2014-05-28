@@ -3,6 +3,8 @@ Changelog
 
 2.3-dev - (unreleased)
 ----------------------
+- Fixed: Added condition to not rander an 'p' tag if is not necessary
+  [ovidiu]
 
 2.2 - (2014-05-27)
 ------------------
