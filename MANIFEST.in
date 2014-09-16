@@ -5,4 +5,4 @@ global-exclude *~
 global-exclude *.un~
 global-include *.mo
 include *.txt
-
+include *.md
