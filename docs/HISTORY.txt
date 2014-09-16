@@ -1,8 +1,8 @@
 Changelog
 =========
 
-2.3-dev - (unreleased)
-----------------------
+2.3 - (2014-09-16)
+------------------
 - Bug fix: Updated Manifest file
   [olimpiurob]
 - Fixed: Added condition to not rander an 'p' tag if is not necessary
