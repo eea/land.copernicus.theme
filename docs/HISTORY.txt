@@ -1,6 +1,9 @@
 Changelog
 =========
 
+2.4-dev - (unreleased)
+----------------------
+
 2.3 - (2014-09-16)
 ------------------
 - Bug fix: Updated Manifest file
