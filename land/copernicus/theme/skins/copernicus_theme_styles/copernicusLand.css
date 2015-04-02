@@ -289,6 +289,9 @@ dl.portlet a:link,
     border-bottom: 1px solid #BFD630;
     margin-top: 8px;
 }
+#content li.formTab a, #content-core li.formTab a {
+    line-height:20px !important;
+}
 body #content li.formTab a {
     color: #616161;
     font-weight: bold;
