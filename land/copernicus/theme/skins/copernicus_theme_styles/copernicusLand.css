@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
 }
 #content ul {
-    list-style-type: none; /**/
+    /* list-style-type: none; */
 }
 #content .download-field ul,
 #content .webservices-field ul {
@@ -289,12 +289,12 @@ dl.portlet a:link,
     border-bottom: 1px solid #BFD630;
     margin-top: 8px;
 }
-#content li.formTab a, #content-core li.formTab a {
-    line-height:20px !important;
-}
 body #content li.formTab a {
     color: #616161;
     font-weight: bold;
+}
+#content-core li.formTab a {
+    line-height:20px !important;
 }
 #content li.formTab a.selected,
 #content li.formTab a.selected:hover {
@@ -731,16 +731,10 @@ and (resolution: 163dpi) {
   }
 }
 
-
-
-
-
-
-
 .newsItem {
-	padding-bottom: 12px;
-	border-bottom: 1px solid #ddd;
-	margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 12px;
 }
 
 .newsContent {
@@ -756,17 +750,17 @@ and (resolution: 163dpi) {
 
 .clearfix:before,
 .clearfix:after {
-	display: table;
-	content: " ";
+    display: table;
+    content: " ";
 }
 .clearfix:after {
-	clear: both;
+    clear: both;
 }
 .pull-left {
-	float: left;
+    float: left;
 }
 .pull-right {
-	float: right;
+    float: right;
 }
 .publication_view {
     float: left;
@@ -780,3 +774,4 @@ and (resolution: 163dpi) {
 .image_cover {
     float: right;
 }
+
