@@ -261,7 +261,7 @@ dl.portlet a:link,
     border-bottom: 0px !important;
 }
 #portal-sitemap li {
-    /*background: url(/arrow.png) no-repeat;*
+    /*background: url(/arrow.png) no-repeat;*/
     background-position: 0px 14px;
 }
 #portal-sitemap li li {
