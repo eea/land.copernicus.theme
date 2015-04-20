@@ -821,12 +821,45 @@ and (resolution: 163dpi) {
 
 /* Terms of use */
 #formfield-form-disclaimer {
-    height: 100px; /* [TODO] WIP here. */
+    height: 50px;
+    width: 19%;
+    display: inline;
+    float: left;
 }
 
+#formfield-form-disclaimer label span:first-child {
+    display: none;
+}
+
+#formfield-form-disclaimer .widget {
+    text-align: left;
+    width: 100%;
+    top: 5%;
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+}
+
+#formfield-form-disclaimer label {
+    vertical-align: top;
+    text-align: left;
+}
+
+#formfield-form-disclaimer .formHelp {
+    display: none;  /* Hide Accept terms of use Description */
+}
+
+#formfield-form-disclaimer input {
+    width: 20px !important;
+    text-align: left;
+    margin-top: 3px;
+}
 
 /* Register button */
 .actionButtons input {
+    display: inline;
+    margin-left: 10px;
+    margin-top: 15px;
     background-color: #50AEEC;
     border-radius: 5px;
     border-top: 0px solid;
@@ -844,4 +877,27 @@ and (resolution: 163dpi) {
 
 .actionButtons input:hover {
     background-color: #205c90
+}
+
+/* TODO Fix lines */
+/* Horizontal Line Top */
+#formfield-form-fullname:before {
+    border-top: 1px solid red;
+    width: 100%;
+    height: 99%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+}
+
+/* Horizontal Line Bottom */
+#formfield-form-institutional_domain:after {
+    border-top: 1px solid red;
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
 }
