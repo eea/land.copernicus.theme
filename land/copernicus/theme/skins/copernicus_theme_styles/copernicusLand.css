@@ -774,4 +774,8 @@ and (resolution: 163dpi) {
 .image_cover {
     float: right;
 }
+#personaltools-join {
+    padding-left: 5px;
+    border-left: 1px solid #749AC4;
+}
 
