@@ -795,7 +795,7 @@ and (resolution: 163dpi) {
 
 .kssattr-formname-register .formHelp {
     float: right;
-    width: 80%;
+    width: 79%;  /* fix text indentation left */
     right: 0px;
     bottom: 0px;
     margin-top: 3em;
@@ -818,6 +818,29 @@ and (resolution: 163dpi) {
     margin-top: -15px;
 }
 
+#formfield-form-fullname span:first-child,
+#formfield-form-username span:first-child,
+#formfield-form-email span:first-child {
+    margin-top: 8px;  /* fix vertical center label to input */
+}
+
+#formfield-form-username span.required::after,
+#formfield-form-email span.required::after {
+    position: absolute;
+    margin-top: 8px;  /* fix vertical center red square to text */
+}
+
+.checkboxType {
+    /* fix vertical center label */
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -2px;
+    *overflow: hidden;
+}
 
 /* Terms of use */
 #formfield-form-disclaimer {
