@@ -844,7 +844,7 @@ and (resolution: 163dpi) {
 /* Terms of use */
 #formfield-form-disclaimer {
     height: 50px;
-    width: 19%;
+    width: 25%;
     display: inline;
     float: left;
 }
@@ -854,17 +854,13 @@ and (resolution: 163dpi) {
 }
 
 #formfield-form-disclaimer .widget {
-    text-align: left;
-    width: 100%;
-    top: 5%;
-    position: absolute;
-    left: 0;
-    margin-top: 20px;
+    top: 43%;
 }
 
 #formfield-form-disclaimer label {
-    vertical-align: top;
-    text-align: left;
+    position: absolute;
+    top: 0px;
+    font-weight: normal;
 }
 
 #formfield-form-disclaimer .formHelp {
@@ -872,9 +868,10 @@ and (resolution: 163dpi) {
 }
 
 #formfield-form-disclaimer input {
-    width: 20px !important;
+    width: 60px !important;
     text-align: left;
-    margin-top: 3px;
+    margin-top: 5px;
+    margin-left: -40px;
 }
 
 /* Register button */
