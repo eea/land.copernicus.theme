@@ -841,6 +841,14 @@ and (resolution: 163dpi) {
     *overflow: hidden;
 }
 
+#formfield-form-thematic_domain label, #formfield-form-institutional_domain label {
+    font-weight: normal;
+}
+
+#formfield-form-thematic_domain label:first-child, #formfield-form-institutional_domain label:first-child {
+    font-weight: bold;
+}
+
 /* Terms of use */
 #formfield-form-disclaimer {
     height: 50px;
