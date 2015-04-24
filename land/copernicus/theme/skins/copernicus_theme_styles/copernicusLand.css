@@ -849,6 +849,12 @@ and (resolution: 163dpi) {
     font-weight: bold;
 }
 
+
+/* Terms of use - modal dialog */
+[aria-describedby='terms-of-use-modal'] .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
+	background: #BFD630 !important;
+}
+
 /* Terms of use */
 #formfield-form-disclaimer {
     height: 60px;
