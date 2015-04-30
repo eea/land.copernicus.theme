@@ -849,7 +849,6 @@ and (resolution: 163dpi) {
     font-weight: bold;
 }
 
-
 /* Terms of use - modal dialog */
 [aria-describedby='terms-of-use-modal'] .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
 	background: #BFD630 !important;
@@ -946,4 +945,60 @@ and (resolution: 163dpi) {
 
 #formfield-form-institutional_domain .widget {
     margin-bottom: 20px; /* fix space for line */
+}
+
+
+/* Register form styles with 2 columns for large screens */
+@media screen and (min-width: 770px) {
+    #formfield-form-thematic_domain {
+        float: left;
+        width: 50%;
+    }
+
+    #formfield-form-institutional_domain {
+        float: right;
+        width: 50%;
+        clear: none;
+    }
+
+    #formfield-form-thematic_domain label span:first-child,
+    #formfield-form-institutional_domain label span:first-child {
+        width: 34%;
+    }
+
+    #formfield-form-thematic_domain .widget,
+    #formfield-form-institutional_domain .widget {
+        width: 63%;
+    }
+
+    #formfield-form-thematic_domain .value,
+    #formfield-form-institutional_domain .value {
+        margin-left: 10px;
+    }
+
+    #formfield-form-disclaimer   {
+        clear: left;
+    }
+
+    .kssattr-formname-register #actionsView {
+        float: left;
+    }
+
+    .kssattr-formname-register .actionButtons input {
+        margin-left: 0px !important;
+    }
+
+    #formfield-form-institutional_domain:after {
+      border-top: none !important;
+    }
+
+    .kssattr-formname-register:after {
+        border-top: 1px solid #999999;
+        width: 75%;
+        height: 0px;
+        position: absolute;
+        bottom: 0;
+        left: 10;
+        content: '';
+    }
 }
