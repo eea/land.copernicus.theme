@@ -850,8 +850,27 @@ and (resolution: 163dpi) {
 }
 
 /* Terms of use - modal dialog */
-[aria-describedby='terms-of-use-modal'] .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
+.terms-of-use-dialog .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
 	background: #BFD630 !important;
+}
+
+.terms-of-use-dialog p {
+  margin-bottom: 15px;
+}
+
+.terms-of-use-dialog ul {
+  list-style-type: disc;
+  margin-left: 2em;
+}
+
+.terms-of-use-dialog ul li {
+  margin-bottom: 0.25em;
+  line-height: 1.5em;
+  display: list-item;
+}
+
+.terms-of-use-dialog a {
+  color: #205c90;
 }
 
 /* Terms of use */
