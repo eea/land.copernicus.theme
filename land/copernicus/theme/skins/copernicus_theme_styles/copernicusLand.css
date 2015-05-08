@@ -1034,3 +1034,10 @@ and (resolution: 163dpi) {
         content: '';
     }
 }
+
+/* Fix "You can log in again below." text in logged_out */
+.template-logged_out #content .documentDescription{
+  text-align: center;
+  margin-bottom: 1em;
+  color: #333;
+}
