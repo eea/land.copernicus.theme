@@ -1042,6 +1042,8 @@ and (resolution: 163dpi) {
     color: #333;
 }
 
+
+/* Login page styles */
 #login_page_title {
     text-align: left;
     padding-left: 10%;
@@ -1112,4 +1114,8 @@ and (resolution: 163dpi) {
 
 #login_form_container #login_form_details a {
     color: #08C;
+}
+
+#login_form_container #login-form label {
+    padding-top: 0px;
 }
