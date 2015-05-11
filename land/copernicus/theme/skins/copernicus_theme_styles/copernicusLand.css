@@ -1051,7 +1051,7 @@ and (resolution: 163dpi) {
 }
 
 #login_form_container {
-    width: 80%;
+    width: 75%;
     margin-left: 10%;
     border: 1px solid #DDD;
     padding: 15px;
@@ -1118,4 +1118,8 @@ and (resolution: 163dpi) {
 
 #login_form_container #login-form label {
     padding-top: 0px;
+}
+
+.template-login_form #tabbed-portlet {
+    width: 100%;
 }
