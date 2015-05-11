@@ -1036,8 +1036,80 @@ and (resolution: 163dpi) {
 }
 
 /* Fix "You can log in again below." text in logged_out */
-.template-logged_out #content .documentDescription{
-  text-align: center;
-  margin-bottom: 1em;
-  color: #333;
+.template-logged_out #content .documentDescription {
+    text-align: center;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+#login_page_title {
+    text-align: left;
+    padding-left: 10%;
+    margin-left: 15px;
+}
+
+#login_form_container {
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid #DDD;
+    padding: 15px;
+    overflow: hidden;
+}
+
+#login_form_container #login_form {
+    width: 20%;
+    float: left;
+    text-align: left;
+    padding-right: 1%;
+}
+
+#login_form_container #login_form_details {
+    width: 74%;
+    float: right;
+    text-align: left;
+    padding-left: 3%;
+    border-left: 1px solid #DDD;
+}
+
+#login_form_container #login-form label {
+    text-align: left;
+}
+
+#login_form_container #login-form #__ac_name, #login_form_container #login-form #__ac_password,
+#login_form_container #login-form div.formControls .context {
+    width: 100%;
+    margin-top: 5px;
+}
+
+#login_form_container #login-form div.formControls,
+#login_form_container #login-form div.formControls input {
+    margin: 0px;
+}
+
+/* Login button */
+#login_form_container #login-form div.formControls .context {
+    margin-left: 1px;
+    background-color: #50AEEC;
+    border-radius: 3px;
+    border-top: 0px solid;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    border-bottom: 2px solid #999999;
+    font-size: 100% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#login_form_container #login-form div.formControls .context:hover {
+    background-color: #205c90
+}
+
+#login_form_container #login_form_details .discreet {
+    margin-bottom: 15px;
+}
+
+#login_form_container #login_form_details a {
+    color: #08C;
 }
