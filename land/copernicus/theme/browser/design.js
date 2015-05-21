@@ -12,4 +12,6 @@ jQuery( document ).ready(function($) {
     // trim description, it has too much space before
     var $description = $('#content .documentDescription');
     $description.text($.trim($description.text()));
+
+    $("#viewlet-cookiepolicy").appendTo("body"); // Fix cookie policy visibility problem (in IE)
 });

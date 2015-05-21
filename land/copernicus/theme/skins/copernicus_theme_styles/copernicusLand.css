@@ -1123,3 +1123,7 @@ and (resolution: 163dpi) {
 .template-login_form #tabbed-portlet {
     width: 100%;
 }
+
+#viewlet-cookiepolicy {
+    background-color: #f3f3f3;
+}
