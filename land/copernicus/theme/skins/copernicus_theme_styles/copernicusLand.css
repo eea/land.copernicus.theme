@@ -245,6 +245,11 @@ body #nav {
     font-weight: normal;
     font-size: 13px;
     white-space: pre-wrap;
+    color: #333;
+    font: 100% Arial, FreeSans, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 19.5px;
 }
 #content a:visited,
 dl.portlet a:visited { /* */
