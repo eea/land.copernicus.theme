@@ -781,11 +781,6 @@ and (resolution: 163dpi) {
 #personaltools-join {
     padding-left: 6px;
     border-left: 1px solid #749AC4;
-    padding-right: 6px;
-    border-right: 1px solid #749AC4;
-}
-#personaltools-terms-of-use {
-    margin-left: 3px;
 }
 #personaltools-login {
     margin-right: 3px;
