@@ -926,6 +926,7 @@ and (resolution: 163dpi) {
     display: inline;
     margin-left: 10px;
     margin-top: 15px;
+
     background-color: #50AEEC;
     border-radius: 5px;
     border-top: 0px solid;
@@ -941,7 +942,28 @@ and (resolution: 163dpi) {
     font-weight: bold;
 }
 
-.actionButtons input:hover {
+/* Send button */
+#feedback_form div.formControls .context {
+    margin-left: -12px;
+    margin-top: 0px;
+
+    background-color: #50AEEC;
+    border-radius: 5px;
+    border-top: 0px solid;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    border-bottom: 2px solid #999999;
+    font-size: 100% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.actionButtons input:hover,
+#feedback_form div.formControls .context:hover {
     background-color: #205c90
 }
 
