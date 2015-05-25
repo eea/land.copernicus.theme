@@ -792,6 +792,51 @@ and (resolution: 163dpi) {
     padding-right: 1px;
 }
 
+/* Personal Information edit styles */
+.template-personal-information .edit-form fieldset {
+    border: none !important;
+}
+
+.template-personal-information .edit-form {
+/* Horizontal Line Top */
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    width: 100%;
+}
+
+.template-personal-information .edit-form .field {
+    position: relative;
+    overflow: hidden;
+}
+
+.template-personal-information .edit-form .field label:first-child {
+    float: left;
+    text-align: right;
+    width: 17%;
+}
+
+.template-personal-information .edit-form .widget {
+    text-align: left;
+    width: 80%;
+    top: 5%;
+    right: 0;
+    float: right;
+    margin-top: -15px;
+}
+
+.template-personal-information .edit-form .field label {
+    font-weight: normal;
+}
+
+.template-personal-information .edit-form .field label:first-child {
+    font-weight: bold;
+}
+
+.template-personal-information span.fieldRequired {
+  color: transparent; /* Fix hide text Required */
+  margin-left: 3px;
+}
+
 
 /* Registration form styles */
 .kssattr-formname-register .field {
@@ -842,7 +887,8 @@ and (resolution: 163dpi) {
     margin-top: 8px;  /* fix vertical center red square to text */
 }
 
-.checkboxType {
+.kssattr-formname-register .checkboxType,
+.template-personal-information .checkboxType{
     /* fix vertical center label */
     width: 13px;
     height: 13px;
@@ -1002,8 +1048,28 @@ and (resolution: 163dpi) {
 }
 
 
-/* Register form styles with 2 columns for large screens */
 @media screen and (min-width: 770px) {
+    /* Personal information edit form styles with 2 columns for large screens */
+    .template-personal-information .edit-form .field:first-child {
+        float: left;
+        width: 50%;
+    }
+
+    .template-personal-information .edit-form .field:last-child {
+        float: right;
+        width: 50%;
+        clear: none;
+    }
+
+    .template-personal-information .edit-form .field label:first-child {
+        width: 34%;
+    }
+
+    .template-personal-information .edit-form .widget {
+        width: 63%;
+    }
+
+    /* Register form styles with 2 columns for large screens */
     #formfield-form-thematic_domain {
         float: left;
         width: 50%;
