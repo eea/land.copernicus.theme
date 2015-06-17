@@ -163,6 +163,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5px;
     font-size: 12px;
 }
+#user-corner-portlet a.eagle-link {
+  margin-left: 20px;
+}
 body #nav {
     background: #FFF;
     overflow: hidden;
