@@ -1179,26 +1179,6 @@ and (resolution: 163dpi) {
     margin: 0px;
 }
 
-/* Login button */
-#login_form_container #login-form div.formControls .context {
-    margin-left: 1px;
-    background-color: #50AEEC;
-    border-radius: 3px;
-    border-top: 0px solid;
-    border-left: 0px solid;
-    border-right: 0px solid;
-    border-bottom: 2px solid #999999;
-    font-size: 100% !important;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-}
-
-#login_form_container #login-form div.formControls .context:hover {
-    background-color: #205c90
-}
-
 #login_form_container #login_form_details .discreet {
     margin-bottom: 15px;
 }
@@ -1213,6 +1193,46 @@ and (resolution: 163dpi) {
 
 .template-login_form #tabbed-portlet {
     width: 100%;
+}
+
+/* Login button */
+#login_form_container #login-form div.formControls .context {
+    margin-left: 1px;
+    background-color: #50AEEC;
+    border-radius: 5px;
+    border-top: 0px solid;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    border-bottom: 2px solid #999999;
+    font-size: 100% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Submit EAGLE Contact button */
+.section-eagle-contact div.formControls .context {
+    margin-left: -12px;
+    background-color: #50AEEC;
+    border-radius: 5px;
+    border-top: 0px solid;
+    border-left: 0px solid;
+    border-right: 0px solid;
+    border-bottom: 2px solid #999999;
+    font-size: 100% !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+/* buttons hover */
+#login_form_container #login-form div.formControls .context:hover,
+.section-eagle-contact div.formControls .context:hover {
+    background-color: #205c90
 }
 
 #viewlet-cookiepolicy {
