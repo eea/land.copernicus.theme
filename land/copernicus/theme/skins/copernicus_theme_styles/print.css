@@ -155,4 +155,28 @@ body .map .container {
 .formTabs {
         display: none;
 }
+
+
+/* added for eea.pdf export */
+#viewlet-below-content {
+    display: none; /* hide comments form */
+}
+
+.documentActions {
+    display: none; /* hide Download as pdf */
+}
+
+.printButton {
+    display: none !important;
+}
+
+body {
+    background-color: white !important;
+}
+
+#visual-portal-wrapper {
+    border: none;
+    box-shadow: none !important;
+}
+
 }
