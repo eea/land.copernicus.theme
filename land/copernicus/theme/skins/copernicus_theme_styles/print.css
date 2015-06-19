@@ -179,4 +179,12 @@ body {
     box-shadow: none !important;
 }
 
+#tabbed-portlet #sub-nav {
+	display: none; /* hide submenu reference manual */
+}
+
+.visualNoPrint {
+	display: none; /* hide link all content on one page */
+}
+
 }
