@@ -187,4 +187,27 @@ body {
 	display: none; /* hide link all content on one page */
 }
 
+.template-collection-pdf-body #portal-logo,
+.template-collection-pdf-body #portal-title{
+	display: none;
+}
+
+.template-collection-pdf-body #content {
+	position: relative;
+	top: 0px;
+}
+
+.template-collection-pdf-body .documentFirstHeading {
+	text-align: left;
+}
+
+.template-collection-pdf-body .documentDescription {
+	text-align: left;
+	white-space: nowrap !important;
+}
+
+.template-collection-pdf-body #visual-portal-wrapper {
+	overflow: visible;
+}
+
 }
