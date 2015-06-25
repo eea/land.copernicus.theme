@@ -9,6 +9,14 @@ jQuery( document ).ready(function($) {
         $(target_photoalbum).parents('.photoAlbumEntry').append($(warning_text_element));
     }
 
+    var warning_text_element2 = warning_text_element.clone();
+
+    if ($('body').hasClass('subsection-high-resolution-image-mosaic-very-high-resolution') &&
+        $('body').hasClass('userrole-anonymous')) {
+        var target_photoalbum = $('.photoAlbumEntryTitle').filter(':contains("VHR 2012")');
+        $(target_photoalbum).parents('.photoAlbumEntry').append($(warning_text_element2));
+    }
+
     // trim description, it has too much space before
     var $description = $('#content .documentDescription');
     $description.text($.trim($description.text()));
