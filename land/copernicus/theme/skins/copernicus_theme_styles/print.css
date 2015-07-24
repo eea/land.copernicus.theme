@@ -158,6 +158,10 @@ body .map .container {
 
 
 /* added for eea.pdf export */
+#parent-fieldname-title {
+	text-align: left;
+}
+
 #viewlet-below-content {
     display: none; /* hide comments form */
 }
