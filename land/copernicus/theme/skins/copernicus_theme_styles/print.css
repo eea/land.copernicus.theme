@@ -81,7 +81,7 @@ img {
 }
 
 #content {
-	top: 150px;
+	top: 0px;
 	left: 0;
 }
 
@@ -158,6 +158,14 @@ body .map .container {
 
 
 /* added for eea.pdf export */
+#portal-top {
+	display: none;
+}
+
+#site-identity {
+	display: none;
+}
+
 #parent-fieldname-title {
 	text-align: left;
 }
