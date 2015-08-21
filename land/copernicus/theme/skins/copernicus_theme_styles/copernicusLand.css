@@ -944,6 +944,13 @@ and (resolution: 163dpi) {
     font-size: 12px;
 }
 
+@media screen and (max-width: 650px) {
+  /* Fixes I accept Terms of use in Register for small screen */
+  #formfield-form-disclaimer {
+      width: 40%;
+  }
+}
+
 #formfield-form-disclaimer label span:first-child {
     display: none;
 }
