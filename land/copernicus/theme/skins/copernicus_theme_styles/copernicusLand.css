@@ -1245,3 +1245,13 @@ and (resolution: 163dpi) {
 #viewlet-cookiepolicy {
     background-color: #f3f3f3;
 }
+
+/* Download information before table */
+#fieldset-download #download-info {
+  border: 1px solid #ccc;
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top:-10px;
+  margin-bottom: 25px;"
+}
