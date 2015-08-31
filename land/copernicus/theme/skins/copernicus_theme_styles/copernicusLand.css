@@ -1248,8 +1248,9 @@ and (resolution: 163dpi) {
 
 /* Download information before table */
 #fieldset-download #download-info {
-  border: 1px solid #ccc;
-  background: #fff;
+  border: 1px solid #BFD630;
+  border-radius: 10px;
+  background: #ECF4BE;
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
