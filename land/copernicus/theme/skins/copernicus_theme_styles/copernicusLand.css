@@ -1263,3 +1263,9 @@ and (resolution: 163dpi) {
 .template-referencemanual_view.section-eagle #sub-nav {
   display: none;
 }
+
+/* Fix simplify breadcrumbs in Manual methodology */
+.template-referencemanual_view.section-eagle #breadcrumbs-2,
+.template-referencemanual_view.section-eagle #breadcrumbs-3 {
+  display: none;
+}
