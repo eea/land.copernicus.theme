@@ -1258,3 +1258,8 @@ and (resolution: 163dpi) {
   margin-top:-10px;
   margin-bottom: 25px;"
 }
+
+/* Hide PloneHelpCenter sub menu */
+.template-referencemanual_view.section-eagle #sub-nav {
+  display: none;
+}
