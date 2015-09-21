@@ -1259,6 +1259,10 @@ and (resolution: 163dpi) {
   margin-bottom: 25px;"
 }
 
+.portlet-static-partners .partners-logos {
+  margin-left: 0px;
+}
+
 /* Hide PloneHelpCenter sub menu */
 .template-referencemanual_view.section-eagle #sub-nav {
   display: none;
