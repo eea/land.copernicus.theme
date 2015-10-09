@@ -1273,3 +1273,16 @@ and (resolution: 163dpi) {
 .template-referencemanual_view.section-eagle #breadcrumbs-3 {
   display: none;
 }
+
+/* Fix larger checkboxes in download table */
+#fieldset-download #datatable-container input[type="checkbox"] {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid #0070BB;
+}
