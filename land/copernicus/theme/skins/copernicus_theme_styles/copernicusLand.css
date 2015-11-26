@@ -1286,3 +1286,9 @@ and (resolution: 163dpi) {
   margin-right: 5px;
   border: 1px solid #0070BB;
 }
+
+/* Pages and sections titles in reference manual alreay have numbers. */
+.template-referencemanual_view ol,
+.template-referencemanualsection_view ol {
+  list-style-type: none !important;
+}
