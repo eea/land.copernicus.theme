@@ -18,6 +18,7 @@
                             end={'query': context.ZopeTime(),
                                  'range': 'min'},
                             sort_on='start',
+                            sort_order='descending',
                             review_state='published',
                             path=path));
                  results python:[r for r in results if r.getObject()];
