@@ -46,6 +46,8 @@
         </replace>
 
         <replace css:theme-children="#portal-breadcrumbs" css:content-children="#portal-breadcrumbs" />
+        <replace css:theme-children="#site-identity" css:content-children="#site-identity" />
+
         <drop css:theme=".portlet-content" />
 
         <replace css:theme-children="#user-corner-portlet" css:content-children="#portal-column-two" />
