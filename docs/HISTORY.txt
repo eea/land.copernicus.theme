@@ -3,6 +3,16 @@ Changelog
 
 2.4-dev - (unreleased)
 ----------------------
+- Feature: improve css styles, added styles for Registration form,
+  styles for Terms of Use, logout and login pages, cookies policy,
+  contact form, personal information edit form, eagle options in user corner,
+  styles for eea.pdf print pdf, styles for PloneHelpCenter sections,
+  styles for download information section, other minor fixes
+
+  [GhitaB refs #24843, #25172, #25381, #25385, #25462, #25684, #25846, #25848,
+   #25849, #25806, #25727, #25735, #25732, #27615, #28173, #28272, #28589, #28876,
+   #29507, #31006, #31044, #30206]
+
 - Change: Switched to curl in the jenkins build install script
   [olimpiurob refs #22402]
 - Change: Changed fetch url for jenkins build install script to the install 
