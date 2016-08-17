@@ -1,249 +1,250 @@
 /* - print.css - */
 @media print {
-/* GENERAL */
-body .up-menu,
-.top-menu,
-.top-menu ul,
-.top-menu li,
-.top-menu a,
-.printButton,
-#portal-breadcrumbs,
-#nav,
-#edit-bar,
-#viewlet-below-content-title,
-#user-corner-portlet,
-#portal-footer-wrapper,
-.portalMessage {  
-	display: none;
-}
 
-a:link, a:visited {
-	text-decoration: none;
-}
+  /* GENERAL */
+  body .up-menu,
+  .top-menu,
+  .top-menu ul,
+  .top-menu li,
+  .top-menu a,
+  .printButton,
+  #portal-breadcrumbs,
+  #nav,
+  #edit-bar,
+  #viewlet-below-content-title,
+  #user-corner-portlet,
+  #portal-footer-wrapper,
+  .portalMessage {  
+    display: none;
+  }
 
-img {
-	border: 0px; /* for IE */
-}
+  a:link, a:visited {
+    text-decoration: none;
+  }
 
-#content-core a:link:after,
-#content-core a:visited:after {
-   content: " (" attr(href) ") ";
-   font-size: 90%;
-}
+  img {
+    border: 0px; /* for IE */
+  }
 
-#content-core .photoAlbumEntry a:link:after,
-#content-core .photoAlbumEntry a:visited:after {
-   content: ""; /*  do not display the whole URL for Pan-EU categories*/
-}
+  #content-core a:link:after,
+  #content-core a:visited:after {
+    content: " (" attr(href) ") ";
+    font-size: 90%;
+  }
 
-
-/*  CONTENT */
-#portal-title, 
-#copernicus-logo, 
-#portal-logo,
-.stripe,
-#content {
-	position: absolute;
-}
-
-#portal-logo {
-	top: 0;
-	left: 10px;
-	z-index: 100;
-}
-
-#portal-title {
-	top: 50px;
-	left: 200px;
-	font-size: 26px;
-}
-
-#copernicus-logo {
-	top: 30px;
-	right: 90px;
-}
-
-.stripe {
-	top: 85px;
-	left: 0;
-	background: #bbb !important;
-	width: 100%;
-	z-index: 0;
-	padding: 3px 0px;
-}
-
-#EEA-logo {
-	background: url(EEA_logo_for_print.png) no-repeat;
-	float: right;
-	padding-right: 3px;
-	height: 43px;
-	width: 212px;
-}
-
-#content {
-	top: 0px;
-	left: 0;
-}
-
-.formTabs {
-	list-style-type: square;
-}
-
-.documentFirstHeading {
-	font-size: 20px;
-	color: #000;
-	font-weight: normal;
-}
-
-.photoAlbumEntry {
-	width: 190px;
-	float: left;
-	margin-right: 10px;
-}
-
-.photoAlbumEntry img {
-	width: 160px;
-	height: 120px;
-	margin: 0;
-	padding: 3px 3px 5px;
-	outline: 1px solid #ddd;
-}
-
-.photoAlbumEntryTitle,
-#fieldset-mapview { 
-	width: 100%;
-	display: block;
-}
-
-.visualClear {
-	clear: both;
-	display: block;
-	padding-top: 20px;
-}
-
-iframe,
-#fieldset-mapview,
-.mapview-field,
-.formPanel {
-	display: block;  
-	visibility: visible;
-//	outline: 1px solid red;
-}
-
-body .map,
-body .map .container {
-	overflow: visible; /*  shows map */
-	width: 700px; 
-	height: 350px;
-	outline: 1px solid green;
-}
-
-#content-core .formTab .selected {
-	color: #000;
-}
-
-@page wide {
-	size: landscape;
-}
-
-#portal-title a, #portal-title a:hover {
-        color: #A0B228;
-        text-decoration: none;
-        font-size: 26px;
-}
-
-.formTabs {
-        display: none;
-}
+  #content-core .photoAlbumEntry a:link:after,
+  #content-core .photoAlbumEntry a:visited:after {
+    content: "";  /*  do not display the whole URL for Pan-EU categories*/
+  }
 
 
-/* added for eea.pdf export */
-h1.manual-title {
-	font-size: 30px;
-	color: #555 !important;
-	font-weight: bold;
-}
+  /*  CONTENT */
+  #portal-title, 
+  #copernicus-logo, 
+  #portal-logo,
+  .stripe,
+  #content {
+    position: absolute;
+  }
 
-h2.section-title, h2.leaf-page-title {
-	font-size: 22px;
-	color: #333 !important;
-	font-weight: bold;
-}
+  #portal-logo {
+    top: 0;
+    left: 10px;
+    z-index: 100;
+  }
 
-h3.leaf-page-title {
-	color: #555 !important;
-	font-size: 16px;
-	font-style: italic;
-	font-weight: bold;
-	margin-left: 20px;
-}
+  #portal-title {
+    top: 50px;
+    left: 200px;
+    font-size: 26px;
+  }
 
-.manual-description, .section-description, .leaf-page-description {
-	color: #333 !important;
-}
+  #copernicus-logo {
+    top: 30px;
+    right: 90px;
+  }
 
-#portal-top {
-	display: none;
-}
+  .stripe {
+    top: 85px;
+    left: 0;
+    background: #bbb !important;
+    width: 100%;
+    z-index: 0;
+    padding: 3px 0px;
+  }
 
-#site-identity {
-	display: none;
-}
+  #EEA-logo {
+    background: url(EEA_logo_for_print.png) no-repeat;
+    float: right;
+    padding-right: 3px;
+    height: 43px;
+    width: 212px;
+  }
 
-#parent-fieldname-title {
-	text-align: left;
-}
+  #content {
+    top: 0px;
+    left: 0;
+  }
 
-#viewlet-below-content {
-    display: none; /* hide comments form */
-}
+  .formTabs {
+    list-style-type: square;
+  }
 
-.documentActions {
-    display: none; /* hide Download as pdf */
-}
+  .documentFirstHeading {
+    font-size: 20px;
+    color: #000;
+    font-weight: normal;
+  }
 
-.printButton {
+  .photoAlbumEntry {
+    width: 190px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .photoAlbumEntry img {
+    width: 160px;
+    height: 120px;
+    margin: 0;
+    padding: 3px 3px 5px;
+    outline: 1px solid #ddd;
+  }
+
+  .photoAlbumEntryTitle,
+  #fieldset-mapview { 
+    width: 100%;
+    display: block;
+  }
+
+  .visualClear {
+    clear: both;
+    display: block;
+    padding-top: 20px;
+  }
+
+  iframe,
+  #fieldset-mapview,
+  .mapview-field,
+  .formPanel {
+    display: block;  
+    visibility: visible;
+    /* outline: 1px solid red; */
+  }
+
+  body .map,
+  body .map .container {
+    overflow: visible; /*  shows map */
+    width: 700px; 
+    height: 350px;
+    outline: 1px solid green;
+  }
+
+  #content-core .formTab .selected {
+    color: #000;
+  }
+
+  @page wide {
+    size: landscape;
+  }
+
+  #portal-title a, #portal-title a:hover {
+    color: #A0B228;
+    text-decoration: none;
+    font-size: 26px;
+  }
+
+  .formTabs {
+    display: none;
+  }
+
+
+  /* added for eea.pdf export */
+  h1.manual-title {
+    font-size: 30px;
+    color: #555 !important;
+    font-weight: bold;
+  }
+
+  h2.section-title, h2.leaf-page-title {
+    font-size: 22px;
+    color: #333 !important;
+    font-weight: bold;
+  }
+
+  h3.leaf-page-title {
+    color: #555 !important;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  .manual-description, .section-description, .leaf-page-description {
+    color: #333 !important;
+  }
+
+  #portal-top {
+    display: none;
+  }
+
+  #site-identity {
+    display: none;
+  }
+
+  #parent-fieldname-title {
+    text-align: left;
+  }
+
+  #viewlet-below-content {
+    display: none;  /* hide comments form */
+  }
+
+  .documentActions {
+    display: none;  /* hide Download as pdf */
+  }
+
+  .printButton {
     display: none !important;
-}
+  }
 
-body {
+  body {
     background-color: white !important;
-}
+  }
 
-#visual-portal-wrapper {
+  #visual-portal-wrapper {
     border: none;
     box-shadow: none !important;
-}
+  }
 
-#tabbed-portlet #sub-nav {
-	display: none; /* hide submenu reference manual */
-}
+  #tabbed-portlet #sub-nav {
+    display: none;  /* hide submenu reference manual */
+  }
 
-.visualNoPrint {
-	display: none; /* hide link all content on one page */
-}
+  .visualNoPrint {
+    display: none;  /* hide link all content on one page */
+  }
 
-.template-collection-pdf-body #portal-logo,
-.template-collection-pdf-body #portal-title{
-	display: none;
-}
+  .template-collection-pdf-body #portal-logo,
+  .template-collection-pdf-body #portal-title{
+    display: none;
+  }
 
-.template-collection-pdf-body #content {
-	position: relative;
-	top: 0px;
-}
+  .template-collection-pdf-body #content {
+    position: relative;
+    top: 0px;
+  }
 
-.template-collection-pdf-body .documentFirstHeading {
-	text-align: left;
-}
+  .template-collection-pdf-body .documentFirstHeading {
+    text-align: left;
+  }
 
-.template-collection-pdf-body .documentDescription {
-	text-align: left;
-	white-space: nowrap !important;
-}
+  .template-collection-pdf-body .documentDescription {
+    text-align: left;
+    white-space: nowrap !important;
+  }
 
-.template-collection-pdf-body #visual-portal-wrapper {
-	overflow: visible;
-}
+  .template-collection-pdf-body #visual-portal-wrapper {
+    overflow: visible;
+  }
 
-}
+}  /* @media print */

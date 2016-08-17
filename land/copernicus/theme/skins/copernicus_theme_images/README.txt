@@ -1,6 +1,4 @@
 Introduction
 ============
 
-
-
-This product may contain traces of nuts.
+Images used by land.copernicus.theme.

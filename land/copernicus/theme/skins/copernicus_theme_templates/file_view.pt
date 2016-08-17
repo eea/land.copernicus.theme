@@ -8,28 +8,27 @@
 
 <body>
 
-    <metal:content-core fill-slot="content-core">
-        <metal:block define-macro="content-core"
-                     tal:define="content_type context/get_content_type|context/Format">
-            <div>
-                <p class="publication_view">
-                <metal:field use-macro="python:context.widget('file', mode='view')">File</metal:field>
-                </p>
-                <p tal:condition="context/publication_display" 
-                    class="publication_cover">
-                    <span class="image_cover" 
-                        tal:content="structure context/publication_display">
-                    </span>
-                </p>
-            </div>
-            <div tal:condition="python: content_type.startswith('text') and context.get_size() > 0">
-                <h2 i18n:translate="heading_file_contents">File contents</h2>
-                <pre tal:content="context/get_data|context/data|nothing">
-                </pre>
-            </div>
-        </metal:block>
-    </metal:content-core>
+  <metal:content-core fill-slot="content-core">
+    <metal:block define-macro="content-core"
+                 tal:define="content_type context/get_content_type|context/Format">
+      <div>
+        <p class="publication_view">
+        <metal:field use-macro="python:context.widget('file', mode='view')">File</metal:field>
+        </p>
+        <p tal:condition="context/publication_display"
+           class="publication_cover">
+          <span class="image_cover"
+                tal:content="structure context/publication_display">
+          </span>
+        </p>
+      </div>
+      <div tal:condition="python: content_type.startswith('text') and context.get_size() > 0">
+        <h2 i18n:translate="heading_file_contents">File contents</h2>
+        <pre tal:content="context/get_data|context/data|nothing">
+        </pre>
+      </div>
+    </metal:block>
+  </metal:content-core>
 
 </body>
-
 </html>
