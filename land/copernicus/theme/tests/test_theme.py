@@ -44,4 +44,3 @@ class TestCase(unittest.TestCase):
         browser.open(portal.absolute_url())
 
         self.assertTrue('portaltype-plone-site' in browser.contents)
-

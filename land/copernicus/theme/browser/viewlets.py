@@ -8,7 +8,7 @@ class CopernicusFooterInfoViewlet(ViewletBase):
     render = ViewPageTemplateFile('footer_info.pt')
 
     # we cache the results for one hour
-    @ram.cache(lambda *args: time() // (60*60))
+    @ram.cache(lambda *args: time() // (60 * 60))
     def last_update(self):
         catalog = self.context.portal_catalog
         results = catalog.searchResults(
