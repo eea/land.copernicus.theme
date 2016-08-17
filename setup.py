@@ -1,39 +1,48 @@
+from land.copernicus.theme.config import PACKAGE_DESCRIPTION
+from land.copernicus.theme.config import PACKAGE_DOCS_FOLDER
+from land.copernicus.theme.config import PACKAGE_HISTORY_FILE
+from land.copernicus.theme.config import PACKAGE_NAME
+from land.copernicus.theme.config import PACKAGE_README_FILE
+from land.copernicus.theme.config import PACKAGE_VERSION_FILE
+from land.copernicus.theme.config import PACKAGE_CLASSIFIERS
+from land.copernicus.theme.config import PACKAGE_KEYWORDS
+from land.copernicus.theme.config import PACKAGE_AUTHOR
+from land.copernicus.theme.config import PACKAGE_AUTHOR_EMAIL
+from land.copernicus.theme.config import PACKAGE_NAMESPACE_PACKAGES
+
 from setuptools import setup, find_packages
 import os
 
-NAME = 'land.copernicus.theme'
-PATH = NAME.split('.') + ['version.txt']
+PATH = PACKAGE_NAME.split('.') + [PACKAGE_VERSION_FILE]
 VERSION = open(os.path.join(*PATH)).read().strip()
 
-setup(name='land.copernicus.theme',
-      version=VERSION,
-      description="Plone theme for land.copernicus.eu",
-      long_description=open("README.txt").read() + "\n" +
-      open(os.path.join("docs", "HISTORY.txt")).read(),
-      # Get more strings from
-      # http://pypi.python.org/pypi?:action=list_classifiers
-      classifiers=[
-          "Framework :: Plone",
-          "Programming Language :: Python",
-      ],
-      keywords='land copernicus eea theme plone zope',
-      author='European Environment Agency',
-      author_email="webadmin@eea.europa.eu",
-      url='http://svn.plone.org/svn/collective/',
-      license='GPL',
-      packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['land', 'land.copernicus'],
-      include_package_data=True,
-      zip_safe=False,
-      install_requires=[
-          'setuptools',
-          'plone.app.theming',
-          # -*- Extra requirements: -*-
-      ],
-      extras_require={
-          'test': [
-              'plone.app.testing',
-              'plone.testing',
-          ],
-      },
-      )
+setup(
+    name=PACKAGE_NAME,
+    version=VERSION,
+    description=PACKAGE_DESCRIPTION,
+    long_description=open(PACKAGE_README_FILE).read() + "\n" +
+    open(os.path.join(PACKAGE_DOCS_FOLDER, PACKAGE_HISTORY_FILE)).read(),
+    # Get more strings from
+    # http://pypi.python.org/pypi?:action=list_classifiers
+    classifiers=PACKAGE_CLASSIFIERS,
+    keywords=PACKAGE_KEYWORDS,
+    author=PACKAGE_AUTHOR,
+    author_email=PACKAGE_AUTHOR_EMAIL,
+    url='http://svn.plone.org/svn/collective/',
+    license='GPL',
+    packages=find_packages(exclude=['ez_setup']),
+    namespace_packages=PACKAGE_NAMESPACE_PACKAGES,
+    include_package_data=True,
+    zip_safe=False,
+    install_requires=[
+        'setuptools',
+        'plone.app.theming',
+        # -*- Extra requirements: -*-
+    ],
+    extras_require={
+        'test': [
+            'plone.app.testing',
+            'plone.testing',
+        ],
+    },
+)

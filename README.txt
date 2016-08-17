@@ -1,6 +1,4 @@
-Introduction
-============
+land.copernicus.theme
+=====================
 
-
-
-This product may contain traces of nuts.
+Plone theme for land.copernicus.eu
