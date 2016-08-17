@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
-<layers> 
-    <layer 
-        name="land.copernicus.theme" 
-        interface="land.copernicus.theme.interfaces.ICopernicusTheme" 
+<layers>
+  <layer
+    name="land.copernicus.theme"
+    interface="land.copernicus.theme.interfaces.ICopernicusTheme"
     />
+
 </layers>
