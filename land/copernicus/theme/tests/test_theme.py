@@ -6,10 +6,7 @@ from plone.registry.interfaces import IRegistry
 from plone.testing.z2 import Browser
 from zope.component import getUtility
 import Globals
-
 import unittest
-
-PROJECTNAME = 'land.copernicus.theme'
 
 
 class TestCase(unittest.TestCase):

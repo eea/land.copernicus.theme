@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 
+from land.copernicus.theme.config import PACKAGE_NAME
 from land.copernicus.theme.testing import INTEGRATION_TESTING
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
-
 import unittest
-
-PROJECTNAME = 'land.copernicus.theme'
 
 
 class InstallTestCase(unittest.TestCase):
@@ -18,7 +16,7 @@ class InstallTestCase(unittest.TestCase):
 
     def test_installed(self):
         qi = getattr(self.portal, 'portal_quickinstaller')
-        self.assertTrue(qi.isProductInstalled(PROJECTNAME))
+        self.assertTrue(qi.isProductInstalled(PACKAGE_NAME))
 
 
 class UninstallTestCase(unittest.TestCase):
@@ -29,7 +27,7 @@ class UninstallTestCase(unittest.TestCase):
         self.portal = self.layer['portal']
         setRoles(self.portal, TEST_USER_ID, ['Manager'])
         self.qi = getattr(self.portal, 'portal_quickinstaller')
-        self.qi.uninstallProducts(products=[PROJECTNAME])
+        self.qi.uninstallProducts(products=[PACKAGE_NAME])
 
     def test_uninstalled(self):
-        self.assertFalse(self.qi.isProductInstalled(PROJECTNAME))
+        self.assertFalse(self.qi.isProductInstalled(PACKAGE_NAME))
