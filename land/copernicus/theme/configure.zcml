@@ -1,7 +1,7 @@
 <configure
-    xmlns="http://namespaces.zope.org/zope"
-    xmlns:plone="http://namespaces.plone.org/plone"
-    xmlns:cmf="http://namespaces.zope.org/cmf">
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:plone="http://namespaces.plone.org/plone"
+  xmlns:cmf="http://namespaces.zope.org/cmf">
 
   <includeDependencies package="." />
 
@@ -10,10 +10,10 @@
   <include file="profiles.zcml" />
 
   <cmf:registerDirectory
-     name="skins"
-     directory="skins"
-     recursive="True"
-     />
+    name="skins"
+    directory="skins"
+    recursive="True"
+    />
 
   <plone:static
     directory="static"
