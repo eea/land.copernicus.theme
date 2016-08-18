@@ -1,71 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rules
-    xmlns="http://namespaces.plone.org/diazo"
-    xmlns:css="http://namespaces.plone.org/diazo/css"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<rules xmlns="http://namespaces.plone.org/diazo"
+       xmlns:css="http://namespaces.plone.org/diazo/css"
+       xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <rules css:if-content="#visual-portal-wrapper">
-        <theme href="index.html" />
+  <rules css:if-content="#visual-portal-wrapper">
+    <theme href="index.html" />
 
-        <drop theme="/html/head/meta" />
-        <drop theme="/html/head/title" />
-        <drop theme="/html/head/script" />
-        <drop theme="/html/head/link" />
+    <drop theme="/html/head/meta" />
+    <drop theme="/html/head/title" />
+    <drop theme="/html/head/script" />
+    <drop theme="/html/head/link" />
 
-        <after content="/html/head/title" theme-children="/html/head" />
-        <after content="/html/head/meta" theme-children="/html/head" />
-        <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
-            theme-children="/html/head" />
+    <after content="/html/head/title" theme-children="/html/head" />
+    <after content="/html/head/meta" theme-children="/html/head" />
+    <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
+           theme-children="/html/head" />
 
-        <copy attributes="class id dir" content="/html/body" theme="/html/body" />
+    <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
-        <replace css:theme-children="#nav">
-            <xsl:for-each css:select="#portal-globalnav li">
-                <xsl:if test="not(@id = 'portaltab-user-corner')">
-                    <xsl:element name='li'>
-                        <xsl:attribute name="id">
-                            <xsl:value-of select="@id" />
-                        </xsl:attribute>
-                        <h2>
-                            <xsl:copy-of select="./*"/>
-                        </h2>
-                    </xsl:element>
-                </xsl:if>
-            </xsl:for-each>
-        </replace>
+    <replace css:theme-children="#nav">
+      <xsl:for-each css:select="#portal-globalnav li">
+        <xsl:if test="not(@id = 'portaltab-user-corner')">
+          <xsl:element name='li'>
+            <xsl:attribute name="id">
+              <xsl:value-of select="@id" />
+            </xsl:attribute>
+            <h2>
+              <xsl:copy-of select="./*"/>
+            </h2>
+          </xsl:element>
+        </xsl:if>
+      </xsl:for-each>
+    </replace>
 
-        <replace css:theme="div.top-menu ul">
-          <ul>
-            <xsl:for-each css:select="#portal-siteactions li">
-              <xsl:copy-of select="current()" />
-            </xsl:for-each>
-            <xsl:for-each css:select="#portal-personaltools-wrapper li">
-              <xsl:copy-of select="current()" />
-            </xsl:for-each>
-          </ul>
-        </replace>
+    <replace css:theme="div.top-menu ul">
+      <ul>
+        <xsl:for-each css:select="#portal-siteactions li">
+          <xsl:copy-of select="current()" />
+        </xsl:for-each>
+        <xsl:for-each css:select="#portal-personaltools-wrapper li">
+          <xsl:copy-of select="current()" />
+        </xsl:for-each>
+      </ul>
+    </replace>
 
-        <replace css:theme-children="#portal-breadcrumbs" css:content-children="#portal-breadcrumbs" />
-        <replace css:theme-children="#site-identity" css:content-children="#site-identity" />
+    <replace css:theme-children="#portal-breadcrumbs" css:content-children="#portal-breadcrumbs" />
+    <replace css:theme-children="#site-identity" css:content-children="#site-identity" />
 
-        <drop css:theme=".portlet-content" />
+    <drop css:theme=".portlet-content" />
 
-        <replace css:theme-children="#user-corner-portlet" css:content-children="#portal-column-two" />
+    <replace css:theme-children="#user-corner-portlet" css:content-children="#portal-column-two" />
 
-        <drop css:content="#portal-breadcrumbs" />
+    <drop css:content="#portal-breadcrumbs" />
 
-        <replace css:theme-children=".tabbed-content" css:content-children="#portal-column-content"/>
+    <replace css:theme-children=".tabbed-content" css:content-children="#portal-column-content"/>
 
-        <replace css:content="#parent-fieldname-title" >
-            <xsl:copy-of select="."/>
-            <a href="javascript:window.print()" class="printButton">
-                <img src="print.png" alt="" />Print
-            </a>
-        </replace>
+    <replace css:content="#parent-fieldname-title" >
+      <xsl:copy-of select="."/>
+      <a href="javascript:window.print()" class="printButton">
+        <img src="print.png" alt="" />Print
+      </a>
+    </replace>
 
-        <replace css:theme-children="#copernicus-footer-info" css:content-children="#copernicus-footer-info" />
-        
-        <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
+    <replace css:theme-children="#copernicus-footer-info" css:content-children="#copernicus-footer-info" />
+    <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
 
-    </rules>
+  </rules>
 </rules>
