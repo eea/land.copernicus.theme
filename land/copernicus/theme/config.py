@@ -5,6 +5,7 @@
 
 PACKAGE_NAME = "land.copernicus.theme"
 PACKAGE_DESCRIPTION = "Plone theme for land.copernicus.eu"
+PACKAGE_URL = "https://github.com/eea/land.copernicus.theme"
 
 PACKAGE_README_FILE = "README.txt"
 PACKAGE_VERSION_FILE = "version.txt"
