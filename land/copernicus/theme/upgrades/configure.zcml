@@ -1,47 +1,43 @@
-<configure
-        xmlns="http://namespaces.zope.org/zope"
-        xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-        i18n_domain="copernicus">
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+           i18n_domain="copernicus">
 
-    <genericsetup:upgradeSteps
-            source="1004"
-            destination="1005"
-            profile="land.copernicus.theme:default">
+  <genericsetup:upgradeSteps
+    source="1004"
+    destination="1005"
+    profile="land.copernicus.theme:default">
 
-        <genericsetup:upgradeDepends
-                title="Import profile steps with changes: types"
-                import_steps="typeinfo"
-                />
+    <genericsetup:upgradeDepends
+      title="Import profile steps with changes: types"
+      import_steps="typeinfo"
+      />
+  </genericsetup:upgradeSteps>
 
-    </genericsetup:upgradeSteps>
+  <genericsetup:upgradeSteps
+    source="*"
+    destination="*"
+    profile="land.copernicus.theme:default">
 
-    <genericsetup:upgradeSteps
-            source="*"
-            destination="*"
-            profile="land.copernicus.theme:default">
+    <genericsetup:upgradeDepends
+      title="Import profile steps with changes: stylesheets"
+      import_steps="cssregistry"
+      />
 
-        <genericsetup:upgradeDepends
-                title="Import profile steps with changes: stylesheets"
-                import_steps="cssregistry"
-                />
+    <genericsetup:upgradeDepends
+      title="Import profile steps with changes: skins"
+      import_steps="skins"
+      />
+  </genericsetup:upgradeSteps>
 
-        <genericsetup:upgradeDepends
-                title="Import profile steps with changes: skins"
-                import_steps="skins"
-                />
+  <genericsetup:upgradeSteps
+    source="*"
+    destination="1004"
+    profile="land.copernicus.theme:default">
 
-    </genericsetup:upgradeSteps>
-
-    <genericsetup:upgradeSteps
-            source="*"
-            destination="1004"
-            profile="land.copernicus.theme:default">
-
-        <genericsetup:upgradeDepends
-                title="Import profile steps with changes: javascripts"
-                import_steps="jsregistry"
-                />
-
-    </genericsetup:upgradeSteps>
+    <genericsetup:upgradeDepends
+      title="Import profile steps with changes: javascripts"
+      import_steps="jsregistry"
+      />
+  </genericsetup:upgradeSteps>
 
 </configure>
