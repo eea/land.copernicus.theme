@@ -2,7 +2,16 @@ $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 
 body {
+  background-image: url("./images/paper.png");
   font: 100% $font-stack;
   color: $primary-color;
+  background-attachment: fixed;
+}
+
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
   background: #FFFFFF;
+  padding: 20px;
+  border-radius: 5px;
 }

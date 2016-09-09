@@ -1,6 +1,14 @@
 body {
+  background-image: url("./images/paper.png");
   font: 100% Helvetica, sans-serif;
   color: #333;
-  background: #FFFFFF; }
+  background-attachment: fixed; }
+
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 5px; }
 
 /*# sourceMappingURL=stylesheets.map */
