@@ -1,5 +1,6 @@
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
+$brand-color: red;
 
 body {
   background-image: url("./images/paper.png");
@@ -14,4 +15,8 @@ body {
   background: #FFFFFF;
   padding: 20px;
   border-radius: 5px;
+}
+
+div.brand {
+  background: $brand-color;
 }
