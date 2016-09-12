@@ -67,7 +67,7 @@
 .boder-radius-primary, .box, .box-full-size, .land-box7, .land-box1, .land-box2, .land-box3, .land-box4, .land-box5, .land-box6 {
   border-radius: 10px; }
 
-.shadow-gray-dark, .land-box7, .wrapper .jumbotron {
+.shadow-gray-dark, .land-box7, .wrapper .jumbotron, .wrapper .images-slider {
   -webkit-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   -moz-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8); }
@@ -107,7 +107,7 @@ h4 {
   background-attachment: fixed;
   background-color: #EFEFEF; }
 
-.margin-content, .wrapper header nav ul, .wrapper .main-content, .wrapper .jumbotron, .wrapper footer {
+.margin-content, .wrapper header nav ul, .wrapper .main-content, .wrapper .jumbotron, .wrapper .images-slider, .wrapper footer {
   margin-left: 15%;
   margin-right: 15%; }
 
@@ -138,10 +138,10 @@ body {
         float: left; }
       .wrapper header .content .brand .website-title {
         position: relative;
-        top: 24px;
+        top: 28px;
         left: 6px;
         text-decoration: none; }
-        .wrapper header .content .brand .website-title h2 {
+        .wrapper header .content .brand .website-title h3 {
           font-weight: normal; }
       .wrapper header .content .utils {
         float: right; }
@@ -177,13 +177,16 @@ body {
     padding: 24px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-top: 36px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     height: 315px;
     margin-top: -48px; }
+  .wrapper .images-slider {
+    background-image: url("./images/header-main-photo.jpg");
+    padding: 24px;
+    margin-top: 36px;
+    border-radius: 0px;
+    height: 315px; }
   .wrapper footer .partners {
     height: 123px;
     padding: 18px 18px 18px 18px; }

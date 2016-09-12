@@ -326,10 +326,10 @@ a:hover {
 
         .website-title {
           position: relative;
-          top: $dim6;
+          top: $dim7;
           left: $dim2;
           text-decoration: none;
-          h2 {
+          h3 {
             font-weight: normal;
           }
         }
@@ -407,14 +407,21 @@ a:hover {
     padding: $dim6;
     border-top-left-radius: $dim3;
     border-top-right-radius: $dim3;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-top: $dim8;
-
     border-bottom-left-radius: $dim3;
     border-bottom-right-radius: $dim3;
     height: $dim13;
     margin-top: -$dim9;
+  }
+
+  .images-slider {
+    @extend .shadow-gray-dark;
+    @extend .margin-content;
+
+    background-image: url("./images/header-main-photo.jpg");
+    padding: $dim6;
+    margin-top: $dim8;
+    border-radius: 0px;
+    height: $dim13;
   }
 
   footer {
