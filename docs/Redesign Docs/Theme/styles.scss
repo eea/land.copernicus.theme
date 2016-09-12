@@ -172,6 +172,7 @@ $black:         #000000;
 // BOXES (test colors) ================================================
 .box {
   @extend .boder-radius-primary;
+
   width: $dim-large;
   padding: $dim5;
   margin-right: $dim5;
@@ -181,6 +182,7 @@ $black:         #000000;
 
 .box-full-size {
   @extend .box;
+
   width: 90%;
 }
 
@@ -268,9 +270,16 @@ h4 {
   background-color: $gray-lighter;
 }
 
+.margin-content {
+  margin-left: $dim-large;
+  margin-right: $dim-large;
+}
+
+
 body {
   @extend .bg-texture-paper;
   @extend .color-gray-darken;
+
   font: 100% $font-stack;
   padding: 0px;
   margin: 0px;
@@ -286,8 +295,8 @@ a:hover {
 
 .main-content {
   @extend .shadow-gray-light;
-  margin-left: $dim-large;
-  margin-right: $dim-large;
+  @extend .margin-content;
+
   background: #FFFFFF;
   padding: $dim6;
   border-top-left-radius: $dim2;
@@ -330,6 +339,39 @@ a:hover {
         float: right;
       }
     }
+
+    nav {
+      background-color: $green-primary;
+      margin: 0;
+      overflow: hidden;
+
+      ul {
+        @extend .margin-content;
+
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0;
+
+        li {
+          display: inline-block;
+          list-style-type: none;
+
+          a {
+            color: $gray-darken;
+            background-color: $green-primary;
+            display: block;
+            padding: $dim3;
+            text-decoration: none;
+          }
+        }
+
+        a:hover {
+          background-color: $green-light;
+
+        }
+
+      }
+    }
   }
 
   .main-content {
@@ -350,19 +392,20 @@ a:hover {
   }
 
   footer {
-    margin-left: $dim-large;
-    margin-right: $dim-large;
+    @extend .margin-content;
 
     .partners {
-      height: $dim11;
       @extend .bg-green-primary;
       @extend .color-white;
+
+      height: $dim11;
       padding: $dim5 $dim5 $dim5 $dim5;
     }
 
     .text {
       @extend .bg-green-dark;
       @extend .color-gray-darken;
+
       padding: $dim2 $dim5 $dim2 $dim5;
       text-align: center;
     }
