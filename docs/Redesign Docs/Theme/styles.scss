@@ -5,10 +5,12 @@ $green-primary: #A0B228;
 $green-dark:    #819110;
 $green-darken:  #5B6800;
 
+$white:         #FFFFFF;
 $gray-lighter:  #EFEFEF;
 $gray-light:    #A4A4A4;
 $gray-dark:     #5C5C5C;
 $gray-darken:   #1E1E1E;
+$black:         #000000;
 
 
 // COLORS related util classes ========================================
@@ -86,6 +88,67 @@ $gray-darken:   #1E1E1E;
 
 .color-gray-darken {
   color: $gray-darken;
+}
+
+// White (background) -------------------------------------------------
+.bg-white {
+  background: $white;
+}
+
+// White (color) ------------------------------------------------------
+.color-white {
+  color: $white;
+}
+
+// Black (background) -------------------------------------------------
+.bg-black {
+  background: $black;
+}
+
+// Black (color) ------------------------------------------------------
+.color-black {
+  color: $black;
+}
+
+
+// BOXES (test colors) ================================================
+.box {
+  width: 15%;
+  padding: 20px;
+  margin-right: 20px;
+  float: left;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.land-box1 {
+  @extend .box;
+  @extend .bg-green-darken;
+  @extend .color-white;
+}
+
+.land-box2 {
+  @extend .box;
+  @extend .bg-green-dark;
+  @extend .color-white;
+}
+
+.land-box3 {
+  @extend .box;
+  @extend .bg-green-primary;
+  @extend .color-white;
+}
+
+.land-box4 {
+  @extend .box;
+  @extend .bg-green-light;
+  @extend .color-gray-darken;
+}
+
+.land-box5 {
+  @extend .box;
+  @extend .bg-green-lighter;
+  @extend .color-black;
 }
 
 

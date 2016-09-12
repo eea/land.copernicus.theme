@@ -1,16 +1,16 @@
-.bg-green-lighter {
+.bg-green-lighter, .land-box5 {
   background: #E3F37D; }
 
-.bg-green-light {
+.bg-green-light, .land-box4 {
   background: #BDCE49; }
 
-.bg-green-primary {
+.bg-green-primary, .land-box3 {
   background: #A0B228; }
 
-.bg-green-dark {
+.bg-green-dark, .land-box2 {
   background: #819110; }
 
-.bg-green-darken {
+.bg-green-darken, .land-box1 {
   background: #5B6800; }
 
 .color-green-lighter {
@@ -49,8 +49,28 @@
 .color-gray-dark {
   color: #5C5C5C; }
 
-.color-gray-darken {
+.color-gray-darken, .land-box4 {
   color: #1E1E1E; }
+
+.bg-white {
+  background: #FFFFFF; }
+
+.color-white, .land-box1, .land-box2, .land-box3 {
+  color: #FFFFFF; }
+
+.bg-black {
+  background: #000000; }
+
+.color-black, .land-box5 {
+  color: #000000; }
+
+.box, .land-box1, .land-box2, .land-box3, .land-box4, .land-box5 {
+  width: 15%;
+  padding: 20px;
+  margin-right: 20px;
+  float: left;
+  border-radius: 10px;
+  margin-bottom: 20px; }
 
 body {
   background-image: url("./images/paper.png");
