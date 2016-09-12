@@ -133,7 +133,7 @@ $black:         #000000;
 
 // BORDERS related styles =============================================
 .boder-radius-primary {
-  border-radius: $dim2;
+  border-radius: $dim3;
 }
 
 
@@ -294,14 +294,7 @@ a:hover {
 }
 
 .main-content {
-  @extend .shadow-gray-light;
-  @extend .margin-content;
 
-  background: #FFFFFF;
-  padding: $dim6;
-  border-top-left-radius: $dim2;
-  border-top-right-radius: $dim2;
-  border-radius-bottom: 0px;
 }
 
 // HEADER -------------------------------------------------------------
@@ -332,6 +325,13 @@ a:hover {
         }
 
         .website-title {
+          position: relative;
+          top: $dim6;
+          left: $dim2;
+          text-decoration: none;
+          h2 {
+            font-weight: normal;
+          }
         }
       }
 
@@ -375,6 +375,15 @@ a:hover {
   }
 
   .main-content {
+    @extend .shadow-gray-light;
+    @extend .margin-content;
+
+    background: #FFFFFF;
+    padding: $dim6;
+    border-top-left-radius: $dim3;
+    border-top-right-radius: $dim3;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     margin-top: $dim8;
 
     article.main {
@@ -388,7 +397,24 @@ a:hover {
       aside2 {
       }
     }
+  }
 
+  .jumbotron {
+    @extend .shadow-gray-dark;
+    @extend .margin-content;
+
+    background: #FFFFFF;
+    padding: $dim6;
+    border-top-left-radius: $dim3;
+    border-top-right-radius: $dim3;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: $dim8;
+
+    border-bottom-left-radius: $dim3;
+    border-bottom-right-radius: $dim3;
+    height: $dim13;
+    margin-top: -$dim9;
   }
 
   footer {

@@ -65,14 +65,14 @@
   color: #000000; }
 
 .boder-radius-primary, .box, .box-full-size, .land-box7, .land-box1, .land-box2, .land-box3, .land-box4, .land-box5, .land-box6 {
-  border-radius: 6px; }
+  border-radius: 10px; }
 
-.shadow-gray-dark, .land-box7 {
+.shadow-gray-dark, .land-box7, .wrapper .jumbotron {
   -webkit-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   -moz-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8); }
 
-.shadow-gray-light, .main-content {
+.shadow-gray-light, .wrapper .main-content {
   -webkit-box-shadow: 0px 2px 7px 0px #efefef;
   -moz-box-shadow: 0px 2px 7px 0px #efefef;
   box-shadow: 0px 2px 7px 0px #efefef; }
@@ -107,7 +107,7 @@ h4 {
   background-attachment: fixed;
   background-color: #EFEFEF; }
 
-.margin-content, .main-content, .wrapper header nav ul, .wrapper footer {
+.margin-content, .wrapper header nav ul, .wrapper .main-content, .wrapper .jumbotron, .wrapper footer {
   margin-left: 15%;
   margin-right: 15%; }
 
@@ -115,13 +115,6 @@ body {
   font: 100% Verdana, sans-serif;
   padding: 0px;
   margin: 0px; }
-
-.main-content {
-  background: #FFFFFF;
-  padding: 24px;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-radius-bottom: 0px; }
 
 .wrapper {
   padding: 0px;
@@ -143,6 +136,13 @@ body {
       .wrapper header .content .brand .img-brand {
         height: 77px;
         float: left; }
+      .wrapper header .content .brand .website-title {
+        position: relative;
+        top: 24px;
+        left: 6px;
+        text-decoration: none; }
+        .wrapper header .content .brand .website-title h2 {
+          font-weight: normal; }
       .wrapper header .content .utils {
         float: right; }
     .wrapper header nav {
@@ -165,7 +165,25 @@ body {
         .wrapper header nav ul a:hover {
           background-color: #BDCE49; }
   .wrapper .main-content {
+    background: #FFFFFF;
+    padding: 24px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     margin-top: 36px; }
+  .wrapper .jumbotron {
+    background: #FFFFFF;
+    padding: 24px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 36px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 315px;
+    margin-top: -48px; }
   .wrapper footer .partners {
     height: 123px;
     padding: 18px 18px 18px 18px; }
