@@ -12,6 +12,6 @@ body {
   border-radius: 5px; }
 
 div.brand {
-  background: red; }
+  background: #A0B228; }
 
 /*# sourceMappingURL=stylesheets.map */
