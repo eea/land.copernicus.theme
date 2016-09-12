@@ -85,6 +85,21 @@
 .box-full-size, .land-box7 {
   width: 90%; }
 
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2.25em; }
+
+h3 {
+  font-size: 1.75em; }
+
+blockquote {
+  font-size: 1.5em; }
+
+h4 {
+  font-size: 1.125em; }
+
 .bg-texture-paper, body {
   background-image: url("./images/paper.png");
   background-attachment: fixed; }
