@@ -1,3 +1,16 @@
+// Dimensions (nice proportions for spaces, borders, paddings) ========
+$dim9: 48px;
+$dim8: 36px;
+$dim7: 28px;
+$dim6: 24px;
+$dim5: 18px;
+$dim4: 16px;
+$dim3: 10px;
+$dim2: 6px;
+$dim1: 3px;
+$dim0: 1px;
+
+
 // Copernicus Land PALETTE ============================================
 $green-lighter: #E3F37D;
 $green-light:   #BDCE49;
@@ -111,6 +124,12 @@ $black:         #000000;
 }
 
 
+// BORDERS related styles =============================================
+.boder-radius-primary {
+  border-radius: $dim2;
+}
+
+
 // SHADOWS ============================================================
 .shadow-gray-dark {
   // http://www.cssmatic.com/box-shadow
@@ -145,12 +164,12 @@ $black:         #000000;
 
 // BOXES (test colors) ================================================
 .box {
+  @extend .boder-radius-primary;
   width: 15%;
-  padding: 20px;
-  margin-right: 20px;
+  padding: $dim5;
+  margin-right: $dim5;
   float: left;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: $dim5;
 }
 
 .box-full-size {
@@ -239,6 +258,7 @@ h4 {
 .bg-texture-paper {
   background-image: url("./images/paper.png");
   background-attachment: fixed;
+  background-color: $gray-lighter;
 }
 
 body {
@@ -252,8 +272,8 @@ body {
   margin-left: 15%;
   margin-right: 15%;
   background: #FFFFFF;
-  padding: 20px;
-  border-radius: 5px;
+  padding: $dim6;
+  border-radius: $dim3;
 }
 
 div.brand {

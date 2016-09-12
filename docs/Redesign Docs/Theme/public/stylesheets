@@ -64,6 +64,9 @@
 .color-black, .land-box5 {
   color: #000000; }
 
+.boder-radius-primary, .box, .box-full-size, .land-box7, .land-box1, .land-box2, .land-box3, .land-box4, .land-box5, .land-box6 {
+  border-radius: 6px; }
+
 .shadow-gray-dark, .land-box7 {
   -webkit-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   -moz-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
@@ -76,11 +79,10 @@
 
 .box, .box-full-size, .land-box7, .land-box1, .land-box2, .land-box3, .land-box4, .land-box5, .land-box6 {
   width: 15%;
-  padding: 20px;
-  margin-right: 20px;
+  padding: 18px;
+  margin-right: 18px;
   float: left;
-  border-radius: 10px;
-  margin-bottom: 20px; }
+  margin-bottom: 18px; }
 
 .box-full-size, .land-box7 {
   width: 90%; }
@@ -102,7 +104,8 @@ h4 {
 
 .bg-texture-paper, body {
   background-image: url("./images/paper.png");
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-color: #EFEFEF; }
 
 body {
   font: 100% Verdana, sans-serif; }
@@ -111,8 +114,8 @@ body {
   margin-left: 15%;
   margin-right: 15%;
   background: #FFFFFF;
-  padding: 20px;
-  border-radius: 5px; }
+  padding: 24px;
+  border-radius: 10px; }
 
 div.brand {
   background: #A0B228; }
