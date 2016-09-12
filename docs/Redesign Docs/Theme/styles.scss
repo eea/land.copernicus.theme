@@ -15,6 +15,8 @@ $dim2: 6px;
 $dim1: 3px;
 $dim0: 1px;
 
+$dim-large: 15%;
+
 
 // Copernicus Land PALETTE ============================================
 $green-lighter: #E3F37D;
@@ -170,7 +172,7 @@ $black:         #000000;
 // BOXES (test colors) ================================================
 .box {
   @extend .boder-radius-primary;
-  width: 15%;
+  width: $dim-large;
   padding: $dim5;
   margin-right: $dim5;
   float: left;
@@ -282,13 +284,15 @@ a:hover {
   @extend .color-green-dark;
 }
 
-.container {
+.main-content {
   @extend .shadow-gray-light;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: $dim-large;
+  margin-right: $dim-large;
   background: #FFFFFF;
   padding: $dim6;
-  border-radius: $dim3;
+  border-top-left-radius: $dim2;
+  border-top-right-radius: $dim2;
+  border-radius-bottom: 0px;
 }
 
 // HEADER -------------------------------------------------------------
@@ -309,13 +313,16 @@ a:hover {
     .content {
       background: transparentize($white, 0.2);
       height: $dim10;
-      padding-left: 15%;
-      padding-right: 15%;
+      padding-left: $dim-large;
+      padding-right: $dim-large;
 
       .brand {
         .img-brand {
           height: $dim10;
           float: left;
+        }
+
+        .website-title {
         }
       }
 
@@ -323,5 +330,42 @@ a:hover {
         float: right;
       }
     }
+  }
+
+  .main-content {
+    margin-top: $dim8;
+
+    article.main {
+
+    }
+
+    aside {
+      aside1 {
+      }
+
+      aside2 {
+      }
+    }
+
+  }
+
+  footer {
+    margin-left: $dim-large;
+    margin-right: $dim-large;
+
+    .partners {
+      height: $dim11;
+      @extend .bg-green-primary;
+      @extend .color-white;
+      padding: $dim5 $dim5 $dim5 $dim5;
+    }
+
+    .text {
+      @extend .bg-green-dark;
+      @extend .color-gray-darken;
+      padding: $dim2 $dim5 $dim2 $dim5;
+      text-align: center;
+    }
+
   }
 }
