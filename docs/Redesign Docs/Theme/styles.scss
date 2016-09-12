@@ -32,6 +32,8 @@ $gray-dark:     #5C5C5C;
 $gray-darken:   #1E1E1E;
 $black:         #000000;
 
+$transparent: transparent;
+
 
 // COLORS related util classes ========================================
 // Green (background) -------------------------------------------------
@@ -229,6 +231,15 @@ $black:         #000000;
   @extend .shadow-gray-dark;
 }
 
+.land-box8 {
+  @extend .box;
+  @extend .bg-white;
+  @extend .color-gray-dark;
+  @extend .shadow-gray-dark;
+
+  height: 200px;
+  width: 12%;
+}
 
 // FONTS related styles ===============================================
 $font-stack: Verdana, sans-serif;
@@ -403,7 +414,7 @@ a:hover {
     @extend .shadow-gray-dark;
     @extend .margin-content;
 
-    background: #FFFFFF;
+    background: $white;
     padding: $dim6;
     border-top-left-radius: $dim3;
     border-top-right-radius: $dim3;
@@ -422,6 +433,16 @@ a:hover {
     margin-top: $dim8;
     border-radius: 0px;
     height: $dim13;
+  }
+
+  .menu-sections {
+    @extend .margin-content;
+
+    background: $transparent;
+    padding: $dim6;
+    margin-top: $dim8;
+    border-radius: 0px;
+    height: $dim12+40;
   }
 
   footer {

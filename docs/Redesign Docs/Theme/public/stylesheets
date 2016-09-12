@@ -46,13 +46,13 @@
 .color-gray-light, .land-box6 {
   color: #A4A4A4; }
 
-.color-gray-dark {
+.color-gray-dark, .land-box8 {
   color: #5C5C5C; }
 
 .color-gray-darken, .land-box4, body, .wrapper footer .text {
   color: #1E1E1E; }
 
-.bg-white, .land-box7 {
+.bg-white, .land-box7, .land-box8 {
   background: #FFFFFF; }
 
 .color-white, .land-box1, .land-box2, .land-box3, .wrapper footer .partners {
@@ -64,10 +64,10 @@
 .color-black, .land-box5 {
   color: #000000; }
 
-.boder-radius-primary, .box, .box-full-size, .land-box7, .land-box1, .land-box2, .land-box3, .land-box4, .land-box5, .land-box6 {
+.boder-radius-primary, .box, .box-full-size, .land-box7, .land-box1, .land-box2, .land-box3, .land-box4, .land-box5, .land-box6, .land-box8 {
   border-radius: 10px; }
 
-.shadow-gray-dark, .land-box7, .wrapper .jumbotron, .wrapper .images-slider {
+.shadow-gray-dark, .land-box7, .land-box8, .wrapper .jumbotron, .wrapper .images-slider {
   -webkit-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   -moz-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8); }
@@ -77,7 +77,7 @@
   -moz-box-shadow: 0px 2px 7px 0px #efefef;
   box-shadow: 0px 2px 7px 0px #efefef; }
 
-.box, .box-full-size, .land-box7, .land-box1, .land-box2, .land-box3, .land-box4, .land-box5, .land-box6 {
+.box, .box-full-size, .land-box7, .land-box1, .land-box2, .land-box3, .land-box4, .land-box5, .land-box6, .land-box8 {
   width: 15%;
   padding: 18px;
   margin-right: 18px;
@@ -86,6 +86,10 @@
 
 .box-full-size, .land-box7 {
   width: 90%; }
+
+.land-box8 {
+  height: 200px;
+  width: 12%; }
 
 h1 {
   font-size: 3em; }
@@ -107,7 +111,7 @@ h4 {
   background-attachment: fixed;
   background-color: #EFEFEF; }
 
-.margin-content, .wrapper header nav ul, .wrapper .main-content, .wrapper .jumbotron, .wrapper .images-slider, .wrapper footer {
+.margin-content, .wrapper header nav ul, .wrapper .main-content, .wrapper .jumbotron, .wrapper .images-slider, .wrapper .menu-sections, .wrapper footer {
   margin-left: 15%;
   margin-right: 15%; }
 
@@ -187,6 +191,12 @@ body {
     margin-top: 36px;
     border-radius: 0px;
     height: 315px; }
+  .wrapper .menu-sections {
+    background: transparent;
+    padding: 24px;
+    margin-top: 36px;
+    border-radius: 0px;
+    height: 237px; }
   .wrapper footer .partners {
     height: 123px;
     padding: 18px 18px 18px 18px; }
