@@ -111,6 +111,38 @@ $black:         #000000;
 }
 
 
+// SHADOWS ============================================================
+.shadow-gray-dark {
+  // http://www.cssmatic.com/box-shadow
+  // Horizontal Length:  0
+  // Vertical Length:    2
+  // Blur Radius:        7
+  // Spread Radius:      0
+  // Shadow Color:       $gray-dark
+  // Background Color:   $white
+  // Opacity:            0.80
+
+  -webkit-box-shadow: 0px 2px 7px 0px rgba(92,92,92,0.8);
+  -moz-box-shadow: 0px 2px 7px 0px rgba(92,92,92,0.8);
+  box-shadow: 0px 2px 7px 0px rgba(92,92,92,0.8);
+}
+
+.shadow-gray-light {
+  // http://www.cssmatic.com/box-shadow
+  // Horizontal Length:  0
+  // Vertical Length:    2
+  // Blur Radius:        7
+  // Spread Radius:      0
+  // Shadow Color:       $gray-light
+  // Background Color:   $white
+  // Opacity:            0.80
+
+  -webkit-box-shadow: 0px 2px 7px 0px rgba(239,239,239,1);
+  -moz-box-shadow: 0px 2px 7px 0px rgba(239,239,239,1);
+  box-shadow: 0px 2px 7px 0px rgba(239,239,239,1);
+}
+
+
 // BOXES (test colors) ================================================
 .box {
   width: 15%;
@@ -119,6 +151,11 @@ $black:         #000000;
   float: left;
   border-radius: 10px;
   margin-bottom: 20px;
+}
+
+.box-full-size {
+  @extend .box;
+  width: 90%;
 }
 
 .land-box1 {
@@ -151,20 +188,38 @@ $black:         #000000;
   @extend .color-black;
 }
 
+.land-box6 {
+  @extend .box;
+  @extend .bg-black;
+  @extend .color-gray-light;
+}
+
+.land-box7 {
+  @extend .box-full-size;
+  @extend .bg-white;
+  @extend .color-green-dark;
+  @extend .shadow-gray-dark;
+}
+
+
+// FONTS related styles ===============================================
+$font-stack: Verdana, sans-serif;
+
 
 // OTHER styles =======================================================
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
-$brand-color: red;
-
-body {
+.bg-texture-paper {
   background-image: url("./images/paper.png");
-  font: 100% $font-stack;
-  color: $primary-color;
   background-attachment: fixed;
 }
 
+body {
+  @extend .bg-texture-paper;
+  @extend .color-gray-darken;
+  font: 100% $font-stack;
+}
+
 .container {
+  @extend .shadow-gray-light;
   margin-left: 15%;
   margin-right: 15%;
   background: #FFFFFF;
