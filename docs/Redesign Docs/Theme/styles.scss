@@ -1,15 +1,95 @@
-// Copernicus Land palette --------------------------------------------
-$land-green-lighter: #E3F37D;
-$land-green-light:   #BDCE49;
-$land-green-primary: #A0B228;
-$land-green-dark:    #819110;
-$land-green-darken:  #5B6800;
+// Copernicus Land PALETTE ============================================
+$green-lighter: #E3F37D;
+$green-light:   #BDCE49;
+$green-primary: #A0B228;
+$green-dark:    #819110;
+$green-darken:  #5B6800;
 
-$land-gray-lighter:  #EFEFEF;
-$land-gray-light:    #A4A4A4;
-$land-gray-dark:     #5C5C5C;
-$land-gray-darken:   #1E1E1E;
+$gray-lighter:  #EFEFEF;
+$gray-light:    #A4A4A4;
+$gray-dark:     #5C5C5C;
+$gray-darken:   #1E1E1E;
 
+
+// COLORS related util classes ========================================
+// Green (background) -------------------------------------------------
+.bg-green-lighter {
+  background: $green-lighter;
+}
+
+.bg-green-light {
+  background: $green-light;
+}
+
+.bg-green-primary {
+  background: $green-primary;
+}
+
+.bg-green-dark {
+  background: $green-dark;
+}
+
+.bg-green-darken {
+  background: $green-darken;
+}
+
+// Green (color) ------------------------------------------------------
+.color-green-lighter {
+  color: $green-lighter;
+}
+
+.color-green-light {
+  color: $green-light;
+}
+
+.color-green-primary {
+  color: $green-primary;
+}
+
+.color-green-dark {
+  color: $green-dark;
+}
+
+.color-green-darken {
+  color: $green-darken;
+}
+
+// Gray (background) --------------------------------------------------
+.bg-gray-lighter {
+  background: $gray-lighter;
+}
+
+.bg-gray-light {
+  background: $gray-light;
+}
+
+.bg-gray-dark {
+  background: $gray-dark;
+}
+
+.bg-gray-darken {
+  background: $gray-darken;
+}
+
+// Gray (color) -------------------------------------------------------
+.color-gray-lighter {
+  color: $gray-lighter;
+}
+
+.color-gray-light {
+  color: $gray-light;
+}
+
+.color-gray-dark {
+  color: $gray-dark;
+}
+
+.color-gray-darken {
+  color: $gray-darken;
+}
+
+
+// OTHER styles =======================================================
 $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 $brand-color: red;
@@ -30,5 +110,5 @@ body {
 }
 
 div.brand {
-  background: $land-green-primary;
+  background: $green-primary;
 }

@@ -1,3 +1,57 @@
+.bg-green-lighter {
+  background: #E3F37D; }
+
+.bg-green-light {
+  background: #BDCE49; }
+
+.bg-green-primary {
+  background: #A0B228; }
+
+.bg-green-dark {
+  background: #819110; }
+
+.bg-green-darken {
+  background: #5B6800; }
+
+.color-green-lighter {
+  color: #E3F37D; }
+
+.color-green-light {
+  color: #BDCE49; }
+
+.color-green-primary {
+  color: #A0B228; }
+
+.color-green-dark {
+  color: #819110; }
+
+.color-green-darken {
+  color: #5B6800; }
+
+.bg-gray-lighter {
+  background: #EFEFEF; }
+
+.bg-gray-light {
+  background: #A4A4A4; }
+
+.bg-gray-dark {
+  background: #5C5C5C; }
+
+.bg-gray-darken {
+  background: #1E1E1E; }
+
+.color-gray-lighter {
+  color: #EFEFEF; }
+
+.color-gray-light {
+  color: #A4A4A4; }
+
+.color-gray-dark {
+  color: #5C5C5C; }
+
+.color-gray-darken {
+  color: #1E1E1E; }
+
 body {
   background-image: url("./images/paper.png");
   font: 100% Helvetica, sans-serif;
