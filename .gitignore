@@ -5,4 +5,5 @@
 *.wpr
 *.wpu
 *.log
-docs/Redesign Docs/Theme/.sass-cache/
+docs/Redesign Docs/RedesignTheme/bower_components/
+docs/Redesign Docs/RedesignTheme/node_modules/
