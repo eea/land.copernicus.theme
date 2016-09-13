@@ -314,7 +314,7 @@ a:hover {
   margin: 0px;
 
   header {
-    background-image: url("./images/header-main-photo.jpg");
+    background-image: url("./../images/header-main-photo.jpg");
     background-attachment: fixed;
     height: $dim13;
     width: 100%;
@@ -428,7 +428,7 @@ a:hover {
     @extend .shadow-gray-dark;
     @extend .margin-content;
 
-    background-image: url("./images/header-main-photo.jpg");
+    background-image: url("./../images/header-main-photo.jpg");
     padding: $dim6;
     margin-top: $dim8;
     border-radius: 0px;
