@@ -10,3 +10,5 @@ RedesignTheme$ bower install --save bootstrap-sass
 To recompile the theme after your changes run:
 RedesignTheme$ gulp
 
+To watch changes (recommended) run:
+RedesignTheme$ gulp watch

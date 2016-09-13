@@ -2,22 +2,27 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 
 var config = {
-    bootstrapDir: './bower_components/bootstrap-sass',
-    publicDir: './public',
+  bootstrap_dir: './bower_components/bootstrap-sass',
+  public_dir: './public',
+  scss_dir: './css/',
+  scss_main: './css/app.scss',
 };
 
 gulp.task('css', function() {
-    return gulp.src('./css/app.scss')
-    .pipe(sass({
-        includePaths: [config.bootstrapDir + '/assets/stylesheets'],
-    }))
-    .pipe(gulp.dest(config.publicDir + '/css'));
+  return gulp.src(config.scss_main)
+  .pipe(sass({
+    includePaths: [config.bootstrap_dir + '/assets/stylesheets'],
+  }))
+  .pipe(gulp.dest(config.public_dir + '/css'));
 });
 
 gulp.task('fonts', function() {
-    return gulp.src(config.bootstrapDir + '/assets/fonts/**/*')
-    .pipe(gulp.dest(config.publicDir + '/fonts'));
+  return gulp.src(config.bootstrap_dir + '/assets/fonts/**/*')
+  .pipe(gulp.dest(config.public_dir + '/fonts'));
 });
 
 gulp.task('default', ['css', 'fonts']);
 
+gulp.task('watch', function() {
+  gulp.watch(config.scss_dir + '*.scss', ['css', 'fonts']);
+});
