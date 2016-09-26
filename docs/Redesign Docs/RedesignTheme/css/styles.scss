@@ -309,7 +309,13 @@ a:hover {
 }
 
 // HEADER -------------------------------------------------------------
-#land-main-photo {
+#header-section {
+  background-image: url("./../images/header-main-photo.jpg");
+  background-size:cover;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+
+  height: $dim13;
   width: 100%;
   position: fixed;
   left: 0;
@@ -317,160 +323,152 @@ a:hover {
   right: 0;
 }
 
-.wrapper {
-  padding: 0px;
-  margin: 0px;
+header {
+  width: 100%;
+  margin-top: -30px;
+  background-size:cover;
+  background-position: left bottom;
+  background-repeat: no-repeat;
 
-  header {
-    background-image: url("./../images/header-main-photo.jpg");
-    background-attachment: fixed;
-    height: $dim13;
-    width: 100%;
-    margin-top: -30px;
-    background-size:cover;
-    background-position: left bottom;
-    background-repeat: no-repeat;
+  .content {
+    background: transparentize($white, 0.2);
+    height: $dim10;
+    padding-left: $dim-large;
+    padding-right: $dim-large;
 
-    .content {
-      background: transparentize($white, 0.2);
-      height: $dim10;
-      padding-left: $dim-large;
-      padding-right: $dim-large;
+    .brand {
+      .img-brand {
+        height: $dim10;
+        float: left;
+      }
 
-      .brand {
-        .img-brand {
-          height: $dim10;
-          float: left;
+      .website-title {
+        position: relative;
+        top: $dim7;
+        left: $dim2;
+        text-decoration: none;
+        h3 {
+          font-weight: normal;
         }
+      }
+    }
 
-        .website-title {
-          position: relative;
-          top: $dim7;
-          left: $dim2;
+    .utils {
+      float: right;
+    }
+  }
+
+  nav {
+    background-color: $green-primary;
+    margin: 0;
+    overflow: hidden;
+
+    ul {
+      @extend .margin-content;
+
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        list-style-type: none;
+
+        a {
+          color: $gray-darken;
+          background-color: $green-primary;
+          display: block;
+          padding: $dim3;
           text-decoration: none;
-          h3 {
-            font-weight: normal;
-          }
         }
       }
 
-      .utils {
-        float: right;
-      }
-    }
-
-    nav {
-      background-color: $green-primary;
-      margin: 0;
-      overflow: hidden;
-
-      ul {
-        @extend .margin-content;
-
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding: 0;
-
-        li {
-          display: inline-block;
-          list-style-type: none;
-
-          a {
-            color: $gray-darken;
-            background-color: $green-primary;
-            display: block;
-            padding: $dim3;
-            text-decoration: none;
-          }
-        }
-
-        a:hover {
-          background-color: $green-light;
-
-        }
+      a:hover {
+        background-color: $green-light;
 
       }
-    }
-  }
-
-  .main-content {
-    @extend .shadow-gray-light;
-    @extend .margin-content;
-
-    background: #FFFFFF;
-    padding: $dim6;
-    border-top-left-radius: $dim3;
-    border-top-right-radius: $dim3;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-top: $dim8;
-
-    article.main {
 
     }
+  }
+}
 
-    aside {
-      aside1 {
-      }
+.main-content {
+  @extend .shadow-gray-light;
+  @extend .margin-content;
 
-      aside2 {
-      }
-    }
+  background: #FFFFFF;
+  padding: $dim6;
+  border-top-left-radius: $dim3;
+  border-top-right-radius: $dim3;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-top: $dim8;
+
+  article.main {
+
   }
 
-  .jumbotron {
-    @extend .shadow-gray-dark;
-    @extend .margin-content;
-
-    background: $white;
-    padding: $dim6;
-    border-top-left-radius: $dim3;
-    border-top-right-radius: $dim3;
-    border-bottom-left-radius: $dim3;
-    border-bottom-right-radius: $dim3;
-    height: $dim13;
-    margin-top: -$dim9;
-  }
-
-  .images-slider {
-    @extend .shadow-gray-dark;
-    @extend .margin-content;
-
-    background-image: url("./../images/header-main-photo.jpg");
-    padding: $dim6;
-    margin-top: $dim8;
-    border-radius: 0px;
-    height: $dim13;
-  }
-
-  .menu-sections {
-    @extend .margin-content;
-
-    background: $transparent;
-    padding: $dim6;
-    margin-top: $dim8;
-    border-radius: 0px;
-    height: $dim12+40;
-  }
-
-  footer {
-    @extend .margin-content;
-
-    .partners {
-      @extend .bg-green-primary;
-      @extend .color-white;
-
-      height: $dim11;
-      padding: $dim5 $dim5 $dim5 $dim5;
+  aside {
+    aside1 {
     }
 
-    .text {
-      @extend .bg-green-dark;
-      @extend .color-gray-darken;
-
-      padding: $dim2 $dim5 $dim2 $dim5;
-      text-align: center;
+    aside2 {
     }
-
   }
+}
+
+.jumbotron {
+  @extend .shadow-gray-dark;
+  @extend .margin-content;
+
+  background: $white;
+  padding: $dim6;
+  border-top-left-radius: $dim3;
+  border-top-right-radius: $dim3;
+  border-bottom-left-radius: $dim3;
+  border-bottom-right-radius: $dim3;
+  height: $dim13;
+  margin-top: -$dim9;
+}
+
+.images-slider {
+  @extend .shadow-gray-dark;
+  @extend .margin-content;
+
+  background-image: url("./../images/header-main-photo.jpg");
+  padding: $dim6;
+  margin-top: $dim8;
+  border-radius: 0px;
+  height: $dim13;
+}
+
+.menu-sections {
+  @extend .margin-content;
+
+  background: $transparent;
+  padding: $dim6;
+  margin-top: $dim8;
+  border-radius: 0px;
+  height: $dim12+40;
+}
+
+footer {
+  @extend .margin-content;
+
+  .partners {
+    @extend .bg-green-primary;
+    @extend .color-white;
+
+    height: $dim11;
+    padding: $dim5 $dim5 $dim5 $dim5;
+  }
+
+  .text {
+    @extend .bg-green-dark;
+    @extend .color-gray-darken;
+
+    padding: $dim2 $dim5 $dim2 $dim5;
+    text-align: center;
+  }
+
 }
