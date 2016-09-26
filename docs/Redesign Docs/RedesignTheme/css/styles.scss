@@ -276,7 +276,7 @@ h4 {
 
 // GENERAL styles =====================================================
 .bg-texture-paper {
-  background-image: url("./images/paper.png");
+  background-image: url("../images/paper.png");
   background-attachment: fixed;
   background-color: $gray-lighter;
 }
@@ -309,6 +309,14 @@ a:hover {
 }
 
 // HEADER -------------------------------------------------------------
+#land-main-photo {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
 .wrapper {
   padding: 0px;
   margin: 0px;

@@ -6380,7 +6380,7 @@ h4 {
   font-size: 1.125em; }
 
 .bg-texture-paper, body {
-  background-image: url("./images/paper.png");
+  background-image: url("../images/paper.png");
   background-attachment: fixed;
   background-color: #EFEFEF; }
 
@@ -6392,6 +6392,13 @@ body {
   font: 100% Verdana, sans-serif;
   padding: 0px;
   margin: 0px; }
+
+#land-main-photo {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0; }
 
 .wrapper {
   padding: 0px;
