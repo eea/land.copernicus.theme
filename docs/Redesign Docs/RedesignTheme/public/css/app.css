@@ -6391,7 +6391,9 @@ h4 {
 body {
   font: 100% Verdana, sans-serif;
   padding: 0px;
-  margin: 0px; }
+  margin: 0px;
+  position: relative;
+  z-index: 1; }
 
 #header-section {
   background-image: url("./../images/header-main-photo.jpg");
@@ -6488,3 +6490,8 @@ footer .partners {
 footer .text {
   padding: 6px 18px 6px 18px;
   text-align: center; }
+
+#content-section {
+  top: 300px;
+  position: relative;
+  z-index: 2 !important; }

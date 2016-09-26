@@ -294,6 +294,9 @@ body {
   font: 100% $font-stack;
   padding: 0px;
   margin: 0px;
+
+  position: relative;
+  z-index: 1;
 }
 
 a {
@@ -471,4 +474,11 @@ footer {
     text-align: center;
   }
 
+}
+
+
+#content-section {
+  top: 300px;
+  position: relative;
+  z-index: 2 !important;
 }
