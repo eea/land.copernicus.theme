@@ -6361,8 +6361,8 @@ button.close {
   width: 90%; }
 
 .land-box8 {
-  height: 200px;
-  width: 12%; }
+  width: 100%;
+  height: 200px; }
 
 /* TODO: Need it?
 // http://typecast.com/blog/a-more-modern-scale-for-web-typography

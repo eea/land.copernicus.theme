@@ -236,9 +236,8 @@ $transparent: transparent;
   @extend .bg-white;
   @extend .color-gray-dark;
   @extend .shadow-gray-dark;
-
+  width: 100%;
   height: 200px;
-  width: 12%;
 }
 
 // FONTS related styles ===============================================
