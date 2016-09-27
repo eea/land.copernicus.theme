@@ -190,49 +190,6 @@ $transparent: transparent;
 
 .land-box1 {
   @extend .box;
-  @extend .bg-green-darken;
-  @extend .color-white;
-}
-
-.land-box2 {
-  @extend .box;
-  @extend .bg-green-dark;
-  @extend .color-white;
-}
-
-.land-box3 {
-  @extend .box;
-  @extend .bg-green-primary;
-  @extend .color-white;
-}
-
-.land-box4 {
-  @extend .box;
-  @extend .bg-green-light;
-  @extend .color-gray-darken;
-}
-
-.land-box5 {
-  @extend .box;
-  @extend .bg-green-lighter;
-  @extend .color-black;
-}
-
-.land-box6 {
-  @extend .box;
-  @extend .bg-black;
-  @extend .color-gray-light;
-}
-
-.land-box7 {
-  @extend .box-full-size;
-  @extend .bg-white;
-  @extend .color-green-dark;
-  @extend .shadow-gray-dark;
-}
-
-.land-box8 {
-  @extend .box;
   @extend .bg-white;
   @extend .color-gray-dark;
   @extend .shadow-gray-dark;
@@ -344,41 +301,6 @@ a:hover {
       .utils {
 
       }
-    }
-  }
-}
-
-header {
-  nav {
-    background-color: $green-primary;
-    margin: 0;
-    overflow: hidden;
-
-    ul {
-      @extend .margin-content;
-
-      margin-top: 0px;
-      margin-bottom: 0px;
-      padding: 0;
-
-      li {
-        display: inline-block;
-        list-style-type: none;
-
-        a {
-          color: $gray-darken;
-          background-color: $green-primary;
-          display: block;
-          padding: $dim3;
-          text-decoration: none;
-        }
-      }
-
-      a:hover {
-        background-color: $green-light;
-
-      }
-
     }
   }
 }
