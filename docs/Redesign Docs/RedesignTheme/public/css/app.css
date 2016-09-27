@@ -6411,10 +6411,12 @@ body {
   background-repeat: no-repeat; }
   #header-section .container-fluid {
     background: rgba(255, 255, 255, 0.8); }
-    #header-section .container-fluid .content .brand .img-brand {
-      height: 77px; }
-    #header-section .container-fluid .content .brand .website-title {
-      text-decoration: none; }
+    #header-section .container-fluid .content {
+      padding: 10px; }
+      #header-section .container-fluid .content .brand .img-brand {
+        height: 77px; }
+      #header-section .container-fluid .content .brand .website-title {
+        text-decoration: none; }
 
 header nav {
   background-color: #A0B228;
