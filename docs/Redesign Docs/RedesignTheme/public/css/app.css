@@ -6383,7 +6383,7 @@ h4 {
   background-image: url("../images/paper.png");
   background-color: #EFEFEF; }
 
-.margin-content, header nav ul, .main-content, .land-jumbotron, .images-slider, .menu-sections, footer {
+.margin-content, #header-section .container-fluid .content, header nav ul, .main-content, .land-jumbotron, .images-slider, .menu-sections, footer {
   margin-left: 15%;
   margin-right: 15%; }
 
@@ -6404,50 +6404,37 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  right: 0; }
-
-header {
+  right: 0;
   width: 100%;
-  margin-top: -30px;
   background-size: cover;
   background-position: left bottom;
   background-repeat: no-repeat; }
-  header .content {
-    background: rgba(255, 255, 255, 0.8);
-    height: 77px;
-    padding-left: 15%;
-    padding-right: 15%; }
-    header .content .brand .img-brand {
-      height: 77px;
-      float: left; }
-    header .content .brand .website-title {
-      position: relative;
-      top: 28px;
-      left: 6px;
+  #header-section .container-fluid {
+    background: rgba(255, 255, 255, 0.8); }
+    #header-section .container-fluid .content .brand .img-brand {
+      height: 77px; }
+    #header-section .container-fluid .content .brand .website-title {
       text-decoration: none; }
-      header .content .brand .website-title h3 {
-        font-weight: normal; }
-    header .content .utils {
-      float: right; }
-  header nav {
-    background-color: #A0B228;
-    margin: 0;
-    overflow: hidden; }
-    header nav ul {
-      margin-top: 0px;
-      margin-bottom: 0px;
-      padding: 0; }
-      header nav ul li {
-        display: inline-block;
-        list-style-type: none; }
-        header nav ul li a {
-          color: #1E1E1E;
-          background-color: #A0B228;
-          display: block;
-          padding: 10px;
-          text-decoration: none; }
-      header nav ul a:hover {
-        background-color: #BDCE49; }
+
+header nav {
+  background-color: #A0B228;
+  margin: 0;
+  overflow: hidden; }
+  header nav ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0; }
+    header nav ul li {
+      display: inline-block;
+      list-style-type: none; }
+      header nav ul li a {
+        color: #1E1E1E;
+        background-color: #A0B228;
+        display: block;
+        padding: 10px;
+        text-decoration: none; }
+    header nav ul a:hover {
+      background-color: #BDCE49; }
 
 .main-content {
   background: #FFFFFF;

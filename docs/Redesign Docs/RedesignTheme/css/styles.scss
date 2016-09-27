@@ -322,43 +322,34 @@ a:hover {
   left: 0;
   top: 0;
   right: 0;
-}
 
-header {
   width: 100%;
-  margin-top: -30px;
   background-size:cover;
   background-position: left bottom;
   background-repeat: no-repeat;
 
-  .content {
+  .container-fluid {
     background: transparentize($white, 0.2);
-    height: $dim10;
-    padding-left: $dim-large;
-    padding-right: $dim-large;
 
-    .brand {
-      .img-brand {
-        height: $dim10;
-        float: left;
-      }
+    .content {
+      @extend .margin-content;
 
-      .website-title {
-        position: relative;
-        top: $dim7;
-        left: $dim2;
-        text-decoration: none;
-        h3 {
-          font-weight: normal;
+      .brand {
+        .img-brand {
+          height: $dim10;
+        }
+        .website-title {
+          text-decoration: none;
         }
       }
-    }
+      .utils {
 
-    .utils {
-      float: right;
+      }
     }
   }
+}
 
+header {
   nav {
     background-color: $green-primary;
     margin: 0;
