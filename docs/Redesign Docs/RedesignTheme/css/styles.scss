@@ -280,8 +280,8 @@ h4 {
 }
 
 .margin-content {
-  margin-left: $dim-large;
-  margin-right: $dim-large;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 
@@ -418,7 +418,7 @@ header {
   }
 }
 
-.jumbotron {
+.land-jumbotron {
   @extend .shadow-gray-dark;
   @extend .margin-content;
 
@@ -428,7 +428,6 @@ header {
   border-top-right-radius: $dim3;
   border-bottom-left-radius: $dim3;
   border-bottom-right-radius: $dim3;
-  height: $dim13;
   margin-top: -$dim9;
 }
 

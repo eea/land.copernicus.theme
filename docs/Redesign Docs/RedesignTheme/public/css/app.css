@@ -6340,7 +6340,7 @@ button.close {
 .boder-radius-primary, .box, .box-full-size, .land-box7, .land-box1, .land-box2, .land-box3, .land-box4, .land-box5, .land-box6, .land-box8 {
   border-radius: 10px; }
 
-.shadow-gray-dark, .land-box7, .land-box8, .jumbotron, .images-slider {
+.shadow-gray-dark, .land-box7, .land-box8, .land-jumbotron, .images-slider {
   -webkit-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   -moz-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8); }
@@ -6383,7 +6383,7 @@ h4 {
   background-image: url("../images/paper.png");
   background-color: #EFEFEF; }
 
-.margin-content, header nav ul, .main-content, .jumbotron, .images-slider, .menu-sections, footer {
+.margin-content, header nav ul, .main-content, .land-jumbotron, .images-slider, .menu-sections, footer {
   margin-left: 15%;
   margin-right: 15%; }
 
@@ -6458,14 +6458,13 @@ header {
   border-bottom-right-radius: 0px;
   margin-top: 36px; }
 
-.jumbotron {
+.land-jumbotron {
   background: #FFFFFF;
   padding: 24px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  height: 315px;
   margin-top: -48px; }
 
 .images-slider {
