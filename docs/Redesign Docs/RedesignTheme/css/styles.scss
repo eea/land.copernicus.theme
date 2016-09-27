@@ -273,7 +273,6 @@ h4 {
   font-size: $font-size2;
 }
 
-
 // GENERAL styles =====================================================
 .bg-texture-paper {
   background-image: url("../images/paper.png");
@@ -320,7 +319,7 @@ a:hover {
 
   height: $dim13;
   width: 100%;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   right: 0;

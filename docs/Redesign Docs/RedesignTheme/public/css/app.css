@@ -6402,7 +6402,7 @@ body {
   background-repeat: no-repeat;
   height: 315px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   right: 0; }
