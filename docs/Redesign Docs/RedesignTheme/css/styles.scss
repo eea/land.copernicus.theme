@@ -244,6 +244,7 @@ $transparent: transparent;
 // FONTS related styles ===============================================
 $font-stack: Verdana, sans-serif;
 
+/* TODO: Need it?
 // http://typecast.com/blog/a-more-modern-scale-for-web-typography
 $font-size6: 3em;
 $font-size5: 2.25em;
@@ -272,6 +273,7 @@ blockquote {
 h4 {
   font-size: $font-size2;
 }
+*/
 
 // GENERAL styles =====================================================
 .bg-texture-paper {
@@ -337,7 +339,7 @@ a:hover {
 
       .brand {
         .img-brand {
-          height: $dim10;
+          height: $dim9;
         }
         .website-title {
           text-decoration: none;
