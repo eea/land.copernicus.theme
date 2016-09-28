@@ -6319,7 +6319,7 @@ button.close {
 .color-gray-light {
   color: #A4A4A4; }
 
-.color-gray-dark, .land-box1 {
+.color-gray-dark, .land-box1, .land-jumbotron .circle h3 {
   color: #5C5C5C; }
 
 .color-gray-darken, body, footer .text {
@@ -6450,6 +6450,11 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   margin-top: -48px; }
+  .land-jumbotron .circle {
+    border: 6px solid #BDCE49;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px; }
 
 .images-slider {
   background-image: url("./../images/header-main-photo.jpg");

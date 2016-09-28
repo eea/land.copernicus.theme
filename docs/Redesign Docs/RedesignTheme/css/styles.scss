@@ -329,6 +329,17 @@ a:hover {
   border-bottom-left-radius: $dim3;
   border-bottom-right-radius: $dim3;
   margin-top: -$dim9;
+
+  .circle {
+    border: $dim2 solid $green-light;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+
+  .circle h3 {
+    @extend .color-gray-dark;
+  }
 }
 
 .images-slider {
