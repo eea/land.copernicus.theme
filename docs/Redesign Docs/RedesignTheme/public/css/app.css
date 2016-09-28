@@ -6484,3 +6484,6 @@ footer .text {
 
 .list-inline.land-user-menu li:last-child:after {
   content: ''; }
+
+.land-title {
+  border-bottom: 3px solid #BDCE49; }

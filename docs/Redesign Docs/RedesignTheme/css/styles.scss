@@ -394,3 +394,7 @@ footer {
     @extend .color-green-primary;
   }
 }
+
+.land-title {
+  border-bottom: $dim1 solid $green-light;
+}
