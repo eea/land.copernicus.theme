@@ -6454,7 +6454,9 @@ body {
     border: 6px solid #BDCE49;
     border-radius: 50%;
     width: 150px;
-    height: 150px; }
+    height: 150px;
+    position: relative;
+    left: 23%; }
 
 .images-slider {
   background-image: url("./../images/header-main-photo.jpg");
