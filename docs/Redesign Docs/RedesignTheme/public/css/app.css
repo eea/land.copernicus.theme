@@ -6292,7 +6292,7 @@ button.close {
 .color-green-light {
   color: #BDCE49; }
 
-.color-green-primary, a {
+.color-green-primary, a, .list-inline.land-user-menu li:after {
   color: #A0B228; }
 
 .color-green-dark, a:hover {
@@ -6477,3 +6477,10 @@ footer .text {
   top: 300px;
   position: relative;
   z-index: 2 !important; }
+
+.list-inline.land-user-menu li:after {
+  content: '|';
+  margin: 0 10px; }
+
+.list-inline.land-user-menu li:last-child:after {
+  content: ''; }

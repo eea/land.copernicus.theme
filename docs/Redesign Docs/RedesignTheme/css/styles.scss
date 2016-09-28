@@ -373,9 +373,18 @@ footer {
 
 }
 
-
 #content-section {
   top: 300px;
   position: relative;
   z-index: 2 !important;
+}
+
+.list-inline.land-user-menu li:after {
+  @extend .color-green-primary;
+  content: '|';
+  margin: 0 10px;
+}
+
+.list-inline.land-user-menu li:last-child:after {
+  content: '';
 }
