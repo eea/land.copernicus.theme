@@ -388,3 +388,9 @@ footer {
 .list-inline.land-user-menu li:last-child:after {
   content: '';
 }
+
+.menu-sections .land-box1 {
+  h3 {
+    @extend .color-green-primary;
+  }
+}
