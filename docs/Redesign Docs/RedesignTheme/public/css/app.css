@@ -6429,6 +6429,8 @@ body {
     border-radius: 50%;
     border: 10px solid #A0B228;
     width: 100%; }
+  .land-jumbotron .circle img:hover {
+    border: 10px solid #E3F37D; }
 
 .images-slider {
   background-image: url("./../images/header-main-photo.jpg");

@@ -312,6 +312,10 @@ a:hover {
     border: $dim3 solid $green-primary;
     width: 100%;
   }
+
+  .circle img:hover {
+    border: $dim3 solid $green-lighter;
+  }
 }
 
 .images-slider {
