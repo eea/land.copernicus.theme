@@ -411,3 +411,39 @@ footer {
 .land-title {
   border-bottom: $dim1 solid $green-light;
 }
+
+.event-date{
+  float: left;
+  margin-right: 1rem;
+  display: inline-block;
+  padding: .25rem;
+  border: 1px solid #d8d8d8;
+  border-radius: .3em;
+  text-align: center;
+  font-size: smaller;
+  min-width: 4em
+}
+
+.event-month,
+.event-day,
+.event-year {
+  display: block;
+  line-height: 1
+}
+
+.event-month {
+  text-transform: uppercase
+}
+
+.event-day {
+  font-size: 200%
+}
+
+.snippet .event-title {
+  font-weight: normal;
+  margin-bottom: 0
+}
+
+.snippet .event-body{
+  overflow: hidden
+}
