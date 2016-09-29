@@ -6292,7 +6292,7 @@ button.close {
 .color-green-light {
   color: #BDCE49; }
 
-.color-green-primary, a, .list-inline.land-list-separated li:after, .menu-sections .land-box1 h3 {
+.color-green-primary, a, .list-inline.land-list-separated li:after, .menu-sections .land-box1 h3, footer .text ul li .fa-arrow-up {
   color: #A0B228; }
 
 .color-green-dark, a:hover {
