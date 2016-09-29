@@ -6292,7 +6292,7 @@ button.close {
 .color-green-light {
   color: #BDCE49; }
 
-.color-green-primary, a, .list-inline.land-list-separated li:after, .menu-sections .land-box1 h3, footer .text ul li .fa-arrow-up {
+.color-green-primary, a, .list-inline.land-list-separated li:after, footer .text ul li .fa-arrow-up {
   color: #A0B228; }
 
 .color-green-dark, a:hover {
@@ -6319,7 +6319,7 @@ button.close {
 .color-gray-light {
   color: #A4A4A4; }
 
-.color-gray-dark, .land-box1, .land-jumbotron .circle h3 {
+.color-gray-dark, .land-box1 {
   color: #5C5C5C; }
 
 .color-gray-darken, body, footer .text {
@@ -6421,12 +6421,14 @@ body {
   border-bottom-right-radius: 10px;
   margin-top: -48px; }
   .land-jumbotron .circle {
-    border: 6px solid #BDCE49;
-    border-radius: 50%;
     width: 150px;
     height: 150px;
     position: relative;
     left: 23%; }
+  .land-jumbotron .circle img {
+    border-radius: 50%;
+    border: 10px solid #A0B228;
+    width: 100%; }
 
 .images-slider {
   background-image: url("./../images/header-main-photo.jpg");

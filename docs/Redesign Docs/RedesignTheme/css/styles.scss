@@ -301,16 +301,16 @@ a:hover {
   margin-top: -$dim9;
 
   .circle {
-    border: $dim2 solid $green-light;
-    border-radius: 50%;
     width: 150px;
     height: 150px;
     position: relative;
     left: 23%;
   }
 
-  .circle h3 {
-    @extend .color-gray-dark;
+  .circle img {
+    border-radius: 50%;
+    border: $dim3 solid $green-primary;
+    width: 100%;
   }
 }
 
@@ -370,12 +370,6 @@ footer {
 
 .list-inline.land-list-separated li:last-child:after {
   content: '';
-}
-
-.menu-sections .land-box1 {
-  h3 {
-    @extend .color-green-primary;
-  }
 }
 
 .land-title {
