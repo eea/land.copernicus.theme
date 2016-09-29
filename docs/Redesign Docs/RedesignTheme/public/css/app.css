@@ -6364,36 +6364,6 @@ button.close {
   width: 100%;
   height: 200px; }
 
-/* TODO: Need it?
-// http://typecast.com/blog/a-more-modern-scale-for-web-typography
-$font-size6: 3em;
-$font-size5: 2.25em;
-$font-size4: 1.75em;
-$font-size3: 1.5em;
-$font-size2: 1.125em;
-$font-size1: 1em;
-$font-size0: 0.875em;
-
-h1 {
-  font-size: $font-size6;
-}
-
-h2 {
-  font-size: $font-size5;
-}
-
-h3 {
-  font-size: $font-size4;
-}
-
-blockquote {
-  font-size: $font-size3;
-}
-
-h4 {
-  font-size: $font-size2;
-}
-*/
 .bg-texture-paper, body {
   background-image: url("../images/paper.png");
   background-color: #EFEFEF; }
