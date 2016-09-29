@@ -392,13 +392,13 @@ footer {
   z-index: 2 !important;
 }
 
-.list-inline.land-user-menu li:after {
+.list-inline.land-list-separated li:after {
   @extend .color-green-primary;
   content: '|';
   margin: 0 10px;
 }
 
-.list-inline.land-user-menu li:last-child:after {
+.list-inline.land-list-separated li:last-child:after {
   content: '';
 }
 

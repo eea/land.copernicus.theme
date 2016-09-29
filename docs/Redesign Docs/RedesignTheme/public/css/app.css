@@ -6292,7 +6292,7 @@ button.close {
 .color-green-light {
   color: #BDCE49; }
 
-.color-green-primary, a, .list-inline.land-user-menu li:after, .menu-sections .land-box1 h3 {
+.color-green-primary, a, .list-inline.land-list-separated li:after, .menu-sections .land-box1 h3 {
   color: #A0B228; }
 
 .color-green-dark, a:hover {
@@ -6485,11 +6485,11 @@ footer .text {
   position: relative;
   z-index: 2 !important; }
 
-.list-inline.land-user-menu li:after {
+.list-inline.land-list-separated li:after {
   content: '|';
   margin: 0 10px; }
 
-.list-inline.land-user-menu li:last-child:after {
+.list-inline.land-list-separated li:last-child:after {
   content: ''; }
 
 .land-title {
