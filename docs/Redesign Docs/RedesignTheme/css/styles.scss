@@ -382,7 +382,7 @@ footer {
   border-bottom: $dim1 solid $green-light;
 }
 
-.event-date{
+.event-date {
   float: left;
   margin-right: 1rem;
   display: inline-block;
@@ -392,6 +392,21 @@ footer {
   text-align: center;
   font-size: smaller;
   min-width: 4em;
+}
+
+.news-preview {
+  float: left;
+  margin-right: 1rem;
+  display: inline-block;
+  padding: .25rem;
+  border-radius: .3em;
+  text-align: center;
+  font-size: smaller;
+  min-width: 4em;
+
+  .land-img-preview {
+    border-radius: $dim3;
+  }
 }
 
 .event-month,
@@ -409,15 +424,21 @@ footer {
   font-size: 200%;
 }
 
-.snippet .event-title {
+.snippet .event-title,
+.snippet .news-title {
   font-weight: normal;
   margin-bottom: 0;
 }
 
-.snippet .event-body{
+.snippet .event-body,
+.snippet .news-body {
   overflow: hidden;
 }
 
 footer .text ul li .fa-arrow-up {
   @extend .color-green-primary;
+}
+
+.land-img-preview {
+  border: none;
 }
