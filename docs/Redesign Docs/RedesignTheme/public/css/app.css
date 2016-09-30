@@ -1501,8 +1501,8 @@ pre {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 14px;
+  padding-right: 14px; }
   .container:before, .container:after {
     content: " ";
     display: table; }
@@ -1510,19 +1510,19 @@ pre {
     clear: both; }
   @media (min-width: 768px) {
     .container {
-      width: 750px; } }
+      width: 748px; } }
   @media (min-width: 992px) {
     .container {
-      width: 970px; } }
+      width: 968px; } }
   @media (min-width: 1200px) {
     .container {
-      width: 1170px; } }
+      width: 1168px; } }
 
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 14px;
+  padding-right: 14px; }
   .container-fluid:before, .container-fluid:after {
     content: " ";
     display: table; }
@@ -1530,8 +1530,8 @@ pre {
     clear: both; }
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px; }
+  margin-left: -14px;
+  margin-right: -14px; }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -1541,8 +1541,8 @@ pre {
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 14px;
+  padding-right: 14px; }
 
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left; }
@@ -2757,8 +2757,8 @@ select[multiple].input-lg,
   min-height: 27px; }
 
 .form-horizontal .form-group {
-  margin-left: -15px;
-  margin-right: -15px; }
+  margin-left: -14px;
+  margin-right: -14px; }
   .form-horizontal .form-group:before, .form-horizontal .form-group:after {
     content: " ";
     display: table; }
@@ -2772,7 +2772,7 @@ select[multiple].input-lg,
     padding-top: 7px; } }
 
 .form-horizontal .has-feedback .form-control-feedback {
-  right: 15px; }
+  right: 14px; }
 
 @media (min-width: 768px) {
   .form-horizontal .form-group-lg .control-label {
@@ -3678,8 +3678,8 @@ tbody.collapse.in {
 
 .navbar-collapse {
   overflow-x: visible;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 14px;
+  padding-left: 14px;
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch; }
@@ -3720,8 +3720,8 @@ tbody.collapse.in {
 .container > .navbar-collapse,
 .container-fluid > .navbar-header,
 .container-fluid > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px; }
+  margin-right: -14px;
+  margin-left: -14px; }
   @media (min-width: 768px) {
     .container > .navbar-header,
     .container > .navbar-collapse,
@@ -3759,7 +3759,7 @@ tbody.collapse.in {
 
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
+  padding: 15px 14px;
   font-size: 18px;
   line-height: 20px;
   height: 50px; }
@@ -3770,12 +3770,12 @@ tbody.collapse.in {
   @media (min-width: 768px) {
     .navbar > .container .navbar-brand,
     .navbar > .container-fluid .navbar-brand {
-      margin-left: -15px; } }
+      margin-left: -14px; } }
 
 .navbar-toggle {
   position: relative;
   float: right;
-  margin-right: 15px;
+  margin-right: 14px;
   padding: 9px 10px;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -3797,7 +3797,7 @@ tbody.collapse.in {
       display: none; } }
 
 .navbar-nav {
-  margin: 7.5px -15px; }
+  margin: 7.5px -14px; }
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -3829,9 +3829,9 @@ tbody.collapse.in {
           padding-bottom: 15px; } }
 
 .navbar-form {
-  margin-left: -15px;
-  margin-right: -15px;
-  padding: 10px 15px;
+  margin-left: -14px;
+  margin-right: -14px;
+  padding: 10px 14px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -3920,15 +3920,15 @@ tbody.collapse.in {
   @media (min-width: 768px) {
     .navbar-text {
       float: left;
-      margin-left: 15px;
-      margin-right: 15px; } }
+      margin-left: 14px;
+      margin-right: 14px; } }
 
 @media (min-width: 768px) {
   .navbar-left {
     float: left !important; }
   .navbar-right {
     float: right !important;
-    margin-right: -15px; }
+    margin-right: -14px; }
     .navbar-right ~ .navbar-right {
       margin-right: 0; } }
 
@@ -4298,8 +4298,8 @@ a.badge:hover, a.badge:focus {
   .container .jumbotron,
   .container-fluid .jumbotron {
     border-radius: 6px;
-    padding-left: 15px;
-    padding-right: 15px; }
+    padding-left: 14px;
+    padding-right: 14px; }
   .jumbotron .container {
     max-width: 100%; }
   @media screen and (min-width: 768px) {
@@ -5040,12 +5040,12 @@ button.list-group-item-danger {
   font-size: 21px;
   font-weight: bold;
   line-height: 1;
-  color: #000;
+  color: #000000;
   text-shadow: 0 1px 0 #FFFFFF;
   opacity: 0.2;
   filter: alpha(opacity=20); }
   .close:hover, .close:focus {
-    color: #000;
+    color: #000000;
     text-decoration: none;
     cursor: pointer;
     opacity: 0.5;
@@ -5114,7 +5114,7 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #000; }
+  background-color: #000000; }
   .modal-backdrop.fade {
     opacity: 0;
     filter: alpha(opacity=0); }
@@ -5223,7 +5223,7 @@ button.close {
   padding: 3px 8px;
   color: #FFFFFF;
   text-align: center;
-  background-color: #000;
+  background-color: #000000;
   border-radius: 6px; }
 
 .tooltip-arrow {
@@ -5238,56 +5238,56 @@ button.close {
   left: 50%;
   margin-left: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #000; }
+  border-top-color: #000000; }
 
 .tooltip.top-left .tooltip-arrow {
   bottom: 0;
   right: 5px;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #000; }
+  border-top-color: #000000; }
 
 .tooltip.top-right .tooltip-arrow {
   bottom: 0;
   left: 5px;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #000; }
+  border-top-color: #000000; }
 
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
   margin-top: -5px;
   border-width: 5px 5px 5px 0;
-  border-right-color: #000; }
+  border-right-color: #000000; }
 
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
   margin-top: -5px;
   border-width: 5px 0 5px 5px;
-  border-left-color: #000; }
+  border-left-color: #000000; }
 
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
   margin-left: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #000; }
+  border-bottom-color: #000000; }
 
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;
   right: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #000; }
+  border-bottom-color: #000000; }
 
 .tooltip.bottom-right .tooltip-arrow {
   top: 0;
   left: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #000; }
+  border-bottom-color: #000000; }
 
 .popover {
   position: absolute;
