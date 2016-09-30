@@ -1094,7 +1094,7 @@ img {
   border-radius: 6px; }
 
 .img-thumbnail {
-  padding: 4px;
+  padding: 3px;
   line-height: 1.42857;
   background-color: #FFFFFF;
   border: 1px solid #ddd;
@@ -3548,7 +3548,7 @@ tbody.collapse.in {
     .nav > li > a {
       position: relative;
       display: block;
-      padding: 10px 15px; }
+      padding: 10px 16px; }
       .nav > li > a:hover, .nav > li > a:focus {
         text-decoration: none;
         background-color: #EFEFEF; }
@@ -3653,7 +3653,7 @@ tbody.collapse.in {
 
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 36px;
   margin-bottom: 20px;
   border: 1px solid transparent; }
   .navbar:before, .navbar:after {
@@ -3759,10 +3759,10 @@ tbody.collapse.in {
 
 .navbar-brand {
   float: left;
-  padding: 15px 14px;
+  padding: 8px 14px;
   font-size: 18px;
   line-height: 20px;
-  height: 50px; }
+  height: 36px; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
   .navbar-brand > img {
@@ -3777,8 +3777,8 @@ tbody.collapse.in {
   float: right;
   margin-right: 14px;
   padding: 9px 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -3797,7 +3797,7 @@ tbody.collapse.in {
       display: none; } }
 
 .navbar-nav {
-  margin: 7.5px -14px; }
+  margin: 4px -14px; }
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -3825,8 +3825,8 @@ tbody.collapse.in {
       .navbar-nav > li {
         float: left; }
         .navbar-nav > li > a {
-          padding-top: 15px;
-          padding-bottom: 15px; } }
+          padding-top: 8px;
+          padding-bottom: 8px; } }
 
 .navbar-form {
   margin-left: -14px;
@@ -3836,8 +3836,8 @@ tbody.collapse.in {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 8px;
-  margin-bottom: 8px; }
+  margin-top: 1px;
+  margin-bottom: 1px; }
   @media (min-width: 768px) {
     .navbar-form .form-group {
       display: inline-block;
@@ -3905,18 +3905,18 @@ tbody.collapse.in {
   border-bottom-left-radius: 0; }
 
 .navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px; }
+  margin-top: 1px;
+  margin-bottom: 1px; }
   .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn {
-    margin-top: 9px;
-    margin-bottom: 9px; }
+    margin-top: 2px;
+    margin-bottom: 2px; }
   .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn {
-    margin-top: 14px;
-    margin-bottom: 14px; }
+    margin-top: 7px;
+    margin-bottom: 7px; }
 
 .navbar-text {
-  margin-top: 15px;
-  margin-bottom: 15px; }
+  margin-top: 8px;
+  margin-bottom: 8px; }
   @media (min-width: 768px) {
     .navbar-text {
       float: left;
@@ -4053,7 +4053,7 @@ tbody.collapse.in {
       color: #444; }
 
 .breadcrumb {
-  padding: 8px 15px;
+  padding: 6px 16px;
   margin-bottom: 20px;
   list-style: none;
   background-color: #f5f5f5;
@@ -4171,7 +4171,7 @@ tbody.collapse.in {
       padding: 5px 14px;
       background-color: #FFFFFF;
       border: 1px solid #ddd;
-      border-radius: 15px; }
+      border-radius: 16px; }
     .pager li > a:hover,
     .pager li > a:focus {
       text-decoration: none;
@@ -4281,16 +4281,16 @@ a.badge:hover, a.badge:focus {
   cursor: pointer; }
 
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
   color: inherit;
   background-color: #EFEFEF; }
   .jumbotron h1,
   .jumbotron .h1 {
     color: inherit; }
   .jumbotron p {
-    margin-bottom: 15px;
+    margin-bottom: 14px;
     font-size: 21px;
     font-weight: 200; }
   .jumbotron > hr {
@@ -4304,19 +4304,19 @@ a.badge:hover, a.badge:focus {
     max-width: 100%; }
   @media screen and (min-width: 768px) {
     .jumbotron {
-      padding-top: 48px;
-      padding-bottom: 48px; }
+      padding-top: 44.8px;
+      padding-bottom: 44.8px; }
       .container .jumbotron,
       .container-fluid .jumbotron {
-        padding-left: 60px;
-        padding-right: 60px; }
+        padding-left: 56px;
+        padding-right: 56px; }
       .jumbotron h1,
       .jumbotron .h1 {
         font-size: 63px; } }
 
 .thumbnail {
   display: block;
-  padding: 4px;
+  padding: 3px;
   margin-bottom: 20px;
   line-height: 1.42857;
   background-color: #FFFFFF;
@@ -4333,7 +4333,7 @@ a.badge:hover, a.badge:focus {
     margin-left: auto;
     margin-right: auto; }
   .thumbnail .caption {
-    padding: 9px;
+    padding: 10px;
     color: #5C5C5C; }
 
 a.thumbnail:hover,
@@ -4342,7 +4342,7 @@ a.thumbnail.active {
   border-color: #A0B228; }
 
 .alert {
-  padding: 15px;
+  padding: 16px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-radius: 6px; }
@@ -4359,7 +4359,7 @@ a.thumbnail.active {
 
 .alert-dismissable,
 .alert-dismissible {
-  padding-right: 35px; }
+  padding-right: 36px; }
   .alert-dismissable .close,
   .alert-dismissible .close {
     position: relative;
@@ -4696,7 +4696,7 @@ button.list-group-item-danger {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
 
 .panel-body {
-  padding: 15px; }
+  padding: dim4; }
   .panel-body:before, .panel-body:after {
     content: " ";
     display: table; }
@@ -4704,7 +4704,7 @@ button.list-group-item-danger {
     clear: both; }
 
 .panel-heading {
-  padding: 10px 15px;
+  padding: dim3 dim4;
   border-bottom: 1px solid transparent;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px; }
@@ -4724,7 +4724,7 @@ button.list-group-item-danger {
     color: inherit; }
 
 .panel-footer {
-  padding: 10px 15px;
+  padding: dim3 dim4;
   background-color: #f5f5f5;
   border-top: 1px solid #ddd;
   border-bottom-right-radius: 5px;
@@ -4765,8 +4765,8 @@ button.list-group-item-danger {
   .panel > .table caption,
   .panel > .table-responsive > .table caption,
   .panel > .panel-collapse > .table caption {
-    padding-left: 15px;
-    padding-right: 15px; }
+    padding-left: dim4;
+    padding-right: dim4; }
 
 .panel > .table:first-child,
 .panel > .table-responsive:first-child > .table:first-child {
@@ -5123,7 +5123,7 @@ button.close {
     filter: alpha(opacity=50); }
 
 .modal-header {
-  padding: 15px;
+  padding: 16px;
   border-bottom: 1px solid #e5e5e5; }
   .modal-header:before, .modal-header:after {
     content: " ";
@@ -5140,10 +5140,10 @@ button.close {
 
 .modal-body {
   position: relative;
-  padding: 15px; }
+  padding: 16px; }
 
 .modal-footer {
-  padding: 15px;
+  padding: 16px;
   text-align: right;
   border-top: 1px solid #e5e5e5; }
   .modal-footer:before, .modal-footer:after {
@@ -5207,19 +5207,19 @@ button.close {
     filter: alpha(opacity=90); }
   .tooltip.top {
     margin-top: -3px;
-    padding: 5px 0; }
+    padding: 6px 0; }
   .tooltip.right {
     margin-left: 3px;
-    padding: 0 5px; }
+    padding: 0 6px; }
   .tooltip.bottom {
     margin-top: 3px;
-    padding: 5px 0; }
+    padding: 6px 0; }
   .tooltip.left {
     margin-left: -3px;
-    padding: 0 5px; }
+    padding: 0 6px; }
 
 .tooltip-inner {
-  max-width: 200px;
+  max-width: 197px;
   padding: 3px 8px;
   color: #FFFFFF;
   text-align: center;
@@ -5236,57 +5236,57 @@ button.close {
 .tooltip.top .tooltip-arrow {
   bottom: 0;
   left: 50%;
-  margin-left: -5px;
-  border-width: 5px 5px 0;
+  margin-left: -6px;
+  border-width: 6px 6px 0;
   border-top-color: #000000; }
 
 .tooltip.top-left .tooltip-arrow {
   bottom: 0;
-  right: 5px;
-  margin-bottom: -5px;
-  border-width: 5px 5px 0;
+  right: 6px;
+  margin-bottom: -6px;
+  border-width: 6px 6px 0;
   border-top-color: #000000; }
 
 .tooltip.top-right .tooltip-arrow {
   bottom: 0;
-  left: 5px;
-  margin-bottom: -5px;
-  border-width: 5px 5px 0;
+  left: 6px;
+  margin-bottom: -6px;
+  border-width: 6px 6px 0;
   border-top-color: #000000; }
 
 .tooltip.right .tooltip-arrow {
   top: 50%;
   left: 0;
-  margin-top: -5px;
-  border-width: 5px 5px 5px 0;
+  margin-top: -6px;
+  border-width: 6px 6px 6px 0;
   border-right-color: #000000; }
 
 .tooltip.left .tooltip-arrow {
   top: 50%;
   right: 0;
-  margin-top: -5px;
-  border-width: 5px 0 5px 5px;
+  margin-top: -6px;
+  border-width: 6px 0 6px 6px;
   border-left-color: #000000; }
 
 .tooltip.bottom .tooltip-arrow {
   top: 0;
   left: 50%;
-  margin-left: -5px;
-  border-width: 0 5px 5px;
+  margin-left: -6px;
+  border-width: 0 6px 6px;
   border-bottom-color: #000000; }
 
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;
-  right: 5px;
-  margin-top: -5px;
-  border-width: 0 5px 5px;
+  right: 6px;
+  margin-top: -6px;
+  border-width: 0 6px 6px;
   border-bottom-color: #000000; }
 
 .tooltip.bottom-right .tooltip-arrow {
   top: 0;
-  left: 5px;
-  margin-top: -5px;
-  border-width: 0 5px 5px;
+  left: 6px;
+  margin-top: -6px;
+  border-width: 0 6px 6px;
   border-bottom-color: #000000; }
 
 .popover {

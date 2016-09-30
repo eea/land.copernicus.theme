@@ -306,7 +306,7 @@ $container-lg:                 $container-large-desktop !default;       // For `
 
 // Navbar =============================================================
 // Basics of a navbar
-$navbar-height:                    50px !default;
+$navbar-height:                    $dim8;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
@@ -365,7 +365,7 @@ $navbar-inverse-toggle-border-color:        #333 !default;
 
 // Navs ===============================================================
 // Shared nav styles
-$nav-link-padding:                          10px 15px !default;
+$nav-link-padding:                          $dim3 $dim4 !default;
 $nav-link-hover-bg:                         $gray-lighter !default;
 
 $nav-disabled-link-color:                   $gray-light !default;
@@ -411,7 +411,7 @@ $pagination-disabled-border:           #ddd !default;
 
 $pager-bg:                             $pagination-bg !default;
 $pager-border:                         $pagination-border !default;
-$pager-border-radius:                  15px !default;
+$pager-border-radius:                  $dim4 !default;
 
 $pager-hover-bg:                       $pagination-hover-bg !default;
 
@@ -423,7 +423,7 @@ $pager-disabled-color:                 $pagination-disabled-color !default;
 
 // Jumbotron ==========================================================
 
-$jumbotron-padding:              30px !default;
+$jumbotron-padding:              $dim7;
 $jumbotron-color:                inherit !default;
 $jumbotron-bg:                   $gray-lighter !default;
 $jumbotron-heading-color:        inherit !default;
@@ -452,12 +452,12 @@ $state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%) !
 
 
 // Tooltips ===========================================================
-$tooltip-max-width:           200px !default;        // Tooltip max width
+$tooltip-max-width:           $dim12;                // Tooltip max width
 $tooltip-color:               $white;                // Tooltip text color
 $tooltip-bg:                  $black;                // Tooltip background color
 $tooltip-opacity:             .9 !default;
 
-$tooltip-arrow-width:         5px !default;          // Tooltip arrow width
+$tooltip-arrow-width:         $dim2;                 // Tooltip arrow width
 $tooltip-arrow-color:         $tooltip-bg !default;  // Tooltip arrow color
 
 
@@ -469,7 +469,7 @@ $popover-border-color:                rgba(0,0,0,.2) !default;  // Popover borde
 $popover-fallback-border-color:       #ccc !default;            // Popover fallback border color
 
 $popover-title-bg:                    darken($popover-bg, 3%) !default;  // Popover title background color
-$popover-arrow-width:                 10px !default;                     // Popover arrow width
+$popover-arrow-width:                 $dim3;                             // Popover arrow width
 $popover-arrow-color:                 $popover-bg !default;              // Popover arrow color
 
 $popover-arrow-outer-width:           ($popover-arrow-width + 1) !default;                   // Popover outer arrow width
@@ -492,8 +492,8 @@ $label-link-hover-color:      $white;                   // Default text color of
 
 // Modals =============================================================
 
-$modal-inner-padding:         15px !default;               // Padding applied to the modal body
-$modal-title-padding:         15px !default;               // Padding applied to the modal title
+$modal-inner-padding:         $dim4;                       // Padding applied to the modal body
+$modal-title-padding:         $dim4;                       // Padding applied to the modal title
 $modal-title-line-height:     $line-height-base !default;  // Modal title line-height
 
 $modal-content-bg:                             $white;  // Background color of modal content area
@@ -513,7 +513,7 @@ $modal-sm:                    300px !default;
 // Alerts =============================================================
 // Define alert colors, border radius, and padding.
 
-$alert-padding:               15px !default;
+$alert-padding:               $dim4;
 $alert-border-radius:         $border-radius-base !default;
 $alert-link-font-weight:      bold !default;
 
@@ -571,8 +571,8 @@ $list-group-link-heading-color: #333 !default;
 // Panels =============================================================
 
 $panel-bg:                    $white;
-$panel-body-padding:          15px !default;
-$panel-heading-padding:       10px 15px !default;
+$panel-body-padding:          dim4;
+$panel-heading-padding:       dim3 dim4 !default;
 $panel-footer-padding:        $panel-heading-padding !default;
 $panel-border-radius:         $border-radius-base !default;
 
@@ -607,13 +607,13 @@ $panel-danger-heading-bg:     $state-danger-bg !default;
 
 // Thumbnails =========================================================
 // Padding around the thumbnail image
-$thumbnail-padding:           4px !default;
+$thumbnail-padding:           $dim1;
 $thumbnail-bg:                $body-bg !default;             // Thumbnail background color
 $thumbnail-border:            #ddd !default;                 // Thumbnail border color
 $thumbnail-border-radius:     $border-radius-base !default;  // Thumbnail border radius
 
 $thumbnail-caption-color:     $text-color !default;          // Custom text color for thumbnail captions
-$thumbnail-caption-padding:   9px !default;                  // Padding around the thumbnail caption
+$thumbnail-caption-padding:   $dim3;                         // Padding around the thumbnail caption
 
 
 // Wells ==============================================================
@@ -633,13 +633,13 @@ $badge-active-bg:             $white;                // Badge background color i
 
 $badge-font-weight:           bold !default;
 $badge-line-height:           1 !default;
-$badge-border-radius:         10px !default;
+$badge-border-radius:         $dim3;
 
 
 // Breadcrumbs ========================================================
 
-$breadcrumb-padding-vertical:   8px !default;
-$breadcrumb-padding-horizontal: 15px !default;
+$breadcrumb-padding-vertical:   $dim2;
+$breadcrumb-padding-horizontal: $dim4;
 $breadcrumb-bg:                 #f5f5f5 !default;      // Breadcrumb background color
 $breadcrumb-color:              #ccc !default;         // Breadcrumb text color
 $breadcrumb-active-color:       $gray-light !default;  // Text color of current page in the breadcrumb
