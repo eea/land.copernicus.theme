@@ -98,7 +98,7 @@
 
 // BORDERS related styles =============================================
 .boder-radius-primary {
-  border-radius: $dim3;
+  border-radius: $dim2;
 }
 
 
@@ -242,8 +242,8 @@ a:hover {
 
   background: #FFFFFF;
   padding: $dim6;
-  border-top-left-radius: $dim3;
-  border-top-right-radius: $dim3;
+  border-top-left-radius: $dim2;
+  border-top-right-radius: $dim2;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   margin-top: $dim8;
@@ -252,13 +252,12 @@ a:hover {
 .land-jumbotron {
   @extend .shadow-gray-dark;
   @extend .margin-content;
-
   background: $white;
   padding: $dim6;
-  border-top-left-radius: $dim3;
-  border-top-right-radius: $dim3;
-  border-bottom-left-radius: $dim3;
-  border-bottom-right-radius: $dim3;
+  border-top-left-radius: $dim2;
+  border-top-right-radius: $dim2;
+  border-bottom-left-radius: $dim2;
+  border-bottom-right-radius: $dim2;
   margin-top: -$dim9;
 
   .circle {
