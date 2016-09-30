@@ -2,6 +2,26 @@ $bootstrap-sass-asset-helper: false !default;
 
 // Variables ==========================================================
 
+// Dimensions (nice proportions for spaces, borders, paddings) ========
+$dim15: 504px;
+$dim13: 315px;
+$dim12: 197px;
+$dim11: 123px;
+$dim10: 77px;
+$dim9: 48px;
+$dim8: 36px;
+$dim7: 28px;
+$dim6: 24px;
+$dim5: 18px;
+$dim4: 16px;
+$dim3: 10px;
+$dim2: 6px;
+$dim1: 3px;
+$dim0: 1px;
+
+$dim-large: 15%;
+
+
 // Copernicus Land PALETTE ============================================
 $green-lighter:  #E3F37D;
 $green-light:    #BDCE49;
@@ -142,23 +162,23 @@ $btn-default-border:             #ccc !default;
 
 $btn-primary-color:              $white;
 $btn-primary-bg:                 $brand-primary !default;
-$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+$btn-primary-border:             $brand-primary;
 
 $btn-success-color:              $white;
 $btn-success-bg:                 $brand-success !default;
-$btn-success-border:             darken($btn-success-bg, 5%) !default;
+$btn-success-border:             $brand-success;
 
 $btn-info-color:                 $white;
 $btn-info-bg:                    $brand-info !default;
-$btn-info-border:                darken($btn-info-bg, 5%) !default;
+$btn-info-border:                $brand-info;
 
 $btn-warning-color:              $white;
 $btn-warning-bg:                 $brand-warning !default;
-$btn-warning-border:             darken($btn-warning-bg, 5%) !default;
+$btn-warning-border:             $brand-warning;
 
 $btn-danger-color:               $white;
 $btn-danger-bg:                  $brand-danger !default;
-$btn-danger-border:              darken($btn-danger-bg, 5%) !default;
+$btn-danger-border:              $brand-danger;
 
 $btn-link-disabled-color:        $gray-light !default;
 
@@ -168,9 +188,7 @@ $btn-border-radius-large:        $border-radius-large !default;
 $btn-border-radius-small:        $border-radius-small !default;
 
 
-//== Forms
-//
-//##
+// Forms ==============================================================
 
 //** `<input>` background color
 $input-bg:                       $white;
