@@ -141,8 +141,8 @@ $caret-width-large:         5px !default;
 // Tables =============================================================
 // Customizes the `.table` component with basic values, each used across all table variations.
 
-$table-cell-padding:            8px !default;  // Padding for `<th>`s and `<td>`s.
-$table-condensed-cell-padding:  5px !default;  // Padding for cells in `.table-condensed`.
+$table-cell-padding:            $dim3;
+$table-condensed-cell-padding:  $dim2;
 
 $table-bg:                      $transparent;
 $table-bg-accent:               #f9f9f9 !default;  // Background color used for `.table-striped`.
@@ -190,30 +190,15 @@ $btn-border-radius-small:        $border-radius-small !default;
 
 // Forms ==============================================================
 
-//** `<input>` background color
-$input-bg:                       $white;
-//** `<input disabled>` background color
-$input-bg-disabled:              $gray-lighter !default;
-
-//** Text color for `<input>`s
-$input-color:                    $gray !default;
-//** `<input>` border color
-$input-border:                   #ccc !default;
-
-// TODO: Rename `$input-border-radius` to `$input-border-radius-base` in v4
-//** Default `.form-control` border radius
-// This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
+$input-bg:                       $white;  // `<input>` background color
+$input-bg-disabled:              $gray-lighter !default;  // `<input disabled>` background color
+$input-color:                    $gray !default;  // Text color for `<input>`s
+$input-border:                   #ccc !default;  // `<input>` border color
 $input-border-radius:            $border-radius-base !default;
-//** Large `.form-control` border radius
-$input-border-radius-large:      $border-radius-large !default;
-//** Small `.form-control` border radius
-$input-border-radius-small:      $border-radius-small !default;
-
-//** Border color for inputs on focus
-$input-border-focus:             #66afe9 !default;
-
-//** Placeholder text color
-$input-color-placeholder:        #999 !default;
+$input-border-radius-large:      $border-radius-large !default;  // Large `.form-control` border radius
+$input-border-radius-small:      $border-radius-small !default;  // Small `.form-control` border radius
+$input-border-focus:             #66afe9 !default;  // Border color for inputs on focus
+$input-color-placeholder:        #999 !default;  //** Placeholder text color
 
 //** Default `.form-control` height
 $input-height-base:              ($line-height-computed + ($padding-base-vertical * 2) + 2) !default;
@@ -222,19 +207,14 @@ $input-height-large:             (ceil($font-size-large * $line-height-large) + 
 //** Small `.form-control` height
 $input-height-small:             (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 2) !default;
 
-//** `.form-group` margin
-$form-group-margin-bottom:       15px !default;
+$form-group-margin-bottom:       $dim4;  // `.form-group` margin
 
 $legend-color:                   $gray-dark !default;
 $legend-border-color:            #e5e5e5 !default;
 
-//** Background color for textual input addons
-$input-group-addon-bg:           $gray-lighter !default;
-//** Border color for textual input addons
-$input-group-addon-border-color: $input-border !default;
-
-//** Disabled cursor for form controls and buttons.
-$cursor-disabled:                not-allowed !default;
+$input-group-addon-bg:           $gray-lighter !default;  // Background color for textual input addons
+$input-group-addon-border-color: $input-border !default;  // Border color for textual input addons
+$cursor-disabled:                not-allowed !default;    // Disabled cursor for form controls and buttons.
 
 
 //== Dropdowns

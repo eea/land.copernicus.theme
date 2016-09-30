@@ -2022,8 +2022,8 @@ table {
   background-color: transparent; }
 
 caption {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #A4A4A4;
   text-align: left; }
 
@@ -2040,7 +2040,7 @@ th {
   .table > tbody > tr > td,
   .table > tfoot > tr > th,
   .table > tfoot > tr > td {
-    padding: 8px;
+    padding: 10px;
     line-height: 1.42857;
     vertical-align: top;
     border-top: 1px solid #ddd; }
@@ -2065,7 +2065,7 @@ th {
 .table-condensed > tbody > tr > td,
 .table-condensed > tfoot > tr > th,
 .table-condensed > tfoot > tr > td {
-  padding: 5px; }
+  padding: 6px; }
 
 .table-bordered {
   border: 1px solid #ddd; }
@@ -2401,7 +2401,7 @@ input[type="search"] {
     line-height: 46px; } }
 
 .form-group {
-  margin-bottom: 15px; }
+  margin-bottom: 16px; }
 
 .radio,
 .checkbox {
