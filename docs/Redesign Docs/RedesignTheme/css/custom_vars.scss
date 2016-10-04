@@ -151,9 +151,9 @@ $table-border-color:            #ddd !default;  // Border color for table and ce
 
 $btn-font-weight:                normal !default;
 
-$btn-default-color:              #333 !default;
-$btn-default-bg:                 $white;
-$btn-default-border:             #ccc !default;
+$btn-default-color:              $white;
+$btn-default-bg:                 $green-primary;
+$btn-default-border:             $green-primary;
 
 $btn-primary-color:              $white;
 $btn-primary-bg:                 $brand-primary !default;
@@ -178,9 +178,9 @@ $btn-danger-border:              $brand-danger;
 $btn-link-disabled-color:        $gray-light !default;
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius-base:         $border-radius-base !default;
-$btn-border-radius-large:        $border-radius-large !default;
-$btn-border-radius-small:        $border-radius-small !default;
+$btn-border-radius-base:         $dim2;
+$btn-border-radius-large:        $dim2;
+$btn-border-radius-small:        $dim2;
 
 
 // Forms ==============================================================

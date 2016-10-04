@@ -2807,7 +2807,7 @@ select[multiple].input-lg,
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
   .btn:hover, .btn:focus, .btn.focus {
-    color: #333;
+    color: #FFFFFF;
     text-decoration: none; }
   .btn:active, .btn.active {
     outline: 0;
@@ -2827,29 +2827,29 @@ fieldset[disabled] a.btn {
   pointer-events: none; }
 
 .btn-default {
-  color: #333;
-  background-color: #FFFFFF;
-  border-color: #ccc; }
+  color: #FFFFFF;
+  background-color: #A0B228;
+  border-color: #A0B228; }
   .btn-default:focus, .btn-default.focus {
-    color: #333;
-    background-color: #e6e6e6;
-    border-color: #8c8c8c; }
+    color: #FFFFFF;
+    background-color: #7b881f;
+    border-color: #424a11; }
   .btn-default:hover {
-    color: #333;
-    background-color: #e6e6e6;
-    border-color: #adadad; }
+    color: #FFFFFF;
+    background-color: #7b881f;
+    border-color: #73801d; }
   .btn-default:active, .btn-default.active,
   .open > .btn-default.dropdown-toggle {
-    color: #333;
-    background-color: #e6e6e6;
-    border-color: #adadad; }
+    color: #FFFFFF;
+    background-color: #7b881f;
+    border-color: #73801d; }
     .btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus,
     .open > .btn-default.dropdown-toggle:hover,
     .open > .btn-default.dropdown-toggle:focus,
     .open > .btn-default.dropdown-toggle.focus {
-      color: #333;
-      background-color: #d4d4d4;
-      border-color: #8c8c8c; }
+      color: #FFFFFF;
+      background-color: #606b18;
+      border-color: #424a11; }
   .btn-default:active, .btn-default.active,
   .open > .btn-default.dropdown-toggle {
     background-image: none; }
@@ -2857,11 +2857,11 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-default:hover,
   fieldset[disabled] .btn-default:focus,
   fieldset[disabled] .btn-default.focus {
-    background-color: #FFFFFF;
-    border-color: #ccc; }
+    background-color: #A0B228;
+    border-color: #A0B228; }
   .btn-default .badge {
-    color: #FFFFFF;
-    background-color: #333; }
+    color: #A0B228;
+    background-color: #FFFFFF; }
 
 .btn-primary {
   color: #FFFFFF;
@@ -3079,13 +3079,13 @@ fieldset[disabled] a.btn {
   padding: 6px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px; }
+  border-radius: 6px; }
 
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 6px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px; }
+  border-radius: 6px; }
 
 .btn-block {
   display: block;
@@ -5877,22 +5877,22 @@ button.close {
   background-image: none; }
 
 .btn-default {
-  background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #e0e0e0 100%);
-  background-image: -o-linear-gradient(top, #FFFFFF 0%, #e0e0e0 100%);
-  background-image: linear-gradient(to bottom, #FFFFFF 0%, #e0e0e0 100%);
+  background-image: -webkit-linear-gradient(top, #A0B228 0%, #73801d 100%);
+  background-image: -o-linear-gradient(top, #A0B228 0%, #73801d 100%);
+  background-image: linear-gradient(to bottom, #A0B228 0%, #73801d 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFE0E0E0', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFA0B228', endColorstr='#FF73801D', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #dbdbdb;
+  border-color: #6c781b;
   text-shadow: 0 1px 0 #fff;
   border-color: #ccc; }
   .btn-default:hover, .btn-default:focus {
-    background-color: #e0e0e0;
+    background-color: #73801d;
     background-position: 0 -15px; }
   .btn-default:active, .btn-default.active {
-    background-color: #e0e0e0;
-    border-color: #dbdbdb; }
+    background-color: #73801d;
+    border-color: #6c781b; }
   .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active,
   fieldset[disabled] .btn-default,
   fieldset[disabled] .btn-default:hover,
@@ -5900,7 +5900,7 @@ button.close {
   fieldset[disabled] .btn-default.focus,
   fieldset[disabled] .btn-default:active,
   fieldset[disabled] .btn-default.active {
-    background-color: #e0e0e0;
+    background-color: #73801d;
     background-image: none; }
 
 .btn-primary {
@@ -6527,3 +6527,9 @@ footer .text {
   border-radius: 0px;
   border: none;
   color: #5C5C5C; }
+
+.btn-default {
+  text-shadow: none;
+  background-image: none;
+  box-shadow: none;
+  border: none; }
