@@ -416,6 +416,21 @@ footer .text ul li .fa-arrow-up {
   color: $gray-dark;
 }
 
+.navbar-nav ul.dropdown-menu {
+  @extend .bg-green-primary;
+  border: none;
+  border-radius: 0px;
+  margin-top: $dim2;
+
+  li a:hover {
+    @extend .bg-green-light;
+  }
+
+  li a {
+    @extend .color-gray-darker;
+  }
+}
+
 .btn-default,
 .btn-primary,
 .btn-warning,

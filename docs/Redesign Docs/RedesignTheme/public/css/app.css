@@ -6274,10 +6274,10 @@ button.close {
 .bg-green-lighter {
   background: #E3F37D; }
 
-.bg-green-light {
+.bg-green-light, .navbar-nav ul.dropdown-menu li a:hover {
   background: #BDCE49; }
 
-.bg-green-primary, footer .partners {
+.bg-green-primary, footer .partners, .navbar-nav ul.dropdown-menu {
   background: #A0B228; }
 
 .bg-green-dark, footer .text {
@@ -6322,7 +6322,7 @@ button.close {
 .color-gray-dark, .land-box1 {
   color: #5C5C5C; }
 
-.color-gray-darker, body, footer .text {
+.color-gray-darker, body, footer .text, .navbar-nav ul.dropdown-menu li a {
   color: #1E1E1E; }
 
 .bg-white, .land-box1 {
@@ -6527,6 +6527,11 @@ footer .text {
   border-radius: 0px;
   border: none;
   color: #5C5C5C; }
+
+.navbar-nav ul.dropdown-menu {
+  border: none;
+  border-radius: 0px;
+  margin-top: 6px; }
 
 .btn-default,
 .btn-primary,
