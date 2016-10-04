@@ -326,14 +326,20 @@ footer {
   z-index: 2 !important;
 }
 
-.list-inline.land-list-separated li:after {
-  @extend .color-green-primary;
-  content: '|';
-  margin: 0 10px;
-}
+.utils {
+  .list-inline.land-list-separated li:after {
+    @extend .color-green-primary;
+    content: '|';
+    margin-left: $dim3;
+  }
 
-.list-inline.land-list-separated li:last-child:after {
-  content: '';
+  .list-inline.land-list-separated li:last-child:after {
+    content: '';
+  }
+
+  .list-inline > li {
+    padding-right: 0px;
+  }
 }
 
 .land-title {

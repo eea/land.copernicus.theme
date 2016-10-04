@@ -6292,7 +6292,7 @@ button.close {
 .color-green-light {
   color: #BDCE49; }
 
-.color-green-primary, a, .list-inline.land-list-separated li:after, footer .text ul li .fa-arrow-up {
+.color-green-primary, a, .utils .list-inline.land-list-separated li:after, footer .text ul li .fa-arrow-up {
   color: #A0B228; }
 
 .color-green-dark, a:hover {
@@ -6460,12 +6460,15 @@ footer .text {
   position: relative;
   z-index: 2 !important; }
 
-.list-inline.land-list-separated li:after {
+.utils .list-inline.land-list-separated li:after {
   content: '|';
-  margin: 0 10px; }
+  margin-left: 10px; }
 
-.list-inline.land-list-separated li:last-child:after {
+.utils .list-inline.land-list-separated li:last-child:after {
   content: ''; }
+
+.utils .list-inline > li {
+  padding-right: 0px; }
 
 .land-title {
   border-bottom: 3px solid #BDCE49; }
