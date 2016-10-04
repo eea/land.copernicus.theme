@@ -6427,6 +6427,13 @@ body {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   margin-top: -48px; }
+  .land-jumbotron a {
+    color: #5C5C5C;
+    text-decoration: none; }
+  .land-jumbotron a h4 {
+    color: #1E1E1E; }
+  .land-jumbotron a:hover {
+    color: #1E1E1E; }
   .land-jumbotron .circle {
     width: 150px;
     height: 150px;

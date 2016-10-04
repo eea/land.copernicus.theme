@@ -270,6 +270,19 @@ a:hover {
   border-bottom-right-radius: $dim2;
   margin-top: -$dim9;
 
+  a {
+    color: $gray-dark;
+    text-decoration: none;
+  }
+
+  a h4 {
+    color: $gray-darker;
+  }
+
+  a:hover {
+    color: $gray-darker;
+  }
+
   .circle {
     width: 150px;
     height: 150px;
