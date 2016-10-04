@@ -6417,7 +6417,7 @@ body {
   border-top-right-radius: 6px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  margin-top: 36px; }
+  margin-top: 0px; }
 
 .land-jumbotron {
   background: #FFFFFF;
@@ -6448,7 +6448,10 @@ body {
 
 .menu-sections {
   background: transparent;
-  padding: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-top: 36px;
   border-radius: 0px;
   height: 237px; }

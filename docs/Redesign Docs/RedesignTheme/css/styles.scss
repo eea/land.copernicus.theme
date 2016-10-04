@@ -256,7 +256,7 @@ a:hover {
   border-top-right-radius: $dim2;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  margin-top: $dim8;
+  margin-top: 0px;
 }
 
 .land-jumbotron {
@@ -303,7 +303,10 @@ a:hover {
   @extend .margin-content;
 
   background: $transparent;
-  padding: $dim6;
+  padding-left: $dim6;
+  padding-right: $dim6;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-top: $dim8;
   border-radius: 0px;
   height: $dim12+40;
