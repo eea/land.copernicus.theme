@@ -6364,7 +6364,10 @@ button.close {
   width: 100%;
   height: 200px; }
   .land-box1 img {
-    width: 40%; }
+    width: 40%;
+    margin-top: 15%; }
+  .land-box1 h4 {
+    margin-top: 10%; }
 
 .land-box1:hover {
   border: 6px solid #E3F37D; }
