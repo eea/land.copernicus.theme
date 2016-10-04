@@ -164,6 +164,11 @@
   }
 }
 
+.land-box1:hover {
+  border: $dim2 solid $green-lighter;
+}
+
+
 // GENERAL styles =====================================================
 .bg-texture-paper {
   background-image: url("../images/paper.png");

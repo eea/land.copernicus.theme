@@ -6366,6 +6366,9 @@ button.close {
   .land-box1 img {
     width: 40%; }
 
+.land-box1:hover {
+  border: 6px solid #E3F37D; }
+
 .bg-texture-paper, body {
   background-image: url("../images/paper.png");
   background-color: #EFEFEF; }
