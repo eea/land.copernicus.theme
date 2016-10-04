@@ -416,7 +416,10 @@ footer .text ul li .fa-arrow-up {
   color: $gray-dark;
 }
 
-.btn-default {
+.btn-default,
+.btn-primary,
+.btn-warning,
+.btn-success {
   text-shadow: none;
   background-image: none;
   box-shadow: none;
