@@ -6480,9 +6480,9 @@ footer .text {
   float: left;
   margin-right: 1rem;
   display: inline-block;
-  padding: .25rem;
+  padding: 6px;
   border: 1px solid #d8d8d8;
-  border-radius: .3em;
+  border-radius: 10px;
   text-align: center;
   font-size: smaller;
   min-width: 4em; }
@@ -6492,14 +6492,14 @@ footer .text {
   margin-right: 1rem;
   display: inline-block;
   padding: .25rem;
-  border-radius: .3em;
+  border-radius: 10px;
   text-align: center;
   font-size: smaller;
   min-width: 4em; }
   .news-preview .land-img-preview {
     border-radius: 10px;
-    width: 77px;
-    height: 77px; }
+    width: 48px;
+    height: 48px; }
 
 .event-month,
 .event-day,
@@ -6517,6 +6517,10 @@ footer .text {
 .snippet .news-title {
   font-weight: normal;
   margin-bottom: 0; }
+
+.snippet .event-body h4,
+.snippet .news-body h4 {
+  margin-top: 0px; }
 
 .snippet .event-body,
 .snippet .news-body {
@@ -6550,3 +6554,5 @@ input.form-control.search-bar {
 
 .listing.block-inset ul {
   padding-left: 0px; }
+  .listing.block-inset ul li {
+    list-style: none; }

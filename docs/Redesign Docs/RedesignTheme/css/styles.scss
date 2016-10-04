@@ -355,9 +355,9 @@ footer {
   float: left;
   margin-right: 1rem;
   display: inline-block;
-  padding: .25rem;
+  padding: $dim2;
   border: 1px solid #d8d8d8;
-  border-radius: .3em;
+  border-radius: $dim3;
   text-align: center;
   font-size: smaller;
   min-width: 4em;
@@ -368,15 +368,15 @@ footer {
   margin-right: 1rem;
   display: inline-block;
   padding: .25rem;
-  border-radius: .3em;
+  border-radius: $dim3;
   text-align: center;
   font-size: smaller;
   min-width: 4em;
 
   .land-img-preview {
     border-radius: $dim3;
-    width: $dim10;
-    height: $dim10;
+    width: $dim9;
+    height: $dim9;
   }
 }
 
@@ -399,6 +399,11 @@ footer {
 .snippet .news-title {
   font-weight: normal;
   margin-bottom: 0;
+}
+
+.snippet .event-body h4,
+.snippet .news-body h4 {
+  margin-top: 0px;
 }
 
 .snippet .event-body,
@@ -452,4 +457,8 @@ input.form-control.search-bar {
 
 .listing.block-inset ul {
   padding-left: 0px;
+
+  li {
+    list-style: none;
+  }
 }
