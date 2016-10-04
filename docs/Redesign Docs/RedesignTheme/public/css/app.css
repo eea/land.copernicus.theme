@@ -6533,3 +6533,6 @@ footer .text {
   background-image: none;
   box-shadow: none;
   border: none; }
+
+input.form-control.search-bar {
+  border: none; }
