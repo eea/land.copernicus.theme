@@ -6370,7 +6370,7 @@ button.close {
   background-image: url("../images/paper.png");
   background-color: #EFEFEF; }
 
-.margin-content, #header-section .container-fluid .content, .main-content, .land-jumbotron, .images-slider, .menu-sections, footer {
+.margin-content, #header-section .container-fluid#land-brand-utils .content, .main-content, .land-jumbotron, .images-slider, .menu-sections, footer {
   margin-left: 15%;
   margin-right: 15%; }
 
@@ -6395,13 +6395,13 @@ body {
   background-size: cover;
   background-position: left bottom;
   background-repeat: no-repeat; }
-  #header-section .container-fluid {
+  #header-section .container-fluid#land-brand-utils {
     background: rgba(255, 255, 255, 0.8); }
-    #header-section .container-fluid .content {
+    #header-section .container-fluid#land-brand-utils .content {
       padding: 10px; }
-      #header-section .container-fluid .content .brand .img-brand {
+      #header-section .container-fluid#land-brand-utils .content .brand .img-brand {
         height: 48px; }
-      #header-section .container-fluid .content .brand .website-title {
+      #header-section .container-fluid#land-brand-utils .content .brand .website-title {
         text-decoration: none; }
 
 .main-content {
