@@ -16,8 +16,8 @@
   background: $green-dark;
 }
 
-.bg-green-darken {
-  background: $green-darken;
+.bg-green-darker {
+  background: $green-darker;
 }
 
 // Green (color) ------------------------------------------------------
@@ -37,8 +37,8 @@
   color: $green-dark;
 }
 
-.color-green-darken {
-  color: $green-darken;
+.color-green-darker {
+  color: $green-darker;
 }
 
 // Gray (background) --------------------------------------------------
@@ -54,8 +54,8 @@
   background: $gray-dark;
 }
 
-.bg-gray-darken {
-  background: $gray-darken;
+.bg-gray-darker {
+  background: $gray-darker;
 }
 
 // Gray (color) -------------------------------------------------------
@@ -71,8 +71,8 @@
   color: $gray-dark;
 }
 
-.color-gray-darken {
-  color: $gray-darken;
+.color-gray-darker {
+  color: $gray-darker;
 }
 
 // White (background) -------------------------------------------------
@@ -177,7 +177,7 @@
 
 body {
   @extend .bg-texture-paper;
-  @extend .color-gray-darken;
+  @extend .color-gray-darker;
 
   padding: 0px;
   margin: 0px;
@@ -312,7 +312,7 @@ footer {
 
   .text {
     @extend .bg-green-dark;
-    @extend .color-gray-darken;
+    @extend .color-gray-darker;
 
     padding: $dim2 $dim5 $dim2 $dim5;
     text-align: center;

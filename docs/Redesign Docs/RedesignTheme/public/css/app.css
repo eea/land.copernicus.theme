@@ -2299,7 +2299,7 @@ output {
   padding-top: 7px;
   font-size: 14px;
   line-height: 1.42857;
-  color: #555555; }
+  color: #5C5C5C; }
 
 .form-control {
   display: block;
@@ -2308,7 +2308,7 @@ output {
   padding: 6px 10px;
   font-size: 14px;
   line-height: 1.42857;
-  color: #555555;
+  color: #5C5C5C;
   background-color: #FFFFFF;
   background-image: none;
   border: 1px solid #ccc;
@@ -3468,7 +3468,7 @@ tbody.collapse.in {
   font-size: 14px;
   font-weight: normal;
   line-height: 1;
-  color: #555555;
+  color: #5C5C5C;
   text-align: center;
   background-color: #EFEFEF;
   border: 1px solid #ccc;
@@ -3583,7 +3583,7 @@ tbody.collapse.in {
       .nav-tabs > li > a:hover {
         border-color: #EFEFEF #EFEFEF #ddd; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-      color: #555555;
+      color: #5C5C5C;
       background-color: #FFFFFF;
       border: 1px solid #ddd;
       border-bottom-color: transparent;
@@ -6283,7 +6283,7 @@ button.close {
 .bg-green-dark, footer .text {
   background: #819110; }
 
-.bg-green-darken {
+.bg-green-darker {
   background: #5B6800; }
 
 .color-green-lighter {
@@ -6298,7 +6298,7 @@ button.close {
 .color-green-dark, a:hover {
   color: #819110; }
 
-.color-green-darken {
+.color-green-darker {
   color: #5B6800; }
 
 .bg-gray-lighter {
@@ -6310,7 +6310,7 @@ button.close {
 .bg-gray-dark {
   background: #5C5C5C; }
 
-.bg-gray-darken {
+.bg-gray-darker {
   background: #1E1E1E; }
 
 .color-gray-lighter {
@@ -6322,7 +6322,7 @@ button.close {
 .color-gray-dark, .land-box1 {
   color: #5C5C5C; }
 
-.color-gray-darken, body, footer .text {
+.color-gray-darker, body, footer .text {
   color: #1E1E1E; }
 
 .bg-white, .land-box1 {

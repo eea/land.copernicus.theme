@@ -28,14 +28,19 @@ $green-lighter:  #E3F37D;
 $green-light:    #BDCE49;
 $green-primary:  #A0B228;
 $green-dark:     #819110;
-$green-darken:   #5B6800;
+$green-darker:   #5B6800;
 
+$black:          #000000;
 $white:          #FFFFFF;
+
+$gray-base:      $black;
 $gray-lighter:   #EFEFEF;
 $gray-light:     #A4A4A4;
 $gray-dark:      #5C5C5C;
-$gray-darken:    #1E1E1E;
-$black:          #000000;
+//$gray:           lighten($gray-base, 33.5%) !default; // #555
+$gray:           $gray-dark;
+$gray-darker:    #1E1E1E;
+
 
 $transparent:    transparent;
 
@@ -44,19 +49,6 @@ $red-primary:    #F49C74;
 $orange-primary: #F5C66B;
 $green2-primary: #5DD18B;
 $blue-primary:   #6ED5E8;
-
-
-// Gray and brand colors for use across Bootstrap.
-// TODO: Fix var names. Some of them are already used by Bootstrap.
-//$gray-base:     $black;
-//$gray-darker:   lighten($gray-base, 13.5%) !default; // #222
-//$gray-dark:     lighten($gray-base, 20%) !default;   // #333
-//$gray-light:    lighten($gray-base, 46.7%) !default; // #777
-//$gray-lighter:  lighten($gray-base, 93.5%) !default; // #eee
-$gray-base:     $black;
-$gray-darker:   $gray-darken;
-$gray:          lighten($gray-base, 33.5%) !default; // #555
-
 
 $brand-primary: $green-primary;
 $brand-success: $green2-primary;
