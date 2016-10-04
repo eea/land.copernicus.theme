@@ -6319,7 +6319,8 @@ button.close {
 .color-gray-light {
   color: #A4A4A4; }
 
-.color-gray-dark, .land-box1 {
+.color-gray-dark, .land-box1, .snippet .event-body p,
+.snippet .news-body p {
   color: #5C5C5C; }
 
 .color-gray-darker, body, footer .text, .navbar-nav ul.dropdown-menu li a {

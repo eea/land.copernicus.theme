@@ -427,6 +427,11 @@ footer {
   margin-top: 0px;
 }
 
+.snippet .event-body p,
+.snippet .news-body p {
+  @extend .color-gray-dark;
+}
+
 .snippet .event-body,
 .snippet .news-body {
   overflow: hidden;
