@@ -340,6 +340,21 @@ footer {
 
       border-radius: $dim2;
       padding: $dim6;
+
+      h4 > a:hover {
+        text-decoration: underline;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      img {
+        max-height: $dim10;
+        margin-left: $dim5;
+        margin-right: $dim5;
+        margin-bottom: $dim2;
+      }
     }
   }
 

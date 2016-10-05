@@ -6469,6 +6469,15 @@ footer .partners {
   footer .partners .partners-banners {
     border-radius: 6px;
     padding: 24px; }
+    footer .partners .partners-banners h4 > a:hover {
+      text-decoration: underline; }
+    footer .partners .partners-banners a {
+      text-decoration: none; }
+    footer .partners .partners-banners img {
+      max-height: 77px;
+      margin-left: 18px;
+      margin-right: 18px;
+      margin-bottom: 6px; }
 
 footer .text {
   padding: 6px 18px 6px 18px;
