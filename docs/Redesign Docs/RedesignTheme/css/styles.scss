@@ -177,6 +177,7 @@
 // GENERAL styles =====================================================
 .bg-texture {
   background-image: url("../images/bg-old-mathematics2.png");
+  background-attachment: fixed;
   background-color: $gray-lighter;
 }
 
