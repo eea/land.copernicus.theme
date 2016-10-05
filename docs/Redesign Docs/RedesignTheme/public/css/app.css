@@ -6319,14 +6319,14 @@ button.close {
 .color-gray-light {
   color: #A4A4A4; }
 
-.color-gray-dark, .land-box1, .snippet .event-body p,
+.color-gray-dark, .land-box1, footer .partners .partners-banners, .snippet .event-body p,
 .snippet .news-body p {
   color: #5C5C5C; }
 
 .color-gray-darker, body, footer .text, .navbar-nav ul.dropdown-menu li a {
   color: #1E1E1E; }
 
-.bg-white, .land-box1 {
+.bg-white, .land-box1, footer .partners .partners-banners {
   background: #FFFFFF; }
 
 .color-white, footer .partners {
@@ -6465,8 +6465,10 @@ body {
   height: 237px; }
 
 footer .partners {
-  height: 123px;
-  padding: 18px 18px 18px 18px; }
+  padding: 18px 36px 18px 36px; }
+  footer .partners .partners-banners {
+    border-radius: 6px;
+    padding: 24px; }
 
 footer .text {
   padding: 6px 18px 6px 18px;

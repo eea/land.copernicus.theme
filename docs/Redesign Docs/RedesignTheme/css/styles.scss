@@ -332,8 +332,15 @@ footer {
     @extend .bg-green-primary;
     @extend .color-white;
 
-    height: $dim11;
-    padding: $dim5 $dim5 $dim5 $dim5;
+    padding: $dim5 $dim8 $dim5 $dim8;
+
+    .partners-banners {
+      @extend .bg-white;
+      @extend .color-gray-dark;
+
+      border-radius: $dim2;
+      padding: $dim6;
+    }
   }
 
   .text {
