@@ -175,8 +175,8 @@
 
 
 // GENERAL styles =====================================================
-.bg-texture-paper {
-  background-image: url("../images/paper.png");
+.bg-texture {
+  background-image: url("../images/bg-old-mathematics2.png");
   background-color: $gray-lighter;
 }
 
@@ -186,7 +186,7 @@
 }
 
 body {
-  @extend .bg-texture-paper;
+  @extend .bg-texture;
   @extend .color-gray-darker;
 
   padding: 0px;
