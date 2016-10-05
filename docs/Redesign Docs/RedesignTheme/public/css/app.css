@@ -6319,11 +6319,11 @@ button.close {
 .color-gray-light {
   color: #A4A4A4; }
 
-.color-gray-dark, .land-box1, footer .partners .partners-banners, .snippet .event-body p,
+.color-gray-dark, .land-box1, .images-slider .carousel-caption p, footer .partners .partners-banners, .snippet .event-body p,
 .snippet .news-body p {
   color: #5C5C5C; }
 
-.color-gray-darker, body, footer .text, .navbar-nav ul.dropdown-menu li a {
+.color-gray-darker, body, .images-slider .carousel-caption h4, footer .text, .navbar-nav ul.dropdown-menu li a {
   color: #1E1E1E; }
 
 .bg-white, .land-box1, footer .partners .partners-banners {
@@ -6451,6 +6451,22 @@ body {
 .images-slider {
   margin-top: 36px;
   border-radius: 0px; }
+  .images-slider .carousel-caption {
+    background: rgba(255, 255, 255, 0.8);
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 6px;
+    width: 35%;
+    text-align: left;
+    margin-left: 30%;
+    margin-bottom: 36px; }
+    .images-slider .carousel-caption h4 {
+      font-weight: bold;
+      text-shadow: none; }
+    .images-slider .carousel-caption p {
+      text-shadow: none; }
 
 .menu-sections {
   background: transparent;

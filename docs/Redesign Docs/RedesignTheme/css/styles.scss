@@ -308,6 +308,29 @@ a:hover {
 
   margin-top: $dim8;
   border-radius: 0px;
+
+  .carousel-caption {
+    background: transparentize($white, 0.2);
+    padding-left: $dim6;
+    padding-right: $dim6;
+    padding-top: $dim2;
+    padding-bottom: $dim2;
+    border-radius: $dim2;
+    width: 35%;
+    text-align: left;
+    margin-left: 30%;
+    margin-bottom: $dim8;
+    h4 {
+      font-weight: bold;
+      @extend .color-gray-darker;
+      text-shadow: none;
+    }
+
+    p {
+      @extend .color-gray-dark;
+      text-shadow: none;
+    }
+  }
 }
 
 .menu-sections {
