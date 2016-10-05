@@ -6449,10 +6449,8 @@ body {
     border: 10px solid #E3F37D; }
 
 .images-slider {
-  padding: 24px;
   margin-top: 36px;
-  border-radius: 0px;
-  height: 315px; }
+  border-radius: 0px; }
 
 .menu-sections {
   background: transparent;
