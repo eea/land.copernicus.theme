@@ -502,6 +502,8 @@ footer .text ul li .fa-arrow-up {
 }
 
 .navbar-default {
+  position: relative;
+  top: -$dim3;
   background-image: none;
   border-radius: 0px;
   border: none;

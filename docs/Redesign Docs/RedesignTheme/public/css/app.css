@@ -6578,6 +6578,8 @@ footer .text {
   border: none; }
 
 .navbar-default {
+  position: relative;
+  top: -10px;
   background-image: none;
   border-radius: 0px;
   border: none;
