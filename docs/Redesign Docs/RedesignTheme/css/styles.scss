@@ -230,7 +230,7 @@ a:hover {
 
     .content {
       @extend .margin-content;
-      padding: 10px;
+      padding-top: $dim2;
 
       .brand {
         .img-brand {

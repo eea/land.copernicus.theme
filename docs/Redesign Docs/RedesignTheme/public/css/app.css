@@ -6406,7 +6406,7 @@ body {
   #header-section .container-fluid#land-brand-utils {
     background: rgba(255, 255, 255, 0.8); }
     #header-section .container-fluid#land-brand-utils .content {
-      padding: 10px; }
+      padding-top: 6px; }
       #header-section .container-fluid#land-brand-utils .content .brand .img-brand {
         height: 48px; }
       #header-section .container-fluid#land-brand-utils .content .brand .website-title {
