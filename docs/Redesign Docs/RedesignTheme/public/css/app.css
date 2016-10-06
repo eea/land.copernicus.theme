@@ -6364,9 +6364,11 @@ button.close {
 .land-box1 {
   width: 100%;
   height: 200px; }
-  .land-box1 img {
-    width: 40%;
-    margin-top: 15%; }
+  .land-box1 .land-icon-box {
+    min-height: 50%; }
+    .land-box1 .land-icon-box img {
+      width: 40%;
+      margin-top: 15%; }
   .land-box1 h4 {
     margin-top: 10%; }
 
