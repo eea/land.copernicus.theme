@@ -6292,7 +6292,7 @@ button.close {
 .color-green-light {
   color: #BDCE49; }
 
-.color-green-primary, a, #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li:after, footer .text ul li .fa-arrow-up {
+.color-green-primary, a, #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li:after, footer .text .list-inline.land-list-separated li:after, footer .text ul li .fa-arrow-up {
   color: #A0B228; }
 
 .color-green-dark, a:hover {
@@ -6522,8 +6522,17 @@ footer .text {
   padding: 6px 18px 6px 18px;
   text-align: center;
   font-size: 16px; }
-  footer .text ul {
+  footer .text .list-inline.land-list-separated {
     margin-bottom: 0px; }
+    footer .text .list-inline.land-list-separated li:after {
+      content: '|';
+      margin-left: 10px; }
+    footer .text .list-inline.land-list-separated li:last-child:after {
+      content: ''; }
+    footer .text .list-inline.land-list-separated li:last-child {
+      margin-right: -6px; }
+    footer .text .list-inline.land-list-separated li {
+      padding-right: 0px; }
 
 #content-section {
   top: 300px;
