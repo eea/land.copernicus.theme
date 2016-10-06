@@ -322,6 +322,14 @@ a:hover {
     color: $gray-darker;
   }
 
+  a:hover h4 {
+    color: $green-dark;
+  }
+
+  a:hover .circle img {
+    border: ($dim1 + $dim2) solid $green-lighter;
+  }
+
   .circle {
     width: 150px;
     height: 150px;
@@ -333,10 +341,6 @@ a:hover {
     border-radius: 50%;
     border: ($dim1 + $dim2) solid $green-primary;
     width: 100%;
-  }
-
-  .circle img:hover {
-    border: ($dim1 + $dim2) solid $green-light;
   }
 }
 
