@@ -234,7 +234,7 @@ a:hover {
 
       .brand {
         .img-brand {
-          height: $dim9;
+          height: ($dim9 + $dim3);
         }
         .website-title {
           text-decoration: none;
@@ -295,12 +295,12 @@ a:hover {
 
   .circle img {
     border-radius: 50%;
-    border: ($dim1 + $dim1) solid $green-primary;
+    border: ($dim1 + $dim2) solid $green-primary;
     width: 100%;
   }
 
   .circle img:hover {
-    border: $dim3 solid $green-light;
+    border: ($dim1 + $dim2) solid $green-light;
   }
 }
 

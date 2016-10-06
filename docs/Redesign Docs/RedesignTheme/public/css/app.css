@@ -1193,7 +1193,7 @@ h6, .h6 {
     font-size: 75%; }
 
 h1, .h1 {
-  font-size: 36px; }
+  font-size: 30; }
 
 h2, .h2 {
   font-size: 30px; }
@@ -6408,7 +6408,7 @@ body {
     #header-section .container-fluid#land-brand-utils .content {
       padding-top: 6px; }
       #header-section .container-fluid#land-brand-utils .content .brand .img-brand {
-        height: 48px; }
+        height: 58px; }
       #header-section .container-fluid#land-brand-utils .content .brand .website-title {
         text-decoration: none; }
 
@@ -6443,10 +6443,10 @@ body {
     left: 23%; }
   .land-jumbotron .circle img {
     border-radius: 50%;
-    border: 6px solid #A0B228;
+    border: 9px solid #A0B228;
     width: 100%; }
   .land-jumbotron .circle img:hover {
-    border: 10px solid #BDCE49; }
+    border: 9px solid #BDCE49; }
 
 .images-slider {
   margin-top: 36px;
