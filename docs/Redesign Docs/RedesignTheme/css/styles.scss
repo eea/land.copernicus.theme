@@ -213,7 +213,7 @@ a:hover {
   background-position: left bottom;
   background-repeat: no-repeat;
 
-  height: $dim13 + $dim10;
+  height: $dim13 + $dim9;
   width: 100%;
   position: absolute;
   left: 0;
@@ -263,13 +263,15 @@ a:hover {
 .land-jumbotron {
   @extend .shadow-gray-dark;
   @extend .margin-content;
+  @extend .color-gray-dark;
+
   background: $white;
   padding: $dim6;
   border-top-left-radius: $dim2;
   border-top-right-radius: $dim2;
   border-bottom-left-radius: $dim2;
   border-bottom-right-radius: $dim2;
-  margin-top: $dim8;
+  margin-top: 0px;
 
   a {
     color: $gray-dark;
@@ -293,12 +295,12 @@ a:hover {
 
   .circle img {
     border-radius: 50%;
-    border: $dim3 solid $green-primary;
+    border: ($dim1 + $dim1) solid $green-primary;
     width: 100%;
   }
 
   .circle img:hover {
-    border: $dim3 solid $green-lighter;
+    border: $dim3 solid $green-light;
   }
 }
 

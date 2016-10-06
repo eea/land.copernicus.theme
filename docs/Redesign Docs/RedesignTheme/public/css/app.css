@@ -6319,7 +6319,7 @@ button.close {
 .color-gray-light {
   color: #A4A4A4; }
 
-.color-gray-dark, .land-box1, .images-slider .carousel-caption p, footer .partners .partners-banners, .snippet .event-body p,
+.color-gray-dark, .land-box1, .land-jumbotron, .images-slider .carousel-caption p, footer .partners .partners-banners, .snippet .event-body p,
 .snippet .news-body p {
   color: #5C5C5C; }
 
@@ -6393,7 +6393,7 @@ body {
   background-size: cover;
   background-position: left bottom;
   background-repeat: no-repeat;
-  height: 392px;
+  height: 363px;
   width: 100%;
   position: absolute;
   left: 0;
@@ -6428,7 +6428,7 @@ body {
   border-top-right-radius: 6px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
-  margin-top: 36px; }
+  margin-top: 0px; }
   .land-jumbotron a {
     color: #5C5C5C;
     text-decoration: none; }
@@ -6443,10 +6443,10 @@ body {
     left: 23%; }
   .land-jumbotron .circle img {
     border-radius: 50%;
-    border: 10px solid #A0B228;
+    border: 6px solid #A0B228;
     width: 100%; }
   .land-jumbotron .circle img:hover {
-    border: 10px solid #E3F37D; }
+    border: 10px solid #BDCE49; }
 
 .images-slider {
   margin-top: 36px;
