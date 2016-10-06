@@ -522,6 +522,7 @@ footer .text ul li .fa-arrow-up {
 
 input.form-control.search-bar {
   border: none;
+  height: 100%;  // TODO: Better fix to vertical align btn default and search bar
 }
 
 .listing.block-inset ul {

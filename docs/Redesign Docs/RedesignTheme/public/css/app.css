@@ -6589,7 +6589,8 @@ footer .text {
   border: none; }
 
 input.form-control.search-bar {
-  border: none; }
+  border: none;
+  height: 100%; }
 
 .listing.block-inset ul {
   padding-left: 0px; }
