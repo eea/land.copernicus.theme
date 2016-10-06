@@ -6408,9 +6408,12 @@ body {
     #header-section .container-fluid#land-brand-utils .content {
       padding-top: 6px; }
       #header-section .container-fluid#land-brand-utils .content .brand .img-brand {
+        margin-top: 6px;
         height: 58px; }
       #header-section .container-fluid#land-brand-utils .content .brand .website-title {
-        text-decoration: none; }
+        text-decoration: none;
+        position: relative;
+        top: -10px; }
 
 .main-content {
   background: #FFFFFF;
@@ -6501,6 +6504,9 @@ footer .text {
   top: 300px;
   position: relative;
   z-index: 2 !important; }
+
+.utils .list-inline.land-list-separated {
+  margin-bottom: 10px; }
 
 .utils .list-inline.land-list-separated li:after {
   content: '|';

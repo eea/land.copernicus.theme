@@ -234,10 +234,13 @@ a:hover {
 
       .brand {
         .img-brand {
+          margin-top: $dim2;
           height: ($dim9 + $dim3);
         }
         .website-title {
           text-decoration: none;
+          position: relative;
+          top: -$dim3;
         }
       }
       .utils {
@@ -398,6 +401,10 @@ footer {
 }
 
 .utils {
+  .list-inline.land-list-separated {
+    margin-bottom: $dim3;
+  }
+
   .list-inline.land-list-separated li:after {
     @extend .color-green-primary;
     content: '|';
