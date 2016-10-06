@@ -244,7 +244,27 @@ a:hover {
         }
       }
       .utils {
+        .list-inline.land-list-separated {
+          margin-bottom: $dim3;
 
+          li:after {
+            @extend .color-green-primary;
+            content: '|';
+            margin-left: $dim3;
+          }
+
+          li:last-child:after {
+            content: '';
+          }
+
+          li:last-child {
+            margin-right: -$dim2;
+          }
+
+          li {
+            padding-right: 0px;
+          }
+        }
       }
     }
   }
@@ -398,30 +418,6 @@ footer {
   top: 300px;
   position: relative;
   z-index: 2 !important;
-}
-
-.utils {
-  .list-inline.land-list-separated {
-    margin-bottom: $dim3;
-  }
-
-  .list-inline.land-list-separated li:after {
-    @extend .color-green-primary;
-    content: '|';
-    margin-left: $dim3;
-  }
-
-  .list-inline.land-list-separated li:last-child:after {
-    content: '';
-  }
-
-  .list-inline.land-list-separated li:last-child {
-    margin-right: -$dim2;
-  }
-
-  .list-inline > li {
-    padding-right: 0px;
-  }
 }
 
 .land-title {
