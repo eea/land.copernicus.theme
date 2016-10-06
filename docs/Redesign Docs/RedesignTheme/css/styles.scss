@@ -508,6 +508,11 @@ footer .text ul li .fa-arrow-up {
   border-radius: 0px;
   border: none;
   color: $gray-dark;
+  font-size: 16px;
+
+  .fa.fa-home {
+    font-size: 18px;
+  }
 }
 
 .navbar-nav ul.dropdown-menu {
