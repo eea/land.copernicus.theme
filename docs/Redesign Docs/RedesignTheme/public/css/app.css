@@ -6520,7 +6520,10 @@ footer .partners {
 
 footer .text {
   padding: 6px 18px 6px 18px;
-  text-align: center; }
+  text-align: center;
+  font-size: 16px; }
+  footer .text ul {
+    margin-bottom: 0px; }
 
 #content-section {
   top: 300px;
