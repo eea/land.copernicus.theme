@@ -6425,6 +6425,8 @@ body {
           margin-right: -6px; }
         #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li {
           padding-right: 0px; }
+      #header-section .container-fluid#land-brand-utils .content .utils .col-lg-8.col-md-8.col-sm-12 {
+        padding: 0; }
       #header-section .container-fluid#land-brand-utils .content .utils .btn.btn-default, #header-section .container-fluid#land-brand-utils .content .utils input {
         font-size: 16px; }
       #header-section .container-fluid#land-brand-utils .content .utils input.form-control.search-bar {

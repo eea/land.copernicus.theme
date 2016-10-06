@@ -266,6 +266,10 @@ a:hover {
           }
         }
 
+        .col-lg-8.col-md-8.col-sm-12 {
+          padding: 0;  // TODO: Better fix to have a nice space between buttons
+        }
+
         .btn.btn-default, input {
           font-size: 16px;
         }
