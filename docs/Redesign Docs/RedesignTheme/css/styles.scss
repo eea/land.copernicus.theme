@@ -520,6 +520,27 @@ footer .text ul li .fa-arrow-up {
   border: none;
   border-radius: 0px;
   margin-top: $dim2;
+  font-size: 16px;
+
+  li {
+    padding: 0px;
+  }
+
+  li a {
+    height: $dim8;
+    padding-left: $dim4;
+    padding-right: $dim4;
+    padding-top: $dim2;
+    padding-bottom: 0px;
+  }
+
+  li:first-child {
+    margin-top: -5px;
+  }
+
+  li:last-child {
+    margin-bottom: -5px;
+  }
 
   li a:hover {
     @extend .bg-green-light;

@@ -6591,7 +6591,20 @@ footer .text {
 .navbar-nav ul.dropdown-menu {
   border: none;
   border-radius: 0px;
-  margin-top: 6px; }
+  margin-top: 6px;
+  font-size: 16px; }
+  .navbar-nav ul.dropdown-menu li {
+    padding: 0px; }
+  .navbar-nav ul.dropdown-menu li a {
+    height: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 0px; }
+  .navbar-nav ul.dropdown-menu li:first-child {
+    margin-top: -5px; }
+  .navbar-nav ul.dropdown-menu li:last-child {
+    margin-bottom: -5px; }
 
 .btn-default,
 .btn-primary,
