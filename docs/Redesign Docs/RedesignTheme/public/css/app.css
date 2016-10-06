@@ -6509,6 +6509,9 @@ footer .text {
 .utils .list-inline.land-list-separated li:last-child:after {
   content: ''; }
 
+.utils .list-inline.land-list-separated li:last-child {
+  margin-right: -6px; }
+
 .utils .list-inline > li {
   padding-right: 0px; }
 

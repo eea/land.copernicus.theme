@@ -406,6 +406,10 @@ footer {
     content: '';
   }
 
+  .list-inline.land-list-separated li:last-child {
+    margin-right: -$dim2;
+  }
+
   .list-inline > li {
     padding-right: 0px;
   }
