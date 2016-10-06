@@ -6425,6 +6425,11 @@ body {
           margin-right: -6px; }
         #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li {
           padding-right: 0px; }
+      #header-section .container-fluid#land-brand-utils .content .utils .btn.btn-default, #header-section .container-fluid#land-brand-utils .content .utils input {
+        font-size: 16px; }
+      #header-section .container-fluid#land-brand-utils .content .utils input.form-control.search-bar {
+        height: 100%;
+        border-color: #FFFFFF; }
 
 .main-content {
   background: #FFFFFF;
@@ -6609,10 +6614,6 @@ footer .text {
   background-image: none;
   box-shadow: none;
   border: none; }
-
-input.form-control.search-bar {
-  border: none;
-  height: 100%; }
 
 .listing.block-inset ul {
   padding-left: 0px; }
