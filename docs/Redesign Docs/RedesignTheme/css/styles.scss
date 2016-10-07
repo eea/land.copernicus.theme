@@ -303,10 +303,12 @@ a:hover {
 .breadcrumbs {
   @extend .margin-content;
 
-  padding: $dim3;
+  padding-top: $dim3;
+  padding-left: $dim3;
   margin-top: -$dim7;
 
   .breadcrumb {
+    padding: 0px;
     background: $transparent;
 
     li {
