@@ -6540,8 +6540,13 @@ footer .text {
     footer .text .list-inline.land-list-separated .go-top:hover {
       color: #5B6800; }
 
-#content-section {
+#content-section.homepage {
   top: 300px;
+  position: relative;
+  z-index: 2 !important; }
+
+#content-section.simple-page {
+  top: 400px;
   position: relative;
   z-index: 2 !important; }
 

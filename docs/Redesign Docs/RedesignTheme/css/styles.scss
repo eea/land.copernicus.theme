@@ -466,8 +466,14 @@ footer {
   }
 }
 
-#content-section {
+#content-section.homepage {
   top: 300px;
+  position: relative;
+  z-index: 2 !important;
+}
+
+#content-section.simple-page {
+  top: 400px;
   position: relative;
   z-index: 2 !important;
 }
