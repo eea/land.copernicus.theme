@@ -476,11 +476,13 @@ footer {
 }
 
 .event-date {
+  @extend .color-gray-dark;
+
   float: left;
   margin-right: 1rem;
   display: inline-block;
-  padding: $dim2;
-  border: 1px solid #d8d8d8;
+  padding: $dim3;
+  border: 2px solid $gray-lighter;
   border-radius: $dim3;
   text-align: center;
   font-size: smaller;

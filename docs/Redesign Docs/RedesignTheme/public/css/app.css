@@ -6319,7 +6319,7 @@ button.close {
 .color-gray-light {
   color: #A4A4A4; }
 
-.color-gray-dark, .land-box1, .land-jumbotron, .images-slider .carousel-caption p, footer .partners .partners-banners, .snippet .event-body p,
+.color-gray-dark, .land-box1, .land-jumbotron, .images-slider .carousel-caption p, footer .partners .partners-banners, .event-date, .snippet .event-body p,
 .snippet .news-body p {
   color: #5C5C5C; }
 
@@ -6551,8 +6551,8 @@ footer .text {
   float: left;
   margin-right: 1rem;
   display: inline-block;
-  padding: 6px;
-  border: 1px solid #d8d8d8;
+  padding: 10px;
+  border: 2px solid #EFEFEF;
   border-radius: 10px;
   text-align: center;
   font-size: smaller;
