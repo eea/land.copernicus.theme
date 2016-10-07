@@ -300,6 +300,13 @@ a:hover {
   margin-top: 0px;
 }
 
+.breadcrumbs {
+  @extend .margin-content;
+
+  padding: $dim3;
+  margin-top: -$dim7;
+}
+
 .land-jumbotron {
   @extend .shadow-gray-dark;
   @extend .margin-content;

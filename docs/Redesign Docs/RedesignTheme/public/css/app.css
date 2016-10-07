@@ -6380,7 +6380,7 @@ button.close {
   background-attachment: fixed;
   background-color: #EFEFEF; }
 
-.margin-content, #header-section .container-fluid#land-brand-utils .content, .main-content, .land-jumbotron, .images-slider, .menu-sections, footer {
+.margin-content, #header-section .container-fluid#land-brand-utils .content, .main-content, .breadcrumbs, .land-jumbotron, .images-slider, .menu-sections, footer {
   margin-left: 15%;
   margin-right: 15%; }
 
@@ -6444,6 +6444,10 @@ body {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   margin-top: 0px; }
+
+.breadcrumbs {
+  padding: 10px;
+  margin-top: -28px; }
 
 .land-jumbotron {
   background: #FFFFFF;
