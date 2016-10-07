@@ -475,5 +475,23 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 
+    <script>
+      $(document).ready(function(){
+        /* sticky menu */
+        $(function() {
+          var div = $("nav.navbar-default");
+          $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 100) {
+              div.addClass("sticky");
+            } else {
+              div.removeClass("sticky");
+            }
+          });
+        });
+      });
+    </script>
+
   </body>
 </html>

@@ -564,6 +564,13 @@ footer .text ul li .fa-arrow-up {
   }
 }
 
+.navbar-default.sticky {
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  border-top: 0;
+}
+
 .navbar-nav ul.dropdown-menu {
   @extend .bg-green-primary;
   border: none;
