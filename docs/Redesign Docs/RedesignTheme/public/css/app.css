@@ -6672,3 +6672,6 @@ footer .text {
   padding-left: 0px; }
   .listing.block-inset ul li {
     list-style: none; }
+
+ul.user-corner-menu li {
+  font-size: 16px; }
