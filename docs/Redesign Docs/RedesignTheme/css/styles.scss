@@ -305,6 +305,14 @@ a:hover {
 
   padding: $dim3;
   margin-top: -$dim7;
+
+  .breadcrumb {
+    background: $transparent;
+
+    li {
+      color: $gray-darker;
+    }
+  }
 }
 
 .land-jumbotron {

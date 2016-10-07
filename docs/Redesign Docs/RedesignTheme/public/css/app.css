@@ -6448,6 +6448,10 @@ body {
 .breadcrumbs {
   padding: 10px;
   margin-top: -28px; }
+  .breadcrumbs .breadcrumb {
+    background: transparent; }
+    .breadcrumbs .breadcrumb li {
+      color: #1E1E1E; }
 
 .land-jumbotron {
   background: #FFFFFF;
