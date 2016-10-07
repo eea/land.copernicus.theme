@@ -6464,10 +6464,10 @@ body {
   .land-jumbotron a:hover .circle img {
     border: 9px solid #E3F37D; }
   .land-jumbotron .circle {
-    width: 150px;
-    height: 150px;
+    width: 55%;
+    height: 55%;
     position: relative;
-    left: 23%; }
+    left: 21%; }
   .land-jumbotron .circle img {
     border-radius: 50%;
     border: 9px solid #A0B228;
