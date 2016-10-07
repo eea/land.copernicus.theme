@@ -452,6 +452,15 @@ footer {
       li {
         padding-right: 0px;
       }
+
+      .go-top {
+        color: $gray-darker;
+        text-decoration: none;
+      }
+
+      .go-top:hover {
+        color: $green-darker;
+      }
     }
   }
 }

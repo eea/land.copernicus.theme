@@ -6533,6 +6533,11 @@ footer .text {
       margin-right: -6px; }
     footer .text .list-inline.land-list-separated li {
       padding-right: 0px; }
+    footer .text .list-inline.land-list-separated .go-top {
+      color: #1E1E1E;
+      text-decoration: none; }
+    footer .text .list-inline.land-list-separated .go-top:hover {
+      color: #5B6800; }
 
 #content-section {
   top: 300px;
