@@ -6451,7 +6451,13 @@ body {
   .breadcrumbs .breadcrumb {
     background: transparent; }
     .breadcrumbs .breadcrumb li {
-      color: #1E1E1E; }
+      color: #5C5C5C; }
+    .breadcrumbs .breadcrumb li.home:before {
+      content: "\f041  ";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      margin-right: 10px; }
 
 .land-jumbotron {
   background: #FFFFFF;

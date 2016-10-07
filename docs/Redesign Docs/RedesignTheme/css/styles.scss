@@ -310,7 +310,15 @@ a:hover {
     background: $transparent;
 
     li {
-      color: $gray-darker;
+      color: $gray-dark;
+    }
+
+    li.home:before {
+      content: "\f041  ";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      margin-right: $dim3;
     }
   }
 }
