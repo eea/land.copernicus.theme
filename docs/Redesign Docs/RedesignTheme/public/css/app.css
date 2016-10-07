@@ -6612,10 +6612,12 @@ footer .text {
     font-size: 18px; }
 
 .navbar-default.sticky {
+  width: 100%;
   position: fixed;
   top: 0px;
   z-index: 100;
-  border-top: 0; }
+  border-top: 0;
+  border-bottom: 1px solid #819110; }
 
 .navbar-nav ul.dropdown-menu {
   border: none;

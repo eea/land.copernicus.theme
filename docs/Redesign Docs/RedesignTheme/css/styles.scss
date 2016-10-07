@@ -565,10 +565,12 @@ footer .text ul li .fa-arrow-up {
 }
 
 .navbar-default.sticky {
+  width: 100%;
   position: fixed;
   top: 0px;
   z-index: 100;
   border-top: 0;
+  border-bottom: $dim0 solid $green-dark;
 }
 
 .navbar-nav ul.dropdown-menu {
