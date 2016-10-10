@@ -696,3 +696,13 @@ article {
     margin-bottom: $dim2;
   }
 }
+
+
+// MOBILE and responsivity fixes ======================================
+@media (max-width: 700px) {
+  #content-section.simple-page {
+    top: $dim12 + $dim12;
+    position: relative;
+    z-index: 2 !important;
+  }
+}
