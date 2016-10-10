@@ -503,7 +503,7 @@ footer {
 }
 
 #content-section.simple-page {
-  top: 400px;
+  top: $dim12 + $dim9 + $dim7;
   position: relative;
   z-index: 2 !important;
 }
