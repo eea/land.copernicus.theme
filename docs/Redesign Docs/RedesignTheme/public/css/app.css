@@ -6684,3 +6684,8 @@ ul.user-corner-menu {
 
 .land-doc-info {
   margin-bottom: 18px; }
+
+article img {
+  max-width: 100%;
+  margin-top: 6px;
+  margin-bottom: 6px; }

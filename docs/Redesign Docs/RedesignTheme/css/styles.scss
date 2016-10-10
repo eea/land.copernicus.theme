@@ -680,4 +680,10 @@ ul.user-corner-menu {
 
 article {
   @extend .color-gray-darker;
+
+  img {
+    max-width: 100%;
+    margin-top: $dim2;
+    margin-bottom: $dim2;
+  }
 }
