@@ -3954,11 +3954,11 @@ tbody.collapse.in {
     color: #1E1E1E;
     background-color: #BDCE49; }
   .navbar-default .navbar-toggle {
-    border-color: #ddd; }
+    border-color: #819110; }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: #ddd; }
+      background-color: #819110; }
     .navbar-default .navbar-toggle .icon-bar {
-      background-color: #888; }
+      background-color: #FFFFFF; }
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
     border-color: #A0B228; }
@@ -6644,6 +6644,9 @@ footer .text {
   z-index: 100;
   border-top: 0;
   border-bottom: 1px solid #819110; }
+
+.navbar-default {
+  z-index: 100; }
 
 .navbar-nav ul.dropdown-menu {
   border: none;

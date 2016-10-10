@@ -610,6 +610,10 @@ footer .text ul li .fa-arrow-up {
   border-bottom: $dim0 solid $green-dark;
 }
 
+.navbar-default {
+  z-index: 100;
+}
+
 .navbar-nav ul.dropdown-menu {
   @extend .bg-green-primary;
   border: none;
