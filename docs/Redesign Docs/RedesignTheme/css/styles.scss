@@ -674,6 +674,10 @@ ul.user-corner-menu {
 }
 
 .land-doc-info {
-  @extend .color-gray-light;
+  @extend .color-gray-dark;
   margin-bottom: $dim5;
+}
+
+article {
+  @extend .color-gray-darker;
 }

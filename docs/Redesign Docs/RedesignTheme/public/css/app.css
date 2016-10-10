@@ -6316,14 +6316,14 @@ button.close {
 .color-gray-lighter {
   color: #EFEFEF; }
 
-.color-gray-light, .land-doc-info {
+.color-gray-light {
   color: #A4A4A4; }
 
 .color-gray-dark, .land-box1, .land-jumbotron, .images-slider .carousel-caption p, footer .partners .partners-banners, .event-date, .snippet .event-body p,
-.snippet .news-body p {
+.snippet .news-body p, .land-doc-info {
   color: #5C5C5C; }
 
-.color-gray-darker, body, .images-slider .carousel-caption h4, footer .text, .navbar-nav ul.dropdown-menu li a {
+.color-gray-darker, body, .images-slider .carousel-caption h4, footer .text, .navbar-nav ul.dropdown-menu li a, article {
   color: #1E1E1E; }
 
 .bg-white, .land-box1, footer .partners .partners-banners {
