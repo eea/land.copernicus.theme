@@ -699,10 +699,19 @@ article {
 
 
 // MOBILE and responsivity fixes ======================================
-@media (max-width: 700px) {
+@media (max-width: 800px) {  // TODO: improve for multiple screen sizes
   #content-section.simple-page {
     top: $dim12 + $dim12;
     position: relative;
     z-index: 2 !important;
+  }
+
+  .carousel-caption {  // TODO: improve for multiple screen sizes
+    font-size: 5px;
+    margin-bottom: $dim5 !important;
+
+    h4  {
+      font-size: 10px;
+    }
   }
 }
