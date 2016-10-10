@@ -287,6 +287,11 @@ a:hover {
   }
 }
 
+#header-section.simple-page {
+  background-image: url("./../images/header-main-photo-crop.jpg");
+  height: $dim12 + $dim8;
+}
+
 .main-content {
   @extend .shadow-gray-light;
   @extend .margin-content;

@@ -6436,6 +6436,10 @@ body {
         height: 100%;
         border-color: #FFFFFF; }
 
+#header-section.simple-page {
+  background-image: url("./../images/header-main-photo-crop.jpg");
+  height: 233px; }
+
 .main-content {
   background: #FFFFFF;
   padding: 10px;
