@@ -6316,7 +6316,7 @@ button.close {
 .color-gray-lighter {
   color: #EFEFEF; }
 
-.color-gray-light {
+.color-gray-light, .land-doc-info {
   color: #A4A4A4; }
 
 .color-gray-dark, .land-box1, .land-jumbotron, .images-slider .carousel-caption p, footer .partners .partners-banners, .event-date, .snippet .event-body p,
@@ -6681,3 +6681,6 @@ ul.user-corner-menu {
     padding-bottom: 10px; }
     ul.user-corner-menu li img {
       width: 18px; }
+
+.land-doc-info {
+  margin-bottom: 18px; }

@@ -672,3 +672,8 @@ ul.user-corner-menu {
     }
   }
 }
+
+.land-doc-info {
+  @extend .color-gray-light;
+  margin-bottom: $dim5;
+}
