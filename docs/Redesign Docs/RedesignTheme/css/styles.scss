@@ -706,6 +706,12 @@ article {
     z-index: 2 !important;
   }
 
+  #content-section.homepage {  // TODO: improve for multiple screen sizes
+    top: $dim12 + $dim12;
+    position: relative;
+    z-index: 2 !important;
+  }
+
   .carousel-caption {  // TODO: improve for multiple screen sizes
     font-size: 5px;
     margin-bottom: $dim5 !important;

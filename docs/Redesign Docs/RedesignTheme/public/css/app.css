@@ -6702,6 +6702,10 @@ article img {
     top: 394px;
     position: relative;
     z-index: 2 !important; }
+  #content-section.homepage {
+    top: 394px;
+    position: relative;
+    z-index: 2 !important; }
   .carousel-caption {
     font-size: 5px;
     margin-bottom: 18px !important; }
