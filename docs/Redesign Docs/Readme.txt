@@ -18,7 +18,7 @@ Edit theme/static/redesign-index.html
     Replace script sources with:
         https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js
         https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js
-
+    Replace: ./index.html with ./
 Edit theme/skins/copernicus_theme_styles/redesign-app.css
     Find: background-image: url( and fix paths. Example: ./image.png
     Replace: "../fonts/bootstrap/" with "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/fonts/"
