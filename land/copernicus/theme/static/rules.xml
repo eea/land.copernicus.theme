@@ -6,6 +6,20 @@
   <rules css:if-content=".section-copernicus-the-european-earth-observation-programme">
     <!-- Homepage rules -->
     <theme href="redesign-index.html" />
+
+    <replace css:theme-children="div.utils ul.land-list-separated">
+      <xsl:for-each css:select="#portal-siteactions li a">
+        <li>
+          <xsl:copy-of select="current()" />
+        </li>
+      </xsl:for-each>
+      <xsl:for-each css:select="#portal-personaltools-wrapper li a">
+        <li>
+          <xsl:copy-of select="current()" />
+        </li>
+      </xsl:for-each>
+    </replace>
+
   </rules>
 
   <rules css:if-not-content=".section-copernicus-the-european-earth-observation-programme">
