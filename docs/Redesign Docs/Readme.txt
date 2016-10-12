@@ -15,3 +15,6 @@ Copy: RedesignTheme/public/images to theme/skins/copernicus_theme_images/
 Edit theme/static/redesign-index.html
     Replace ./public/css/app.css with ./redesign-app.css
     Replace "/public/images" with "" (none)
+    Replace script sources with:
+        https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js
+        https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js
