@@ -8,3 +8,4 @@ New theme configuration notes
 =============================
 (Steps we used in implementation process of Redesign Theme in Plone with Diazo.)
 
+Copy: RedesignTheme/index.html to theme/static/redesign-index.html

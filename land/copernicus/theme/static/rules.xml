@@ -5,6 +5,7 @@
 
   <rules css:if-content=".section-copernicus-the-european-earth-observation-programme">
     <!-- Homepage rules -->
+    <theme href="redesign-index.html" />
   </rules>
 
   <rules css:if-not-content=".section-copernicus-the-european-earth-observation-programme">
