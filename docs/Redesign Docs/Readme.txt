@@ -11,7 +11,7 @@ New theme configuration notes
 Copy: RedesignTheme/index.html to theme/static/redesign-index.html
 Copy: RedesignTheme/public/css/app.css to theme/skins/copernicus_theme_styles/redesign-app.css
 Run step: 2.4.1 for land.copernicus.theme
-Copy: RedesignTheme/public/images to theme/skins/copernicus_theme_images/
+Copy: RedesignTheme/public/images files to theme/skins/copernicus_theme_images/
 Edit theme/static/redesign-index.html
     Replace ./public/css/app.css with ./redesign-app.css
     Replace "/public/images" with "" (none)
@@ -21,3 +21,4 @@ Edit theme/static/redesign-index.html
 
 Edit theme/skins/copernicus_theme_styles/redesign-app.css
     Find: background-image: url( and fix paths. Example: ./image.png
+    Replace: "../fonts/bootstrap/" with "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/fonts/"
