@@ -40,4 +40,14 @@
       />
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="*"
+    destination="2.4.1"
+    profile="land.copernicus.theme:default">
+
+    <genericsetup:upgradeDepends
+      title="Redesign related step: import stylesheets."
+      import_steps="cssregistry"
+      />
+  </genericsetup:upgradeSteps>
 </configure>

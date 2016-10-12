@@ -11,4 +11,9 @@
     media="handheld, screen and (max-device-width: 480px)"
     applyPrefix="True" />
 
+  <stylesheet
+    id="redesign-app.css"
+    expression="request/HTTP_X_THEME_ENABLED | nothing"
+    applyPrefix="True" />
+
 </object>
