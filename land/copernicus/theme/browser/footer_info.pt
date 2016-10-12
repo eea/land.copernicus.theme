@@ -4,5 +4,7 @@
                   localized_date python: here.toLocalizedTime(last_update_date)">
     Last update <span tal:replace="localized_date">May 31, 2013</span>
   </li>
-  <li><a href="#">Top</a></li>
+  <li>
+    <a href="#" class="go-top">Top <i class="fa fa-arrow-up"></i></a>
+  </li>
 </ul>
