@@ -22,3 +22,7 @@ Edit theme/static/redesign-index.html
 Edit theme/skins/copernicus_theme_styles/redesign-app.css
     Find: background-image: url( and fix paths. Example: ./image.png
     Replace: "../fonts/bootstrap/" with "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/fonts/"
+
+TODO:
+=====
+Fix top personal menu style.
