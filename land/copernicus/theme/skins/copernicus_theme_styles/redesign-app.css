@@ -6376,7 +6376,7 @@ button.close {
   border: 6px solid #E3F37D; }
 
 .bg-texture, body {
-  background-image: url("../images/bg-old-mathematics2.png");
+  background-image: url("./bg-old-mathematics2.png");
   background-attachment: fixed;
   background-color: #EFEFEF; }
 
@@ -6391,7 +6391,7 @@ body {
   z-index: 1; }
 
 #header-section {
-  background-image: url("./../images/header-main-photo.jpg");
+  background-image: url("./header-main-photo.jpg");
   background-size: cover;
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -6437,7 +6437,7 @@ body {
         border-color: #FFFFFF; }
 
 #header-section.simple-page {
-  background-image: url("./../images/header-main-photo-crop.jpg");
+  background-image: url("./header-main-photo-crop.jpg");
   height: 233px; }
 
 .main-content {
