@@ -3,9 +3,17 @@
        xmlns:css="http://namespaces.plone.org/diazo/css"
        xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+  <!-- REDESIGN -->
   <rules css:if-content=".section-copernicus-the-european-earth-observation-programme">
     <!-- Homepage rules -->
     <theme href="redesign-index.html" />
+
+    <drop theme="/html/head/meta" />
+    <drop theme="/html/head/title" />
+
+    <after content="/html/head/title" theme-children="/html/head" />
+
+    <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
     <replace css:theme-children="div.utils ul.land-list-separated">
       <xsl:for-each css:select="#portal-siteactions li a">
@@ -25,6 +33,7 @@
   <rules css:if-not-content=".section-copernicus-the-european-earth-observation-programme">
     <!-- Simple pages rules -->
     <rules css:if-content="#visual-portal-wrapper">
+      <!-- OLD DESIGN -->
       <theme href="index.html" />
 
       <drop theme="/html/head/meta" />
