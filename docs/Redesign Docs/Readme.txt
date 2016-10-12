@@ -27,3 +27,4 @@ TODO:
 =====
 Fix top personal menu style.
 In navbar use theme fontawesome icon for Home.
+Fix Top link in footer. Add fontawesome.

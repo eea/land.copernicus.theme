@@ -41,6 +41,12 @@
       </xsl:for-each>
     </replace>
 
+    <replace css:theme-children="footer.footer .text ul.list-inline">
+      <xsl:for-each css:select="ul#copernicus-footer-info li">
+        <xsl:copy-of select="current()" />
+      </xsl:for-each>
+    </replace>
+
   </rules>
 
   <rules css:if-not-content=".section-copernicus-the-european-earth-observation-programme">
