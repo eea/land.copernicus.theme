@@ -23,8 +23,10 @@ Edit theme/skins/copernicus_theme_styles/redesign-app.css
     Find: background-image: url( and fix paths. Example: ./image.png
     Replace: "../fonts/bootstrap/" with "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/fonts/"
 
+ADD fixes in theme/skins/copernicus_theme_styles/redesign-app.css
+
+
 TODO:
 =====
-Fix top personal menu style.
 In navbar use theme fontawesome icon for Home.
 Fix Top link in footer. Add fontawesome.
