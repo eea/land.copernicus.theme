@@ -26,3 +26,4 @@ Edit theme/skins/copernicus_theme_styles/redesign-app.css
 TODO:
 =====
 Fix top personal menu style.
+In navbar use theme fontawesome icon for Home.
