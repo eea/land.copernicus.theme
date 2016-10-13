@@ -20,6 +20,12 @@ Edit theme/static/redesign-index.html
         https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js
     Replace: ./index.html with ./
     Fix partners link: ./user-corner/partners
+    Replace button with
+        <a href="./contact-form" class="btn btn-default">
+          <i class="fa fa-envelope"></i>
+          Ask the service desk
+        </a>
+    Solve a href="#" for important pages.
 
 Edit theme/skins/copernicus_theme_styles/redesign-app.css
     Find: background-image: url( and fix paths. Example: ./image.png
@@ -30,4 +36,6 @@ ADD fixes in theme/skins/copernicus_theme_styles/redesign-app.css
 
 TODO:
 =====
+Implement Search.
+
 In navbar use theme fontawesome icon for Home.
