@@ -13,6 +13,8 @@
     <drop theme="/html/head/title" />
     <after content="/html/head/title" theme-children="/html/head" />
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
+    <after content="/html/head/meta" theme-children="/html/head" />
+    <drop css:theme=".portlet-content" />
 
     <!-- Top right corner menu -->
     <replace css:theme-children="div.utils ul.land-list-separated">
@@ -61,6 +63,8 @@
       <drop theme="/html/head/title" />
       <after content="/html/head/title" theme-children="/html/head" />
       <copy attributes="class id dir" content="/html/body" theme="/html/body" />
+      <after content="/html/head/meta" theme-children="/html/head" />
+      <drop css:content=".portlet-static-partners" />
 
       <!-- Top right corner menu -->
       <replace css:theme-children="div.utils ul.land-list-separated">
@@ -101,6 +105,8 @@
     <!-- Main content -->
     <replace css:theme-children="article.main" css:content-children="#portal-column-content"/>
 
+    <replace css:theme-children="[data-diazo='land-secondary-column']" css:content-children="#portal-column-two" />
+
     <!-- Breadcrumbs -->
     <replace css:theme-children="ol.breadcrumb" css:content-children="#portal-breadcrumbs" />
     <drop css:content="#portal-breadcrumbs" />
@@ -110,50 +116,15 @@
 </rules>
 
       <!-- OLD DESIGN -->
-      <!-- <theme href="index.html" /> -->
+      <!-- <theme href="index.html" />
 
-      <!--       <drop theme="/html/head/meta" />
-      <drop theme="/html/head/title" />
       <drop theme="/html/head/script" />
       <drop theme="/html/head/link" />
 
-      <after content="/html/head/title" theme-children="/html/head" />
-      <after content="/html/head/meta" theme-children="/html/head" />
       <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
              theme-children="/html/head" />
 
-      <copy attributes="class id dir" content="/html/body" theme="/html/body" />
-
-      <replace css:theme-children="#nav">
-        <xsl:for-each css:select="#portal-globalnav li">
-          <xsl:if test="not(@id = 'portaltab-user-corner')">
-            <xsl:element name='li'>
-              <xsl:attribute name="id">
-                <xsl:value-of select="@id" />
-              </xsl:attribute>
-              <h2>
-                <xsl:copy-of select="./*"/>
-              </h2>
-            </xsl:element>
-          </xsl:if>
-        </xsl:for-each>
-      </replace>
-
-      <replace css:theme="div.top-menu ul">
-        <ul>
-          <xsl:for-each css:select="#portal-siteactions li">
-            <xsl:copy-of select="current()" />
-          </xsl:for-each>
-          <xsl:for-each css:select="#portal-personaltools-wrapper li">
-            <xsl:copy-of select="current()" />
-          </xsl:for-each>
-        </ul>
-      </replace>
-
-      <replace css:theme-children="#portal-breadcrumbs" css:content-children="#portal-breadcrumbs" />
       <replace css:theme-children="#site-identity" css:content-children="#site-identity" />
-
-      <drop css:theme=".portlet-content" />
 
       <replace css:theme-children="#user-corner-portlet" css:content-children="#portal-column-two" />
 
