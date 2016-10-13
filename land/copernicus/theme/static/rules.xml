@@ -111,6 +111,14 @@
     <replace css:theme-children="ol.breadcrumb" css:content-children="#portal-breadcrumbs" />
     <drop css:content="#portal-breadcrumbs" />
 
+    <!-- Print page -->
+    <replace css:content="#parent-fieldname-title" >
+      <xsl:copy-of select="."/>
+      <a href="javascript:window.print()" class="printButton">
+        <img src="print.png" alt="" />Print
+      </a>
+    </replace>
+
   </rules>
 
 </rules>
@@ -128,16 +136,6 @@
 
       <replace css:theme-children="#user-corner-portlet" css:content-children="#portal-column-two" />
 
-      <drop css:content="#portal-breadcrumbs" />
-
-      <replace css:theme-children=".tabbed-content" css:content-children="#portal-column-content"/>
-
-      <replace css:content="#parent-fieldname-title" >
-        <xsl:copy-of select="."/>
-        <a href="javascript:window.print()" class="printButton">
-          <img src="print.png" alt="" />Print
-        </a>
-      </replace>
 
       <replace css:theme-children="#copernicus-footer-info" css:content-children="#copernicus-footer-info" />
       <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" /> -->
