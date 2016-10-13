@@ -36,6 +36,7 @@ ADD fixes in theme/skins/copernicus_theme_styles/redesign-app.css
 
 Edit theme/static/redesign-simple-page.html
     Fix resources
+    Add data-diazo for land-secondary-column
 
 TODO:
 =====
@@ -48,3 +49,4 @@ Fix space in footer bottom.
 Navbar to have suboptions if any.
 Admin menu.
 Fix breadcrumbs wrong markup and add fontawesome icon before You are here.
+Fix print button: fontawesome icon.

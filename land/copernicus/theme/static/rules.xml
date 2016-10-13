@@ -15,6 +15,12 @@
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
     <after content="/html/head/meta" theme-children="/html/head" />
     <drop css:theme=".portlet-content" />
+    <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
+
+    <!-- TODO: Fix styles conflict here. -->
+    <!-- <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
+             theme-children="/html/head" />
+     -->
 
     <!-- Top right corner menu -->
     <replace css:theme-children="div.utils ul.land-list-separated">
@@ -65,6 +71,12 @@
       <copy attributes="class id dir" content="/html/body" theme="/html/body" />
       <after content="/html/head/meta" theme-children="/html/head" />
       <drop css:content=".portlet-static-partners" />
+      <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
+
+    <!-- TODO: Fix styles conflict here. -->
+    <!-- <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
+             theme-children="/html/head" />
+     -->
 
       <!-- Top right corner menu -->
       <replace css:theme-children="div.utils ul.land-list-separated">
@@ -122,21 +134,3 @@
   </rules>
 
 </rules>
-
-      <!-- OLD DESIGN -->
-      <!-- <theme href="index.html" />
-
-      <drop theme="/html/head/script" />
-      <drop theme="/html/head/link" />
-
-      <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
-             theme-children="/html/head" />
-
-      <replace css:theme-children="#site-identity" css:content-children="#site-identity" />
-
-      <replace css:theme-children="#user-corner-portlet" css:content-children="#portal-column-two" />
-
-
-      <replace css:theme-children="#copernicus-footer-info" css:content-children="#copernicus-footer-info" />
-      <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" /> -->
-
