@@ -44,3 +44,6 @@ Implement Search option.
 Implement News list.
 Implement Events list.
 Remove scripts from redesign-simple-page.html and redesign-index.html. Move in portal javascripts or use existing (jquery).
+Fix space in footer bottom.
+Navbar to have suboptions if any.
+Admin menu.

@@ -8,13 +8,13 @@
     <!-- Homepage rules -->
     <theme href="redesign-index.html" />
 
+    <!-- General -->
     <drop theme="/html/head/meta" />
     <drop theme="/html/head/title" />
-
     <after content="/html/head/title" theme-children="/html/head" />
-
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
+    <!-- Top right corner menu -->
     <replace css:theme-children="div.utils ul.land-list-separated">
       <xsl:for-each css:select="#portal-siteactions li a">
         <li>
@@ -28,6 +28,7 @@
       </xsl:for-each>
     </replace>
 
+    <!-- Navbar -->
     <replace css:theme-children=".navbar.navbar-default ul.nav.navbar-nav">
       <xsl:for-each css:select="#portal-globalnav li">
         <xsl:if test="not(@id = 'portaltab-user-corner')">
@@ -41,34 +42,27 @@
       </xsl:for-each>
     </replace>
 
+    <!-- Footer -->
     <replace css:theme-children="footer.footer .text ul.list-inline">
       <xsl:for-each css:select="ul#copernicus-footer-info li">
         <xsl:copy-of select="current()" />
       </xsl:for-each>
     </replace>
-
   </rules>
 
   <rules css:if-not-content=".section-copernicus-the-european-earth-observation-programme">
     <!-- Simple pages rules -->
     <rules css:if-content="#visual-portal-wrapper">
       <!-- REDESIGN -->
-      <!-- Simple page rules -->
       <theme href="redesign-simple-page.html" />
 
-
-<!--       <drop theme="/html/head/meta" />
-<drop theme="/html/head/title" />
-<drop theme="/html/head/script" />
-<drop theme="/html/head/link" /> -->
-
-     <!--  <after content="/html/head/title" theme-children="/html/head" />
-     <after content="/html/head/meta" theme-children="/html/head" />
-     <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
-            theme-children="/html/head" />
-      -->
+      <!-- General -->
+      <drop theme="/html/head/meta" />
+      <drop theme="/html/head/title" />
+      <after content="/html/head/title" theme-children="/html/head" />
       <copy attributes="class id dir" content="/html/body" theme="/html/body" />
 
+      <!-- Top right corner menu -->
       <replace css:theme-children="div.utils ul.land-list-separated">
         <xsl:for-each css:select="#portal-siteactions li a">
           <li>
@@ -82,6 +76,7 @@
         </xsl:for-each>
       </replace>
 
+      <!-- Navbar -->
       <replace css:theme-children=".navbar.navbar-default ul.nav.navbar-nav">
         <xsl:for-each css:select="#portal-globalnav li">
           <xsl:if test="not(@id = 'portaltab-user-corner')">
@@ -95,10 +90,60 @@
         </xsl:for-each>
       </replace>
 
+      <!-- Footer -->
       <replace css:theme-children="footer.footer .text ul.list-inline">
         <xsl:for-each css:select="ul#copernicus-footer-info li">
           <xsl:copy-of select="current()" />
         </xsl:for-each>
+      </replace>
+    </rules>
+
+    <!-- Main content -->
+    <replace css:theme-children="article.main" css:content-children="#portal-column-content"/>
+
+  </rules>
+
+</rules>
+
+      <!-- OLD DESIGN -->
+      <!-- <theme href="index.html" /> -->
+
+      <!--       <drop theme="/html/head/meta" />
+      <drop theme="/html/head/title" />
+      <drop theme="/html/head/script" />
+      <drop theme="/html/head/link" />
+
+      <after content="/html/head/title" theme-children="/html/head" />
+      <after content="/html/head/meta" theme-children="/html/head" />
+      <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
+             theme-children="/html/head" />
+
+      <copy attributes="class id dir" content="/html/body" theme="/html/body" />
+
+      <replace css:theme-children="#nav">
+        <xsl:for-each css:select="#portal-globalnav li">
+          <xsl:if test="not(@id = 'portaltab-user-corner')">
+            <xsl:element name='li'>
+              <xsl:attribute name="id">
+                <xsl:value-of select="@id" />
+              </xsl:attribute>
+              <h2>
+                <xsl:copy-of select="./*"/>
+              </h2>
+            </xsl:element>
+          </xsl:if>
+        </xsl:for-each>
+      </replace>
+
+      <replace css:theme="div.top-menu ul">
+        <ul>
+          <xsl:for-each css:select="#portal-siteactions li">
+            <xsl:copy-of select="current()" />
+          </xsl:for-each>
+          <xsl:for-each css:select="#portal-personaltools-wrapper li">
+            <xsl:copy-of select="current()" />
+          </xsl:for-each>
+        </ul>
       </replace>
 
       <replace css:theme-children="#portal-breadcrumbs" css:content-children="#portal-breadcrumbs" />
@@ -110,7 +155,7 @@
 
       <drop css:content="#portal-breadcrumbs" />
 
-      <replace css:theme-children="article.main" css:content-children="#portal-column-content"/>
+      <replace css:theme-children=".tabbed-content" css:content-children="#portal-column-content"/>
 
       <replace css:content="#parent-fieldname-title" >
         <xsl:copy-of select="."/>
@@ -119,76 +164,6 @@
         </a>
       </replace>
 
-      <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
+      <replace css:theme-children="#copernicus-footer-info" css:content-children="#copernicus-footer-info" />
+      <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" /> -->
 
-
-
-
-
-
-      <!-- OLD DESIGN -->
-      <!-- <theme href="index.html" /> -->
-
-<!--       <drop theme="/html/head/meta" />
-<drop theme="/html/head/title" />
-<drop theme="/html/head/script" />
-<drop theme="/html/head/link" />
-
-<after content="/html/head/title" theme-children="/html/head" />
-<after content="/html/head/meta" theme-children="/html/head" />
-<after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
-       theme-children="/html/head" />
-
-<copy attributes="class id dir" content="/html/body" theme="/html/body" />
-
-<replace css:theme-children="#nav">
-  <xsl:for-each css:select="#portal-globalnav li">
-    <xsl:if test="not(@id = 'portaltab-user-corner')">
-      <xsl:element name='li'>
-        <xsl:attribute name="id">
-          <xsl:value-of select="@id" />
-        </xsl:attribute>
-        <h2>
-          <xsl:copy-of select="./*"/>
-        </h2>
-      </xsl:element>
-    </xsl:if>
-  </xsl:for-each>
-</replace>
-
-<replace css:theme="div.top-menu ul">
-  <ul>
-    <xsl:for-each css:select="#portal-siteactions li">
-      <xsl:copy-of select="current()" />
-    </xsl:for-each>
-    <xsl:for-each css:select="#portal-personaltools-wrapper li">
-      <xsl:copy-of select="current()" />
-    </xsl:for-each>
-  </ul>
-</replace>
-
-<replace css:theme-children="#portal-breadcrumbs" css:content-children="#portal-breadcrumbs" />
-<replace css:theme-children="#site-identity" css:content-children="#site-identity" />
-
-<drop css:theme=".portlet-content" />
-
-<replace css:theme-children="#user-corner-portlet" css:content-children="#portal-column-two" />
-
-<drop css:content="#portal-breadcrumbs" />
-
-<replace css:theme-children=".tabbed-content" css:content-children="#portal-column-content"/>
-
-<replace css:content="#parent-fieldname-title" >
-  <xsl:copy-of select="."/>
-  <a href="javascript:window.print()" class="printButton">
-    <img src="print.png" alt="" />Print
-  </a>
-</replace>
-
-<replace css:theme-children="#copernicus-footer-info" css:content-children="#copernicus-footer-info" />
-<after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" /> -->
-
-    </rules>
-  </rules>
-
-</rules>
