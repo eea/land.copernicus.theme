@@ -9,6 +9,7 @@ New theme configuration notes
 (Steps we used in implementation process of Redesign Theme in Plone with Diazo.)
 
 Copy: RedesignTheme/index.html to theme/static/redesign-index.html
+Copy: RedesignTheme/simple-page.html to theme/static/redesign-simple-page.html
 Copy: RedesignTheme/public/css/app.css to theme/skins/copernicus_theme_styles/redesign-app.css
 Run step: 2.4.1 for land.copernicus.theme
 Copy: RedesignTheme/public/images files to theme/skins/copernicus_theme_images/
@@ -33,6 +34,8 @@ Edit theme/skins/copernicus_theme_styles/redesign-app.css
 
 ADD fixes in theme/skins/copernicus_theme_styles/redesign-app.css
 
+Edit theme/static/redesign-simple-page.html
+    Fix resources
 
 TODO:
 =====
@@ -40,3 +43,4 @@ In navbar use theme fontawesome icon for Home.
 Implement Search option.
 Implement News list.
 Implement Events list.
+Remove scripts from redesign-simple-page.html and redesign-index.html. Move in portal javascripts or use existing (jquery).
