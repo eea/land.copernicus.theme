@@ -47,3 +47,4 @@ Remove scripts from redesign-simple-page.html and redesign-index.html. Move in p
 Fix space in footer bottom.
 Navbar to have suboptions if any.
 Admin menu.
+Fix breadcrumbs wrong markup and add fontawesome icon before You are here.

@@ -101,6 +101,10 @@
     <!-- Main content -->
     <replace css:theme-children="article.main" css:content-children="#portal-column-content"/>
 
+    <!-- Breadcrumbs -->
+    <replace css:theme-children="ol.breadcrumb" css:content-children="#portal-breadcrumbs" />
+    <drop css:content="#portal-breadcrumbs" />
+
   </rules>
 
 </rules>
