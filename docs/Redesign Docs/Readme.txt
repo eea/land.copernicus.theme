@@ -36,6 +36,7 @@ ADD fixes in theme/skins/copernicus_theme_styles/redesign-app.css
 
 TODO:
 =====
-Implement Search.
-
 In navbar use theme fontawesome icon for Home.
+Implement Search option.
+Implement News list.
+Implement Events list.
