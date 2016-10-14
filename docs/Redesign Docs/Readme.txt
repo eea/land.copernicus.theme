@@ -27,6 +27,7 @@ Edit theme/static/redesign-index.html
           Ask the service desk
         </a>
     Solve a href="#" for important pages.
+    Remove jquery script
 
 Edit theme/skins/copernicus_theme_styles/redesign-app.css
     Find: background-image: url( and fix paths. Example: ./image.png
@@ -37,6 +38,7 @@ ADD fixes in theme/skins/copernicus_theme_styles/redesign-app.css
 Edit theme/static/redesign-simple-page.html
     Fix resources
     Add data-diazo for land-secondary-column
+    Remove jquery script
 
 TODO:
 =====
@@ -44,9 +46,10 @@ In navbar use theme fontawesome icon for Home.
 Implement Search option.
 Implement News list.
 Implement Events list.
-Remove scripts from redesign-simple-page.html and redesign-index.html. Move in portal javascripts or use existing (jquery).
+Remove scripts from redesign-simple-page.html and redesign-index.html. Move in portal javascripts or use existing (bootstrap).
 Fix space in footer bottom.
 Navbar to have suboptions if any.
 Admin menu.
 Fix breadcrumbs wrong markup and add fontawesome icon before You are here.
-Datatables is broken in Download tab: /local/urban-atlas/urban-atlas-2012/view
+Fix editor bar styles - it's ugly.
+Fix print button position.
