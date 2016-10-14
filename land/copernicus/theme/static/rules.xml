@@ -16,8 +16,6 @@
     <after content="/html/head/meta" theme-children="/html/head" />
     <drop css:theme=".portlet-content" />
     <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
-
-    <!-- TODO: Fix styles conflict here. -->
     <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
            theme-children="/html/head" />
 
@@ -71,9 +69,7 @@
       <after content="/html/head/meta" theme-children="/html/head" />
       <drop css:content=".portlet-static-partners" />
       <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
-
-    <!-- TODO: Fix styles conflict here. -->
-    <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
+      <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
              theme-children="/html/head" />
 
       <!-- Top right corner menu -->
@@ -125,7 +121,7 @@
     <replace css:content="#parent-fieldname-title" >
       <xsl:copy-of select="."/>
       <a href="javascript:window.print()" class="printButton">
-        <img src="print.png" alt="" />Print
+        <i class="fa fa-print"></i> Print
       </a>
     </replace>
 
