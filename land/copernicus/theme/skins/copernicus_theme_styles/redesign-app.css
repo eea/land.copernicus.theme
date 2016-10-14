@@ -6745,3 +6745,13 @@ div.row {
 .land-jumbotron a {
   color: inherit;
 }
+
+#edit-bar {
+  height: 29px;
+}
+
+#contentActionMenus {
+  height: 29px;
+  padding: 7px;
+  margin-right: 10px;
+}
