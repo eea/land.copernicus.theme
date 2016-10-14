@@ -53,3 +53,4 @@ Admin menu.
 Fix breadcrumbs wrong markup and add fontawesome icon before You are here.
 Fix editor bar styles - it's ugly.
 Fix print button position.
+Fix Search button height.

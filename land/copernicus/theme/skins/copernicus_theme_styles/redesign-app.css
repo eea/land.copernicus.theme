@@ -6729,11 +6729,19 @@ footer .text .list-inline.land-list-separated .go-top {
   top: 22px;  /* TODO: Investigate why. Find better fix. */
 }
 
-a:visited {
+a:link, a:visited {
   color: #A0B228;
+}
+
+a.btn:link, a.btn:visited {
+  color: #FFFFFF;
 }
 
 div.row {
   float: none;
   width: auto;
+}
+
+.land-jumbotron a {
+  color: inherit;
 }
