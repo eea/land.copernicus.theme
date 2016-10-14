@@ -18,9 +18,8 @@
     <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
 
     <!-- TODO: Fix styles conflict here. -->
-    <!-- <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
-             theme-children="/html/head" />
-     -->
+    <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
+           theme-children="/html/head" />
 
     <!-- Top right corner menu -->
     <replace css:theme-children="div.utils ul.land-list-separated">
@@ -74,9 +73,8 @@
       <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
 
     <!-- TODO: Fix styles conflict here. -->
-    <!-- <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
+    <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
              theme-children="/html/head" />
-     -->
 
       <!-- Top right corner menu -->
       <replace css:theme-children="div.utils ul.land-list-separated">
