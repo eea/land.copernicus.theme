@@ -6794,3 +6794,7 @@ div.images-slider a.right.carousel-control span {
 a.printButton {
   float: right;
 }
+
+.detailed-metadata-container dl dd a {
+  display: inline-block;
+}
