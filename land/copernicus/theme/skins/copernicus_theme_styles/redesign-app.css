@@ -6790,3 +6790,7 @@ div.images-slider a.right.carousel-control span {
 #edit-bar ul li {
   padding: 2px;
 }
+
+a.printButton {
+  float: right;
+}
