@@ -53,3 +53,4 @@ Fix space in footer bottom.
 Navbar to have suboptions if any.
 Admin menu.
 Fix breadcrumbs wrong markup and add fontawesome icon before You are here.
+Fix go to Top button in footer position (see on Firefox).
