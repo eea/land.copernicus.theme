@@ -271,7 +271,7 @@ body #nav {
 
 .photoAlbumEntryTitle {
   font-size: 13px;
-  color: #427597;
+  color: #A0B228;
   width: 96%;
   font-weight: bold;
 }
@@ -296,7 +296,7 @@ dl.portlet a:visited {
 
 #content a:hover,
 dl.portlet a:hover {
-  color: #427597 !important;
+  color: #A0B228 !important;
 }
 
 #content a:link,

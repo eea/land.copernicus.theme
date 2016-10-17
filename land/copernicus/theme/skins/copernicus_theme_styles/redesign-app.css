@@ -6764,3 +6764,7 @@ footer ul.list-inline.land-list-separated {
 ul.user-corner-menu li {
   display: inherit;
 }
+
+div#content a {
+  color: #A0B228 !important;  /* TODO: This is a temporary solution. */
+}
