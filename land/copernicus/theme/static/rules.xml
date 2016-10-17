@@ -111,7 +111,7 @@
     <!-- Main content -->
     <replace css:theme-children="article.main" css:content-children="#portal-column-content"/>
 
-    <replace css:theme-children="[data-diazo='land-secondary-column']" css:content-children="#portal-column-two" />
+    <!-- <replace css:theme-children="[data-diazo='land-secondary-column']" css:content-children="#portal-column-two" /> -->
 
     <!-- Breadcrumbs -->
     <replace css:theme-children="ol.breadcrumb" css:content-children="#portal-breadcrumbs" />

@@ -6760,3 +6760,7 @@ footer ul.list-inline.land-list-separated {
   position: relative;
   top: -6px;
 }
+
+ul.user-corner-menu li {
+  display: inherit;
+}
