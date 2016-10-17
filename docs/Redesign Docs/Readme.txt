@@ -53,5 +53,4 @@ Fix space in footer bottom.
 Navbar to have suboptions if any.
 Admin menu.
 Fix breadcrumbs wrong markup and add fontawesome icon before You are here.
-Fix editor bar styles - it's ugly. (paddings)
 Fix print button position. (see mockup)

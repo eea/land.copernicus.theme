@@ -6786,3 +6786,7 @@ div.images-slider a.right.carousel-control span {
   border: 2px solid #819110;
   background: #819110;
 }
+
+#edit-bar ul li {
+  padding: 2px;
+}
