@@ -16,4 +16,25 @@
     expression="request/HTTP_X_THEME_ENABLED | nothing"
     applyPrefix="True" />
 
+  <!-- Used: -->
+  <stylesheet bundle="default" id="authoring.css" />
+  <stylesheet bundle="default" id="base.css" />
+  <stylesheet bundle="default" id="controlpanel.css" />
+  <stylesheet bundle="default" id="forms.css" />
+  <stylesheet bundle="default" id="IEFixes.css" />
+  <stylesheet bundle="default" id="member.css" />
+  <stylesheet bundle="default" id="reset.css" />
+  <stylesheet bundle="default" id="RTL.css" />
+
+  <!-- Not used styles: -->
+  <stylesheet bundle="sunburst" id="columns.css" />
+  <stylesheet bundle="sunburst" id="deprecated.css" />
+  <stylesheet bundle="sunburst" id="invisibles.css" />
+  <stylesheet bundle="sunburst" id="kupuplone.css" />
+  <stylesheet bundle="sunburst" id="mobile.css" />
+  <stylesheet bundle="sunburst" id="navtree.css" />
+  <stylesheet bundle="sunburst" id="portlets.css" />
+  <stylesheet bundle="sunburst" id="print.css" />
+  <stylesheet bundle="sunburst" id="public.css" />
+
 </object>
