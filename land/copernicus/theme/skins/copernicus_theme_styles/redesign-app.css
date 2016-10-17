@@ -6766,7 +6766,7 @@ ul.user-corner-menu li {
 }
 
 div#content a {
-  color: #A0B228 !important;  /* TODO: This is a temporary solution. */
+  color: #A0B228;
 }
 
 .navbar-brand, .navbar-nav > li > a {

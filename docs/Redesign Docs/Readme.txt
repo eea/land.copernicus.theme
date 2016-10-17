@@ -45,7 +45,6 @@ TODO:
 Implement Search option.
 Implement News list.
 Implement Events list.
-From Plone use only authoring.css.
 Use better fonts from https://fonts.google.com/
 Fix links href for important sections (example: User corner) - we need a better solution here.
 In navbar use theme fontawesome icon for Home.
