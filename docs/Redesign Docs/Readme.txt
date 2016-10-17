@@ -56,4 +56,3 @@ Fix breadcrumbs wrong markup and add fontawesome icon before You are here.
 Fix editor bar styles - it's ugly. (paddings)
 Fix print button position. (see mockup)
 Fix Search button height.
-Fix Ask the service desk link in simple page.
