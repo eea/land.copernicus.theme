@@ -43,7 +43,6 @@ Edit theme/static/redesign-simple-page.html
 TODO:
 =====
 Use better fonts from https://fonts.google.com/
-Remove text shadows (example: in navbar).
 From Plone use only authoring.css.
 Fix links href for important sections (example: User corner) - we need a better solution here.
 In navbar use theme fontawesome icon for Home.

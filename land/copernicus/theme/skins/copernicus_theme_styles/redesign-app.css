@@ -6768,3 +6768,7 @@ ul.user-corner-menu li {
 div#content a {
   color: #A0B228 !important;  /* TODO: This is a temporary solution. */
 }
+
+.navbar-brand, .navbar-nav > li > a {
+  text-shadow: none;
+}
