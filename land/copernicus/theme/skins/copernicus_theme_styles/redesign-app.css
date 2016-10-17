@@ -6772,3 +6772,8 @@ div#content a {
 .navbar-brand, .navbar-nav > li > a {
   text-shadow: none;
 }
+
+div.images-slider a.left.carousel-control span,
+div.images-slider a.right.carousel-control span {
+  color: #FFFFFF;
+}

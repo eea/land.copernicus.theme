@@ -42,18 +42,18 @@ Edit theme/static/redesign-simple-page.html
 
 TODO:
 =====
-Use better fonts from https://fonts.google.com/
-From Plone use only authoring.css.
-Fix links href for important sections (example: User corner) - we need a better solution here.
-In navbar use theme fontawesome icon for Home.
 Implement Search option.
 Implement News list.
 Implement Events list.
+From Plone use only authoring.css.
+Use better fonts from https://fonts.google.com/
+Fix links href for important sections (example: User corner) - we need a better solution here.
+In navbar use theme fontawesome icon for Home.
 Remove scripts from redesign-simple-page.html and redesign-index.html. Move in portal javascripts or use existing (bootstrap).
 Fix space in footer bottom.
 Navbar to have suboptions if any.
 Admin menu.
 Fix breadcrumbs wrong markup and add fontawesome icon before You are here.
-Fix editor bar styles - it's ugly.
-Fix print button position.
+Fix editor bar styles - it's ugly. (paddings)
+Fix print button position. (see mockup)
 Fix Search button height.
