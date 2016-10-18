@@ -49,7 +49,6 @@ Homepage:
     Implement Content for large column in homepage administration.
 
 Other:
-    Implement Search option.
     Use better fonts from https://fonts.google.com/
     Fix links href for important sections (example: User corner) - we need a better solution here.
     In navbar use theme fontawesome icon for Home.
@@ -74,3 +73,4 @@ Other:
     Improve register form styles: http://demo.copernicus.eea.europa.eu/@@register
     Fix print button position (http://demo.copernicus.eea.europa.eu/about). Maybe use bootstrap solution used in html + css theme, + diazo rules.
     Sitemap icons position (http://demo.copernicus.eea.europa.eu/sitemap)
+    Style for pagination in search results page, also style for Search button.
