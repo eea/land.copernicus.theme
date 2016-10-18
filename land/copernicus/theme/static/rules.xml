@@ -19,6 +19,9 @@
     <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
            theme-children="/html/head" />
 
+    <!-- Main content -->
+    <replace css:theme-children="article.main" css:content-children="#portal-column-content"/>
+
     <!-- Top right corner menu -->
     <replace css:theme-children="div.utils ul.land-list-separated">
       <xsl:for-each css:select="#portal-siteactions li a">
