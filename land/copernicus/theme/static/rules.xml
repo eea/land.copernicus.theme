@@ -21,6 +21,9 @@
 
     <!-- Main content -->
     <replace css:theme-children="article.main" css:content-children="#portal-column-content"/>
+    <drop css:content="h1#parent-fieldname-title" />
+    <drop css:content="#plone-document-byline" />
+    <drop css:content="#portal-breadcrumbs" />
 
     <!-- Top right corner menu -->
     <replace css:theme-children="div.utils ul.land-list-separated">
