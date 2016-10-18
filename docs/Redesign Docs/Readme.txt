@@ -46,7 +46,6 @@ Homepage:
     Implement slider images administration.
     Implement News list.
     Implement Events list.
-    Implement Content for large column in homepage administration.
 
 Other:
     Use better fonts from https://fonts.google.com/
