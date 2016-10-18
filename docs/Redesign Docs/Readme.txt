@@ -40,6 +40,10 @@ Edit theme/static/redesign-simple-page.html
     Add data-diazo for land-secondary-column
     Remove jquery script
 
+In Situ -> Reference data
+/in-situ/edit (Change title)
+
+
 TODO:
 =====
 Homepage:
