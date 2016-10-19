@@ -49,7 +49,6 @@ TODO:
 Homepage:
     Implement slider images administration.
     Implement News list.
-    Implement Events list.
 
 Other:
     Use better fonts from https://fonts.google.com/
