@@ -17,6 +17,13 @@
     permission="zope2.View"
     />
 
+  <browser:viewlet
+    name="copernicus.news"
+    manager="plone.app.layout.viewlets.interfaces.IBelowContent"
+    class=".viewlets.CopernicusNewsViewlet"
+    permission="zope2.View"
+    />
+
   <browser:resource
     name="land.copernicus.theme.design.js"
     file="design.js"

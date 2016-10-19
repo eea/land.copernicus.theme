@@ -1,0 +1,55 @@
+<div tal:define="events view/news;
+                 has_events python:True if len(events) > 0 else False;"
+     id="land-news">
+
+  <!-- Latest news -->
+  <h4 class="land-title">Latest news</h4>
+  <div class="listing block-inset">
+    <div class="listing-body">
+      <ul class="listing-items">
+        <li class="listing-item">
+
+          <div class="news snippet">
+            <div class="news-preview">
+              <img class="land-img-preview" src="./preview_image.png" alt="Preview image">
+            </div>
+
+            <div class="news-body">
+              <h4 class="news-title">
+                <a href="">News title</a>
+              </h4>
+              <div class="news-description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nobis dolores molestiae quo temporibus... <a href="#">Read more</a></p>
+              </div>
+            </div>
+
+          </div>
+        </li>
+      </ul>
+
+      <ul class="listing-items">
+        <li class="listing-item">
+
+          <div class="news snippet">
+            <div class="news-preview">
+              <img class="land-img-preview" src="./preview_image.png" alt="Preview image">
+            </div>
+
+            <div class="news-body">
+              <h4 class="news-title">
+                <a href="">News title</a>
+              </h4>
+              <div class="news-description">
+                <p>Dolor sit amet, consectetur adipisicing elit. Totam nobis dolores molestiae quo nobis dolores molestiae temporibus... <a href="#">Read more</a></p>
+              </div>
+            </div>
+
+          </div>
+        </li>
+      </ul>
+
+      <h4  class="text-right"><a href="#">more news <i class="fa fa-arrow-circle-right"></i></a></h4>
+    </div>
+  </div><!-- Latest news -->
+
+</div>

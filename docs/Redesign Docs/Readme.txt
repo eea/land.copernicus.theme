@@ -42,38 +42,3 @@ Edit theme/static/redesign-simple-page.html
 
 In Situ -> Reference data
 /in-situ/edit (Change title)
-
-
-TODO:
-=====
-Homepage:
-    Implement slider images administration.
-    Implement News list.
-
-Other:
-    Register link in top menu - remove left separator.
-    Use better fonts from https://fonts.google.com/
-    Fix links href for important sections (example: User corner) - we need a better solution here.
-    In navbar use theme fontawesome icon for Home.
-    Remove scripts from redesign-simple-page.html and redesign-index.html. Move in portal javascripts or use existing (bootstrap).
-    Fix space in footer bottom.
-    Navbar to have suboptions if any.
-    Fix breadcrumbs wrong markup and add fontawesome icon before You are here.
-    Fix go to Top button in footer position (see on Firefox).
-    Padding top utils menu.
-    The same color for btn hover. Green dark instead of computed.
-    Better contrast for links color?
-    Better icon for Land use cases? (the man in foreground filled with color)
-    Better footer design. Partners section, better position?
-    The error message. It's very bold. Redesign it. Fix color for link hover: white.
-    Use the same style for links in large column as for small col. (underlined only on hover?)
-    Go to Top button: fix behaviour.
-    User corner: administration and links. (It's only a draft now.)
-    Font sizes for headings.
-    Font size for normal text. (http://demo.copernicus.eea.europa.eu/user-corner/contract-opportunities)
-    Print styles.
-    Improve custom styles (example: http://demo.copernicus.eea.europa.eu/@@personal-information)
-    Improve register form styles: http://demo.copernicus.eea.europa.eu/@@register
-    Fix print button position (http://demo.copernicus.eea.europa.eu/about). Maybe use bootstrap solution used in html + css theme, + diazo rules.
-    Sitemap icons position (http://demo.copernicus.eea.europa.eu/sitemap)
-    Style for pagination in search results page, also style for Search button.

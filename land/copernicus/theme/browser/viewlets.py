@@ -49,3 +49,28 @@ class CopernicusEventsViewlet(ViewletBase):
                 future_events.append(event_brain)
 
         return future_events[:MAX_NUMBER_EVENTS]
+
+
+class CopernicusNewsViewlet(ViewletBase):
+    render = ViewPageTemplateFile('news.pt')
+
+    def news(self):
+        MAX_NUMBER_EVENTS = 2
+        now = DateTime()
+
+        catalog = self.context.portal_catalog
+        query = {
+            'portal_type': 'Event',
+            'sort_on': 'start',
+            'sort_order': 'ascending'
+        }
+        events_brains = catalog(**query)
+
+        future_events = []
+        for event_brain in events_brains:
+            event = event_brain.getObject()
+            start_date = event.getField('startDate').getAccessor(event)()
+            if start_date > now:
+                future_events.append(event_brain)
+
+        return future_events[:MAX_NUMBER_EVENTS]
