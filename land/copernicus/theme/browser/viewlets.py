@@ -1,3 +1,4 @@
+# from DateTime import DateTime
 from plone.app.layout.viewlets.common import ViewletBase
 from plone.memoize import ram
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
@@ -29,5 +30,22 @@ class CopernicusEventsViewlet(ViewletBase):
     render = ViewPageTemplateFile('events.pt')
 
     def events(self):
-        events = [1, 2, 3]
-        return events
+        MAX_NUMBER_EVENTS = 2
+        # now = DateTime()
+
+        catalog = self.context.portal_catalog
+        query = {
+            'portal_type': 'Event',
+            'sort_on': 'start',
+            'sort_order': 'ascending'
+        }
+        events_brains = catalog(**query)
+
+        events = []
+        for event_brain in events_brains:
+            # event = event_brain.getObject()
+            # start_date = event.getField('startDate').getAccessor(event)()
+            # if start_date > now:
+            events.append(event_brain)
+
+        return events[:MAX_NUMBER_EVENTS]
