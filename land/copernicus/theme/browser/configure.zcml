@@ -10,6 +10,13 @@
     permission="zope2.View"
     />
 
+  <browser:viewlet
+    name="copernicus.events"
+    manager="plone.app.layout.viewlets.interfaces.IBelowContent"
+    class=".viewlets.CopernicusEventsViewlet"
+    permission="zope2.View"
+    />
+
   <browser:resource
     name="land.copernicus.theme.design.js"
     file="design.js"

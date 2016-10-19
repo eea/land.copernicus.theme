@@ -1,0 +1,4 @@
+<div tal:define="events view/events;" id="events">
+    <h1>Events</h1>
+    <p tal:content="events"></p>
+</div>

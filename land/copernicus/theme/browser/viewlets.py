@@ -23,3 +23,11 @@ class CopernicusFooterInfoViewlet(ViewletBase):
             last_update = results[0].ModificationDate
 
         return last_update
+
+
+class CopernicusEventsViewlet(ViewletBase):
+    render = ViewPageTemplateFile('events.pt')
+
+    def events(self):
+        events = [1, 2, 3]
+        return events
