@@ -33,7 +33,7 @@
                 </h4>
                 <div class="event-description">
                   <p>
-                    <span tal:replace="structure python:event_description[:100]"></span>...
+                    <span tal:replace="structure python:event_description[:120]"></span>...
                     <a href="" tal:attributes="href python:event_url">Read more</a>
                   </p>
                 </div>

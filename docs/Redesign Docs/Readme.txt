@@ -51,6 +51,7 @@ Homepage:
     Implement News list.
 
 Other:
+    Register link in top menu - remove left separator.
     Use better fonts from https://fonts.google.com/
     Fix links href for important sections (example: User corner) - we need a better solution here.
     In navbar use theme fontawesome icon for Home.
