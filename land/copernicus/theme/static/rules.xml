@@ -19,6 +19,10 @@
     <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
            theme-children="/html/head" />
 
+    <!-- Right column -->
+    <replace css:theme-children="[data-diazo='land-events-list']" css:content-children="#viewlet-below-content #land-events" />
+    <drop css:content="#viewlet-below-content #land-events" />
+
     <!-- Main content -->
     <replace css:theme-children="article.main" css:content-children="#portal-column-content"/>
     <drop css:content="h1#parent-fieldname-title" />
@@ -116,6 +120,7 @@
 
     <!-- Main content -->
     <replace css:theme-children="article.main" css:content-children="#portal-column-content"/>
+    <drop css:content="#viewlet-below-content #land-events" />
 
     <!-- <replace css:theme-children="[data-diazo='land-secondary-column']" css:content-children="#portal-column-two" /> -->
 
