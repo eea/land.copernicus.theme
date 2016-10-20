@@ -68,6 +68,10 @@
     </replace>
 
     <!-- Footer -->
+    <replace css:theme="[data-diazo='land-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
+    <drop css:content=".portlet-static-partners ul.partners-logos" />
+    <replace css:theme="[data-diazo='link-more-partners']" css:content="[data-diazo='link-more-partners']" />
+
     <replace css:theme-children="footer.footer .text ul.list-inline">
       <xsl:for-each css:select="ul#copernicus-footer-info li">
         <xsl:copy-of select="current()" />
@@ -88,10 +92,6 @@
       <copy attributes="class id dir" content="/html/body" theme="/html/body" />
       <after content="/html/head/meta" theme-children="/html/head" />
 
-      <replace css:theme="[data-diazo='land-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
-      <drop css:content=".portlet-static-partners ul.partners-logos" />
-
-      <!-- <drop css:content=".portlet-static-partners" /> -->
 
       <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
       <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
@@ -126,6 +126,10 @@
       </replace>
 
       <!-- Footer -->
+      <replace css:theme="[data-diazo='land-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
+      <drop css:content=".portlet-static-partners ul.partners-logos" />
+      <replace css:theme="[data-diazo='link-more-partners']" css:content="[data-diazo='link-more-partners']" />
+
       <replace css:theme-children="footer.footer .text ul.list-inline">
         <xsl:for-each css:select="ul#copernicus-footer-info li">
           <xsl:copy-of select="current()" />
