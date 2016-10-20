@@ -34,7 +34,7 @@
     <drop css:content="#viewlet-below-content #land-news" />
 
     <!-- Main content -->
-    <replace css:theme-children="article.main" css:content-children="#portal-column-content"/>
+    <replace css:theme-children="article.main" css:content-children="#portal-column-content" />
     <drop css:content="h1#parent-fieldname-title" />
     <drop css:content="#plone-document-byline" />
     <drop css:content="#portal-breadcrumbs" />
@@ -61,7 +61,7 @@
             <xsl:attribute name="id">
               <xsl:value-of select="@id" />
             </xsl:attribute>
-            <xsl:copy-of select="./*"/>
+            <xsl:copy-of select="./*" />
           </xsl:element>
         </xsl:if>
       </xsl:for-each>
@@ -114,7 +114,7 @@
               <xsl:attribute name="id">
                 <xsl:value-of select="@id" />
               </xsl:attribute>
-              <xsl:copy-of select="./*"/>
+              <xsl:copy-of select="./*" />
             </xsl:element>
           </xsl:if>
         </xsl:for-each>
@@ -140,13 +140,18 @@
     <drop css:content="#portal-breadcrumbs" />
 
     <!-- Print page -->
-    <replace css:content="#parent-fieldname-title" >
+    <replace css:content="#parent-fieldname-title">
       <xsl:copy-of select="."/>
       <a href="javascript:window.print()" class="printButton">
         <i class="fa fa-print"></i> Print
       </a>
     </replace>
 
+  </rules>
+
+  <rules css:if-content="body.template-manage-portlets">
+    <after css:theme-children="article.main" css:content-children="#portal-column-one" />
+    <after css:theme-children="article.main" css:content-children="#portal-column-two" />
   </rules>
 
 </rules>
