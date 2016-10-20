@@ -42,3 +42,27 @@ Edit theme/static/redesign-simple-page.html
 
 In Situ -> Reference data
 /in-situ/edit (Change title)
+
+
+If manage_portlets - add new portlet is not working:
+----------------------------------------------------
+/portal_javascripts/manage_jsForm
+
+Remove conditions for:
+
+eeatinymceutils.js
+python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL.split('/')[-1]
+
+++resource++eea.tinymce.plugins.js
+python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL.split('/')[-1]
+
+and Save.
+
+
+Newsletter
+----------
+@@manage-portlets
+Add portlet
+Static text portlet
+
+Portlet header: User corner menu
