@@ -19,6 +19,10 @@
     <after content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
            theme-children="/html/head" />
 
+    <!-- Jumbotron -->
+    <replace css:theme="[data-diazo='land-jumbotron']" css:content="[data-diazo='land-jumbotron']" method="raw" />
+    <drop css:content="#content-core [data-diazo='land-jumbotron']" />
+
     <!-- Right column -->
     <replace css:theme-children="[data-diazo='land-events-list']" css:content-children="#viewlet-below-content #land-events" />
     <drop css:content="#viewlet-below-content #land-events" />
