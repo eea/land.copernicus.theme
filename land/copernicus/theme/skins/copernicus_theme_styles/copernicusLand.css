@@ -296,7 +296,7 @@ dl.portlet a:visited {
 
 #content a:hover,
 dl.portlet a:hover {
-  color: #A0B228 !important;
+  color: #A0B228;
 }
 
 #content a:link,

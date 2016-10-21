@@ -6798,3 +6798,9 @@ a.printButton {
 .detailed-metadata-container dl dd a {
   display: inline-block;
 }
+
+div.listingBar a:hover {
+  color: #FFFFFF !important;
+  background-color: #819110;
+  border-color: #819110;
+}
