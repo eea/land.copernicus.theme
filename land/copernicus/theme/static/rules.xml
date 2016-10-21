@@ -166,4 +166,8 @@
     <after css:theme-children="article.main" css:content-children="#portal-column-two" />
   </rules>
 
+  <rules css:if-not-content=".portlet-static-partners ul.partners-logos">
+    <drop css:theme="footer .partners" />
+  </rules>
+
 </rules>
