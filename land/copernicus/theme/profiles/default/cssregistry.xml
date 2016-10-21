@@ -25,6 +25,7 @@
   <stylesheet bundle="default" id="member.css" />
   <stylesheet bundle="default" id="reset.css" />
   <stylesheet bundle="default" id="RTL.css" />
+  <stylesheet bundle="default" id="print.css" />
 
   <!-- Not used styles: -->
   <stylesheet bundle="sunburst" id="columns.css" />
@@ -34,7 +35,6 @@
   <stylesheet bundle="sunburst" id="mobile.css" />
   <stylesheet bundle="sunburst" id="navtree.css" />
   <stylesheet bundle="sunburst" id="portlets.css" />
-  <stylesheet bundle="sunburst" id="print.css" />
   <stylesheet bundle="sunburst" id="public.css" />
 
 </object>

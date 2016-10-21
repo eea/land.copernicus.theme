@@ -73,4 +73,15 @@
       />
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="2.4.3"
+    destination="2.4.4"
+    profile="land.copernicus.theme:default">
+
+    <genericsetup:upgradeDepends
+      title="Redesign related step: fix print.css wrong bundle."
+      import_steps="cssregistry"
+      />
+  </genericsetup:upgradeSteps>
+
 </configure>

@@ -247,4 +247,14 @@
     overflow: visible;
   }
 
+  /* REDESIGN related */
+  #header-section, .row.breadcrumbs, footer.footer, div[data-diazo='land-secondary-column'] {
+    display: none;
+  }
+
+  #content-section.simple-page {
+    position: relative;
+    top: 0px;
+  }
+
 }  /* @media print */
