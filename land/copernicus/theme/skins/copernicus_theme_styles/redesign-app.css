@@ -6804,3 +6804,7 @@ div.listingBar a:hover {
   background-color: #819110;
   border-color: #819110;
 }
+
+ul#portal-sitemap > li > div > a {
+    background-position-y: 12px;
+}
