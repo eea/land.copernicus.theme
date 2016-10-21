@@ -8,4 +8,11 @@
     expression=""
     inline="False" />
 
+  <javascript
+    id="++resource++land.copernicus.theme.bootstrap-min.js"
+    authenticated="False" cacheable="True" compression="safe"
+    conditionalcomment="" cookable="True" enabled="True"
+    expression=""
+    inline="False" />
+
 </object>

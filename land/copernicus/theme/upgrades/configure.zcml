@@ -62,4 +62,15 @@
       />
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="2.4.2"
+    destination="2.4.3"
+    profile="land.copernicus.theme:default">
+
+    <genericsetup:upgradeDepends
+      title="Import jsregistry to have bootstrap."
+      import_steps="jsregistry"
+      />
+  </genericsetup:upgradeSteps>
+
 </configure>

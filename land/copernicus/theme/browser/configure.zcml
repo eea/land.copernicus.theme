@@ -29,6 +29,11 @@
     file="design.js"
     />
 
+  <browser:resource
+    name="land.copernicus.theme.bootstrap-min.js"
+    file="bootstrap-min.js"
+    />
+
   <browser:page
     name="event_format"
     class=".event_format.EventFormat"
