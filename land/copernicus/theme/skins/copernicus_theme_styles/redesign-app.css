@@ -6541,7 +6541,7 @@ footer .partners {
       margin-bottom: 6px; }
 
 footer .text {
-  padding: 6px 18px 6px 18px;
+  padding: 12px 18px 0px 18px;
   text-align: center;
   font-size: 16px; }
   footer .text .list-inline.land-list-separated {
@@ -6724,9 +6724,9 @@ div.utils ul.list-inline.land-list-separated li {
   padding-left: 10px;
 }
 
-footer .text .list-inline.land-list-separated .go-top {
-  position: relative;
-  top: 22px;  /* TODO: Investigate why. Find better fix. */
+footer .text .list-inline.land-list-separated li:last-child:after {
+  content: '' !important;
+  margin-left: 0px;
 }
 
 a:link, a:visited {
