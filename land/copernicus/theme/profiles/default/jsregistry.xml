@@ -15,4 +15,11 @@
     expression=""
     inline="False" />
 
+  <javascript
+    id="++resource++land.copernicus.theme.sticky-menu.js"
+    authenticated="False" cacheable="True" compression="safe"
+    conditionalcomment="" cookable="True" enabled="True"
+    expression=""
+    inline="False" />
+
 </object>

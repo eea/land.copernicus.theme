@@ -34,6 +34,11 @@
     file="bootstrap-min.js"
     />
 
+  <browser:resource
+    name="land.copernicus.theme.sticky-menu.js"
+    file="sticky-menu.js"
+    />
+
   <browser:page
     name="event_format"
     class=".event_format.EventFormat"

@@ -84,4 +84,15 @@
       />
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="2.4.4"
+    destination="2.4.5"
+    profile="land.copernicus.theme:default">
+
+    <genericsetup:upgradeDepends
+      title="Import js to have sticky menu."
+      import_steps="jsregistry"
+      />
+  </genericsetup:upgradeSteps>
+
 </configure>
