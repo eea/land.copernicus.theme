@@ -6812,3 +6812,7 @@ ul#portal-sitemap > li > div > a {
 .breadcrumb i.fa.fa-map-marker {
   color: #A4A4A4;
 }
+
+.breadcrumb {
+  padding-left: 0px !important;
+}
