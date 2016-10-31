@@ -23,4 +23,12 @@ jQuery(document).ready(function($) {
   $description.text($.trim($description.text()));
 
   $("#viewlet-cookiepolicy").appendTo("body");  // Fix cookie policy visibility problem (in IE)
+
+  /* Go to top */
+  $("footer a.go-top").on("click", function(evt) {
+    $("html, body").animate({scrollTop:0});
+    evt.preventDefault();
+    return false;
+  });
+
 });
