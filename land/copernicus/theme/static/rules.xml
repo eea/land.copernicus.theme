@@ -170,7 +170,7 @@
     <!-- <replace css:theme-children="[data-diazo='land-secondary-column']" css:content-children="#portal-column-two" /> -->
 
     <!-- Breadcrumbs -->
-    <replace css:theme-children="ol.breadcrumb" css:content-children="#portal-breadcrumbs" />
+    <replace css:theme-children="div.breadcrumb" css:content-children="#portal-breadcrumbs" />
     <drop css:content="#portal-breadcrumbs" />
 
     <!-- Print page -->
