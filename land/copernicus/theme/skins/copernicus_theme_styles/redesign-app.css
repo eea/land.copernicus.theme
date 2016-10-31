@@ -6816,3 +6816,7 @@ ul#portal-sitemap > li > div > a {
 .breadcrumb {
   padding-left: 0px !important;
 }
+
+dl.portalMessage dt, div > .admonition-title {
+  font-weight: normal;
+}
