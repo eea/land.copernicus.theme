@@ -1220,7 +1220,7 @@ and (resolution: 163dpi) {
   width: 25%;
   float: left;
   text-align: left;
-  padding-right: 2%;
+  padding-right: 1%;
 }
 
 body.template-login_form .main-content .col-lg-9 {
