@@ -1223,10 +1223,6 @@ and (resolution: 163dpi) {
   padding-right: 1%;
 }
 
-body.template-login_form .main-content .col-lg-9 {
-  width: 100%;
-}
-
 #login_form_container #login_form_details {
   width: 74%;
   float: right;
@@ -1356,4 +1352,11 @@ body.template-login_form .main-content .col-lg-9 {
 .template-referencemanual_view ol,
 .template-referencemanualsection_view ol {
   list-style-type: none !important;
+}
+
+/* REDESIGN related */
+/* Full column when no info in right column */
+body.template-login_form .main-content .col-lg-9,
+body.template-register .main-content .col-lg-9 {
+  width: 100%;
 }
