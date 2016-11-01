@@ -875,7 +875,7 @@ and (resolution: 163dpi) {
 
 .template-personal-information .edit-form .widget {
   text-align: left;
-  width: 80%;
+  width: 70%;
   top: 5%;
   right: 0;
   float: right;
@@ -888,11 +888,15 @@ and (resolution: 163dpi) {
 
 .template-personal-information .edit-form .field label:first-child {
   font-weight: bold;
+  position: relative;
+  top: 6px
 }
 
 .template-personal-information span.fieldRequired {
   color: transparent; /* Fix hide text Required */
-  margin-left: 3px;
+  margin-left: 38px;
+  position: relative;
+  top: 6px;
 }
 
 
@@ -947,7 +951,7 @@ and (resolution: 163dpi) {
 }
 
 .kssattr-formname-register .checkboxType,
-.template-personal-information .checkboxType{
+.template-personal-information .checkboxType {
   /* fix vertical center label */
   width: 13px;
   height: 13px;
@@ -955,7 +959,7 @@ and (resolution: 163dpi) {
   margin:0;
   vertical-align: bottom;
   position: relative;
-  top: -2px;
+  top: -8px;
   *overflow: hidden;
 }
 
@@ -1131,11 +1135,17 @@ and (resolution: 163dpi) {
   }
 
   .template-personal-information .edit-form .field label:first-child {
-    width: 34%;
+    width: 32%;
+    position: relative;
+    top: 6px;
   }
 
   .template-personal-information .edit-form .widget {
     width: 63%;
+  }
+
+  .template-personal-information span.fieldRequired {
+    margin-left: 3px;
   }
 
   /* Register form styles with 2 columns for large screens */
