@@ -1370,3 +1370,7 @@ body.template-login_form .main-content .col-lg-9,
 body.template-register .main-content .col-lg-9 {
   width: 100%;
 }
+
+body.template-register label {
+  display: initial;
+}
