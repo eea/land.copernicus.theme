@@ -6548,7 +6548,7 @@ footer .text {
     margin-bottom: 0px; }
     footer .text .list-inline.land-list-separated li:after {
       content: '|';
-      margin-left: 10px; }
+      margin-left: 6px; }
     footer .text .list-inline.land-list-separated li:last-child:after {
       content: ''; }
     footer .text .list-inline.land-list-separated li:last-child {

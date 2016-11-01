@@ -959,8 +959,15 @@ and (resolution: 163dpi) {
   margin:0;
   vertical-align: bottom;
   position: relative;
-  top: -8px;
   *overflow: hidden;
+}
+
+.template-personal-information .checkboxType {
+  top: -8px;
+}
+
+.kssattr-formname-register .checkboxType {
+  top: -3px;
 }
 
 #formfield-form-thematic_domain label,
