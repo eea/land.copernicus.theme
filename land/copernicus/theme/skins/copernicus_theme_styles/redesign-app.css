@@ -6829,3 +6829,88 @@ dl.portalMessage.error dt {
 dl.error {
   border: none;
 }
+
+footer.footer {
+  background: white;
+  display: flex;
+  border-top: solid #A0B228;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 -2px 12px #ccc;
+}
+
+.footer .partners {
+  background: white;
+  padding: 0;
+}
+
+.footer .partners .row > div {
+  width: auto;
+  margin-left: auto;
+}
+
+.footer .text {
+  display: flex;
+  position: static;
+  background: transparent;
+  color: #888585;
+  justify-content: center;
+}
+
+
+.footer .text ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: static!important;
+  text-align: center;
+}
+
+
+.footer .text .list-inline.land-list-separated li {
+  margin: 1rem;
+}
+.footer .text .list-inline.land-list-separated li:after {
+  display:none;
+}
+
+.footer .text .list-inline.land-list-separated li:last-of-type {
+  position: absolute;
+  left: 100%;
+  padding: 1rem;
+  padding-bottom: 0;
+  border-right: none;
+}
+
+.footer .go-top {
+  color: #A0B228 !important;
+}
+
+.footer .go-top i {
+  color: #A0B228 !important;
+}
+
+
+@media screen and (max-width: 962px) {
+  .footer {
+    flex-direction: column!important;
+  }
+
+  .footer .partners .row {
+    display: flex;
+  }
+
+  .footer .partners .row > div {
+    margin-right: auto;
+  }
+
+  .footer .text {
+    justify-content: center;
+  }
+
+  .footer .text .list-inline.land-list-separated li:last-of-type {
+    position: relative;
+    left: 0;
+  }
+}
