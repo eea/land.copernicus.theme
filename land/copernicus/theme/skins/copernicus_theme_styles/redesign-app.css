@@ -6830,6 +6830,7 @@ dl.error {
   border: none;
 }
 
+
 footer.footer {
   background: white;
   display: flex;
@@ -6851,11 +6852,11 @@ footer.footer {
 }
 
 .footer .text {
-  display: flex;
-  position: static;
-  background: transparent;
-  color: #888585;
-  justify-content: center;
+   display: flex;
+   position: static;
+   background: transparent;
+   color: #888585;
+   justify-content: center;
 }
 
 
@@ -6872,7 +6873,7 @@ footer.footer {
   margin: 1rem;
 }
 .footer .text .list-inline.land-list-separated li:after {
-  display:none;
+  display: none;
 }
 
 .footer .text .list-inline.land-list-separated li:last-of-type {
@@ -6894,7 +6895,7 @@ footer.footer {
 
 @media screen and (max-width: 962px) {
   .footer {
-    flex-direction: column!important;
+    flex-direction: column !important;
   }
 
   .footer .partners .row {
@@ -6912,5 +6913,10 @@ footer.footer {
   .footer .text .list-inline.land-list-separated li:last-of-type {
     position: relative;
     left: 0;
+  }
+
+  .margin-content, #header-section .container-fluid#land-brand-utils .content, .main-content, .breadcrumbs, .land-jumbotron, .images-slider, .menu-sections, footer {
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
