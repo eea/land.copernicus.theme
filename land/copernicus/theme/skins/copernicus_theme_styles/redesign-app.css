@@ -6920,3 +6920,32 @@ footer.footer {
     margin-right: auto !important;
   }
 }
+
+
+@media (max-width:720px) {
+  .menu-sections.text-center {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+    padding: 0;
+    border: 1px solid #A0B228;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+
+
+  .menu-sections.text-center .row {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: row;
+    overflow-x: auto;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    overflow-y: hidden;
+  }
+
+  .menu-sections.text-center .row .col-xs-4 {
+    width: 100%;
+  }
+}
