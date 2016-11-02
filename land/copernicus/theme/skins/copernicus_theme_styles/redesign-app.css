@@ -6594,7 +6594,8 @@ footer .text {
   text-align: center;
   font-size: smaller;
   min-width: 4em; }
-  .news-preview .land-img-preview {
+  .news-preview .land-img-preview,
+  .news-preview img {
     border-radius: 10px;
     width: 48px;
     height: 48px; }

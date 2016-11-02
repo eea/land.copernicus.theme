@@ -18,8 +18,12 @@
 
             <div class="news snippet">
               <div class="news-preview">
-                <!-- TODO: Use news_image or a default img if not exists. -->
-                <img class="land-img-preview" src="./preview_image.png" alt="Preview image">
+                <tal:condition tal:condition="news_image">
+                  <img class="land-img-preview" tal:replace="structure news_image" />
+                </tal:condition>
+                <tal:condition tal:condition="not:news_image">
+                  <img class="land-img-preview" src="./preview_image.png" alt="Preview image">
+                </tal:condition>
               </div>
 
               <div class="news-body">
