@@ -6571,8 +6571,17 @@ footer .text {
   position: relative;
   z-index: 2 !important; }
 
-.land-title {
-  border-bottom: 3px solid #BDCE49; }
+.land-title,
+#parent-fieldname-title {
+  border-bottom: 3px solid #BDCE49;
+  font-size: 20px;
+  margin-top: 3px;
+}
+
+article.main #parent-fieldname-title {
+  font-size: 24px;
+  margin-top: 0px;
+}
 
 .event-date {
   float: left;

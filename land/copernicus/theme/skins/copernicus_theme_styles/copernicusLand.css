@@ -229,14 +229,16 @@ body #nav {
   float: left;
 }
 
-.tabbed-content .printButton {
+#content .printButton {
   display: inline-block;
   padding-top: 7px;
   float: right;
   margin: -21px 10px 0;
+  position: relative;
+  top: -12px;
 }
 
-.tabbed-content .printButton img {
+#content .printButton img {
   margin-right: 3px;
 }
 
