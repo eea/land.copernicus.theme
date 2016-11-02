@@ -6824,3 +6824,7 @@ dl.portalMessage dt, div > .admonition-title {
 dl.portalMessage.error dt {
   width: 100%;
 }
+
+dl.error {
+  border: none;
+}
