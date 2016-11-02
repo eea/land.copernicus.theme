@@ -6949,3 +6949,9 @@ footer.footer {
     width: 100%;
   }
 }
+
+
+.land-jumbotron .row:last-of-type {
+  display: flex;
+  flex-wrap: wrap;
+}
