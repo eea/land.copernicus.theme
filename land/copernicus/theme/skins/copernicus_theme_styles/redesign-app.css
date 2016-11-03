@@ -6968,3 +6968,7 @@ footer.footer {
 div.managePortletsLink {
   background: #EFEFEF !important;
 }
+
+#plone-document-byline {
+  margin-bottom: 16px;
+}
