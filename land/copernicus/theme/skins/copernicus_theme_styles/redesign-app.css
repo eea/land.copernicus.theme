@@ -2261,7 +2261,7 @@ legend {
   border-bottom: 1px solid #e5e5e5; }
 
 label {
-  display: inline-block;
+  /* display: inline-block; TODO: Check /@@editing-controlpanel */
   max-width: 100%;
   margin-bottom: 5px;
   font-weight: bold; }
@@ -4196,7 +4196,7 @@ tbody.collapse.in {
   font-size: 75%;
   font-weight: bold;
   line-height: 1;
-  color: #FFFFFF;
+  /* color: #FFFFFF; -> @@discussion-settings TODO: check missing labels */
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
