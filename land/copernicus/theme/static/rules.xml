@@ -167,6 +167,10 @@
     <replace css:theme="[data-diazo='land-user-corner']" css:content-children=".portlet-static-user-corner-menu .portletItem" method="raw" />
     <drop css:content=".portlet-static-user-corner-menu" />
 
+    <rules css:if-content=".managePortletsLink">
+      <after css:theme-children="[data-diazo='land-secondary-column']" css:content=".managePortletsLink" />
+    </rules>
+
     <!-- <replace css:theme-children="[data-diazo='land-secondary-column']" css:content-children="#portal-column-two" /> -->
 
     <!-- Breadcrumbs -->
