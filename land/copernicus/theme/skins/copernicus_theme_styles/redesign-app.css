@@ -6964,3 +6964,7 @@ footer.footer {
   display: flex;
   flex-wrap: wrap;
 }
+
+div.managePortletsLink {
+  background: #EFEFEF !important;
+}
