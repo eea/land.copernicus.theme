@@ -6905,7 +6905,7 @@ footer.footer {
 }
 
 
-@media screen and (max-width: 962px) {
+@media (max-width: 962px) {
   .footer {
     flex-direction: column !important;
   }
