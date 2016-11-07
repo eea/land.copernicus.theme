@@ -12,7 +12,7 @@
     <drop theme="/html/head/title" />
     <after content="/html/head/title" theme-children="/html/head" />
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
-    <after content="/html/head/meta" theme-children="/html/head" />
+    <replace content="/html/head/meta" css:theme="[data-diazo='meta-after-placeholder']" />
     <drop css:theme=".portlet-content" />
     <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
     <replace content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
@@ -99,8 +99,7 @@
       <drop theme="/html/head/title" />
       <after content="/html/head/title" theme-children="/html/head" />
       <copy attributes="class id dir" content="/html/body" theme="/html/body" />
-      <after content="/html/head/meta" theme-children="/html/head" />
-
+      <replace content="/html/head/meta" css:theme="[data-diazo='meta-after-placeholder']" />
 
       <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
       <replace content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
