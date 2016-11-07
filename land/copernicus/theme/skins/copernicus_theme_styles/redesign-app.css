@@ -6842,6 +6842,7 @@ dl.error {
 
 footer.footer {
   background: white;
+  display: block;  /* Be happy, IE. */
   display: flex;
   border-top: solid #A0B228;
   flex-direction: row;
@@ -6861,15 +6862,17 @@ footer.footer {
 }
 
 .footer .text {
-   display: flex;
-   position: static;
-   background: transparent;
-   color: #888585;
-   justify-content: center;
+  display: block;  /* Be happy, IE. */
+  display: flex;
+  position: static;
+  background: transparent;
+  color: #888585;
+  justify-content: center;
 }
 
 
 .footer .text ul {
+  display: block;  /* Be happy, IE. */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6908,6 +6911,7 @@ footer.footer {
   }
 
   .footer .partners .row {
+    display: block;  /* Be happy, IE. */
     display: flex;
   }
 
@@ -6933,6 +6937,7 @@ footer.footer {
 
 @media (max-width:720px) {
   .menu-sections.text-center {
+    display: block;  /* Be happy, IE. */
     display: flex;
     overflow: hidden;
     margin-bottom: 2.5rem;
@@ -6944,6 +6949,7 @@ footer.footer {
 
 
   .menu-sections.text-center .row {
+    display: block;  /* Be happy, IE. */
     display: flex;
     width: 100%;
     justify-content: flex-start;
@@ -6961,6 +6967,7 @@ footer.footer {
 
 
 .land-jumbotron .row:last-of-type {
+  display: block;  /* Be happy, IE. */
   display: flex;
   flex-wrap: wrap;
 }
