@@ -9,7 +9,6 @@
     <theme href="redesign-index.html" />
 
     <!-- General -->
-    <drop theme="/html/head/meta" />
     <drop theme="/html/head/title" />
     <after content="/html/head/title" theme-children="/html/head" />
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
@@ -97,7 +96,6 @@
       <theme href="redesign-simple-page.html" />
 
       <!-- General -->
-      <drop theme="/html/head/meta" />
       <drop theme="/html/head/title" />
       <after content="/html/head/title" theme-children="/html/head" />
       <copy attributes="class id dir" content="/html/body" theme="/html/body" />
