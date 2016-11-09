@@ -18,6 +18,15 @@
     <replace content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
              css:theme="[data-diazo='links-and-scripts']" />
 
+    <!-- Website title link -->
+    <rules css:if-content="#portaltab-index_html">
+      <copy
+        attributes="href"
+        css:content="#portaltab-index_html"
+        css:theme="[data-diazo='website-title']"
+        />
+    </rules>
+
     <!-- Jumbotron -->
     <replace css:theme="[data-diazo='land-jumbotron']" css:content="[data-diazo='land-jumbotron']" method="raw" />
     <drop css:content="#content-core [data-diazo='land-jumbotron']" />
@@ -104,6 +113,15 @@
       <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
       <replace content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
                css:theme="[data-diazo='links-and-scripts']" />
+
+      <!-- Website title link -->
+      <rules css:if-content="#portaltab-index_html">
+        <copy
+          attributes="href"
+          css:content="#portaltab-index_html a"
+          css:theme="[data-diazo='website-title']"
+          />
+      </rules>
 
       <!-- Top right corner menu -->
       <replace css:theme-children="div.utils ul.land-list-separated">
