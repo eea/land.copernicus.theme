@@ -13,6 +13,7 @@
 
   <stylesheet
     id="redesign-app.css"
+    media=""
     expression="request/HTTP_X_THEME_ENABLED | nothing"
     applyPrefix="True" />
 
