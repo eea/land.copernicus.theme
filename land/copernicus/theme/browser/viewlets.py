@@ -45,8 +45,8 @@ class CopernicusEventsViewlet(ViewletBase):
         future_events = []
         for event_brain in events_brains:
             event = event_brain.getObject()
-            start_date = event.getField('startDate').getAccessor(event)()
-            if start_date > now:
+            end_date = event.getField('endDate').getAccessor(event)()
+            if end_date >= now:
                 future_events.append(event_brain)
 
         return future_events[:MAX_NUMBER_EVENTS]
