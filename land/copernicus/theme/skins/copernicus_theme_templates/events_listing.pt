@@ -15,8 +15,6 @@
       tal:define="path context/@@plone_portal_state/navigation_root_path;
                   results python:context.portal_catalog.searchResults(dict(
                     portal_type='Event',
-                    end={'query': context.ZopeTime(),
-                         'range': 'min'},
                     sort_on='start',
                     sort_order='descending',
                     review_state='published',
