@@ -6830,10 +6830,6 @@ dl.portalMessage dt, div > .admonition-title {
   font-weight: normal;
 }
 
-dl.portalMessage.error dt {
-  width: 100%;
-}
-
 dl.error {
   border: none;
 }
