@@ -27,6 +27,10 @@
         />
     </rules>
 
+    <!-- Carousel -->
+    <replace css:theme="[data-diazo='land-carousel']" css:content="[data-diazo='land-carousel']" method="raw" />
+    <drop css:content="#content-core [data-diazo='land-carousel']" />
+
     <!-- Jumbotron -->
     <replace css:theme="[data-diazo='land-jumbotron']" css:content="[data-diazo='land-jumbotron']" method="raw" />
     <drop css:content="#content-core [data-diazo='land-jumbotron']" />
