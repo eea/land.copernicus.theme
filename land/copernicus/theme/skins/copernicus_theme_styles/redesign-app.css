@@ -6378,7 +6378,7 @@ button.close {
 .bg-texture, body {
   /*background-image: url("./bg-old-mathematics2.png");*/
   /*background-attachment: fixed;*/
-  background-color: #EFEFEF; }
+  background-color: #eaeada; }
 
 .margin-content, #header-section .container-fluid#land-brand-utils .content, .main-content, .breadcrumbs, .land-jumbotron, .images-slider, .menu-sections, footer {
   margin-left: 15%;
@@ -6413,6 +6413,7 @@ body {
         margin-top: 6px;
         height: 58px; }
       #header-section .container-fluid#land-brand-utils .content .brand .website-title {
+        color: #1e396b;
         text-decoration: none;
         position: relative;
         top: -10px; }
@@ -6420,7 +6421,8 @@ body {
         margin-bottom: 10px; }
         #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li:after {
           content: '|';
-          margin-left: 10px; }
+          margin-left: 10px;
+          color: #1e396b; }
         #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li:last-child:after {
           content: ''; }
         #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li:last-child {
@@ -6435,6 +6437,10 @@ body {
       #header-section .container-fluid#land-brand-utils .content .utils input.form-control.search-bar {
         height: 100%;
         border-color: #FFFFFF; }
+
+#header-section .utils .list-inline a {
+  color: #1e396b;
+}
 
 #header-section.simple-page {
   background-image: url("./header-main-photo-crop.jpg");
