@@ -6376,8 +6376,8 @@ button.close {
   border: 6px solid #E3F37D; }
 
 .bg-texture, body {
-  background-image: url("./bg-old-mathematics2.png");
-  background-attachment: fixed;
+  /*background-image: url("./bg-old-mathematics2.png");*/
+  /*background-attachment: fixed;*/
   background-color: #EFEFEF; }
 
 .margin-content, #header-section .container-fluid#land-brand-utils .content, .main-content, .breadcrumbs, .land-jumbotron, .images-slider, .menu-sections, footer {
