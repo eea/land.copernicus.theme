@@ -6980,3 +6980,21 @@ div.managePortletsLink {
 #plone-document-byline {
   margin-bottom: 16px;
 }
+
+body.template-manage-portlets [data-diazo='land-secondary-column'] {
+  width: 0%;
+}
+
+body.template-manage-portlets .col-lg-9.col-md-12.col-sm-12.col-xs-12 {
+  width: 100%;
+}
+
+body.template-manage-portlets div#portletmanager-plone-leftcolumn {
+  float: left;
+  width: 50%;
+}
+
+body.template-manage-portlets div#portletmanager-plone-rightcolumn {
+  float: right;
+  width: 50%;
+}
