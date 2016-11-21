@@ -27,6 +27,7 @@
         />
     </rules>
 
+    <!-- Search -->
     <copy attributes="action"
         css:content="#portal-searchbox form"
         css:theme="[data-diazo='land-search-form']" />
@@ -130,6 +131,11 @@
           css:theme="[data-diazo='website-title']"
           />
       </rules>
+
+      <!-- Search -->
+      <copy attributes="action"
+          css:content="#portal-searchbox form"
+          css:theme="[data-diazo='land-search-form']" />
 
       <!-- Top right corner menu -->
       <replace css:theme-children="div.utils ul.land-list-separated">
