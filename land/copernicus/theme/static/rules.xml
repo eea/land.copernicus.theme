@@ -27,6 +27,10 @@
         />
     </rules>
 
+    <copy attributes="action"
+        css:content="#portal-searchbox form"
+        css:theme="[data-diazo='land-search-form']" />
+
     <!-- Carousel -->
     <replace css:theme="[data-diazo='land-carousel']" css:content="[data-diazo='land-carousel']" method="raw" />
     <drop css:content="#content-core [data-diazo='land-carousel']" />
