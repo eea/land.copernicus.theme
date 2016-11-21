@@ -7008,3 +7008,9 @@ body.template-manage-portlets div#portletmanager-plone-rightcolumn {
   float: right;
   width: 50%;
 }
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .land-box1 h4 {
+    font-size: 13px;
+  }
+}
