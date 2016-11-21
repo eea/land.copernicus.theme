@@ -7036,3 +7036,7 @@ ul.listing-items li.listing-item {
   float: left;
   padding-top: 5px;
 }
+
+article.main #edit-bar {
+  margin-bottom: 40px;
+}
