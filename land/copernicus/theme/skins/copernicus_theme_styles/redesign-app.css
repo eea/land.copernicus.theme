@@ -6892,6 +6892,7 @@ footer.footer {
 .footer .text .list-inline.land-list-separated li:last-of-type {
   position: absolute;
   left: 100%;
+  bottom: 10px;
   padding: 1rem;
   padding-bottom: 0;
   border-right: none;
