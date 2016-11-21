@@ -7040,3 +7040,8 @@ ul.listing-items li.listing-item {
 article.main #edit-bar {
   margin-bottom: 40px;
 }
+
+.not-validated-container {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
