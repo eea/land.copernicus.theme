@@ -7053,3 +7053,7 @@ article.main #edit-bar {
 footer .text {
   font-size: 12px;
 }
+
+.eventDetails.vcard {
+  float: initial;
+}
