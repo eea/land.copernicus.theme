@@ -7045,3 +7045,11 @@ article.main #edit-bar {
   margin-bottom: 20px;
   margin-top: 10px;
 }
+
+.go-top {
+  font-size: 16px;
+}
+
+footer .text {
+  font-size: 12px;
+}
