@@ -30,6 +30,8 @@
                   portal context/@@plone_portal_state/portal;
                   show_about python:not isAnon or context.portal_properties.site_properties.allowAnonymousViewAbout">
 
+    <h1 class="land-title">Events</h1>
+
     <form name="searchresults" action="" method="post" tal:condition="results"
           tal:define="batch python:Batch(results, 15, int(b_start), orphan=1);
                       toLocalizedTime nocall: context/@@plone/toLocalizedTime;">
