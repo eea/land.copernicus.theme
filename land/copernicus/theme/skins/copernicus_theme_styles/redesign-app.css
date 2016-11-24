@@ -6869,7 +6869,7 @@ dl.error {
   display: inline-block;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .land-jumbotron .col-sm-6 {
     width: 45%;
     float: none;
