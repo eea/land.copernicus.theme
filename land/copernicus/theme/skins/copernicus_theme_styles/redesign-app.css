@@ -6367,7 +6367,7 @@ button.close {
   .land-box1 .land-icon-box {
     min-height: 50%; }
     .land-box1 .land-icon-box img {
-      width: 40%;
+      max-width: 40%;
       margin-top: 15%; }
   .land-box1 h4 {
     margin-top: 10%; }
@@ -6499,7 +6499,7 @@ body {
   .land-jumbotron .circle img {
     border-radius: 50%;
     border: 9px solid #A0B228;
-    width: 100%; }
+    max-width: 100%; }
 
 .images-slider {
   margin-top: 36px;
