@@ -30,6 +30,100 @@
                   portal context/@@plone_portal_state/portal;
                   show_about python:not isAnon or context.portal_properties.site_properties.allowAnonymousViewAbout">
 
+<style>
+.land-publications-container {
+  width: 100%;
+}
+
+.land-publication-item {
+  text-align: center;
+}
+
+.land-publication-item {
+  color: #5C5C5C;
+}
+
+.land-publication-title {
+  font-size: 18px !important;
+}
+
+.land-publication-item:hover .land-publication-title {
+  color: #1E1E1E !important;
+}
+
+.land-publication-item:hover .land-publication-image img {
+  border: 3px solid #BDCE49;
+}
+
+.land-publication-image img {
+  max-height: 150px;
+  padding: 5px;
+  border: 3px solid #eeeeee;
+}
+</style>
+
+    <h1 class="land-title">Publications</h1>
+
+    <div class="land-publications-container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item">
+          <div class="land-publication-image">
+            <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view">
+              <img src="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers">
+            </a>
+          </div>
+          <h3 class="land-publication-title">GIO land High Resolution</h3>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item">
+          <div class="land-publication-image">
+            <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view">
+              <img src="http://land.copernicus.eu/user-corner/publications/rz-flyer-a4/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers">
+            </a>
+          </div>
+          <h3 class="land-publication-title">Layers HR-VHR mosaics flyer</h3>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item">
+          <div class="land-publication-image">
+            <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view">
+              <img src="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers">
+            </a>
+          </div>
+          <h3 class="land-publication-title">Long long title GIO land High Resolution Layers HR-VHR mosaics flyer</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item">
+          <div class="land-publication-image">
+            <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view">
+              <img src="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers">
+            </a>
+          </div>
+          <h3 class="land-publication-title">Long long title GIO land High Resolution Layers HR-VHR mosaics flyer</h3>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item">
+          <div class="land-publication-image">
+            <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view">
+              <img src="http://land.copernicus.eu/user-corner/publications/hrl-flyer-a4/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers">
+            </a>
+          </div>
+          <h3 class="land-publication-title">GIO land High Resolution</h3>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item">
+          <div class="land-publication-image">
+            <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view">
+              <img src="http://land.copernicus.eu/user-corner/publications/global-flyer/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers">
+            </a>
+          </div>
+          <h3 class="land-publication-title">Layers HR-VHR mosaics flyer</h3>
+        </div>
+      </div>
+    </div>
+
     <h1 class="land-title">Events</h1>
 
     <form name="searchresults" action="" method="post" tal:condition="results"
