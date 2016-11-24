@@ -7092,6 +7092,20 @@ body.template-events_listing article.main h2 {
   margin-top: 0px;
 }
 
+.land-jumbotron .col-xs-6 > a > .text-center {
+  display: block;  /* Be happy, IE. */
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.land-jumbotron .col-lg-3.col-md-3.col-sm-6.col-xs-6 {
+   margin-top: 2rem;
+}
+
 /* FIX FOR JAYAN - this is a temporary fix used on production to hide some partial data. */
 /* Hide Metadata tab for these products. */
 body.subsection-high-resolution-image-mosaic #fieldsetlegend-metadata {
