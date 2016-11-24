@@ -6869,6 +6869,9 @@ dl.error {
 footer.footer {
   background: white;
   display: block;  /* Be happy, IE. */
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   display: flex;
   border-top: solid #A0B228;
   flex-direction: row;
@@ -6889,6 +6892,9 @@ footer.footer {
 
 .footer .text {
   display: block;  /* Be happy, IE. */
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   display: flex;
   position: static;
   background: transparent;
@@ -6899,6 +6905,9 @@ footer.footer {
 
 .footer .text ul {
   display: block;  /* Be happy, IE. */
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6939,6 +6948,9 @@ footer.footer {
 
   .footer .partners .row {
     display: block;  /* Be happy, IE. */
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
     display: flex;
   }
 
@@ -6965,6 +6977,9 @@ footer.footer {
 @media (max-width:720px) {
   .menu-sections.text-center {
     display: block;  /* Be happy, IE. */
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
     display: flex;
     overflow: hidden;
     margin-bottom: 2.5rem;
@@ -6977,6 +6992,9 @@ footer.footer {
 
   .menu-sections.text-center .row {
     display: block;  /* Be happy, IE. */
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
     display: flex;
     width: 100%;
     justify-content: flex-start;
@@ -6995,6 +7013,9 @@ footer.footer {
 
 .land-jumbotron .row:last-of-type {
   display: block;  /* Be happy, IE. */
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   display: flex;
   flex-wrap: wrap;
 }
