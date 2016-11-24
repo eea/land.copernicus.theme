@@ -7000,6 +7000,12 @@ body.template-events_listing article.main h2 {
   display: inline-block;
 }
 
+.eventDetails.vcard .vertical.listing th {
+  width: 25%;
+  background: #A0B228;
+  color: white;
+}
+
 /* FIX FOR JAYAN - this is a temporary fix used on production to hide some partial data. */
 /* Hide Metadata tab for these products. */
 body.subsection-high-resolution-image-mosaic #fieldsetlegend-metadata {
