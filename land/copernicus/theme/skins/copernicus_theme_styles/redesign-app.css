@@ -6887,118 +6887,6 @@ dl.error {
   }
 }
 
-footer.footer {
-  background: white;
-  display: block;  /* Be happy, IE. */
-  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  display: -ms-flexbox;  /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  display: flex;
-  border-top: solid #A0B228;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  justify-content: center;
-  position: relative;
-  box-shadow: 0 -2px 12px #ccc;
-}
-
-
-.footer .partners {
-  background: white;
-  padding: 0;
-}
-
-.footer .partners .row > div {
-  width: auto;
-  margin-left: auto;
-}
-
-.footer .text {
-  display: block;  /* Be happy, IE. */
-  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  display: -ms-flexbox;  /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  display: flex;
-  position: static;
-  background: transparent;
-  color: #888585;
-  justify-content: center;
-}
-
-
-.footer .text ul {
-  display: block;  /* Be happy, IE. */
-  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  display: -ms-flexbox;  /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  justify-content: center;
-  position: static!important;
-  text-align: center;
-}
-
-
-.footer .text .list-inline.land-list-separated li {
-  margin: 1rem;
-}
-.footer .text .list-inline.land-list-separated li:after {
-  display: none;
-}
-
-.footer .text .list-inline.land-list-separated li:last-of-type {
-  position: absolute;
-  left: 100%;
-  bottom: 10px;
-  padding: 1rem;
-  padding-bottom: 0;
-  border-right: none;
-}
-
-.footer .go-top {
-  color: #A0B228 !important;
-}
-
-.footer .go-top i {
-  color: #A0B228 !important;
-}
-
-
-@media (max-width: 962px) {
-  .footer {
-    -webkit-flex-direction: column !important;
-    flex-direction: column !important;
-  }
-
-  .footer .partners .row {
-    display: block;  /* Be happy, IE. */
-    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-    display: -ms-flexbox;  /* TWEENER - IE 10 */
-    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-    display: flex;
-  }
-
-  .footer .partners .row > div {
-    margin-right: auto;
-  }
-
-  .footer .text {
-    justify-content: center;
-  }
-
-  .footer .text .list-inline.land-list-separated li:last-of-type {
-    position: relative;
-    left: 0;
-  }
-
-  .margin-content, #header-section .container-fluid#land-brand-utils .content, .main-content, .breadcrumbs, .land-jumbotron, .images-slider, .menu-sections, footer {
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-}
-
-
 @media (max-width:720px) {
   .menu-sections.text-center {
     display: block;  /* Be happy, IE. */
@@ -7084,10 +6972,6 @@ article.main #edit-bar {
 
 .go-top {
   font-size: 16px;
-}
-
-footer .text {
-  font-size: 12px;
 }
 
 .eventDetails.vcard {
