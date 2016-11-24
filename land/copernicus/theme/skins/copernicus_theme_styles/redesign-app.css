@@ -6881,6 +6881,12 @@ dl.error {
   }
 }
 
+@media (min-width: 769px) and (max-width:775px) {
+  .land-jumbotron .col-sm-6 {
+    width: 40%;
+  }
+}
+
 footer.footer {
   background: white;
   display: block;  /* Be happy, IE. */
