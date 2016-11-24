@@ -6975,7 +6975,9 @@ article.main #edit-bar {
 }
 
 .eventDetails.vcard {
-  float: initial;
+  float: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 body.template-events_listing article.main h2 {
