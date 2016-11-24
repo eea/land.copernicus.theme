@@ -6865,6 +6865,20 @@ dl.error {
   border: none;
 }
 
+.land-jumbotron .col-lg-3.col-md-3.col-sm-6.col-xs-6 {
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .land-jumbotron .col-sm-6 {
+    width: 45%;
+    float: none;
+  }
+
+  .land-jumbotron .col-xs-6 {
+     width: 41%;
+  }
+}
 
 footer.footer {
   background: white;
@@ -6874,11 +6888,13 @@ footer.footer {
   display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   display: flex;
   border-top: solid #A0B228;
+  -webkit-flex-direction: row;
   flex-direction: row;
   justify-content: center;
   position: relative;
   box-shadow: 0 -2px 12px #ccc;
 }
+
 
 .footer .partners {
   background: white;
@@ -6909,6 +6925,7 @@ footer.footer {
   display: -ms-flexbox;  /* TWEENER - IE 10 */
   display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   display: flex;
+  -webkit-flex-direction: column;
   flex-direction: column;
   justify-content: center;
   position: static!important;
@@ -6943,6 +6960,7 @@ footer.footer {
 
 @media (max-width: 962px) {
   .footer {
+    -webkit-flex-direction: column !important;
     flex-direction: column !important;
   }
 
@@ -6998,6 +7016,7 @@ footer.footer {
     display: flex;
     width: 100%;
     justify-content: flex-start;
+    -webkit-flex-direction: row;
     flex-direction: row;
     overflow-x: auto;
     border-radius: 1rem;
@@ -7008,16 +7027,6 @@ footer.footer {
   .menu-sections.text-center .row .col-xs-4 {
     width: 100%;
   }
-}
-
-
-.land-jumbotron .row:last-of-type {
-  display: block;  /* Be happy, IE. */
-  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  display: -ms-flexbox;  /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  display: flex;
-  flex-wrap: wrap;
 }
 
 div.managePortletsLink {
