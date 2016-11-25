@@ -56,7 +56,7 @@
 }
 
 .land-publication-image img {
-  max-height: 150px;
+  max-height: 200px;
   padding: 5px;
   border: 3px solid #eeeeee;
 }
@@ -64,153 +64,37 @@
 
     <h1 class="land-title">Publications</h1>
 
-    <div class="land-publications-container">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item">
-          <div class="land-publication-image">
-            <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view">
-              <img src="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers">
-            </a>
-          </div>
-          <h3 class="land-publication-title">GIO land High Resolution</h3>
-        </div>
+    <div class="land-publications-container"
+         tal:define="path context/@@plone_portal_state/navigation_root_path;
+                  files python:context.getFolderContents(contentFilter={'portal_type':['File']});
+                  files_per_row python:3;
+                  files_rows python:[files[i:i+files_per_row] for i in range(0, len(files), files_per_row)];">
 
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item">
-          <div class="land-publication-image">
-            <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view">
-              <img src="http://land.copernicus.eu/user-corner/publications/rz-flyer-a4/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers">
-            </a>
-          </div>
-          <h3 class="land-publication-title">Layers HR-VHR mosaics flyer</h3>
-        </div>
+      <tal:rows tal:repeat="files_columns python:files_rows">
+        <div class="row">
+          <tal:columns tal:repeat="file python:files_columns">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item"
+                 tal:define="file_obj python:file.getObject();
+                             file_title python:file_obj.Title();
+                             file_url python:file_obj.absolute_url();
+                             file_view_url python:file_obj.absolute_url() + '/view';
+                             file_cover_img python:file_url + '/image';">
 
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item">
-          <div class="land-publication-image">
-            <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view">
-              <img src="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers">
-            </a>
-          </div>
-          <h3 class="land-publication-title">Long long title GIO land High Resolution Layers HR-VHR mosaics flyer</h3>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item">
-          <div class="land-publication-image">
-            <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view">
-              <img src="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers">
-            </a>
-          </div>
-          <h3 class="land-publication-title">Long long title GIO land High Resolution Layers HR-VHR mosaics flyer</h3>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item">
-          <div class="land-publication-image">
-            <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view">
-              <img src="http://land.copernicus.eu/user-corner/publications/hrl-flyer-a4/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers">
-            </a>
-          </div>
-          <h3 class="land-publication-title">GIO land High Resolution</h3>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item">
-          <div class="land-publication-image">
-            <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view">
-              <img src="http://land.copernicus.eu/user-corner/publications/global-flyer/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers">
-            </a>
-          </div>
-          <h3 class="land-publication-title">Layers HR-VHR mosaics flyer</h3>
-        </div>
-      </div>
-    </div>
-
-    <h1 class="land-title">Events</h1>
-
-    <form name="searchresults" action="" method="post" tal:condition="results"
-          tal:define="batch python:Batch(results, 15, int(b_start), orphan=1);
-                      toLocalizedTime nocall: context/@@plone/toLocalizedTime;">
-
-      <metal:block tal:repeat="result batch">
-
-        <div class="newsItem clearfix"
-             metal:define-macro="listitem"
-             tal:define="resultObject result/getObject;
-                        creator result/Creator;
-                        resulturl resultObject/absolute_url;">
-
-          <div class="newsContent">
-            <h2>
-              <a href="/view"
-                 tal:attributes="href resulturl"
-                 tal:content="result/pretty_title_or_id">
-                Event headline
-              </a>
-            </h2>
-            <p>
-              Published by 
-              <span class="link-user">
-                <a href=""
-                   tal:attributes="href python: home_url(creator)"
-                   tal:content="creator">
-                  Author
-                </a>
-              </span> 
-              on 
-              <span tal:replace="python:toLocalizedTime(result.Date)">Publish date</span>
-            </p>
-            <p tal:content="resultObject/event_format" >
-              Description
-            </p>
-          </div>
-
-          <div class="newsAbout">
-            <div
-              tal:define="start_date python:toLocalizedTime(resultObject.start()); end_date python:toLocalizedTime(resultObject.end())"
-              >
-              <strong>When</strong><br />
-              <span tal:replace="start_date">Start Date</span>
-              <tal:end_date tal:condition="python: start_date != end_date">
-                to<br /><span tal:replace="end_date">End Date</span>
-              </tal:end_date>
-            </div>
-
-            <div>
-              <strong>Where</strong><br />
-              <span tal:replace="python:result.location">location</span>
-            </div>
-          </div>
-
-          <div class="newsFooter"
-               tal:define="is_discussable python: isDiscussionAllowedFor and isDiscussionAllowedFor(resultObject) or False;">
-            <tal:discussable condition="is_discussable">
-              <div tal:attributes="class python: test(has_replies, 'visualCommentAlign link-comment','visualCommentAlign');"
-                   tal:define="talkback python: getDiscussionFor(resultObject);
-                               has_replies python: talkback.hasReplies(resultObject);">
-                <a href=""
-                   tal:define="reply_count python:talkback.replyCount(resultObject)"
-                   tal:condition="reply_count"
-                   tal:attributes="href string:${resulturl}#comments;">
-                  (<span tal:replace="python: reply_count" />)
+              <div class="land-publication-image">
+                <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view"
+                   tal:attributes="href python:file_view_url">
+                  <img src="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers"
+                       tal:attributes="src python:file_cover_img;
+                                       alt python:file_title">
                 </a>
               </div>
-            </tal:discussable>
-          </div>
+
+              <h3 class="land-publication-title" tal:content="python:file_title">GIO land High Resolution</h3>
+            </div>
+          </tal:columns>
         </div>
-      </metal:block>
-
-      <div metal:use-macro="context/batch_macros/macros/navigation" />
-
-    </form>
-
-    <p tal:condition="not: results" i18n:translate="no_new_events">
-      No events have been posted.
-    </p>
-
-    <div tal:define="contentTypes context/getAllowedTypes" tal:omit-tag="python:1"
-         tal:condition="python:'events' in portal.contentIds() and context==portal.events">
-      <tal:add_button metal:use-macro="context/folder_contents/macros/add_button"/>
+      </tal:rows>
     </div>
-
   </div>
 </metal:main>
 </body>
