@@ -11,32 +11,14 @@
 
 <body>
 <metal:main fill-slot="main">
-  <div id="content-core"
-      tal:define="path context/@@plone_portal_state/navigation_root_path;
-                  results python:context.portal_catalog.searchResults(dict(
-                    portal_type='Event',
-                    sort_on='start',
-                    sort_order='descending',
-                    review_state='published',
-                    path=path));
-                  results python:[r for r in results if r.getObject()];
-                  Batch python:modules['Products.CMFPlone'].Batch;
-                  b_start python:request.get('b_start',0);
-                  portal_discussion nocall:context/portal_discussion;
-                  isDiscussionAllowedFor nocall:portal_discussion/isDiscussionAllowedFor|nothing;
-                  getDiscussionFor nocall:portal_discussion/getDiscussionFor|nothing;
-                  home_url python:context.portal_membership.getHomeUrl;
-                  isAnon context/@@plone_portal_state/anonymous;
-                  portal context/@@plone_portal_state/portal;
-                  show_about python:not isAnon or context.portal_properties.site_properties.allowAnonymousViewAbout">
+  <div id="content-core">
 
     <h1 class="land-title">Publications</h1>
 
     <div class="land-publications-container"
-         tal:define="path context/@@plone_portal_state/navigation_root_path;
-                  files python:context.getFolderContents(contentFilter={'portal_type':['File']});
-                  files_per_row python:3;
-                  files_rows python:[files[i:i+files_per_row] for i in range(0, len(files), files_per_row)];">
+         tal:define="files python:context.getFolderContents(contentFilter={'portal_type':['File']});
+                     files_per_row python:3;
+                     files_rows python:[files[i:i+files_per_row] for i in range(0, len(files), files_per_row)];">
 
       <tal:rows tal:repeat="files_columns python:files_rows">
         <div class="row">
