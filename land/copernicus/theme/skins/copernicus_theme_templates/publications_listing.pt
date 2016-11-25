@@ -30,38 +30,6 @@
                   portal context/@@plone_portal_state/portal;
                   show_about python:not isAnon or context.portal_properties.site_properties.allowAnonymousViewAbout">
 
-<style>
-.land-publications-container {
-  width: 100%;
-}
-
-.land-publication-item {
-  text-align: center;
-}
-
-.land-publication-item {
-  color: #5C5C5C;
-}
-
-.land-publication-title {
-  font-size: 18px !important;
-}
-
-.land-publication-item:hover .land-publication-title {
-  color: #1E1E1E !important;
-}
-
-.land-publication-item:hover .land-publication-image img {
-  border: 3px solid #BDCE49;
-}
-
-.land-publication-image img {
-  max-height: 200px;
-  padding: 5px;
-  border: 3px solid #eeeeee;
-}
-</style>
-
     <h1 class="land-title">Publications</h1>
 
     <div class="land-publications-container"
