@@ -5,6 +5,21 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/* ========================================
+ * --          INSITU COLORS             --
+ * ========================================
+ * #783F34  :: main color (Old Copper)
+ * #ffcf87  :: main color (light yellow)
+ * #b0bf27  :: Land tag (green)
+ * #0b6192  :: Marine tag (dark blue)
+ * #61c4dd  :: Athmosphere (light blue)
+ * #f6a933  :: Emergency (orange)
+ * #588683  :: Security (blue gray)
+ * #941332  :: Climate change (pink)
+ * ========================================
+ */
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
