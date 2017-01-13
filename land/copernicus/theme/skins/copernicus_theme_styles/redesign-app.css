@@ -7062,6 +7062,11 @@ div[data-diazo="land-news-list"] {
   padding: 10px;
 }
 
+div[data-diazo="land-news-list"] {
+  margin-bottom: 20px;
+}
+
+
 /* FIX FOR JAYAN - this is a temporary fix used on production to hide some partial data. */
 /* Hide Metadata tab for these products. */
 body.subsection-high-resolution-image-mosaic #fieldsetlegend-metadata {
