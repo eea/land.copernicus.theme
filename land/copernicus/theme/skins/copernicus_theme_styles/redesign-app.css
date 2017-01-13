@@ -7055,7 +7055,8 @@ body.template-events_listing article.main h2 {
   border: 3px solid #eeeeee;
 }
 
-div[data-diazo="land-events-list"] {
+div[data-diazo="land-events-list"],
+div[data-diazo="land-news-list"] {
   border: 2px solid #dedede;
   border-radius: 5px;
   padding: 10px;
