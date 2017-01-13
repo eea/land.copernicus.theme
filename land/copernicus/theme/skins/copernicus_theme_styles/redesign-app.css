@@ -6346,7 +6346,7 @@ button.close {
   -moz-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8); }
 
-.shadow-gray-light, .main-content {
+.shadow-gray-light {
   -webkit-box-shadow: 0px 2px 7px 0px #efefef;
   -moz-box-shadow: 0px 2px 7px 0px #efefef;
   box-shadow: 0px 2px 7px 0px #efefef; }
