@@ -18,7 +18,6 @@
  * #f6a933  :: Emergency (orange)
  * #588683  :: Security (blue gray)
  * #941332  :: Climate change (pink)
- * 
  * ========================================
  */
 
@@ -6975,14 +6974,17 @@ body.subsection-high-resolution-image-mosaic #fieldsetlegend-metadata {
 }
 /* END FIX */
 
-.insitu-lists-section {
+.insitu-lists-section,
+.insitu-lists-section .main-content,
+.insitu-lists-section .main-content .row div div {
   background: #EEEEEE;
 }
 
-.insitu-lists-section .main-content {
-  background: #EEEEEE;
-}
-
-.insitu-lists-section .main-content div {
+.insitu-lists-section .main-content .row div div {
   background: #FFFFFF;
+}
+
+.insitu-stay-informed-section,
+.insitu-stay-informed-section div {
+  background: #ffcf87;
 }
