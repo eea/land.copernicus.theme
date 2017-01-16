@@ -6259,7 +6259,7 @@ button.close {
 .bg-green-light, .navbar-nav ul.dropdown-menu li a:hover {
   background: #b97d71; }
 
-.bg-green-primary, footer .partners, .navbar-nav ul.dropdown-menu {
+.bg-green-primary, .navbar-nav ul.dropdown-menu {
   background: #ffcf87; }
 
 .bg-green-dark, footer .text {

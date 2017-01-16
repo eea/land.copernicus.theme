@@ -36,14 +36,6 @@
     <replace css:theme="[data-diazo='insitu-carousel']" css:content="[data-diazo='insitu-carousel']" method="raw" />
     <drop css:content="#content-core [data-diazo='insitu-carousel']" />
 
-    <!-- Jumbotron -->
-    <replace css:theme="[data-diazo='insitu-jumbotron']" css:content="[data-diazo='insitu-jumbotron']" method="raw" />
-    <drop css:content="#content-core [data-diazo='insitu-jumbotron']" />
-
-    <!-- Menu sections -->
-    <replace css:theme="[data-diazo='insitu-menu-sections']" css:content="[data-diazo='insitu-menu-sections']" method="raw" />
-    <drop css:content="#content-core [data-diazo='insitu-menu-sections']" />
-
     <!-- Right column -->
     <replace css:theme-children="[data-diazo='insitu-events-list']" css:content-children="#viewlet-below-content #insitu-events" />
     <drop css:content="#viewlet-below-content #insitu-events" />
