@@ -6407,7 +6407,7 @@ body {
   z-index: 1; }
 
 #header-section {
-  background-image: url("./header-main-photo.jpg");
+  background-image: url("./header-photo-resize.jpg");
   background-size: cover;
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -6458,7 +6458,7 @@ body {
 }
 
 #header-section.simple-page {
-  background-image: url("./header-main-photo-crop.jpg");
+  background-image: url("./header-photo-resize.jpg");
   height: 233px; }
 
 .main-content {
