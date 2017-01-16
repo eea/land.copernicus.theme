@@ -18,6 +18,7 @@
  * #f6a933  :: Emergency (orange)
  * #588683  :: Security (blue gray)
  * #941332  :: Climate change (pink)
+ * 
  * ========================================
  */
 
@@ -6274,7 +6275,7 @@ button.close {
 .color-green-light {
   color: #b97d71; }
 
-.color-green-primary, a, #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li:after, footer .text .list-inline.land-list-separated li:after, footer .text ul li .fa-arrow-up {
+.color-green-primary, a, #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:after, footer .text .list-inline.insitu-list-separated li:after, footer .text ul li .fa-arrow-up {
   color: #783F34; }
 
 .color-green-dark, a:hover {
@@ -6301,14 +6302,14 @@ button.close {
 .color-gray-light {
   color: #A4A4A4; }
 
-.color-gray-dark, .land-box1, .images-slider .carousel-caption p, footer .partners .partners-banners, .event-date, .snippet .event-body p,
-.snippet .news-body p, .land-doc-info {
+.color-gray-dark, .insitu-box1, .images-slider .carousel-caption p, footer .partners .partners-banners, .event-date, .snippet .event-body p,
+.snippet .news-body p, .insitu-doc-info {
   color: #5C5C5C; }
 
 .color-gray-darker, body, .images-slider .carousel-caption h4, footer .text, .navbar-nav ul.dropdown-menu li a, article {
   color: #1E1E1E; }
 
-.bg-white, .land-box1, footer .partners .partners-banners {
+.bg-white, .insitu-box1, footer .partners .partners-banners {
   background: #FFFFFF; }
 
 .color-white, footer .partners {
@@ -6320,10 +6321,10 @@ button.close {
 .color-black {
   color: #000000; }
 
-.boder-radius-primary, .box, .box-full-size, .land-box1 {
+.boder-radius-primary, .box, .box-full-size, .insitu-box1 {
   border-radius: 6px; }
 
-.shadow-gray-dark, .land-box1, .images-slider {
+.shadow-gray-dark, .insitu-box1, .images-slider {
   -webkit-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   -moz-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8); }
@@ -6333,7 +6334,7 @@ button.close {
   -moz-box-shadow: 0px 2px 7px 0px #efefef;
   box-shadow: 0px 2px 7px 0px #efefef; }
 
-.box, .box-full-size, .land-box1 {
+.box, .box-full-size, .insitu-box1 {
   width: 15%;
   padding: 18px;
   margin-right: 18px;
@@ -6343,18 +6344,18 @@ button.close {
 .box-full-size {
   width: 90%; }
 
-.land-box1 {
+.insitu-box1 {
   width: 100%;
   height: 200px; }
-  .land-box1 .land-icon-box {
+  .insitu-box1 .insitu-icon-box {
     min-height: 50%; }
-    .land-box1 .land-icon-box img {
+    .insitu-box1 .insitu-icon-box img {
       max-width: 40%;
       margin-top: 15%; }
-  .land-box1 h4 {
+  .insitu-box1 h4 {
     margin-top: 10%; }
 
-.land-box1:hover {
+.insitu-box1:hover {
   border: 6px solid #E3F37D; }
 
 .bg-texture, body {
@@ -6362,7 +6363,7 @@ button.close {
   /*background-attachment: fixed;*/
   background-color: #ffffff; }
 
-.margin-content, #header-section .container-fluid#land-brand-utils .content, .main-content, .breadcrumbs, .images-slider, .menu-sections, footer {
+.margin-content, #header-section .container-fluid#insitu-brand-utils .content, .main-content, .breadcrumbs, .images-slider, .menu-sections, footer {
   margin-left: 15%;
   margin-right: 15%; }
 
@@ -6387,35 +6388,35 @@ body {
   background-size: cover;
   background-position: left bottom;
   background-repeat: no-repeat; }
-  #header-section .container-fluid#land-brand-utils {
+  #header-section .container-fluid#insitu-brand-utils {
     background: rgba(255, 255, 255, 0.8); }
-    #header-section .container-fluid#land-brand-utils .content {
+    #header-section .container-fluid#insitu-brand-utils .content {
       padding-top: 6px; }
-      #header-section .container-fluid#land-brand-utils .content .brand .img-brand {
+      #header-section .container-fluid#insitu-brand-utils .content .brand .img-brand {
         margin-top: 6px;
         height: 58px; }
-      #header-section .container-fluid#land-brand-utils .content .brand .website-title {
+      #header-section .container-fluid#insitu-brand-utils .content .brand .website-title {
         text-decoration: none;
         position: relative;
         top: -10px; }
-      #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated {
+      #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated {
         margin-bottom: 10px; }
-        #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li:after {
+        #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:after {
           content: '|';
           margin-left: 10px;
           color: #1e396b; }
-        #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li:last-child:after {
+        #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:last-child:after {
           content: ''; }
-        #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li:last-child {
+        #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:last-child {
           margin-right: -6px; }
-        #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li {
+        #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li {
           padding-right: 6px; }
-      #header-section .container-fluid#land-brand-utils .content .utils .col-lg-8.col-md-8.col-sm-12 {
+      #header-section .container-fluid#insitu-brand-utils .content .utils .col-lg-8.col-md-8.col-sm-12 {
         padding: 0; }
-      #header-section .container-fluid#land-brand-utils .content .utils .btn.btn-default, #header-section .container-fluid#land-brand-utils .content .utils input {
+      #header-section .container-fluid#insitu-brand-utils .content .utils .btn.btn-default, #header-section .container-fluid#insitu-brand-utils .content .utils input {
         font-size: 16px;
         margin-bottom: 16px; }
-      #header-section .container-fluid#land-brand-utils .content .utils input.form-control.search-bar {
+      #header-section .container-fluid#insitu-brand-utils .content .utils input.form-control.search-bar {
         height: 100%;
         border-color: #FFFFFF; }
 
@@ -6502,21 +6503,21 @@ footer .text {
   padding: 12px 18px 0px 18px;
   text-align: center;
   font-size: 16px; }
-  footer .text .list-inline.land-list-separated {
+  footer .text .list-inline.insitu-list-separated {
     margin-bottom: 0px; }
-    footer .text .list-inline.land-list-separated li:after {
+    footer .text .list-inline.insitu-list-separated li:after {
       content: '|';
       margin-left: 6px; }
-    footer .text .list-inline.land-list-separated li:last-child:after {
+    footer .text .list-inline.insitu-list-separated li:last-child:after {
       content: ''; }
-    footer .text .list-inline.land-list-separated li:last-child {
+    footer .text .list-inline.insitu-list-separated li:last-child {
       margin-right: -6px; }
-    footer .text .list-inline.land-list-separated li {
+    footer .text .list-inline.insitu-list-separated li {
       padding-right: 0px; }
-    footer .text .list-inline.land-list-separated .go-top {
+    footer .text .list-inline.insitu-list-separated .go-top {
       color: #1E1E1E;
       text-decoration: none; }
-    footer .text .list-inline.land-list-separated .go-top:hover {
+    footer .text .list-inline.insitu-list-separated .go-top:hover {
       color: #5B6800; }
 
 #content-section.homepage {
@@ -6529,7 +6530,7 @@ footer .text {
   position: relative;
   z-index: 2 !important; }
 
-.land-title,
+.insitu-title,
 #parent-fieldname-title {
   border-bottom: 3px solid #b97d71;
   font-size: 20px;
@@ -6561,7 +6562,7 @@ article.main #parent-fieldname-title {
   text-align: center;
   font-size: smaller;
   min-width: 4em; }
-  .news-preview .land-img-preview,
+  .news-preview .insitu-img-preview,
   .news-preview img {
     border-radius: 10px;
     width: 48px;
@@ -6592,7 +6593,7 @@ article.main #parent-fieldname-title {
 .snippet .news-body {
   overflow: hidden; }
 
-.land-img-preview {
+.insitu-img-preview {
   border: none; }
 
 .navbar-default {
@@ -6658,7 +6659,7 @@ ul.user-corner-menu {
     ul.user-corner-menu li img {
       width: 18px; }
 
-.land-doc-info {
+.insitu-doc-info {
   margin-bottom: 18px; }
 
 article img {
@@ -6709,7 +6710,7 @@ article img {
   }
 }
 
-div.utils ul.list-inline.land-list-separated li {
+div.utils ul.list-inline.insitu-list-separated li {
   /* TODO: Investigate why. Find better fix. */
   line-height: 0px;
   padding-top: 10px;
@@ -6717,7 +6718,7 @@ div.utils ul.list-inline.land-list-separated li {
   padding-left: 10px;
 }
 
-footer .text .list-inline.land-list-separated li:last-child:after {
+footer .text .list-inline.insitu-list-separated li:last-child:after {
   content: '' !important;
   margin-left: 0px;
 }
@@ -6745,7 +6746,7 @@ div.row {
   margin-right: 10px;
 }
 
-footer ul.list-inline.land-list-separated {
+footer ul.list-inline.insitu-list-separated {
   position: relative;
   top: -6px;
 }
@@ -6859,7 +6860,7 @@ div.managePortletsLink {
   margin-bottom: 16px;
 }
 
-body.template-manage-portlets [data-diazo='land-secondary-column'] {
+body.template-manage-portlets [data-diazo='insitu-secondary-column'] {
   width: 0%;
 }
 
@@ -6878,7 +6879,7 @@ body.template-manage-portlets div#portletmanager-plone-rightcolumn {
 }
 
 @media (min-width: 1200px) and (max-width: 1440px) {
-  .land-box1 h4 {
+  .insitu-box1 h4 {
     font-size: 13px;
   }
 }
@@ -6925,44 +6926,44 @@ body.template-events_listing article.main h2 {
   color: white;
 }
 
-.land-publications-container {
+.insitu-publications-container {
   width: 100%;
 }
 
-.land-publication-item {
+.insitu-publication-item {
   text-align: center;
 }
 
-.land-publication-item {
+.insitu-publication-item {
   color: #5C5C5C;
 }
 
-.land-publication-title {
+.insitu-publication-title {
   font-size: 18px !important;
 }
 
-.land-publication-item:hover .land-publication-title {
+.insitu-publication-item:hover .insitu-publication-title {
   color: #1E1E1E !important;
 }
 
-.land-publication-item:hover .land-publication-image img {
+.insitu-publication-item:hover .insitu-publication-image img {
   border: 3px solid #b97d71;
 }
 
-.land-publication-image img {
+.insitu-publication-image img {
   max-height: 200px;
   padding: 5px;
   border: 3px solid #eeeeee;
 }
 
-div[data-diazo="land-events-list"],
-div[data-diazo="land-news-list"] {
+div[data-diazo="insitu-events-list"],
+div[data-diazo="insitu-news-list"] {
   border: 2px solid #dedede;
   border-radius: 5px;
   padding: 10px;
 }
 
-div[data-diazo="land-news-list"] {
+div[data-diazo="insitu-news-list"] {
   margin-bottom: 20px;
 }
 
@@ -6973,3 +6974,15 @@ body.subsection-high-resolution-image-mosaic #fieldsetlegend-metadata {
   display: none !important;
 }
 /* END FIX */
+
+.insitu-lists-section {
+  background: #EEEEEE;
+}
+
+.insitu-lists-section .main-content {
+  background: #EEEEEE;
+}
+
+.insitu-lists-section .main-content div {
+  background: #FFFFFF;
+}

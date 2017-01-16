@@ -1,9 +1,9 @@
 <div tal:define="events view/events;
                  has_events python:True if len(events) > 0 else False;"
-     id="land-events">
+     id="insitu-events">
 
   <!-- Events list -->
-  <h4 class="land-title">Coming events</h4>
+  <h4 class="insitu-title">Coming events</h4>
   <div class="listing block-inset">
     <div class="listing-body">
       <ul class="listing-items" tal:condition="python:has_events">

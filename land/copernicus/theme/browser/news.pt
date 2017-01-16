@@ -1,9 +1,9 @@
 <div tal:define="news_list view/news;
                  has_news python:True if len(news_list) > 0 else False;"
-     id="land-news">
+     id="insitu-news">
 
   <!-- Latest news -->
-  <h4 class="land-title">Latest news</h4>
+  <h4 class="insitu-title">Latest news</h4>
   <div class="listing block-inset">
     <div class="listing-body">
       <ul class="listing-items" tal:condition="python:has_news">
@@ -19,10 +19,10 @@
             <div class="news snippet">
               <div class="news-preview">
                 <tal:condition tal:condition="news_image">
-                  <img class="land-img-preview" tal:replace="structure news_image" />
+                  <img class="insitu-img-preview" tal:replace="structure news_image" />
                 </tal:condition>
                 <tal:condition tal:condition="not:news_image">
-                  <img class="land-img-preview" src="./preview_image.png" alt="Preview image">
+                  <img class="insitu-img-preview" src="./preview_image.png" alt="Preview image">
                 </tal:condition>
               </div>
 

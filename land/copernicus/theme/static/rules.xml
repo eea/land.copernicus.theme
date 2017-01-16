@@ -30,25 +30,25 @@
     <!-- Search -->
     <copy attributes="action"
         css:content="#portal-searchbox form"
-        css:theme="[data-diazo='land-search-form']" />
+        css:theme="[data-diazo='insitu-search-form']" />
 
     <!-- Carousel -->
-    <replace css:theme="[data-diazo='land-carousel']" css:content="[data-diazo='land-carousel']" method="raw" />
-    <drop css:content="#content-core [data-diazo='land-carousel']" />
+    <replace css:theme="[data-diazo='insitu-carousel']" css:content="[data-diazo='insitu-carousel']" method="raw" />
+    <drop css:content="#content-core [data-diazo='insitu-carousel']" />
 
     <!-- Jumbotron -->
-    <replace css:theme="[data-diazo='land-jumbotron']" css:content="[data-diazo='land-jumbotron']" method="raw" />
-    <drop css:content="#content-core [data-diazo='land-jumbotron']" />
+    <replace css:theme="[data-diazo='insitu-jumbotron']" css:content="[data-diazo='insitu-jumbotron']" method="raw" />
+    <drop css:content="#content-core [data-diazo='insitu-jumbotron']" />
 
     <!-- Menu sections -->
-    <replace css:theme="[data-diazo='land-menu-sections']" css:content="[data-diazo='land-menu-sections']" method="raw" />
-    <drop css:content="#content-core [data-diazo='land-menu-sections']" />
+    <replace css:theme="[data-diazo='insitu-menu-sections']" css:content="[data-diazo='insitu-menu-sections']" method="raw" />
+    <drop css:content="#content-core [data-diazo='insitu-menu-sections']" />
 
     <!-- Right column -->
-    <replace css:theme-children="[data-diazo='land-events-list']" css:content-children="#viewlet-below-content #land-events" />
-    <drop css:content="#viewlet-below-content #land-events" />
-    <replace css:theme-children="[data-diazo='land-news-list']" css:content-children="#viewlet-below-content #land-news" />
-    <drop css:content="#viewlet-below-content #land-news" />
+    <replace css:theme-children="[data-diazo='insitu-events-list']" css:content-children="#viewlet-below-content #insitu-events" />
+    <drop css:content="#viewlet-below-content #insitu-events" />
+    <replace css:theme-children="[data-diazo='insitu-news-list']" css:content-children="#viewlet-below-content #insitu-news" />
+    <drop css:content="#viewlet-below-content #insitu-news" />
 
     <!-- Main content -->
     <replace css:theme-children="article.main" css:content-children="#portal-column-content" />
@@ -57,7 +57,7 @@
     <drop css:content="#portal-breadcrumbs" />
 
     <!-- Top right corner menu -->
-    <replace css:theme-children="div.utils ul.land-list-separated">
+    <replace css:theme-children="div.utils ul.insitu-list-separated">
       <xsl:for-each css:select="#portal-siteactions li a">
         <li>
           <xsl:copy-of select="current()" />
@@ -96,7 +96,7 @@
     </replace>
 
     <!-- Footer -->
-    <replace css:theme="[data-diazo='land-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
+    <replace css:theme="[data-diazo='insitu-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
     <drop css:content=".portlet-static-partners ul.partners-logos" />
     <replace css:theme="[data-diazo='link-more-partners']" css:content="[data-diazo='link-more-partners']" />
 
@@ -135,10 +135,10 @@
       <!-- Search -->
       <copy attributes="action"
           css:content="#portal-searchbox form"
-          css:theme="[data-diazo='land-search-form']" />
+          css:theme="[data-diazo='insitu-search-form']" />
 
       <!-- Top right corner menu -->
-      <replace css:theme-children="div.utils ul.land-list-separated">
+      <replace css:theme-children="div.utils ul.insitu-list-separated">
         <xsl:for-each css:select="#portal-siteactions li a">
           <li>
             <xsl:copy-of select="current()" />
@@ -177,7 +177,7 @@
       </replace>
 
       <!-- Footer -->
-      <replace css:theme="[data-diazo='land-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
+      <replace css:theme="[data-diazo='insitu-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
       <drop css:content=".portlet-static-partners ul.partners-logos" />
       <replace css:theme="[data-diazo='link-more-partners']" css:content="[data-diazo='link-more-partners']" />
 
@@ -190,17 +190,17 @@
 
     <!-- Main content -->
     <replace css:theme-children="article.main" css:content-children="#portal-column-content"/>
-    <drop css:content="#viewlet-below-content #land-events" />
-    <drop css:content="#viewlet-below-content #land-news" />
+    <drop css:content="#viewlet-below-content #insitu-events" />
+    <drop css:content="#viewlet-below-content #insitu-news" />
 
-    <replace css:theme="[data-diazo='land-user-corner']" css:content-children=".portlet-static-user-corner-menu .portletItem" method="raw" />
+    <replace css:theme="[data-diazo='insitu-user-corner']" css:content-children=".portlet-static-user-corner-menu .portletItem" method="raw" />
     <drop css:content=".portlet-static-user-corner-menu" />
 
     <rules css:if-content=".managePortletsLink">
-      <after css:theme-children="[data-diazo='land-secondary-column']" css:content=".managePortletsLink" />
+      <after css:theme-children="[data-diazo='insitu-secondary-column']" css:content=".managePortletsLink" />
     </rules>
 
-    <!-- <replace css:theme-children="[data-diazo='land-secondary-column']" css:content-children="#portal-column-two" /> -->
+    <!-- <replace css:theme-children="[data-diazo='insitu-secondary-column']" css:content-children="#portal-column-two" /> -->
 
     <!-- Breadcrumbs -->
     <after css:theme-children="div.breadcrumb" css:content-children="#portal-breadcrumbs" />
