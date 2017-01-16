@@ -1,3 +1,19 @@
+TODO
+====
+- demo insitu
+- homepage: a page for each section, update diazo rules
+- remove unused images (land icons etc.)
+
+
+INSITU Install Guide for New theme
+==================================
+http://localhost:8081/copernicus/prefs_install_products_form
+    run land.copernicus.theme step
+
+
+==================================
+OLD (from Copernicus Land):
+
 Here we have useful resources used for redesign.
 
 Copernicus Logo with details.svg is exported from Copernicus style guide ("Copernicus graphical charter 1-10-2015.pdf").
