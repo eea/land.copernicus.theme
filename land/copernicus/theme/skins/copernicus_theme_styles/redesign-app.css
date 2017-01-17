@@ -6339,7 +6339,7 @@ button.close {
   color: #000000; }
 
 .boder-radius-primary, .box, .box-full-size, .land-box1 {
-  border-radius: 6px; }
+  border-radius: 6px }
 
 .shadow-gray-dark, .land-box1, .land-jumbotron, .images-slider {
   -webkit-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
@@ -6384,6 +6384,10 @@ button.close {
   margin-left: 15%;
   margin-right: 15%; }
 
+
+
+
+
 body {
   padding: 0px;
   margin: 0px;
@@ -6411,13 +6415,18 @@ body {
       padding-top: 6px; }
       #header-section .container-fluid#land-brand-utils .content .brand .img-brand {
         margin-top: 6px;
-        height: 58px; }
-      #header-section .container-fluid#land-brand-utils .content .brand .website-title {
-        text-decoration: none;
-        position: relative;
-        top: -10px; }
+        height: 71px; }
       #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated {
         margin-bottom: 10px; }
+
+@media (max-width: 800px) {
+  #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+  }
+}
+
         #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li:after {
           content: '|';
           margin-left: 10px;
@@ -6535,7 +6544,7 @@ footer .partners {
   padding: 24px 24px 24px 24px; }
   footer .partners .partners-banners {
     border-radius: 6px;
-    padding: 16px; }
+    padding: 16px 0; }
     footer .partners .partners-banners h4 > a:hover {
       text-decoration: underline; }
     footer .partners .partners-banners a {
@@ -6898,7 +6907,7 @@ dl.error {
     margin-bottom: 2.5rem;
     padding: 0;
     border: 1px solid #A0B228;
-    border-radius: 2rem;
+    border-radius: 6px;
     justify-content: center;
   }
 
@@ -6914,7 +6923,7 @@ dl.error {
     -webkit-flex-direction: row;
     flex-direction: row;
     overflow-x: auto;
-    border-radius: 1rem;
+    border-radius: 6px;
     margin-top: 1.5rem;
     overflow-y: hidden;
   }
@@ -6975,10 +6984,7 @@ article.main #edit-bar {
 }
 
 .eventDetails.vcard {
-  float: none;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  max-width: 500px;
+  float: initial;
 }
 
 body.template-events_listing article.main h2 {
@@ -7004,10 +7010,61 @@ body.template-events_listing article.main h2 {
 }
 
 .eventDetails.vcard .vertical.listing th {
-  width: 25%;
-  background: #A0B228;
-  color: white;
+    width: 25%;
+    background: #A0B228;
+    color: white;
 }
+
+
+@media (max-width: 768px ) {
+  .margin-content, #header-section .container-fluid#land-brand-utils .content,
+  .main-content, .breadcrumbs, .land-jumbotron, .images-slider, .menu-sections, footer {
+  margin-left: 5%;
+  margin-right: 5%; }
+
+}
+
+@media (min-width: 769px) and (max-width:775px) {
+  .col-sm-6 {
+    width: 40%;
+  }
+}
+
+@media (max-width: 800px) {
+  .carousel-caption {
+    bottom: 0!important;
+            width: 52%!important;
+    text-align: center!important;
+    margin-left: 9%!important;
+  }
+
+  .images-slider .carousel-caption h4 {
+    font-size: 2rem;
+
+  }
+
+  .images-slider .carousel-caption p {
+    display: none;
+  }
+
+}
+
+
+ul.partners-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand .list-inline {
+  display: inline-flex;
+  margin-bottom: 2rem;
+}
+
+.utils ul {
+  white-space: nowrap;
+}
+
 
 .land-publications-container {
   width: 100%;
