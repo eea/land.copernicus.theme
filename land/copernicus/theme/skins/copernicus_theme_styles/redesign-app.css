@@ -7101,4 +7101,9 @@ ul.partners-logos {
 body.subsection-high-resolution-image-mosaic #fieldsetlegend-metadata {
   display: none !important;
 }
+
+/* Hide Map view tab for these products. */
+body.subsection-urban-atlas-ancillary-data-on-population-estimates-by-urban-atlas-polygons #fieldsetlegend-mapview {
+  display: none !important;
+}
 /* END FIX */
