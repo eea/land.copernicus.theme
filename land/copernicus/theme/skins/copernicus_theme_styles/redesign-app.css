@@ -2274,7 +2274,7 @@ input[type="search"] {
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
-  margin-top: 1px \9;
+  margin-top: 1px;
   line-height: normal; }
 
 input[type="file"] {
@@ -2423,7 +2423,7 @@ input[type="search"] {
 .checkbox-inline input[type="checkbox"] {
   position: absolute;
   margin-left: -20px;
-  margin-top: 4px \9; }
+  margin-top: 4px; }
 
 .radio + .radio,
 .checkbox + .checkbox {
@@ -3136,7 +3136,7 @@ tbody.collapse.in {
   margin-left: 2px;
   vertical-align: middle;
   border-top: 4px dashed;
-  border-top: 4px solid \9;
+  border-top: 4px solid;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent; }
 
@@ -3243,7 +3243,7 @@ tbody.collapse.in {
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
   border-bottom: 4px dashed;
-  border-bottom: 4px solid \9;
+  border-bottom: 4px solid;
   content: ""; }
 
 .dropup .dropdown-menu,
@@ -5557,7 +5557,7 @@ button.close {
     border: 1px solid #FFFFFF;
     border-radius: 10px;
     cursor: pointer;
-    background-color: #000 \9;
+    background-color: #000;
     background-color: transparent; }
   .carousel-indicators .active {
     margin: 0;
