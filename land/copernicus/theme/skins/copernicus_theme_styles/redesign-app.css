@@ -6923,8 +6923,8 @@ body.template-events_listing article.main h2 {
 }
 
 @media (max-width: 768px ) {
-  .margin-content, #header-section .container-fluid#land-brand-utils .content,
-  .main-content, .breadcrumbs, .land-jumbotron, .images-slider, .menu-sections, footer {
+  .margin-content, #header-section .container-fluid#insitu-brand-utils .content,
+  .main-content, .breadcrumbs, .insitu-jumbotron, .images-slider, .menu-sections, footer {
   margin-left: 5%;
   margin-right: 5%; }
 }
