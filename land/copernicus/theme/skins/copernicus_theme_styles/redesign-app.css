@@ -7020,6 +7020,7 @@ div[data-diazo="insitu-news-list"] {
 .btn.insitu-btn-observations {
   background: #ffcf87;
   color: black !important;
+  padding: 20px;
 }
 
 .btn.insitu-btn-observations:hover {
@@ -7029,8 +7030,14 @@ div[data-diazo="insitu-news-list"] {
 .btn.insitu-btn-spatial-data {
   background: #783F34;
   color: white !important;
+  padding: 20px;
 }
 
 .btn.insitu-btn-spatial-data:hover {
   background: #8C5045;
+}
+
+.btn.insitu-btn-observations img,
+.btn.insitu-btn-spatial-data img {
+  margin-bottom: 10px;
 }
