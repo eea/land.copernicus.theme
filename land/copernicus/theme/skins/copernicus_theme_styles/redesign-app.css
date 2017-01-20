@@ -7041,3 +7041,39 @@ div[data-diazo="insitu-news-list"] {
 .btn.insitu-btn-spatial-data img {
   margin-bottom: 10px;
 }
+
+div.insitu-btn-tags-container {
+  padding: 20px;
+}
+
+div.insitu-btn-tags-container .btn {
+  margin-right: 5px;
+}
+
+div.insitu-btn-tags-container #insitu-tags-1 {
+  margin-bottom: 10px;
+}
+
+.btn.insitu-btn-land {
+  background: #b0bf27;
+}
+
+.btn.insitu-btn-marine {
+  background: #0b6192;
+}
+
+.btn.insitu-btn-atmosphere {
+  background: #61c4dd;
+}
+
+.btn.insitu-btn-emergency {
+  background: #f6a933;
+}
+
+.btn.insitu-btn-security {
+  background: #588683;
+}
+
+.btn.insitu-btn-climate-change {
+  background: #941332;
+}
