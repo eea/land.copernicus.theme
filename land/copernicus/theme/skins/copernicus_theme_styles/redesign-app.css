@@ -2290,7 +2290,7 @@ input[type="search"] {
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
-  margin-top: 1px \9;
+  margin-top: 1px;
   line-height: normal; }
 
 input[type="file"] {
@@ -2439,7 +2439,7 @@ input[type="search"] {
 .checkbox-inline input[type="checkbox"] {
   position: absolute;
   margin-left: -20px;
-  margin-top: 4px \9; }
+  margin-top: 4px; }
 
 .radio + .radio,
 .checkbox + .checkbox {
@@ -3152,7 +3152,7 @@ tbody.collapse.in {
   margin-left: 2px;
   vertical-align: middle;
   border-top: 4px dashed;
-  border-top: 4px solid \9;
+  border-top: 4px solid;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent; }
 
@@ -3259,7 +3259,7 @@ tbody.collapse.in {
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
   border-bottom: 4px dashed;
-  border-bottom: 4px solid \9;
+  border-bottom: 4px solid;
   content: ""; }
 
 .dropup .dropdown-menu,
@@ -5539,7 +5539,7 @@ button.close {
     border: 1px solid #FFFFFF;
     border-radius: 10px;
     cursor: pointer;
-    background-color: #000 \9;
+    background-color: #000;
     background-color: transparent; }
   .carousel-indicators .active {
     margin: 0;
@@ -6825,7 +6825,7 @@ dl.error {
     margin-bottom: 2.5rem;
     padding: 0;
     border: 1px solid #783F34;
-    border-radius: 2rem;
+    border-radius: 6px;
     justify-content: center;
   }
 
@@ -6841,7 +6841,7 @@ dl.error {
     -webkit-flex-direction: row;
     flex-direction: row;
     overflow-x: auto;
-    border-radius: 1rem;
+    border-radius: 6px;
     margin-top: 1.5rem;
     overflow-y: hidden;
   }
@@ -6902,10 +6902,7 @@ article.main #edit-bar {
 }
 
 .eventDetails.vcard {
-  float: none;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  max-width: 500px;
+  float: initial;
 }
 
 body.template-events_listing article.main h2 {
@@ -6923,6 +6920,44 @@ body.template-events_listing article.main h2 {
   width: 25%;
   background: #783F34;
   color: white;
+}
+
+@media (max-width: 768px ) {
+  .margin-content, #header-section .container-fluid#land-brand-utils .content,
+  .main-content, .breadcrumbs, .land-jumbotron, .images-slider, .menu-sections, footer {
+  margin-left: 5%;
+  margin-right: 5%; }
+}
+@media (min-width: 769px) and (max-width:775px) {
+  .col-sm-6 {
+    width: 40%;
+  }
+}
+@media (max-width: 800px) {
+  .carousel-caption {
+    bottom: 0!important;
+            width: 52%!important;
+    text-align: center!important;
+    margin-left: 9%!important;
+  }
+  .images-slider .carousel-caption h4 {
+    font-size: 2rem;
+  }
+  .images-slider .carousel-caption p {
+    display: none;
+  }
+}
+ul.partners-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand .list-inline {
+  display: inline-flex;
+  margin-bottom: 2rem;
+}
+.utils ul {
+  white-space: nowrap;
 }
 
 .insitu-publications-container {
