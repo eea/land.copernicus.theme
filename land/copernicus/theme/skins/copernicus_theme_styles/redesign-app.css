@@ -7015,3 +7015,13 @@ div[data-diazo="insitu-news-list"] {
 .insitu-stay-informed-section div {
   background: #ffcf87;
 }
+
+.btn.insitu-btn-observations {
+  background: #ffcf87;
+  color: black !important;
+}
+
+.btn.insitu-btn-spatial-data {
+  background: #783F34;
+  color: white !important;
+}
