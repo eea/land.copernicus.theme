@@ -6,19 +6,20 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-/* ========================================
- * --          INSITU COLORS             --
- * ========================================
+/* ===========================================
+ * --          INSITU COLORS                --
+ * ===========================================
  * #783F34  :: main color (Old Copper)
- * #8C5045  :: TEMP replace
+ * #8C5045  :: main color (Old Copper)   HOVER
  * #ffcf87  :: main color (light yellow)
+ * #ffe0b0  :: main color (light yellow) HOVER
  * #b0bf27  :: Land tag (green)
  * #0b6192  :: Marine tag (dark blue)
  * #61c4dd  :: Athmosphere (light blue)
  * #f6a933  :: Emergency (orange)
  * #588683  :: Security (blue gray)
  * #941332  :: Climate change (pink)
- * ========================================
+ * ===========================================
  */
 
 html {
@@ -7021,7 +7022,15 @@ div[data-diazo="insitu-news-list"] {
   color: black !important;
 }
 
+.btn.insitu-btn-observations:hover {
+  background: #ffe0b0;
+}
+
 .btn.insitu-btn-spatial-data {
   background: #783F34;
   color: white !important;
+}
+
+.btn.insitu-btn-spatial-data:hover {
+  background: #8C5045;
 }
