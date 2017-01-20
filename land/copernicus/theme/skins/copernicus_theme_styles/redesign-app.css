@@ -7001,14 +7001,6 @@ div[data-diazo="insitu-news-list"] {
   margin-bottom: 20px;
 }
 
-
-/* FIX FOR JAYAN - this is a temporary fix used on production to hide some partial data. */
-/* Hide Metadata tab for these products. */
-body.subsection-high-resolution-image-mosaic #fieldsetlegend-metadata {
-  display: none !important;
-}
-/* END FIX */
-
 .insitu-lists-section,
 .insitu-lists-section .main-content,
 .insitu-lists-section .main-content .row div div {
