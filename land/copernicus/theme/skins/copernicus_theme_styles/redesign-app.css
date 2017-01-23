@@ -6998,6 +6998,7 @@ ul.partners-logos {
   background: #ffcf87;
   color: black !important;
   padding: 20px;
+  font-size: 18px;
 }
 
 .btn.insitu-btn-observations:hover {
@@ -7008,6 +7009,7 @@ ul.partners-logos {
   background: #783F34;
   color: white !important;
   padding: 20px;
+  font-size: 18px;
 }
 
 .btn.insitu-btn-spatial-data:hover {
@@ -7130,5 +7132,18 @@ div[data-diazo="insitu-news-list"] {
 .insitu-panels-section .panel-default {
   border: 1px #CCC solid;
   border-radius: 3px;
+}
+
+.insitu-panels-section .panel-default .panel-heading {
+  background: #783F34 !important;
+  padding: 10px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border-radius-top-left: 3px;
+  border-radius-top-right: 3px;
+  font-size: 18px;
+}
+
+.insitu-panels-section .panel-default .panel-body {
   padding: 10px;
 }
