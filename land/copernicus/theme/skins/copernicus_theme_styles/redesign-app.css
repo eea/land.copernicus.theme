@@ -7118,3 +7118,7 @@ form[data-diazo="insitu-search-form"] .input-group {
   padding-right: 18px;
   border-right: 1px solid #783F34;
 }
+
+.insitu-btn-tags-container a {
+  margin-bottom: 10px;
+}
