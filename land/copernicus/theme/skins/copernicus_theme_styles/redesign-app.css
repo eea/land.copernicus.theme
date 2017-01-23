@@ -7146,3 +7146,7 @@ div[data-diazo="insitu-news-list"] {
   padding: 10px 20px;
   font-weight: bold;
 }
+
+.insitu-stay-informed-section p {
+  margin-bottom: 22px;
+}
