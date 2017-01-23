@@ -6393,6 +6393,7 @@ body {
       padding-top: 6px; }
       #header-section .container-fluid#insitu-brand-utils .content .brand .img-brand {
         margin-top: 6px;
+        padding-left: 10px;
         height: 58px; }
       #header-section .container-fluid#insitu-brand-utils .content .brand .website-title {
         text-decoration: none;
@@ -7111,4 +7112,9 @@ form[data-diazo="insitu-search-form"] .input-group {
 
 #header-section nav.navbar-default {
   text-transform: uppercase;
+}
+
+#header-section .brand ul.list-inline li:first-child {
+  padding-right: 18px;
+  border-right: 1px solid #783F34;
 }
