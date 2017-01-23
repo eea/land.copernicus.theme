@@ -7108,3 +7108,7 @@ form[data-diazo="insitu-search-form"] .input-group {
   border-radius: 12px;
   margin-bottom: 12px;
 }
+
+#header-section nav.navbar-default {
+  text-transform: uppercase;
+}
