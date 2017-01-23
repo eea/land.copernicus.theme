@@ -7108,13 +7108,6 @@ form[data-diazo="insitu-search-form"] .input-group {
   font-size: 10px;
 }
 
-div[data-diazo="insitu-events-list"],
-div[data-diazo="insitu-news-list"] {
-  border: 2px solid #dedede;
-  border-radius: 5px;
-  padding: 10px;
-}
-
 div[data-diazo="insitu-news-list"] {
   margin-bottom: 20px;
 }
