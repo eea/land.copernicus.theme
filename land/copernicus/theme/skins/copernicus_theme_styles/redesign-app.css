@@ -6989,27 +6989,6 @@ ul.partners-logos {
   border: 3px solid #eeeeee;
 }
 
-div[data-diazo="insitu-events-list"],
-div[data-diazo="insitu-news-list"] {
-  border: 2px solid #dedede;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-div[data-diazo="insitu-news-list"] {
-  margin-bottom: 20px;
-}
-
-.insitu-lists-section,
-.insitu-lists-section .main-content,
-.insitu-lists-section .main-content .row div div {
-  background: #EEEEEE;
-}
-
-.insitu-lists-section .main-content .row div div {
-  background: #FFFFFF;
-}
-
 .insitu-stay-informed-section,
 .insitu-stay-informed-section div {
   background: #ffcf87;
@@ -7125,4 +7104,31 @@ form[data-diazo="insitu-search-form"] .input-group {
 
 .footer .partners .go-top {
   font-size: 10px;
+}
+
+div[data-diazo="insitu-events-list"],
+div[data-diazo="insitu-news-list"] {
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+div[data-diazo="insitu-news-list"] {
+  margin-bottom: 20px;
+}
+
+.insitu-panels-section,
+.insitu-panels-section .main-content,
+.insitu-panels-section .main-content .row div div {
+  background: #EEEEEE;
+}
+
+.insitu-panels-section .main-content .row div div {
+  background: #FFFFFF;
+}
+
+.insitu-panels-section .panel-default {
+  border: 1px #CCC solid;
+  border-radius: 3px;
+  padding: 10px;
 }
