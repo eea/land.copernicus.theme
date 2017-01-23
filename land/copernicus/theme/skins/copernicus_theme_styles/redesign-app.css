@@ -6900,10 +6900,6 @@ article.main #edit-bar {
   margin-top: 10px;
 }
 
-.go-top {
-  font-size: 16px;
-}
-
 .eventDetails.vcard {
   float: initial;
 }
@@ -7121,4 +7117,12 @@ form[data-diazo="insitu-search-form"] .input-group {
 
 .insitu-btn-tags-container a {
   margin-bottom: 10px;
+}
+
+.footer ul.insitu-list-separated {
+  font-size: 10px;
+}
+
+.footer .partners .go-top {
+  font-size: 10px;
 }
