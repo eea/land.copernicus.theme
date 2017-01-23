@@ -7057,22 +7057,46 @@ div.insitu-btn-tags-container #insitu-tags-1 {
   background: #b0bf27;
 }
 
+.btn.insitu-btn-land:hover {
+  background: #96a321;
+}
+
 .btn.insitu-btn-marine {
   background: #0b6192;
+}
+
+.btn.insitu-btn-marine:hover {
+  background: #094c72;
 }
 
 .btn.insitu-btn-atmosphere {
   background: #61c4dd;
 }
 
+.btn.insitu-btn-atmosphere:hover {
+  background: #45bad7;
+}
+
 .btn.insitu-btn-emergency {
   background: #f6a933;
+}
+
+.btn.insitu-btn-emergency:hover {
+  background: #f59b12;
 }
 
 .btn.insitu-btn-security {
   background: #588683;
 }
 
+.btn.insitu-btn-security:hover {
+  background: #4b716f;
+}
+
 .btn.insitu-btn-climate-change {
   background: #941332;
+}
+
+.btn.insitu-btn-climate-change:hover {
+  background: #760f28;
 }
