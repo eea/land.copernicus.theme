@@ -7140,3 +7140,9 @@ div[data-diazo="insitu-news-list"] {
 .insitu-panels-section .panel-default .panel-body {
   padding: 10px;
 }
+
+.insitu-btn-subscribe {
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
