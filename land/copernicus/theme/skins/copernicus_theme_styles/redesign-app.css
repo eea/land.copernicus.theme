@@ -6413,8 +6413,7 @@ body {
       #header-section .container-fluid#insitu-brand-utils .content .utils .col-lg-8.col-md-8.col-sm-12 {
         padding: 0; }
       #header-section .container-fluid#insitu-brand-utils .content .utils .btn.btn-default, #header-section .container-fluid#insitu-brand-utils .content .utils input {
-        font-size: 16px;
-        margin-bottom: 16px; }
+        font-size: 16px; }
       #header-section .container-fluid#insitu-brand-utils .content .utils input.form-control.search-bar {
         height: 100%;
         border-color: #FFFFFF; }
@@ -7102,4 +7101,10 @@ div.insitu-btn-tags-container #insitu-tags-1 {
 
 .btn.insitu-btn-climate-change:hover {
   background: #760f28;
+}
+
+form[data-diazo="insitu-search-form"] .input-group {
+  border: 8px solid #CCCCCC;
+  border-radius: 12px;
+  margin-bottom: 12px;
 }
