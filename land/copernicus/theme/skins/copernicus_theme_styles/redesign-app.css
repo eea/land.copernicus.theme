@@ -6768,12 +6768,15 @@ div.images-slider a.right.carousel-control span {
 }
 
 .btn.btn-default.search-button {
-  border: 2px solid #783F34;
+  border: none;
+  background: #ffcf87;
+  color: #783F34;
 }
 
 .btn.btn-default.search-button:hover {
-  border: 2px solid #60332a;
-  background: #60332a;
+  border: none;
+  background: #ffc165;
+  color: #783F34;
 }
 
 #edit-bar ul li {
