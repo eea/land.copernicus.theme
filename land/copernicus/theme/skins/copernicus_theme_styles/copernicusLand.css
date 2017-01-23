@@ -890,10 +890,6 @@ and (resolution: 163dpi) {
 .image_cover {
     float: right;
 }
-#personaltools-join {
-    padding-left: 6px;
-    border-left: 1px solid #6289af;
-}
 #personaltools-login {
     margin-right: 3px;
 }
