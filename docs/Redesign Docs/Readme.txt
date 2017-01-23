@@ -10,6 +10,8 @@ INSITU Install Guide for New theme
 http://localhost:8081/copernicus/prefs_install_products_form
     run land.copernicus.theme step
 
+In portal_skins custom remove copernicusLand.css override.
+
 
 ==================================
 OLD (from Copernicus Land):
