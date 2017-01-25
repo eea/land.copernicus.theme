@@ -6362,7 +6362,7 @@ button.close {
   /*background-attachment: fixed;*/
   background-color: #ffffff; }
 
-.margin-content, #header-section .container-fluid#insitu-brand-utils .content, .main-content, .breadcrumbs, .images-slider, .menu-sections, footer {
+.margin-content, #header-section .container-fluid#insitu-brand-utils .content, .main-content, .breadcrumbs, .menu-sections, footer {
   margin-left: 15%;
   margin-right: 15%; }
 
@@ -6524,7 +6524,7 @@ footer .text {
       color: #5B6800; }
 
 #content-section.homepage {
-  top: 300px;
+  top: 92px;
   position: relative;
   z-index: 2 !important; }
 
@@ -6927,7 +6927,7 @@ body.template-events_listing article.main h2 {
 
 @media (max-width: 768px ) {
   .margin-content, #header-section .container-fluid#insitu-brand-utils .content,
-  .main-content, .breadcrumbs, .insitu-jumbotron, .images-slider, .menu-sections, footer {
+  .main-content, .breadcrumbs, .insitu-jumbotron, .menu-sections, footer {
   margin-left: 5%;
   margin-right: 5%; }
 }
@@ -7184,4 +7184,8 @@ h4.insitu-view-all-reports {
 
 section#header-section nav.navbar {
   font-size: 14px;
+}
+
+.container-fluid.insitu-images-slider-container {
+  padding: 0px;
 }
