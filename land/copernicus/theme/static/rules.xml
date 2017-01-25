@@ -65,27 +65,17 @@
     <!-- Navbar -->
     <replace css:theme-children=".navbar.navbar-default ul.nav.navbar-nav">
       <xsl:for-each css:select="#portal-globalnav li">
-        <xsl:if test="not(@id = 'portaltab-user-corner')">
-          <xsl:element name='li'>
+        <xsl:element name='li'>
 
-            <xsl:if test="contains(./@id, 'portaltab-index_html')">
-              <xsl:attribute name="id">
-                <xsl:value-of select="@id" />
-              </xsl:attribute>
-              <li><a href="{./a/@href}"><i class="fa fa-home"></i></a></li>
-            </xsl:if>
+          <xsl:attribute name="id">
+            <xsl:value-of select="@id" />
+          </xsl:attribute>
+          <xsl:copy-of select="./*" />
 
-            <xsl:if test="not(contains(./@id, 'portaltab-index_html'))">
-              <xsl:attribute name="id">
-                <xsl:value-of select="@id" />
-              </xsl:attribute>
-              <xsl:copy-of select="./*" />
-            </xsl:if>
-
-          </xsl:element>
-        </xsl:if>
+        </xsl:element>
       </xsl:for-each>
     </replace>
+
 
     <!-- Footer -->
     <replace css:theme="[data-diazo='insitu-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
@@ -146,25 +136,14 @@
       <!-- Navbar -->
       <replace css:theme-children=".navbar.navbar-default ul.nav.navbar-nav">
         <xsl:for-each css:select="#portal-globalnav li">
-          <xsl:if test="not(@id = 'portaltab-user-corner')">
-            <xsl:element name='li'>
+          <xsl:element name='li'>
 
-              <xsl:if test="contains(./@id, 'portaltab-index_html')">
-                <xsl:attribute name="id">
-                  <xsl:value-of select="@id" />
-                </xsl:attribute>
-                <li><a href="{./a/@href}"><i class="fa fa-home"></i></a></li>
-              </xsl:if>
+            <xsl:attribute name="id">
+              <xsl:value-of select="@id" />
+            </xsl:attribute>
+            <xsl:copy-of select="./*" />
 
-              <xsl:if test="not(contains(./@id, 'portaltab-index_html'))">
-                <xsl:attribute name="id">
-                  <xsl:value-of select="@id" />
-                </xsl:attribute>
-                <xsl:copy-of select="./*" />
-              </xsl:if>
-
-            </xsl:element>
-          </xsl:if>
+          </xsl:element>
         </xsl:for-each>
       </replace>
 
