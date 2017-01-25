@@ -7120,6 +7120,12 @@ div[data-diazo="insitu-news-list"] {
   background: #EEEEEE;
 }
 
+.insitu-panels-section.simple-page,
+.insitu-panels-section.simple-page .main-content,
+.insitu-panels-section.simple-page .main-content .row div div {
+  background: #FFFFFF;
+}
+
 .insitu-panels-section .main-content .row div div {
   background: #FFFFFF;
 }
