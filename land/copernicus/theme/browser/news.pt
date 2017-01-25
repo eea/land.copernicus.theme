@@ -52,8 +52,8 @@
 
           <p tal:condition="python:has_news is False">No news.</p>
 
-          <h4  class="text-right">
-            <a href="./news">more news <i class="fa fa-arrow-circle-right"></i></a>
+          <h4  class="text-right insitu-view-all-news">
+            <a href="./news">view all</a>
           </h4>
         </div>
       </div><!-- Latest news -->

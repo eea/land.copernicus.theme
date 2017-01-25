@@ -7163,7 +7163,8 @@ footer .partners .partners-banners a:hover {
   color: #783F34;
 }
 
-h4.insitu-view-all-events {
+h4.insitu-view-all-events,
+h4.insitu-view-all-news {
   text-transform: uppercase;
   font-style: italic;
   font-weight: bold;
