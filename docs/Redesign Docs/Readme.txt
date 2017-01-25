@@ -20,6 +20,10 @@ For demo-insitu: fix robots.txt:
     with
         Disallow: /
 
+Fix images slider to work:
+In portal_javascripts/manage_jsForm add:
+    ++resource++land.copernicus.theme.bootstrap-min.js
+
 ==================================
 OLD (from Copernicus Land):
 
