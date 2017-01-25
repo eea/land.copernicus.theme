@@ -6531,9 +6531,9 @@ footer .text {
 
 .insitu-title,
 #parent-fieldname-title {
-  border-bottom: 3px solid #60332a;
   font-size: 20px;
   margin-top: 3px;
+  font-weight: bold;
 }
 
 article.main #parent-fieldname-title {
