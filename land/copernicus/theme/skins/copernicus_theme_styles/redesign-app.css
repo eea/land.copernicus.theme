@@ -7171,3 +7171,7 @@ h4.insitu-view-all-reports {
   font-weight: bold;
   font-size: 12px;
 }
+
+section#header-section nav.navbar {
+  font-size: 14px;
+}
