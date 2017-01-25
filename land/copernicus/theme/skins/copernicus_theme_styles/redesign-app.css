@@ -7082,11 +7082,11 @@ div.insitu-btn-tags-container #insitu-tags-1 {
 }
 
 .btn.insitu-btn-climate-change {
-  background: #941332;
+  background: #40bf11;
 }
 
 .btn.insitu-btn-climate-change:hover {
-  background: #760f28;
+  background: #000000;
 }
 
 form[data-diazo="insitu-search-form"] .input-group {
