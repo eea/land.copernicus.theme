@@ -3,6 +3,7 @@ TODO
 - demo insitu
 - homepage: a page for each section, update diazo rules
 - remove unused images (land icons etc.)
+- demo-insitu: be sure it's not in Google search results
 
 
 INSITU Install Guide for New theme
