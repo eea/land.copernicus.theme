@@ -3,7 +3,6 @@ TODO
 - demo insitu
 - homepage: a page for each section, update diazo rules
 - remove unused images (land icons etc.)
-- demo-insitu: be sure it's not in Google search results
 
 
 INSITU Install Guide for New theme
@@ -12,7 +11,14 @@ http://localhost:8081/copernicus/prefs_install_products_form
     run land.copernicus.theme step
 
 In portal_skins custom remove copernicusLand.css override.
+In http://demo-insitu.eea.europa.eu/portal_css/manage_cssForm click Save
 
+For demo-insitu: fix robots.txt:
+    http://stackoverflow.com/a/1522525/1929820
+    Just replace
+        Disallow:
+    with
+        Disallow: /
 
 ==================================
 OLD (from Copernicus Land):
