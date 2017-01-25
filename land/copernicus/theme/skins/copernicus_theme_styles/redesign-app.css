@@ -7164,7 +7164,8 @@ footer .partners .partners-banners a:hover {
 }
 
 h4.insitu-view-all-events,
-h4.insitu-view-all-news {
+h4.insitu-view-all-news,
+h4.insitu-view-all-reports {
   text-transform: uppercase;
   font-style: italic;
   font-weight: bold;
