@@ -6487,7 +6487,7 @@ footer .partners {
   padding: 24px 24px 24px 24px; }
   footer .partners .partners-banners {
     border-radius: 4px;
-    padding: 16px; }
+    padding: 0px 16px 16px 16px; }
     footer .partners .partners-banners h4 > a:hover {
       text-decoration: underline; }
     footer .partners .partners-banners a {
@@ -6947,6 +6947,7 @@ body.template-events_listing article.main h2 {
   }
 }
 ul.partners-logos {
+  margin-top: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
