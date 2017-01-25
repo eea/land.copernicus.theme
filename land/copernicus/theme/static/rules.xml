@@ -161,8 +161,6 @@
 
     <!-- Main content -->
     <replace css:theme-children="article.main" css:content-children="#portal-column-content"/>
-    <drop css:content="#viewlet-below-content #insitu-events" />
-    <drop css:content="#viewlet-below-content #insitu-news" />
 
     <replace css:theme="[data-diazo='insitu-user-corner']" css:content-children=".portlet-static-user-corner-menu .portletItem" method="raw" />
     <drop css:content=".portlet-static-user-corner-menu" />
@@ -172,6 +170,12 @@
     </rules>
 
     <!-- <replace css:theme-children="[data-diazo='insitu-secondary-column']" css:content-children="#portal-column-two" /> -->
+
+    <!-- Right column -->
+    <replace css:theme-children="[data-diazo='insitu-events-list']" css:content-children="#viewlet-below-content #insitu-events" />
+    <drop css:content="#viewlet-below-content #insitu-events" />
+    <replace css:theme-children="[data-diazo='insitu-news-list']" css:content-children="#viewlet-below-content #insitu-news" />
+    <drop css:content="#viewlet-below-content #insitu-news" />
 
     <!-- Breadcrumbs -->
     <after css:theme-children="div.breadcrumb" css:content-children="#portal-breadcrumbs" />
