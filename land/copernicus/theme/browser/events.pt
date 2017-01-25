@@ -25,25 +25,18 @@
                               event_description python:event_object.getField('description').getAccessor(event_object)();">
 
                 <div class="event snippet">
-                  <time datetime="" class="event-date">
-                    <span class="event-month" tal:content="python:event_month[:3]">Sep</span>
-                    <span class="event-day" tal:content="python:event_day">25</span>
-                    <span class="event-year" tal:content="python:event_year">2016</span>
-                  </time>
-
                   <div class="event-body">
                     <h4 class="event-title">
-                      <a href="" tal:content="python:event_title"
-                         tal:attributes="href python:event_url">Event title</a>
+                      <a href="" tal:attributes="href python:event_url">
+                        <span tal:content="python:event_day">25</span>
+                        <span tal:content="python:event_month[:3]">Sep</span>
+                        <span tal:content="python:event_year">2016</span>
+                      </a>
                     </h4>
                     <div class="event-description">
-                      <p>
-                        <span tal:replace="structure python:event_description[:120]"></span>...
-                        <a href="" tal:attributes="href python:event_url">Read more</a>
-                      </p>
+                      <p tal:content="python:event_title">Event title</p>
                     </div>
                   </div>
-
                 </div>
               </li>
             </tal:repeat>
