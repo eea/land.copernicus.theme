@@ -7083,9 +7083,10 @@ div.insitu-btn-tags-container #insitu-tags-1 {
 }
 
 form[data-diazo="insitu-search-form"] .input-group {
-  border: 8px solid #CCCCCC;
-  border-radius: 12px;
+  border: 10px solid #CCCCCC;
+  border-radius: 4px;
   margin-bottom: 12px;
+  margin-right: 35px;
 }
 
 #header-section nav.navbar-default {
@@ -7151,4 +7152,13 @@ div[data-diazo="insitu-news-list"] {
 
 .insitu-stay-informed-section p {
   margin-bottom: 22px;
+}
+
+footer .partners .partners-banners a {
+  color: #333333;
+  font-size: 14px;
+}
+
+footer .partners .partners-banners a:hover {
+  color: #783F34;
 }
