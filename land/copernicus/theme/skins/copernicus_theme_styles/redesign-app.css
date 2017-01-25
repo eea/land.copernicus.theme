@@ -6437,6 +6437,10 @@ body {
   border-bottom-right-radius: 0px;
   margin-top: 30px; }
 
+.simple-page .main-content {
+  margin-top: 0px;
+}
+
 .breadcrumbs {
   padding-top: 10px;
   padding-left: 10px;
