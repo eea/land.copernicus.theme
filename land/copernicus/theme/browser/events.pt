@@ -51,9 +51,9 @@
 
           <p tal:condition="python:has_events is False">No upcoming events at this time.</p>
 
-          <h4 class="text-right">
-            <a tal:condition="python:has_events is False" href="./user-corner/events">view past events <i class="fa fa-arrow-circle-right"></i></a>
-            <a tal:condition="python:has_events is True" href="./user-corner/events">view all events <i class="fa fa-arrow-circle-right"></i></a>
+          <h4 class="text-right insitu-view-all-events">
+            <a tal:condition="python:has_events is False" href="./user-corner/events">view past events</a>
+            <a tal:condition="python:has_events is True" href="./user-corner/events">view all</a>
           </h4>
         </div>
       </div><!-- Events list -->
