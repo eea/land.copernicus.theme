@@ -6441,6 +6441,10 @@ body {
   margin-top: 0px;
 }
 
+.container-fluid.insitu-stay-informed-section .main-content {
+  margin-top: 30px;
+}
+
 .breadcrumbs {
   padding-top: 10px;
   padding-left: 10px;
