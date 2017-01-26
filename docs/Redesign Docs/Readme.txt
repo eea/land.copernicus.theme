@@ -3,8 +3,6 @@ TODO
 - homepage: a page for each section, update diazo rules
 - remove unused images (land icons etc.)
 - menu top right - use icons
-- news box - styles
-- events box - styles
 - color tags - fix links
 - color tags - editable? in all pages?
 - menu bottom - fix links. Editable?
