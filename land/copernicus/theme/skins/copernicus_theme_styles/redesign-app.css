@@ -5523,7 +5523,7 @@ button.close {
 .carousel-indicators {
   position: absolute;
   bottom: 10px;
-  left: 50%;
+  left: 75%;
   z-index: 15;
   width: 60%;
   margin-left: -30%;
@@ -7143,7 +7143,7 @@ div[data-diazo="insitu-news-list"] {
 }
 
 .insitu-panels-section .main-content .row div div {
-  background: #F6F6F6;
+  background: #FBFBFB;
 }
 
 .insitu-panels-section .panel-default {
@@ -7156,19 +7156,19 @@ div[data-diazo="insitu-news-list"] {
   padding: 10px;
   color: #FFFFFF;
   text-transform: uppercase;
-  border-radius-top-left: 4px;
-  border-radius-top-right: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   font-size: 18px;
 }
 
 .insitu-panels-section .panel-default .panel-body {
   padding: 10px;
-  background: #F6F6F6 !important;
+  background: #FBFBFB !important;
 }
 
 .panel-body .listing-body,
 .panel-body .news {
-  background: #F6F6F6 !important;
+  background: #FBFBFB !important;
 }
 
 .insitu-btn-subscribe {
