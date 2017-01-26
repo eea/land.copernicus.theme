@@ -34,13 +34,15 @@
 
                   <div class="news-body">
                     <h4 class="news-title">
-                      <a href="" tal:content="python:news_title"
-                         tal:attributes="href python:news_url">News title</a>
+                      <a href="" tal:attributes="href python:news_url">
+                        <span tal:replace="python:news_date.day()"></span>
+                        <span tal:replace="python:news_date.Month()[:3]"></span>
+                        <span tal:replace="python:news_date.year()"></span>
+                      </a>
                     </h4>
                     <div class="news-description">
                       <p>
-                        <span tal:replace="structure python:news_description[:120]"></span>...
-                        <a href="" tal:attributes="href python:news_url">Read more</a>
+                        <span tal:replace="python:news_title"></span>
                       </p>
                     </div>
                   </div>

@@ -6577,9 +6577,8 @@ article.main #parent-fieldname-title {
   min-width: 4em; }
   .news-preview .insitu-img-preview,
   .news-preview img {
-    border-radius: 10px;
-    width: 48px;
-    height: 48px; }
+    width: 70px;
+    height: 45px; }
 
 .event-month,
 .event-day,
