@@ -6465,7 +6465,7 @@ body {
   margin-top: 36px;
   border-radius: 0px; }
   .images-slider .carousel-caption {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.5);
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 6px;
@@ -6477,7 +6477,11 @@ body {
     margin-bottom: 36px; }
     .images-slider .carousel-caption h4 {
       font-weight: bold;
-      text-shadow: none; }
+      text-shadow: none;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      font-size: 36px;
+    }
     .images-slider .carousel-caption p {
       text-shadow: none; }
 
