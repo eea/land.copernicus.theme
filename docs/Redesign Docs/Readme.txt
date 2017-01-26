@@ -1,8 +1,20 @@
 TODO
 ====
-- demo insitu
 - homepage: a page for each section, update diazo rules
 - remove unused images (land icons etc.)
+- menu top right - use icons
+- news box - styles
+- events box - styles
+- color tags - fix links
+- color tags - editable? in all pages?
+- menu bottom - fix links. Editable?
+- text in footer - remove?
+- banners in footer - add copernicus
+- newsletter - fix link
+- home: reports - implement
+- home: observations, spatial data - fix links, editable?
+- home: title - style
+- home: images slider - implement, styles
 
 
 INSITU Install Guide for New theme
