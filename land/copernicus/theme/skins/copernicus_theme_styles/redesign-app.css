@@ -6473,7 +6473,7 @@ body {
     border-radius: 4px;
     width: 35%;
     text-align: left;
-    margin-left: 30%;
+    /*margin-left: 30%;*/
     margin-bottom: 36px; }
     .images-slider .carousel-caption h4 {
       font-weight: bold;
@@ -6713,7 +6713,7 @@ article img {
     font-size: 11px;
     margin-bottom: 33px !important;
     width: 50% !important;
-    margin-left: 17% !important;
+    /*margin-left: 17% !important;*/
   }
 }
 
@@ -6944,7 +6944,7 @@ body.template-events_listing article.main h2 {
     bottom: 0!important;
             width: 52%!important;
     text-align: center!important;
-    margin-left: 9%!important;
+    /*margin-left: 9%!important;*/
   }
   .images-slider .carousel-caption h4 {
     font-size: 2rem;
