@@ -6301,7 +6301,7 @@ button.close {
 .color-gray-light {
   color: #A4A4A4; }
 
-.color-gray-dark, .insitu-box1, .images-slider .carousel-caption p, footer .partners .partners-banners, .event-date, .snippet .event-body p,
+.color-gray-dark, .insitu-box1, footer .partners .partners-banners, .event-date, .snippet .event-body p,
 .snippet .news-body p, .insitu-doc-info {
   color: #5C5C5C; }
 
@@ -6480,7 +6480,7 @@ body {
       text-shadow: none;
       color: #FFFFFF;
       text-transform: uppercase;
-      font-size: 36px;
+      font-size: 18px;
     }
     .images-slider .carousel-caption p {
       text-shadow: none; }
@@ -7195,4 +7195,13 @@ section#header-section nav.navbar {
 
 .container-fluid.insitu-images-slider-container {
   padding: 0px;
+}
+
+.btn.insitu-btn-read-more {
+  background: #ffcf87;
+  color: #783F34 !important;
+}
+
+.btn.insitu-btn-read-more:hover {
+  background: #ffc165;
 }
