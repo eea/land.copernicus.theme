@@ -6582,6 +6582,7 @@ article.main #parent-fieldname-title {
     border: 1px solid #CCCCCC;
     border-radius: 0px;
     padding: 3px;
+    margin-bottom: 3px;
   }
 
 .event-month,
@@ -7216,4 +7217,12 @@ section#header-section nav.navbar {
 
 .btn.insitu-btn-read-more:hover {
   background: #ffc165;
+}
+
+div.event.snippet,
+div.news.snippet {
+  border-bottom: 1px solid #CCCCCC;
+  border-bottom-style: dashed;
+  margin-bottom: 5px;
+  min-height: 60px;
 }
