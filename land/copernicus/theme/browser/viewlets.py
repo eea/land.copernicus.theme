@@ -30,7 +30,7 @@ class CopernicusEventsViewlet(ViewletBase):
     render = ViewPageTemplateFile('events.pt')
 
     def events(self):
-        MAX_NUMBER_EVENTS = 2
+        MAX_NUMBER_EVENTS = 5
         now = DateTime()
 
         catalog = self.context.portal_catalog
@@ -56,7 +56,7 @@ class CopernicusNewsViewlet(ViewletBase):
     render = ViewPageTemplateFile('news.pt')
 
     def news(self):
-        MAX_NUMBER_NEWS = 2
+        MAX_NUMBER_NEWS = 5
 
         catalog = self.context.portal_catalog
         query = {

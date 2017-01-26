@@ -37,6 +37,10 @@ Fix images slider to work:
 In portal_javascripts/manage_jsForm add:
     ++resource++land.copernicus.theme.bootstrap-min.js
 
+Fix title non-ascii to fix error on news: news/towards-stronger-partnerships-and-collaboration-the-eea2019s-second-workshop-on-in-situ-coordination
+
+news/interview-with-mauro-facchini-head-of-unit-2013-copernicus-unit-directorate-general-for-internal-market-industry-entrepreneurship-and-smes-european-commission-1/edit
+
 ==================================
 OLD (from Copernicus Land):
 
