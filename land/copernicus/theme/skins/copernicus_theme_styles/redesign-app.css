@@ -6578,7 +6578,11 @@ article.main #parent-fieldname-title {
   .news-preview .insitu-img-preview,
   .news-preview img {
     width: 70px;
-    height: 45px; }
+    height: 45px;
+    border: 1px solid #CCCCCC;
+    border-radius: 0px;
+    padding: 3px;
+  }
 
 .event-month,
 .event-day,
@@ -7124,11 +7128,11 @@ form[data-diazo="insitu-search-form"] .input-group {
 
 div[data-diazo="insitu-news-list"] {
   margin-bottom: 20px;
+  background: #EEEEEE !important;
 }
 
 .insitu-panels-section,
-.insitu-panels-section .main-content,
-.insitu-panels-section .main-content .row div div {
+.insitu-panels-section .main-content {
   background: #EEEEEE;
 }
 
@@ -7139,7 +7143,7 @@ div[data-diazo="insitu-news-list"] {
 }
 
 .insitu-panels-section .main-content .row div div {
-  background: #FFFFFF;
+  background: #F6F6F6;
 }
 
 .insitu-panels-section .panel-default {
@@ -7159,6 +7163,12 @@ div[data-diazo="insitu-news-list"] {
 
 .insitu-panels-section .panel-default .panel-body {
   padding: 10px;
+  background: #F6F6F6 !important;
+}
+
+.panel-body .listing-body,
+.panel-body .news {
+  background: #F6F6F6 !important;
 }
 
 .insitu-btn-subscribe {
