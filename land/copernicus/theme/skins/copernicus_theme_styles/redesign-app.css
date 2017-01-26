@@ -6473,8 +6473,8 @@ body {
     border-radius: 4px;
     width: 35%;
     text-align: left;
-    /*margin-left: 30%;*/
-    margin-bottom: 36px; }
+    margin-left: -55px;
+    margin-bottom: 120px; }
     .images-slider .carousel-caption h4 {
       font-weight: bold;
       text-shadow: none;
@@ -6483,7 +6483,9 @@ body {
       font-size: 18px;
     }
     .images-slider .carousel-caption p {
-      text-shadow: none; }
+      text-shadow: none;
+      font-style: italic;
+    }
 
 .menu-sections {
   background: transparent;
@@ -6715,7 +6717,7 @@ article img {
 @media (min-width: 800px) and (max-width: 1380px) {
   .carousel-caption {
     font-size: 11px;
-    margin-bottom: 33px !important;
+    margin-bottom: 70px !important;
     width: 50% !important;
     /*margin-left: 17% !important;*/
   }
@@ -7200,6 +7202,7 @@ section#header-section nav.navbar {
 .btn.insitu-btn-read-more {
   background: #ffcf87;
   color: #783F34 !important;
+  text-transform: uppercase;
 }
 
 .btn.insitu-btn-read-more:hover {
