@@ -7264,3 +7264,24 @@ div.news.snippet {
   float: right;
   display: inline-block;
 }
+
+input.search-bar.searchField::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #6D6D6D;
+  font-style: italic;
+}
+input.search-bar.searchField:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #6D6D6D;
+  font-style: italic;
+}
+input.search-bar.searchField::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #6D6D6D;
+  font-style: italic;
+}
+input.search-bar.searchField:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #6D6D6D;
+  font-style: italic;
+}
