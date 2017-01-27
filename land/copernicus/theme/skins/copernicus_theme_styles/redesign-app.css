@@ -5525,8 +5525,8 @@ button.close {
   bottom: 10px;
   left: 75%;
   z-index: 15;
-  width: 60%;
-  margin-left: -30%;
+  width: 20%;
+  margin-left: -10%;
   padding-left: 0;
   list-style: none;
   text-align: center; }
