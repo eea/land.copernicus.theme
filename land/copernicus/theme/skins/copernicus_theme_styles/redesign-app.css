@@ -7179,6 +7179,28 @@ div[data-diazo="insitu-news-list"] {
   margin-left: 20px;
 }
 
+#viewlet-cookiepolicy {
+  border-radius: 4px;
+  padding: 20px;
+}
+
+#viewlet-cookiepolicy h1#tlspu_cookiepolicy_title {
+  margin-bottom: 5px;
+  color: #783F34;
+}
+
+#tlspu_cookiepolicy_button {
+  font-size: 14px;
+  background-color: #783F34 !important;
+  color: white !important;
+  border: none;
+  border-radius: 4px;
+}
+
+#tlspu_cookiepolicy_button:hover {
+  background: #60332a !important;
+}
+
 .insitu-stay-informed-section p {
   margin-bottom: 22px;
 }
