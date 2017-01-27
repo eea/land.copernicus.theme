@@ -7265,6 +7265,21 @@ div.news.snippet {
   display: inline-block;
 }
 
+.searchPage.searchButton {
+  color: #783F34;
+  background-color: #ffcf87;
+  border-color: #ffcf87;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.searchPage.searchButton:hover {
+  color: #783F34;
+  background-color: #ffc165;
+  border-color: #ffc165;
+  padding: 7px;
+}
+
 input.search-bar.searchField::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #6D6D6D;
