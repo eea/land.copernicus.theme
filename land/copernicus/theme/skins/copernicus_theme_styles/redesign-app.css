@@ -7253,3 +7253,14 @@ div.news.snippet {
   margin-bottom: 5px;
   min-height: 60px;
 }
+
+.utils .list-inline.insitu-list-icons {
+  padding-right: 30px;
+  float: right;
+  display: inline-block;
+}
+
+.utils .list-inline.insitu-list-separated {
+  float: right;
+  display: inline-block;
+}
