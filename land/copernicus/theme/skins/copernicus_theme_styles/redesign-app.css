@@ -6571,6 +6571,7 @@ article.main #parent-fieldname-title {
   margin-right: 1rem;
   display: inline-block;
   padding: .25rem;
+  padding-top: 5px;
   border-radius: 10px;
   text-align: center;
   font-size: smaller;
@@ -6599,7 +6600,9 @@ article.main #parent-fieldname-title {
 
 .snippet .event-title,
 .snippet .news-title {
-  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
   margin-bottom: 0; }
 
 .snippet .event-body h4,
@@ -6608,6 +6611,8 @@ article.main #parent-fieldname-title {
 
 .snippet .event-body,
 .snippet .news-body {
+  padding-top: 5px;
+  padding-bottom: 5px;
   overflow: hidden; }
 
 .insitu-img-preview {
