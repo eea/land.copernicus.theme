@@ -6404,7 +6404,7 @@ body {
         #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:after {
           content: '|';
           margin-left: 10px;
-          color: #1e396b; }
+          color: #333333; }
         #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:last-child:after {
           content: ''; }
         #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:last-child {
@@ -6420,7 +6420,7 @@ body {
         border-color: #FFFFFF; }
 
 #header-section .utils .list-inline a {
-  color: #1e396b;
+  color: #333333;
 }
 
 #header-section.simple-page {
