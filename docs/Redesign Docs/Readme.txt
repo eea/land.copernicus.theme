@@ -12,8 +12,8 @@ TODO
 - home: reports - implement
 - home: observations, spatial data - fix links, editable?
 - home: title - style
-- home: images slider - implement, styles
 - fix responsivity issues
+- print styles
 
 
 INSITU Install Guide for New theme
