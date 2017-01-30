@@ -14,6 +14,7 @@ TODO
 - home: title - style
 - fix responsivity issues
 - print styles
+- tests with IE and other browsers, fix problems
 
 
 INSITU Install Guide for New theme

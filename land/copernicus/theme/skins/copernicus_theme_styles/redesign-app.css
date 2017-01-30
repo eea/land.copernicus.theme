@@ -7292,3 +7292,17 @@ input.search-bar.searchField:-ms-input-placeholder {
   color: #6D6D6D;
   font-style: italic;
 }
+
+.row.insitu-document-title {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#insitu-article-title {
+  color: #FFFFFF;
+  font-size: 28px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0px;
+}
