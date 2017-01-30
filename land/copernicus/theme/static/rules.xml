@@ -147,6 +147,10 @@
         </xsl:for-each>
       </replace>
 
+      <!-- Document title -->
+      <replace css:theme-children="#insitu-article-title" css:content-children="h1#parent-fieldname-title" />
+      <drop css:content="h1#parent-fieldname-title" />
+
       <!-- Footer -->
       <replace css:theme="[data-diazo='insitu-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
       <drop css:content=".portlet-static-partners ul.partners-logos" />
