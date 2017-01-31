@@ -13,7 +13,7 @@
 <metal:main fill-slot="main">
   <div id="content-core">
 
-    <h1 class="land-title">News</h1>
+    <h1 class="insitu-title">News</h1>
 
     <div class="land-publications-container"
          tal:define="files python:context.getFolderContents(contentFilter={'portal_type':['File']});
