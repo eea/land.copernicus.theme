@@ -1,0 +1,51 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="plone">
+
+<head>
+</head>
+
+<body>
+<metal:main fill-slot="main">
+  <div id="content-core">
+
+    <h1 class="land-title">News</h1>
+
+    <div class="land-publications-container"
+         tal:define="files python:context.getFolderContents(contentFilter={'portal_type':['File']});
+                     files_per_row python:3;
+                     files_rows python:[files[i:i+files_per_row] for i in range(0, len(files), files_per_row)];">
+
+      <tal:rows tal:repeat="files_columns python:files_rows">
+        <div class="row">
+          <tal:columns tal:repeat="file python:files_columns">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item"
+                 tal:define="file_obj python:file.getObject();
+                             file_title python:file_obj.Title();
+                             file_url python:file_obj.absolute_url();
+                             file_view_url python:file_obj.absolute_url() + '/view';
+                             file_cover_img python:file_url + '/image';">
+
+              <div class="land-publication-image">
+                <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view"
+                   tal:attributes="href python:file_view_url">
+                  <img src="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers"
+                       tal:attributes="src python:file_cover_img;
+                                       alt python:file_title">
+                </a>
+              </div>
+
+              <h3 class="land-publication-title" tal:content="python:file_title">GIO land High Resolution</h3>
+            </div>
+          </tal:columns>
+        </div>
+      </tal:rows>
+    </div>
+  </div>
+</metal:main>
+</body>
+</html>
