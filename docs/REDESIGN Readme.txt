@@ -39,6 +39,8 @@ Fix title non-ascii to fix error on news: news/towards-stronger-partnerships-and
 
 news/interview-with-mauro-facchini-head-of-unit-2013-copernicus-unit-directorate-general-for-internal-market-industry-entrepreneurship-and-smes-european-commission-1/edit
 
+- In /homepage-content/ - remove unused images
+
 ==================================
 OLD (from Copernicus Land):
 
