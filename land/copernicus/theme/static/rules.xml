@@ -32,10 +32,35 @@
         css:content="#portal-searchbox form"
         css:theme="[data-diazo='insitu-search-form']" />
 
-    <!-- Carousel -->
-    <replace css:theme="[data-diazo='insitu-carousel']" href="homepage-content/homepage-images-slider" method="document"
+    <!-- Images slider section -->
+    <replace css:theme="[data-diazo='insitu-carousel']"
+             href="homepage-content/homepage-images-slider" method="document"
              css:content-children="#content-core" />
     <drop css:content="#content-core [data-diazo='insitu-carousel']" />
+
+    <!-- Observations and spatial data section -->
+    <replace css:theme="[data-diazo='insitu-observations-spatial-data']"
+             href="homepage-content/homepage-observations-spatial-data" method="document"
+             css:content-children="#content-core" />
+    <drop css:content="#content-core [data-diazo='insitu-observations-spatial-data']" />
+
+    <!-- Homepage tags section -->
+    <replace css:theme="[data-diazo='insitu-tags']"
+             href="homepage-content/homepage-tags" method="document"
+             css:content-children="#content-core" />
+    <drop css:content="#content-core [data-diazo='insitu-tags']" />
+
+    <!-- Homepage stay informed -->
+    <replace css:theme="[data-diazo='insitu-stay-informed']"
+             href="homepage-content/homepage-stay-informed" method="document"
+             css:content-children="#content-core" />
+    <drop css:content="#content-core [data-diazo='insitu-stay-informed']" />
+
+    <!-- Homepage footer -->
+    <replace css:theme="[data-diazo='insitu-footer']"
+             href="homepage-content/homepage-footer" method="document"
+             css:content-children="#content-core" />
+    <drop css:content="#content-core [data-diazo='insitu-footer']" />
 
     <!-- Right column -->
     <replace css:theme-children="[data-diazo='insitu-events-list']" css:content-children="#viewlet-below-content #insitu-events" />
