@@ -33,7 +33,8 @@
         css:theme="[data-diazo='insitu-search-form']" />
 
     <!-- Carousel -->
-    <replace css:theme="[data-diazo='insitu-carousel']" css:content="[data-diazo='insitu-carousel']" method="raw" />
+    <replace css:theme="[data-diazo='insitu-carousel']" href="homepage-content/homepage-images-slider" method="document"
+             css:content-children="#content-core" />
     <drop css:content="#content-core [data-diazo='insitu-carousel']" />
 
     <!-- Right column -->
