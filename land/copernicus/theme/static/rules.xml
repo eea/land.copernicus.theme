@@ -158,6 +158,11 @@
         <drop css:content="h1.documentFirstHeading" />
       </rules>
 
+      <rules css:if-content="h1.insitu-title">
+        <replace css:theme-children="#insitu-article-title" css:content-children="h1.insitu-title" />
+        <drop css:content="h1.insitu-title" />
+      </rules>
+
       <!-- Footer -->
       <replace css:theme="[data-diazo='insitu-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
       <drop css:content=".portlet-static-partners ul.partners-logos" />
