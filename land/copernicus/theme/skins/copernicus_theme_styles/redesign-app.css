@@ -7326,3 +7326,12 @@ h1.text-uppercase {
   text-decoration: none !important;
   font-weight: bold !important;
 }
+
+.insitu-news-author {
+  margin-right: 20px;
+}
+
+.insitu-news-author .fa,
+.insitu-news-date .fa {
+  margin-right: 5px;
+}
