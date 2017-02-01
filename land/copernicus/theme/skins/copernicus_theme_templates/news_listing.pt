@@ -15,7 +15,114 @@
 
     <h1 class="insitu-title">News</h1>
 
-    <div class="land-publications-container"
+    <div class="container-fluid">
+      <!-- News item -->
+      <div class="row insitu-news-item">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+        <p>
+          <span class="insitu-news-author"><i class="fa fa-user"></i> Author here</span>
+          <span class="insitu-news-date"><i class="fa fa-clock-o"></i> Publishing date</span>
+        </p>
+
+        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 insitu-news-image">
+          <img src="http://localhost:8081/copernicus/news/interview-with-mauro-facchini-head-of-unit-2013-copernicus-unit-directorate-general-for-internal-market-industry-entrepreneurship-and-smes-european-commission-1/image" />
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 insitu-news-text">
+          <div class="insitu-news-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <p class="insitu-news-read-more">
+            <a href="" class="btn insitu-btn-read-more">Read more...</a>
+          </p>
+        </div>
+      </div><!-- News item -->
+
+      <!-- News item -->
+      <div class="row insitu-news-item">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+        <p>
+          <span class="insitu-news-author"><i class="fa fa-user"></i> Author here</span>
+          <span class="insitu-news-date"><i class="fa fa-clock-o"></i> Publishing date</span>
+        </p>
+
+        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 insitu-news-image">
+          <img src="http://localhost:8081/copernicus/news/interview-with-mauro-facchini-head-of-unit-2013-copernicus-unit-directorate-general-for-internal-market-industry-entrepreneurship-and-smes-european-commission-1/image" />
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 insitu-news-text">
+          <div class="insitu-news-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <p class="insitu-news-read-more">
+            <a href="" class="btn insitu-btn-read-more">Read more...</a>
+          </p>
+        </div>
+      </div><!-- News item -->
+
+      <!-- News item -->
+      <div class="row insitu-news-item">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+        <p>
+          <span class="insitu-news-author"><i class="fa fa-user"></i> Author here</span>
+          <span class="insitu-news-date"><i class="fa fa-clock-o"></i> Publishing date</span>
+        </p>
+
+        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 insitu-news-image">
+          <img src="http://localhost:8081/copernicus/news/interview-with-mauro-facchini-head-of-unit-2013-copernicus-unit-directorate-general-for-internal-market-industry-entrepreneurship-and-smes-european-commission-1/image" />
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 insitu-news-text">
+          <div class="insitu-news-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <p class="insitu-news-read-more">
+            <a href="" class="btn insitu-btn-read-more">Read more...</a>
+          </p>
+        </div>
+      </div><!-- News item -->
+
+      <!-- News item -->
+      <div class="row insitu-news-item">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+        <p>
+          <span class="insitu-news-author"><i class="fa fa-user"></i> Author here</span>
+          <span class="insitu-news-date"><i class="fa fa-clock-o"></i> Publishing date</span>
+        </p>
+
+        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 insitu-news-image">
+          <img src="http://localhost:8081/copernicus/news/interview-with-mauro-facchini-head-of-unit-2013-copernicus-unit-directorate-general-for-internal-market-industry-entrepreneurship-and-smes-european-commission-1/image" />
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 insitu-news-text">
+          <div class="insitu-news-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <p class="insitu-news-read-more">
+            <a href="" class="btn insitu-btn-read-more">Read more...</a>
+          </p>
+        </div>
+      </div><!-- News item -->
+
+    </div>
+
+<!--     <div class="land-publications-container"
          tal:define="files python:context.getFolderContents(contentFilter={'portal_type':['File']});
                      files_per_row python:3;
                      files_rows python:[files[i:i+files_per_row] for i in range(0, len(files), files_per_row)];">
@@ -44,7 +151,7 @@
           </tal:columns>
         </div>
       </tal:rows>
-    </div>
+    </div> -->
   </div>
 </metal:main>
 </body>
