@@ -1,14 +1,8 @@
 TODO
 ====
 - menu top right - use icons
-- color tags - fix links
-- color tags - editable? in all pages?
-- menu bottom - fix links. Editable?
-- text in footer - remove?
 - banners in footer - add copernicus
-- newsletter - fix link
 - home: reports - implement
-- home: observations, spatial data - fix links, editable?
 - home: title - style
 - fix responsivity issues
 - print styles
