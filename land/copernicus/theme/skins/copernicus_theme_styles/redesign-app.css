@@ -6579,7 +6579,7 @@ article.main #parent-fieldname-title {
   .news-preview .insitu-img-preview,
   .news-preview img {
     width: 70px;
-    height: 45px;
+    height: auto;
     border: 1px solid #CCCCCC;
     border-radius: 0px;
     padding: 3px;
