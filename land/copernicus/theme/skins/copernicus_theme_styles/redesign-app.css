@@ -7233,10 +7233,12 @@ section#header-section nav.navbar {
   background: #ffcf87;
   color: #783F34 !important;
   text-transform: uppercase;
+  text-decoration: none !important;
 }
 
 .btn.insitu-btn-read-more:hover {
   background: #ffc165;
+  color: #783F34 !important;
 }
 
 div.event.snippet,
@@ -7310,4 +7312,12 @@ input.search-bar.searchField:-ms-input-placeholder {
 
 h1.text-uppercase {
   font-weight: bold;
+}
+
+.insitu-news-read-more {
+  margin-top: 10px;
+}
+
+.insitu-news-info {
+  color: #A4A4A4;
 }

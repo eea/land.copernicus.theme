@@ -371,7 +371,7 @@ dl.portlet a:visited { /* */
 }
 #content a:hover,
 dl.portlet a:hover {
-    color: #3E6A95 !important; /* */
+    /* color: #3E6A95 !important; If enable, check hover for Read more btn. */
 }
 #content a:link,
 dl.portlet a:link,

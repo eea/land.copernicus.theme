@@ -30,7 +30,7 @@
                          news_description python:news_object.getField('description').getAccessor(news_object)();">
 
           <h3 tal:content="python:news_title">Title</h3>
-          <p>
+          <p class="insitu-news-info">
             <span class="insitu-news-author">
               <i class="fa fa-user"></i>
               <span>Author here</span>
