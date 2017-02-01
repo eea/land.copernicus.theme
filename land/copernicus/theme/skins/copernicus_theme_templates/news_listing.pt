@@ -29,7 +29,11 @@
                          news_url python:news_object.absolute_url();
                          news_description python:news_object.getField('description').getAccessor(news_object)();">
 
-          <h3 tal:content="python:news_title">Title</h3>
+          <a href="" tal:attributes="href python:news_url"
+             class="insitu-news-item-title">
+            <h3 tal:content="python:news_title">Title</h3>
+          </a>
+
           <p class="insitu-news-info">
             <span class="insitu-news-author">
               <i class="fa fa-user"></i>

@@ -7321,3 +7321,8 @@ h1.text-uppercase {
 .insitu-news-info {
   color: #A4A4A4;
 }
+
+.insitu-news-item-title {
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
