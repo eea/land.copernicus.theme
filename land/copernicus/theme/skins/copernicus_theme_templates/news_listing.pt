@@ -122,36 +122,20 @@
 
     </div>
 
-<!--     <div class="land-publications-container"
-         tal:define="files python:context.getFolderContents(contentFilter={'portal_type':['File']});
-                     files_per_row python:3;
-                     files_rows python:[files[i:i+files_per_row] for i in range(0, len(files), files_per_row)];">
+    <div class="land-publications-container"
+         tal:define="news_items python:context.getFolderContents(contentFilter={'portal_type':['News Item']});">
 
-      <tal:rows tal:repeat="files_columns python:files_rows">
+      <tal:items tal:repeat="news_item python:news_items">
         <div class="row">
-          <tal:columns tal:repeat="file python:files_columns">
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 land-publication-item"
-                 tal:define="file_obj python:file.getObject();
-                             file_title python:file_obj.Title();
-                             file_url python:file_obj.absolute_url();
-                             file_view_url python:file_obj.absolute_url() + '/view';
-                             file_cover_img python:file_url + '/image';">
-
-              <div class="land-publication-image">
-                <a href="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view"
-                   tal:attributes="href python:file_view_url">
-                  <img src="http://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers"
-                       tal:attributes="src python:file_cover_img;
-                                       alt python:file_title">
-                </a>
-              </div>
-
-              <h3 class="land-publication-title" tal:content="python:file_title">GIO land High Resolution</h3>
-            </div>
-          </tal:columns>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 land-publication-item"
+               tal:define="item_obj python:news_item.getObject();
+                           item_title python:item_obj.Title();
+                           item_url python:item_obj.absolute_url();">
+            <p tal:content="python:item_obj"></p>
+          </div>
         </div>
-      </tal:rows>
-    </div> -->
+      </tal:items>
+    </div>
   </div>
 </metal:main>
 </body>
