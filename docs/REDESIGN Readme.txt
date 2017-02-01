@@ -14,6 +14,7 @@ TODO
 - print styles
 - tests with IE and other browsers, fix problems
 - breadcrumbs text and style
+- news images - fix proportions
 
 
 INSITU Install Guide for New theme

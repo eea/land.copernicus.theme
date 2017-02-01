@@ -189,21 +189,21 @@
         <drop css:content="h1.insitu-title" />
       </rules>
 
-      <!-- Homepage tags section -->
+      <!-- Simple page tags section -->
       <replace css:theme="[data-diazo='insitu-tags']"
-               href="homepage-content/homepage-tags" method="document"
+               href="simplepage-content/simplepage-tags" method="document"
                css:content-children="#content-core" />
       <drop css:content="#content-core [data-diazo='insitu-tags']" />
 
-      <!-- Homepage stay informed -->
+      <!-- Simple page stay informed -->
       <replace css:theme="[data-diazo='insitu-stay-informed']"
-               href="homepage-content/homepage-stay-informed" method="document"
+               href="simplepage-content/simplepage-stay-informed" method="document"
                css:content-children="#content-core" />
       <drop css:content="#content-core [data-diazo='insitu-stay-informed']" />
 
-      <!-- Homepage footer -->
+      <!-- Simple page footer -->
       <replace css:theme="[data-diazo='insitu-footer']"
-               href="homepage-content/homepage-footer" method="document"
+               href="simplepage-content/simplepage-footer" method="document"
                css:content-children="#content-core" />
       <drop css:content="#content-core [data-diazo='insitu-footer']" />
 
