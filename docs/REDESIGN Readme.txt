@@ -1,6 +1,5 @@
 TODO
 ====
-- homepage: a page for each section, update diazo rules
 - menu top right - use icons
 - color tags - fix links
 - color tags - editable? in all pages?
@@ -14,6 +13,7 @@ TODO
 - fix responsivity issues
 - print styles
 - tests with IE and other browsers, fix problems
+- breadcrumbs text and style
 
 
 INSITU Install Guide for New theme

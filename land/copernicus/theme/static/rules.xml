@@ -189,6 +189,24 @@
         <drop css:content="h1.insitu-title" />
       </rules>
 
+      <!-- Homepage tags section -->
+      <replace css:theme="[data-diazo='insitu-tags']"
+               href="homepage-content/homepage-tags" method="document"
+               css:content-children="#content-core" />
+      <drop css:content="#content-core [data-diazo='insitu-tags']" />
+
+      <!-- Homepage stay informed -->
+      <replace css:theme="[data-diazo='insitu-stay-informed']"
+               href="homepage-content/homepage-stay-informed" method="document"
+               css:content-children="#content-core" />
+      <drop css:content="#content-core [data-diazo='insitu-stay-informed']" />
+
+      <!-- Homepage footer -->
+      <replace css:theme="[data-diazo='insitu-footer']"
+               href="homepage-content/homepage-footer" method="document"
+               css:content-children="#content-core" />
+      <drop css:content="#content-core [data-diazo='insitu-footer']" />
+
       <!-- Footer -->
       <replace css:theme="[data-diazo='insitu-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
       <drop css:content=".portlet-static-partners ul.partners-logos" />
