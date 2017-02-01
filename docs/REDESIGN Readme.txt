@@ -9,7 +9,6 @@ TODO
 - tests with IE and other browsers, fix problems
 - breadcrumbs text and style
 - news images - fix proportions
-- in News page, remove News box in right column
 
 
 INSITU Install Guide for New theme

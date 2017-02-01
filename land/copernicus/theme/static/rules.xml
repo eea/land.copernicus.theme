@@ -251,6 +251,10 @@
 
   </rules>
 
+  <rules css:if-content="body.template-news_listing">
+    <drop css:theme="[data-diazo='insitu-news-list']" />
+  </rules>
+
   <rules css:if-content="body.template-manage-portlets">
     <after css:theme-children="article.main" css:content-children="#portal-column-one" />
     <after css:theme-children="article.main" css:content-children="#portal-column-two" />
