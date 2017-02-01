@@ -1074,7 +1074,7 @@ body {
   font-family: 'Roboto', Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
-  color: #5C5C5C;
+  color: #444444;
   background-color: #FFFFFF; }
 
 input,
@@ -3952,7 +3952,7 @@ tbody.collapse.in {
   background-color: #783F34;
   border-color: #783F34; }
   .navbar-default .navbar-brand {
-    color: #1E1E1E; }
+    color: #444444; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
       color: #050505;
       background-color: transparent; }
@@ -3964,10 +3964,10 @@ tbody.collapse.in {
       color: #FFFFFF;
       background-color: #60332a; }
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #1E1E1E;
+    color: #444444;
     background-color: #60332a; }
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
-    color: #1E1E1E;
+    color: #444444;
     background-color: #60332a; }
   .navbar-default .navbar-toggle {
     border-color: #60332a; }
@@ -3980,31 +3980,31 @@ tbody.collapse.in {
     border-color: #783F34; }
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background-color: #60332a;
-    color: #1E1E1E; }
+    color: #444444; }
   @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      color: #1E1E1E; }
+      color: #444444; }
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #1E1E1E;
+        color: #444444;
         background-color: #60332a; }
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-      color: #1E1E1E;
+      color: #444444;
       background-color: #60332a; }
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-      color: #1E1E1E;
+      color: #444444;
       background-color: #60332a; } }
   .navbar-default .navbar-link {
-    color: #1E1E1E; }
+    color: #444444; }
     .navbar-default .navbar-link:hover {
-      color: #1E1E1E; }
+      color: #444444; }
   .navbar-default .btn-link {
-    color: #1E1E1E; }
+    color: #444444; }
     .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
-      color: #1E1E1E; }
+      color: #444444; }
     .navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus,
     fieldset[disabled] .navbar-default .btn-link:hover,
     fieldset[disabled] .navbar-default .btn-link:focus {
-      color: #1E1E1E; }
+      color: #444444; }
 
 .navbar-inverse {
   background-color: #222;
@@ -6293,7 +6293,7 @@ button.close {
   background: #5C5C5C; }
 
 .bg-gray-darker {
-  background: #1E1E1E; }
+  background: #444444; }
 
 .color-gray-lighter {
   color: #EFEFEF; }
@@ -6306,7 +6306,7 @@ button.close {
   color: #5C5C5C; }
 
 .color-gray-darker, body, .images-slider .carousel-caption h4, footer .text, .navbar-nav ul.dropdown-menu li a, article {
-  color: #1E1E1E; }
+  color: #444444; }
 
 .bg-white, .insitu-box1, footer .partners .partners-banners {
   background: #FFFFFF; }
@@ -6528,7 +6528,7 @@ footer .text {
     footer .text .list-inline.insitu-list-separated li {
       padding-right: 0px; }
     footer .text .list-inline.insitu-list-separated .go-top {
-      color: #1E1E1E;
+      color: #444444;
       text-decoration: none; }
     footer .text .list-inline.insitu-list-separated .go-top:hover {
       color: #5B6800; }
@@ -6992,7 +6992,7 @@ ul.partners-logos {
 }
 
 .insitu-publication-item:hover .insitu-publication-title {
-  color: #1E1E1E !important;
+  color: #444444 !important;
 }
 
 .insitu-publication-item:hover .insitu-publication-image img {
@@ -7306,4 +7306,8 @@ input.search-bar.searchField:-ms-input-placeholder {
   text-transform: uppercase;
   font-weight: bold;
   margin-top: -10px;
+}
+
+h1.text-uppercase {
+  font-weight: bold;
 }
