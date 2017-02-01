@@ -21,27 +21,36 @@
       <tal:items tal:repeat="news_item python:news_items">
         <!-- News item -->
         <div class="row insitu-news-item"
-             tal:define="item_obj python:news_item.getObject();
-                           item_title python:item_obj.Title();
-                           item_url python:item_obj.absolute_url();">
+             tal:define="news_object python:news_item.getObject();
+                         news_date python:news_object.getField('modification_date').getAccessor(news_object)();
+                         news_title python:news_object.getField('title').getAccessor(news_object)();
+                         news_description python:news_object.getField('description').getAccessor(news_object)();
+                         news_image python:news_object.getField('image').getAccessor(news_object)();
+                         news_url python:news_object.absolute_url();
+                         news_description python:news_object.getField('description').getAccessor(news_object)();">
 
-          <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+          <h3 tal:content="python:news_title">Title</h3>
           <p>
-            <span class="insitu-news-author"><i class="fa fa-user"></i> Author here</span>
-            <span class="insitu-news-date"><i class="fa fa-clock-o"></i> Publishing date</span>
+            <span class="insitu-news-author">
+              <i class="fa fa-user"></i>
+              <span>Author here</span>
+            </span>
+            <span class="insitu-news-date">
+              <i class="fa fa-clock-o"></i>
+              <span>
+                <span tal:replace="python:news_date.Month()[:3]"></span>
+                <span tal:replace="python:news_date.day()"></span>,
+                <span tal:replace="python:news_date.year()"></span>
+              </span>
+            </span>
           </p>
 
           <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 insitu-news-image">
-            <img src="http://localhost:8081/copernicus/news/interview-with-mauro-facchini-head-of-unit-2013-copernicus-unit-directorate-general-for-internal-market-industry-entrepreneurship-and-smes-european-commission-1/image" />
+            <img src="" tal:replace="structure python:news_image" />
           </div>
           <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 insitu-news-text">
-            <div class="insitu-news-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div class="insitu-news-body" tal:content="structure python:news_description">
+              News description
             </div>
             <p class="insitu-news-read-more">
               <a href="" class="btn insitu-btn-read-more">Read more...</a>
@@ -49,14 +58,6 @@
           </div>
         </div><!-- News item -->
 
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 land-publication-item"
-               tal:define="item_obj python:news_item.getObject();
-                           item_title python:item_obj.Title();
-                           item_url python:item_obj.absolute_url();">
-            <p tal:content="python:item_obj"></p>
-          </div>
-        </div>
       </tal:items>
     </div>
   </div>
