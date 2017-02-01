@@ -15,6 +15,36 @@
 
     <h1 class="insitu-title">News</h1>
 
+
+<!-- WIP Pagination -->
+<!-- <div tal:define="liste python:here.portal_catalog.searchResults({'portal_type' : 'News Item',   'review_state':'published'});
+             Batch python:modules['Products.CMFPlone'].Batch;
+             b_size python:2;
+             b_start python:0;
+             b_start request/b_start | b_start;
+             batch python:Batch(liste, b_size, int(b_start), orphan=1);"
+     tal:condition="liste">
+
+    <ul>
+
+        <tal:boucle tal:repeat="item batch">
+            <li tal:define="oddrow repeat/item/odd;"
+                tal:attributes="class python:test(oddrow, 'even', 'odd')">
+
+                 <span tal:content="python:item"></span>
+
+            </li>
+        </tal:boucle>
+
+    </ul>
+
+    <div metal:use-macro="here/batch_macros/macros/navigation" />
+
+</div>
+ -->
+
+
+
     <div class="container-fluid"
          tal:define="news_items python:context.getFolderContents(contentFilter={'portal_type':['News Item']});">
 
