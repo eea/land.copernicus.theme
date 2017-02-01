@@ -6686,6 +6686,7 @@ ul.user-corner-menu {
 
 article img {
   max-width: 100%;
+  height: auto;
   margin-top: 6px;
   margin-bottom: 6px; }
 
