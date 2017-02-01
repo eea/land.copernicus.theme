@@ -7335,3 +7335,8 @@ h1.text-uppercase {
 .insitu-news-date .fa {
   margin-right: 5px;
 }
+
+.insitu-news-item {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DDDDDD;
+}
