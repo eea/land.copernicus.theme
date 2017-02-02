@@ -7339,6 +7339,10 @@ h1.text-uppercase {
   border-bottom: 5px solid #783F34;
 }
 
+div.pagination.listingBar {
+  margin-left: -12px;
+}
+
 div.pagination.listingBar a:hover {
   color: #FFFFFF !important;
   background-color: #783F34;
@@ -7360,4 +7364,8 @@ div.pagination.listingBar span.current {
   padding: 6px 10px 6px 10px;
   margin-right: 5px;
   color: #FFFFFF;
+}
+
+.insitu-news-list-container .insitu-news-image {
+  padding: 0px;
 }
