@@ -242,8 +242,7 @@
     <drop css:content="#portal-breadcrumbs" />
 
     <!-- Print page -->
-    <replace css:content="#parent-fieldname-title">
-      <xsl:copy-of select="."/>
+    <replace css:theme=".insitu-print-button">
       <a href="javascript:window.print()" class="printButton">
         <i class="fa fa-print"></i> Print
       </a>
