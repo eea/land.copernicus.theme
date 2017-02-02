@@ -5,7 +5,6 @@ TODO
 - home: reports - implement
 - home: title - style
 - fix responsivity issues
-- print styles
 - tests with IE and other browsers, fix problems
 
 

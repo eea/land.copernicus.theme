@@ -254,7 +254,14 @@
 
   #content-section.simple-page {
     position: relative;
-    top: 0px;
+    top: 0px !important;
+  }
+
+  .insitu-stay-informed-section,
+  div[data-diazo=insitu-events-list],
+  div[data-diazo=insitu-news-list],
+  .insitu-btn-tags-container {
+    display: none;
   }
 
 }  /* @media print */
