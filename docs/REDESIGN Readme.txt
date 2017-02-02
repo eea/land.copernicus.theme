@@ -7,7 +7,6 @@ TODO
 - fix responsivity issues
 - print styles
 - tests with IE and other browsers, fix problems
-- breadcrumbs text and style
 
 
 INSITU Install Guide for New theme
