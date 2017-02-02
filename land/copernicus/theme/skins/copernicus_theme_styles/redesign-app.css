@@ -6906,6 +6906,7 @@ article.main #edit-bar {
 }
 
 .eventDetails.vcard {
+  margin: 10px;
   float: initial;
 }
 
@@ -6922,8 +6923,8 @@ body.template-events_listing article.main h2 {
 
 .eventDetails.vcard .vertical.listing th {
   width: 25%;
-  background: #783F34;
-  color: white;
+  background: #ffcf87;
+  color: #444444;
 }
 
 @media (max-width: 768px ) {
