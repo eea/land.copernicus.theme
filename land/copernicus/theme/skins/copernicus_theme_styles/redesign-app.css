@@ -6815,12 +6815,6 @@ a.printButton {
   display: inline-block;
 }
 
-div.listingBar a:hover {
-  color: #FFFFFF !important;
-  background-color: #60332a;
-  border-color: #60332a;
-}
-
 ul#portal-sitemap > li > div > a {
   background-position-y: 12px;
 }
@@ -7339,4 +7333,8 @@ h1.text-uppercase {
 .insitu-news-item {
   padding-bottom: 10px;
   border-bottom: 1px solid #DDDDDD;
+}
+
+.insitu-news-item:nth-child(4) {
+  border-bottom: 5px solid #783F34;
 }

@@ -253,6 +253,7 @@
 
   <rules css:if-content="body.template-news_listing">
     <drop css:theme="[data-diazo='insitu-news-list']" />
+    <drop css:theme="[data-diazo='insitu-tags']" />
   </rules>
 
   <rules css:if-content="body.template-manage-portlets">
