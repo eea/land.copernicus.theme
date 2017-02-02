@@ -3,7 +3,6 @@ TODO
 - menu top right - use icons
 - banners in footer - add copernicus
 - home: reports - implement
-- home: title - style
 - fix responsivity issues
 - tests with IE and other browsers, fix problems
 
@@ -30,6 +29,10 @@ In portal_javascripts/manage_jsForm add:
 Fix title non-ascii to fix error on news: news/towards-stronger-partnerships-and-collaboration-the-eea2019s-second-workshop-on-in-situ-coordination
 
 news/interview-with-mauro-facchini-head-of-unit-2013-copernicus-unit-directorate-general-for-internal-market-industry-entrepreneurship-and-smes-european-commission-1/edit
+
+/portal_types/Folder/manage_propertiesForm
+Add news_listing
+    In /news select Display - news_listing
 
 - In /homepage-content/ - remove unused images
 
