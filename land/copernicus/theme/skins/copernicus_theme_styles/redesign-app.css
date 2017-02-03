@@ -6954,6 +6954,10 @@ body.template-events_listing article.main h2 {
 }
 ul.partners-logos {
   margin-top: 25px;
+  display: block;  /* Be happy, IE. */
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7294,15 +7298,6 @@ input.search-bar.searchField:-ms-input-placeholder {
   margin-right: 15%;
 }
 
-#insitu-article-title {
-  color: #FFFFFF;
-  font-size: 28px;
-  padding-left: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 22px;
-}
-
 h1.text-uppercase {
   font-weight: bold;
 }
@@ -7376,4 +7371,22 @@ div.pagination.listingBar span.current {
   background-size: cover;
   background-position: left bottom;
   background-repeat: no-repeat;
+
+  display: block;  /* Be happy, IE. */
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;
+  align-items: center;
+  float: left;
+  width: 100%;
+}
+
+#insitu-article-title {
+  color: #FFFFFF;
+  font-size: 28px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -3px;
 }
