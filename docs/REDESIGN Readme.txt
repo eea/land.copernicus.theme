@@ -6,14 +6,19 @@ TODO
 - banners in footer - add copernicus
 - fix responsivity issues
 - tests with IE and other browsers, fix problems
-- problem with login
-- spelling mistake in Contact us (?)
+- Temporary issue of logging in
+- Small spelling mistake in "Contact us"
 - login page design - see copernicus land, larger fields
+  Login form fields are too small after adding the pane on the right
 - use the same align for colored tags - center in simple page, too
+  Alignment: e.g. the colored tags from the mockup are aligned differently on the homepage (center) and on the other pages (left). For consistency reasons, we propose to use the same alignment (center). What do you think?
 - newsletter button update link - use production
 - Observations & Spatial data in Homepage - update links
+  We would also need some details regarding the links called: Observations, Spatial data, and Reports
 - home: reports - implement
 - add / update missing links, check texts - related to newsletter based on feedback to #80175
+- Alignment of buttons (see point from below)
+- add content for the last 3 links in the footer: Disclaimer/Policy, Data controllers, Cookies
 
 DOCS
 ====
