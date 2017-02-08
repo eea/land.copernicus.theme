@@ -20,9 +20,24 @@ TODO
 - Alignment of buttons (see point from below)
 - add content for the last 3 links in the footer: Disclaimer/Policy, Data controllers, Cookies
 
-DOCS
-====
-https://taskman.eionet.europa.eu/projects/copernicus-land-monitoring-service/wiki/MoM_1st_of_February_2017
+For more see: https://taskman.eionet.europa.eu/projects/copernicus-land-monitoring-service/wiki/MoM_1st_of_February_2017
+- Increase visibility of the web site
+    - Optimisation of search results in google.com, by inclusion of optimum number and location of keywords, tags etc. – EEA will provide the list of keywords; the lesser number of keywords, the higher placement on the search results
+    - Links to other thematically relevant sites – add the other ESA sites and content with the overview of the 39 countries with entry point for the country; to be added somewhere in the User Corner or in the footer of the page.
+    - Enabling the (automated) linkages to the open data portals – the objective is to feed open data portals with data from Copernicus; analysis will be started by Eugenia in March
+    - Integration with social networks – Like and Tweet buttons like in BISE or look in the other 6 websites; Instagram and Slideshare might be good ideas because also of already prepared content information (pictures from conferences and piles of presentations)
+- Include the necessary elements in both portals to allow RDF metadata harvesting by a Semantic Data Service
+    - The idea is for the data published on the Copernicus websites to be harvested by the relevant semantic databases
+    - The data should be well described by metadata, in particular keywords, so that datasets can be easily findable when searching for it in these semantic databases. As opposed to the tagging for search engines, in this case the rule of thumb is „the more, the better” and the terms should be more scientific.
+    - It should be sufficient for two levels of pages from the sitemap and the datasets to be tagged with the relevant terms
+    - Need to make sure that pages and datasets to be exported in RDF are tagged with sufficient terms. Together with the EEA team, EdW will assess further tagging with terms from controlled vocabularies, such as GEMET.
+- Platforms
+    - The statistics of the use of platforms (devices and broswers) in Europe in the past year will be considered
+- Style
+    - New design for insite site is on the demo server – feedback needed: http://demo-insitu.eea.europa.eu
+    - Demo server will be used from now on before deployment to production
+    - Demo servers need to be refreshed from once in a while with image from production
+    - The buttons with the services on the bottom of the screen go to search with that specific term; every service has a specific color and logo
 
 
 INSITU Install Guide for New theme
