@@ -1,10 +1,23 @@
 TODO
 ====
-- menu top right - use icons
+- menu top right - prevent duplicate links: if icon, drop link
+- links in footer - get them from production
+- for last 3 links in footer, create demo pages and update links
 - banners in footer - add copernicus
-- home: reports - implement
 - fix responsivity issues
 - tests with IE and other browsers, fix problems
+- problem with login
+- spelling mistake in Contact us (?)
+- login page design - see copernicus land, larger fields
+- use the same align for colored tags - center in simple page, too
+- newsletter button update link - use production
+- Observations & Spatial data in Homepage - update links
+- home: reports - implement
+- add / update missing links, check texts - related to newsletter based on feedback to #80175
+
+DOCS
+====
+https://taskman.eionet.europa.eu/projects/copernicus-land-monitoring-service/wiki/MoM_1st_of_February_2017
 
 
 INSITU Install Guide for New theme
