@@ -1,8 +1,5 @@
 TODO
 ====
-- menu top right - prevent duplicate links: if icon, drop link
-- links in footer - get them from production
-- for last 3 links in footer, create demo pages and update links
 - banners in footer - add copernicus
 - fix responsivity issues
 - tests with IE and other browsers, fix problems
@@ -19,6 +16,7 @@ TODO
 - add / update missing links, check texts - related to newsletter based on feedback to #80175
 - Alignment of buttons (see point from below)
 - add content for the last 3 links in the footer: Disclaimer/Policy, Data controllers, Cookies
+- menu top right - prevent duplicate links: if icon, drop link
 
 For more see: https://taskman.eionet.europa.eu/projects/copernicus-land-monitoring-service/wiki/MoM_1st_of_February_2017
 - Increase visibility of the web site
