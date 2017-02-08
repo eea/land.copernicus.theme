@@ -1,6 +1,6 @@
 TODO
 ====
-- banners in footer - add copernicus
+- WIP banners in footer - add copernicus
 - fix responsivity issues
 - tests with IE and other browsers, fix problems
 - Temporary issue of logging in
