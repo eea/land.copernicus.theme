@@ -7107,3 +7107,8 @@ body.subsection-urban-atlas-ancillary-data-on-population-estimates-by-urban-atla
   display: none !important;
 }
 /* END FIX */
+
+ul.user-corner-menu .fa {
+  color: #A0B228;
+  width: 16px;
+}
