@@ -1,6 +1,5 @@
 TODO
 ====
-- newsletter button update link - use production
 - Observations & Spatial data in Homepage - update links
   We would also need some details regarding the links called: Observations, Spatial data, and Reports
 - home: reports - implement
