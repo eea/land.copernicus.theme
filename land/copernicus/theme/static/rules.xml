@@ -272,6 +272,12 @@
     <drop css:content="h1#login_page_title" />
   </rules>
 
+  <!-- Register -->
+  <rules css:if-content="body.template-register">
+    <drop css:theme="[data-diazo='insitu-secondary-column']" />
+    <drop css:theme="[data-diazo='insitu-tags']" />
+  </rules>
+
   <rules css:if-not-content=".portlet-static-partners ul.partners-logos">
     <drop css:theme="footer .partners" />
   </rules>
