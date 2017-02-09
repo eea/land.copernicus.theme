@@ -1,8 +1,5 @@
 TODO
 ====
-- register page styles
-- use the same align for colored tags - center in simple page, too
-  Alignment: e.g. the colored tags from the mockup are aligned differently on the homepage (center) and on the other pages (left). For consistency reasons, we propose to use the same alignment (center). What do you think?
 - newsletter button update link - use production
 - Observations & Spatial data in Homepage - update links
   We would also need some details regarding the links called: Observations, Spatial data, and Reports
