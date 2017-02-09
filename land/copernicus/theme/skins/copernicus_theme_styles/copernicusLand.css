@@ -1,65 +1,3 @@
-/*
-
-NEW
-Land Copernicus                                InSitu
-----------------------------------------------------------------------------------------------
-Grey Very Light Grey:     #CCC                 #CCCCCC
-Grey Nobel:               #999                 #999999
-Grey Suva Grey:           #888                 #888888
-Grey Dim Gray:            #616161              #555555
-Grey Mortar:              #555                 #555555
-Grey Night Rider:         #333                 #333333
-
-White:                    #FFF                 #FFFFFF
-White Gainsboro:          #DDD                 #DDDDDD
-White White Smoke         #f3f3f3              #F3F3F3
-
-Blue Solitude:            #f5f6f7              #F1F1F1 (OLD: E1E4E7 Background B Blue Light2++)
-Blue Pacific Blue:        #08C                 #265787 B Blue Normal
-Blue Polo Blue:           #749AC4              #6289af B Blue Light2
-Blue Jelly Bean:          #427597              #3E6A95 B Blue Light1
-Blue Allports:            #205C90              #15426E B Blue Dark1
-Blue Cornflower Blue:     #50AEEC              #265787 B Blue Normal
-Blue Navy Blue:           #0070BB              #265787 B Blue Normal
-
-Green Fuego:              #BFD630              #FFCE86 B Orange Light2
-Green Limerick:           #A0B228              #783F34 A Red Normal
-
-                                               Red Crown Of Thorns: #783f34 (Base, primary)
-
-
-Valentin1: http://www.colorcombos.com/combotester.html?color0=783f34&color1=df482e&color2=ff8d33&color3=f9f4f4&show_text=
-
-Valentin2: http://www.colorcombos.com/combotester.html?color0=1e3478&color1=af3c28&color2=fda939&color3=f9f4f4&show_text=
-    #1e3478 Blue OK
-    #AF3C28 Red  OK
-    #FDA939 Yellow OK
-    #F9F4F4 Background
-
-    Light2  Light1  Normal  Dark1   Dark2
-    #F48F7C #CD5D48 #AF3D28 #8D210E #620F00 Red
-    #FFCC87 #FFBA5D #FDA939 #EA8A0A #B36703 Orange
-    #4E63A1 #33498E #1E3578 #0E2362 #051545 Blue
-
-GhitaB A: http://paletton.com/#uid=7070E0ki8f4beoteEjFmzcjrF8k
-    Light2  Light1  Normal  Dark1   Dark2
-    #C3897F #9D6055 #783F34 #62281D #421209 Red
-    #C3A77F #9D7F55 #785C34 #62461D #422B09 Orange
-    #556A7E #3B5166 #253A4E #162B40 #091A2B Blue
-    #5D8F6E #3E7350 #265837 #154826 #073115 Green
-
-GhitaB B: http://paletton.com/#uid=7070E0koWq8fazkkdsMrOlcw9gi
-
-    Light2  Light1  Normal  Dark1   Dark2
-    #FF9986 #E56B54 #D0472E #A92D16 #821400 Red
-    #FFCE86 #E5AA54 #D08E2E #A96D16 #824D00 Orange
-    #6289AF #3E6A95 #265787 #15426E #062E54 Blue
-    #66C285 #3EA862 #22984A #107C35 #005F20 Green
-
-*/
-
-/* NEW - Added styles */
-
 dl.portalMessage.info {
   border: 1px solid #3E6A95;
 }
@@ -90,10 +28,6 @@ dl.portalMessage.info dd {
   background-color: #783F34 !important;
 }
 
-/* .portlet.portletCollection.portlet-collection-user-corner a {
-  background-image: none !important;
-} */
-
 #contentActionMenus dl.actionMenu.activated dd {
   border-bottom: 0.5em solid #783F34 !important;
 }
@@ -102,9 +36,6 @@ dl.portalMessage.info dd {
   color: #555555 !important;
 }
 
-/* end NEW */
-
-/* - copernicusLand.css - */
 body {
   font-size: 13px;
   color: #333333;

@@ -7431,3 +7431,7 @@ div.pagination.listingBar span.current {
 body.template-login_form .main-content .col-lg-8 {
   width: 100%;
 }
+
+body.template-login_form .breadcrumb {
+  display: none;
+}
