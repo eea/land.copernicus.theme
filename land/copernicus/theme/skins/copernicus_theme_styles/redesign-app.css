@@ -7440,3 +7440,8 @@ body.template-login_form .breadcrumb,
 body.template-register .breadcrumb {
   display: none;
 }
+
+section#header-section #insitu-brand-utils li#siteaction-newsletter,
+section#header-section #insitu-brand-utils li#siteaction-sitemap {
+  display: none; /* We have icon. */
+}
