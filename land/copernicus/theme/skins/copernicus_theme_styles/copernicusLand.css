@@ -821,15 +821,6 @@ and (resolution: 163dpi) {
 .image_cover {
     float: right;
 }
-#personaltools-login {
-    margin-right: 3px;
-}
-#siteaction-contact {
-    margin-right: -1px;
-}
-#personaltools-logout {
-    padding-right: 1px;
-}
 
 /* Personal Information edit styles */
 .template-personal-information .edit-form fieldset {

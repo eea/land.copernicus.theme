@@ -76,10 +76,8 @@
 
     <!-- Top right corner menu -->
     <replace css:theme-children="div.utils ul.insitu-list-separated">
-      <xsl:for-each css:select="#portal-siteactions li a">
-        <li>
-          <xsl:copy-of select="current()" />
-        </li>
+      <xsl:for-each css:select="#portal-siteactions li">
+        <xsl:copy-of select="current()" />
       </xsl:for-each>
       <xsl:for-each css:select="#portal-personaltools-wrapper li a">
         <li>
@@ -147,10 +145,8 @@
 
       <!-- Top right corner menu -->
       <replace css:theme-children="div.utils ul.insitu-list-separated">
-        <xsl:for-each css:select="#portal-siteactions li a">
-          <li>
-            <xsl:copy-of select="current()" />
-          </li>
+        <xsl:for-each css:select="#portal-siteactions li">
+          <xsl:copy-of select="current()" />
         </xsl:for-each>
         <xsl:for-each css:select="#portal-personaltools-wrapper li a">
           <li>
