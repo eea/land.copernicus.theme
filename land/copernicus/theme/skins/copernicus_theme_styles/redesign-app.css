@@ -6362,9 +6362,14 @@ button.close {
   /*background-attachment: fixed;*/
   background-color: #ffffff; }
 
-.margin-content, #header-section .container-fluid#insitu-brand-utils .content, .main-content, .breadcrumbs, .menu-sections, footer {
+.margin-content, #header-section .container-fluid#insitu-brand-utils .content, .main-content, .breadcrumbs, .menu-sections {
   margin-left: 15%;
   margin-right: 15%; }
+
+footer {
+  margin-left: 0%;
+  margin-right: 0%;
+}
 
 body {
   padding: 0px;
@@ -6507,9 +6512,8 @@ footer .partners {
     footer .partners .partners-banners a {
       text-decoration: none; }
     footer .partners .partners-banners img {
-      max-height: 77px;
-      margin-left: 18px;
-      margin-right: 18px;
+      margin-left: 30px;
+      margin-right: 30px;
       margin-bottom: 6px; }
 
 footer .text {
@@ -6933,11 +6937,13 @@ body.template-events_listing article.main h2 {
   margin-left: 5%;
   margin-right: 5%; }
 }
+
 @media (min-width: 769px) and (max-width:775px) {
   .col-sm-6 {
     width: 40%;
   }
 }
+
 @media (max-width: 800px) {
   .carousel-caption {
     bottom: 0!important;
@@ -6952,6 +6958,7 @@ body.template-events_listing article.main h2 {
     display: none;
   }
 }
+
 ul.partners-logos {
   margin-top: 25px;
   display: block;  /* Be happy, IE. */
@@ -6962,10 +6969,35 @@ ul.partners-logos {
   justify-content: center;
   align-items: center;
 }
+
+ul.partners-logos span.insitu-implemented {
+  font-size: 14px;
+  position: relative;
+  top: 26px;
+  color: #333333;
+  right: 0px;
+}
+
+ul.partners-logos img.EC {
+  height: 100%;
+}
+
+ul.partners-logos img.copernicus {
+  max-height: 50px;
+}
+
+ul.partners-logos img.EEA {
+  position: relative;
+  top: 8px;
+  max-height: 65px;
+  margin-left: 5px;
+}
+
 .brand .list-inline {
   display: inline-flex;
   margin-bottom: 2rem;
 }
+
 .utils ul {
   white-space: nowrap;
 }
@@ -7389,4 +7421,9 @@ div.pagination.listingBar span.current {
   text-transform: uppercase;
   font-weight: bold;
   margin-top: -3px;
+}
+
+.partners-banners ul.list-inline li {
+  padding-left: 20px;
+  padding-right: 20px;
 }
