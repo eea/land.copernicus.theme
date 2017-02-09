@@ -1158,15 +1158,6 @@ and (resolution: 163dpi) {
       border-top: none !important;
     }
 
-    .kssattr-formname-register:after {
-        border-top: 1px solid #999999;
-        width: 75%;
-        height: 0px;
-        position: absolute;
-        bottom: 0;
-        left: 10;
-        content: '';
-    }
 }
 
 /* Fix "You can log in again below." text in logged_out */

@@ -7428,10 +7428,12 @@ div.pagination.listingBar span.current {
   padding-right: 20px;
 }
 
-body.template-login_form .main-content .col-lg-8 {
+body.template-login_form .main-content .col-lg-8,
+body.template-register .main-content .col-lg-8 {
   width: 100%;
 }
 
-body.template-login_form .breadcrumb {
+body.template-login_form .breadcrumb,
+body.template-register .breadcrumb {
   display: none;
 }
