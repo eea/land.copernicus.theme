@@ -6,7 +6,6 @@ TODO
 - home: reports - implement
 - add / update missing links, check texts - related to newsletter based on feedback to #80175
 - Alignment of buttons (see point from below)
-- add content for the last 3 links in the footer: Disclaimer/Policy, Data controllers, Cookies
 - menu top right - prevent duplicate links: if icon, drop link
 - fix responsivity issues
 - tests with IE and other browsers, fix problems
