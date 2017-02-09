@@ -911,7 +911,7 @@ and (resolution: 163dpi) {
     right: 0;
     position: relative;
     float: right;
-    margin-top: -15px;
+    margin-top: 0px;
 }
 
 #formfield-form-fullname span:first-child,
@@ -937,6 +937,10 @@ and (resolution: 163dpi) {
     position: relative;
     top: -2px;
     *overflow: hidden;
+}
+
+.kssattr-formname-register .fieldErrorBox {
+  float: left;
 }
 
 #formfield-form-thematic_domain label, #formfield-form-institutional_domain label {
@@ -974,7 +978,7 @@ and (resolution: 163dpi) {
 /* Terms of use */
 #formfield-form-disclaimer {
     height: 60px;
-    width: 19%;
+    width: 60%;
     display: inline;
     float: left;
     font-size: 12px;
@@ -1142,7 +1146,7 @@ and (resolution: 163dpi) {
         margin-left: 10px;
     }
 
-    #formfield-form-disclaimer   {
+    #formfield-form-disclaimer {
         clear: left;
     }
 
