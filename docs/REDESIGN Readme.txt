@@ -1,8 +1,6 @@
 TODO
 ====
-- clean copernicus land styles for buttons and links (see Login)
-- login page design - see copernicus land, larger fields
-  Login form fields are too small after adding the pane on the right
+- register page styles
 - use the same align for colored tags - center in simple page, too
   Alignment: e.g. the colored tags from the mockup are aligned differently on the homepage (center) and on the other pages (left). For consistency reasons, we propose to use the same alignment (center). What do you think?
 - newsletter button update link - use production

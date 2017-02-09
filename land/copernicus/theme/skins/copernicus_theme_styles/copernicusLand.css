@@ -67,7 +67,7 @@ a:focus,
 a:hover,
 a:active,
 #content-core a {
-  color: #265787;
+  color: #783F34;
   text-decoration: underline;
 }
 
@@ -968,7 +968,7 @@ and (resolution: 163dpi) {
 }
 
 .terms-of-use-dialog a {
-  color: #15426E;
+  color: #60332a;
 }
 
 /* Terms of use */
@@ -1019,7 +1019,7 @@ and (resolution: 163dpi) {
     margin-left: 10px;
     margin-top: 15px;
 
-    background-color: #265787;
+    background-color: #783F34;
     border-radius: 5px;
     border-top: 0px solid;
     border-left: 0px solid;
@@ -1039,7 +1039,7 @@ and (resolution: 163dpi) {
     margin-left: -12px;
     margin-top: 0px;
 
-    background-color: #265787;
+    background-color: #783F34;
     border-radius: 5px;
     border-top: 0px solid;
     border-left: 0px solid;
@@ -1056,7 +1056,7 @@ and (resolution: 163dpi) {
 
 .actionButtons input:hover,
 #feedback_form div.formControls .context:hover {
-    background-color: #15426E;
+    background-color: #60332a;
 }
 
 /* Horizontal Line Top */
@@ -1227,7 +1227,7 @@ and (resolution: 163dpi) {
 }
 
 #login_form_container #login_form_details a {
-    color: #265787;
+    color: #783F34;
 }
 
 #login_form_container #login-form label {
@@ -1241,7 +1241,7 @@ and (resolution: 163dpi) {
 /* Login button */
 #login_form_container #login-form div.formControls .context {
     margin-left: 1px;
-    background-color: #265787;
+    background-color: #783F34;
     border-radius: 5px;
     border-top: 0px solid;
     border-left: 0px solid;
@@ -1257,7 +1257,7 @@ and (resolution: 163dpi) {
 /* Submit EAGLE Contact button */
 .section-eagle-contact div.formControls .context {
     margin-left: -12px;
-    background-color: #265787;
+    background-color: #783F34;
     border-radius: 5px;
     border-top: 0px solid;
     border-left: 0px solid;
@@ -1275,7 +1275,7 @@ and (resolution: 163dpi) {
 /* buttons hover */
 #login_form_container #login-form div.formControls .context:hover,
 .section-eagle-contact div.formControls .context:hover {
-    background-color: #15426E;
+    background-color: #60332a;
 }
 
 #viewlet-cookiepolicy {
@@ -1329,7 +1329,7 @@ and (resolution: 163dpi) {
 
   display: inline-block;
   margin-right: 5px;
-  border: 1px solid #265787;
+  border: 1px solid #783F34;
 }
 
 /* Pages and sections titles in reference manual alreay have numbers. */
