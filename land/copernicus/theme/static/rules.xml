@@ -250,14 +250,26 @@
 
   </rules>
 
+  <!-- PARTICULAR PAGES -->
+
+  <!-- News -->
   <rules css:if-content="body.template-news_listing">
     <drop css:theme="[data-diazo='insitu-news-list']" />
     <drop css:theme="[data-diazo='insitu-tags']" />
   </rules>
 
+  <!-- Manage portlets -->
   <rules css:if-content="body.template-manage-portlets">
     <after css:theme-children="article.main" css:content-children="#portal-column-one" />
     <after css:theme-children="article.main" css:content-children="#portal-column-two" />
+  </rules>
+
+  <!-- Login -->
+  <rules css:if-content="body.template-login_form">
+    <drop css:theme="[data-diazo='insitu-secondary-column']" />
+    <drop css:theme="[data-diazo='insitu-tags']" />
+    <replace css:theme-children="#insitu-article-title" css:content-children="h1#login_page_title" />
+    <drop css:content="h1#login_page_title" />
   </rules>
 
   <rules css:if-not-content=".portlet-static-partners ul.partners-logos">

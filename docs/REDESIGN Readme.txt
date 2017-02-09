@@ -1,10 +1,6 @@
 TODO
 ====
-- WIP banners in footer - add copernicus
-- fix responsivity issues
-- tests with IE and other browsers, fix problems
-- Temporary issue of logging in
-- Small spelling mistake in "Contact us"
+- clean copernicus land styles for buttons and links (see Login)
 - login page design - see copernicus land, larger fields
   Login form fields are too small after adding the pane on the right
 - use the same align for colored tags - center in simple page, too
@@ -17,6 +13,10 @@ TODO
 - Alignment of buttons (see point from below)
 - add content for the last 3 links in the footer: Disclaimer/Policy, Data controllers, Cookies
 - menu top right - prevent duplicate links: if icon, drop link
+- fix responsivity issues
+- tests with IE and other browsers, fix problems
+- Temporary issue of logging in
+- Small spelling mistake in "Contact us"
 
 For more see: https://taskman.eionet.europa.eu/projects/copernicus-land-monitoring-service/wiki/MoM_1st_of_February_2017
 - Increase visibility of the web site

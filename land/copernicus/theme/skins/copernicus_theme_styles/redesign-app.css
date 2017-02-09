@@ -7427,3 +7427,7 @@ div.pagination.listingBar span.current {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+body.template-login_form .main-content .col-lg-8 {
+  width: 100%;
+}
