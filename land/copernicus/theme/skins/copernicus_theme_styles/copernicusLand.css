@@ -1255,14 +1255,14 @@ and (resolution: 163dpi) {
 
 #login_form_container {
     width: 75%;
-    margin-left: 10%;
+    margin-left: 13%;
     border: 1px solid #DDDDDD;
     padding: 15px;
     overflow: hidden;
 }
 
 #login_form_container #login_form {
-    width: 20%;
+    width: 25%;
     float: left;
     text-align: left;
     padding-right: 1%;
