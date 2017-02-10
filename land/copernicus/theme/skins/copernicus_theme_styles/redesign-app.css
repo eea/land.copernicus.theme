@@ -6741,7 +6741,7 @@ article img {
 @media (min-width: 570px) and (max-width: 1000px) {
   #content-section.simple-page,
   #content-section.homepage {
-    top: 285px !important;
+    top: 350px !important;
     position: relative;
     z-index: 2 !important;
   }
@@ -7160,6 +7160,12 @@ form[data-diazo="insitu-search-form"] .input-group {
 
   .utils .list-inline.insitu-list-icons {
     padding-right: 0px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #content-section.simple-page {
+    top: 350px;
   }
 }
 
