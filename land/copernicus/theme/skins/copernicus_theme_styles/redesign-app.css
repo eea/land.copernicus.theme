@@ -6432,6 +6432,13 @@ body {
   background-image: url("./header-photo-texture.jpg");
   height: 233px; }
 
+@media (min-width: 1200px) {
+  #header-section.simple-page {
+    background-image: url("./header-photo-texture.jpg");
+    height: 130px;
+  }
+}
+
 .main-content {
   background: #FFFFFF;
   /* padding: 10px; ORIGINAL */
