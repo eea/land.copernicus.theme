@@ -7164,7 +7164,8 @@ form[data-diazo="insitu-search-form"] .input-group {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  #content-section.simple-page {
+  #content-section.simple-page,
+  #content-section.homepage {
     top: 350px;
   }
 }
