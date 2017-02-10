@@ -6620,7 +6620,12 @@ article.main #parent-fieldname-title {
 .snippet .news-body {
   padding-top: 5px;
   padding-bottom: 5px;
-  overflow: hidden; }
+  overflow: hidden;
+}
+
+.snippet .news-body {
+  min-height: 65px;
+}
 
 .insitu-img-preview {
   border: none; }
