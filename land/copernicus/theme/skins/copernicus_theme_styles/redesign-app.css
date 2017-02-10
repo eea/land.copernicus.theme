@@ -7379,6 +7379,10 @@ section#header-section #insitu-brand-utils li#siteaction-sitemap {
   #content-section.homepage {
     top: 181px;
   }
+
+  h1#insitu-article-title {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px ) {
@@ -7472,6 +7476,10 @@ section#header-section #insitu-brand-utils li#siteaction-sitemap {
     top: 360px !important;
     position: relative;
     z-index: 2 !important;
+  }
+
+  h1#insitu-article-title {
+    font-size: 18px !important;
   }
 }
 
