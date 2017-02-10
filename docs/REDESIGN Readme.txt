@@ -5,7 +5,6 @@ TODO
 - home: reports - implement
 - add / update missing links, check texts - related to newsletter based on feedback to #80175
 - Alignment of buttons (see point from below)
-- menu top right - prevent duplicate links: if icon, drop link
 - fix responsivity issues
 - tests with IE and other browsers, fix problems
 - Temporary issue of logging in
