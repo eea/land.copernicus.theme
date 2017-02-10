@@ -6434,7 +6434,6 @@ body {
 
 @media (min-width: 1200px) {
   #header-section.simple-page {
-    background-image: url("./header-photo-texture.jpg");
     height: 130px;
   }
 }
