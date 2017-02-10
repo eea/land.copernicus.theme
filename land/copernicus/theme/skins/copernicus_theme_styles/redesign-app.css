@@ -6730,8 +6730,7 @@ article img {
       font-size: 10px; } }
 
 @media (max-width: 570px) {
-  #content-section.simple-page,
-  #content-section.homepage {
+  #content-section.simple-page {
     top: 360px !important;
     position: relative;
     z-index: 2 !important;
@@ -6739,8 +6738,7 @@ article img {
 }
 
 @media (min-width: 570px) and (max-width: 1000px) {
-  #content-section.simple-page,
-  #content-section.homepage {
+  #content-section.simple-page {
     top: 350px !important;
     position: relative;
     z-index: 2 !important;
@@ -7164,9 +7162,17 @@ form[data-diazo="insitu-search-form"] .input-group {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  #content-section.simple-page,
-  #content-section.homepage {
+  #content-section.simple-page {
     top: 350px;
+  }
+  #content-section.homepage {
+    top: 181px;
+  }
+}
+
+@media (max-width: 992px) {
+  #content-section.homepage {
+    top: 181px;
   }
 }
 
