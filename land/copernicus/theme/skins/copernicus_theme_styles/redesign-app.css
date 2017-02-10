@@ -7153,6 +7153,16 @@ form[data-diazo="insitu-search-form"] .input-group {
   margin-right: 35px;
 }
 
+@media (max-width: 1200px) {
+  form[data-diazo="insitu-search-form"] .input-group {
+    margin-right: 0px;
+  }
+
+  .utils .list-inline.insitu-list-icons {
+    padding-right: 0px !important;
+  }
+}
+
 #header-section nav.navbar-default {
   text-transform: uppercase;
 }
