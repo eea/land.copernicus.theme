@@ -6438,6 +6438,12 @@ body {
   }
 }
 
+@media (min-width: 1200px) {
+  #header-section.homepage {
+    height: 130px;
+  }
+}
+
 .main-content {
   background: #FFFFFF;
   /* padding: 10px; ORIGINAL */
