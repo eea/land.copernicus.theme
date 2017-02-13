@@ -5,10 +5,34 @@ TODO
 - home: reports - implement
 - add / update missing links, check texts - related to newsletter based on feedback to #80175
 - Alignment of buttons (see point from below)
+  I'm not convinced there is a problem with having the buttons left-aligned on the inner pages. I would leave it as it is for now.
 - fix responsivity issues
 - tests with IE and other browsers, fix problems
 - Temporary issue of logging in
+  Whilst at first I did not know what this comment was referring to, I now see that there is a Log in link at the top of the page. What is the issue?
 - Small spelling mistake in "Contact us"
+  I did not notice a spelling problem here; but please use the updated content of the current page: http://insitu.copernicus.eu/contact
+- Improve Login form design
+  Login form fields are too small after adding the pane on the right > Indeed the fields are too small - but no pane is visible on the right.
+- Content for the last 3 links in the footer: Disclaimer/Policy, Data controllers, Cookies > Here I would leave it to Sanja to advise.
+
+- Homepage: Could the homepage banner be made smaller by approximately one-third of its current size (whilst remaining larger than the banner of the inner pages)? We would like to be able to see more of the homepage content without the need for scrolling.
+- Homepage: The text from the original homepage (in 3-column layout, starting just below the paragraph ending "est laborum" and lasting until "selected critical data sets.") should be removed.
+- Homepage: Could you swap the (vertical) position of the elements containing (1) the "button cluster" and (2) the News, Events and Reports boxes.
+- Homepage: Could you add a vertical "banner-style" element similar to the "STAY INFORMED ON OUR LATEST NEWS!" bar, containing the text "Discover the Copernicus Services". We would like to include the icons of the six Copernicus services (see attachment) with links to each service page: 
+    Land: land.copernicus.eu
+    Marine: marine.copernicus.eu
+    Atmosphere: atmosphere.copernicus.eu
+    Emergency: emergency.copernicus.eu
+    Climate: climate.copernicus.eu
+    Security: TBD.
+- Site Header: The search bar at the top of the page is a bit large in relation to the other elements. It is also in a slightly awkward position with respect to the layout of the header. Would it be possible to make it smaller and perhaps also move it next to (to the right of) the social media icons, for example? Note: it would be acceptable, in my opinion, to use the same size and format as the search bar on the land.copernicus.eu homepage, which is both smaller and more discreet.
+- News, events, reports: Could the news items which currently exist on the in situ page be imported into the new version of the site? Can you please import one or two items so that we can get a feel for how actual news content would look across the demo site (i.e. in the box and on the news page)
+- News, events, reports: Can the boxes containing News, Events and Reports be constrained to a maximum size of e.g. 3 items per box?
+- News, events, reports: Would it be possible to create a new item type: "In proximity", with similar behaviour to news, events and reports? 
+Ideally we would have a drop-down menu under "News" leading to Events, Newsletter, In Proximity" and perhaps some others.
+- Inner pages: Breadcrumb trail: Please can you add a little vertical space above the breadcrumb trail (e.g. Home ­­» Contact us) to separate it from the banner. Same applies to the "Print" button.
+- Tagging / search function: The idea of the tags was that it would be possible to combine them, i.e. by clicking first on "observations" and then on "Land", for example, to display content tagged with both. Is it possible to implement such functionality? To be further discussed on Monday/Tuesday.
 
 For more see: https://taskman.eionet.europa.eu/projects/copernicus-land-monitoring-service/wiki/MoM_1st_of_February_2017
 - Increase visibility of the web site
@@ -29,54 +53,7 @@ For more see: https://taskman.eionet.europa.eu/projects/copernicus-land-monitori
     - Demo servers need to be refreshed from once in a while with image from production
     - The buttons with the services on the bottom of the screen go to search with that specific term; every service has a specific color and logo
 
-1) Temporary issue of logging in: Whilst at first I did not know what this comment was referring to, I now see that there is a Log in link at the top of the page. What is the issue?
 
-2) Login form fields are too small after adding the pane on the right > Indeed the fields are too small - but no pane is visible on the right.
-
-3) Small spelling mistake in "Contact us"> I did not notice a spelling problem here; but please use the updated content of the current page: http://insitu.copernicus.eu/contact
-
-4) Alignment of buttons (see point from below) > I'm not convinced there is a problem with having the buttons left-aligned on the inner pages. I would leave it as it is for now.
-
-5) We would need some content for the last 3 links in the footer: Disclaimer/Policy, Data controllers, Cookies > Here I would leave it to Sanja to advise.
-
-After a discussion with Sanja and Henrik on Wednesday, we would like to make the following requests:
-
-1. Homepage
-
-1.1 Could the homepage banner be made smaller by approximately one-third of its current size (whilst remaining larger than the banner of the inner pages)? We would like to be able to see more of the homepage content without the need for scrolling.
-
-1.2 The text from the original homepage (in 3-column layout, starting just below the paragraph ending "est laborum" and lasting until "selected critical data sets.") should be removed.
-
-1.3 Could you swap the (vertical) position of the elements containing (1) the "button cluster" and (2) the News, Events and Reports boxes.
-
-1.4 Could you add a vertical "banner-style" element similar to the "STAY INFORMED ON OUR LATEST NEWS!" bar, containing the text "Discover the Copernicus Services". We would like to include the icons of the six Copernicus services (see attachment) with links to each service page: 
-Land: land.copernicus.eu
-Marine: marine.copernicus.eu
-Atmosphere: atmosphere.copernicus.eu
-Emergency: emergency.copernicus.eu
-Climate: climate.copernicus.eu
-Security: TBD.
-
-2. Site Header
-
-2.1 The search bar at the top of the page is a bit large in relation to the other elements. It is also in a slightly awkward position with respect to the layout of the header. Would it be possible to make it smaller and perhaps also move it next to (to the right of) the social media icons, for example? Note: it would be acceptable, in my opinion, to use the same size and format as the search bar on the land.copernicus.eu homepage, which is both smaller and more discreet.
-
-3. News, events, reports
-
-3.1. Could the news items which currently exist on the in situ page be imported into the new version of the site? Can you please import one or two items so that we can get a feel for how actual news content would look across the demo site (i.e. in the box and on the news page)
-
-3.2. Can the boxes containing News, Events and Reports be constrained to a maximum size of e.g. 3 items per box?
-
-3.3. Would it be possible to create a new item type: "In proximity", with similar behaviour to news, events and reports? 
-Ideally we would have a drop-down menu under "News" leading to Events, Newsletter, In Proximity" and perhaps some others.
-
-4. Inner pages
-
-4.1. Breadcrumb trail: Please can you add a little vertical space above the breadcrumb trail (e.g. Home ­­» Contact us) to separate it from the banner. Same applies to the "Print" button.
-
-5. Tagging / search function.
-
-5.1 The idea of the tags was that it would be possible to combine them, i.e. by clicking first on "observations" and then on "Land", for example, to display content tagged with both. Is it possible to implement such functionality? To be further discussed on Monday/Tuesday.
 
 
 
