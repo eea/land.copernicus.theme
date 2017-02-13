@@ -6323,7 +6323,7 @@ button.close {
 .boder-radius-primary, .box, .box-full-size, .insitu-box1 {
   border-radius: 5px; }
 
-.shadow-gray-dark, .insitu-box1, .images-slider {
+.shadow-gray-dark, .insitu-box1 {
   -webkit-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   -moz-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
   box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8); }
@@ -6482,7 +6482,7 @@ body {
     width: 35%;
     text-align: left;
     margin-left: -55px;
-    margin-bottom: 120px; }
+    margin-bottom: 6%; }
     .images-slider .carousel-caption h4 {
       font-weight: bold;
       text-shadow: none;
