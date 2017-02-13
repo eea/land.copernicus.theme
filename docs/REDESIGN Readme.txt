@@ -1,3 +1,13 @@
+DONE
+====
+- News, events, reports: Can the boxes containing News, Events and Reports be constrained to a maximum size of e.g. 3 items per box?
+  >> Sure. Just set the number for each box here: /manage_propertiesForm (box_events_items_number, box_news_items_number, box_reports_items_number)
+- Pages for Disclaimer/Policy, Data controllers, Cookies:
+    http://demo-insitu.eea.europa.eu/disclaimer-privacy
+    http://demo-insitu.eea.europa.eu/data-controllers
+    http://demo-insitu.eea.europa.eu/cookies
+- Updated Contact Us page content
+
 TODO
 ====
 - Observations & Spatial data in Homepage - update links
@@ -17,13 +27,8 @@ TODO
 - Temporary issue of logging in
   Whilst at first I did not know what this comment was referring to, I now see that there is a Log in link at the top of the page. What is the issue?
 
-- Small spelling mistake in "Contact us"
-  I did not notice a spelling problem here; but please use the updated content of the current page: http://insitu.copernicus.eu/contact
-
 - Improve Login form design
   Login form fields are too small after adding the pane on the right > Indeed the fields are too small - but no pane is visible on the right.
-
-- Content for the last 3 links in the footer: Disclaimer/Policy, Data controllers, Cookies > Here I would leave it to Sanja to advise.
 
 - Homepage: Could the homepage banner be made smaller by approximately one-third of its current size (whilst remaining larger than the banner of the inner pages)? We would like to be able to see more of the homepage content without the need for scrolling.
 
@@ -42,8 +47,6 @@ TODO
 - Site Header: The search bar at the top of the page is a bit large in relation to the other elements. It is also in a slightly awkward position with respect to the layout of the header. Would it be possible to make it smaller and perhaps also move it next to (to the right of) the social media icons, for example? Note: it would be acceptable, in my opinion, to use the same size and format as the search bar on the land.copernicus.eu homepage, which is both smaller and more discreet.
 
 - News, events, reports: Could the news items which currently exist on the in situ page be imported into the new version of the site? Can you please import one or two items so that we can get a feel for how actual news content would look across the demo site (i.e. in the box and on the news page)
-
-- News, events, reports: Can the boxes containing News, Events and Reports be constrained to a maximum size of e.g. 3 items per box?
 
 - News, events, reports: Would it be possible to create a new item type: "In proximity", with similar behaviour to news, events and reports? 
 Ideally we would have a drop-down menu under "News" leading to Events, Newsletter, In Proximity" and perhaps some others.
