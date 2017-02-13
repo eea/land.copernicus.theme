@@ -1,3 +1,8 @@
+110    100
+45      40
+350    568
+
+
 DONE
 ====
 - News, events, reports: Can the boxes containing News, Events and Reports be constrained to a maximum size of e.g. 3 items per box?
