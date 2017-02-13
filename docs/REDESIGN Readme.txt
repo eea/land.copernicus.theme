@@ -7,6 +7,7 @@ DONE
     http://demo-insitu.eea.europa.eu/data-controllers
     http://demo-insitu.eea.europa.eu/cookies
 - Updated Contact Us page content
+- Solved: keep initial left alignment of buttons in simple pages
 
 TODO
 ====
@@ -16,9 +17,6 @@ TODO
 - home: reports - implement
 
 - add / update missing links, check texts - related to newsletter based on feedback to #80175
-
-- Alignment of buttons (see point from below)
-  I'm not convinced there is a problem with having the buttons left-aligned on the inner pages. I would leave it as it is for now.
 
 - fix responsivity issues
 
