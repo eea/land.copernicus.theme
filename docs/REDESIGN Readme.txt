@@ -1,8 +1,3 @@
-110    100
-45      40
-350    568
-
-
 DONE
 ====
 - News, events, reports: Can the boxes containing News, Events and Reports be constrained to a maximum size of e.g. 3 items per box?
@@ -14,6 +9,7 @@ DONE
 - Updated Contact Us page content
 - Solved: keep initial left alignment of buttons in simple pages
 - Remove old text content in homepage
+- Fix header proportions: (110, 45, 350 :: 100, 40, 568 -> 434)
 
 TODO
 ====
