@@ -7021,6 +7021,8 @@ div.insitu-btn-tags-container #insitu-tags-1 {
 }
 
 form[data-diazo="insitu-search-form"] .input-group {
+  width: 70%;
+  float: right;
   border: 10px solid #CCCCCC;
   border-radius: 5px;
   margin-bottom: 12px;
