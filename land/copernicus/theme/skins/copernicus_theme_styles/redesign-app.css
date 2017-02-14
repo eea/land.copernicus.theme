@@ -6762,6 +6762,7 @@ div.images-slider a.right.carousel-control span {
 
 .btn.btn-default.search-button {
   border: none;
+  height: 35px;
   background: #ffcf87;
   color: #783F34;
 }
@@ -7021,7 +7022,7 @@ div.insitu-btn-tags-container #insitu-tags-1 {
 }
 
 form[data-diazo="insitu-search-form"] .input-group {
-  width: 70%;
+  width: 50%;
   float: right;
   border: 10px solid #CCCCCC;
   border-radius: 5px;
