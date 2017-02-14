@@ -12,6 +12,8 @@ WIP - Homepage: Could you add a vertical "banner-style" element similar to the "
 
 - tests with IE and other browsers, fix (responsivity) problems
 
+- News section: Newest first. Fix sorting.
+
 
 INSITU Install Guide for New theme
 ==================================
