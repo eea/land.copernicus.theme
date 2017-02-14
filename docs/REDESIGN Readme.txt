@@ -8,9 +8,6 @@ TODO
 
 - tests with IE and other browsers, fix problems
 
-- Improve Login form design
-  Login form fields are too small after adding the pane on the right > Indeed the fields are too small - but no pane is visible on the right.
-
 - Homepage: Could the homepage banner be made smaller by approximately one-third of its current size (whilst remaining larger than the banner of the inner pages)? We would like to be able to see more of the homepage content without the need for scrolling.
 
 - Homepage: Could you swap the (vertical) position of the elements containing (1) the "button cluster" and (2) the News, Events and Reports boxes.
