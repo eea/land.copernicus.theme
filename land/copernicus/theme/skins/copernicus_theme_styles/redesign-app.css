@@ -32,40 +32,6 @@
  * =============================================================================
  */
 
-ul.insitu-copernicus-services li {
-  font-size: 20px;
-  padding: 20px;
-}
-
-ul.insitu-copernicus-services a {
-  text-decoration: none;
-  font-weight: bold;
-}
-
-ul.insitu-copernicus-services .insitu-marine p {
-  color: #44629d;
-}
-
-ul.insitu-copernicus-services .insitu-atmosphere p {
-  color: #7b78c4;
-}
-
-ul.insitu-copernicus-services .insitu-land p {
-  color: #a5acc2;
-}
-
-ul.insitu-copernicus-services .insitu-security p {
-  color: #6a8683;
-}
-
-ul.insitu-copernicus-services .insitu-emergency p {
-  color: #fec100;
-}
-
-ul.insitu-copernicus-services .insitu-climate p {
-  color: #941333;
-}
-
 html {
   font-family: 'Roboto', Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   -ms-text-size-adjust: 100%;
@@ -7388,6 +7354,45 @@ section#header-section #insitu-brand-utils li#siteaction-newsletter,
 section#header-section #insitu-brand-utils li#siteaction-sitemap {
   display: none; /* We have icon. */
 }
+
+div[data-diazo="insitu-copernicus-services"] h1 {
+  font-weight: bold;
+}
+
+ul.insitu-copernicus-services li {
+  font-size: 20px;
+  padding: 20px;
+}
+
+ul.insitu-copernicus-services a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul.insitu-copernicus-services .insitu-marine p {
+  color: #44629d;
+}
+
+ul.insitu-copernicus-services .insitu-atmosphere p {
+  color: #7b78c4;
+}
+
+ul.insitu-copernicus-services .insitu-land p {
+  color: #a5acc2;
+}
+
+ul.insitu-copernicus-services .insitu-security p {
+  color: #6a8683;
+}
+
+ul.insitu-copernicus-services .insitu-emergency p {
+  color: #fec100;
+}
+
+ul.insitu-copernicus-services .insitu-climate p {
+  color: #941333;
+}
+
 
 /* RESPONSIVITY fixes */
 
