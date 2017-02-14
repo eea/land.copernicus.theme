@@ -20,8 +20,6 @@ TODO
     Climate: climate.copernicus.eu
     Security: TBD.
 
-- Site Header: The search bar at the top of the page is a bit large in relation to the other elements. It is also in a slightly awkward position with respect to the layout of the header. Would it be possible to make it smaller and perhaps also move it next to (to the right of) the social media icons, for example? Note: it would be acceptable, in my opinion, to use the same size and format as the search bar on the land.copernicus.eu homepage, which is both smaller and more discreet.
-
 - News, events, reports: Would it be possible to create a new item type: "In proximity", with similar behaviour to news, events and reports? 
 Ideally we would have a drop-down menu under "News" leading to Events, Newsletter, In Proximity" and perhaps some others.
 
