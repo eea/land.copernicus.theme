@@ -18,8 +18,53 @@
  * #f6a933  :: Emergency (orange)                              hover: #f59b12
  * #588683  :: Security (blue gray)                            hover: #4b716f
  * #941332  :: Climate change (pink)                           hover: #760f28
+ *
+ * Colors used in Discover the Copernicus Services banner
+ * ======================================================
+ *               LOGO       TEXT
+ * Marine       #256e9f    #44629d
+ * Atmosphere   #53c9e3    #7b78c4
+ * Land         #b9c239    #a5acc2
+ * Security     #5a8b8b    #6a8683
+ * Emergency    #faac45    #fec100
+ * Climate      #951d3f    #941333
+ *
  * =============================================================================
  */
+
+ul.insitu-copernicus-services li {
+  font-size: 20px;
+  padding: 20px;
+}
+
+ul.insitu-copernicus-services a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul.insitu-copernicus-services .insitu-marine p {
+  color: #44629d;
+}
+
+ul.insitu-copernicus-services .insitu-atmosphere p {
+  color: #7b78c4;
+}
+
+ul.insitu-copernicus-services .insitu-land p {
+  color: #a5acc2;
+}
+
+ul.insitu-copernicus-services .insitu-security p {
+  color: #6a8683;
+}
+
+ul.insitu-copernicus-services .insitu-emergency p {
+  color: #fec100;
+}
+
+ul.insitu-copernicus-services .insitu-climate p {
+  color: #941333;
+}
 
 html {
   font-family: 'Roboto', Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;

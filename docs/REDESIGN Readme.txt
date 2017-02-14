@@ -40,9 +40,6 @@ For more see: https://taskman.eionet.europa.eu/projects/copernicus-land-monitori
 
 
 
-
-
-
 INSITU Install Guide for New theme
 ==================================
 http://localhost:8081/copernicus/prefs_install_products_form
