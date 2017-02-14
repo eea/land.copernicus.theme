@@ -1,14 +1,8 @@
 TODO
 ====
-- home: reports - implement
+- Homepage: Reports - implement
 
-- add / update missing links, check texts - related to newsletter based on feedback to #80175
-
-- fix responsivity issues
-
-- tests with IE and other browsers, fix problems
-
-- Homepage: Could the homepage banner be made smaller by approximately one-third of its current size (whilst remaining larger than the banner of the inner pages)? We would like to be able to see more of the homepage content without the need for scrolling.
+- tests with IE and other browsers, fix (responsivity) problems
 
 - Homepage: Could you swap the (vertical) position of the elements containing (1) the "button cluster" and (2) the News, Events and Reports boxes.
 
