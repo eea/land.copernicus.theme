@@ -7026,6 +7026,8 @@ form[data-diazo="insitu-search-form"] .input-group {
   float: right;
   margin-bottom: 12px;
   margin-right: 35px;
+  position: relative;
+  top: -2px;
 }
 
 #header-section nav.navbar-default {
