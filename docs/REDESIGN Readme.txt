@@ -57,6 +57,14 @@ In /manage_propertiesForm add:
         /homepage-content/homepage-stay-informed
         /homepage-content/homepage-footer
 
+Analog for simplepage-content:
+- In /simplepage-content/
+    add new pages:
+        /simplepage-content/simplepage-images-slider
+        /simplepage-content/simplepage-observations-spatial-data
+        /simplepage-content/simplepage-tags
+        /simplepage-content/simplepage-stay-informed
+        /simplepage-content/simplepage-footer
 
 SAMPLE IMAGES SLIDER:
 
