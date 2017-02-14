@@ -1,8 +1,5 @@
 TODO
 ====
-- Observations & Spatial data in Homepage - update links
-  We would also need some details regarding the links called: Observations, Spatial data, and Reports
-
 - home: reports - implement
 
 - add / update missing links, check texts - related to newsletter based on feedback to #80175
