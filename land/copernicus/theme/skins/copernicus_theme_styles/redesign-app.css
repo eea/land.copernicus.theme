@@ -6470,7 +6470,7 @@ body {
       margin-right: 10px; }
 
 .images-slider {
-  margin-top: 36px;
+  margin-top: 23px;
   border-radius: 0px; }
   .images-slider .carousel-caption {
     background: rgba(0, 0, 0, 0.5);
@@ -6892,7 +6892,7 @@ ul.partners-logos img.EEA {
   display: inline-flex;
   margin-bottom: 2rem;
   position: relative;
-  top: 6px;
+  top: 2px;
 }
 
 .utils ul {
@@ -7024,8 +7024,6 @@ div.insitu-btn-tags-container #insitu-tags-1 {
 form[data-diazo="insitu-search-form"] .input-group {
   width: 50%;
   float: right;
-  border: 10px solid #CCCCCC;
-  border-radius: 5px;
   margin-bottom: 12px;
   margin-right: 35px;
 }
