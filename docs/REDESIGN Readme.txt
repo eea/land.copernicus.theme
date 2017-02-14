@@ -4,8 +4,6 @@ TODO
 
 - tests with IE and other browsers, fix (responsivity) problems
 
-- Homepage: Could you swap the (vertical) position of the elements containing (1) the "button cluster" and (2) the News, Events and Reports boxes.
-
 - Homepage: Could you add a vertical "banner-style" element similar to the "STAY INFORMED ON OUR LATEST NEWS!" bar, containing the text "Discover the Copernicus Services". We would like to include the icons of the six Copernicus services (see attachment) with links to each service page: 
     Land: land.copernicus.eu
     Marine: marine.copernicus.eu

@@ -6434,13 +6434,12 @@ body {
 
 .main-content {
   background: #FFFFFF;
-  /* padding: 10px; ORIGINAL */
   padding: 20px 10px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  margin-top: 30px; }
+  margin-top: 15px; }
 
 .simple-page .main-content {
   margin-top: 0px;
