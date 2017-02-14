@@ -8,9 +8,6 @@ TODO
 
 - tests with IE and other browsers, fix problems
 
-- Temporary issue of logging in
-  Whilst at first I did not know what this comment was referring to, I now see that there is a Log in link at the top of the page. What is the issue?
-
 - Improve Login form design
   Login form fields are too small after adding the pane on the right > Indeed the fields are too small - but no pane is visible on the right.
 
