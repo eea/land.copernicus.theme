@@ -7499,6 +7499,11 @@ section#header-section #insitu-brand-utils li#siteaction-sitemap {
     font-size: 11px;
     margin-bottom: 70px !important;
     width: 50% !important;
-    /*margin-left: 17% !important;*/
+  }
+}
+
+@media (max-width: 800px) {
+  form[data-diazo="insitu-search-form"] .input-group {
+    width: 100%;
   }
 }
