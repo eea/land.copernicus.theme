@@ -7369,6 +7369,11 @@ div[data-diazo="insitu-copernicus-services"] img.insitu-copernicus-logo {
   margin-top: 40px;
 }
 
+.insitu-copernicus-services-row img {
+  width: 100px;
+  height: auto;
+}
+
 ul.insitu-copernicus-services li {
   font-size: 20px;
   padding: 20px;
