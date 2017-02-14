@@ -1,17 +1,3 @@
-DONE
-====
-- News, events, reports: Can the boxes containing News, Events and Reports be constrained to a maximum size of e.g. 3 items per box?
-  >> Sure. Just set the number for each box here: /manage_propertiesForm (box_events_items_number, box_news_items_number, box_reports_items_number)
-- Pages for Disclaimer/Policy, Data controllers, Cookies:
-    http://demo-insitu.eea.europa.eu/disclaimer-privacy
-    http://demo-insitu.eea.europa.eu/data-controllers
-    http://demo-insitu.eea.europa.eu/cookies
-- Updated Contact Us page content
-- Solved: keep initial left alignment of buttons in simple pages
-- Remove old text content in homepage
-- Fix header proportions: (110, 45, 350 :: 100, 40, 568 -> 434)
-- Published news
-
 TODO
 ====
 - Observations & Spatial data in Homepage - update links
