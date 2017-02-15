@@ -6597,6 +6597,7 @@ article.main #parent-fieldname-title {
   .news-preview img {
     width: 70px;
     height: auto;
+    max-height: 50px;
     border: 1px solid #CCCCCC;
     border-radius: 0px;
     padding: 3px;
