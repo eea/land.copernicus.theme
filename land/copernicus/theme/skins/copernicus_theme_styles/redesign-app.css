@@ -7205,6 +7205,7 @@ div.news.snippet.last {
 }
 
 .searchPage.searchButton {
+  border: none;
   color: #783F34;
   background-color: #ffcf87;
   border-color: #ffcf87;
