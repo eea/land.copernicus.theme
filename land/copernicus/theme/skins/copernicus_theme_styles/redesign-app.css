@@ -7280,8 +7280,8 @@ h1.text-uppercase {
   border-bottom: 5px solid #783F34;
 }
 
-div.pagination.listingBar {
-  margin-left: -12px;
+body.template-news_listing div.pagination.listingBar {
+  margin-left: -14px;
 }
 
 div.pagination.listingBar a:hover {
@@ -7443,6 +7443,11 @@ ul.insitu-copernicus-services .insitu-climate p {
 
 ul.insitu-copernicus-services .insitu-climate:hover p {
   color: #760f29;
+}
+
+body.template-search #search-results-bar {
+  width: 95%;
+  margin-left: 14px;
 }
 
 /* RESPONSIVITY fixes */
