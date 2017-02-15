@@ -20,14 +20,14 @@
  * #941332  :: Climate change (pink)                           hover: #760f28
  *
  * Colors used in Discover the Copernicus Services banner
- * ======================================================
- *               LOGO       TEXT
- * Marine       #256e9f    #44629d
- * Atmosphere   #53c9e3    #7b78c4
- * Land         #b9c239    #a5acc2
- * Security     #5a8b8b    #6a8683
- * Emergency    #faac45    #fec100
- * Climate      #951d3f    #941333
+ * ============================================================
+ *               LOGO                     TEXT
+ * Marine       #256e9f hover: #1f5b83   #44629d hover: #3a5385
+ * Atmosphere   #53c9e3 hover: #36c0de   #7b78c4 hover: #6460ba
+ * Land         #b9c239 hover: #a0a831   #a5acc2 hover: #9199b4
+ * Security     #5a8b8b hover: #4d7676   #6a8683 hover: #5b7370
+ * Emergency    #faac45 hover: #f99d24   #fec100 hover: #dca700
+ * Climate      #951d3f hover: #791733   #941333 hover: #760f29
  *
  * =============================================================================
  */
@@ -7395,26 +7395,49 @@ ul.insitu-copernicus-services .insitu-marine p {
   color: #44629d;
 }
 
+ul.insitu-copernicus-services .insitu-marine:hover p {
+  color: #3a5385;
+}
+
 ul.insitu-copernicus-services .insitu-atmosphere p {
   color: #7b78c4;
+}
+
+ul.insitu-copernicus-services .insitu-atmosphere:hover p {
+  color: #6460ba;
 }
 
 ul.insitu-copernicus-services .insitu-land p {
   color: #a5acc2;
 }
 
+ul.insitu-copernicus-services .insitu-land:hover p {
+  color: #9199b4;
+}
+
 ul.insitu-copernicus-services .insitu-security p {
   color: #6a8683;
+}
+
+ul.insitu-copernicus-services .insitu-security:hover p {
+  color: #5b7370;
 }
 
 ul.insitu-copernicus-services .insitu-emergency p {
   color: #fec100;
 }
 
+ul.insitu-copernicus-services .insitu-emergency:hover p {
+  color: #dca700;
+}
+
 ul.insitu-copernicus-services .insitu-climate p {
   color: #941333;
 }
 
+ul.insitu-copernicus-services .insitu-climate:hover p {
+  color: #760f29;
+}
 
 /* RESPONSIVITY fixes */
 
