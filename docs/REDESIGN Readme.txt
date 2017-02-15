@@ -1,13 +1,5 @@
 TODO
 ====
-WIP - Homepage: Could you add a vertical "banner-style" element similar to the "STAY INFORMED ON OUR LATEST NEWS!" bar, containing the text "Discover the Copernicus Services". We would like to include the icons of the six Copernicus services (see attachment) with links to each service page:
-    Land: land.copernicus.eu
-    Marine: marine.copernicus.eu
-    Atmosphere: atmosphere.copernicus.eu
-    Emergency: emergency.copernicus.eu
-    Climate: climate.copernicus.eu
-    Security: TBD.
-
 - Homepage: Reports - implement
 
 - tests with IE and other browsers, fix (responsivity) problems
