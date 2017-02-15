@@ -1,5 +1,7 @@
 TODO
 ====
+- Editable section for Discover the Copernicus Services.
+
 - Homepage: Reports - implement
 
 - tests with IE and other browsers, fix (responsivity) problems
