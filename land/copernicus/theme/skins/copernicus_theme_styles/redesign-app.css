@@ -6483,7 +6483,7 @@ body {
       margin-right: 10px; }
 
 .images-slider {
-  margin-top: 23px;
+  margin-top: 16px;
   border-radius: 0px; }
   .images-slider .carousel-caption {
     background: rgba(0, 0, 0, 0.5);
@@ -7570,12 +7570,8 @@ body.template-search #search-results-bar {
 
 @media (max-width: 800px) {
   #content-section.simple-page {
-    top: 394px;
-    position: relative;
     z-index: 2 !important; }
   #content-section.homepage {
-    top: 394px;
-    position: relative;
     z-index: 2 !important; }
   .carousel-caption {
     font-size: 5px;
