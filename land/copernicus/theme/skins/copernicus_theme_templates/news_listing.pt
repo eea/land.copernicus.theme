@@ -22,7 +22,7 @@
                      b_size python:4;
                      b_start python:0;
                      b_start request/b_start | b_start;
-                     batch python:Batch(news_items, b_size, int(b_start), orphan=1);"
+                     batch python:Batch(news_items, b_size, int(b_start), orphan=0);"
          tal:condition="news_items">
 
       <div class="insitu-news-list-items">
