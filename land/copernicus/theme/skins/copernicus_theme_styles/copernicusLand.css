@@ -7,7 +7,7 @@ dl.portalMessage.info dt {
 }
 
 dl.portalMessage.info dd {
-  background-color: #d0dce7; /* Blue light 2+++ */
+  background-color: #d0dce7;
 }
 
 #edit-bar {
@@ -72,140 +72,155 @@ a:active,
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #555555;
+  color: #555555;
 }
 
 #portal-header {
     overflow: hidden;
 }
+
 .top-menu {
-    width: 100%;
-    float: left;
-    margin: 10px 0px 10px;
+  width: 100%;
+  float: left;
+  margin: 10px 0px 10px;
 }
+
 .top-menu ul {
     text-align: right;
     font-size: 11px;
-    margin-right:10px; /*50px;*/
+    margin-right: 10px;
 }
 
 .top-menu li {
-    padding: 0px 6px;
-    border-left: 1px solid #6289af;
+  padding: 0px 6px;
+  border-left: 1px solid #6289af;
 }
+
 .top-menu li:first-of-type {
-    border-left: 0px;
+  border-left: 0px;
 }
+
 #portal-searchbox {
-    width: auto;
-    float: right;
-    display: none;
+  width: auto;
+  float: right;
+  display: none;
 }
+
 #site-identity {
-    z-index: -1;
-    margin-top: -16px;
+  z-index: -1;
+  margin-top: -16px;
 }
+
 #portal-logo {
-    margin: 0px;
-    float: right;
-    padding-right: 60px;
-    margin-top: 14px;
+  margin: 0px;
+  float: right;
+  padding-right: 60px;
+  margin-top: 14px;
 }
+
 #portal-title-container {
-    width: 57%;
-    display: inline-block;
-    margin-left: 10px;
+  width: 57%;
+  display: inline-block;
+  margin-left: 10px;
 }
+
 #portal-title h1 {
-    color: #783f34;
-    font-size: 28px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    font-weight: normal;
+  color: #783f34;
+  font-size: 28px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-weight: normal;
 }
 
 #portal-title a,
 #portal-title a:hover {
-    color: #783f34;
-    text-decoration: none;
+  color: #783f34;
+  text-decoration: none;
 }
 
 #copernicus-logo {
-    width: 155px;
-    display: inline-block;
-    float: right;
-    margin-right: 60px;
+  width: 155px;
+  display: inline-block;
+  float: right;
+  margin-right: 60px;
 }
+
 #copernicus-logo a[target="_blank"] {
-    background: none;
-    padding-left: 0px;
+  background: none;
+  padding-left: 0px;
 }
+
 .stripe {
-    background: #FFCE86;
-    height: 55px;
-    z-index: 0;
-    margin-top: -35px;
+  background: #FFCE86;
+  height: 55px;
+  z-index: 0;
+  margin-top: -35px;
 }
 
 #portal-breadcrumbs {
-    min-height: 18px;
-    color: #555555;
-    margin: 0;
-    padding: 0px 0px 0px 10px;
-    overflow: hidden;
-    line-height: 1.6;
-    font-size: 11px;
-    background: #FFCE86;
-    box-shadow: 0px 1px 3px #888888;
-    margin-bottom: 4px;
+  min-height: 18px;
+  color: #555555;
+  margin: 0;
+  padding: 0px 0px 0px 10px;
+  overflow: hidden;
+  line-height: 1.6;
+  font-size: 11px;
+  background: #FFCE86;
+  box-shadow: 0px 1px 3px #888888;
+  margin-bottom: 4px;
 }
+
 #portal-breadcrumbs a,
 .breadcrumbSeparator {
-    color: #555555;
+  color: #555555;
 }
-/* */
+
 #content {
-    font-size: 100%;
+  font-size: 100%;
 }
-#content ul {
-    /* list-style-type: none; */
-}
+
 #content .download-field ul,
 #content .webservices-field ul {
-    margin-left: 0px;
+  margin-left: 0px;
 }
+
 #portal-columns {
-    margin: 15px 0px 20px; /* redesign*/
-    padding: 0px 10px;
+  margin: 15px 0px 20px;
+  padding: 0px 10px;
 }
+
 #tabbed-portlet {
-    height: auto;
-    float: left;
+  height: auto;
+  float: left;
 }
+
 #user-corner-portlet {
-    float: left;
-    margin-left: 15px;
+  float: left;
+  margin-left: 15px;
 }
+
 #user-corner-portlet .portletHeader {
-    color: #555555;
-    padding-top: 8px;
-    font-weight: normal;
-    font-size: 16px;
-    border-bottom: 3px solid #783f34;
-    margin-bottom: 10px;
+  color: #555555;
+  padding-top: 8px;
+  font-weight: normal;
+  font-size: 16px;
+  border-bottom: 3px solid #783f34;
+  margin-bottom: 10px;
 }
 
 #user-corner-portlet .portletHeader h3 {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 #user-corner-portlet dl.portlet dd.portletItem {
-    padding: 5px;
-    font-size: 12px;
+  padding: 5px;
+  font-size: 12px;
 }
+
 #user-corner-portlet a.eagle-link {
   margin-left: 20px;
 }
+
 body #nav {
     background: #FFFFFF;
     overflow: hidden;
@@ -1157,110 +1172,83 @@ and (resolution: 163dpi) {
 
 /* Fix "You can log in again below." text in logged_out */
 .template-logged_out #content .documentDescription {
-    text-align: center;
-    margin-bottom: 1em;
-    color: #333333;
+  text-align: center;
+  margin-bottom: 1em;
+  color: #333333;
 }
 
 
 /* Login page styles */
-#login_page_title {
-    text-align: left;
-    padding-left: 10%;
-    margin-left: 15px;
-}
-
 #login_form_container {
-    width: 100%;
-    border: 1px solid #DDDDDD;
-    padding: 15px;
-    overflow: hidden;
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  padding: 15px;
+  overflow: hidden;
 }
 
 #login_form_container #login_form {
-    width: 30%;
-    float: left;
-    text-align: left;
-    padding-right: 1%;
+  width: 30%;
+  float: left;
+  text-align: left;
+  padding-right: 1%;
 }
 
 #login_form_container #login_form_details {
-    width: 69%;
-    float: right;
-    text-align: left;
-    padding-left: 3%;
-    border-left: 1px solid #DDDDDD;
+  width: 69%;
+  float: right;
+  text-align: left;
+  padding-left: 3%;
+  border-left: 1px solid #DDDDDD;
 }
 
 #login_form_container #login-form label {
-    text-align: left;
+  text-align: left;
 }
 
 #login_form_container #login-form #__ac_name, #login_form_container #login-form #__ac_password,
 #login_form_container #login-form div.formControls .context {
-    width: 100%;
-    margin-top: 5px;
+  width: 100%;
+  margin-top: 5px;
 }
 
 #login_form_container #login-form div.formControls,
 #login_form_container #login-form div.formControls input {
-    margin: 0px;
+  margin: 0px;
 }
 
 #login_form_container #login_form_details .discreet {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #login_form_container #login_form_details a {
-    color: #783F34;
+  color: #783F34;
 }
 
 #login_form_container #login-form label {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .template-login_form #tabbed-portlet {
-    width: 100%;
+  width: 100%;
 }
 
 /* Login button */
 #login_form_container #login-form div.formControls .context {
-    margin-left: 1px;
-    background-color: #783F34;
-    border-radius: 5px;
-    border-top: 0px solid;
-    border-left: 0px solid;
-    border-right: 0px solid;
-    border-bottom: 2px solid #999999;
-    font-size: 100% !important;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-}
-
-/* Submit EAGLE Contact button */
-.section-eagle-contact div.formControls .context {
-    margin-left: -12px;
-    background-color: #783F34;
-    border-radius: 5px;
-    border-top: 0px solid;
-    border-left: 0px solid;
-    border-right: 0px solid;
-    border-bottom: 2px solid #999999;
-    font-size: 100% !important;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    color: white;
-    font-weight: bold;
+  margin-left: 1px;
+  background-color: #783F34;
+  border-radius: 5px;
+  border: none;
+  font-size: 100% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
 }
 
 /* buttons hover */
 #login_form_container #login-form div.formControls .context:hover,
 .section-eagle-contact div.formControls .context:hover {
-    background-color: #60332a;
+  background-color: #60332a;
 }
 
 #viewlet-cookiepolicy {
@@ -1276,49 +1264,6 @@ and (resolution: 163dpi) {
   color: #333333;
 }
 
-/* Download information before table */
-#fieldset-download #download-info {
-  border: 1px solid #FFCE86;
-  border-radius: 10px;
-  background: #FFFFFF;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 3px;
-  margin-top:-10px;
-  margin-bottom: 25px;"
-}
-
 .portlet-static-partners .partners-logos {
   margin-left: 0px;
-}
-
-/* Hide PloneHelpCenter sub menu */
-.template-referencemanual_view.section-eagle #sub-nav {
-  display: none;
-}
-
-/* Fix simplify breadcrumbs in Manual methodology */
-.template-referencemanual_view.section-eagle #breadcrumbs-2,
-.template-referencemanual_view.section-eagle #breadcrumbs-3 {
-  display: none;
-}
-
-/* Fix larger checkboxes in download table */
-#fieldset-download #datatable-container input[type="checkbox"] {
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  transform: scale(1.5);
-
-  display: inline-block;
-  margin-right: 5px;
-  border: 1px solid #783F34;
-}
-
-/* Pages and sections titles in reference manual alreay have numbers. */
-.template-referencemanual_view ol,
-.template-referencemanualsection_view ol {
-  list-style-type: none !important;
 }
