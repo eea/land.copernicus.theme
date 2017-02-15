@@ -11,6 +11,8 @@ TODO
 - Tags - hide them in @@personal-preferences and other forms. Confusing buttons.
     template-personal-information
 
+- In News - bug: 4 items per page, 5 items per page - wrong border for 5
+
 
 INSITU Install Guide for New theme
 ==================================
