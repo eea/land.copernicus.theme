@@ -7347,13 +7347,19 @@ div.pagination.listingBar span.current {
 }
 
 body.template-login_form .main-content .col-lg-8,
+body.template-login_failed .main-content .col-lg-8,
 body.template-register .main-content .col-lg-8 {
   width: 100%;
 }
 
 body.template-login_form .breadcrumb,
+body.template-login_failed .breadcrumb,
 body.template-register .breadcrumb {
   display: none;
+}
+
+body.template-login_failed #login_form_container {
+  margin-bottom: 30px;
 }
 
 section#header-section #insitu-brand-utils li#siteaction-newsletter,
