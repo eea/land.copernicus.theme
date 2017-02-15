@@ -4,8 +4,6 @@ TODO
 
 - tests with IE and other browsers, fix (responsivity) problems
 
-- News section: Newest first. Fix sorting.
-
 
 INSITU Install Guide for New theme
 ==================================
