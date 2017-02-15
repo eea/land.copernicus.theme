@@ -38,8 +38,6 @@
 
                   <div class="news-body">
                     <h4 class="news-title">
-                      <span tal:content="python:news_index"></span>/
-                      <span tal:content="python:news_number"></span>
                       <a href="" tal:attributes="href python:news_url">
                         <span tal:replace="python:news_date.day()"></span>
                         <span tal:replace="python:news_date.Month()[:3]"></span>

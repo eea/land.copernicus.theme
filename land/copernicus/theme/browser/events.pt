@@ -1,5 +1,6 @@
 <div tal:define="events view/events;
-                 has_events python:True if len(events) > 0 else False;"
+                 events_number python:len(events);
+                 has_events python:True if events_number > 0 else False;"
      id="insitu-events">
 
   <!-- Events list -->
@@ -22,9 +23,12 @@
                               event_year python:event_start_date.get('year');
                               event_title python:event_object.getField('title').getAccessor(event_object)();
                               event_url python:event_object.absolute_url();
-                              event_description python:event_object.getField('description').getAccessor(event_object)();">
+                              event_description python:event_object.getField('description').getAccessor(event_object)();
+                              event_index python:repeat['event'].index + 1;
+                              event_is_last python:event_index == events_number;
+                              event_snippet_class python:'event snippet last' if event_is_last else 'event snippet'">
 
-                <div class="event snippet">
+                <div tal:attributes="class python:event_snippet_class">
                   <div class="event-body">
                     <h4 class="event-title">
                       <a href="" tal:attributes="href python:event_url">
