@@ -54,15 +54,6 @@ h3 {
   font-size: 16px;
 }
 
-#visual-portal-wrapper {
-  margin: 0px auto;
-  overflow: hidden;
-  background: #FFFFFF;
-  box-shadow: 0px 1px 3px #999999;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-}
-
 a:focus,
 a:hover,
 a:active,
@@ -76,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #portal-header {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .top-menu {
@@ -86,9 +77,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-menu ul {
-    text-align: right;
-    font-size: 11px;
-    margin-right: 10px;
+  text-align: right;
+  font-size: 11px;
+  margin-right: 10px;
 }
 
 .top-menu li {
@@ -222,235 +213,262 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body #nav {
-    background: #FFFFFF;
-    overflow: hidden;
-    padding: 0px;
-    margin-top: 0px;
+  background: #FFFFFF;
+  overflow: hidden;
+  padding: 0px;
+  margin-top: 0px;
 }
+
 #nav li {
-    float: left;
-    margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }
 
 #nav h2 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 #nav a {
-    display: block;
-    padding: 5px 10px 0px;
-    color: #555555;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
+  display: block;
+  padding: 5px 10px 0px;
+  color: #555555;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
 }
+
 #nav .selected a,
 #nav .selected a:hover {
-    color: #FFFFFF;
-    background: #783f34;
+  color: #FFFFFF;
+  background: #783f34;
 }
+
 #nav a:hover {
-    background: #FFCE86;
+  background: #FFCE86;
 }
+
 .tabbed-content .heading {
-    margin: 10px 0px;
-    width: 90%;
-    float: left;
+  margin: 10px 0px;
+  width: 90%;
+  float: left;
 }
+
 .tabbed-content .printButton {
-    display: inline-block;
-    padding-top: 7px;
-    float: right;
-    margin: -21px 10px 0;
+  display: inline-block;
+  padding-top: 7px;
+  float: right;
+  margin: -21px 10px 0;
 }
+
 .tabbed-content .printButton img {
-    margin-right: 3px;
+  margin-right: 3px;
 }
+
 .tabbed-content .description {
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
+
 .photoAlbumEntry {
-    width: 166px; /*175px;*/ /*  decrease width so that 5 thumbnails will fit on a row, instead of only 4 */
-    float: left;
-    margin-right: 10px;
-    background: none;
-    padding: 0px;
-    text-align: left;
+  width: 166px;
+  float: left;
+  margin-right: 10px;
+  background: none;
+  padding: 0px;
+  text-align: left;
 }
+
 .photoAlbumEntry img {
-    width: 156px; /*160px; */
-    height: 117px; /*120px; */  /* and we kept the 4:3 image ratio*/
-    margin: 0;
-    padding: 3px;
+  width: 156px;
+  height: 117px;
+  margin: 0;
+  padding: 3px;
 }
+
 .photoAlbumEntry img:hover {
-    background: #E1E4E7;
+  background: #E1E4E7;
 }
+
 .photoAlbumEntry a {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
-.photoAlbumEntryTitle {  /* */
-    font-size: 13px;
-    color: #3E6A95;
-    width: 96%;
-    font-weight: bold;
+
+.photoAlbumEntryTitle {
+  font-size: 13px;
+  color: #3E6A95;
+  width: 96%;
+  font-weight: bold;
 }
 
 #content .documentDescription {
-    margin-top: 15px;
-    font-weight: normal;
-    font-size: 13px;
-    white-space: pre-wrap;
-    color: #333333;
-    font: 100% Arial, FreeSans, sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    line-height: 19.5px;
+  margin-top: 15px;
+  font-weight: normal;
+  font-size: 13px;
+  white-space: pre-wrap;
+  color: #333333;
+  font: 100% Arial, FreeSans, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 19.5px;
 }
+
 #content a:visited,
 dl.portlet a:visited { /* */
-    border-bottom: 0px;
-    text-decoration: underline;
+  border-bottom: 0px;
+  text-decoration: underline;
 }
-#content a:hover,
-dl.portlet a:hover {
-    /* color: #3E6A95 !important; If enable, check hover for Read more btn. */
-}
+
 #content a:link,
 dl.portlet a:link,
 #content a.link-overlay { /**/
-    border-bottom: 0px !important;
+  border-bottom: 0px !important;
 }
+
 #portal-sitemap li {
-    /*background: url(/arrow.png) no-repeat;*/
-    background-position: 0px 14px;
+  /*background: url(/arrow.png) no-repeat;*/
+  background-position: 0px 14px;
 }
+
 #portal-sitemap li li {
-    background-position: 0px 4px;
-    padding-left: 15px;
+  background-position: 0px 4px;
+  padding-left: 15px;
 }
+
 #content-core table th {
-    border: 1px solid #999999;
-    padding: 2px 5px;
+  border: 1px solid #999999;
+  padding: 2px 5px;
 }
+
 #content-core table td {
-    border: 1px solid #999999;
-    padding: 5px;
+  border: 1px solid #999999;
+  padding: 5px;
 }
+
 #land-use-cases td:first-of-type {
-    width: 40%;
+  width: 40%;
 }
+
 .external-pdf img {
-    padding-right: 5px;
+  padding-right: 5px;
 }
+
 #content ul.formTabs {
-    background-color: #FFFFFF;
-    border: 0px;
-    border-bottom: 1px solid #FFCE86;
-    margin-top: 8px;
+  background-color: #FFFFFF;
+  border: 0px;
+  border-bottom: 1px solid #FFCE86;
+  margin-top: 8px;
 }
+
 body #content li.formTab a {
-    color: #555555;
-    font-weight: bold;
+  color: #555555;
+  font-weight: bold;
 }
+
 #content-core li.formTab a {
-    line-height:20px !important;
+  line-height:20px !important;
 }
+
 #content li.formTab a.selected,
 #content li.formTab a.selected:hover {
-    background: #FFCE86;
-    color: #555555;
-    border-radius: 0px;
+  background: #FFCE86;
+  color: #555555;
+  border-radius: 0px;
 }
+
 #content li.formTab a:hover {
-    background: #FFCE86;
-    color: #555555 !important; /**/
-    border-radius: 0px;
+  background: #FFCE86;
+  color: #555555 !important;
+  border-radius: 0px;
 }
-/* */
+
 .documentEditable {
-    margin-top: 5px;
+  margin-top: 5px;
 }
+
 #edit-bar {
-    padding-bottom: 3px;
+  padding-bottom: 3px;
 }
-/* */
+
 body #portal-footer-wrapper {
-    margin: 0 auto;
-    padding: 10px 0px 10px;
-    float: none;
-    text-align: left;
+  margin: 0 auto;
+  padding: 10px 0px 10px;
+  float: none;
+  text-align: left;
 }
+
 #portal-footer-wrapper ul {
-    font-size: 11px;
-    padding-bottom: 5px;
-    width: 400px;
-    float: left;
+  font-size: 11px;
+  padding-bottom: 5px;
+  width: 400px;
+  float: left;
 }
+
 #portal-footer-wrapper li {
-    padding: 0px 6px;
-    border-left: 1px solid #6289af;
+  padding: 0px 6px;
+  border-left: 1px solid #6289af;
 }
+
 #portal-footer-wrapper .first {
-    border-left: 0px;
+  border-left: 0px;
 }
+
 .login-req-warning {
-   display: block;
-   position: absolute;
-   bottom: 14%;
-   right: 2%;
-   float: right;
-   color: #999999;
+  display: block;
+  position: absolute;
+  bottom: 14%;
+  right: 2%;
+  float: right;
+  color: #999999;
 }
 
 /*  REDESIGN */
 ul.partners-logos {
-    width: auto;
+  width: auto;
 }
 
 ul.partners-logos li {
-    border: 0px;
-    margin-right: 15px;
-    display:inline !important
+  border: 0px;
+  margin-right: 15px;
+  display:inline !important
 }
 
 ul.partners-logos a {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 
 body .partners-logos label {
-    font-weight: normal;
-    margin-top: 35px;
-    display: inline-block;
-    width: 73px;
+  font-weight: normal;
+  margin-top: 35px;
+  display: inline-block;
+  width: 73px;
 }
 
 .partners-logos .EC {
-    height: 96px;
+  height: 96px;
 }
 
 .portlet-static-partners {
-    overflow:hidden;
+  overflow: hidden;
 }
 
 .global-nav-menu {
-    border-bottom: 3px solid #783f34;
+  border-bottom: 3px solid #783f34;
 }
+
 h1 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 h2 {
-    font-size: 1.25em;
+  font-size: 1.25em;
 }
 
 .external-link a {
-    background: url(link_icon.gif) no-repeat 0px 3px;
-    padding-left: 20px;
+  background: url(link_icon.gif) no-repeat 0px 3px;
+  padding-left: 20px;
 }
 
 #edit-bar {
@@ -458,349 +476,40 @@ h2 {
 }
 
 
-/*  RESPONSIVE LAYOUT + changes from #17266 */
-#visual-portal-wrapper ,
-#portal-footer-wrapper {
-    width: 1220px; /*1200px;*/
-}
-
 #tabbed-portlet {
-    width: 76%;
+  width: 76%;
 }
 
 #user-corner-portlet {
-    width: 21%;
-    float: right;
-    margin-right: 9px;
+  width: 21%;
+  float: right;
+  margin-right: 9px;
 }
 
 .widen {
-    width: 100%;
+  width: 100%;
 }
 
 #portal-columns {
-    margin: 0px 0px 20px;
+  margin: 0px 0px 20px;
 }
 
 #tabbed-portlet #content dd {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 
 #portal-logo {
-    padding-right: 96px;
-}
-
-
-@media screen and (max-width: 1200px) {
-  #visual-portal-wrapper,
-  #portal-footer-wrapper {
-    width: 1165px;
-  }
-}
-
-@media screen and (max-width: 1152px) {
-    #visual-portal-wrapper,
-    #portal-footer-wrapper {
-        width: 1120px;
-    }
-
-    .partners-logos a {
-        margin-bottom: 15px;
-   }
-}
-
-@media screen and (max-width: 1093px) {
-    #visual-portal-wrapper,
-    #portal-footer-wrapper {
-        width: 1072px;
-    }
-}
-
-@media screen and (max-width: 1080px) {
-    #visual-portal-wrapper,
-    #portal-footer-wrapper {
-        width: 1064px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    #visual-portal-wrapper,
-    #portal-footer-wrapper {
-        width: 990px;
-    }
-
-    #visual-portal-wrapper {
-      box-shadow: none;
-      border-bottom-left-radius: 0;
-      border-bottom-right-radius: 0;
-      border-bottom: 1px solid #DDDDDD;
-    }
-
-    #portal-logo {
-        padding-right: 48px;
-    }
-
-    .partners-logos .EEA {
-        margin-top: 20px;
-    }
-
-    #tabbed-portlet {
-        width: 97.5%;
-    }
-
-    #user-corner-portlet {
-        float: left;
-        width: 40%;
-    }
-
-}
-
-
-/*  iPad mini portrait mode */
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: portrait)
-and (resolution: 163dpi) {
-
-    #visual-portal-wrapper,
-    #portal-footer-wrapper {
-        width: 734px;
-    }
-
-    #tabbed-portlet {
-        width: 732px;
-    }
-
-    #user-corner-portlet {
-        float: none;
-        clear: both;
-    }
-
-    #portal-logo {
-        padding-right: 5px;
-    }
-
-    #portal-title-container {
-        width: 65%;
-    }
-
-    .top-menu ul {
-        margin-right: 0px;
-    }
-
-    #portal-columns {
-        padding: 0px;
-    }
-
-    .tabbed-content .printButton {
-        float: none;
-        margin: 0px;
-    }
-
-    #content dd {
-        margin: 0 0 1em 1em;
-    }
-
-    #portal-footer-wrapper ul {
-        float: none;
-    }
-
-    .partners-logos .EEA {
-      margin-top: 20px;
-    }
-}
-
-
-/* Enlarge map on smaller resolutions */
-@media screen and (max-width: 976px) {
-  #visual-portal-wrapper,
-  #portal-footer-wrapper {
-    width: 946px;
-  }
-}
-
-@media screen and (max-width: 962px) {
-  #visual-portal-wrapper,
-  #portal-footer-wrapper {
-    width: 930px;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  #visual-portal-wrapper,
-  #portal-footer-wrapper {
-    width: 948px;
-  }
-
-  #portal-footer-wrapper ul {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 854px) {
-  #visual-portal-wrapper,
-  #portal-footer-wrapper {
-    width: 825px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  #visual-portal-wrapper,
-  #portal-footer-wrapper {
-    width: 720px;
-  }
-
-  #tabbed-portlet {
-    width: 700px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  #visual-portal-wrapper,
-  #portal-footer-wrapper {
-    width: 610px;
-  }
-
-  #tabbed-portlet {
-    width: 595px;
-  }
-
-  #user-corner-portlet {
-    width: 50%;
-  }
-
-  #contentActionMenus {
-    width: 98%;
-    margin-top: 5px;
-    margin-right: 11px;
-  }
-
-  .tabbed-content .printButton {
-    display: none;
-  }
-
-  #nav li {
-    margin-right: 0;
-  }
-}
-
-@media screen and (max-width: 619px) {
-  #visual-portal-wrapper,
-  #portal-footer-wrapper {
-    width: 590px;
-  }
-
-  #tabbed-portlet {
-    width: 575px;
-  }
-
-  #nav li {
-    margin-right: 0;
-  }
-}
-
-@media screen and (max-width: 593px) {
-  #visual-portal-wrapper,
-  #portal-footer-wrapper {
-    width: 560px;
-  }
-
-  #tabbed-portlet {
-    width: 545px;
-  }
-
-  #nav li {
-    margin-right: 0;
-  }
-}
-
-@media screen and (max-width: 568px) {
-  #visual-portal-wrapper,
-  #portal-footer-wrapper {
-    width: 540px;
-  }
-
-  #tabbed-portlet {
-    width: 525px;
-  }
-
-  #nav li {
-    margin-right: 0;
-  }
-}
-
-@media screen and (max-width: 487px) {
-  #visual-portal-wrapper,
-  #portal-footer-wrapper {
-    width: 456px;
-  }
-
-  #tabbed-portlet {
-    width: 430px;
-  }
-
-  #portal-title-container {
-    width: 100%;
-  }
-
-  #portal-title h1 {
-    font-size: 26px;
-  }
-
-  #user-corner-portlet {
-    width: 70%;
-  }
-
-  #nav li {
-    margin-right: 0;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #visual-portal-wrapper,
-  #portal-footer-wrapper {
-    width: 430px;
-  }
-
-  #tabbed-portlet {
-    width: 420px;
-  }
-
-  #portal-footer-wrapper ul li {
-    display: block;
-    border-left: 0;
-  }
-
-  #nav li {
-    margin-right: 0;
-  }
-
-  /* overrides lines 6-12 of Plone's mobile.css, which were hiding 98% of page content, on 480px mobile screens */
-  #portal-column-one,
-  #portal-column-two,
-  #portal-column-content {
-    margin-left: 0;
-  }
-
-  body .loading_message {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  body #squaresWaveG {
-    left: 95px;
-  }
+  padding-right: 96px;
 }
 
 .newsItem {
-    padding-bottom: 12px;
-    border-bottom: 1px solid #DDDDDD;
-    margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #DDDDDD;
+  margin-bottom: 12px;
 }
 
 .newsContent {
- float: left;
+  float: left;
   width: 60%;
   margin-right: 12px;
 }
@@ -812,69 +521,75 @@ and (resolution: 163dpi) {
 
 .clearfix:before,
 .clearfix:after {
-    display: table;
-    content: " ";
+  display: table;
+  content: " ";
 }
+
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
+
 .pull-left {
-    float: left;
+  float: left;
 }
+
 .pull-right {
-    float: right;
+  float: right;
 }
+
 .publication_view {
-    float: left;
-    width: 60%;
-    margin-right: 12px;
+  float: left;
+  width: 60%;
+  margin-right: 12px;
 }
+
 .publication_cover {
-    float: right;
-    width: 20%;
+  float: right;
+  width: 20%;
 }
+
 .image_cover {
-    float: right;
+  float: right;
 }
 
 /* Personal Information edit styles */
 .template-personal-information .edit-form fieldset {
-    border: none !important;
+  border: none !important;
 }
 
 .template-personal-information .edit-form {
 /* Horizontal Line Top */
-    border-top: 1px solid #999999;
-    border-bottom: 1px solid #999999;
-    width: 100%;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  width: 100%;
 }
 
 .template-personal-information .edit-form .field {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .template-personal-information .edit-form .field label:first-child {
-    float: left;
-    text-align: right;
-    width: 17%;
+  float: left;
+  text-align: right;
+  width: 17%;
 }
 
 .template-personal-information .edit-form .widget {
-    text-align: left;
-    width: 80%;
-    top: 5%;
-    right: 0;
-    float: right;
-    margin-top: -15px;
+  text-align: left;
+  width: 80%;
+  top: 5%;
+  right: 0;
+  float: right;
+  margin-top: -15px;
 }
 
 .template-personal-information .edit-form .field label {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .template-personal-information .edit-form .field label:first-child {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .template-personal-information span.fieldRequired {
@@ -885,64 +600,64 @@ and (resolution: 163dpi) {
 
 /* Registration form styles */
 .kssattr-formname-register .field {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .kssattr-formname-register .field label span:first-child {
-    float: left;
-    text-align: right;
-    width: 17%;
+  float: left;
+  text-align: right;
+  width: 17%;
 }
 
 .kssattr-formname-register .formHelp {
-    float: right;
-    width: 79%;  /* fix text indentation left */
-    right: 0px;
-    bottom: 0px;
-    margin-top: 3em;
+  float: right;
+  width: 79%;  /* fix text indentation left */
+  right: 0px;
+  bottom: 0px;
+  margin-top: 3em;
 }
 
 .kssattr-formname-register .widget {
-    text-align: left;
-    width: 80%;
-    top: 5%;
-    position: absolute;
-    right: 0;
+  text-align: left;
+  width: 80%;
+  top: 5%;
+  position: absolute;
+  right: 0;
 }
 
 #formfield-form-thematic_domain .widget, #formfield-form-institutional_domain .widget {
-    text-align: left;
-    width: 80%;
-    right: 0;
-    position: relative;
-    float: right;
-    margin-top: 0px;
+  text-align: left;
+  width: 80%;
+  right: 0;
+  position: relative;
+  float: right;
+  margin-top: 0px;
 }
 
 #formfield-form-fullname span:first-child,
 #formfield-form-username span:first-child,
 #formfield-form-email span:first-child {
-    margin-top: 8px;  /* fix vertical center label to input */
+  margin-top: 8px;  /* fix vertical center label to input */
 }
 
 #formfield-form-username span.required::after,
 #formfield-form-email span.required::after {
-    position: absolute;
-    margin-top: 8px;  /* fix vertical center red square to text */
+  position: absolute;
+  margin-top: 8px;  /* fix vertical center red square to text */
 }
 
 .kssattr-formname-register .checkboxType,
 .template-personal-information .checkboxType{
-    /* fix vertical center label */
-    width: 13px;
-    height: 13px;
-    padding: 0;
-    margin:0;
-    vertical-align: bottom;
-    position: relative;
-    top: -2px;
-    *overflow: hidden;
+  /* fix vertical center label */
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -2px;
+  *overflow: hidden;
 }
 
 .kssattr-formname-register .fieldErrorBox {
@@ -950,16 +665,16 @@ and (resolution: 163dpi) {
 }
 
 #formfield-form-thematic_domain label, #formfield-form-institutional_domain label {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 #formfield-form-thematic_domain label:first-child, #formfield-form-institutional_domain label:first-child {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* Terms of use - modal dialog */
 .terms-of-use-dialog .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
-    background: #FFCE86 !important;
+  background: #FFCE86 !important;
 }
 
 .terms-of-use-dialog p {
@@ -983,191 +698,173 @@ and (resolution: 163dpi) {
 
 /* Terms of use */
 #formfield-form-disclaimer {
-    height: 60px;
-    width: 60%;
-    display: inline;
-    float: left;
-    font-size: 12px;
+  height: 60px;
+  width: 60%;
+  display: inline;
+  float: left;
+  font-size: 12px;
 }
 
 @media screen and (max-width: 900px) {
   /* Fixes I accept Terms of use in Register for small screen */
   #formfield-form-disclaimer {
-      width: 45%;
+    width: 45%;
   }
 }
 
 #formfield-form-disclaimer label span:first-child {
-    display: none;
+  display: none;
 }
 
 #formfield-form-disclaimer .widget {
-    top: 37%;
+  top: 37%;
 }
 
 #formfield-form-disclaimer label {
-    position: absolute;
-    top: 0px;
-    left: -10px;
-    font-weight: normal;
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  font-weight: normal;
 }
 
 #formfield-form-disclaimer .formHelp {
-    display: none;  /* Hide Accept terms of use Description */
+  display: none;  /* Hide Accept terms of use Description */
 }
 
 #formfield-form-disclaimer input {
-    width: 60px !important;
-    text-align: left;
-    margin-top: 5px;
-    margin-left: -50px;
+  width: 60px !important;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: -50px;
 }
 
 /* Register button */
 .actionButtons input {
-    display: inline;
-    margin-left: 10px;
-    margin-top: 15px;
+  display: inline;
+  margin-left: 10px;
+  margin-top: 15px;
 
-    background-color: #783F34;
-    border-radius: 5px;
-    border-top: 0px solid;
-    border-left: 0px solid;
-    border-right: 0px solid;
-    border-bottom: 2px solid #999999;
-    font-size: 100% !important;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    color: white;
-    font-weight: bold;
+  background-color: #783F34;
+  border-radius: 5px;
+  border: none;
+  font-size: 100% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  font-weight: bold;
 }
 
 /* Send button */
 #feedback_form div.formControls .context {
-    margin-left: -12px;
-    margin-top: 0px;
+  margin-left: -12px;
+  margin-top: 0px;
 
-    background-color: #783F34;
-    border-radius: 5px;
-    border-top: 0px solid;
-    border-left: 0px solid;
-    border-right: 0px solid;
-    border-bottom: 2px solid #999999;
-    font-size: 100% !important;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    color: white;
-    font-weight: bold;
+  background-color: #783F34;
+  border-radius: 5px;
+  border: none;
+  font-size: 100% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  font-weight: bold;
 }
 
 .actionButtons input:hover,
 #feedback_form div.formControls .context:hover {
-    background-color: #60332a;
+  background-color: #60332a;
 }
 
 /* Horizontal Line Top */
 #formfield-form-fullname:before {
-    border-top: 1px solid #999999;
-    width: 100%;
-    height: 99%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    content: '';
+  border-top: 1px solid #999999;
+  width: 100%;
+  height: 99%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
 }
 
 #formfield-form-fullname {
-    padding-top: 20px; /* fix space for line */
+  padding-top: 20px; /* fix space for line */
 }
 
 #formfield-form-fullname input {
-    margin-top: 20px; /* fix space for line */
-}
-
-/* Horizontal Line Bottom */
-#formfield-form-institutional_domain:after {
-    border-top: 1px solid #999999;
-    width: 100%;
-    height: 0px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    content: '';
+  margin-top: 20px; /* fix space for line */
 }
 
 #formfield-form-institutional_domain .widget {
-    margin-bottom: 20px; /* fix space for line */
+  margin-bottom: 20px; /* fix space for line */
 }
 
 
 @media screen and (min-width: 770px) {
-    /* Personal information edit form styles with 2 columns for large screens */
-    .template-personal-information .edit-form .field:first-child {
-        float: left;
-        width: 50%;
-    }
+  /* Personal information edit form styles with 2 columns for large screens */
+  .template-personal-information .edit-form .field:first-child {
+    float: left;
+    width: 50%;
+  }
 
-    .template-personal-information .edit-form .field:last-child {
-        float: right;
-        width: 50%;
-        clear: none;
-    }
+  .template-personal-information .edit-form .field:last-child {
+    float: right;
+    width: 50%;
+    clear: none;
+  }
 
-    .template-personal-information .edit-form .field label:first-child {
-        width: 34%;
-    }
+  .template-personal-information .edit-form .field label:first-child {
+    width: 34%;
+  }
 
-    .template-personal-information .edit-form .widget {
-        width: 63%;
-    }
+  .template-personal-information .edit-form .widget {
+    width: 63%;
+  }
 
-    /* Register form styles with 2 columns for large screens */
-    #formfield-form-thematic_domain {
-        float: left;
-        width: 50%;
-    }
+  /* Register form styles with 2 columns for large screens */
+  #formfield-form-thematic_domain {
+    float: left;
+    width: 50%;
+  }
 
-    #formfield-form-institutional_domain {
-        float: right;
-        width: 50%;
-        clear: none;
-    }
+  #formfield-form-institutional_domain {
+    float: right;
+    width: 50%;
+    clear: none;
+  }
 
-    #formfield-form-thematic_domain label span:first-child,
-    #formfield-form-institutional_domain label span:first-child {
-        width: 34%;
-    }
+  #formfield-form-thematic_domain label span:first-child,
+  #formfield-form-institutional_domain label span:first-child {
+    width: 34%;
+  }
 
-    #formfield-form-thematic_domain .widget,
-    #formfield-form-institutional_domain .widget {
-        width: 63%;
-    }
+  #formfield-form-thematic_domain .widget,
+  #formfield-form-institutional_domain .widget {
+    width: 63%;
+  }
 
-    #formfield-form-thematic_domain .value,
-    #formfield-form-institutional_domain .value {
-        margin-left: 10px;
-    }
+  #formfield-form-thematic_domain .value,
+  #formfield-form-institutional_domain .value {
+    margin-left: 10px;
+  }
 
-    #formfield-form-disclaimer {
-        clear: left;
-    }
+  #formfield-form-disclaimer {
+    clear: left;
+  }
 
-    .kssattr-formname-register #actionsView {
-        float: left;
-    }
+  .kssattr-formname-register #actionsView {
+    float: left;
+  }
 
-    .kssattr-formname-register .actionButtons input {
-        margin-left: 0px !important;
-    }
+  .kssattr-formname-register .actionButtons input {
+    margin-left: 0px !important;
+  }
 
-    #formfield-form-institutional_domain:after {
-      border-top: none !important;
-    }
-
+  #formfield-form-institutional_domain:after {
+    border-top: none !important;
+  }
 }
 
 /* Fix "You can log in again below." text in logged_out */

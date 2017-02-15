@@ -6,6 +6,11 @@ TODO
 
 - tests with IE and other browsers, fix (responsivity) problems
 
+- Login page after error - fix design: template-login_failed
+
+- Tags - hide them in @@personal-preferences and other forms. Confusing buttons.
+    template-personal-information
+
 
 INSITU Install Guide for New theme
 ==================================
