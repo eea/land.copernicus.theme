@@ -21,13 +21,16 @@
  *
  * Colors used in Discover the Copernicus Services banner
  * ============================================================
+ * http://www.0to255.com/original_color -2
+ *                                       http://www.0to255.com/original_color -3
+
  *               LOGO                     TEXT
- * Marine       #256e9f hover: #1f5b83   #44629d hover: #3a5385
- * Atmosphere   #53c9e3 hover: #36c0de   #7b78c4 hover: #6460ba
- * Land         #b9c239 hover: #a0a831   #a5acc2 hover: #9199b4
- * Security     #5a8b8b hover: #4d7676   #6a8683 hover: #5b7370
- * Emergency    #faac45 hover: #f99d24   #fec100 hover: #dca700
- * Climate      #951d3f hover: #791733   #941333 hover: #760f29
+ * Marine       #256e9f hover: #1f5b83   #44629d hover: #354c79
+ * Atmosphere   #53c9e3 hover: #36c0de   #7b78c4 hover: #5855b5
+ * Land         #b9c239 hover: #a0a831   #a5acc2 hover: #8790ad
+ * Security     #5a8b8b hover: #4d7676   #6a8683 hover: #536a67
+ * Emergency    #faac45 hover: #f99d24   #fec100 hover: #cb9a00
+ * Climate      #951d3f hover: #791733   #941333 hover: #670d23
  *
  * =============================================================================
  */
@@ -7403,7 +7406,7 @@ ul.insitu-copernicus-services .insitu-marine p {
 }
 
 ul.insitu-copernicus-services .insitu-marine:hover p {
-  color: #3a5385;
+  color: #354c79;
 }
 
 ul.insitu-copernicus-services .insitu-atmosphere p {
@@ -7411,7 +7414,7 @@ ul.insitu-copernicus-services .insitu-atmosphere p {
 }
 
 ul.insitu-copernicus-services .insitu-atmosphere:hover p {
-  color: #6460ba;
+  color: #5855b5;
 }
 
 ul.insitu-copernicus-services .insitu-land p {
@@ -7419,7 +7422,7 @@ ul.insitu-copernicus-services .insitu-land p {
 }
 
 ul.insitu-copernicus-services .insitu-land:hover p {
-  color: #9199b4;
+  color: #8790ad;
 }
 
 ul.insitu-copernicus-services .insitu-security p {
@@ -7427,7 +7430,7 @@ ul.insitu-copernicus-services .insitu-security p {
 }
 
 ul.insitu-copernicus-services .insitu-security:hover p {
-  color: #5b7370;
+  color: #536a67;
 }
 
 ul.insitu-copernicus-services .insitu-emergency p {
@@ -7435,7 +7438,7 @@ ul.insitu-copernicus-services .insitu-emergency p {
 }
 
 ul.insitu-copernicus-services .insitu-emergency:hover p {
-  color: #dca700;
+  color: #cb9a00;
 }
 
 ul.insitu-copernicus-services .insitu-climate p {
@@ -7443,7 +7446,7 @@ ul.insitu-copernicus-services .insitu-climate p {
 }
 
 ul.insitu-copernicus-services .insitu-climate:hover p {
-  color: #760f29;
+  color: #670d23;
 }
 
 body.template-search #search-results-bar {
