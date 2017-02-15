@@ -7188,6 +7188,11 @@ div.news.snippet {
   min-height: 60px;
 }
 
+div.event.snippet.last,
+div.news.snippet.last {
+  border: none;
+}
+
 .utils .list-inline.insitu-list-icons {
   padding-right: 30px;
   float: right;
