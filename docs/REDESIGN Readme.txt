@@ -10,8 +10,6 @@ OK? - 2.1 I would suggest making the search box just large enough to contain the
 - Concerning the news listing page:
 http://demo-insitu.eea.europa.eu/news
 
-    - 3.5 Can we constrain the number of words shown in the news summary (I suggest around 50)? In some cases (e.g. Copernicus and in situ: hand in hand for Europe's environment) the summary spreads itself too far down the page.
-
     - 3.6 Will the poster's name be shown instead of the username as is shown now (e.g. Dimitri Papadakis instead of papaddim)?
 
 - Concerning the individual news items (e.g. http://demo-insitu.eea.europa.eu/news/copernicus-and-in-situ-hand-in-hand-for-europes-environment-1):
@@ -63,6 +61,7 @@ In /manage_propertiesForm add:
   box_news_items_number 3 int
   box_reports_items_number 3 int
   box_title_max_chars_number 60 int
+  summary_max_words_number
 
 
 - In /homepage-content/ - remove unused images
