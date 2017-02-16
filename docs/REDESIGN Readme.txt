@@ -28,8 +28,6 @@ http://demo-insitu.eea.europa.eu/news
 
     See attached mockup illustrating the above points.
 
-- Editable section for Discover the Copernicus Services.
-
 - Homepage: Reports - implement
 
 - tests with IE and other browsers, fix (responsivity) problems
