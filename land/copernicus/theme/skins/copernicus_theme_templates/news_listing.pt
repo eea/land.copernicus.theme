@@ -11,7 +11,7 @@
 
 <body>
 <metal:main fill-slot="main">
-  <div id="content-core">
+  <div id="content-core" tal:define="max_words_number python:getattr(context, 'summary_max_words_number', 30)">
 
     <h1 class="insitu-title">News</h1>
 
@@ -38,7 +38,9 @@
                            news_image python:news_object.getField('image').getAccessor(news_object)();
                            news_url python:news_object.absolute_url();
                            news_creators python:news_object.getField('creators').getAccessor(news_object)();
-                           news_description python:news_object.getField('description').getAccessor(news_object)();">
+                           news_description python:news_object.getField('description').getAccessor(news_object)();
+                           news_description_words_list python:news_description.split(' ');
+                           news_short_description python:' '.join([news_description.split(' ')[x] for x in range(0, max_words_number)]) + ' [...]' if len(news_description_words_list) > max_words_number else news_description">
 
             <a href="" tal:attributes="href python:news_url"
                class="insitu-news-item-title">
@@ -64,12 +66,12 @@
               <img src="" tal:replace="structure python:news_image" />
             </div>
             <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 insitu-news-text">
-              <div class="insitu-news-body" tal:content="structure python:news_description">
+              <div class="insitu-news-body" tal:content="structure news_short_description">
                 News description
               </div>
               <p class="insitu-news-read-more">
                 <a href="" tal:attributes="href python:news_url"
-                   class="btn insitu-btn-read-more">Read more...</a>
+                   class="btn insitu-btn-read-more">Read more</a>
               </p>
             </div>
           </div><!-- News item -->
