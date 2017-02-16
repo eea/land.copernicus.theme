@@ -1,6 +1,7 @@
 <div tal:define="news_list view/news;
                  news_number python:len(news_list);
-                 has_news python:True if news_number > 0 else False;"
+                 has_news python:True if news_number > 0 else False;
+                 max_chars_number python:getattr(context, 'box_title_max_chars_number', 30)"
      id="insitu-news">
 
   <!-- Latest news -->
@@ -46,7 +47,7 @@
                     </h4>
                     <div class="news-description">
                       <p>
-                        <span tal:replace="python:news_title"></span>
+                        <span tal:replace="python:news_title[:max_chars_number]"></span><span tal:condition="python:len(news_title) > max_chars_number">...</span>
                       </p>
                     </div>
                   </div>

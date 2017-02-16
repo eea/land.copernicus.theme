@@ -3,13 +3,9 @@ TODO
 
 https://taskman.eionet.europa.eu/issues/80505
 
-- 1.1 The size of the banner appears not to have changed (much if at all). I think it can shrink by about 30% more.
+OK? - 1.1 The size of the banner appears not to have changed (much if at all). I think it can shrink by about 30% more.
 
-- 2.1 I would suggest making the search box just large enough to contain the word "Search". Other than that its ok for m, unless Sanja or Henrik have comments.
-
-- Looking at the news box it strikes me that there is a problem with long titles. Therefore I would like to raise a new question:
-
-    - 3.4. Is there a way to allow a "short version" of each news article to be shown in the box, with the longer version displayed on the news listing (i.e. http://demo-insitu.eea.europa.eu/news) and on individual news items (e.g. http://demo-insitu.eea.europa.eu/news/copernicus-and-in-situ-hand-in-hand-for-europes-environment-1).
+OK? - 2.1 I would suggest making the search box just large enough to contain the word "Search". Other than that its ok for m, unless Sanja or Henrik have comments.
 
 - Concerning the news listing page:
 http://demo-insitu.eea.europa.eu/news
@@ -31,6 +27,8 @@ http://demo-insitu.eea.europa.eu/news
 - Homepage: Reports - implement
 
 - tests with IE and other browsers, fix (responsivity) problems
+
+- fix homepage header responsivity
 
 
 INSITU Install Guide for New theme
@@ -64,6 +62,7 @@ In /manage_propertiesForm add:
   box_events_items_number 3 int
   box_news_items_number 3 int
   box_reports_items_number 3 int
+  box_title_max_chars_number 60 int
 
 
 - In /homepage-content/ - remove unused images

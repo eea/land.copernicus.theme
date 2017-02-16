@@ -1,6 +1,7 @@
 <div tal:define="events view/events;
                  events_number python:len(events);
-                 has_events python:True if events_number > 0 else False;"
+                 has_events python:True if events_number > 0 else False;
+                 max_chars_number python:getattr(context, 'box_title_max_chars_number', 30)"
      id="insitu-events">
 
   <!-- Events list -->
@@ -38,7 +39,9 @@
                       </a>
                     </h4>
                     <div class="event-description">
-                      <p tal:content="python:event_title">Event title</p>
+                      <p>
+                        <span tal:replace="python:event_title[:max_chars_number]"></span><span tal:condition="python:len(event_title) > max_chars_number">...</span>
+                      </p>
                     </div>
                   </div>
                 </div>
