@@ -28,9 +28,6 @@ http://demo-insitu.eea.europa.eu/news
 
     See attached mockup illustrating the above points.
 
-- The link in the Services banner for Security should be this one for the moment:
-http://www.copernicus.eu/main/security
-
 - Editable section for Discover the Copernicus Services.
 
 - Homepage: Reports - implement
