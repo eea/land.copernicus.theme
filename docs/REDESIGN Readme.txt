@@ -1,10 +1,37 @@
 TODO
 ====
+https://taskman.eionet.europa.eu/issues/80505
+
+- The size of the banner appears not to have changed (much if at all). I think it can shrink by about 30% more.
+
+- I would suggest making the search box just large enough to contain the word "Search". Other than that its ok for m, unless Sanja or Henrik have comments.
+
+- Looking at the news box it strikes me that there is a problem with long titles. Therefore I would like to raise a new question:
+
+- 3.4. Is there a way to allow a "short version" of each news article to be shown in the box, with the longer version displayed on the news listing (i.e. http://demo-insitu.eea.europa.eu/news) and on individual news items (e.g. http://demo-insitu.eea.europa.eu/news/copernicus-and-in-situ-hand-in-hand-for-europes-environment-1).
+
+- 3.5 Can we constrain the number of words shown in the news summary (I suggest around 50)? In some cases (e.g. Copernicus and in situ: hand in hand for Europe's environment) the summary spreads itself too far down the page.
+
+- 3.6 Will the poster's name be shown instead of the username as is shown now (e.g. Dimitri Papadakis instead of papaddim)?
+
 - Editable section for Discover the Copernicus Services.
 
 - Homepage: Reports - implement
 
 - tests with IE and other browsers, fix (responsivity) problems
+
+- The link in the Services banner for Security should be this one for the moment:
+http://www.copernicus.eu/main/security
+
+Concerning the individual news items (e.g. http://demo-insitu.eea.europa.eu/news/copernicus-and-in-situ-hand-in-hand-for-europes-environment-1):
+
+3.7 When titles are too long, they completely fill the banner (e.g. http://demo-insitu.eea.europa.eu/news/interview-with-mauro-facchini-head-of-unit-2013-copernicus-unit-directorate-general-for-internal-market-industry-entrepreneurship-and-smes-european-commission-1)
+
+Refer to the issue 3.4 above concerning the news box; a short version of the title would also solve this problem.
+
+3.8 The display of feature images is a little unusual (e.g. same example as above): (1) not aligned with text (2) no text flow (3) caption not scaled to width of image displayed. There seems to be no way to modify it by editing - I tried. I would prefer to have the feature image (1) scale to fill the width of the news article or (2) right-aligned with the text wrapping around it. In any case, the caption should scale with the size of the image (also not the case at the moment).
+
+See attached mockup illustrating the above points.
 
 
 INSITU Install Guide for New theme
