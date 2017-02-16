@@ -161,6 +161,55 @@ SAMPLE OBSERVATIONS AND SPATIAL DATA
   </div>
 </div><!-- Observations and spatial data -->
 
+SAMPLE COPERNICUS SERVICES:
+<div data-diazo="insitu-copernicus-services">
+  <h1>
+    <span class="text-primary">
+      Discover
+    </span> the
+    <img class="insitu-copernicus-logo" src="./logo-copernicus.png" alt="Copernicus Logo">
+    Services
+  </h1>
+
+  <ul class="list-inline insitu-copernicus-services">
+    <li class="insitu-marine text-center">
+      <a href="http://marine.copernicus.eu">
+        <img src="./insitu-logo-marine.svg" alt="Logo Marine">
+        <p>Marine</p>
+      </a>
+    </li>
+    <li class="insitu-atmosphere text-center">
+      <a href="http://atmosphere.copernicus.eu">
+        <img src="./insitu-logo-atmosphere.svg" alt="Logo Atmosphere">
+        <p>Atmosphere</p>
+      </a>
+    </li>
+    <li class="insitu-land text-center">
+      <a href="http://land.copernicus.eu">
+        <img src="./insitu-logo-land.svg" alt="Logo Land">
+        <p>Land</p>
+      </a>
+    </li>
+    <li class="insitu-security text-center">
+      <a href="http://www.copernicus.eu/main/security">
+        <img src="./insitu-logo-security.svg" alt="Logo Security">
+        <p>Security</p>
+      </a>
+    </li>
+    <li class="insitu-emergency text-center">
+      <a href="http://emergency.copernicus.eu">
+        <img src="./insitu-logo-emergency.svg" alt="Logo Emergency">
+        <p>Emergency</p>
+      </a>
+    </li>
+    <li class="insitu-climate text-center">
+      <a href="http://climate.copernicus.eu">
+        <img src="./insitu-logo-climate.svg" alt="Logo Climate">
+        <p>Climate</p>
+      </a>
+    </li>
+  </ul>
+</div>
 
 SAMPLE INSITU TAGS:
 <!-- Insitu Tags -->
