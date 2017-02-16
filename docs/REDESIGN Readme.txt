@@ -1,5 +1,13 @@
 TODO
 ====
+
+Marine:     #32639F
+Atmosphere: #66CDE2
+Land:       #A7BE0F
+Security:   #538585
+Emergency:  #F89C2C
+
+
 https://taskman.eionet.europa.eu/issues/80505
 
 - The size of the banner appears not to have changed (much if at all). I think it can shrink by about 30% more.
