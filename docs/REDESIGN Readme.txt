@@ -76,6 +76,7 @@ In /manage_propertiesForm add:
         /homepage-content/homepage-images-slider
         /homepage-content/homepage-observations-spatial-data
         /homepage-content/homepage-tags
+        /homepage-content/homepage-copernicus-services
         /homepage-content/homepage-stay-informed
         /homepage-content/homepage-footer
 

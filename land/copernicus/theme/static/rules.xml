@@ -56,6 +56,12 @@
              css:content-children="#content-core" />
     <drop css:content="#content-core [data-diazo='insitu-stay-informed']" />
 
+    <!-- Homepage Copernicus services -->
+    <replace css:theme="[data-diazo='insitu-copernicus-services']"
+             href="homepage-content/homepage-copernicus-services" method="document"
+             css:content-children="#content-core" />
+    <drop css:content="#content-core [data-diazo='insitu-copernicus-services']" />
+
     <!-- Homepage footer -->
     <replace css:theme="[data-diazo='insitu-footer']"
              href="homepage-content/homepage-footer" method="document"
