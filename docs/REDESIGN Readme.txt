@@ -1,12 +1,6 @@
 TODO
 ====
 
-https://taskman.eionet.europa.eu/issues/80505
-
-OK? - 1.1 The size of the banner appears not to have changed (much if at all). I think it can shrink by about 30% more.
-
-OK? - 2.1 I would suggest making the search box just large enough to contain the word "Search". Other than that its ok for m, unless Sanja or Henrik have comments.
-
 - Concerning the news listing page:
 http://demo-insitu.eea.europa.eu/news
 

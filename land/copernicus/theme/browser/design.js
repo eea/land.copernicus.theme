@@ -31,4 +31,16 @@ jQuery(document).ready(function($) {
     return false;
   });
 
+  // Short title + long title
+  // or
+  // Complete single title
+  var article_title = $("#insitu-article-title");
+  var article_title_text = article_title.text();
+  if(article_title_text.length > 80) {
+    article_title.text(article_title_text.substr(0, 80) + '...');
+  } else {
+    $("h1#parent-fieldname-title").hide();
+    $("h1.documentFirstHeading").hide();
+    $("h1.insitu-title").hide();
+  }
 });
