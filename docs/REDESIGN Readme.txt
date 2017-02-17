@@ -28,6 +28,8 @@ http://demo-insitu.eea.europa.eu/news
 
 - fix homepage header responsivity
 
+- tags colors - clean palette
+
 
 INSITU Install Guide for New theme
 ==================================
@@ -61,7 +63,7 @@ In /manage_propertiesForm add:
   box_news_items_number 3 int
   box_reports_items_number 3 int
   box_title_max_chars_number 60 int
-  summary_max_words_number
+  summary_max_words_number 50 int
 
 
 - In /homepage-content/ - remove unused images
