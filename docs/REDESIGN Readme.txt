@@ -20,6 +20,8 @@ http://demo-insitu.eea.europa.eu/news
 
 - tags colors - clean palette
 
+- favicon - use logo
+
 
 INSITU Install Guide for New theme
 ==================================

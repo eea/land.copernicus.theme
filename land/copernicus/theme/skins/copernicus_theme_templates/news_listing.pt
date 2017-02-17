@@ -16,8 +16,7 @@
     <h1 class="insitu-title">News</h1>
 
     <div class="container-fluid insitu-news-list-container"
-         tal:define="news_items python:context.getFolderContents(contentFilter={'portal_type':['News Item'], 'sort_on': 'Date',
-            'sort_order': 'descending',});
+         tal:define="news_items python:context.getFolderContents(contentFilter={'portal_type':['News Item'], 'sort_on': 'Date', 'sort_order': 'descending',});
                      Batch python:modules['Products.CMFPlone'].Batch;
                      b_size python:4;
                      b_start python:0;
@@ -50,7 +49,11 @@
             <p class="insitu-news-info">
               <span class="insitu-news-author">
                 <i class="fa fa-user"></i>
-                <span tal:content="python:news_creators[0]">Author here</span>
+                <tal:fullname define="membership context/portal_membership;
+                                      info python:membership.getMemberInfo(news_creators[0]);
+                                      fullname info/fullname">
+                    <span class="name" tal:content="fullname" />
+                </tal:fullname>
               </span>
               <span class="insitu-news-date">
                 <i class="fa fa-clock-o"></i>
