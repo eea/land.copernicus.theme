@@ -8,10 +8,6 @@ http://demo-insitu.eea.europa.eu/news
 
 - Concerning the individual news items (e.g. http://demo-insitu.eea.europa.eu/news/copernicus-and-in-situ-hand-in-hand-for-europes-environment-1):
 
-    - 3.7 When titles are too long, they completely fill the banner (e.g. http://demo-insitu.eea.europa.eu/news/interview-with-mauro-facchini-head-of-unit-2013-copernicus-unit-directorate-general-for-internal-market-industry-entrepreneurship-and-smes-european-commission-1)
-
-    Refer to the issue 3.4 above concerning the news box; a short version of the title would also solve this problem.
-
     - 3.8 The display of feature images is a little unusual (e.g. same example as above): (1) not aligned with text (2) no text flow (3) caption not scaled to width of image displayed. There seems to be no way to modify it by editing - I tried. I would prefer to have the feature image (1) scale to fill the width of the news article or (2) right-aligned with the text wrapping around it. In any case, the caption should scale with the size of the image (also not the case at the moment).
 
     See attached mockup illustrating the above points.
