@@ -7464,6 +7464,22 @@ body.template-search #search-results-bar {
   margin-left: 14px;
 }
 
+.newsImageContainer {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.newsImageContainer img {
+  width: 100%;
+}
+
+
 /* RESPONSIVITY fixes */
 
 @media (min-width: 1200px) {
