@@ -7466,6 +7466,10 @@ body.template-newsitem_view #parent-fieldname-description {
   font-weight: bold !important;
 }
 
+input#long_title {
+  width: 100%;
+}
+
 /* RESPONSIVITY fixes */
 
 @media (min-width: 1200px) {
