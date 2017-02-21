@@ -6,8 +6,6 @@ TODO
 
 - fix homepage header responsivity
 
-- tags colors - clean palette
-
 - favicon - use logo
 
 

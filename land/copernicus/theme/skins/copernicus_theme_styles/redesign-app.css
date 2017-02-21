@@ -12,25 +12,6 @@
  *                                       http://www.0to255.com/original_color -2
  * #783F34  :: main color (Old Copper)                         hover: #60332a
  * #ffcf87  :: main color (light yellow)                       hover: #ffc165
- * #b0bf27  :: Land tag (green)                                hover: #96a321
- * #0b6192  :: Marine tag (dark blue)                          hover: #094c72
- * #61c4dd  :: Athmosphere (light blue)                        hover: #45bad7
- * #f6a933  :: Emergency (orange)                              hover: #f59b12
- * #588683  :: Security (blue gray)                            hover: #4b716f
- * #941332  :: Climate change (pink)                           hover: #760f28
- *
- * Colors used in Discover the Copernicus Services banner
- * ============================================================
- * http://www.0to255.com/original_color -2
- *                                       http://www.0to255.com/original_color -3
-
- *               LOGO                     TEXT
- * Marine       #256e9f hover: #1f5b83   #44629d hover: #354c79
- * Atmosphere   #53c9e3 hover: #36c0de   #7b78c4 hover: #5855b5
- * Land         #b9c239 hover: #a0a831   #a5acc2 hover: #8790ad
- * Security     #5a8b8b hover: #4d7676   #6a8683 hover: #536a67
- * Emergency    #faac45 hover: #f99d24   #fec100 hover: #cb9a00
- * Climate      #951d3f hover: #791733   #941333 hover: #670d23
  *
  * Colors from original logos:
  * ===========================
@@ -6998,51 +6979,51 @@ div.insitu-btn-tags-container #insitu-tags-1 {
 }
 
 .btn.insitu-btn-land {
-  background: #b0bf27;
+  background: #A7BE0F;
 }
 
 .btn.insitu-btn-land:hover {
-  background: #96a321;
+  background: #7d8f0b;
 }
 
 .btn.insitu-btn-marine {
-  background: #0b6192;
+  background: #32639F;
 }
 
 .btn.insitu-btn-marine:hover {
-  background: #094c72;
+  background: #264b78;
 }
 
 .btn.insitu-btn-atmosphere {
-  background: #61c4dd;
+  background: #66CDE2;
 }
 
 .btn.insitu-btn-atmosphere:hover {
-  background: #45bad7;
+  background: #3bbfda;
 }
 
 .btn.insitu-btn-emergency {
-  background: #f6a933;
+  background: #F89C2C;
 }
 
 .btn.insitu-btn-emergency:hover {
-  background: #f59b12;
+  background: #e98408;
 }
 
 .btn.insitu-btn-security {
-  background: #588683;
+  background: #538585;
 }
 
 .btn.insitu-btn-security:hover {
-  background: #4b716f;
+  background: #3f6666;
 }
 
 .btn.insitu-btn-climate-change {
-  background: #941332;
+  background: #8E1636;
 }
 
 .btn.insitu-btn-climate-change:hover {
-  background: #760f28;
+  background: #620f25;
 }
 
 form[data-diazo="insitu-search-form"] .input-group {
