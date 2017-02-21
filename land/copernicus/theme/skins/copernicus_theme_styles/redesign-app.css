@@ -7460,12 +7460,6 @@ body.template-search #search-results-bar {
   width: 100%;
 }
 
-body.template-newsitem_view #parent-fieldname-description {
-  font-size: 20px;
-  line-height: 25px !important;
-  font-weight: bold !important;
-}
-
 input#long_title {
   width: 100%;
 }

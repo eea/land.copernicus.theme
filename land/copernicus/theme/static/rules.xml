@@ -176,6 +176,15 @@
       </replace>
 
       <!-- Document title -->
+      <rules css:if-content="h1#insitu-long-title">
+        <replace css:theme="[data-diazo='insitu-long-title']" css:content="h1#insitu-long-title" method="raw" />
+        <drop css:content="h1#insitu-long-title" />
+      </rules>
+
+      <rules css:if-not-content="h1#insitu-long-title">
+        <drop css:theme="[data-diazo='insitu-long-title']" />
+      </rules>
+
       <rules css:if-content="h1#parent-fieldname-title">
         <replace css:theme-children="#insitu-article-title" css:content-children="h1#parent-fieldname-title" />
         <drop css:content="h1#parent-fieldname-title" />
