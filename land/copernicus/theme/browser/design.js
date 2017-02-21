@@ -37,7 +37,8 @@ jQuery(document).ready(function($) {
   var article_title = $("#insitu-article-title");
   var article_title_text = article_title.text();
   if(article_title_text.length > 80) {
-    article_title.text(article_title_text.substr(0, 80) + '...');
+    /*article_title.text(article_title_text.substr(0, 80) + '...');*/
+    article_title.css("font-size", "16px");
   } else {
     $("h1#parent-fieldname-title").hide();
     $("h1.documentFirstHeading").hide();

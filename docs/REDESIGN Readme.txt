@@ -9,7 +9,7 @@ TODO
 - favicon - use logo
 
 1. image caption - center v and h
-3. Solution for long titles
+
 4. Concerning pictures and captions in specific news pages (E.g. http://demo-insitu.eea.europa.eu/news/towards-stronger-partnerships-and-collaboration-the-eea2019s-second-workshop-on-in-situ-coordination). The quality of the pictures seem to be quite low as displayed.
 Clicking on them provides the full version, but is there any chance we can improve the quality of the pictures as displayed in the articles?
 
