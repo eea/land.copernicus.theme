@@ -4,12 +4,6 @@ TODO
 
 - tests with IE and other browsers, fix (responsivity) problems
 
-- fix homepage header responsivity
-
-- favicon - use logo
-
-1. image caption - center v and h
-
 - Also, there is a problem with the display of the text on http://demo-insitu.eea.europa.eu/news/italy-improving-the-value-of-the-copernicus-pan-european-map-of-impervious-areas.
 
 
