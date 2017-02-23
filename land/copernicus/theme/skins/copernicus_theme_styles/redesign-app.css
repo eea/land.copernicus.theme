@@ -6496,11 +6496,11 @@ body {
   padding-bottom: 6px;
   border-radius: 5px;
   text-align: left;
-  margin-bottom: 3%;
+  margin-bottom: 4%;
 }
 
 .images-slider .carousel-caption h4 {
-  font-weight: bold;
+  font-weight: 900;
   text-shadow: none;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -6626,7 +6626,7 @@ article.main #parent-fieldname-title {
 .snippet .news-title {
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 0; }
 
 .snippet .event-body h4,
@@ -7253,7 +7253,7 @@ input.search-bar.searchField:-ms-input-placeholder {
 }
 
 h1.text-uppercase {
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .insitu-news-read-more {
@@ -7302,7 +7302,7 @@ div.pagination.listingBar a {
   background: #DDDDDD;
   margin-right: 5px;
   color: #444444 !important;
-  font-weight: bold;
+  font-weight: 900;
   padding: 6px 10px 6px 10px;
   text-decoration: none !important;
 }
@@ -7344,7 +7344,7 @@ div.pagination.listingBar span.current {
   font-size: 28px;
   padding-left: 10px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900;
   margin-top: -3px;
 }
 
@@ -7375,7 +7375,7 @@ section#header-section #insitu-brand-utils li#siteaction-sitemap {
 }
 
 div[data-diazo="insitu-copernicus-services"] h1 {
-  font-weight: bold;
+  font-weight: 900;
 }
 
 div[data-diazo="insitu-copernicus-services"] img.insitu-copernicus-logo {
@@ -7401,7 +7401,7 @@ ul.insitu-copernicus-services li {
 
 ul.insitu-copernicus-services a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 ul.insitu-copernicus-services .insitu-marine p {
@@ -7626,16 +7626,28 @@ input#long_title {
   }
 }
 
-@media (min-width: 800px) and (max-width: 1380px) {
+@media (min-width: 1200px) and (max-width: 1380px) {
   .carousel-caption {
     font-size: 11px;
-    margin-bottom: 70px !important;
-    width: 50% !important;
+    margin-bottom: 25px !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .carousel-caption {
+    font-size: 7px;
+    margin-bottom: 1px !important;
   }
 }
 
 @media (max-width: 800px) {
   form[data-diazo="insitu-search-form"] .input-group {
     width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #header-section {
+    height: 200px;
   }
 }
