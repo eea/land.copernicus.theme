@@ -6983,7 +6983,6 @@ ul.land-copernicus-services .services-climate:hover p {
   margin-bottom: 17px;
 }
 
-
 .land-jumbotron .col-lg-3.col-md-3.col-sm-6.col-xs-6 {
   display: block;  /* Be happy, IE. */
   display: inline-flex;
@@ -7154,12 +7153,6 @@ body.template-events_listing article.main h2 {
   }
 }
 
-@media (max-width: 1200px) {
-  .partners-banners.land-services {
-    margin-bottom: 25px;
-  }
-}
-
 @media (max-width: 800px) {
   .carousel-caption {
     bottom: 0!important;
@@ -7242,4 +7235,37 @@ body.subsection-urban-atlas-ancillary-data-on-population-estimates-by-urban-atla
 ul.user-corner-menu .fa {
   color: #A0B228;
   width: 16px;
+}
+
+@media (max-width: 1200px) {
+  .bg-multiple-colors {
+    background: transparent;
+  }
+
+  .partners-banners.land-services {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg-multiple-colors {
+    background: white !important;
+    overflow: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+  }
+
+  .partners-banners.land-services {
+    margin-right: 10px;
+  }
+
+  .partners-banners.land-services:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    top: 10%;
+    bottom: 10%;
+    border-right: 3px solid #A0B228;
+  }
 }
