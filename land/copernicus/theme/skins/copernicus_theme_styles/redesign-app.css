@@ -3681,6 +3681,12 @@ tbody.collapse.in {
   }
 }
 
+@media (max-width: 768px) {
+  .nav.navbar-nav.navbar-right.land-social-icons li {
+    display: none !important;
+  }
+}
+
 .navbar-collapse {
   overflow-x: visible;
   padding-right: 14px;
@@ -6673,7 +6679,7 @@ article.main #parent-fieldname-title {
   margin-left: 0px;
 }
 
-.navbar-toggle.collapsed {
+.navbar-toggle {
   margin-top: 6px;
   margin-right: 40px;
 }
