@@ -3674,7 +3674,12 @@ tbody.collapse.in {
 
 @media (min-width: 768px) {
   .navbar-header {
-    float: left; } }
+    float: left; }
+
+  .nav.navbar-nav.land-social-icons.collapsed {
+    display: none;
+  }
+}
 
 .navbar-collapse {
   overflow-x: visible;
@@ -6660,8 +6665,23 @@ article.main #parent-fieldname-title {
   border: none;
   color: #5C5C5C;
   font-size: 16px; }
-  .navbar-default .fa.fa-home {
+  .navbar-default .fa {
     font-size: 18px; }
+
+.nav.navbar-nav.land-social-icons.collapsed {
+  float: left;
+  margin-left: 0px;
+}
+
+.navbar-toggle.collapsed {
+  margin-top: 6px;
+  margin-right: 40px;
+}
+
+.nav.navbar-nav.land-social-icons.collapsed li {
+  float: left;
+  width: 50px;
+}
 
 .navbar-default.sticky {
   width: 100%;

@@ -71,7 +71,7 @@
     </replace>
 
     <!-- Navbar -->
-    <replace css:theme-children=".navbar.navbar-default ul.nav.navbar-nav">
+    <replace css:theme-children=".navbar.navbar-default ul.nav.navbar-nav li[data-diazo='land-nav-li']">
       <xsl:for-each css:select="#portal-globalnav li">
         <xsl:if test="not(@id = 'portaltab-user-corner')">
           <xsl:element name='li'>
