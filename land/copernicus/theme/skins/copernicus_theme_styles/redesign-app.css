@@ -6880,6 +6880,20 @@ dl.error {
   display: inline-flex;
 }
 
+/* Internet Explorer 10 & 11 */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .land-jumbotron .col-lg-3.col-md-3.col-sm-6.col-xs-6 {
+    display: block !important;  /* Be happy, IE. */
+  }
+}
+
+/* Microsoft Edge 12 */
+@supports (-ms-accelerator:true) {
+  .land-jumbotron .col-lg-3.col-md-3.col-sm-6.col-xs-6 {
+    display: block !important;  /* Be happy, IE. */
+  }
+}
+
 @media (max-width: 768px) {
   .land-jumbotron .col-sm-6 {
     width: 45%;
