@@ -6338,7 +6338,9 @@ button.close {
   color: #1E1E1E; }
 
 .bg-white, .land-box1, footer .partners .partners-banners {
-  background: #FFFFFF; }
+  background: #FFFFFF;
+  min-height: 215px;
+}
 
 .color-white, footer .partners {
   color: #FFFFFF; }
@@ -6901,6 +6903,87 @@ dl.error {
   border: none;
 }
 
+.land-copernicus-services-row img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+ul.land-copernicus-services li {
+  font-size: 14px;
+  padding: 5px;
+}
+
+ul.land-copernicus-services a {
+  text-decoration: none;
+  font-weight: 900;
+}
+
+ul.land-copernicus-services .services-marine p {
+  color: #32639F;
+}
+
+ul.land-copernicus-services .services-marine:hover p {
+  color: #264b78;
+}
+
+ul.land-copernicus-services .services-atmosphere p {
+  color: #66CDE2;
+}
+
+ul.land-copernicus-services .services-atmosphere:hover p {
+  color: #3bbfda;
+}
+
+ul.land-copernicus-services .services-insitu p {
+  color: #783F34;
+}
+
+ul.land-copernicus-services .services-insitu:hover p {
+  color: #60332a;
+}
+
+ul.land-copernicus-services .services-security p {
+  color: #538585;
+}
+
+ul.land-copernicus-services .services-security:hover p {
+  color: #3f6666;
+}
+
+ul.land-copernicus-services .services-emergency p {
+  color: #F89C2C;
+}
+
+ul.land-copernicus-services .services-emergency:hover p {
+  color: #e98408;
+}
+
+ul.land-copernicus-services .services-climate p {
+  color: #8E1636;
+}
+
+ul.land-copernicus-services .services-climate:hover p {
+  color: #620f25;
+}
+
+.partners-banners.land-services img {
+  max-height: 45px !important;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.partners-banners.land-services h2 {
+  margin-top: 0px;
+}
+
+.partners-banners.land-services .land-copernicus-logo {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 17px;
+}
+
+
 .land-jumbotron .col-lg-3.col-md-3.col-sm-6.col-xs-6 {
   display: block;  /* Be happy, IE. */
   display: inline-flex;
@@ -7071,6 +7154,12 @@ body.template-events_listing article.main h2 {
   }
 }
 
+@media (max-width: 1200px) {
+  .partners-banners.land-services {
+    margin-bottom: 25px;
+  }
+}
+
 @media (max-width: 800px) {
   .carousel-caption {
     bottom: 0!important;
@@ -7095,6 +7184,7 @@ ul.partners-logos {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .brand .list-inline {
