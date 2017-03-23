@@ -7000,12 +7000,20 @@ ul.land-copernicus-services .services-climate:hover p {
   .land-jumbotron .col-lg-3.col-md-3.col-sm-6.col-xs-6 {
     display: block !important;  /* Be happy, IE. */
   }
+
+  .partners-banners.land-services:after {
+    display: none;
+  }
 }
 
 /* Microsoft Edge 12 */
 @supports (-ms-accelerator:true) {
   .land-jumbotron .col-lg-3.col-md-3.col-sm-6.col-xs-6 {
     display: block !important;  /* Be happy, IE. */
+  }
+
+  .partners-banners.land-services:after {
+    display: none;
   }
 }
 
