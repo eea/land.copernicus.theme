@@ -6917,6 +6917,8 @@ ul.land-copernicus-services li {
 ul.land-copernicus-services a {
   text-decoration: none;
   font-weight: 900;
+  position: relative;
+  z-index: 2;
 }
 
 ul.land-copernicus-services .services-marine p {
@@ -7267,5 +7269,6 @@ ul.user-corner-menu .fa {
     top: 10%;
     bottom: 10%;
     border-right: 3px solid #A0B228;
+    z-index: 1;
   }
 }
