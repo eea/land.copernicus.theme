@@ -7262,23 +7262,21 @@ ul.user-corner-menu .fa {
 @media (min-width: 1200px) {
   .bg-multiple-colors {
     background: white !important;
-    overflow: auto;
-    margin-left: 10px;
-    margin-right: 10px;
     border-radius: 6px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
   }
 
   .partners-banners.land-services {
     margin-right: 10px;
   }
+}
 
-  .partners-banners.land-services:after {
-    content: '';
-    position: absolute;
-    width: 50%;
-    top: 10%;
-    bottom: 10%;
-    border-right: 3px solid #A0B228;
-    z-index: 1;
-  }
+.land-flexbox-container {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
