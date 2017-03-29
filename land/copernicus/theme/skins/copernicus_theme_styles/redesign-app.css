@@ -6678,17 +6678,16 @@ article.main #parent-fieldname-title {
 
 .nav.navbar-nav.land-social-icons.collapsed {
   float: left;
-  margin-left: 0px;
+  margin-left: 10px;
 }
 
 .navbar-toggle {
   margin-top: 6px;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 
 .nav.navbar-nav.land-social-icons.collapsed li {
   float: left;
-  width: 50px;
 }
 
 .navbar-default.sticky {
@@ -6994,6 +6993,12 @@ ul.land-copernicus-services .services-climate:hover p {
   display: block;  /* Be happy, IE. */
   display: inline-flex;
 }
+
+.nav.land-social-icons > li > a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 
 /* Internet Explorer 10 & 11 */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
