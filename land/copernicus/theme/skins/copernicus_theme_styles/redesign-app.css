@@ -7297,3 +7297,12 @@ ul.user-corner-menu .fa {
     padding-right: 50px !important;
   }
 }
+
+/* Internet Explorer 10 & 11 */
+@media all and (min-width: 1235px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bg-multiple-colors {
+    width: 100%;
+    position: relative;
+    left: -30px;
+  }
+}
