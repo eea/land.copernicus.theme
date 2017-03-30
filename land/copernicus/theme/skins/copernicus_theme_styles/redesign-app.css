@@ -6965,8 +6965,8 @@ ul.land-copernicus-services .services-climate:hover p {
 }
 
 .partners-banners.land-services .list-inline.land-copernicus-services img {
-  max-height: 45px !important;
-  max-width: 45px !important;
+  max-height: 35px !important;
+  max-width: 35px !important;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -6991,15 +6991,23 @@ ul.land-copernicus-services .services-climate:hover p {
   padding-right: 5px;
 }
 
+.land-flexbox-container {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.land-flexbox-container img {
+  max-height: 50px !important;
+}
 
 /* Internet Explorer 10 & 11 */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .land-jumbotron .col-lg-3.col-md-3.col-sm-6.col-xs-6 {
     display: block !important;  /* Be happy, IE. */
-  }
-
-  .partners-banners.land-services:after {
-    display: none;
   }
 }
 
@@ -7007,10 +7015,6 @@ ul.land-copernicus-services .services-climate:hover p {
 @supports (-ms-accelerator:true) {
   .land-jumbotron .col-lg-3.col-md-3.col-sm-6.col-xs-6 {
     display: block !important;  /* Be happy, IE. */
-  }
-
-  .partners-banners.land-services:after {
-    display: none;
   }
 }
 
@@ -7249,34 +7253,44 @@ ul.user-corner-menu .fa {
   width: 16px;
 }
 
-@media (max-width: 1200px) {
+.bg-multiple-colors {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.land-vertical-line {
+  border-right: 2px solid green;
+  height: 150px;
+  width: 2px !important;
+  padding: 0px !important;
+}
+
+@media (max-width: 1235px) {
   .bg-multiple-colors {
     background: transparent;
   }
 
-  .partners-banners.land-services {
-    margin-bottom: 25px;
+  .land-vertical-line {
+    display: none;
+  }
+
+  .land-flexbox-container.land-flexbox-container-services,
+  .land-flexbox-container.land-flexbox-container-partners {
+    flex: 0 0 100%;
+  }
+
+  footer .partners .partners-banners {
+    flex: 0 0 100%;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1235px) {
   .bg-multiple-colors {
     background: white !important;
     border-radius: 6px;
     padding-left: 50px !important;
     padding-right: 50px !important;
   }
-
-  .partners-banners.land-services {
-    margin-right: 10px;
-  }
-}
-
-.land-flexbox-container {
-  display: flex;
-  padding: 10px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
 }
