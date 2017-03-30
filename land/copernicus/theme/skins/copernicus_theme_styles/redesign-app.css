@@ -6992,6 +6992,10 @@ ul.land-copernicus-services .services-climate:hover p {
 }
 
 .land-flexbox-container {
+  display: block;  /* Be happy, IE. */
+  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   display: flex;
   padding: 10px;
   flex-wrap: wrap;
@@ -7259,7 +7263,7 @@ ul.user-corner-menu .fa {
 }
 
 .land-vertical-line {
-  border-right: 2px solid green;
+  border-right: 2px solid #A0B228;
   height: 150px;
   width: 2px !important;
   padding: 0px !important;
