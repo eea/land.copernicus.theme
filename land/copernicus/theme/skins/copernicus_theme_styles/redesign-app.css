@@ -7299,7 +7299,7 @@ ul.user-corner-menu .fa {
 }
 
 /* Internet Explorer 10 & 11 */
-@media all and (min-width: 1235px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+@media all and (max-width: 1235px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .bg-multiple-colors {
     width: 100%;
     position: relative;
