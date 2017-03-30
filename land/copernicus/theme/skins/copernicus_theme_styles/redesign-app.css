@@ -6339,7 +6339,6 @@ button.close {
 
 .bg-white, .land-box1, footer .partners .partners-banners {
   background: #FFFFFF;
-  min-height: 215px;
 }
 
 .color-white, footer .partners {
@@ -6557,7 +6556,7 @@ footer .partners {
   padding: 24px 24px 24px 24px; }
   footer .partners .partners-banners {
     border-radius: 6px;
-    padding: 16px 0; }
+    padding: 0px; }
     footer .partners .partners-banners h4 > a:hover {
       text-decoration: underline; }
     footer .partners .partners-banners a {
@@ -7197,7 +7196,7 @@ ul.partners-logos {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .brand .list-inline {

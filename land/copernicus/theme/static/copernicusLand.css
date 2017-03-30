@@ -538,10 +538,6 @@ h2 {
     padding-right: 48px;
   }
 
-  .partners-logos .EEA {
-    margin-top: 20px;
-  }
-
   #tabbed-portlet {
     width: 97.5%;
   }
@@ -603,9 +599,6 @@ and (resolution: 163dpi) {
     float: none;
   }
 
-  .partners-logos .EEA {
-    margin-top: 20px;
-  }
 }
 
 
