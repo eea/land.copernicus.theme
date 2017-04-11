@@ -1,8 +1,75 @@
+from copy import copy
+import functools
+from zope.component.hooks import getSite
 from DateTime import DateTime
 from plone.app.layout.viewlets.common import ViewletBase
+from plone.app.layout.viewlets.common import GlobalSectionsViewlet
 from plone.memoize import ram
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
+from Products.CMFPlone import utils
 from time import time
+
+
+class CopernicusGlobalSections(GlobalSectionsViewlet):
+    render = ViewPageTemplateFile('global_sections.pt')
+
+    def update(self):
+        super(CopernicusGlobalSections, self).update()
+
+        portal = getSite()
+        portal_url = portal.absolute_url()
+
+        def _set_selected(selected, tab):
+            new_tab = copy(tab)
+            new_tab['selected'] = tab['id'] == selected
+            return new_tab
+
+        def _get_leafs(tab):
+            if not tab['url'].startswith(portal_url):
+                return tuple()
+
+            if tab['url'] == portal_url:
+                return tuple()
+
+            relative_url = (
+                ''.join(tab['url'].split(portal_url))
+                .replace('/', '', 1)
+            )
+            obj = portal.restrictedTraverse(relative_url)
+            obj = (
+                obj.aq_parent
+                if utils.isDefaultPage(obj, self.request)
+                else obj
+            )
+
+            folderListing = obj.restrictedTraverse('@@folderListing')
+            folderish = folderListing(is_folderish=True)
+
+            return tuple([
+                dict(
+                    id=b.getId(),
+                    name=b.Title,
+                    url=b.getURL()
+                ) for b in folderish if not b.exclude_from_nav
+            ])
+
+        def _set_tabs(getter, tab):
+            new_tab = copy(tab)
+            new_tab['leafs'] = getter(tab)
+            return new_tab
+
+        update_selected = functools.partial(
+            _set_selected,
+            self.selected_portal_tab
+        )
+        update_leafs = functools.partial(_set_tabs, _get_leafs)
+
+        self.portal_tabs = map(
+            update_leafs, map(
+                update_selected,
+                self.portal_tabs
+            )
+        )
 
 
 class CopernicusFooterInfoViewlet(ViewletBase):

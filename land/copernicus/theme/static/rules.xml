@@ -93,19 +93,10 @@
     </replace>
 
     <!-- Navbar -->
-    <replace css:theme-children=".navbar.navbar-default ul.nav.navbar-nav">
-      <xsl:for-each css:select="#portal-globalnav li">
-        <xsl:element name='li'>
-
-          <xsl:attribute name="id">
-            <xsl:value-of select="@id" />
-          </xsl:attribute>
-          <xsl:copy-of select="./*" />
-
-        </xsl:element>
-      </xsl:for-each>
-    </replace>
-
+    <replace
+      css:theme-children=".navbar.navbar-default ul.nav.navbar-nav"
+      css:content="#portal-globalnav > li"
+      />
 
     <!-- Footer -->
     <replace css:theme="[data-diazo='insitu-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
@@ -162,18 +153,10 @@
       </replace>
 
       <!-- Navbar -->
-      <replace css:theme-children=".navbar.navbar-default ul.nav.navbar-nav">
-        <xsl:for-each css:select="#portal-globalnav li">
-          <xsl:element name='li'>
-
-            <xsl:attribute name="id">
-              <xsl:value-of select="@id" />
-            </xsl:attribute>
-            <xsl:copy-of select="./*" />
-
-          </xsl:element>
-        </xsl:for-each>
-      </replace>
+      <replace
+        css:theme-children=".navbar.navbar-default ul.nav.navbar-nav"
+        css:content="#portal-globalnav > li"
+        />
 
       <!-- Document title -->
       <rules css:if-content="h1#insitu-long-title">

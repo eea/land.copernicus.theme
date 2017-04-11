@@ -3,18 +3,31 @@
      i18n:domain="plone">
     <p class="hiddenStructure" i18n:translate="heading_sections">Navigation</p>
 
-    <ul id="portal-globalnav"
-        tal:define="selected_tab python:view.selected_portal_tab"
-        ><tal:tabs tal:repeat="tab portal_tabs"
-        ><li tal:define="tid tab/id"
-             tal:attributes="id string:portaltab-${tid};
-                            class python:selected_tab==tid and 'selected' or 'plain'"
-            ><a href=""
-               tal:content="tab/name"
-               tal:attributes="href tab/url;
-                               title tab/description|nothing;
-                               target tab/link_target|nothing;">
-            Tab Name
-            </a></li></tal:tabs></ul>
+    <ul id="portal-globalnav" tal:define="selected_tab python:view.selected_portal_tab">
+      <tal:tabs tal:repeat="tab portal_tabs">
+        <tal:tab define="has_leafs tab/leafs; selected tab/selected">
+          <li tal:define="tid tab/id"
+            tal:attributes="id string:portaltab-${tid};
+                            class python:'{} {}'.format('selected' if selected else '', 'dropdown' if has_leafs else '')">
+            <a href=""
+                 tal:content="tab/name"
+                 tal:attributes="href tab/url;
+                                 title tab/description|nothing;
+                                 target tab/link_target|nothing;">
+              Tab Name
+            </a>
+            <ul class="dropdown-menu" tal:condition="has_leafs">
+              <tal:leafs repeat="leaf tab/leafs">
+                <li tal:attributes="id string:portaltableaf-${leaf/id}">
+                  <a tal:content="leaf/name"
+                     tal:attributes="href leaf/url;
+                                     title leaf/description|nothing"></a>
+                </li>
+              </tal:leafs>
+            </ul>
+          </li>
+        </tal:tab>
+      </tal:tabs>
+    </ul>
 </tal:sections>
 

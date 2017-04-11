@@ -6772,6 +6772,25 @@ div#content a {
   text-shadow: none;
 }
 
+/* START: hover navbar */
+
+.navbar-nav ul.dropdown {
+    display: none;
+}
+
+.navbar-nav li:hover ul.dropdown-menu {
+    display: block;
+    margin-top: 0;
+    position: absolute;
+}
+
+.navbar-nav ul.dropdown-menu li a:hover {
+    color: #fff;
+}
+
+/* END: hover navbar */
+
+
 div.images-slider a.left.carousel-control span,
 div.images-slider a.right.carousel-control span {
   color: #FFFFFF;

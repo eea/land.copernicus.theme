@@ -11,5 +11,12 @@
       />
 
   </order>
-
+  <hidden
+    manager="plone.portalheader"
+    skinname="Copernicus Theme"
+    based-on="Sunburst Theme">
+    <viewlet
+      name="plone.global_sections"
+      />
+  </hidden>
 </object>

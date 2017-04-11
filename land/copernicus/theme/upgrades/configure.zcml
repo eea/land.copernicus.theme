@@ -106,4 +106,17 @@
       />
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="2.4.6"
+    destination="2.4.7"
+    profile="land.copernicus.theme:default">
+
+    <genericsetup:upgradeDepends
+      title="Import viewlets"
+      description="Add copernicus.global_sections and hide plone.global_sections"
+      import_steps="viewlets"
+      />
+
+  </genericsetup:upgradeSteps>
+
 </configure>
