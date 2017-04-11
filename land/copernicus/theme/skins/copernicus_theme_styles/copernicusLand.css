@@ -431,7 +431,8 @@ ul.partners-logos {
 ul.partners-logos li {
   border: 0px;
   margin-right: 15px;
-  display:inline !important
+  display: inline-block;
+  vertical-align: middle;
 }
 
 ul.partners-logos a {

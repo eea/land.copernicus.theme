@@ -6522,7 +6522,7 @@ body {
   height: 237px; }
 
 footer .partners {
-  padding: 24px 24px 24px 24px; }
+  padding: 24px 24px 0 24px; }
   footer .partners .partners-banners {
     border-radius: 5px;
     padding: 0px 16px 16px 16px; }
@@ -6874,37 +6874,76 @@ body.template-events_listing article.main h2 {
 ul.partners-logos {
   margin-top: 25px;
   display: block;  /* Be happy, IE. */
-  display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  display: -ms-flexbox;  /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
-ul.partners-logos span.insitu-implemented {
-  font-size: 10px;
-  position: relative;
-  top: 26px;
-  color: #333333;
-  right: 0px;
+.footer-text {
+    padding-top: 0;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-ul.partners-logos img.EC {
-  height: 100%;
+/* BEGIN: Responsive partners. (Adapted from FactSheets/styles.css) */
+
+/* ZZZ */
+@media (max-width:350px) {
+  ul.partners-logos img {
+    margin-right: 2%;
+    height: 50px;
+    margin-bottom: 10px;
+  }
 }
 
-ul.partners-logos img.copernicus {
-  max-height: 50px;
+/* OH, NO */
+@media (min-width:350px) and (max-width:490px) {
+  ul.partners-logos img {
+    margin-right: 2%;
+    height: 50px;
+    margin-bottom: 10px;
+  }
 }
 
-ul.partners-logos img.EEA {
-  position: relative;
-  top: 8px;
-  max-height: 65px;
-  margin-left: 5px;
+/* OH */
+@media (min-width:490px) and (max-width:590px) {
+  ul.partners-logos img {
+    margin-right: 2%;
+    height: 50px;
+    margin-bottom: 10px;
+  }
 }
+
+/* EXTRA SMALL */
+@media (min-width:590px) and (max-width:768px) {
+  ul.partners-logos img {
+    margin-right: 2%;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+}
+
+/* SMALL */
+@media (min-width:768px) and (max-width:992px) {
+  ul.partners-logos img {
+    max-width: 200px;
+    margin-right: 2%;
+  }
+}
+
+/* MEDIUM */
+@media (min-width:992px) and (max-width:1200px) {
+  ul.partners-logos img {
+    max-width: 200px;
+  }
+}
+
+/* LARGE */
+@media (min-width:1200px) {
+  ul.partners-logos img {
+    max-width: 200px;
+  }
+}
+
+/* END: Responsive partners. (Adapted from FactSheets/styles.css) */
 
 .brand .list-inline {
   display: inline-flex;
