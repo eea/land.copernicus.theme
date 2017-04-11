@@ -6878,6 +6878,7 @@ ul.partners-logos {
   display: -ms-flexbox;  /* TWEENER - IE 10 */
   display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
@@ -7319,11 +7320,11 @@ div.pagination.listingBar span.current {
 }
 
 .insitu-article-title-container {
-  background-image: url("./header-photo-resize.jpg");
+  background-image: url("homepage-content/slider_pyranometer.png");
   height: 100px;
   margin-bottom: 20px;
   background-size: cover;
-  background-position: left top;
+  background-position: center center;
   background-repeat: no-repeat;
   margin-top: -10px;
   height: 110px;
@@ -7346,6 +7347,18 @@ div.pagination.listingBar span.current {
   text-transform: uppercase;
   font-weight: 900;
   margin-top: -3px;
+}
+
+.section-spatial-data .insitu-article-title-container {
+  background-image: url("homepage-content/slider_osmCopenhagen.png");
+}
+
+.section-spatial-data #insitu-article-title {
+    color: #444444;
+}
+
+.section-observations .insitu-article-title-container {
+  background-image: url("homepage-content/slider_CBayo.png");
 }
 
 .partners-banners ul.list-inline li {
