@@ -6784,6 +6784,10 @@ div#content a {
     position: absolute;
 }
 
+.navbar-nav ul.dropdown-menu li a {
+    font-size: 14px;
+}
+
 .navbar-nav ul.dropdown-menu li a:hover {
     color: #fff;
 }
@@ -6896,10 +6900,8 @@ ul.partners-logos {
   text-align: center;
 }
 
-.footer-text {
-    padding-top: 0;
-    max-width: 900px;
-    margin: 0 auto;
+ul.partners-logos img {
+  height: 100%;
 }
 
 /* BEGIN: Responsive partners. (Adapted from FactSheets/styles.css) */
@@ -7461,7 +7463,7 @@ div[data-diazo="insitu-copernicus-services"] img.insitu-copernicus-logo {
 
 .insitu-copernicus-services-row img {
   width: 60px;
-  height: auto;
+  height: 100%;
   margin-bottom: 5px;
 }
 
