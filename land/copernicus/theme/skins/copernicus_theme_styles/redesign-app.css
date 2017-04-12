@@ -6900,8 +6900,11 @@ ul.partners-logos {
   text-align: center;
 }
 
-ul.partners-logos img {
-  height: 100%;
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+/* Fix IE SVG height. (https://gist.github.com/larrybotha/7881691#target-ie-with-css) */
+  ul.partners-logos img[src$=".svg"] {
+    height: 100%;
+  }
 }
 
 /* BEGIN: Responsive partners. (Adapted from FactSheets/styles.css) */
