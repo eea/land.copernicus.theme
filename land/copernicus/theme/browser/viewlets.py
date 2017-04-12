@@ -8,6 +8,7 @@ from plone.memoize import ram
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from Products.CMFPlone import utils
 from time import time
+import plone.api as api
 
 
 class CopernicusGlobalSections(GlobalSectionsViewlet):
@@ -18,6 +19,8 @@ class CopernicusGlobalSections(GlobalSectionsViewlet):
 
         portal = getSite()
         portal_url = portal.absolute_url()
+        portal_path = '/'.join(portal.getPhysicalPath())
+        catalog = api.portal.get_tool('portal_catalog')
 
         def _set_selected(selected, tab):
             new_tab = copy(tab)
@@ -35,19 +38,16 @@ class CopernicusGlobalSections(GlobalSectionsViewlet):
                 ''.join(tab['url'].split(portal_url))
                 .replace('/', '', 1)
             )
-            obj = portal.restrictedTraverse(relative_url)
-            obj = (
-                obj.aq_parent
-                if utils.isDefaultPage(obj, self.request)
-                else obj
-            )
+            obj_path = '{}/{}'.format(portal_path, relative_url)
 
-            folderListing = obj.restrictedTraverse('@@folderListing')
-            folderish = folderListing(is_folderish=True)
+            folderish = catalog(
+                is_folderish=True,
+                path=dict(query=obj_path, depth=1)
+            )
 
             return tuple([
                 dict(
-                    id=b.getId(),
+                    id=b.getId,
                     name=b.Title,
                     url=b.getURL()
                 ) for b in folderish if not b.exclude_from_nav
