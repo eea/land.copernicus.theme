@@ -142,5 +142,24 @@ class CopernicusNewsViewlet(ViewletBase):
 
         return news[:MAX_NUMBER_NEWS]
 
-# [TODO] MAX_NUMBER_REPORTS = getattr(
-#     self.context, 'box_reports_items_number', 4)
+
+class CopernicusReportsViewlet(ViewletBase):
+    render = ViewPageTemplateFile('reports.pt')
+
+    def reports(self):
+        MAX_NUMBER_REPORTS = getattr(
+            self.context, 'box_reports_items_number', 4)
+
+        catalog = self.context.portal_catalog
+        query = {
+            'portal_type': 'File',
+            'sort_on': 'Date',
+            'sort_order': 'descending',
+            'path': {
+                'query': '/copernicus/library/reports',
+                'depth': -1,
+            },
+        }
+
+        brains = catalog(**query)
+        return tuple(brains)[:MAX_NUMBER_REPORTS]

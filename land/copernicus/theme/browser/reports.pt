@@ -1,0 +1,71 @@
+<div tal:define="report_list view/reports;
+                 report_number python:len(report_list);
+                 has_report python:True if report_number > 0 else False;
+                 max_chars_number python:getattr(context, 'box_title_max_chars_number', 30)"
+     id="insitu-reports">
+
+  <!-- Reports -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <i class="fa fa-paperclip" aria-hidden="true"></i>
+      Reports
+    </div>
+    <div class="panel-body">
+
+      <div class="listing block-inset">
+        <div class="listing-body">
+          <ul class="listing-items" tal:condition="python:has_report">
+            <tal:repeat tal:repeat="report python:report_list">
+              <li class="listing-item"
+                  tal:define="report_object python:report.getObject();
+                              report_date python:report_object.getField('modification_date').getAccessor(report_object)();
+                              report_title python:report_object.getField('title').getAccessor(report_object)();
+                              report_image python:report_object.getField('image').getAccessor(report_object)();
+                              report_url python:report_object.absolute_url();
+                              report_description python:report_object.getField('description').getAccessor(report_object)();
+                              report_index python:repeat['report'].index + 1;
+                              report_is_last python:report_index == report_number;
+                              report_snippet_class python:'news snippet last' if report_is_last else 'news  snippet'">
+
+                <div tal:attributes="class python:report_snippet_class">
+                  <div class="news-preview">
+                    <tal:condition tal:condition="report_image">
+                      <img class="insitu-img-preview" tal:replace="structure report_image" />
+                    </tal:condition>
+                    <tal:condition tal:condition="not:report_image">
+                      <img class="insitu-img-preview" src="./preview_image.png" alt="Preview image">
+                    </tal:condition>
+                  </div>
+
+                  <div class="news-body">
+                    <h4 class="news-title">
+                      <a href="" tal:attributes="href python:report_url">
+                        <span tal:replace="python:report_date.day()"></span>
+                        <span tal:replace="python:report_date.Month()[:3]"></span>
+                        <span tal:replace="python:report_date.year()"></span>
+                      </a>
+                    </h4>
+                    <div class="news-description">
+                      <p>
+                        <span tal:replace="python:report_title[:max_chars_number]"></span><span tal:condition="python:len(report_title) > max_chars_number">...</span>
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </li>
+            </tal:repeat>
+          </ul>
+
+          <p tal:condition="python:has_report is False">No report.</p>
+
+          <h4  class="text-right insitu-view-all-news">
+            <a tal:attributes="href string:${context/portal_url}/library/reports">view all</a>
+          </h4>
+        </div>
+      </div><!-- Reports -->
+
+    </div>
+  </div>
+</div>
+

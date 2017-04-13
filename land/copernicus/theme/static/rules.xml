@@ -73,6 +73,8 @@
     <drop css:content="#viewlet-below-content #insitu-events" />
     <replace css:theme-children="[data-diazo='insitu-news-list']" css:content-children="#viewlet-below-content #insitu-news" />
     <drop css:content="#viewlet-below-content #insitu-news" />
+    <replace css:theme-children="[data-diazo='insitu-reports-list']" css:content-children="#viewlet-below-content #insitu-reports" />
+    <drop css:content="#viewlet-below-content #insitu-reports" />
 
     <!-- Main content -->
     <replace css:theme-children="article.main" css:content-children="#portal-column-content" />
@@ -230,6 +232,8 @@
     <drop css:content="#viewlet-below-content #insitu-events" />
     <replace css:theme-children="[data-diazo='insitu-news-list']" css:content-children="#viewlet-below-content #insitu-news" />
     <drop css:content="#viewlet-below-content #insitu-news" />
+    <replace css:theme-children="[data-diazo='insitu-reports-list']" css:content-children="#viewlet-below-content #insitu-reports" />
+    <drop css:content="#viewlet-below-content #insitu-reports" />
 
     <!-- Breadcrumbs -->
     <after css:theme-children="div.breadcrumb" css:content-children="#portal-breadcrumbs" />

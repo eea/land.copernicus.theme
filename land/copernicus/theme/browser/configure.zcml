@@ -31,6 +31,13 @@
     permission="zope2.View"
     />
 
+  <browser:viewlet
+    name="copernicus.reports"
+    manager="plone.app.layout.viewlets.interfaces.IBelowContent"
+    class=".viewlets.CopernicusReportsViewlet"
+    permission="zope2.View"
+    />
+
   <browser:resource
     name="land.copernicus.theme.design.js"
     file="design.js"
