@@ -6439,7 +6439,7 @@ body {
 
 .main-content {
   background: #FFFFFF;
-  padding: 20px 10px;
+  padding: 0 10px 20px 10px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   border-bottom-left-radius: 0px;

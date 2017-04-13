@@ -346,6 +346,20 @@ dl.portlet a:link,
   padding: 5px;
 }
 
+#content-core table.table-borderless th,
+#content-core table.table-borderless td {
+  border: 0;
+}
+
+#content-core table.table-borderless th {
+  width: 25%;
+}
+
+#content-core table.table-borderless th[colspan] {
+  border-bottom: 1px solid #999;
+  width: 100%;
+}
+
 #land-use-cases td:first-of-type {
   width: 40%;
 }
