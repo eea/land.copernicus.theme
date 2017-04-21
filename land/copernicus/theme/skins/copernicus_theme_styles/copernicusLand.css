@@ -365,7 +365,7 @@ dl.portlet a:link,
 }
 
 #content-core table.table-borderless th[colspan] {
-  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
   width: 100%;
 }
 
