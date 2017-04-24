@@ -7558,6 +7558,24 @@ input#long_title {
   width: 100%;
 }
 
+.portaltype-formfolder.section-newsletter form[name=edit_form] {
+  width: 100%;
+  margin: 0;
+  border: none;
+}
+
+.portaltype-formfolder.section-newsletter form[name=edit_form]:before {
+  display: none;
+}
+
+.portaltype-formfolder.section-newsletter #archetypes-fieldname-subscribe-to-the-copernicus-in-situ-newsletter {
+  display: none;
+}
+
+.portaltype-formfolder.section-newsletter  .insitu-btn-tags-container {
+  display: none;
+}
+
 /* RESPONSIVITY fixes */
 
 @media (min-width: 1200px) {
