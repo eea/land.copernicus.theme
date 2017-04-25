@@ -47,14 +47,6 @@
             </a>
 
             <p class="insitu-news-info">
-              <span class="insitu-news-author">
-                <i class="fa fa-user"></i>
-                <tal:fullname define="membership context/portal_membership;
-                                      info python:membership.getMemberInfo(news_creators[0]);
-                                      fullname info/fullname">
-                    <span class="name" tal:content="fullname" />
-                </tal:fullname>
-              </span>
               <span class="insitu-news-date">
                 <i class="fa fa-clock-o"></i>
                 <span>
