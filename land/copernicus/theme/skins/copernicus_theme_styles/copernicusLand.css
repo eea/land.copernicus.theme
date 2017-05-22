@@ -1326,19 +1326,6 @@ and (resolution: 163dpi) {
   background-color: #f3f3f3;
 }
 
-/* Download information before table */
-#fieldset-download #download-info {
-  border: 1px solid #BFD630;
-  border-radius: 10px;
-  background: #fff;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 3px;
-  margin-top:-10px;
-  margin-bottom: 25px;"
-}
-
 .portlet-static-partners .partners-logos {
   margin-left: 0px;
 }
@@ -1352,19 +1339,6 @@ and (resolution: 163dpi) {
 .template-referencemanual_view.section-eagle #breadcrumbs-2,
 .template-referencemanual_view.section-eagle #breadcrumbs-3 {
   display: none;
-}
-
-/* Fix larger checkboxes in download table */
-#fieldset-download #datatable-container input[type="checkbox"] {
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  transform: scale(1.5);
-
-  display: inline-block;
-  margin-right: 5px;
-  border: 1px solid #0070BB;
 }
 
 /* Pages and sections titles in reference manual alreay have numbers. */
