@@ -332,7 +332,7 @@ dl.portlet a:visited { /* */
 #content a:link,
 dl.portlet a:link,
 #content a.link-overlay { /**/
-  border-bottom: 0px !important;
+  border-bottom: 0px; /* !important; [TODO] check search-by-tags tags btns */
 }
 
 #portal-sitemap li {

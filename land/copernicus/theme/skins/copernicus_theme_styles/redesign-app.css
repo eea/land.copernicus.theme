@@ -7044,14 +7044,21 @@ ul.partners-logos {
 
 div.insitu-btn-tags-container {
   padding-top: 20px;
+  color: #FFFFFF;
 }
 
 div.insitu-btn-tags-container .btn {
   margin-right: 5px;
+  color: #FFFFFF !important;
+}
+
+div.insitu-btn-tags-container .btn:hover {
+  text-decoration: none !important;
 }
 
 div.insitu-btn-tags-container #insitu-tags-1 {
   margin-bottom: 10px;
+  color: #FFFFFF;
 }
 
 .btn.insitu-btn-land {
