@@ -7583,30 +7583,30 @@ input#long_title {
   display: none;
 }
 
-div[data-diazo=insitu-news-list],
-div[data-diazo=insitu-events-list] {
+body.template-search-by-tags div[data-diazo=insitu-news-list],
+body.template-search-by-tags div[data-diazo=insitu-events-list] {
   display: none;
 }
-.insitu-btn-observations:hover,
-.insitu-btn-spatial-data:hover {
+body.template-search-by-tags .insitu-btn-observations:hover,
+body.template-search-by-tags .insitu-btn-spatial-data:hover {
   text-decoration: none !important;
 }
 
-.btn.filter-btn.label,
-.pagination-items .btn.filter-btn {
+body.template-search-by-tags .btn.filter-btn.label,
+body.template-search-by-tags .pagination-items .btn.filter-btn {
   opacity: 0.7;
 }
 
-.btn.filter-btn.label.pressed,
-.pagination-items .btn.filter-btn.pressed {
+body.template-search-by-tags .btn.filter-btn.label.pressed,
+body.template-search-by-tags .pagination-items .btn.filter-btn.pressed {
   opacity: 1;
 }
 
-.btn.pressed {
+body.template-search-by-tags .btn.pressed {
   border-bottom: 5px solid #e34724 !important;
 }
 
-.insitu-btn-tags-container:not(.search-filters) {
+body.template-search-by-tags .insitu-btn-tags-container:not(.search-filters) {
   display: none;
 }
 
@@ -7647,19 +7647,19 @@ body.template-search-by-tags .pagination-controls {
   left: -28px;
 }
 
-.btn.label.insitu-btn-observations,
-.btn.label.insitu-btn-spatial-data {
+body.template-search-by-tags .btn.label.insitu-btn-observations,
+body.template-search-by-tags .btn.label.insitu-btn-spatial-data {
   padding: .2em .6em .3em !important;
   font-size: 75% !important;
 }
 
-div.search-item {
+body.template-search-by-tags div.search-item {
   padding-bottom: 20px;
   border-bottom: 1px solid #DDDDDD;
   margin-bottom: 10px;
 }
 
-.search-page-title {
+body.template-search-by-tags .search-page-title {
   color: #FFFFFF;
   font-size: 28px;
   padding-left: 10px;
@@ -7668,11 +7668,11 @@ div.search-item {
   margin-top: -3px;
 }
 
-p#results {
+body.template-search-by-tags p#results {
   display: none;  /* Remove for debug if needed */
 }
 
-p.item-description {
+body.template-search-by-tags p.item-description {
   margin-bottom: 20px;
 }
 
