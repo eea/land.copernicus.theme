@@ -4213,7 +4213,8 @@ tbody.collapse.in {
   vertical-align: baseline;
   border-radius: .25em; }
   .label:empty {
-    display: none; }
+    /* display: none; -> @@search-controlpanel TODO: see missing checkboxes */
+  }
   .btn .label {
     position: relative;
     top: -1px; }
