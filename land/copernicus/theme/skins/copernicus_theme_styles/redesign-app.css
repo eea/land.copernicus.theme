@@ -6,16 +6,16 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-/* =============================================================================
- * --          INSITU COLORS                                                  --
- * =============================================================================
- *                                       http://www.0to255.com/original_color -2
+/* ============================================================================
+ * --          INSITU COLORS                                                 --
+ * ============================================================================
+ *                                    http://www.0to255.com/original_color -2
  * #783F34  :: main color (Old Copper)                         hover: #60332a
  * #ffcf87  :: main color (light yellow)                       hover: #ffc165
  *
  * Colors from original logos:
  * ===========================
-*                              http://www.0to255.com/original_color -3
+ *                                    http://www.0to255.com/original_color -3
  * Marine:     #32639F hover: #264b78
  * Atmosphere: #66CDE2 hover: #3bbfda
  * Land:       #A7BE0F hover: #7d8f0b
@@ -23,7 +23,7 @@
  * Emergency:  #F89C2C hover: #e98408
  * Climate:    #8E1636 hover: #620f25
  *
- * =============================================================================
+ * ============================================================================
  */
 
 html {
@@ -4223,7 +4223,8 @@ tbody.collapse.in {
   vertical-align: baseline;
   border-radius: .25em; }
   .label:empty {
-    display: none; }
+    /* display: none; -> @@search-controlpanel TODO: see missing checkboxes */
+  }
   .btn .label {
     position: relative;
     top: -1px; }
