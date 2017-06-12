@@ -44,4 +44,44 @@ jQuery(document).ready(function($) {
     $("h1.documentFirstHeading").hide();
     $("h1.insitu-title").hide();
   }
+
+  // Transform simple tags to insitu tags
+  var simple_tags = $('#viewlet-below-content #category a.link-category');
+  if(simple_tags.length > 0) {
+    $('#viewlet-below-content #category span.separator').hide();
+    $('.insitu-btn-tags-container').hide();
+
+    var insitu_tags = {
+      'observations': 'filter-btn btn btn-default label insitu-btn-observations',
+      'spatial-data': 'filter-btn btn btn-default label insitu-btn-spatial-data',
+      'policy': 'filter-btn btn btn-default label insitu-btn-policy',
+      'agreements': 'filter-btn btn btn-default label insitu-btn-agreements',
+      'infrastructure': 'filter-btn btn btn-default label insitu-btn-infrastructure',
+      'open-data': 'filter-btn btn btn-default label insitu-btn-open-data',
+      'land': 'filter-btn btn btn-default label insitu-btn-land',
+      'marine': 'filter-btn btn btn-default label insitu-btn-marine',
+      'atmosphere': 'filter-btn btn btn-default label insitu-btn-atmosphere',
+      'emergency': 'filter-btn btn btn-default label insitu-btn-emergency',
+      'security': 'filter-btn btn btn-default label insitu-btn-security',
+      'climate-change': 'filter-btn btn btn-default label insitu-btn-climate-change',
+      'undefined': 'filter-btn btn btn-default label insitu-btn-undefined'
+    }
+
+    simple_tags.each(function() {
+      var class_name = insitu_tags[
+        this.text.toLowerCase().replace(" ", "-")
+      ];
+
+      if(class_name == undefined) {
+        class_name = insitu_tags['undefined'];
+      } else {
+        $(this).attr(
+          'href',
+          $("." + class_name.split(" ").splice(-1)[0]).attr('href')
+        );
+      }
+
+      $(this).addClass(class_name);
+    });
+  }
 });

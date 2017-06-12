@@ -7648,8 +7648,8 @@ body.template-search-by-tags .pagination-controls {
   left: -28px;
 }
 
-body.template-search-by-tags .btn.label.insitu-btn-observations,
-body.template-search-by-tags .btn.label.insitu-btn-spatial-data {
+.btn.label.insitu-btn-observations,
+.btn.label.insitu-btn-spatial-data {
   padding: .2em .6em .3em !important;
   font-size: 75% !important;
 }
