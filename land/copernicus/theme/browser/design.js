@@ -46,7 +46,7 @@ jQuery(document).ready(function($) {
   }
 
   // Transform simple tags to insitu tags
-  var simple_tags = $('#viewlet-below-content #category a.link-category');
+  var simple_tags = $('#viewlet-below-content #category a.link-category, .insitu-tags-labels a');
   if(simple_tags.length > 0) {
     $('#viewlet-below-content #category span.separator').hide();
     $('.insitu-btn-tags-container').hide();
@@ -67,19 +67,20 @@ jQuery(document).ready(function($) {
       'undefined': 'filter-btn btn btn-default label insitu-btn-undefined'
     }
 
+    var home_url = $("li#portaltab-index_html a").attr("href");
+
     simple_tags.each(function() {
-      var class_name = insitu_tags[
-        this.text.toLowerCase().replace(" ", "-")
-      ];
+      var tag_id = this.text.toLowerCase().replace(" ", "-");
+      var class_name = insitu_tags[tag_id];
+      var search_url = "";
 
       if(class_name == undefined) {
         class_name = insitu_tags['undefined'];
+        search_url = home_url + "/@@search?Subject%3Alist=" + this.text;
       } else {
-        $(this).attr(
-          'href',
-          $("." + class_name.split(" ").splice(-1)[0]).attr('href')
-        );
+        search_url = home_url + "/@@search-by-tags#?selected_tags=" + tag_id;
       }
+      $(this).attr('href',search_url);
 
       $(this).addClass(class_name);
     });

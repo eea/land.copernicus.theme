@@ -7588,8 +7588,8 @@ body.template-search-by-tags div[data-diazo=insitu-news-list],
 body.template-search-by-tags div[data-diazo=insitu-events-list] {
   display: none;
 }
-body.template-search-by-tags .insitu-btn-observations:hover,
-body.template-search-by-tags .insitu-btn-spatial-data:hover {
+.insitu-btn-observations:hover,
+.insitu-btn-spatial-data:hover {
   text-decoration: none !important;
 }
 
@@ -7611,17 +7611,24 @@ body.template-search-by-tags .insitu-btn-tags-container:not(.search-filters) {
   display: none;
 }
 
-body.template-search-by-tags .btn.label.insitu-btn-observations {
+.btn.label.insitu-btn-observations {
   color: #000000 !important;
 }
 
-body.template-search-by-tags .btn.label {
+body.template-search-by-tags .btn.label,
+.insitu-tags-labels .btn.label {
   color: #FFFFFF !important;
   margin-right: 5px;
   margin-bottom: 2px;
 }
 
-body.template-search-by-tags .btn.label:hover {
+.insitu-tags-labels .btn.label {
+  display: inline-block;
+  padding-top: 3px !important;
+}
+
+body.template-search-by-tags .btn.label:hover,
+.insitu-tags-labels .btn.label {
   text-decoration: none !important;
 }
 

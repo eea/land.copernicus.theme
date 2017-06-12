@@ -36,6 +36,7 @@
                            news_description python:news_object.getField('description').getAccessor(news_object)();
                            news_image python:news_object.getField('image').getAccessor(news_object)();
                            news_url python:news_object.absolute_url();
+                           news_tags python:news_object.getField('subject').getAccessor(news_object)();
                            news_creators python:news_object.getField('creators').getAccessor(news_object)();
                            news_description python:news_object.getField('description').getAccessor(news_object)();
                            news_description_words_list python:news_description.split(' ');
@@ -68,6 +69,14 @@
                 <a href="" tal:attributes="href python:news_url"
                    class="btn insitu-btn-read-more">Read more</a>
               </p>
+              <div class="insitu-tags-labels"
+                 tal:define="all_tags python: {'observations': 'filter-btn btn btn-default label insitu-btn-observations', 'spatial-data': 'filter-btn btn btn-default label insitu-btn-spatial-data', 'policy': 'filter-btn btn btn-default label insitu-btn-policy', 'agreements': 'filter-btn btn btn-default label insitu-btn-agreements', 'infrastructure': 'filter-btn btn btn-default label insitu-btn-infrastructure', 'open-data': 'filter-btn btn btn-default label insitu-btn-open-data', 'land': 'filter-btn btn btn-default label insitu-btn-land', 'marine': 'filter-btn btn btn-default label insitu-btn-marine', 'atmosphere': 'filter-btn btn btn-default label insitu-btn-atmosphere', 'emergency': 'filter-btn btn btn-default label insitu-btn-emergency', 'security': 'filter-btn btn btn-default label insitu-btn-security', 'climate-change': 'filter-btn btn btn-default label insitu-btn-climate-change', 'undefined': 'filter-btn btn btn-default label insitu-btn-undefined'}">
+                <tal:repeat tal:repeat="a_tag python:news_tags">
+                <a href="" tal:attributes="class python:all_tags[a_tag] if
+                  a_tag in all_tags else all_tags['undefined']"
+                  tal:content="python:a_tag.replace('-', ' ').capitalize()"></a>
+                </tal:repeat>
+              </div>
             </div>
           </div><!-- News item -->
         </tal:items>
