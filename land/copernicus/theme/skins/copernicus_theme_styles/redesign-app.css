@@ -7655,6 +7655,21 @@ body.template-search-by-tags .pagination-controls {
   left: -28px;
 }
 
+body.template-search-by-tags .pagination-controls-top {
+  position: relative;
+  top: 10px !important;
+}
+
+body.template-search-by-tags .pagination-items-top {
+  position: relative;
+  top: 30px;
+}
+
+body.template-search-by-tags .row-pagination-top {
+  border-bottom: 1px solid #DDDDDD;
+  min-height: 75px;
+}
+
 .btn.label.insitu-btn-observations,
 .btn.label.insitu-btn-spatial-data {
   padding: .2em .6em .3em !important;
