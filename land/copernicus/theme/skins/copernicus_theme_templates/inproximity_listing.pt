@@ -35,7 +35,7 @@
                            inproximity_date python:inproximity_object.modification_date;
                            inproximity_title python:inproximity_object.title;
                            inproximity_description python:inproximity_object.description;
-                           inproximity_url python:'inproximity_object.external_url';
+                           inproximity_url python:inproximity_object.external_link;
                            inproximity_tags python:inproximity_object.subject;
                            inproximity_creators python:inproximity_object.creators;
                            inproximity_description_words_list python:inproximity_description.split(' ');
