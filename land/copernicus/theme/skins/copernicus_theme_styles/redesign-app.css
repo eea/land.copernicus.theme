@@ -7328,6 +7328,64 @@ h1.text-uppercase {
   font-weight: 900;
 }
 
+.insitu-inproximity-read-more {
+  margin-top: 10px;
+}
+
+.insitu-inproximity-info {
+  color: #A4A4A4;
+}
+
+.insitu-inproximity-item-title {
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
+
+.insitu-inproximity-author {
+  margin-right: 20px;
+}
+
+.insitu-inproximity-author .fa,
+.insitu-inproximity-date .fa {
+  margin-right: 5px;
+}
+
+.insitu-inproximity-item {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.insitu-inproximity-item:nth-child(4) {
+  border-bottom: 5px solid #783F34;
+}
+
+body.template-inproximity_listing div.pagination.listingBar {
+  margin-left: -14px;
+}
+
+div.pagination.listingBar a:hover {
+  color: #FFFFFF !important;
+  background-color: #783F34;
+  border-color: #783F34;
+}
+
+div.pagination.listingBar a {
+  border: none;
+  background: #DDDDDD;
+  margin-right: 5px;
+  color: #444444 !important;
+  font-weight: 900;
+  padding: 6px 10px 6px 10px;
+  text-decoration: none !important;
+}
+
+div.pagination.listingBar span.current {
+  background: #783F34;
+  padding: 6px 10px 6px 10px;
+  margin-right: 5px;
+  color: #FFFFFF;
+}
+
 .insitu-news-read-more {
   margin-top: 10px;
 }

@@ -1,0 +1,86 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="plone">
+
+<head>
+</head>
+
+<body>
+<metal:main fill-slot="main">
+  <div id="content-core" tal:define="max_words_number python:getattr(context, 'summary_max_words_number', 30)">
+
+    <h1 class="insitu-title" tal:content="context/Title">In Proximity items</h1>
+
+    <div class="container-fluid insitu-inproximity-list-container"
+         tal:define="inproximity_items
+         python:context.getFolderContents(contentFilter={'portal_type':['inproximity']});
+                     Batch python:modules['Products.CMFPlone'].Batch;
+                     b_size python:4;
+                     b_start python:0;
+                     b_start request/b_start | b_start;
+                     batch python:Batch(inproximity_items, b_size, int(b_start), orphan=0);"
+         tal:condition="inproximity_items">
+
+      <div class="insitu-inproximity-list-items">
+
+        <tal:items tal:repeat="inproximity_item batch">
+
+          <!-- InProximity item -->
+          <div class="row insitu-inproximity-item"
+               tal:define="inproximity_object python:inproximity_item.getObject();
+                           inproximity_date python:inproximity_object.modification_date;
+                           inproximity_title python:inproximity_object.title;
+                           inproximity_description python:inproximity_object.description;
+                           inproximity_url python:'inproximity_object.external_url';
+                           inproximity_tags python:inproximity_object.subject;
+                           inproximity_creators python:inproximity_object.creators;
+                           inproximity_description_words_list python:inproximity_description.split(' ');
+                           inproximity_short_description python:' '.join([inproximity_description.split(' ')[x] for x in range(0, max_words_number)]) + ' [...]' if len(inproximity_description_words_list) > max_words_number else inproximity_description">
+
+            <a href="" tal:attributes="href python:inproximity_url"
+               class="insitu-inproximity-item-title">
+              <h3 tal:content="python:inproximity_title">Title</h3>
+            </a>
+
+            <p class="insitu-inproximity-info">
+              <span class="insitu-inproximity-date">
+                <i class="fa fa-clock-o"></i>
+                <span>
+                  <span tal:replace="python:inproximity_date.Month()[:3]"></span>
+                  <span tal:replace="python:inproximity_date.day()"></span>,
+                  <span tal:replace="python:inproximity_date.year()"></span>
+                </span>
+              </span>
+            </p>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 insitu-inproximity-text">
+              <div class="insitu-inproximity-body" tal:content="structure inproximity_short_description">
+                InProximity description
+              </div>
+              <p class="insitu-inproximity-read-more">
+                <a href="" tal:attributes="href python:inproximity_url"
+                   class="btn insitu-btn-read-more">Read more</a>
+              </p>
+              <div class="insitu-tags-labels"
+                 tal:define="all_tags python: {'observations': 'filter-btn btn btn-default label insitu-btn-observations', 'spatial-data': 'filter-btn btn btn-default label insitu-btn-spatial-data', 'policy': 'filter-btn btn btn-default label insitu-btn-policy', 'agreements': 'filter-btn btn btn-default label insitu-btn-agreements', 'infrastructure': 'filter-btn btn btn-default label insitu-btn-infrastructure', 'open-data': 'filter-btn btn btn-default label insitu-btn-open-data', 'land': 'filter-btn btn btn-default label insitu-btn-land', 'marine': 'filter-btn btn btn-default label insitu-btn-marine', 'atmosphere': 'filter-btn btn btn-default label insitu-btn-atmosphere', 'emergency': 'filter-btn btn btn-default label insitu-btn-emergency', 'security': 'filter-btn btn btn-default label insitu-btn-security', 'climate-change': 'filter-btn btn btn-default label insitu-btn-climate-change', 'undefined': 'filter-btn btn btn-default label insitu-btn-undefined'}">
+                <tal:repeat tal:repeat="a_tag python:inproximity_tags">
+                <a href="" tal:attributes="class python:all_tags[a_tag] if
+                  a_tag in all_tags else all_tags['undefined']"
+                  tal:content="python:a_tag.replace('-', ' ').capitalize()"></a>
+                </tal:repeat>
+              </div>
+            </div>
+          </div><!-- InProximity item -->
+        </tal:items>
+      </div>
+
+      <div metal:use-macro="here/batch_macros/macros/navigation" />
+    </div>
+  </div>
+</metal:main>
+</body>
+</html>
