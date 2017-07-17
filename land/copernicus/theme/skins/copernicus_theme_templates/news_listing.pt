@@ -62,13 +62,6 @@
               <img src="" tal:replace="structure python:news_image" />
             </div>
             <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 insitu-news-text">
-              <div class="insitu-news-body" tal:content="structure news_short_description">
-                News description
-              </div>
-              <p class="insitu-news-read-more">
-                <a href="" tal:attributes="href python:news_url"
-                   class="btn insitu-btn-read-more">Read more</a>
-              </p>
               <div class="insitu-tags-labels"
                  tal:define="all_tags python: {'observations': 'filter-btn btn btn-default label insitu-btn-observations', 'spatial-data': 'filter-btn btn btn-default label insitu-btn-spatial-data', 'policy': 'filter-btn btn btn-default label insitu-btn-policy', 'agreements': 'filter-btn btn btn-default label insitu-btn-agreements', 'infrastructure': 'filter-btn btn btn-default label insitu-btn-infrastructure', 'open-data': 'filter-btn btn btn-default label insitu-btn-open-data', 'land': 'filter-btn btn btn-default label insitu-btn-land', 'marine': 'filter-btn btn btn-default label insitu-btn-marine', 'atmosphere': 'filter-btn btn btn-default label insitu-btn-atmosphere', 'emergency': 'filter-btn btn btn-default label insitu-btn-emergency', 'security': 'filter-btn btn btn-default label insitu-btn-security', 'climate-change': 'filter-btn btn btn-default label insitu-btn-climate-change', 'undefined': 'filter-btn btn btn-default label insitu-btn-undefined'}">
                 <tal:repeat tal:repeat="a_tag python:news_tags">
@@ -77,6 +70,13 @@
                   tal:content="python:a_tag.replace('-', ' ').capitalize()"></a>
                 </tal:repeat>
               </div>
+              <div class="insitu-news-body" tal:content="structure news_short_description">
+                News description
+              </div>
+              <p class="insitu-news-read-more">
+                <a href="" tal:attributes="href python:news_url"
+                   class="btn insitu-btn-read-more">Read more</a>
+              </p>
             </div>
           </div><!-- News item -->
         </tal:items>
