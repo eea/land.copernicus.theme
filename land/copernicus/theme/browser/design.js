@@ -89,6 +89,9 @@ jQuery(document).ready(function($) {
     if(tags_container.length > 0) {
       // Get rid of Filled under: text
       tags_container.contents().get(0).nodeValue = "";
+
+      // Move tags at the top of the page
+      tags_container.prependTo('.row.main-content > .col-lg-8');
     }
   }
 });
