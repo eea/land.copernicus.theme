@@ -84,5 +84,11 @@ jQuery(document).ready(function($) {
 
       $(this).addClass(class_name);
     });
+
+    var tags_container = $("#viewlet-below-content #category");
+    if(tags_container.length > 0) {
+      // Get rid of Filled under: text
+      $("#category").contents().get(0).nodeValue = "";
+    }
   }
 });
