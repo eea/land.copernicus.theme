@@ -7328,6 +7328,10 @@ h1.text-uppercase {
   font-weight: 900;
 }
 
+body.template-view.portaltype-inproximity #category.documentByLine {
+  margin-bottom: 10px;
+}
+
 .insitu-inproximity-read-more {
   margin-top: 10px;
 }
