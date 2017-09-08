@@ -31,4 +31,34 @@ jQuery(document).ready(function($) {
     return false;
   });
 
+  // Land item edit - Metadata tab - Bounding Boxes behaviour
+  // Empty fields are hidden by default, just show them on "Add" pressed
+  if($('body').hasClass('template-atct_edit') && $('body').hasClass('portaltype-landitem')) {
+    var bounding_boxes = $('div[id*="archetypes-fieldname-geographicBoundingBox"]');
+    var visible_boxes = 7;
+    $(bounding_boxes).each(function() {
+      var fields = $(this).find('input');
+      var is_empty = true;
+      $(fields).each(function() {
+        if($(this).val().length > 0) {
+          is_empty = false;
+        }
+      });
+
+      if(is_empty) {
+        $(this).hide();
+        visible_boxes -= 1;
+      }
+    });
+
+    $('#archetypes-fieldname-geographicBoundingBox7').after("<button id='add-bounding-box'>Add Bounding Box Field</button>");
+    $('#add-bounding-box').after("<p class='formHelp'>Empty bounding boxes are ignored in view mode. You can have maximum 7 bounding boxes.</p>");
+    $('#archetypes-fieldname-geographicBoundingBox').show();
+
+    $('#add-bounding-box').on('click', function(evt) {
+      evt.preventDefault();
+      $('div[id*="archetypes-fieldname-geographicBoundingBox"]:hidden:first').show();
+      visible_boxes += 1;
+    });
+  }
 });
