@@ -35,7 +35,6 @@ jQuery(document).ready(function($) {
   // Empty fields are hidden by default, just show them on "Add" pressed
   if($('body').hasClass('template-atct_edit') && $('body').hasClass('portaltype-landitem')) {
     var bounding_boxes = $('div[id*="archetypes-fieldname-geographicBoundingBox"]');
-    var visible_boxes = 7;
     $(bounding_boxes).each(function() {
       var fields = $(this).find('input');
       var is_empty = true;
@@ -47,7 +46,6 @@ jQuery(document).ready(function($) {
 
       if(is_empty) {
         $(this).hide();
-        visible_boxes -= 1;
       }
     });
 
@@ -58,7 +56,6 @@ jQuery(document).ready(function($) {
     $('#add-bounding-box').on('click', function(evt) {
       evt.preventDefault();
       $('div[id*="archetypes-fieldname-geographicBoundingBox"]:hidden:first').show();
-      visible_boxes += 1;
     });
   }
 });
