@@ -7240,12 +7240,6 @@ ul.partners-logos {
   border: 3px solid #eeeeee;
 }
 
-/* FIX FOR JAYAN - this is a temporary fix used on production to hide some partial data. */
-/* Hide Metadata tab for these products. */
-body.subsection-high-resolution-image-mosaic #fieldsetlegend-metadata {
-  display: none !important;
-}
-
 /* Hide Map view tab for these products. */
 body.subsection-urban-atlas-ancillary-data-on-population-estimates-by-urban-atlas-polygons #fieldsetlegend-mapview {
   display: none !important;
