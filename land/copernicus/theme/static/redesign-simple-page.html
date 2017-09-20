@@ -25,7 +25,7 @@
 
   <body>
     <!-- HEADER -->
-    <section id="header-section" class="simple-page">
+    <section id="header-section" class="simple-page" data-role="progressive-image" data-bigURL="./header-main-photo-crop.jpg">
       <div class="container-fluid" id="land-brand-utils">
         <div class="content">
           <div class="row">
@@ -308,6 +308,38 @@
         </div><!-- FOOTER -->
 
       </div>
+      <script>
+        // Progressive images
+        window.loadProgressive = (function(){
+
+          function fetchAndUpdateTarget(target, url, doneClass) {
+            var img = new Image();
+            img.onload = function() {
+              if (target.tagName === 'IMG') {
+                target.src = url;
+              }
+              else {
+                target.style.backgroundImage = "url(" + url + ")";
+              }
+            }
+            img.src = url;
+          }
+
+          function run(target) {
+            var bigURL = target.getAttribute('data-bigURL');
+            return bigURL ? fetchAndUpdateTarget(target, bigURL) : null;
+          }
+
+          return run;
+
+        })();
+
+        window.addEventListener('DOMContentLoaded', function(){
+          var SELECTOR = '[data-role="progressive-image"]';
+          var targets = document.querySelectorAll(SELECTOR);
+          [].slice.call(targets).forEach(loadProgressive);
+        })
+      </script>
     </section><!-- CONTENT -->
   </body>
 </html>
