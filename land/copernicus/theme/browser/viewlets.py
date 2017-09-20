@@ -5,6 +5,10 @@ from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from time import time
 
 
+MAX_NUMBER_NEWS = 2
+MAX_NUMBER_EVENTS = 2
+
+
 class CopernicusFooterInfoViewlet(ViewletBase):
     render = ViewPageTemplateFile('footer_info.pt')
 
@@ -29,46 +33,32 @@ class CopernicusFooterInfoViewlet(ViewletBase):
 class CopernicusEventsViewlet(ViewletBase):
     render = ViewPageTemplateFile('events.pt')
 
-    def events(self):
-        MAX_NUMBER_EVENTS = 2
-        now = DateTime()
-
+    def events(self, limit=MAX_NUMBER_EVENTS):
         catalog = self.context.portal_catalog
         query = {
             'portal_type': 'Event',
             'sort_on': 'start',
             'sort_order': 'ascending',
-            'review_state': 'published'
+            'review_state': 'published',
+            'end': {
+                'query': DateTime(),
+                'range': 'min'
+            },
+            'sort_limit': limit,
         }
-        events_brains = catalog(**query)
-
-        future_events = []
-        for event_brain in events_brains:
-            event = event_brain.getObject()
-            end_date = event.getField('endDate').getAccessor(event)()
-            if end_date >= now:
-                future_events.append(event_brain)
-
-        return future_events[:MAX_NUMBER_EVENTS]
+        return catalog(**query)[:limit]
 
 
 class CopernicusNewsViewlet(ViewletBase):
     render = ViewPageTemplateFile('news.pt')
 
-    def news(self):
-        MAX_NUMBER_NEWS = 2
-
+    def news(self, limit=MAX_NUMBER_NEWS):
         catalog = self.context.portal_catalog
         query = {
             'portal_type': 'News Item',
             'sort_on': 'Date',
             'sort_order': 'descending',
-            'review_state': 'published'
+            'review_state': 'published',
+            'sort_limit': limit,
         }
-        news_brains = catalog(**query)
-
-        news = []
-        for news_brain in news_brains:
-            news.append(news_brain)
-
-        return news[:MAX_NUMBER_NEWS]
+        return catalog(**query)[:limit]
