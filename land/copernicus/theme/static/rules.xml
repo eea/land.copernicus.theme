@@ -4,7 +4,7 @@
        xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- REDESIGN -->
-  <rules css:if-content=".section-copernicus-the-european-earth-observation-programme, .portaltype-plone-site">
+  <rules css:if-content=".section-copernicus-the-european-earth-observation-programme, .template-homepage">
     <!-- Homepage rules -->
     <theme href="redesign-index.html" />
 

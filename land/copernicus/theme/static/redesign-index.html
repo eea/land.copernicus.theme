@@ -329,7 +329,7 @@
 
         })();
 
-        window.addEventListener('DOMContentLoaded', function(){
+        window.addEventListener('load', function(){
           var SELECTOR = '[data-role="progressive-image"]';
           var targets = document.querySelectorAll(SELECTOR);
           [].slice.call(targets).forEach(loadProgressive);

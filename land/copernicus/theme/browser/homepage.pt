@@ -204,7 +204,8 @@
     <!-- MAIN CONTENT -->
     <h4 class="land-title">Learn more about us watching this short video animation</h4>
     <!-- 16:9 aspect ratio -->
-    <div class="embed-responsive embed-responsive-16by9"><iframe height="240" src="https://www.youtube.com/embed/wHg5RBPg5Jc" width="320"></iframe></div>
+    <div class="embed-responsive embed-responsive-16by9"><iframe height="240" id="yt-embed" src="" width="320"></iframe></div>
+    <script>window.addEventListener('load', function(){document.getElementById('yt-embed').src = "https://www.youtube.com/embed/wHg5RBPg5Jc"});</script>
     <!-- MAIN CONTENT -->
   </metal:body>
 
