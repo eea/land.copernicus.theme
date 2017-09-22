@@ -108,12 +108,18 @@
 
   <genericsetup:upgradeSteps
     source="2.4.6"
-    destination="3.0"
+    destination="3.0.0"
     profile="land.copernicus.theme:default">
 
     <genericsetup:upgradeDepends
       title="Set @@homepage as default view for site."
       import_steps="typeinfo"
+      />
+
+    <genericsetup:upgradeStep
+      title="Optimize resource registries"
+      description="Re-organise CSS and JS registries to obtain minimal amount of merged files."
+      handler=".evolve300.run"
       />
   </genericsetup:upgradeSteps>
 
