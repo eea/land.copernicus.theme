@@ -39,6 +39,11 @@
     file="sticky-menu.js"
     />
 
+  <browser:resourceDirectory
+    name="land.copernicus.theme"
+    directory="./theme/"
+    />
+
   <browser:page
     name="event_format"
     class=".event_format.EventFormat"
