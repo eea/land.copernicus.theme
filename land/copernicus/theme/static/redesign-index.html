@@ -14,12 +14,8 @@
 
     <link rel="stylesheet" href="./other-links-and-scripts-placeholder.css" data-diazo="links-and-scripts">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <noscript id="deferred-styles"></noscript>
+
   </head>
 
   <body>
@@ -302,6 +298,7 @@
         </div><!-- FOOTER -->
 
       </div>
+      <script data-diazo="footer-scripts"></script>
       <script>
         // Progressive images
         window.loadProgressive = (function(){
@@ -334,6 +331,19 @@
           [].slice.call(targets).forEach(loadProgressive);
         })
       </script>
+      <script>
+        var loadDeferredStyles = function() {
+          var addStylesNode = document.getElementById("deferred-styles");
+          var replacement = document.createElement("div");
+          replacement.innerHTML = addStylesNode.textContent;
+          document.body.appendChild(replacement)
+          addStylesNode.parentElement.removeChild(addStylesNode);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+        else window.addEventListener('load', loadDeferredStyles);
+    </script>
     </section><!-- CONTENT -->
 
   </body>

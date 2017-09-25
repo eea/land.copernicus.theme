@@ -37,7 +37,8 @@ GROUP_ON_INLINE = partial(_group_on, methodcaller('getInline'))
 def optimise_css(tool):
     external = GROUP_ON_EXTERNAL(tool.resources)
     auth = _apply(GROUP_ON_AUTH, external)
-    rel = _apply(GROUP_ON_REL, auth)
+    render = _apply(GROUP_ON_RENDER, auth)
+    rel = _apply(GROUP_ON_REL, render)
     cook = _apply(GROUP_ON_COOKABLE, rel)
     media = _apply(GROUP_ON_MEDIA, cook)
     cond = _apply(GROUP_ON_COND, media)
@@ -45,7 +46,6 @@ def optimise_css(tool):
     final = tuple(chain(*expr))
 
     for sheet in final:
-        sheet.setRendering('link')
         if not sheet.isExternalResource():
             sheet.setCompression('full')
             sheet.setCacheable(True)
