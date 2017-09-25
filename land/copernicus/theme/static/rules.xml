@@ -15,7 +15,7 @@
     <replace content="/html/head/meta" css:theme="[data-diazo='meta-after-placeholder']" />
     <drop css:theme=".portlet-content" />
     <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
-    <replace content="/html/head/base | /html/head/style | /html/head/link[@rel='stylesheet'][contains(@href, 'redesign-app')] | /html/head/comment()" css:theme="[data-diazo='links-and-scripts']" />
+    <replace content="/html/head/base | /html/head/style | /html/head/comment()" css:theme="[data-diazo='links-and-scripts']" />
     <replace css:theme="[data-diazo='footer-scripts']">
       <xsl:for-each select="/html/head/script">
         <xsl:if test="@src">
@@ -32,7 +32,7 @@
 
     <replace
       css:theme-children="#deferred-styles"
-      content="/html/head/link[@rel='stylesheet'][not(contains(@href, 'redesign-app'))]"
+      content="/html/head/link[@rel='stylesheet']"
       />
 
     <!-- Website title link -->
