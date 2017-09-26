@@ -7,3 +7,5 @@
 *.log
 docs/Redesign Docs/RedesignTheme/bower_components/
 docs/Redesign Docs/RedesignTheme/node_modules/
+build/
+dist/
