@@ -299,13 +299,18 @@
 
           function fetchAndUpdateTarget(target, url, doneClass) {
             var img = new Image();
+            var clone = target.cloneNode(true);
             img.onload = function() {
-              if (target.tagName === 'IMG') {
-                target.src = url;
+              if (clone.tagName === 'IMG') {
+                clone.src = url;
               }
               else {
-                target.style.backgroundImage = "url(" + url + ")";
+                clone.style.backgroundImage = "url(" + url + ")";
               }
+              target.style.transition = 'opacity 0.5s';
+              target.style.opacity = 0;
+              target.parentNode.appendChild(clone);
+              target.style.position = 'absolute';
             }
             img.src = url;
           }
