@@ -24,7 +24,7 @@
             <xsl:attribute name="defer">defer</xsl:attribute>
           </xsl:element>
         </xsl:if>
-        <xsl:if test="not(./@src)">
+        <xsl:if test="not(./@src) and not(contains(text(), 'datepicker'))">
           <xsl:copy-of select="." />
         </xsl:if>
       </xsl:for-each>
@@ -124,7 +124,7 @@
     </replace>
   </rules>
 
-  <rules css:if-not-content=".section-copernicus-the-european-earth-observation-programme">
+  <rules css:if-not-content=".section-copernicus-the-european-earth-observation-programme, .template-homepage">
     <!-- Simple pages rules -->
     <rules css:if-content="#visual-portal-wrapper">
       <!-- REDESIGN -->

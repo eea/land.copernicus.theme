@@ -2,20 +2,32 @@
 <object name="portal_css">
   <stylesheet
     id="copernicusLand.css"
-    expression="request/HTTP_X_THEME_ENABLED | nothing"
     applyPrefix="True" />
 
   <stylesheet
     id="copernicusMobile.css"
-    expression="request/HTTP_X_THEME_ENABLED | nothing"
     media="handheld, screen and (max-device-width: 480px)"
     applyPrefix="True" />
 
   <stylesheet
     id="redesign-app.css"
     media=""
-    expression="request/HTTP_X_THEME_ENABLED | nothing"
     applyPrefix="True" />
+
+  <stylesheet
+    id="minimal.min.css"
+    media=""
+    cacheable="True"
+    rendering="inline"
+    applyPrefix="True" />
+
+  <!-- Ensure "link" rendering: -->
+  <stylesheet id="++resource++jquery.css" rendering="link" />
+  <stylesheet id="++resource++jquery.tokeninput.mac.css" rendering="link" />
+  <stylesheet id="++resource++jquery.tokeninput.facebook.css" rendering="link" />
+  <stylesheet id="++resource++jquery.tokeninput.css" rendering="link" />
+  <stylesheet id="++resource++jquery.select2uislider.css" rendering="link" />
+  <stylesheet id="ploneboard.css" rendering="link" />
 
   <!-- Used: -->
   <stylesheet bundle="default" id="authoring.css" />
@@ -29,13 +41,13 @@
   <stylesheet bundle="default" id="print.css" />
 
   <!-- Not used styles: -->
-  <stylesheet bundle="sunburst" id="columns.css" />
-  <stylesheet bundle="sunburst" id="deprecated.css" />
-  <stylesheet bundle="sunburst" id="invisibles.css" />
-  <stylesheet bundle="sunburst" id="kupuplone.css" />
-  <stylesheet bundle="sunburst" id="mobile.css" />
-  <stylesheet bundle="sunburst" id="navtree.css" />
-  <stylesheet bundle="sunburst" id="portlets.css" />
-  <stylesheet bundle="sunburst" id="public.css" />
+  <stylesheet bundle="sunburst" id="columns.css" enabled="False" />
+  <stylesheet bundle="sunburst" id="deprecated.css" enabled="False" />
+  <stylesheet bundle="sunburst" id="invisibles.css" enabled="False" />
+  <stylesheet bundle="sunburst" id="kupuplone.css" enabled="False" />
+  <stylesheet bundle="sunburst" id="mobile.css" enabled="False" />
+  <stylesheet bundle="sunburst" id="navtree.css" enabled="False" />
+  <stylesheet bundle="sunburst" id="portlets.css" enabled="False" />
+  <stylesheet bundle="sunburst" id="public.css" enabled="False" />
 
 </object>
