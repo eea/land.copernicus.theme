@@ -23,7 +23,7 @@
 
           <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-              <a href="http://land.copernicus.eu/global">
+              <a tal:attributes="href string:${portal_url}/global">
                 <div class="text-center">
                   <div class="circle" id="circles-1">
                     <img class="sprite land-icon-global" alt="Global" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==" />
@@ -36,7 +36,7 @@
               </a>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-              <a href="http://land.copernicus.eu/pan-european">
+              <a tal:attributes="href string:${portal_url}/pan-european">
                 <div class="text-center">
                   <div class="circle" id="circles-2">
                     <img class="sprite land-icon-pan-european" alt="Pan-European" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==">
@@ -49,7 +49,7 @@
               </a>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-              <a href="http://land.copernicus.eu/local">
+              <a tal:attributes="href string:${portal_url}/local">
                 <div class="text-center">
                   <div class="circle" id="circles-3">
                     <img class="sprite land-icon-local" alt="Local" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==">
@@ -62,7 +62,7 @@
               </a>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-              <a href="http://land.copernicus.eu/in-situ">
+              <a tal:attributes="href string:${portal_url}/in-situ">
                 <div class="text-center">
                   <div class="circle" id="circles-4">
                     <img class="sprite land-icon-reference-data" alt="Reference data" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==">
@@ -137,7 +137,7 @@
         <div class="menu-sections text-center">
           <div class="row">
             <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-              <a href="http://land.copernicus.eu/contact-form">
+              <a tal:attributes="href string:${portal_url}/contact-form">
                 <div class="land-box1">
                   <div class="land-icon-box">
                     <img class="sprite land-icon-ask" alt="Ask the service desk" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFMAAABTAQMAAADZfKlDAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABFJREFUeNpjYBgFo2AUDGcAAAPkAAGgjSnyAAAAAElFTkSuQmCC">
@@ -157,7 +157,7 @@
               </a>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
-              <a href="http://land.copernicus.eu/eagle/welcome">
+              <a tal:attributes="href string:${portal_url}/eagle/welcome">
                 <div class="land-box1">
                   <div class="land-icon-box">
                     <img class="sprite land-icon-eagle" alt="EAGLE" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABjAQMAAAAhE4UkAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIRDQAFBwABE3MVpQAAAABJRU5ErkJggg==">
