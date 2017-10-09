@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.0rc2 - (2017-10-09)
+---------------------
+- Improvement: Fixing homepage minimal styles, hardcoded links. Migration steps.
+  [batradav refs #88278]
+
 3.0rc1 - (2017-09-26)
 ---------------------
 - Improvement: Optimise resources, page loading speed.
@@ -123,4 +128,3 @@ Changelog
 - Feature WIP: added diazo integration code for the theme; added static
   resources provided by designer
   [#14617 robaaoli]
-
