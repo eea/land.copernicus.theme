@@ -2,15 +2,16 @@ from itertools import groupby
 from itertools import chain
 from itertools import imap as map
 from operator import methodcaller
-from operator import itemgetter
 from collections import defaultdict
 from functools import partial
+from functools import reduce
 
 import plone.api as api
 
 
 def _group_on(decider, resources):
     grouped = groupby(resources, decider)
+
     def reducer(acc, itm):
         acc[itm[0]].extend(itm[1])
         return acc
@@ -19,7 +20,15 @@ def _group_on(decider, resources):
 
 
 def _apply(grouper, result):
-    return list(chain(*map(grouper, result)))
+    return chain(*map(grouper, result))
+
+
+def _apply_in_order(groupers, data):
+
+    def reducer(result, grouper):
+        return _apply(grouper, result)
+
+    return reduce(reducer, groupers, [data])
 
 
 GROUP_ON_EXTERNAL = partial(_group_on, methodcaller('isExternalResource'))
@@ -34,16 +43,31 @@ GROUP_ON_RENDER = partial(_group_on, methodcaller('getRendering'))
 GROUP_ON_INLINE = partial(_group_on, methodcaller('getInline'))
 
 
+CSS_OPTIMISER = partial(_apply_in_order, (
+    GROUP_ON_EXTERNAL,
+    GROUP_ON_AUTH,
+    GROUP_ON_RENDER,
+    GROUP_ON_REL,
+    GROUP_ON_COOKABLE,
+    GROUP_ON_MEDIA,
+    GROUP_ON_COND,
+    GROUP_ON_EXPR,
+))
+
+
+JS_OPTIMISER = partial(_apply_in_order, (
+    GROUP_ON_EXTERNAL,
+    GROUP_ON_AUTH,
+    GROUP_ON_INLINE,
+    GROUP_ON_COOKABLE,
+    GROUP_ON_COND,
+    GROUP_ON_EXPR,
+))
+
+
 def optimise_css(tool):
-    external = GROUP_ON_EXTERNAL(tool.resources)
-    auth = _apply(GROUP_ON_AUTH, external)
-    render = _apply(GROUP_ON_RENDER, auth)
-    rel = _apply(GROUP_ON_REL, render)
-    cook = _apply(GROUP_ON_COOKABLE, rel)
-    media = _apply(GROUP_ON_MEDIA, cook)
-    cond = _apply(GROUP_ON_COND, media)
-    expr = _apply(GROUP_ON_EXPR, cond)
-    final = tuple(chain(*expr))
+
+    final = tuple(chain(*CSS_OPTIMISER(tool.resources)))
 
     for sheet in final:
         if not sheet.isExternalResource():
@@ -55,13 +79,8 @@ def optimise_css(tool):
 
 
 def optimise_js(tool):
-    external = GROUP_ON_EXTERNAL(tool.resources)
-    auth = _apply(GROUP_ON_AUTH, external)
-    inline = _apply(GROUP_ON_INLINE, auth)
-    cook = _apply(GROUP_ON_COOKABLE, inline)
-    cond = _apply(GROUP_ON_COND, cook)
-    expr = _apply(GROUP_ON_EXPR, cond)
-    final = tuple(chain(*expr))
+
+    final = tuple(chain(*JS_OPTIMISER(tool.resources)))
 
     for resource in final:
         if not resource.isExternalResource():
