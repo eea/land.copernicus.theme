@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.0 - (2017-11-01)
+------------------
+- Release performance improvements.
+  [batradav refs #88278]
+
 3.0rc2 - (2017-10-09)
 ---------------------
 - Improvement: Fixing homepage minimal styles, hardcoded links. Migration steps.
