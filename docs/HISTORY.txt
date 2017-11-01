@@ -1,9 +1,15 @@
 Changelog
 =========
 
-2.5.dev0 - (unreleased)
------------------------
-  WIP Redesign
+3.0rc2 - (2017-10-09)
+---------------------
+- Improvement: Fixing homepage minimal styles, hardcoded links. Migration steps.
+  [batradav refs #88278]
+
+3.0rc1 - (2017-09-26)
+---------------------
+- Improvement: Optimise resources, page loading speed.
+  [batradav refs #88278]
 
 2.4 - (2016-08-08)
 ------------------
@@ -19,7 +25,7 @@ Changelog
 
 - Change: Switched to curl in the jenkins build install script
   [olimpiurob refs #22402]
-- Change: Changed fetch url for jenkins build install script to the install 
+- Change: Changed fetch url for jenkins build install script to the install
   script from the main EEA CPB repository
   [olimpiurob refs #22402]
 
@@ -32,7 +38,7 @@ Changelog
 
 2.2 - (2014-05-27)
 ------------------
-- Feature: Added custom view for file_view 
+- Feature: Added custom view for file_view
   [ovidiu #19560]
 
 2.1 - (2014-05-26)
@@ -49,7 +55,7 @@ Changelog
 ------------------
 - Fixed: deleted entry for unused ie8.css and ie9.css
   [ovidiu #19481]
-- Fixed: put z-index -1 for site-identity 
+- Fixed: put z-index -1 for site-identity
   [ovidiu #19557]
 
 1.8 - (2014-04-29)
@@ -122,4 +128,3 @@ Changelog
 - Feature WIP: added diazo integration code for the theme; added static
   resources provided by designer
   [#14617 robaaoli]
-

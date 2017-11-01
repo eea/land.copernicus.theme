@@ -3,8 +3,8 @@
            i18n_domain="copernicus">
 
   <genericsetup:upgradeSteps
-    source="1004"
-    destination="1005"
+    source="1.0.4"
+    destination="1.0.5"
     profile="land.copernicus.theme:default">
 
     <genericsetup:upgradeDepends
@@ -14,8 +14,8 @@
   </genericsetup:upgradeSteps>
 
   <genericsetup:upgradeSteps
-    source="*"
-    destination="*"
+    source="1"
+    destination="1.0.1"
     profile="land.copernicus.theme:default">
 
     <genericsetup:upgradeDepends
@@ -30,8 +30,8 @@
   </genericsetup:upgradeSteps>
 
   <genericsetup:upgradeSteps
-    source="*"
-    destination="1004"
+    source="1.0.3"
+    destination="1.0.4"
     profile="land.copernicus.theme:default">
 
     <genericsetup:upgradeDepends
@@ -41,7 +41,7 @@
   </genericsetup:upgradeSteps>
 
   <genericsetup:upgradeSteps
-    source="*"
+    source="2.4.0"
     destination="2.4.1"
     profile="land.copernicus.theme:default">
 
@@ -103,6 +103,28 @@
     <genericsetup:upgradeDepends
       title="Fix broken layout on IE removing media screen for redesign-app.css."
       import_steps="cssregistry"
+      />
+  </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+    source="2.4.6"
+    destination="3.0.0"
+    profile="land.copernicus.theme:default">
+
+    <genericsetup:upgradeDepends
+      title="Set @@homepage as default view for site."
+      import_steps="typeinfo"
+      />
+
+    <genericsetup:upgradeDepends
+      title="Update resource registries"
+      import_steps="cssregistry jsregistry"
+      />
+
+    <genericsetup:upgradeStep
+      title="Optimize resource registries"
+      description="Re-organise CSS and JS registries to obtain minimal amount of merged files."
+      handler=".evolve300.run"
       />
   </genericsetup:upgradeSteps>
 

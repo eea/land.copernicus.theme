@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src:  url('fonts/FontAwesome.eot?oavxt5');
+  src:  url('fonts/FontAwesome.eot?oavxt5#iefix') format('embedded-opentype'),
+    url('fonts/FontAwesome.ttf?oavxt5') format('truetype'),
+    url('fonts/FontAwesome.woff?oavxt5') format('woff'),
+    url('fonts/FontAwesome.svg?oavxt5#FontAwesome') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'FontAwesome' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-chevron-right:before {
+  content: "\e90d";
+}
+.fa-chevron-left:before {
+  content: "\e90e";
+}
+.fa-user-circle:before {
+  content: "\e900";
+}
+.fa-twitter:before {
+  content: "\e901";
+}
+.fa-slideshare:before {
+  content: "\e902";
+}
+.fa-search:before {
+  content: "\e903";
+}
+.fa-print:before {
+  content: "\e904";
+}
+.fa-map-marker:before {
+  content: "\e905";
+}
+.fa-instagram:before {
+  content: "\e906";
+}
+.fa-home:before {
+  content: "\e907";
+}
+.fa-facebook-square:before {
+  content: "\e908";
+}
+.fa-envelope:before {
+  content: "\e909";
+}
+.fa-download:before {
+  content: "\e90a";
+}
+.fa-arrow-up:before {
+  content: "\e90b";
+}
+.fa-arrow-circle-right:before {
+  content: "\e90c";
+}

@@ -39,6 +39,11 @@
     file="sticky-menu.js"
     />
 
+  <browser:resourceDirectory
+    name="land.copernicus.theme"
+    directory="./theme/"
+    />
+
   <browser:page
     name="event_format"
     class=".event_format.EventFormat"
@@ -52,5 +57,21 @@
     permission="zope2.View"
     for="*"
     />
+
+  <!-- Homepage start-->
+  <browser:page
+    for="plone.app.layout.navigation.interfaces.INavigationRoot"
+    name="homepage"
+    template="homepage.pt"
+    permission="zope2.View"
+    />
+  <browser:menuItem
+    for="plone.app.layout.navigation.interfaces.INavigationRoot"
+    menu="plone_displayviews"
+    title="Homepage Land"
+    action="homepage"
+    description="Homepage template"
+    />
+  <!-- Homepage end -->
 
 </configure>

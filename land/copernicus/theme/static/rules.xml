@@ -4,7 +4,7 @@
        xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- REDESIGN -->
-  <rules css:if-content=".section-copernicus-the-european-earth-observation-programme">
+  <rules css:if-content=".section-copernicus-the-european-earth-observation-programme, .template-homepage">
     <!-- Homepage rules -->
     <theme href="redesign-index.html" />
 
@@ -15,8 +15,25 @@
     <replace content="/html/head/meta" css:theme="[data-diazo='meta-after-placeholder']" />
     <drop css:theme=".portlet-content" />
     <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
-    <replace content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
-             css:theme="[data-diazo='links-and-scripts']" />
+    <replace content="/html/head/base | /html/head/style | /html/head/comment()" css:theme="[data-diazo='links-and-scripts']" />
+    <replace css:theme="[data-diazo='footer-scripts']">
+      <xsl:for-each select="/html/head/script">
+        <xsl:if test="@src">
+          <xsl:element name="script">
+            <xsl:copy-of select="@src" />
+            <xsl:attribute name="defer">defer</xsl:attribute>
+          </xsl:element>
+        </xsl:if>
+        <xsl:if test="not(./@src) and not(contains(text(), 'datepicker'))">
+          <xsl:copy-of select="." />
+        </xsl:if>
+      </xsl:for-each>
+    </replace>
+
+    <replace
+      css:theme-children="#deferred-styles"
+      content="/html/head/link[@rel='stylesheet']"
+      />
 
     <!-- Website title link -->
     <rules css:if-content="#portaltab-index_html">
@@ -107,7 +124,7 @@
     </replace>
   </rules>
 
-  <rules css:if-not-content=".section-copernicus-the-european-earth-observation-programme">
+  <rules css:if-not-content=".section-copernicus-the-european-earth-observation-programme, .template-homepage">
     <!-- Simple pages rules -->
     <rules css:if-content="#visual-portal-wrapper">
       <!-- REDESIGN -->

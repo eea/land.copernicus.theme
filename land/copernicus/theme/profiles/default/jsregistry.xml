@@ -22,4 +22,9 @@
     expression=""
     inline="False" />
 
+  <!-- Ensure authenticated: -->
+  <javascript id="jquery.tinymce.js" authenticated="True" />
+  <javascript id="++resource++eea.tinymce.plugins.js" authenticated="True" />
+  <javascript id="eeatinymceutils.js" authenticated="True" />
+
 </object>
