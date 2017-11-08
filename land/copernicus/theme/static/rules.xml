@@ -51,15 +51,15 @@
 
     <!-- Carousel -->
     <replace css:theme="[data-diazo='land-carousel']" css:content="[data-diazo='land-carousel']" method="raw" />
-    <drop css:content="#content-core [data-diazo='land-carousel']" />
+    <drop css:content="[data-diazo='land-carousel']" method="raw" />
 
     <!-- Jumbotron -->
     <replace css:theme="[data-diazo='land-jumbotron']" css:content="[data-diazo='land-jumbotron']" method="raw" />
-    <drop css:content="#content-core [data-diazo='land-jumbotron']" />
+    <drop css:content="[data-diazo='land-jumbotron']" method="raw" />
 
     <!-- Menu sections -->
     <replace css:theme="[data-diazo='land-menu-sections']" css:content="[data-diazo='land-menu-sections']" method="raw" />
-    <drop css:content="#content-core [data-diazo='land-menu-sections']" />
+    <drop css:content="[data-diazo='land-menu-sections']" method="raw" />
 
     <!-- Right column -->
     <replace css:theme-children="[data-diazo='land-events-list']" css:content-children="#viewlet-below-content #land-events" />

@@ -6,9 +6,10 @@
       metal:use-macro="context/main_template/macros/master"
       i18n:domain="plone">
 
-<body>
-
-  <metal:body fill-slot="content-core">
+  <body>
+    <metal:title fill-slot="content-title" />
+    <metal:title fill-slot="content-description" />
+    <metal:body fill-slot="content-core">
     <!-- JUMBOTRON -->
     <div class="row" data-diazo="land-jumbotron">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
