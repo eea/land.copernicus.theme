@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.2 - (2017-12-07)
+------------------
+- Improve login and reset password pages with info for EIONET members
+  [GhitaB refs #90575]
+
 3.1 - (2017-11-08)
 ------------------
 - Homepage template improvements and support for promotional content.
