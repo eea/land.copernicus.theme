@@ -1,7 +1,7 @@
 Changelog
 =========
 
-3.3.dev0 - (unreleased)
+3.3 - (2017-12-18)
 ------------------
 - Move content margins from 15% to 10%.
   [GhitaB refs #90659]
@@ -38,11 +38,9 @@ Changelog
   contact form, personal information edit form, eagle options in user corner,
   styles for eea.pdf print pdf, styles for PloneHelpCenter sections,
   styles for download information section, other minor fixes
-
   [GhitaB refs #24843, #25172, #25381, #25385, #25462, #25684, #25846, #25848,
    #25849, #25806, #25727, #25735, #25732, #27615, #28173, #28272, #28589, #28876,
    #29507, #31006, #31044, #30206]
-
 - Change: Switched to curl in the jenkins build install script
   [olimpiurob refs #22402]
 - Change: Changed fetch url for jenkins build install script to the install
@@ -148,3 +146,4 @@ Changelog
 - Feature WIP: added diazo integration code for the theme; added static
   resources provided by designer
   [#14617 robaaoli]
+
