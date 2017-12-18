@@ -3,6 +3,8 @@ Changelog
 
 3.4.dev0 - (unreleased)
 -----------------------
+- No changes, fixing package release glitch
+  [tiberich]
 
 3.3 - (2017-12-18)
 ------------------
