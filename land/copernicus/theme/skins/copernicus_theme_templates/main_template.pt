@@ -23,6 +23,9 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
+  <meta http-equiv="X-Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
   <metal:baseslot define-slot="base">
     <base tal:attributes="href plone_view/renderBase" /><!--[if lt IE 7]></base><![endif]-->
   </metal:baseslot>
