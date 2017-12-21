@@ -6473,6 +6473,10 @@ body.template-licenses-settings table.datagridwidget-table-view td.datagridwidge
   max-width: initial;
 }
 
+body.template-licenses-settings table.datagridwidget-table-view div.label {
+  padding: initial;
+}
+
 @media (max-width: 1235px) {
   .bg-multiple-colors {
     background: transparent;
