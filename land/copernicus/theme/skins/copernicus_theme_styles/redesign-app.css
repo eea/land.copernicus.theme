@@ -6469,6 +6469,10 @@ ul.user-corner-menu .fa {
   padding: 0px !important;
 }
 
+body.template-licenses-settings table.datagridwidget-table-view td.datagridwidget-manipulator img {
+  max-width: initial;
+}
+
 @media (max-width: 1235px) {
   .bg-multiple-colors {
     background: transparent;
