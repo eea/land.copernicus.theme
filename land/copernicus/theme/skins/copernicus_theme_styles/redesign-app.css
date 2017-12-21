@@ -6473,6 +6473,10 @@ body.template-licenses-settings table.datagridwidget-table-view td.datagridwidge
   max-width: initial;
 }
 
+body.template-licenses-settings table.datagridwidget-table-view td.datagridwidget-manipulator {
+  vertical-align: middle;
+}
+
 body.template-licenses-settings table.datagridwidget-table-view div.label {
   padding: initial;
 }
