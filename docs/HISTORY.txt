@@ -1,6 +1,9 @@
 Changelog
 =========
 
+3.7.dev0 - (unreleased)
+-----------------------
+
 3.6 - (2017-12-21)
 ------------------
 - Improvement: Add https related meta tags in main template.
