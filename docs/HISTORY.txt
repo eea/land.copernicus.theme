@@ -3,6 +3,8 @@ Changelog
 
 3.8.dev0 - (unreleased)
 -----------------------
+- Fix: remove https related meta tags from main template.
+  [GhitaB refs #87226]
 
 3.7 - (2018-01-18)
 ------------------
