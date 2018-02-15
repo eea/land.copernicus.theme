@@ -6635,3 +6635,9 @@ body.template-licenses-settings table.datagridwidget-table-view div.label {
 .fa-arrow-circle-right:before {
   content: "\e90c";
 }
+.fa-enlarge:before {
+  content: "\e989";
+}
+.fa-shrink:before {
+  content: "\e98a";
+}
