@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.9.dev0 - (unreleased)
+-----------------------
+- Add styles for captcha field in register form.
+  [GhitaB refs #92752]
+
 3.8 - (2018-02-16)
 ------------------
 - Landitem view - icons for map fullscreen mode.
