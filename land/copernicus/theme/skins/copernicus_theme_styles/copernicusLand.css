@@ -930,6 +930,16 @@ and (resolution: 163dpi) {
   right: 0;
 }
 
+#formfield-form-captcha .fieldErrorBox {
+  margin-bottom: 20px;
+}
+
+#formfield-form-captcha .widget {
+  position: relative;
+  float: right;
+  top: -20px;
+}
+
 #formfield-form-thematic_domain .widget,
 #formfield-form-institutional_domain .widget {
   text-align: left;
