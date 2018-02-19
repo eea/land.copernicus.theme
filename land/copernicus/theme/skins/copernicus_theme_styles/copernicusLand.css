@@ -930,11 +930,11 @@ and (resolution: 163dpi) {
   right: 0;
 }
 
-#formfield-form-captcha .fieldErrorBox {
+body.template-register #formfield-form-captcha .fieldErrorBox {
   margin-bottom: 20px;
 }
 
-#formfield-form-captcha .widget {
+body.template-register #formfield-form-captcha .widget {
   position: relative;
   float: right;
   top: -20px;
