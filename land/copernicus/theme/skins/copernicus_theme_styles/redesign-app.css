@@ -6641,9 +6641,3 @@ body.template-licenses-settings table.datagridwidget-table-view div.label {
 .fa-shrink:before {
   content: "\e98a";
 }
-
-/* WIP [#90603] - this fixes map on local. TODO: fix and clean */
-.geo-preview-mapcanvas {
-  height: 400px;
-  border: 1px solid #8CACBB;
-}
