@@ -3,6 +3,8 @@ Changelog
 
 3.9.dev0 - (unreleased)
 -----------------------
+- Fix typo in homepage template.
+  [GhitaB refs #93474]
 - Add styles for captcha field in register form.
   [GhitaB refs #92752]
 
