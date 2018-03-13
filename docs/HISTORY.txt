@@ -1,8 +1,8 @@
 Changelog
 =========
 
-4.0.dev0 - (unreleased)
------------------------
+4.0 - (2018-03-13)
+------------------
 - Fix: non-ASCII characters in title of publications generate error because of
   alt and title attributes of image thumb (cover).
   [GhitaB #93616]
