@@ -3,6 +3,10 @@ Changelog
 
 4.1.dev0 - (unreleased)
 -----------------------
+- Update icons (icomoon): add question circle. Add FAQ button in header. Add
+  space after Copernicus logo in header. Fix print button position. Update
+  Discover the Copernicus Services section in footer.
+  [GhitaB #94690]
 
 4.0 - (2018-03-13)
 ------------------
