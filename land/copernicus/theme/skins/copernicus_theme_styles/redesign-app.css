@@ -6415,6 +6415,9 @@ ul.partners-logos {
   white-space: nowrap;
 }
 
+.utils a.btn-faq.btn.btn-default {
+  margin-right: 20px;
+}
 
 .land-publications-container {
   width: 100%;
@@ -6640,4 +6643,7 @@ body.template-licenses-settings table.datagridwidget-table-view div.label {
 }
 .fa-shrink:before {
   content: "\e98a";
+}
+.fa-question-circle:before {
+  content: "\f059";
 }
