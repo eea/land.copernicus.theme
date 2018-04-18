@@ -63,6 +63,7 @@
     for="plone.app.layout.navigation.interfaces.INavigationRoot"
     name="homepage"
     template="homepage.pt"
+    class=".homepage.HomepageView"
     permission="zope2.View"
     />
   <browser:menuItem

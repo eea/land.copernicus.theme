@@ -1,12 +1,10 @@
 from DateTime import DateTime
+from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
+from land.copernicus.content.config import MAX_NUMBER_EVENTS
+from land.copernicus.content.config import MAX_NUMBER_NEWS
 from plone.app.layout.viewlets.common import ViewletBase
 from plone.memoize import ram
-from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from time import time
-
-
-MAX_NUMBER_NEWS = 2
-MAX_NUMBER_EVENTS = 2
 
 
 class CopernicusFooterInfoViewlet(ViewletBase):
