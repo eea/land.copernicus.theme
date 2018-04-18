@@ -4630,13 +4630,14 @@ button.close {
   .carousel-inner > .item {
     display: none;
     position: relative;
+    max-height: 350px;
     -webkit-transition: 0.6s ease-in-out left;
     -o-transition: 0.6s ease-in-out left;
     transition: 0.6s ease-in-out left; }
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
       display: block;
-      max-width: 100%;
+      width: 100%;
       height: auto;
       line-height: 1; }
     @media all and (transform-3d), (-webkit-transform-3d) {

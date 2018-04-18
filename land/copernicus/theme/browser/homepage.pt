@@ -109,7 +109,7 @@
                     <img class="land-img-preview" tal:replace="structure news_thumb" />
                   </tal:condition>
                   <tal:condition tal:condition="not:news_thumb">
-                    <img class="land-img-preview" src="./preview_image.png" alt="Preview image">
+                    <img class="land-img-preview" src="./preview_image.png" alt="Preview image" />
                   </tal:condition>
                   <div class="container">
                     <div class="carousel-caption">
