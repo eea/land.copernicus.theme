@@ -94,6 +94,9 @@
             <li data-target="#myCarousel" data-slide-to="2"></li>
           </ol>
 
+          <div class="carousel-news-title">
+            Latest news
+          </div>
           <div class="carousel-inner" role="listbox">
             <tal:news tal:repeat="news python:news_list">
               <tal:news-item tal:define="news_object python:news.getObject();
@@ -119,7 +122,7 @@
                         <span tal:replace="structure python:news_description[:120]"></span>...
                         <a href="" tal:attributes="href python:news_url">Read more</a>
                       </p>
-                      <a href="./news">more news <i class="fa fa-arrow-circle-right"></i></a>
+                      <a href="./news" class="pull-right">more news <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                   </div>
                 </div>
