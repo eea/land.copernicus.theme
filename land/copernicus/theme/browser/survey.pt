@@ -7,9 +7,22 @@
 -->
 
 <!-- Satisfaction survey pop-up -->
-<div tal:define="text python:view.hello()"
+<div tal:define="survey_url python:view.survey_url"
      id="land-survey"
      tal:condition="python:getattr(context, 'show_survey', None) is True">
 
-  <h1 tal:content="python:text">Hello</h1>
+
+  <h1 id="land-survey-title">We value your opinion!</h1>
+  <p id="land-survey-message">
+    Would you be willing to spend 4-5 min to provide your feedback on our website?
+  </p>
+  <form id="land-survey-form">
+    <button id="land-survey-yes">Yes</button>
+    <button id="land-survey-yes">No</button>
+  </form>
+
+  <script tal:content="string:var survey_url='${survey_url}';"></script>
+  <script type="text/javascript">
+    alert(survey_url);
+  </script>
 </div>

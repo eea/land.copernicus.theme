@@ -68,5 +68,6 @@ class CopernicusSurveyViewlet(ViewletBase):
     """
     render = ViewPageTemplateFile('survey.pt')
 
-    def hello(self):
-        return "Hello!"
+    @property
+    def survey_url(self):
+        return "https://ec.europa.eu/eusurvey/runner/clms2018"
