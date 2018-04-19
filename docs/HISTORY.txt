@@ -3,6 +3,10 @@ Changelog
 
 4.2.dev0 - (unreleased)
 -----------------------
+- Improve news carousel design.
+- Improve event view styles.
+- Update homepage content as in User Corner.
+  [GhitaB #94690]
 
 4.1 - (2018-04-18)
 ------------------
