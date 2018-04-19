@@ -60,3 +60,13 @@ class CopernicusNewsViewlet(ViewletBase):
             'sort_limit': limit,
         }
         return catalog(**query)[:limit]
+
+
+class CopernicusSurveyViewlet(ViewletBase):
+    """ Satisfaction survey [refs #93752]
+        TODO: clean this when done.
+    """
+    render = ViewPageTemplateFile('survey.pt')
+
+    def hello(self):
+        return "Hello!"

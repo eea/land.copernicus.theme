@@ -1,0 +1,6 @@
+<div tal:define="text python:view.hello()"
+     id="land-survey">
+
+  <!-- Satisfaction survey pop-up -->
+  <h1 tal:content="python:text">Hello</h1>
+</div>
