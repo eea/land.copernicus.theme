@@ -1,6 +1,15 @@
-<div tal:define="text python:view.hello()"
-     id="land-survey">
+<!--
+  To enable the survey, in site/manage_propertiesForm:
+    add Name: show_survey
+        Type: boolean
+    then check the checkbox and Save Changes.
 
-  <!-- Satisfaction survey pop-up -->
+-->
+
+<!-- Satisfaction survey pop-up -->
+<div tal:define="text python:view.hello()"
+     id="land-survey"
+     tal:condition="python:getattr(context, 'show_survey', None) is True">
+
   <h1 tal:content="python:text">Hello</h1>
 </div>
