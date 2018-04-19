@@ -5824,7 +5824,8 @@ article.main #parent-fieldname-title {
   font-size: smaller;
   min-width: 4em; }
 
-body.template-newsitem_view div#parent-fieldname-description {
+body.template-newsitem_view div#parent-fieldname-description,
+body.template-event_view div#parent-fieldname-description {
   margin-bottom: 1em;
 }
 
