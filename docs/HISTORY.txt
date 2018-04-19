@@ -1,8 +1,8 @@
 Changelog
 =========
 
-4.2.dev0 - (unreleased)
------------------------
+4.2 - (2018-04-19)
+------------------
 - Improve news carousel design.
 - Improve event view styles.
 - Update homepage content as in User Corner.
