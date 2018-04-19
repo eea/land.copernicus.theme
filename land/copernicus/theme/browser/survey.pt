@@ -23,6 +23,14 @@
 
   <script tal:content="string:var survey_url='${survey_url}';"></script>
   <script type="text/javascript">
-    alert(survey_url);
+    function survey_behaviour() {
+      $(document).ready(function($) {
+        alert(survey_url);
+      });
+    }
+
+    if(window.jQuery) {
+      survey_behaviour();
+    } // TODO: else? load it? investigate this in homepage.
   </script>
 </div>
