@@ -102,14 +102,14 @@
               <tal:news-item tal:define="news_object python:news.getObject();
                           news_date python:news_object.getField('modification_date').getAccessor(news_object)();
                           news_title python:news_object.getField('title').getAccessor(news_object)();
-                          news_scales news_object/@@images;
-                          news_thumb python:news_scales.scale('image', width=960, height=320, direction='down');
+                          news_thumb python:view.news_image(news_object);
                           news_url python:news_object.absolute_url();
                           news_description python:news_object.getField('description').getAccessor(news_object)();
                           news_class python:'item active' if repeat['news'].index == 0 else 'item'">
                 <div tal:attributes="class python:news_class">
                   <tal:condition tal:condition="news_thumb">
-                    <img class="land-img-preview" tal:replace="structure news_thumb" />
+                    <img class="land-img-preview"
+                         tal:attributes="src python:news_thumb"/>
                   </tal:condition>
                   <tal:condition tal:condition="not:news_thumb">
                     <img class="land-img-preview" src="./preview_image.png" alt="Preview image" />

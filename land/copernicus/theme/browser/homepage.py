@@ -18,3 +18,12 @@ class HomepageView(BrowserView):
             'sort_limit': limit,
         }
         return catalog(**query)[:limit]
+
+    def news_image(self, news_item):
+        images = news_item.unrestrictedTraverse('images')
+        img = images.scale('image', width=960, height=350, direction='down')
+
+        try:
+            return img.url
+        except AttributeError:
+            return None
