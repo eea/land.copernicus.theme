@@ -3,7 +3,6 @@
     add Name: show_survey
         Type: boolean
     then check the checkbox and Save Changes.
-
 -->
 
 <!-- Satisfaction survey pop-up -->
@@ -19,19 +18,26 @@
   <script type="text/javascript">
     function survey_behaviour() {
       $(document).ready(function($) {
-        swal({
-          title: "We value your opinion!",
-          text: "Would you be willing to spend 4-5 min to provide your feedback on our website?",
-          type: "success",
-          showCancelButton: true,
-          confirmButtonColor: '#3085d6',
-          cancelButtonColor: '#d33',
-          confirmButtonText: 'Yes',
-          cancelButtonText: 'No',
-        }).then((result) => {
-          window.location.replace(survey_url);
-        }).catch(() => {
-        });
+
+        var survey_delay = 2000; // miliseconds
+        var survey_title = "We value your opinion!";
+        var survey_text = "Would you be willing to spend 4-5 min to provide your feedback on our website?";
+
+        setTimeout(function() {
+          swal({
+            title: survey_title,
+            text: survey_text,
+            type: "success",
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes',
+            cancelButtonText: 'No',
+          }).then((result) => {
+            window.location.replace(survey_url);
+          }).catch(() => {
+          });
+        }, survey_delay);
       });
     }
 
