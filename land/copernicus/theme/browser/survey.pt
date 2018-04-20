@@ -20,24 +20,28 @@
       $(document).ready(function($) {
 
         var survey_delay = 2000; // miliseconds
+        var survey_delay_pageviews = 3;
         var survey_title = "We value your opinion!";
         var survey_text = "Would you be willing to spend 4-5 min to provide your feedback on our website?";
 
-        setTimeout(function() {
-          swal({
-            title: survey_title,
-            text: survey_text,
-            type: "success",
-            showCancelButton: true,
-            confirmButtonColor: '#3085d6',
-            cancelButtonColor: '#d33',
-            confirmButtonText: 'Yes',
-            cancelButtonText: 'No',
-          }).then((result) => {
-            window.location.replace(survey_url);
-          }).catch(() => {
-          });
-        }, survey_delay);
+        if ((localStorage.page_views = (+localStorage.page_views || 0) + 1) >= survey_delay_pageviews) {
+          setTimeout(function() {
+            localStorage.page_views = 0;
+            swal({
+              title: survey_title,
+              text: survey_text,
+              type: "success",
+              showCancelButton: true,
+              confirmButtonColor: '#3085d6',
+              cancelButtonColor: '#d33',
+              confirmButtonText: 'Yes',
+              cancelButtonText: 'No',
+            }).then((result) => {
+              window.location.replace(survey_url);
+            }).catch(() => {
+            });
+          }, survey_delay);
+        }
       });
     }
 
