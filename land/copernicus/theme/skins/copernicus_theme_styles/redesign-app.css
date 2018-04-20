@@ -5889,6 +5889,12 @@ body.template-event_view div#parent-fieldname-description {
 .land-img-preview {
   border: none; }
 
+.swal2-modal button.swal2-styled {
+  border-radius: 6px !important;
+  margin: 15px 10px 0 !important;
+}
+
+
 .navbar-default {
   position: relative;
   top: -10px;
