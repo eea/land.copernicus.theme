@@ -21,7 +21,7 @@ class HomepageView(BrowserView):
 
     def news_image(self, news_item):
         images = news_item.unrestrictedTraverse('images')
-        img = images.scale('image', width=1320, height=500, direction='down')
+        img = images.scale('image', width=1320, height=500, direction='up')
 
         try:
             return img.url

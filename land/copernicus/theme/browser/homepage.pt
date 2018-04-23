@@ -82,7 +82,7 @@
           </div>
         </div><!-- JUMBOTRON -->
 
-        <!-- IMAGES SLIDER -->
+        <!-- NEWS SLIDER -->
         <div tal:define="news_list view/news;
                          has_news python:True if len(news_list) > 0 else False;"
              data-diazo="land-carousel" id="myCarousel" class="carousel slide" data-ride="carousel"
@@ -100,7 +100,7 @@
           <div class="carousel-inner" role="listbox">
             <tal:news tal:repeat="news python:news_list">
               <tal:news-item tal:define="news_object python:news.getObject();
-                          news_date python:news_object.getField('modification_date').getAccessor(news_object)();
+                          news_date python:news_object.getField('creation_date').getAccessor(news_object)().strftime('%m/%d/%Y');
                           news_title python:news_object.getField('title').getAccessor(news_object)();
                           news_thumb python:view.news_image(news_object);
                           news_url python:news_object.absolute_url();
@@ -117,7 +117,7 @@
                   <div class="container">
                     <div class="carousel-caption">
                       <h4 tal:content="python:news_title">News title</h4>
-
+                      <p tal:content="python:news_date">Date</p>
                       <p>
                         <span tal:replace="structure python:news_description[:120]"></span>...
                         <a href="" tal:attributes="href python:news_url">Read more</a>
@@ -139,7 +139,7 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-        <!-- IMAGES SLIDER -->
+        <!-- NEWS SLIDER -->
 
         <!-- MENU SECTIONS -->
         <div class="row" data-diazo="land-menu-sections">
