@@ -4630,7 +4630,7 @@ button.close {
   .carousel-inner > .item {
     display: none;
     position: relative;
-    max-height: 350px;
+    max-height: 400px;
     -webkit-transition: 0.6s ease-in-out left;
     -o-transition: 0.6s ease-in-out left;
     transition: 0.6s ease-in-out left; }
