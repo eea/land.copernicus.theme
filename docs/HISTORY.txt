@@ -1,8 +1,8 @@
 Changelog
 =========
 
-4.3.dev0 - (unreleased)
------------------------
+4.3 - (2018-04-23)
+------------------
 - Improve news carousel design / responsivity.
 - Fix: wrong bottom page scroll bar.
 - Fix: non-ascii error in news carousel.
