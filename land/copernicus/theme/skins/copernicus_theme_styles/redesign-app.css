@@ -6020,7 +6020,7 @@ article img {
 @media (min-width: 800px) and (max-width: 1380px) {
   .carousel-caption {
     font-size: 11px;
-    margin-bottom: 33px !important;
+    margin-bottom: 45px !important;
     width: 50% !important;
     margin-left: 17% !important;
   }
