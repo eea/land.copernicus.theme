@@ -5989,6 +5989,9 @@ article img {
     top: 394px;
     position: relative;
     z-index: 2 !important; }
+  .carousel-news-title {
+    font-size: 12px;
+  }
   .carousel-caption {
     font-size: 5px;
     margin-bottom: 18px !important; }
