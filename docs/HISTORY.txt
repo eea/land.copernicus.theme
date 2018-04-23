@@ -3,6 +3,14 @@ Changelog
 
 4.3.dev0 - (unreleased)
 -----------------------
+- Improve news carousel design / responsivity.
+- Fix: wrong bottom page scroll bar.
+- Fix: non-ascii error in news carousel.
+  [GhitaB #94690]
+
+- Feature: pop-up survey (customizable parameters: enable/disable, custom delay
+  as pageviews, custom delay as milliseconds).
+  [GhitaB #93752]
 
 4.2 - (2018-04-19)
 ------------------
