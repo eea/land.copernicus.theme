@@ -3,8 +3,9 @@ Changelog
 
 4.4.dev0 - (unreleased)
 -----------------------
+- Improve: Use d/m/Y date format in news carousel (homepage).
 - News item view: hide lead image (to be used only as preview in news carousel)
-  [GhitaB #94690]
+  [GhitaB #95045]
 - Fix: survey behaviour on IE.
 - Improve: move js in skins for easier editing.
   [GhitaB #93752]
