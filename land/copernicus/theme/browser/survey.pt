@@ -45,7 +45,7 @@
                 cancelButtonText: 'No'
               }).then(function(result) {
                 localStorage.setItem("survey_answered", "true");
-                window.location.replace(survey_url);
+                window.open(survey_url, '_blank');
               }).catch(function() {
                 localStorage.setItem("survey_answered", "true");
               });
