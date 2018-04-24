@@ -21,7 +21,7 @@ function survey_behaviour() {
             cancelButtonText: 'No'
           }).then(function(result) {
             localStorage.setItem("survey_answered", "true");
-            window.open(survey_url, '_blank');
+            window.location.replace(survey_url);
           }).catch(function() {
             localStorage.setItem("survey_answered", "true");
           });
