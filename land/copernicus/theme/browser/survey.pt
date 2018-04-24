@@ -18,6 +18,7 @@
   <script tal:content="string:var survey_delay='${survey_delay}';"></script>
   <script tal:content="string:var survey_delay_pageviews='${survey_delay_pageviews}';"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
   <script src="./sweetalert2.min.js"></script>
   <link rel="stylesheet" href="./sweetalert2.min.css">
   <script src="./survey_behaviour.js"></script>
