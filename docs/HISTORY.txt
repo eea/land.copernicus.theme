@@ -3,6 +3,7 @@ Changelog
 
 4.4.dev0 - (unreleased)
 -----------------------
+- Improve: Exclude expired news from news carousel.
 - Improve: Use d/m/Y date format in news carousel (homepage).
 - News item view: hide lead image (to be used only as preview in news carousel)
   [GhitaB #95045]
