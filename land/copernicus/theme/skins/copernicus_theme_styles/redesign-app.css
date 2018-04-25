@@ -5900,6 +5900,17 @@ body.template-newsitem_view .newsImageContainer {
   margin: 15px 10px 0 !important;
 }
 
+.swal2-modal a.swal2-styled {
+  border-radius: 6px !important;
+  margin: 15px 10px 0 !important;
+  padding: 12px 32px;
+  text-decoration: none;
+}
+
+.swal2-modal a.swal2-styled:hover{
+  background-color: #A0B228 !important;
+  text-decoration: none;
+}
 
 .navbar-default {
   position: relative;
