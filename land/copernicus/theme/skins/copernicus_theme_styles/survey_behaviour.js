@@ -25,6 +25,17 @@ function survey_behaviour() {
           }).catch(function() {
             localStorage.setItem("survey_answered", "true");
           });
+
+          // Replace default Yes with custom button with external url and behaviour
+          // In this way the survey will be opened in a new tab.
+          setTimeout(function () {
+            $("button.swal2-confirm").replaceWith('<a target="_blank" class="swal2-confirm swal2-styled" style="background-color: rgb(48, 133, 214); border-left-color: rgb(48, 133, 214); border-right-color: rgb(48, 133, 214);" href="' + survey_url + '">Yes</a>');
+            $("a.swal2-confirm").click(function () {
+              localStorage.setItem("survey_answered", "true");
+              swal.close()
+            })
+          }, 400);
+
         }, survey_delay);
       }
     }
