@@ -1,3 +1,4 @@
+from Products.CMFPlone.utils import isExpired
 from Products.Five.browser import BrowserView
 from land.copernicus.content.config import MAX_NUMBER_NEWS
 
@@ -15,9 +16,11 @@ class HomepageView(BrowserView):
             'sort_on': 'Date',
             'sort_order': 'descending',
             'review_state': 'published',
-            'sort_limit': limit,
         }
-        return catalog(**query)[:limit]
+
+        result = [x for x in catalog(**query) if isExpired(x) != 1]
+
+        return result[:limit]
 
     def news_image(self, news_item):
         images = news_item.unrestrictedTraverse('images')
