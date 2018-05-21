@@ -3,7 +3,8 @@ Changelog
 
 4.5.dev0 - (unreleased)
 -----------------------
-- Homepage: show 4 news instead of 3.
+- Homepage: show 4 news instead of 3 in carousel.
+- Homepage: show publishing date (effective, effectiveDate) for news items.
   [GhitaB #95161]
 
 4.4 - (2018-04-26)
