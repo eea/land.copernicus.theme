@@ -3,6 +3,8 @@ Changelog
 
 4.5.dev0 - (unreleased)
 -----------------------
+- Homepage: show 4 news instead of 3.
+  [GhitaB #95161]
 
 4.4 - (2018-04-26)
 ------------------
