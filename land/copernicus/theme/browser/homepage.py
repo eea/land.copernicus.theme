@@ -13,7 +13,7 @@ class HomepageView(BrowserView):
         catalog = self.context.portal_catalog
         query = {
             'portal_type': 'News Item',
-            'sort_on': 'Date',
+            'sort_on': 'effective',
             'sort_order': 'descending',
             'review_state': 'published',
         }

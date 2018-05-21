@@ -101,7 +101,7 @@
           <div class="carousel-inner" role="listbox">
             <tal:news tal:repeat="news python:news_list">
               <tal:news-item tal:define="news_object python:news.getObject();
-                          news_date python:news_object.getField('modification_date').getAccessor(news_object)().strftime('%d/%m/%Y');
+                          news_date python:news_object.getField('effectiveDate').getAccessor(news_object)().strftime('%d/%m/%Y');
                           news_title python:news_object.getField('title').getAccessor(news_object)();
                           news_thumb python:view.news_image(news_object);
                           news_url python:news_object.absolute_url();
