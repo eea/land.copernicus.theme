@@ -5834,7 +5834,8 @@ body.template-event_view div#parent-fieldname-description {
   margin-bottom: 1em;
 }
 
-body.template-newsitem_view .newsImageContainer {
+body.template-newsitem_view .newsImageContainer,
+body.template-folder_full_view .newsImageContainer {
   display: none;
 }
 

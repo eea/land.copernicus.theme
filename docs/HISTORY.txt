@@ -3,8 +3,9 @@ Changelog
 
 4.5.dev0 - (unreleased)
 -----------------------
-- Homepage: show 4 news instead of 3 in carousel.
-- Homepage: show publishing date (effective, effectiveDate) for news items.
+- Improve: homepage - show 4 news instead of 3 in carousel.
+- Fix: homepage - show publishing date (effective, effectiveDate) in carousel.
+- Fix: hide news items preview images in News (folder full view).
   [GhitaB #95161]
 
 4.4 - (2018-04-26)
