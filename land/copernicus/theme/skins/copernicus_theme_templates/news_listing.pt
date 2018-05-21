@@ -13,10 +13,10 @@
 <metal:main fill-slot="main">
   <div id="content-core" tal:define="max_words_number python:getattr(context, 'summary_max_words_number', 30)">
 
-    <h1 class="insitu-title">News</h1>
+    <h1 class="land-title">News</h1>
 
-    <div class="container-fluid insitu-news-list-container"
-         tal:define="news_items python:context.getFolderContents(contentFilter={'portal_type':['News Item'], 'sort_on': 'Date', 'sort_order': 'descending',});
+    <div class="container-fluid land-news-list-container"
+         tal:define="news_items python:context.getFolderContents(contentFilter={'portal_type':['News Item'], 'sort_on': 'effective', 'sort_order': 'descending',});
                      Batch python:modules['Products.CMFPlone'].Batch;
                      b_size python:4;
                      b_start python:0;
@@ -24,14 +24,14 @@
                      batch python:Batch(news_items, b_size, int(b_start), orphan=0);"
          tal:condition="news_items">
 
-      <div class="insitu-news-list-items">
+      <div class="land-news-list-items">
 
         <tal:items tal:repeat="news_item batch">
 
           <!-- News item -->
-          <div class="row insitu-news-item"
+          <div class="row land-news-item"
                tal:define="news_object python:news_item.getObject();
-                           news_date python:news_object.getField('modification_date').getAccessor(news_object)();
+                           news_date python:news_object.getField('effectiveDate').getAccessor(news_object)();
                            news_title python:news_object.getField('title').getAccessor(news_object)();
                            news_description python:news_object.getField('description').getAccessor(news_object)();
                            news_url python:news_object.absolute_url();
@@ -43,12 +43,12 @@
                            news_short_description python:' '.join([news_description.split(' ')[x] for x in range(0, max_words_number)]) + ' [...]' if len(news_description_words_list) > max_words_number else news_description">
 
             <a href="" tal:attributes="href python:news_url"
-               class="insitu-news-item-title">
+               class="land-news-item-title">
               <h3 tal:content="python:news_title">Title</h3>
             </a>
 
-            <p class="insitu-news-info">
-              <span class="insitu-news-date">
+            <p class="land-news-info">
+              <span class="land-news-date">
                 <i class="fa fa-clock-o"></i>
                 <span>
                   <span tal:replace="python:news_date.Month()[:3]"></span>
@@ -58,24 +58,16 @@
               </span>
             </p>
 
-            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 insitu-news-image">
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 land-news-image">
               <img src="" tal:attributes="src python:news_image_src" />
             </div>
-            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 insitu-news-text">
-              <div class="insitu-tags-labels"
-                 tal:define="all_tags python: {'observations': 'filter-btn btn btn-default label insitu-btn-observations', 'spatial-data': 'filter-btn btn btn-default label insitu-btn-spatial-data', 'policy': 'filter-btn btn btn-default label insitu-btn-policy', 'agreements': 'filter-btn btn btn-default label insitu-btn-agreements', 'infrastructure': 'filter-btn btn btn-default label insitu-btn-infrastructure', 'open-data': 'filter-btn btn btn-default label insitu-btn-open-data', 'land': 'filter-btn btn btn-default label insitu-btn-land', 'marine': 'filter-btn btn btn-default label insitu-btn-marine', 'atmosphere': 'filter-btn btn btn-default label insitu-btn-atmosphere', 'emergency': 'filter-btn btn btn-default label insitu-btn-emergency', 'security': 'filter-btn btn btn-default label insitu-btn-security', 'climate-change': 'filter-btn btn btn-default label insitu-btn-climate-change', 'undefined': 'filter-btn btn btn-default label insitu-btn-undefined'}">
-                <tal:repeat tal:repeat="a_tag python:news_tags">
-                <a href="" tal:attributes="class python:all_tags[a_tag] if
-                  a_tag in all_tags else all_tags['undefined']"
-                  tal:content="python:a_tag.replace('-', ' ').capitalize()"></a>
-                </tal:repeat>
-              </div>
-              <div class="insitu-news-body" tal:content="structure news_short_description">
+            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 land-news-text">
+              <div class="land-news-body" tal:content="structure news_short_description">
                 News description
               </div>
-              <p class="insitu-news-read-more">
+              <p class="land-news-read-more">
                 <a href="" tal:attributes="href python:news_url"
-                   class="btn insitu-btn-read-more">Read more</a>
+                   class="btn land-btn-read-more">Read more</a>
               </p>
             </div>
           </div><!-- News item -->
