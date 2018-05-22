@@ -32,6 +32,9 @@ jQuery(document).ready(function($) {
   });
 
   // Main menu behaviour for dropdown items (News)
+  var $news_menu = $("#portaltab-news-items");
+  $news_menu.appendTo("ul.nav.land-social-icons");
+
   $('ul.nav li.dropdown').hover(function() {
     $(this).find('.dropdown-menu').stop(true, true).delay(30).fadeIn(200);
   }, function() {
