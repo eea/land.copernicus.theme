@@ -102,7 +102,24 @@
               <li><a href="{./a/@href}"><i class="fa fa-home"></i></a></li>
             </xsl:if>
 
-            <xsl:if test="not(contains(./@id, 'portaltab-index_html'))">
+            <xsl:if test="contains(./@id, 'portaltab-news-items')">
+
+              <li class="dropdown" id="portaltab-news-items" data-hover="dropdown">
+
+                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                   aria-haspopup="true" id="dropdown-news" href="{./a/@href}">News</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-news">
+                  <li id="portaltableaf-latest-news">
+                    <a href="{./a/@href}/latest-news">Latest News</a>
+                  </li>
+                  <li id="portaltableaf-events">
+                    <a href="{./a/@href}/events">Events</a>
+                  </li>
+                </ul>
+              </li>
+            </xsl:if>
+
+            <xsl:if test="not(contains(./@id, 'portaltab-index_html')) and not(contains(./@id, 'portaltab-news-items'))">
               <xsl:attribute name="id">
                 <xsl:value-of select="@id" />
               </xsl:attribute>
@@ -183,7 +200,24 @@
                 <li><a href="{./a/@href}"><i class="fa fa-home"></i></a></li>
               </xsl:if>
 
-              <xsl:if test="not(contains(./@id, 'portaltab-index_html'))">
+              <xsl:if test="contains(./@id, 'portaltab-news-items')">
+
+                <li class="dropdown" id="portaltab-news-items" data-hover="dropdown">
+
+                  <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                     aria-haspopup="true" id="dropdown-news" href="{./a/@href}">News</a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-news">
+                    <li id="portaltableaf-latest-news">
+                      <a href="{./a/@href}/latest-news">Latest News</a>
+                    </li>
+                    <li id="portaltableaf-events">
+                      <a href="{./a/@href}/events">Events</a>
+                    </li>
+                  </ul>
+                </li>
+              </xsl:if>
+
+              <xsl:if test="not(contains(./@id, 'portaltab-index_html')) and not(contains(./@id, 'portaltab-news-items'))">
                 <xsl:attribute name="id">
                   <xsl:value-of select="@id" />
                 </xsl:attribute>

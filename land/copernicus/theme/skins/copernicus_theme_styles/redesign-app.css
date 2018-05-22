@@ -6025,6 +6025,11 @@ div.pagination.listingBar span.current {
   .navbar-nav ul.dropdown-menu li:last-child {
     margin-bottom: -5px; }
 
+#portaltab-news-items ul.dropdown-menu {
+  position: absolute;
+  top: 30px;
+}
+
 .btn-default,
 .btn-primary,
 .btn-warning,
