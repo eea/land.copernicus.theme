@@ -35,6 +35,8 @@
                            news_title python:news_object.getField('title').getAccessor(news_object)();
                            news_description python:news_object.getField('description').getAccessor(news_object)();
                            news_url python:news_object.absolute_url();
+                           news_scales news_object/@@images;
+                           news_thumb python:news_scales.scale('image', width=48, height=48, direction='down');
                            news_image_src python:news_url + '/image';
                            news_tags python:news_object.getField('subject').getAccessor(news_object)();
                            news_creators python:news_object.getField('creators').getAccessor(news_object)();
@@ -43,7 +45,12 @@
                            news_short_description python:' '.join([news_description.split(' ')[x] for x in range(0, max_words_number)]) + ' [...]' if len(news_description_words_list) > max_words_number else news_description">
 
             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 land-news-image">
-              <img src="" tal:attributes="src python:news_image_src" />
+              <tal:condition tal:condition="news_thumb">
+                <img src="" tal:attributes="src python:news_image_src" />
+              </tal:condition>
+              <tal:condition tal:condition="not:news_thumb">
+                <img src="./preview_image.png" alt="Preview image" />
+              </tal:condition>
             </div>
 
             <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 land-news-text">
