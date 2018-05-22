@@ -5866,6 +5866,33 @@ body.template-news_listing .land-news-info {
   color: #A4A4A4;
 }
 
+body.template-news_listing div.pagination.listingBar {
+  margin-left: -14px;
+}
+
+div.pagination.listingBar a:hover {
+  color: #FFFFFF !important;
+  background-color: #A0B228;
+  border-color: #A0B228;
+}
+
+div.pagination.listingBar a {
+  border: none;
+  background: #DDDDDD;
+  margin-right: 5px;
+  color: #444444 !important;
+  font-weight: 900;
+  padding: 6px 10px 6px 10px;
+  text-decoration: none !important;
+}
+
+div.pagination.listingBar span.current {
+  background: #A0B228;
+  padding: 6px 10px 6px 10px;
+  margin-right: 5px;
+  color: #FFFFFF;
+}
+
 .carousel-news-title {
   position: absolute;
   top: 0px;
