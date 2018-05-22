@@ -6,6 +6,8 @@ Changelog
 - Improve: homepage - show 4 news instead of 3 in carousel.
 - Fix: homepage - show publishing date (effective, effectiveDate) in carousel.
 - Fix: hide news items preview images in News (folder full view).
+- Feature: add news listing template.
+- Feature: news related sections in main menu as dropdown menu.
   [GhitaB #95161]
 
 4.4 - (2018-04-26)

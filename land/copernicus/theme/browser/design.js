@@ -31,6 +31,7 @@ jQuery(document).ready(function($) {
     return false;
   });
 
+  // Main menu behaviour for dropdown items (News)
   $('ul.nav li.dropdown').hover(function() {
     $(this).find('.dropdown-menu').stop(true, true).delay(30).fadeIn(200);
   }, function() {
