@@ -64,7 +64,7 @@
               </div>
               <p class="land-news-read-more">
                 <a href="" tal:attributes="href python:news_url"
-                   class="btn land-btn-read-more">Read more</a>
+                   class="btn btn-default pull-right land-btn-read-more">Read more</a>
               </p>
             </div>
           </div><!-- News item -->
