@@ -5842,12 +5842,15 @@ body.template-folder_full_view .newsImageContainer {
 body.template-news_listing a.btn-default.land-btn-read-more {
   color: #FFFFFF !important;
   text-decoration: none !important;
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 1em;
 }
 
 body.template-news_listing a.land-news-item-title {
   text-decoration: none !important;
+}
+
+body.template-news_listing a.land-news-item-title h3 {
+  font-weight: bold !important;
 }
 
 body.template-news_listing .land-news-item:nth-child(4) {
@@ -5857,6 +5860,10 @@ body.template-news_listing .land-news-item:nth-child(4) {
 body.template-news_listing .land-news-item {
   border-bottom: 1px solid #eaeada;
   padding-bottom: 1em;
+}
+
+body.template-news_listing .land-news-info {
+  color: #A4A4A4;
 }
 
 .carousel-news-title {

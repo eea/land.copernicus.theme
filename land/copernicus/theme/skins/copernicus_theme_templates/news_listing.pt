@@ -42,23 +42,23 @@
                            news_description_words_list python:news_description.split(' ');
                            news_short_description python:' '.join([news_description.split(' ')[x] for x in range(0, max_words_number)]) + ' [...]' if len(news_description_words_list) > max_words_number else news_description">
 
-            <a href="" tal:attributes="href python:news_url"
-               class="land-news-item-title">
-              <h3 tal:content="python:news_title">Title</h3>
-            </a>
-
-            <p class="land-news-info">
-              <span class="land-news-date">
-                <i class="fa fa-clock-o"></i>
-                <span>
-                  <span tal:replace="python:news_date.Month()[:3]"></span>
-                  <span tal:replace="python:news_date.day()"></span>,
-                  <span tal:replace="python:news_date.year()"></span>
-                </span>
-              </span>
-            </p>
-
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 land-news-text">
+              <a href="" tal:attributes="href python:news_url"
+                 class="land-news-item-title">
+                <h3 tal:content="python:news_title">Title</h3>
+              </a>
+
+              <p class="land-news-info">
+                <span class="land-news-date">
+                  <i class="fa fa-clock-o"></i>
+                  <span>
+                    <span tal:replace="python:news_date.Month()[:3]"></span>
+                    <span tal:replace="python:news_date.day()"></span>,
+                    <span tal:replace="python:news_date.year()"></span>
+                  </span>
+                </span>
+              </p>
+
               <div class="land-news-body" tal:content="structure news_short_description">
                 News description
               </div>
