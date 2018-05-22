@@ -1,8 +1,8 @@
 Changelog
 =========
 
-4.5.dev0 - (unreleased)
------------------------
+4.5 - (2018-05-22)
+------------------
 - Improve: homepage - show 4 news instead of 3 in carousel.
 - Fix: homepage - show publishing date (effective, effectiveDate) in carousel.
 - Fix: hide news items preview images in News (folder full view).
