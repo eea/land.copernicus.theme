@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'FontAwesome';
-  src:  url('fonts/FontAwesome.eot?fq21b2');
-  src:  url('fonts/FontAwesome.eot?fq21b2#iefix') format('embedded-opentype'),
-    url('fonts/FontAwesome.ttf?fq21b2') format('truetype'),
-    url('fonts/FontAwesome.woff?fq21b2') format('woff'),
-    url('fonts/FontAwesome.svg?fq21b2#FontAwesome') format('svg');
+  src:  url('fonts/FontAwesome.eot?y8i20b');
+  src:  url('fonts/FontAwesome.eot?y8i20b#iefix') format('embedded-opentype'),
+    url('fonts/FontAwesome.ttf?y8i20b') format('truetype'),
+    url('fonts/FontAwesome.woff?y8i20b') format('woff'),
+    url('fonts/FontAwesome.svg?y8i20b#FontAwesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,8 +24,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.fa-question-circle:before {
-  content: "\f059";
+.fa-clock-o:before {
+  content: "\f017";
 }
 .fa-user-circle:before {
   content: "\e900";
@@ -77,4 +77,7 @@
 }
 .fa-shrink:before {
   content: "\e98a";
+}
+.fa-question-circle:before {
+  content: "\f059";
 }

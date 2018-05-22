@@ -6700,3 +6700,6 @@ body.template-licenses-settings table.datagridwidget-table-view div.label {
 .fa-question-circle:before {
   content: "\f059";
 }
+.fa-clock-o:before {
+  content: "\f017";
+}
