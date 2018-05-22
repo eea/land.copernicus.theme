@@ -5853,6 +5853,10 @@ body.template-news_listing a.land-news-item-title h3 {
   font-weight: bold !important;
 }
 
+body.template-news_listing .land-news-image img {
+  margin-top: 20px;
+}
+
 body.template-news_listing .land-news-item:nth-child(4) {
   border-bottom: 3px solid #BDCE49;
 }
