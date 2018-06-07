@@ -6686,14 +6686,25 @@ body.template-licenses-settings table.datagridwidget-table-view div.label {
 
 @font-face {
   font-family: 'FontAwesome';
-  src:  url('./++resource++land.copernicus.theme/fonts/FontAwesome.eot?oavxt5');
-  src:  url('./++resource++land.copernicus.theme/fonts/FontAwesome.eot?oavxt5#iefix') format('embedded-opentype'),
-    url('./++resource++land.copernicus.theme/fonts/FontAwesome.ttf?oavxt5') format('truetype'),
-    url('./++resource++land.copernicus.theme/fonts/FontAwesome.woff?oavxt5') format('woff'),
-    url('./++resource++land.copernicus.theme/fonts/FontAwesome.svg?oavxt5#FontAwesome') format('svg');
+  src:  url('./../../resource_rhf?resource=FontAwesome.eot&params=oavxt5');
+  src:  url('./../../resource_rhf?resource=FontAwesome.eot&params=oavxt5#iefix') format('embedded-opentype'),
+    url('./../../resource_rhf?resource=FontAwesome.ttf&params=oavxt5') format('truetype'),
+    url('./../../resource_rhf?resource=FontAwesome.woff&params=oavxt5') format('woff'),
+    url('./../../resource_rhf?resource=FontAwesome.svg&params=oavxt5#FontAwesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+
+/* @font-face { */
+/*   font-family: 'FontAwesome'; */
+/*   src:  url('./++resource++land.copernicus.theme/fonts/FontAwesome.eot?oavxt5'); */
+/*   src:  url('./++resource++land.copernicus.theme/fonts/FontAwesome.eot?oavxt5#iefix') format('embedded-opentype'), */
+/*     url('./++resource++land.copernicus.theme/fonts/FontAwesome.ttf?oavxt5') format('truetype'), */
+/*     url('./++resource++land.copernicus.theme/fonts/FontAwesome.woff?oavxt5') format('woff'), */
+/*     url('./++resource++land.copernicus.theme/fonts/FontAwesome.svg?oavxt5#FontAwesome') format('svg'); */
+/*   font-weight: normal; */
+/*   font-style: normal; */
+/* } */
 
 .fa {
   /* use !important to prevent issues with browser extensions that change fonts */
