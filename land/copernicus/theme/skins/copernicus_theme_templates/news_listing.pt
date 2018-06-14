@@ -18,7 +18,7 @@
     <div class="container-fluid insitu-news-list-container"
          tal:define="news_items python:context.getFolderContents(contentFilter={'portal_type':['News Item'], 'sort_on': 'Date', 'sort_order': 'descending',});
                      Batch python:modules['Products.CMFPlone'].Batch;
-                     b_size python:4;
+                     b_size python:8;
                      b_start python:0;
                      b_start request/b_start | b_start;
                      batch python:Batch(news_items, b_size, int(b_start), orphan=0);"
