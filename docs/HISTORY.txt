@@ -3,6 +3,8 @@ Changelog
 
 4.6.dev0 - (unreleased)
 -----------------------
+- Get fonts using browser view.
+  [GhitaB #95088]
 
 4.5 - (2018-05-22)
 ------------------
