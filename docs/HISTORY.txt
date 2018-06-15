@@ -1,6 +1,9 @@
 Changelog
 =========
 
+4.7.dev0 - (unreleased)
+-----------------------
+
 4.6 - (2018-06-15)
 ------------------
 - Get fonts using browser view.
