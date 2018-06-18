@@ -2068,6 +2068,10 @@ body.template-landitem-view p.text-center a.btn-default.btn-login {
   font-size: 16px;
 }
 
+body.template-landitem-view li.formTab.hide-me {
+  display: none !important;
+}
+
 .btn-primary {
   color: #FFFFFF;
   background-color: #A0B228;
