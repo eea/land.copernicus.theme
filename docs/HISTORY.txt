@@ -3,6 +3,9 @@ Changelog
 
 4.7.dev0 - (unreleased)
 -----------------------
+- Landitem view/Download: add styles for login button.
+- Landitem view: Hide unused tabs.
+  [GhitaB #96128]
 
 4.6 - (2018-06-15)
 ------------------
