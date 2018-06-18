@@ -2062,6 +2062,12 @@ fieldset[disabled] a.btn {
     color: #A0B228;
     background-color: #FFFFFF; }
 
+body.template-landitem-view p.text-center a.btn-default.btn-login {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  font-size: 16px;
+}
+
 .btn-primary {
   color: #FFFFFF;
   background-color: #A0B228;
