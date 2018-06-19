@@ -3,13 +3,15 @@ Changelog
 
 4.7.dev0 - (unreleased)
 -----------------------
-- Landitem view/Download: add styles for login button.
-- Landitem view: Hide unused tabs.
+- Fix: Get rid of deprecated labels (login required) for Image 2012, VHR 2012.
+  [GhitaB #96460]
+- Improve: Landitem view/Download: add styles for login button.
+- Improve: Landitem view: Hide unused tabs.
   [GhitaB #96128]
 
 4.6 - (2018-06-15)
 ------------------
-- Get fonts using browser view.
+- Fix: Get fonts using browser view.
   [GhitaB #95088]
 
 4.5 - (2018-05-22)
