@@ -1,4 +1,12 @@
 jQuery(document).ready(function($) {
+  // Add text in Register form
+  if($('body').hasClass('template-register') && $('body').hasClass('portaltype-plone-site')) {
+    var $form = $("article.main #content #content-core form");
+    if($form.length == 1) {
+      $("<p>WIP</p>").insertBefore($form);
+    }
+  }
+
   // trim description, it has too much space before
   var $description = $('#content .documentDescription');
   $description.text($.trim($description.text()));
