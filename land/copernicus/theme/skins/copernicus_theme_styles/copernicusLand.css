@@ -1204,7 +1204,7 @@ body.template-register #formfield-form-captcha .widget {
     margin-left: 10px;
   }
 
-  #formfield-form-disclaimer   {
+  #formfield-form-disclaimer {
     clear: left;
   }
 
@@ -1214,7 +1214,7 @@ body.template-register #formfield-form-captcha .widget {
 }
 
 .kssattr-formname-register #actionsView {
-  float: right;
+  float: left;
 }
 
 /* Fix "You can log in again below." text in logged_out */
@@ -1387,6 +1387,21 @@ body.template-register .main-content .col-lg-9 {
 
 body.template-register label {
   display: initial;
+}
+
+body.template-register input[type=text] {
+  width: 100% !important;
+}
+
+body.template-register .kssattr-formname-register #actionsView {
+  width: 50%;
+  position: relative;
+  left: 20%;
+}
+
+body.template-register form {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 div[data-diazo="land-news-list"] .listing-items .listing-item,
