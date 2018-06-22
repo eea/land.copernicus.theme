@@ -3,7 +3,13 @@ jQuery(document).ready(function($) {
   if($('body').hasClass('template-register') && $('body').hasClass('portaltype-plone-site')) {
     var $form = $("article.main #content #content-core form");
     if($form.length == 1) {
-      $("<p>WIP</p>").insertBefore($form);
+      $(
+          "<div class='info-box'>"
+        + "<p>You must be a registered user in order to download the data made available on this website. Please note: no registration is required for viewing information or accessing web services.</p>"
+        + "<h2>Have an EIONET account?</h2>"
+        + "<p>Members of the EIONET network can use their EIONET account or choose to create a new one.</p>"
+        + "</div>"
+      ).insertBefore($form);
     }
   }
 
