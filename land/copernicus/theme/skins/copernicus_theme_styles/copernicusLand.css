@@ -1048,17 +1048,10 @@ body.template-register #formfield-form-captcha .widget {
 /* Terms of use */
 #formfield-form-disclaimer {
   height: 60px;
-  width: 60%;
+  width: 100%;
   display: inline;
   float: left;
-  font-size: 12px;
-}
-
-@media screen and (max-width: 900px) {
-  /* Fixes I accept Terms of use in Register for small screen */
-  #formfield-form-disclaimer {
-    width: 45%;
-  }
+  font-size: 14px;
 }
 
 #formfield-form-disclaimer label span:first-child {
@@ -1152,17 +1145,6 @@ body.template-register #formfield-form-captcha .widget {
   margin-top: 20px; /* fix space for line */
 }
 
-/* Horizontal Line Bottom */
-#formfield-form-institutional_domain:after {
-  border-top: 1px solid #999999;
-  width: 100%;
-  height: 0px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  content: '';
-}
-
 #formfield-form-institutional_domain .widget {
   margin-bottom: 20px; /* fix space for line */
 }
@@ -1226,29 +1208,14 @@ body.template-register #formfield-form-captcha .widget {
     clear: left;
   }
 
-  .kssattr-formname-register #actionsView {
-    float: left;
-  }
-
   .kssattr-formname-register .actionButtons input {
     margin-left: 0px !important;
   }
-
-  #formfield-form-institutional_domain:after {
-    border-top: none !important;
-  }
-
-  .kssattr-formname-register:after {
-    border-top: 1px solid #999999;
-    width: 75%;
-    height: 0px;
-    position: absolute;
-    bottom: 0;
-    left: 10;
-    content: '';
-  }
 }
 
+.kssattr-formname-register #actionsView {
+  float: right;
+}
 
 /* Fix "You can log in again below." text in logged_out */
 .template-logged_out #content .documentDescription {
