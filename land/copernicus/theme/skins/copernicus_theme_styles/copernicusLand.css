@@ -940,6 +940,20 @@ body.template-register div#formfield-form-disclaimer_permission label span:first
   display: none;
 }
 
+input#form\.disclaimer_permission {
+  float: left;
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+
+body.template-register div#formfield-form-disclaimer_permission {
+  width: 100%;
+  float: right;
+  overflow: visible;
+  margin-bottom: 2em;
+}
+
 body.template-register div#formfield-form-disclaimer_permission label.disclaimer-permission {
   font-weight: normal;
 }
