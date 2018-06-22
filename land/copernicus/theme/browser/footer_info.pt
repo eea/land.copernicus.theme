@@ -1,5 +1,8 @@
 <ul id="copernicus-footer-info">
   <li class="first">Copyright Copernicus Programme</li>
+  <li>
+    <a href="/terms-of-use">Privacy policy and terms of use</a>
+  </li>
   <li tal:define="last_update_date view/last_update;
                   localized_date python: here.toLocalizedTime(last_update_date)">
     Last update <span tal:replace="localized_date">May 31, 2013</span>
