@@ -932,8 +932,16 @@ and (resolution: 163dpi) {
 
 body.template-register.portaltype-plone-site div.info-box {
   border: 1px solid #DDD;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   padding: 15px;
+}
+
+body.template-register div#formfield-form-disclaimer_permission label span:first-of-type {
+  display: none;
+}
+
+body.template-register div#formfield-form-disclaimer_permission label.disclaimer-permission {
+  font-weight: normal;
 }
 
 body.template-register #formfield-form-captcha .fieldErrorBox {

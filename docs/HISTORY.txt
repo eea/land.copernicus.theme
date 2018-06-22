@@ -4,6 +4,7 @@ Changelog
 4.7.dev0 - (unreleased)
 -----------------------
 - Feature: Add info box in Register form about EIONET accounts.
+- Improve: Add styles for disclaimer permissions field in Register form.
   [GhitaB #96522]
 - Fix: Get rid of deprecated labels (login required) for Image 2012, VHR 2012.
   [GhitaB #96460]
