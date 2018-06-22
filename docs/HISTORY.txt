@@ -3,6 +3,8 @@ Changelog
 
 4.7.dev0 - (unreleased)
 -----------------------
+- Feature: Add info box in Register form about EIONET accounts.
+  [GhitaB #96522]
 - Fix: Get rid of deprecated labels (login required) for Image 2012, VHR 2012.
   [GhitaB #96460]
 - Improve: Landitem view/Download: add styles for login button.
