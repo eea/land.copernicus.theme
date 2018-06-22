@@ -1394,7 +1394,7 @@ body.template-register input[type=text] {
 }
 
 body.template-register .kssattr-formname-register #actionsView {
-  width: 50%;
+  width: 80%;
   position: relative;
   left: 20%;
 }
@@ -1402,6 +1402,14 @@ body.template-register .kssattr-formname-register #actionsView {
 body.template-register form {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+body.template-register span.info-text-bottom {
+  font-style: italic;
+  font-size: 90%;
+  float: right;
+  position: relative;
+  top: 2em;
 }
 
 div[data-diazo="land-news-list"] .listing-items .listing-item,

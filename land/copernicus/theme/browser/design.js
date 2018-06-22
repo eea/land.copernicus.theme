@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-  // Add text in Register form
+  // Add texts in Register form
   if($('body').hasClass('template-register') && $('body').hasClass('portaltype-plone-site')) {
     var $form = $("article.main #content #content-core form");
     if($form.length == 1) {
@@ -10,6 +10,13 @@ jQuery(document).ready(function($) {
         + "<p>Members of the EIONET network can use their EIONET account or choose to create a new one.</p>"
         + "</div>"
       ).insertBefore($form);
+
+      $(
+          "<span class='info-text-bottom'>"
+        + "Please contact <a href='http://land.copernicus.eu/contact-form'>the service desk</a>,"
+        + " if you have any questions.<p>"
+        + "</span>"
+      ).insertAfter($("#actionsView span.actionButtons"));
     }
   }
 
