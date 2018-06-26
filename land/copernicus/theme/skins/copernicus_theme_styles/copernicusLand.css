@@ -1013,15 +1013,8 @@ body.template-register #formfield-form-captcha .widget {
   margin:0;
   vertical-align: bottom;
   position: relative;
-  *overflow: hidden;
-}
-
-.template-personal-information .checkboxType {
-  top: -8px;
-}
-
-.kssattr-formname-register .checkboxType {
   top: -3px;
+  *overflow: hidden;
 }
 
 #formfield-form-thematic_domain label,
