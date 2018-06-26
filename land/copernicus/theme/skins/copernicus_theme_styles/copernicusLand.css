@@ -1157,7 +1157,7 @@ body.template-register #formfield-form-captcha .widget {
     width: 50%;
   }
 
-  .template-personal-information .edit-form .field:last-child {
+  .template-personal-information .edit-form .field:nth-child(2) {
     float: right;
     width: 50%;
     clear: none;
