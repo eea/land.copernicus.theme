@@ -29,8 +29,12 @@ jQuery(document).ready(function($) {
      $('body').hasClass('template-personal-preferences') ||
      $('body').hasClass('template-personal-information')
   )) {
-    // Rename "Personal information" to "Personal settings" in
+    // Rename "Personal information" to "Personal settings"
     $("div#edit-bar ul#content-views li#contentview-user_data-personal-information a").text("Personal settings");
+
+    if($('body').hasClass('template-personal-information')) {
+      $("div#content h1.documentFirstHeading").text("Personal settings");
+    }
 
     // Hide Personal preferences tab for non-manager users
     if(!$('body').hasClass('userrole-manager')) {
