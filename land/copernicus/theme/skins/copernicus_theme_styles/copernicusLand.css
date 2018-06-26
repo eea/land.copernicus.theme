@@ -884,6 +884,20 @@ and (resolution: 163dpi) {
   margin-top: -15px;
 }
 
+.template-personal-information .edit-form .field:last-of-type {
+  overflow: visible;
+  position: relative;
+  top: 10px;
+}
+
+.template-personal-information .edit-form .field:last-of-type .widget {
+  width: 100%;
+}
+
+.template-personal-information .edit-form .field:last-of-type label[for='form.disclaimer_permission'] {
+  display: none;
+}
+
 .template-personal-information .edit-form .field label {
   font-weight: normal;
 }
@@ -1148,7 +1162,6 @@ body.template-register #formfield-form-captcha .widget {
 #formfield-form-institutional_domain .widget {
   margin-bottom: 20px; /* fix space for line */
 }
-
 
 @media screen and (min-width: 770px) {
   /* Personal information edit form styles with 2 columns for large screens */
