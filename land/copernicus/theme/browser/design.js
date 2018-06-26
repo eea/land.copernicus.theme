@@ -20,6 +20,19 @@ jQuery(document).ready(function($) {
     }
   }
 
+  // Rename "Personal information" to "Personal settings" in
+  // site/@@personal-information
+  // site/@@personal-preferences
+  // site/@@change-password
+
+  if($('body').hasClass('portaltype-plone-site') && (
+     $('body').hasClass('template-change-password') ||
+     $('body').hasClass('template-personal-preferences') ||
+     $('body').hasClass('template-personal-information')
+  )) {
+    $("div#edit-bar ul#content-views li#contentview-user_data-personal-information a").text("Personal settings");
+  }
+
   // trim description, it has too much space before
   var $description = $('#content .documentDescription');
   $description.text($.trim($description.text()));
