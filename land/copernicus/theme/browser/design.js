@@ -20,17 +20,22 @@ jQuery(document).ready(function($) {
     }
   }
 
-  // Rename "Personal information" to "Personal settings" in
+  // Overrides in:
   // site/@@personal-information
   // site/@@personal-preferences
   // site/@@change-password
-
   if($('body').hasClass('portaltype-plone-site') && (
      $('body').hasClass('template-change-password') ||
      $('body').hasClass('template-personal-preferences') ||
      $('body').hasClass('template-personal-information')
   )) {
+    // Rename "Personal information" to "Personal settings" in
     $("div#edit-bar ul#content-views li#contentview-user_data-personal-information a").text("Personal settings");
+
+    // Hide Personal preferences tab for non-manager users
+    if(!$('body').hasClass('userrole-manager')) {
+      $("div#edit-bar ul#content-views li#contentview-user_data-personal-preferences").hide();
+    }
   }
 
   // trim description, it has too much space before
