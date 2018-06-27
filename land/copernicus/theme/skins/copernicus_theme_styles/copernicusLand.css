@@ -954,6 +954,10 @@ body.template-register div#formfield-form-disclaimer_permission label span:first
   display: none;
 }
 
+body.template-register #formfield-form-mail_me {
+  display: none;
+}
+
 input#form\.disclaimer_permission {
   float: left;
   margin-right: 5px;
