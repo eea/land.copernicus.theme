@@ -3,6 +3,8 @@ Changelog
 
 4.7.dev0 - (unreleased)
 -----------------------
+- Feature: styles related to new changes in register form, personal settings,
+  footer, password reset.
 - Feature: Add info box in Register form about EIONET accounts.
 - Improve: Add styles for disclaimer permissions field in Register form.
   [GhitaB #96522]
