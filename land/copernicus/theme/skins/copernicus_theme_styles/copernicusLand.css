@@ -1080,13 +1080,6 @@ body.template-register #formfield-form-captcha .widget {
   display: none;  /* Hide Accept terms of use Description */
 }
 
-#formfield-form-disclaimer input {
-  width: 60px !important;
-  text-align: left;
-  margin-top: 5px;
-  margin-left: -50px;
-}
-
 /* Register button */
 .actionButtons input {
   display: inline;
