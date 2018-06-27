@@ -970,8 +970,24 @@ body.template-register div#formfield-form-disclaimer_permission {
   float: right;
   overflow: visible;
   margin-bottom: 2em;
-  position: relative;
-  top: -1em;
+}
+
+@media (min-width: 930px) and (max-width: 1200px) {
+  body.template-register div#formfield-form-disclaimer_permission {
+    min-height: 60px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 930px) {
+  body.template-register div#formfield-form-disclaimer_permission {
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  body.template-register div#formfield-form-disclaimer_permission {
+    min-height: 180px;
+  }
 }
 
 body.template-register div#formfield-form-disclaimer_permission label.disclaimer-permission {
@@ -985,7 +1001,6 @@ body.template-register #formfield-form-captcha .fieldErrorBox {
 body.template-register #formfield-form-captcha .widget {
   position: relative;
   float: right;
-  top: -20px;
 }
 
 #formfield-form-thematic_domain .widget,
