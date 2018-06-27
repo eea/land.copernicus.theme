@@ -1,8 +1,8 @@
 Changelog
 =========
 
-4.7.dev0 - (unreleased)
------------------------
+4.7 - (2018-06-27)
+------------------
 - Feature: styles related to new changes in register form, personal settings,
   footer, password reset.
 - Feature: Add info box in Register form about EIONET accounts.
