@@ -966,6 +966,8 @@ body.template-register div#formfield-form-disclaimer_permission {
   float: right;
   overflow: visible;
   margin-bottom: 2em;
+  position: relative;
+  top: -1em;
 }
 
 body.template-register div#formfield-form-disclaimer_permission label.disclaimer-permission {
@@ -1071,8 +1073,8 @@ body.template-register #formfield-form-captcha .widget {
 
 #formfield-form-disclaimer label {
   position: absolute;
-  top: 0px;
-  left: -10px;
+  top: -7px;
+  left: 18px;
   font-weight: normal;
 }
 
