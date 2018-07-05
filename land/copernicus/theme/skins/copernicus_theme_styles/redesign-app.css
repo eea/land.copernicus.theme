@@ -7646,6 +7646,18 @@ input#long_title {
   display: none;
 }
 
+body.template-search-by-tags div.main-content > div.col-lg-8 {
+  width: 100%;
+}
+
+body.template-search-by-tags div#search-app {
+  max-width: 100%;
+}
+
+body.template-search-by-tags div#search-app div.item a.btn {
+  display: inline-block;
+}
+
 body.template-search-by-tags div[data-diazo=insitu-news-list],
 body.template-search-by-tags div[data-diazo=insitu-events-list] {
   display: none;
