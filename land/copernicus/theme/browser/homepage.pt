@@ -68,12 +68,16 @@
                   <a tal:attributes="href string:${portal_url}/in-situ">
                     <div class="text-center">
                       <div class="circle" id="circles-4">
-                        <img class="sprite land-icon-reference-data" alt="Reference data" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==">
+                        <img class="sprite land-icon-reference-data" alt="Imagery and reference data" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==">
                       </div>
                       <h4 class="text-center">
-                        <strong>Reference data</strong>
+                        <strong>Imagery and reference data</strong>
                       </h4>
-                      <p class="small-font"><em>All of the Copernicus services need access to in-situ data in order to ensure an efficient and effective use of Copernicus space-borne data</em></p>
+                      <p class="small-font">
+                        <em>
+                          Satellite imagery forms the input for the creation of Copernicus land products. In order to ensure an efficient and effective use of satellite data the Copernicus land monitoring service needs access to in-situ data.
+                        </em>
+                      </p>
                     </div>
                   </a>
                 </div>
