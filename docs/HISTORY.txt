@@ -1,8 +1,8 @@
 Changelog
 =========
 
-4.8.dev0 - (unreleased)
------------------------
+4.8 - (2018-09-06)
+------------------
 - Improve: update texts and link in homepage jumbotron reference data.
   [GhitaB #98233]
 
