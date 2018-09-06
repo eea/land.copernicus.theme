@@ -65,7 +65,7 @@
                   </a>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                  <a tal:attributes="href string:${portal_url}/in-situ">
+                  <a tal:attributes="href string:${portal_url}/imagery-in-situ">
                     <div class="text-center">
                       <div class="circle" id="circles-4">
                         <img class="sprite land-icon-reference-data" alt="Imagery and reference data" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==">
