@@ -3,6 +3,9 @@ Changelog
 
 4.9.dev0 - (unreleased)
 -----------------------
+- Improve: custom layout for section: Imagery and reference data
+- Improve: update text in homepage jumbotron reference data.
+  [GhitaB #98233]
 
 4.8 - (2018-09-06)
 ------------------
