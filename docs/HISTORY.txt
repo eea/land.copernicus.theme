@@ -3,6 +3,9 @@ Changelog
 
 5.0.dev0 - (unreleased)
 -----------------------
+- Improve: custom layout for section: Imagery and reference data
+- Fix: do not apply custom layout on subsections.
+  [GhitaB #98233]
 
 4.9 - (2018-09-10)
 ------------------
