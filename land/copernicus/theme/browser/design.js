@@ -1,4 +1,44 @@
 jQuery(document).ready(function($) {
+  // Custom layout for section: Imagery and reference data
+  if($('body').hasClass('template-atct_album_view') && $('body').hasClass('section-imagery-in-situ')) {
+    var $content_core = $("div#content-core");
+    var $albums = $content_core.find("div.photoAlbumEntry");
+    var $description = $content_core.find("div#parent-fieldname-description");
+
+    $content_core.prepend(
+        "<div class='row'>"
+
+      + "<div class='col-lg-7 col-md-12 col-sm-12 col-xs-12 col-left'>"
+      + "<div class='row'>"
+      + "<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 items-row-1'></div>"
+      + "</div>"
+      + "<div class='row'>"
+      + "<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 items-row-2'></div>"
+      + "</div>"
+      + "<div class='row'>"
+      + "<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 items-row-3'></div>"
+      + "</div>"
+      + "</div>"
+
+      + "<div class='col-lg-5 col-md-12 col-sm-12 col-xs-12 col-right'>"
+      + "</div>"
+
+      + "</div>"
+    );
+
+    $content_core.find("div.col-right").first().append($description);
+    $col_left = $content_core.find("div.col-left").first();
+
+    $col_left.find("div.items-row-1").append($albums[0]); // EU-DEM
+    $col_left.find("div.items-row-1").append($albums[1]); // EU-Hydro
+
+    $col_left.find("div.items-row-2").append($albums[2]); // Lucas
+
+    for(var i=3; i < $albums.length; i++) {
+      $col_left.find("div.items-row-3").append($albums[i]); // European Image Mosaics, Global Image Mosaics, other
+    }
+  }
+
   // Add texts in Register form
   if($('body').hasClass('template-register') && $('body').hasClass('portaltype-plone-site')) {
     var $form = $("article.main #content #content-core form");
