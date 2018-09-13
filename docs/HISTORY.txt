@@ -1,8 +1,8 @@
 Changelog
 =========
 
-5.2.dev0 - (unreleased)
------------------------
+5.2 - (2018-09-13)
+------------------
 - Feature: add new dropdown option in main menu - Product portfolio / Overview
   Manual step: add and publish folders Product portfolio and Overview.
   [GhitaB #98445]
