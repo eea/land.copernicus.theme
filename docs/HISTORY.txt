@@ -1,6 +1,9 @@
 Changelog
 =========
 
+5.3.dev0 - (unreleased)
+-----------------------
+
 5.2 - (2018-09-13)
 ------------------
 - Feature: add new dropdown option in main menu - Product portfolio / Overview
