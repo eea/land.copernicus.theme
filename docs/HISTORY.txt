@@ -3,6 +3,8 @@ Changelog
 
 5.1.dev0 - (unreleased)
 -----------------------
+- Improve: add styles related to reCAPTCHA field in contact form.
+  [GhitaB #98066]
 
 5.0 - (2018-09-10)
 ------------------
