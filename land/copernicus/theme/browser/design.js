@@ -100,7 +100,10 @@ jQuery(document).ready(function($) {
     return false;
   });
 
-  // Main menu behaviour for dropdown items (News)
+  // Main menu behaviour for dropdown items (News, Product portfolio)
+  var $product_portfolio_menu = $("#portaltab-product-portfolio");
+  $product_portfolio_menu.prependTo("ul.nav.land-social-icons");
+
   var $news_menu = $("#portaltab-news-items");
   $news_menu.appendTo("ul.nav.land-social-icons");
 

@@ -6053,9 +6053,14 @@ div.pagination.listingBar span.current {
   .navbar-nav ul.dropdown-menu li:last-child {
     margin-bottom: -5px; }
 
-#portaltab-news-items ul.dropdown-menu {
+#portaltab-news-items ul.dropdown-menu,
+#portaltab-product-portfolio ul.dropdown-menu {
   position: absolute;
   top: 30px;
+}
+
+#portaltab-product-portfolio {
+  margin-right: 95px;
 }
 
 .btn-default,

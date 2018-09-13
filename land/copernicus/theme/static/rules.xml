@@ -119,7 +119,23 @@
               </li>
             </xsl:if>
 
-            <xsl:if test="not(contains(./@id, 'portaltab-index_html')) and not(contains(./@id, 'portaltab-news-items'))">
+            <xsl:if test="contains(./@id, 'portaltab-product-portfolio')">
+
+              <li class="dropdown" id="portaltab-product-portfolio" data-hover="dropdown">
+
+                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                   aria-haspopup="true" id="dropdown-product-portfolio" href="{./a/@href}">Product portfolio</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-product-portfolio">
+                  <li id="portaltableaf-overview">
+                    <a href="{./a/@href}/overview">Overview</a>
+                  </li>
+                </ul>
+              </li>
+            </xsl:if>
+
+            <xsl:if test="not(contains(./@id, 'portaltab-index_html')) and
+                          not(contains(./@id, 'portaltab-news-items')) and
+                          not(contains(./@id, 'portaltab-product-portfolio'))">
               <xsl:attribute name="id">
                 <xsl:value-of select="@id" />
               </xsl:attribute>
@@ -217,7 +233,23 @@
                 </li>
               </xsl:if>
 
-              <xsl:if test="not(contains(./@id, 'portaltab-index_html')) and not(contains(./@id, 'portaltab-news-items'))">
+              <xsl:if test="contains(./@id, 'portaltab-product-portfolio')">
+
+                <li class="dropdown" id="portaltab-product-portfolio" data-hover="dropdown">
+
+                  <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+                     aria-haspopup="true" id="dropdown-product-portfolio" href="{./a/@href}">Product portfolio</a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-product-portfolio">
+                    <li id="portaltableaf-overview">
+                      <a href="{./a/@href}/overview">Overview</a>
+                    </li>
+                  </ul>
+                </li>
+              </xsl:if>
+
+              <xsl:if test="not(contains(./@id, 'portaltab-index_html')) and
+                            not(contains(./@id, 'portaltab-news-items')) and
+                            not(contains(./@id, 'portaltab-product-portfolio'))">
                 <xsl:attribute name="id">
                   <xsl:value-of select="@id" />
                 </xsl:attribute>
