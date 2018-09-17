@@ -3,6 +3,8 @@ Changelog
 
 5.3.dev0 - (unreleased)
 -----------------------
+- Improve: styles for Product portfolio and Overview.
+  [GhitaB #98445]
 
 5.2 - (2018-09-13)
 ------------------
