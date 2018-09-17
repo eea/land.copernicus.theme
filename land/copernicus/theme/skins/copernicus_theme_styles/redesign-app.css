@@ -6059,6 +6059,10 @@ div.pagination.listingBar span.current {
   top: 30px;
 }
 
+body.subsection-overview-product-portfolio-overview div.main-content div.col-lg-9 {
+  width: 100% !important;
+}
+
 .btn-default,
 .btn-primary,
 .btn-warning,
