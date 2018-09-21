@@ -27,7 +27,6 @@
   <stylesheet id="++resource++jquery.tokeninput.facebook.css" rendering="link" />
   <stylesheet id="++resource++jquery.tokeninput.css" rendering="link" />
   <stylesheet id="++resource++jquery.select2uislider.css" rendering="link" />
-  <stylesheet id="ploneboard.css" rendering="link" />
 
   <!-- Used: -->
   <stylesheet bundle="default" id="authoring.css" />

@@ -3,6 +3,8 @@ Changelog
 
 5.3.dev0 - (unreleased)
 -----------------------
+- Fix: Get rid of unused Ploneboard styles.
+  [GhitaB #98613]
 - Improve: styles for Product portfolio and Overview.
   [GhitaB #98445]
 
