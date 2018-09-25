@@ -16,7 +16,9 @@
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
     <replace content="/html/head/meta" css:theme="[data-diazo='meta-after-placeholder']" />
     <drop css:theme=".portlet-content" />
-    <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
+
+    <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/script" /> <!-- Google Analytics & Matomo -->
+
     <replace content="/html/head/base | /html/head/style | /html/head/comment()" css:theme="[data-diazo='links-and-scripts']" />
     <replace css:theme="[data-diazo='footer-scripts']">
       <xsl:for-each select="/html/head/script">
