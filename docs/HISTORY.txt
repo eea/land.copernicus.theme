@@ -1,8 +1,8 @@
 Changelog
 =========
 
-5.4.dev0 - (unreleased)
------------------------
+5.4 - (2018-09-26)
+------------------
 - Improve: update diazo rules for analytics to work for multiple scripts and
   noscript tag. (Matomo related.)
   [GhitaB #98853]
