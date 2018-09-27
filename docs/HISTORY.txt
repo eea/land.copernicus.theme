@@ -3,6 +3,9 @@ Changelog
 
 5.5.dev0 - (unreleased)
 -----------------------
+- Fix: Simple page - include noscript tag (Matomo), load analytics scripts in
+  head.
+  [GhitaB #98853]
 
 5.4 - (2018-09-26)
 ------------------
