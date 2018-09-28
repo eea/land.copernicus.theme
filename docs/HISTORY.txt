@@ -3,6 +3,8 @@ Changelog
 
 5.5.dev0 - (unreleased)
 -----------------------
+- Fix: Hide required icon for non-required field in user information form.
+  [GhitaB #98827]
 - Fix: Simple page - include noscript tag (Matomo), load analytics scripts in
   head.
   [GhitaB #98853]
@@ -190,8 +192,8 @@ Changelog
   styles for eea.pdf print pdf, styles for PloneHelpCenter sections,
   styles for download information section, other minor fixes
   [GhitaB refs #24843, #25172, #25381, #25385, #25462, #25684, #25846, #25848,
-   #25849, #25806, #25727, #25735, #25732, #27615, #28173, #28272, #28589, #28876,
-   #29507, #31006, #31044, #30206]
+   #25849, #25806, #25727, #25735, #25732, #27615, #28173, #28272, #28589,
+   #28876, #29507, #31006, #31044, #30206]
 - Change: Switched to curl in the jenkins build install script
   [olimpiurob refs #22402]
 - Change: Changed fetch url for jenkins build install script to the install
