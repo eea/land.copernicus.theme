@@ -2062,6 +2062,10 @@ fieldset[disabled] a.btn {
     color: #A0B228;
     background-color: #FFFFFF; }
 
+body.template-user-information label[for="form.disclaimer_permission"] span.required {
+  display: none;
+}
+
 body.template-landitem-view p.text-center a.btn-default.btn-login {
   color: #FFFFFF !important;
   text-decoration: none !important;
