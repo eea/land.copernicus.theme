@@ -2062,6 +2062,11 @@ fieldset[disabled] a.btn {
     color: #A0B228;
     background-color: #FFFFFF; }
 
+body.template-view.portaltype-eea-meeting-subscribers a.btn.btn-default {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+}
+
 body.template-user-information label[for="form.disclaimer_permission"] span.required {
   display: none;
 }
