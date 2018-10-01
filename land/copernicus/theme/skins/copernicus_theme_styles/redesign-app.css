@@ -2062,7 +2062,8 @@ fieldset[disabled] a.btn {
     color: #A0B228;
     background-color: #FFFFFF; }
 
-body.template-view.portaltype-eea-meeting-subscribers a.btn.btn-default {
+body.template-view.portaltype-eea-meeting-subscribers a.btn.btn-default,
+body.template-view.portaltype-eea-meeting-emails a.btn.btn-default {
   color: #FFFFFF !important;
   text-decoration: none !important;
 }
