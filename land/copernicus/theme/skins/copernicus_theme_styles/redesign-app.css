@@ -2062,6 +2062,13 @@ fieldset[disabled] a.btn {
     color: #A0B228;
     background-color: #FFFFFF; }
 
+body.template-view.portaltype-eea-meeting div.main-content > div.col-lg-9 {
+  width: 100%;
+}
+body.template-view.portaltype-eea-meeting div.main-content > div.col-lg-3[data-diazo="land-secondary-column"] {
+  display: none;
+}
+
 body.template-view.portaltype-eea-meeting-subscribers a.btn.btn-default,
 body.template-view.portaltype-eea-meeting-emails a.btn.btn-default {
   color: #FFFFFF !important;
