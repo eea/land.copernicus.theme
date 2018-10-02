@@ -1,8 +1,8 @@
 Changelog
 =========
 
-5.5.dev0 - (unreleased)
------------------------
+5.5 - (2018-10-02)
+------------------
 - Feature: Styles for eea.meeting.
   [GhitaB #97529]
 - Fix: Hide required icon for non-required field in user information form.
