@@ -1,5 +1,49 @@
 body.mceForceColors {background:#FFF; color:#000;}
 
+.land-font-size-8 {
+  font-size: 8px !important;
+}
+
+.land-font-size-9 {
+  font-size: 9px !important;
+}
+
+.land-font-size-10 {
+  font-size: 10px !important;
+}
+
+.land-font-size-12 {
+  font-size: 12px !important;
+}
+
+.land-font-size-14 {
+  font-size: 14px !important;
+}
+
+.land-font-size-16 {
+  font-size: 16px !important;
+}
+
+.land-font-size-18 {
+  font-size: 18px !important;
+}
+
+.land-font-size-20 {
+  font-size: 20px !important;
+}
+
+.land-font-size-24 {
+  font-size: 20px !important;
+}
+
+.land-font-size-36 {
+  font-size: 36px !important;
+}
+
+.land-font-size-48 {
+  font-size: 48px !important;
+}
+
 .mceContentBody {
     background: transparent;
 }

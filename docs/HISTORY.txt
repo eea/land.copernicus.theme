@@ -3,6 +3,20 @@ Changelog
 
 5.6.dev0 - (unreleased)
 -----------------------
+- Feature: Font sizes in TinyMCE editor.
+  Manual step: In /portal_tinymce/@@tinymce-controlpanel - Styles add:
+  Font size 8|span|land-font-size-8
+  Font size 9|span|land-font-size-9
+  Font size 10|span|land-font-size-10
+  Font size 12|span|land-font-size-12
+  Font size 14|span|land-font-size-14
+  Font size 16|span|land-font-size-16
+  Font size 18|span|land-font-size-18
+  Font size 20|span|land-font-size-20
+  Font size 24|span|land-font-size-24
+  Font size 36|span|land-font-size-36
+  Font size 48|span|land-font-size-48
+  [GhitaB #98727]
 
 5.5 - (2018-10-02)
 ------------------
