@@ -3,6 +3,8 @@ Changelog
 
 5.6.dev0 - (unreleased)
 -----------------------
+- Feature: Styles for eea.meeting.
+  [GhitaB #97529]
 - Feature: Font sizes in TinyMCE editor.
   Manual step: In /portal_tinymce/@@tinymce-controlpanel - Styles add:
   Font size 8|span|land-font-size-8

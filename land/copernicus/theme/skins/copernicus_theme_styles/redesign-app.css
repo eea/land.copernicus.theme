@@ -2106,6 +2106,10 @@ fieldset[disabled] a.btn {
   font-size: 48px !important;
 }
 
+body.template-meetings_table_view table.event-table > thead {
+  display: none !important;
+}
+
 body.template-view.portaltype-eea-meeting-subscribers a.btn.btn-default,
 body.template-view.portaltype-eea-meeting-emails a.btn.btn-default {
   color: #FFFFFF !important;
