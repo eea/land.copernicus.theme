@@ -2154,6 +2154,19 @@ body.template-view.portaltype-eea-meeting div.event-metadata div.eventDetails.vc
   border-right: none !important;
 }
 
+.btn.event-register {
+  border: none;
+  color: #FFFFFF !important;
+  border-radius: 6px;
+  background: #A0B228;
+}
+
+.btn.event-register:hover {
+  background: #819110;
+  color: white;
+  box-shadow: none;
+}
+
 body.template-view.portaltype-eea-meeting-subscribers a.btn.btn-default,
 body.template-view.portaltype-eea-meeting-emails a.btn.btn-default {
   color: #FFFFFF !important;
