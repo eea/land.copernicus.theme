@@ -2154,14 +2154,14 @@ body.template-view.portaltype-eea-meeting div.event-metadata div.eventDetails.vc
   border-right: none !important;
 }
 
-.btn.event-register {
+body.template-view.portaltype-eea-meeting div.event-metadata .btn.event-register {
   border: none;
   color: #FFFFFF !important;
   border-radius: 6px;
   background: #A0B228;
 }
 
-.btn.event-register:hover {
+body.template-view.portaltype-eea-meeting div.event-metadata .btn.event-register:hover {
   background: #819110;
   color: white;
   box-shadow: none;
