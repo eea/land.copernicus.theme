@@ -2110,6 +2110,26 @@ body.template-meetings_table_view table.event-table > thead {
   display: none !important;
 }
 
+body.template-meetings_table_view table {
+  border: none;
+}
+
+body.template-meetings_table_view table.event-table tr td {
+  border-color: #DDDDDD !important;
+  border-left: none !important;
+  border-right: none !important;
+  padding: 10px !important;
+  background: #FFFFFF;
+}
+
+body.template-meetings_table_view table.event-table tr:hover td {
+  background: #DFF2FF;
+}
+
+body.template-meetings_table_view table.event-table tr:hover td a {
+  color: #1E1E1E !important;
+}
+
 body.template-view.portaltype-eea-meeting-subscribers a.btn.btn-default,
 body.template-view.portaltype-eea-meeting-emails a.btn.btn-default {
   color: #FFFFFF !important;
