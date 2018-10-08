@@ -2130,6 +2130,30 @@ body.template-meetings_table_view table.event-table tr:hover td a {
   color: #1E1E1E !important;
 }
 
+body.template-view.portaltype-eea-meeting div.event-metadata a {
+  text-decoration: none !important;
+}
+
+body.template-view.portaltype-eea-meeting div.event-metadata div.eventDetails.vcard table[summary="Event details"] {
+  border: none;
+}
+
+body.template-view.portaltype-eea-meeting div.event-metadata div.eventDetails.vcard table[summary="Event details"] th {
+  background: #FFFFFF;
+  color: #1E1E1E;
+  border-left: none !important;
+  border-right: none !important;
+  border-color: #DDDDDD !important;
+}
+
+body.template-view.portaltype-eea-meeting div.event-metadata div.eventDetails.vcard table[summary="Event details"] td {
+  background: #FFFFFF;
+  color: #1E1E1E;
+  border-color: #DDDDDD !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
 body.template-view.portaltype-eea-meeting-subscribers a.btn.btn-default,
 body.template-view.portaltype-eea-meeting-emails a.btn.btn-default {
   color: #FFFFFF !important;
