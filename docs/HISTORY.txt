@@ -3,6 +3,8 @@ Changelog
 
 5.7.dev0 - (unreleased)
 -----------------------
+- Fix: custom font size 24 for TinyMCE typo in styles.
+  [GhitaB #98727]
 
 5.6 - (2018-10-08)
 ------------------
