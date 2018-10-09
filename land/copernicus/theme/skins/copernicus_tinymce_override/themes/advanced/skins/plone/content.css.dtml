@@ -33,7 +33,7 @@ body.mceForceColors {background:#FFF; color:#000;}
 }
 
 .land-font-size-24 {
-  font-size: 20px !important;
+  font-size: 24px !important;
 }
 
 .land-font-size-36 {
