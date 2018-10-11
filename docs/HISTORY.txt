@@ -1,6 +1,9 @@
 Changelog
 =========
 
+5.8.dev0 - (unreleased)
+-----------------------
+
 5.7 - (2018-10-11)
 ------------------
 - Improve: Meeting view styles / responsivity.
