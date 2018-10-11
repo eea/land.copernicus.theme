@@ -3,6 +3,8 @@ Changelog
 
 5.7.dev0 - (unreleased)
 -----------------------
+- Improve: Meeting view styles / responsivity.
+  [GhitaB #97529]
 - Fix: custom font size 24 for TinyMCE typo in styles.
   [GhitaB #98727]
 

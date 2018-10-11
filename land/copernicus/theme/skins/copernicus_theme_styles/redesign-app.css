@@ -2130,6 +2130,18 @@ body.template-meetings_table_view table.event-table tr:hover td a {
   color: #1E1E1E !important;
 }
 
+body.template-view.portaltype-eea-meeting div.event-metadata {
+  max-width: 350px;
+}
+
+body.template-view.portaltype-eea-meeting div.geolocation_wrapper {
+  width: 550px;
+}
+
+body.template-view.portaltype-eea-meeting div.geolocation_wrapper div.map {
+  height: 350px;
+}
+
 body.template-view.portaltype-eea-meeting div.event-metadata a {
   text-decoration: none !important;
 }
