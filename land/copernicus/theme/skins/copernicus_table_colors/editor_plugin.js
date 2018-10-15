@@ -122,7 +122,6 @@
 })();
 
 // TODO
-// - get rid of cdn scripts
 // - keep last color used as selected by default
 // - close dialog window on save
 // - make sure you can fill only tds and ths
