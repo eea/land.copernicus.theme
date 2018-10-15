@@ -60,7 +60,6 @@
     },
 
     _onEdit: function() {
-      alert("Edited.");
     },
 
     /**
