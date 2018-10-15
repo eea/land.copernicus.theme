@@ -18,8 +18,8 @@
       ed.addCommand('mceCopernicusTableColors', function() {
         ed.windowManager.open({
           file : url + '/copernicus_table_colors.html',
-          width : 900 + ed.getLang('copernicus_table_colors.delta_width', 0),
-          height : 700 + ed.getLang('copernicus_table_colors.delta_height', 0),
+          width : 500 + ed.getLang('copernicus_table_colors.delta_width', 0),
+          height : 200 + ed.getLang('copernicus_table_colors.delta_height', 0),
           inline : 1
         }, {
           plugin_url : url, // Plugin absolute URL
