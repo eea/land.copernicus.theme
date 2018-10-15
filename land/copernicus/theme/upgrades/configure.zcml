@@ -128,4 +128,15 @@
       />
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+      source="3.2"
+      destination="5.8"
+      profile="land.copernicus.theme:default">
+
+    <genericsetup:upgradeDepends
+      title="Import skins and tinymce settings."
+      import_steps="skins tinymce_settings"
+      />
+
+  </genericsetup:upgradeSteps>
 </configure>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<object>
+ <toolbar>
+  <customtoolbarbuttons purge="False">
+    <element value="copernicus_table_colors"/>
+  </customtoolbarbuttons>
+ </toolbar>
+
+ <resourcetypes purge="False">
+  <customplugins purge="False">
+    <element value="copernicus_table_colors|portal_skins/copernicus_table_colors/editor_plugin.js"/>
+  </customplugins>
+ </resourcetypes>
+</object>

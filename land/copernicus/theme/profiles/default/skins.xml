@@ -17,6 +17,12 @@
     directory="land.copernicus.theme:skins/copernicus_theme_styles"
     />
 
+  <object
+    name="copernicus_table_colors"
+    meta_type="Filesystem Directory View"
+    directory="land.copernicus.theme:skins/copernicus_table_colors"
+    />
+
   <skin-path name="Copernicus Theme" based-on="Sunburst Theme">
     <layer name="copernicus_theme_templates" insert-after="custom" />
     <layer name="copernicus_theme_styles" insert-after="custom" />
@@ -24,6 +30,7 @@
 
   <skin-path name="*">
     <layer name="copernicus_theme_images" insert-after="custom"/>
+    <layer name="copernicus_table_colors" insert-after="custom" />
   </skin-path>
 
 </object>
