@@ -33,9 +33,9 @@
         image : url + '/img/copernicus_table_colors.png'
       });
 
-      // Add a node change handler, selects the button in the UI when a child of a table is selected
+      // Add a node change handler, selects the button in the UI when a table cell is selected
       ed.onNodeChange.add(function(ed, cm, n) {
-        cm.setActive('copernicus_table_colors', $(n).closest("table td").length);
+        cm.setActive('copernicus_table_colors', $(n).closest("table td, table th").length);
       });
     },
 
