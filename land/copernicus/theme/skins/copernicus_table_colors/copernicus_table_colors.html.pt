@@ -11,16 +11,16 @@
 <form onsubmit="tinymce.activeEditor.plugins.copernicus_table_colors._onSave();" action="#">
   <div class="mceInputPanel">
     <div id="copernicus-table-colors">
+      <input type='text' id="select-color" data-selected-color="" />
+      <select id="select-type">
+        <option value="cell">cell</option>
+        <option value="row">row</option>
+        <option value="column">column</option>
+      </select>
     </div>
   </div>
 
   <div class="mceActionPanel">
-    <input type='text' id="select-color" data-selected-color="" />
-    <select id="select-type">
-      <option value="cell">cell</option>
-      <option value="row">row</option>
-      <option value="column">column</option>
-    </select>
     <input type="submit" id="insert" name="insert" value="Save" />
     <input type="button" id="cancel" name="cancel" value="Cancel" onclick="tinyMCEPopup.close();" />
   </div>

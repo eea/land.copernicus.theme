@@ -35,7 +35,7 @@
 
       // Add a node change handler, selects the button in the UI when a child of a table is selected
       ed.onNodeChange.add(function(ed, cm, n) {
-        cm.setActive('copernicus_table_colors', $(n).closest("table").length);
+        cm.setActive('copernicus_table_colors', $(n).closest("table td").length);
       });
     },
 
