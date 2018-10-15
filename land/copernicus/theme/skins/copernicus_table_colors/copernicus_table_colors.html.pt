@@ -36,8 +36,17 @@
       $("#select-type").attr("data-selected-type", selected_type);
     });
 
+    function default_color() {
+      // debugger; TODO Fix it.
+      if(window.last_used_color === undefined) {
+        return "#ECC";
+      } else {
+        return window.last_used_color;
+      }
+    }
+
     $("#select-color").spectrum({
-      color: "#ECC",
+      color: default_color(),
       showInput: true,
       className: "full-spectrum",
       showInitial: true,

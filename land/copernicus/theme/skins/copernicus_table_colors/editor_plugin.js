@@ -91,6 +91,8 @@
       var selected_fill_type = $("iframe").contents().find('#select-type').first().attr("data-selected-type");
       var selected_color = $("iframe").contents().find('#select-color').first().attr("data-selected-color");
 
+      window.last_used_color = selected_color;
+
       table_fill(selected_element, selected_color, selected_fill_type);
 
       // // Insert items in given selection
