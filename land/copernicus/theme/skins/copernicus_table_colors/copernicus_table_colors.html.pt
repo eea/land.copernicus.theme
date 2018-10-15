@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Copernicus Table Colors</title>
+  <script type="text/javascript" src="../../tiny_mce_popup.js?v={tinymce_version}"></script>
+  <script type="text/javascript" src="./editor_plugin.js?v={tinymce_version}"></script>
+  <link rel="stylesheet" href="./copernicus_table_colors.css">
+</head>
+<body style="display: none" role="application" aria-labelledby="app_title">
+<form onsubmit="tinymce.activeEditor.plugins.copernicus_table_colors._onSave();" action="#">
+  <div class="mceInputPanel">
+    <div id="copernicus-table-colors">
+    </div>
+  </div>
+
+  <div class="mceActionPanel">
+    <input type="submit" id="insert" name="insert" value="Save" />
+    <input type="button" id="cancel" name="cancel" value="Cancel" onclick="tinyMCEPopup.close();" />
+  </div>
+</form>
+
+<script>
+  tinymce.activeEditor.plugins.eni_faq_section._onEdit();
+</script>
+</body>
+</html>
