@@ -19,7 +19,7 @@
         ed.windowManager.open({
           file : url + '/copernicus_table_colors.html',
           width : 500 + ed.getLang('copernicus_table_colors.delta_width', 0),
-          height : 200 + ed.getLang('copernicus_table_colors.delta_height', 0),
+          height : 400 + ed.getLang('copernicus_table_colors.delta_height', 0),
           inline : 1
         }, {
           plugin_url : url, // Plugin absolute URL
@@ -120,3 +120,10 @@
   // Register plugin
   tinymce.PluginManager.add('copernicus_table_colors', tinymce.plugins.CopernicusTableColorsPlugin);
 })();
+
+// TODO
+// - get rid of cdn scripts
+// - keep last color used as selected by default
+// - close dialog window on save
+// - make sure you can fill only tds and ths
+// - test on IE and Firefox
