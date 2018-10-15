@@ -54,7 +54,45 @@
     },
 
     _onSave: function() {
-      alert("Saved.");
+      function table_fill_cell(element, color) {
+        $(element).css("background-color", color);
+      }
+
+      function table_fill(element, color, fill_type) {
+        if(fill_type == "cell") {
+          table_fill_cell(element, color);
+          return;
+        }
+
+        if(fill_type == "row") {
+          $(element).parent().children().each(function() {
+            table_fill_cell($(this), color)
+          });
+        }
+
+        if(fill_type == "column") {
+          $(element).closest("table").find(
+            "tr td:nth-child(" + ($(element).index() + 1) + ")"
+          ).each(function() {
+            table_fill_cell($(this), color);
+          });
+
+          $(element).closest("table").find(
+            "tr th:nth-child(" + ($(element).index() + 1) + ")"
+          ).each(function() {
+            table_fill_cell($(this), color);
+          });
+        }
+      }
+
+      var selected_node = tinyMCE.activeEditor.selection.getNode();
+      var selected_element = $(selected_node);
+
+      var selected_fill_type = $("iframe").contents().find('#select-type').first().attr("data-selected-type");
+      var selected_color = $("iframe").contents().find('#select-color').first().attr("data-selected-color");
+
+      table_fill(selected_element, selected_color, selected_fill_type);
+
       // // Insert items in given selection
       // tinyMCE.activeEditor.selection.setContent(html_content);
     },
