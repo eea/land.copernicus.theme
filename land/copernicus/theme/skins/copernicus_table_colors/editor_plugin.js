@@ -54,7 +54,16 @@
     },
 
     _onSave: function() {
+      function is_table_cell(element) {
+        return $(element).is("td") || $(element).is("th");
+      }
+
       function table_fill_cell(element, color) {
+        // Fill the table cell of given element
+        // (If a span inside a td is given, the closest td will be used.)
+        if(!is_table_cell(element)) {
+          element = $(element).closest("td");
+        }
         $(element).css("background-color", color);
       }
 
@@ -123,5 +132,4 @@
 })();
 
 // TODO
-// - make sure you can fill only tds and ths
 // - test on IE and Firefox
