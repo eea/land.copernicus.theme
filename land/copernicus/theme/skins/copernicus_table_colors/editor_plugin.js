@@ -62,7 +62,11 @@
         // Fill the table cell of given element
         // (If a span inside a td is given, the closest td will be used.)
         if(!is_table_cell(element)) {
-          element = $(element).closest("td");
+          var new_element = $(element).closest("td");
+          if(new_element.length === 0) {
+            new_element = $(element).closest("th");
+          }
+          element = new_element;
         }
         $(element).css("background-color", color);
       }
@@ -130,6 +134,3 @@
   // Register plugin
   tinymce.PluginManager.add('copernicus_table_colors', tinymce.plugins.CopernicusTableColorsPlugin);
 })();
-
-// TODO
-// - test on IE and Firefox
