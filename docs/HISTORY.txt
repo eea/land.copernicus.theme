@@ -3,6 +3,8 @@ Changelog
 
 5.8.dev0 - (unreleased)
 -----------------------
+- Feature: tinyMCE plugin for coloring tables.
+  [GhitaB #98727]
 
 5.7 - (2018-10-11)
 ------------------
