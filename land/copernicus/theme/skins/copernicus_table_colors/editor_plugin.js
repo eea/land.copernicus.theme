@@ -95,8 +95,7 @@
 
       table_fill(selected_element, selected_color, selected_fill_type);
 
-      // // Insert items in given selection
-      // tinyMCE.activeEditor.selection.setContent(html_content);
+      $("iframe").contents().find("input#cancel").first().click();  // Just close the dialog.
     },
 
     _onEdit: function() {
@@ -124,7 +123,5 @@
 })();
 
 // TODO
-// - keep last color used as selected by default
-// - close dialog window on save
 // - make sure you can fill only tds and ths
 // - test on IE and Firefox
