@@ -37,11 +37,12 @@
     });
 
     function default_color() {
-      // debugger; TODO Fix it.
-      if(window.last_used_color === undefined) {
+      if(window.parent.last_used_color === undefined) {
         return "#ECC";
       } else {
-        return window.last_used_color;
+        var default_color = window.parent.last_used_color;
+        $("#select-color").attr("data-selected-color", default_color);
+        return default_color;
       }
     }
 
