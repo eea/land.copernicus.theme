@@ -3,6 +3,8 @@ Changelog
 
 5.9.dev0 - (unreleased)
 -----------------------
+- Fix: solve news listing error for unpublished items.
+  [GhitaB #99824]
 
 5.8 - (2018-10-16)
 ------------------
