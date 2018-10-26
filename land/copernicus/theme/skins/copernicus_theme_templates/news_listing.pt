@@ -60,7 +60,7 @@
               </a>
 
               <p class="land-news-info">
-                <span class="land-news-date">
+                <span class="land-news-date" tal:condition="python:news_date is not None">
                   <i class="fa fa-clock-o"></i>
                   <span>
                     <span tal:replace="python:news_date.Month()[:3]"></span>
