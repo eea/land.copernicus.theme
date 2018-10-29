@@ -3,6 +3,8 @@ Changelog
 
 5.9.dev0 - (unreleased)
 -----------------------
+- Improve: search results page styles.
+  [GhitaB #99729]
 - Fix: solve news listing error for unpublished items.
   [GhitaB #99824]
 
