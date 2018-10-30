@@ -3,6 +3,8 @@ Changelog
 
 5.9.dev0 - (unreleased)
 -----------------------
+- Improve: update description text for Imagery in homepage.
+  [GhitaB #99867]
 - Improve: search results page styles.
   [GhitaB #99729]
 - Fix: solve news listing error for unpublished items.
