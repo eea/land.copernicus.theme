@@ -35,7 +35,7 @@
                            news_title python:news_object.getField('title').getAccessor(news_object)();
                            news_description python:news_object.getField('description').getAccessor(news_object)();
                            news_url python:news_object.absolute_url();
-                           news_image_src python:news_url + '/image';
+                           news_image_src python:news_url + '/image_preview';
                            news_tags python:news_object.getField('subject').getAccessor(news_object)();
                            news_creators python:news_object.getField('creators').getAccessor(news_object)();
                            news_description python:news_object.getField('description').getAccessor(news_object)();

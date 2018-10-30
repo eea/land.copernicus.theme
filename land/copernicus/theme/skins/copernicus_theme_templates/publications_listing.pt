@@ -28,12 +28,12 @@
                              file_title python:file_obj.Title();
                              file_url python:file_obj.absolute_url();
                              file_view_url python:file_obj.absolute_url() + '/view';
-                             file_cover_img python:file_url + '/image';">
+                             file_cover_img python:file_url + '/image_preview';">
 
               <div class="land-publication-image">
                 <a href="https://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view"
                    tal:attributes="href python:file_view_url">
-                  <img src="https://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/image" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers"
+                  <img src="https://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/image_preview" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers"
                        tal:attributes="src python:file_cover_img;
                                        alt python:file_title">
                 </a>
