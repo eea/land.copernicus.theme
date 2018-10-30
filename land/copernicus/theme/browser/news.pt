@@ -22,7 +22,7 @@
                               news_title python:news_object.getField('title').getAccessor(news_object)();
                               news_image python:news_object.getField('image').getAccessor(news_object)();
                               news_url python:news_object.absolute_url();
-                              news_image_src python:news_url + '/image';
+                              news_image_src python:news_url + '/image_tile';
                               news_description python:news_object.getField('description').getAccessor(news_object)();
                               news_index python:repeat['news'].index + 1;
                               news_is_last python:news_index == news_number;
