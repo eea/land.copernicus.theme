@@ -22,6 +22,7 @@
                               report_title python:report_object.getField('title').getAccessor(report_object)();
                               report_image python:report_object.getField('image').getAccessor(report_object)();
                               report_url python:report_object.absolute_url();
+                              report_image_src python:report_url + '/image_tile';
                               report_description python:report_object.getField('description').getAccessor(report_object)();
                               report_index python:repeat['report'].index + 1;
                               report_is_last python:report_index == report_number;
@@ -30,7 +31,7 @@
                 <div tal:attributes="class python:report_snippet_class">
                   <div class="news-preview">
                     <tal:condition tal:condition="report_image">
-                      <img class="insitu-img-preview" tal:replace="structure report_image" />
+                      <img class="insitu-img-preview" tal:attributes="src python:report_image_src" />
                     </tal:condition>
                     <tal:condition tal:condition="not:report_image">
                       <img class="insitu-img-preview" src="./preview_image.png" alt="Preview image">
