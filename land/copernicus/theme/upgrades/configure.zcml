@@ -119,4 +119,14 @@
 
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="2.4.7"
+    destination="2.4.8"
+    profile="land.copernicus.theme:default">
+
+    <genericsetup:upgradeDepends
+      title="Import profile steps with changes: skins"
+      import_steps="skins"
+      />
+  </genericsetup:upgradeSteps>
 </configure>
