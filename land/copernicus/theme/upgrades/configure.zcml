@@ -129,4 +129,15 @@
       import_steps="skins"
       />
   </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+    source="2.4.8"
+    destination="2.4.9"
+    profile="land.copernicus.theme:default">
+
+    <genericsetup:upgradeDepends
+      title="Import profile steps with changes: css and js"
+      import_steps="cssregistry"
+    />
+  </genericsetup:upgradeSteps>
 </configure>
