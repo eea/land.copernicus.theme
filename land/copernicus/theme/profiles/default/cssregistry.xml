@@ -22,7 +22,7 @@
     bundle="default" cacheable="True" compression="safe" conditionalcomment=""
     cookable="True" enabled="on" expression="" id="reset.css" media="screen"
     rel="stylesheet" rendering="link"/>
- <stylesheet title="jQuery plugin: Tokeninput Facebook" applyPrefix="False"
+ <stylesheet title="" applyPrefix="False"
     authenticated="False" bundle="default" cacheable="True" compression="safe"
     conditionalcomment="" cookable="True" enabled="on" expression=""
     id="++resource++jquery.tokeninput.facebook.css"
