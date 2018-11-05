@@ -14,6 +14,7 @@
 
           <div metal:use-macro="context/batch_macros/macros/navigation" />
           <div class="has-table">
+            <h2 class="land-title">Additional materials</h2>
             <table class="listing"
                    summary="Content listing"
                    i18n:attributes="summary summary_content_listing;">
