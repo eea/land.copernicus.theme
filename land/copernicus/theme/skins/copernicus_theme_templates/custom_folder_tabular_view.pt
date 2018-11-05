@@ -55,7 +55,7 @@
                     </td>
 
                     <td tal:condition="show_about"
-                        tal:content="python:toLocalizedTime(item_modified,long_format=1)">
+                        tal:content="python:toLocalizedTime(item_modified,long_format=0)">
                         August 16, 2001 at 23:35:59
                     </td>
 
