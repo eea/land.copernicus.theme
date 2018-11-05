@@ -1,0 +1,24 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    xmlns:five="http://namespaces.zope.org/five">
+
+    <browser:viewletManager
+        name="plone.resourceregistries.styles"
+        provides="Products.ResourceRegistries.interfaces.IHtmlHeadStyles"
+        template="templates/styles_viewlet_override.pt"
+        layer="land.copernicus.theme.interfaces.ICopernicusTheme"
+        permission="zope2.View"
+        />
+
+    <browser:viewlet
+        name="plone.resourceregistries"
+        manager="plone.app.layout.viewlets.interfaces.IHtmlHead"
+        template="templates/resourceregistries.pt"
+        layer="land.copernicus.theme.interfaces.ICopernicusTheme"
+        permission="zope2.View"
+        />
+
+</configure>

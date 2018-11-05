@@ -19,6 +19,10 @@
 
 
  <stylesheet title="" applyPrefix="False" authenticated="False"
+    bundle="default" cacheable="True" compression="full" conditionalcomment=""
+    cookable="True" enabled="on" expression="" id="minimal.css" media="screen"
+    rel="stylesheet" rendering="inline"/>
+ <stylesheet title="" applyPrefix="False" authenticated="False"
     bundle="default" cacheable="True" compression="safe" conditionalcomment=""
     cookable="True" enabled="on" expression="" id="reset.css" media="screen"
     rel="stylesheet" rendering="link"/>

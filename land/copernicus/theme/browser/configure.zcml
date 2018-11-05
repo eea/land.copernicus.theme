@@ -3,6 +3,8 @@
   xmlns:browser="http://namespaces.zope.org/browser"
   i18n_domain="copernicus">
 
+  <include file="overrides.zcml" />
+
   <browser:viewlet
     name="copernicus.global_sections"
     manager="plone.app.layout.viewlets.interfaces.IPortalHeader"

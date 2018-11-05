@@ -30,19 +30,23 @@
 
   <tal:notajax tal:condition="python:not ajax_load or ajax_include_head">
     <div tal:replace="structure provider:plone.htmlhead" />
-    <link tal:replace="structure provider:plone.htmlhead.links" />
 
     <tal:comment replace="nothing">
       Various slots where you can insert elements in the header from a template.
     </tal:comment>
-    <metal:topslot define-slot="top_slot" />
+   
     <metal:headslot define-slot="head_slot" />
     <metal:styleslot define-slot="style_slot" />
-    <metal:javascriptslot define-slot="javascript_head_slot" />
+   
+     <script type="text/javascript">/* jslint:disable */
+        !function(){var e=function(){function e(){if(!r.isReady){try{document.documentElement.doScroll("left")}catch(t){return void setTimeout(e,1)}r.ready()}}var t,n,o={};o["[object Boolean]"]="boolean",o["[object Number]"]="number",o["[object String]"]="string",o["[object Function]"]="function",o["[object Array]"]="array",o["[object Date]"]="date",o["[object RegExp]"]="regexp",o["[object Object]"]="object";var r={isReady:!1,readyWait:1,holdReady:function(e){e?r.readyWait++:r.ready(!0)},ready:function(e){if(!0===e&&!--r.readyWait||!0!==e&&!r.isReady){if(!document.body)return setTimeout(r.ready,1);if(r.isReady=!0,!0!==e&&--r.readyWait>0)return;t.resolveWith(document,[window.jQuery])}},bindReady:function(){if(!t){if(t=r._Deferred(),"complete"===document.readyState)return setTimeout(r.ready,1);if(document.addEventListener)document.addEventListener("DOMContentLoaded",n,!1),window.addEventListener("load",r.ready,!1);else if(document.attachEvent){document.attachEvent("onreadystatechange",n),window.attachEvent("onload",r.ready);var o=!1;try{o=null==window.frameElement}catch(e){}document.documentElement.doScroll&&o&&e()}}},_Deferred:function(){var e,t,n,o=[],i={done:function(){if(!n){var t,d,a,c,u,y=arguments;for(e&&(u=e,e=0),t=0,d=y.length;t<d;t++)a=y[t],"array"===(c=r.type(a))?i.done.apply(i,a):"function"===c&&o.push(a);u&&i.resolveWith(u[0],u[1])}return this},resolveWith:function(r,i){if(!n&&!e&&!t){i=i||[],t=1;try{for(;o[0];)o.shift().apply(r,i)}finally{e=[r,i],t=0}}return this},resolve:function(){return i.resolveWith(this,arguments),this},isResolved:function(){return!(!t&&!e)},cancel:function(){return n=1,o=[],this}};return i},type:function(e){return null==e?String(e):o[Object.prototype.toString.call(e)]||"object"}};return document.addEventListener?n=function(){document.removeEventListener("DOMContentLoaded",n,!1),r.ready()}:document.attachEvent&&(n=function(){"complete"===document.readyState&&(document.detachEvent("onreadystatechange",n),r.ready())}),function(e){r.bindReady();r.type(e);t.done(e)}}();window.jQuery=$=jq=function(t,n){return"function"==typeof t?e(t):new jQuery.fn.init(t,n)},window.jQuery.fn=window.jQuery.prototype={init:function(){return this}},window.jQuery.fn.init.prototype=window.jQuery.fn,window.jQuery.fn.ready=e}();
+    </script>
 
+    <link tal:replace="structure provider:plone.htmlhead.links" />
     <!--meta name="viewport" content="maximum-scale = 1.0" /-->
     <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=2.0, minimum-scale=0.6666" />
   </tal:notajax>
+  <metal:topslot define-slot="top_slot" />
 </head>
 
 <body tal:define="isRTL portal_state/is_rtl;
@@ -194,6 +198,45 @@
     </div><!--  footer -->
 
   </div>
+
+  <div id="jscripts">
+      <script type="text/javascript">var w_inner_height = window.innerHeight;
+            var w_inner_width = window.innerWidth;
+            function isElementInViewport (el) {
+                // Detect if element is in viewport
+                var rect = el.getBoundingClientRect();
+                return (
+                        rect.top > 0 &&
+                        rect.left > 0 &&
+                        rect.bottom <= w_inner_height &&
+                        rect.right <=  w_inner_width
+                    );
+            }
+            function enableLazy(element) {
+                var source = element.src;
+                var classes = element.className.length ? element.className + ' ' : '';
+                element.setAttribute('data-src', source);
+                if (classes.indexOf('skip_lazy') === -1) {
+                    element.className =  classes + 'lazy';
+                    element.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=';
+                }
+            }
+
+            window.lazyElements = [];
+
+            var imgs = document.querySelectorAll('img');
+            Array.prototype.forEach.call(imgs, function(el){
+                if (isElementInViewport(el) === false) {
+                    enableLazy(el);
+                    window.lazyElements.push(el);
+                }
+            });
+
+      </script>
+      <tal:scripts replace="structure provider:plone.resourceregistries.scripts" />
+      <metal:javascriptslot define-slot="javascript_head_slot" />
+  </div>
+
 </body>
 </html>
 

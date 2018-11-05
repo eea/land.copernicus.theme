@@ -18,6 +18,12 @@
     />
 
   <object
+    name="copernicus_theme_javascripts"
+    meta_type="Filesystem Directory View"
+    directory="land.copernicus.theme:skins/copernicus_theme_javascripts"
+    />
+
+  <object
     name="copernicus_tinymce_override"
     meta_type="Filesystem Directory View"
     directory="land.copernicus.theme:skins/copernicus_tinymce_override"
@@ -26,6 +32,7 @@
   <skin-path name="Copernicus Theme" based-on="Sunburst Theme">
     <layer name="copernicus_theme_templates" insert-after="custom" />
     <layer name="copernicus_theme_styles" insert-after="custom" />
+    <layer name="copernicus_theme_javascripts" insert-after="custom" />
   </skin-path>
 
   <skin-path name="*">
