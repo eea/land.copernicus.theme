@@ -2146,7 +2146,7 @@ body.template-view.portaltype-eea-meeting div.geolocation_wrapper div.map {
   height: 350px;
 }
 
-@media (min-width: 1200px) and (max-width: 1615px) {
+@media (min-width: 840px) and (max-width: 1615px) {
   body.template-view.portaltype-eea-meeting div.geolocation_wrapper {
     width: 40%;
   }
