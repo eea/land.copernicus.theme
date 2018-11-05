@@ -2176,6 +2176,10 @@ body.template-view.portaltype-eea-meeting div.event-metadata div.eventDetails.vc
   border-right: none !important;
 }
 
+table.custom-tabular-view.listing {
+  width: 100%;
+}
+
 body.template-view.portaltype-eea-meeting div.event-metadata .btn.event-register {
   border: none;
   color: #FFFFFF !important;
