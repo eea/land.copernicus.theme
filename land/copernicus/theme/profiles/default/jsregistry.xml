@@ -3,6 +3,10 @@
 
   <javascript  id="accessibility.js" remove="True" />
   <javascript  id="styleswitcher.js" remove="True" />
+  <javascript  id="++resource++analytics_config.js" remove="True" />
+  <javascript  id="++resource++markFrozen.js" remove="True" />
+  <javascript  id="++resource++frozenEntrynoclick.js" remove="True" />
+
 
 
  <javascript authenticated="False" bundle="jquery" cacheable="True"
@@ -167,6 +171,20 @@
     compression="full" conditionalcomment="" cookable="True" enabled="True"
     expression="" id="lazy_load.js" inline="False"
   />
+  <javascript authenticated="False" bundle="default" cacheable="True"
+    compression="safe" conditionalcomment="" cookable="True" enabled="True"
+    expression="" id="++resource++land.copernicus.theme.bootstrap-min.js"
+    inline="False" />
+  <javascript authenticated="False" bundle="default" cacheable="True"
+    compression="safe" conditionalcomment="" cookable="True" enabled="True"
+    expression="" id="++resource++land.copernicus.theme.sticky-menu.js"
+    inline="False"
+  />
+  <javascript authenticated="False" bundle="default" cacheable="True"
+    compression="none" conditionalcomment="" cookable="True" enabled="True"
+    expression="" id="++resource++eea.jquery.screentimeanalytics.js"
+    inline="False"
+  />
  <javascript authenticated="True" bundle="default" cacheable="True"
     compression="safe" conditionalcomment="" cookable="True" enabled="True"
     expression="" id="dropdown.js" inline="False"
@@ -289,11 +307,6 @@
     compression="safe" conditionalcomment="" cookable="True" enabled="True"
     expression="python:'portal_relations' in request.URL0" id="++resource++eea.jquery.dracula/graph.js" inline="False"
     />
-  <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="safe" conditionalcomment="" cookable="True" enabled="True"
-    expression="python:portal['portal_membership'].checkPermission('Google Analytics: View Analytics Results', request.context)"
-    id="++resource++analytics_config.js" inline="False"
-  />
  <javascript authenticated="False" bundle="default" cacheable="True"
     compression="safe" conditionalcomment="" cookable="True" enabled="True"
     expression="python:'portal_relations' in request.URL0"
@@ -303,29 +316,6 @@
     compression="safe" conditionalcomment="" cookable="False" enabled="True"
     expression="python:'pdf.' in request['URL0'] or '.pdf' in request['URL0']"
     id="pdf.print.js" inline="False" />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="safe" conditionalcomment="" cookable="True" enabled="True"
-    expression="python: here.restrictedTraverse('@@plone_portal_state').anonymous()"
-    id="++resource++frozenEntrynoclick.js" inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="safe" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="++resource++markFrozen.js" inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="safe" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="++resource++land.copernicus.theme.bootstrap-min.js"
-    inline="False" />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="safe" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="++resource++land.copernicus.theme.sticky-menu.js"
-    inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="none" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="++resource++eea.jquery.screentimeanalytics.js"
-    inline="False"
-    />
   <javascript authenticated="False" bundle="default" cacheable="True"
     compression="safe" conditionalcomment="" cookable="True" enabled="True"
     expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or 'edit' in request.URL0" id="++resource++jquery.jstree.js" inline="False"
