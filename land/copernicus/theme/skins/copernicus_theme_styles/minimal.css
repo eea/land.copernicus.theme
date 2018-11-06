@@ -173,6 +173,9 @@ ol {
   .container-fluid:after {
     clear: both; }
 
+.container-fluid.insitu-images-slider-container {
+    padding: 0;
+}
 .row {
   margin-left: -14px;
   margin-right: -14px; }
@@ -1378,7 +1381,7 @@ body {
     background-size: cover;
     background-position: left top;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 130px;
     width: 100%;
     position: absolute;
     left: 0;
@@ -1439,12 +1442,12 @@ section#header-section #insitu-brand-utils li#siteaction-newsletter, section#hea
 .main-content {
   background: #FFFFFF;
   /* padding: 10px; ORIGINAL */
-  padding: 20px 10px;
+  padding: 0 10px 20px 10px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  margin-top: 0px; }
+  margin-top: 15px; }
 
 .breadcrumbs {
   padding-top: 10px;
@@ -1493,24 +1496,30 @@ section#header-section #insitu-brand-utils li#siteaction-newsletter, section#hea
     max-width: 100%; }
 
 .images-slider {
-  margin-top: 36px;
+  margin: 25px 0 0 0;
   border-radius: 0px; }
   .images-slider .carousel-caption {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.5);
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 6px;
     padding-bottom: 6px;
-    border-radius: 6px;
-    width: 35%;
+    border-radius: 5px;
     text-align: left;
-    margin-left: 30%;
-    margin-bottom: 36px; }
+    margin-bottom: 4%; }
     .images-slider .carousel-caption h4 {
       font-weight: bold;
       text-shadow: none; }
     .images-slider .carousel-caption p {
       text-shadow: none; }
+    .images-slider .container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
 .menu-sections {
   background: transparent;
@@ -1559,7 +1568,7 @@ footer .text {
       color: #5B6800; }
 
 #content-section.homepage {
-  top: 300px;
+  top: 92px;
   position: relative;
   z-index: 2 !important; }
 

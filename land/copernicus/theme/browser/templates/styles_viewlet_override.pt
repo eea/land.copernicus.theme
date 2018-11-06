@@ -8,7 +8,7 @@
             <tal:wcondcomment tal:condition="condcomment">
                 <tal:opencc tal:replace="structure string:&lt;!--[if ${condcomment}]&gt;" />
             </tal:wcondcomment>
-            <tal:rendering-link condition="python: rendering == 'link'" tal:replace="nothing">
+            <tal:rendering-link condition="python: rendering == 'link'">
                 <tal:csspreload tal:condition="preload_css">
                     <link rel="style"
                         tal:define="cssmedia style/media"
