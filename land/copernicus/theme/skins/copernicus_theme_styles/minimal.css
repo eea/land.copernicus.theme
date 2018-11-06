@@ -176,6 +176,24 @@ ol {
 .container-fluid.insitu-images-slider-container {
     padding: 0;
 }
+.insitu-article-title-container {
+    /*background-image: url(/homepage-content/slider_pyranometer.png);*/
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    height: 110px;
+    padding-top: 10px;
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 100%;
+}
 .row {
   margin-left: -14px;
   margin-right: -14px; }
@@ -573,7 +591,6 @@ form[data-diazo="insitu-search-form"] .input-group {
 .navbar {
   position: relative;
   min-height: 36px;
-  margin-bottom: 20px;
   border: 1px solid transparent; }
   .navbar:before, .navbar:after {
     content: " ";
@@ -759,6 +776,18 @@ form[data-diazo="insitu-search-form"] .input-group {
     fieldset[disabled] .navbar-default .btn-link:focus {
       color: #FFF; }
 
+.insitu-document-title {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#insitu-article-title {
+    color: #FFFFFF;
+    font-size: 28px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: -3px;
+}
 
 .embed-responsive {
   position: relative;
@@ -1396,7 +1425,7 @@ body {
 padding: 0; }
 #header-section .container-fluid#insitu-brand-utils .content .utils .btn.btn-default, #header-section .container-fluid#insitu-brand-utils .content .utils input {
 font-size: 16px;
-margin-bottom: 16px; }
+}
 #header-section .container-fluid#insitu-brand-utils .content .utils input.form-control.search-bar {
 height: 100%;
 border-color: #FFFFFF; }
@@ -1409,9 +1438,10 @@ section#header-section #insitu-brand-utils li#siteaction-newsletter, section#hea
     display: none;
 }
 #header-section.simple-page {
-  background-image:url("/copernicus/header-photo-texture.jpg"); 
   height: 233px; }
-
+#edit-bar {
+  display: none;
+}
 .main-content {
   background: #FFFFFF;
   /* padding: 10px; ORIGINAL */

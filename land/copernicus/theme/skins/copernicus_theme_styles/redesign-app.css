@@ -6562,10 +6562,6 @@ footer .text {
   position: relative;
   z-index: 2 !important; }
 
-#content-section.simple-page {
-  top: 235px;
-  position: relative;
-  z-index: 2 !important; }
 
 .insitu-title,
 #parent-fieldname-title {
