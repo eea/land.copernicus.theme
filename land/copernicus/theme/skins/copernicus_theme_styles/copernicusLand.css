@@ -884,17 +884,27 @@ and (resolution: 163dpi) {
   margin-top: -15px;
 }
 
-.template-personal-information .edit-form .field:last-of-type {
+.template-personal-information .edit-form .field:nth-of-type(3) {
   overflow: visible;
   position: relative;
   top: 10px;
 }
 
-.template-personal-information .edit-form .field:last-of-type .widget {
+.template-personal-information .edit-form .field:nth-of-type(3) .widget {
   width: 100%;
 }
 
-.template-personal-information .edit-form .field:last-of-type label[for='form.disclaimer_permission'] {
+.template-personal-information .edit-form .field:nth-of-type(3) label[for='form.disclaimer_permission'] {
+  display: none;
+}
+
+.template-personal-information .edit-form .field:nth-of-type(4),
+.template-personal-information .edit-form .field:nth-of-type(5),
+.template-personal-information .edit-form .field:nth-of-type(6),
+.template-personal-information .edit-form .field:nth-of-type(7),
+.template-personal-information .edit-form .field:nth-of-type(8),
+.template-personal-information .edit-form .field:nth-of-type(9)
+{
   display: none;
 }
 
