@@ -15,26 +15,8 @@
   background: no-repeat transparent 0px 2px url(arrow.png);
 }
 
-#edit-bar {
-  background-color: #A0B228;
-  border-color: #A0B228;
-}
 
-#content-views {
-  background-color: #A0B228;
-}
 
-#contentActionMenus {
-  background-color: #A0B228;
-}
-
-#contentActionMenus dl.actionMenu a, #contentActionMenus dl.actionMenu.activated dd {
-  background-color: #A0B228;
-}
-
-#contentActionMenus dl.actionMenu.activated dd {
-  border-bottom-color: #A0B228;
-}
 
 .external-link {
   text-align: right;

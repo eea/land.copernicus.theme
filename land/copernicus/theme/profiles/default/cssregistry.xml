@@ -166,10 +166,6 @@
    media="screen" rel="stylesheet" rendering="link"/>
  <stylesheet title="" applyPrefix="False" authenticated="False"
    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
-   cookable="True" enabled="on" expression="" id="ploneCustom.css"
-   media="all" rel="stylesheet" rendering="link"/>
- <stylesheet title="" applyPrefix="False" authenticated="False"
-   bundle="default" cacheable="True" compression="safe" conditionalcomment=""
    cookable="True" enabled="on"
    expression="python:'portal_relations' in request.URL0"
    id="++resource++eea.relations.css/tool.css"
@@ -181,25 +177,6 @@
     expression="python:'pdf.' in request['URL0'] or '.pdf' in request['URL0'] or 'epub.' in request['URL0'] or '.epub' in request['URL0']"
     id="pdf.print.css" media="print"
     rel="stylesheet" rendering="link"/>
- <stylesheet title="" applyPrefix="True" authenticated="False"
-   bundle="default" cacheable="True" compression="safe" conditionalcomment=""
-   cookable="True" enabled="on"
-   expression="request/HTTP_X_THEME_ENABLED | nothing"
-   id="copernicusLand.css" media=""
-   rel="stylesheet" rendering="link"/>
- <stylesheet title="" applyPrefix="True" authenticated="False"
-   bundle="default" cacheable="True" compression="safe" conditionalcomment=""
-   cookable="True" enabled="on"
-   expression="request/HTTP_X_THEME_ENABLED | nothing"
-   id="copernicusMobile.css"
-   media="handheld, screen and (max-device-width: 480px)" rel="stylesheet"
-   rendering="link"/>
- <stylesheet title="" applyPrefix="True" authenticated="False"
-    bundle="default" cacheable="True" compression="safe"
-    conditionalcomment="" cookable="True" enabled="on"
-    expression="request/HTTP_X_THEME_ENABLED | nothing" id="redesign-app.css"
-    media="" rel="stylesheet"
-    rendering="link"/>
  <stylesheet title="" applyPrefix="False" authenticated="False"
     bundle="faceted-view" cacheable="True" compression="safe"
     conditionalcomment="" cookable="True" enabled="on" expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
@@ -422,5 +399,28 @@
     expression="python:'configure_faceted.html' in request.URL0"
     id="++resource++eea.facetednavigation.widgets.alphabets.edit.css"
     media="screen" rel="stylesheet" rendering="link"/>
+ <stylesheet title="" applyPrefix="True" authenticated="False"
+   bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+   cookable="True" enabled="on"
+   expression="request/HTTP_X_THEME_ENABLED | nothing"
+   id="copernicusLand.css" media=""
+   rel="stylesheet" rendering="link"/>
+ <stylesheet title="" applyPrefix="True" authenticated="False"
+   bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+   cookable="True" enabled="on"
+   expression="request/HTTP_X_THEME_ENABLED | nothing"
+   id="copernicusMobile.css"
+   media="handheld, screen and (max-device-width: 480px)" rel="stylesheet"
+   rendering="link"/>
+ <stylesheet title="" applyPrefix="True" authenticated="False"
+   bundle="default" cacheable="True" compression="safe"
+   conditionalcomment="" cookable="True" enabled="on"
+   expression="request/HTTP_X_THEME_ENABLED | nothing" id="redesign-app.css"
+   media="" rel="stylesheet"
+   rendering="link"/>
+ <stylesheet title="" applyPrefix="False" authenticated="False"
+   bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+   cookable="True" enabled="on" expression="request/HTTP_X_THEME_ENABLED | nothing" id="ploneCustom.css"
+   media="all" rel="stylesheet" rendering="link"/>
 </object>
 

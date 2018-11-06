@@ -4,6 +4,9 @@
        xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- REDESIGN -->
+  <!-- move scripts to bottom of body tag -->
+  <after theme-children="/html/body" content="//*[@id='jscripts']/script" />
+
   <rules css:if-content=".section-copernicus-the-european-earth-observation-programme">
     <!-- Homepage rules -->
     <theme href="redesign-index.html" />
@@ -15,7 +18,6 @@
     <replace content="/html/head/meta" css:theme="[data-diazo='meta-after-placeholder']" />
     <drop css:theme=".portlet-content" />
     <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
-    <after theme-children="/html/body" content="//*[@id='jscripts']/script" />
     <replace content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
              css:theme="[data-diazo='links-and-scripts']" />
 
@@ -278,5 +280,6 @@
   <rules css:if-not-content=".portlet-static-partners ul.partners-logos">
     <drop css:theme="footer .partners" />
   </rules>
+
 
 </rules>

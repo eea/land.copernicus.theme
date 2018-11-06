@@ -803,6 +803,7 @@ form[data-diazo="insitu-search-form"] .input-group {
     .carousel-inner > .item > a > img {
       display: block;
       max-width: 100%;
+      max-height: 347px;
       height: auto;
       line-height: 1; }
     @media all and (transform-3d), (-webkit-transform-3d) {
@@ -1220,23 +1221,23 @@ form[data-diazo="insitu-search-form"] .input-group {
   fieldset[disabled] .btn-default,
   .btn-primary.disabled,
   .btn-primary[disabled],
-  fieldset[disabled]
+  fieldset[disabled],
   .btn-primary,
   .btn-success.disabled,
   .btn-success[disabled],
-  fieldset[disabled]
+  fieldset[disabled],
   .btn-success,
   .btn-info.disabled,
   .btn-info[disabled],
-  fieldset[disabled]
+  fieldset[disabled],
   .btn-info,
   .btn-warning.disabled,
   .btn-warning[disabled],
-  fieldset[disabled]
+  fieldset[disabled],
   .btn-warning,
   .btn-danger.disabled,
   .btn-danger[disabled],
-  fieldset[disabled]
+  fieldset[disabled],
   .btn-danger {
     -webkit-box-shadow: none;
     box-shadow: none; }
@@ -1280,22 +1281,11 @@ form[data-diazo="insitu-search-form"] .input-group {
 
 
 .navbar-default {
-  background-image: -webkit-linear-gradient(top, #bfd33a 0%, #783F34 100%);
-  background-image: -o-linear-gradient(top, #bfd33a 0%, #783F34 100%);
-  background-image: linear-gradient(to bottom, #bfd33a 0%, #783F34 100%);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFBFD33A', endColorstr='#FF783F34', GradientType=0);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   border-radius: 6px;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075); }
   .navbar-default .navbar-nav > .open > a,
   .navbar-default .navbar-nav > .active > a {
-    background-image: -webkit-linear-gradient(top, #b5c836 0%, #bacc41 100%);
-    background-image: -o-linear-gradient(top, #b5c836 0%, #bacc41 100%);
-    background-image: linear-gradient(to bottom, #b5c836 0%, #bacc41 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFB5C836', endColorstr='#FFBACC41', GradientType=0);
     -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);
     box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075); }
 
@@ -1311,26 +1301,11 @@ form[data-diazo="insitu-search-form"] .input-group {
 @media (max-width: 767px) {
   .navbar .navbar-nav .open .dropdown-menu > .active > a, .navbar .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
-    background-image: -webkit-linear-gradient(top, #783F34 0%, #8d9d23 100%);
-    background-image: -o-linear-gradient(top, #783F34 0%, #8d9d23 100%);
-    background-image: linear-gradient(to bottom, #783F34 0%, #8d9d23 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF783F34', endColorstr='#FF8D9D23', GradientType=0); } }
-
-
+    }
+}
 
 .color-white, footer .partners {
   color: #FFFFFF; }
-
-.shadow-gray-dark, .insitu-box1, .insitu-jumbotron, .images-slider {
-  -webkit-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
-  -moz-box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8);
-  box-shadow: 0px 2px 7px 0px rgba(92, 92, 92, 0.8); }
-
-.shadow-gray-light, .main-content {
-  -webkit-box-shadow: 0px 2px 7px 0px #efefef;
-  -moz-box-shadow: 0px 2px 7px 0px #efefef;
-  box-shadow: 0px 2px 7px 0px #efefef; }
 
 .box, .box-full-size, .insitu-box1 {
   width: 15%;
@@ -1358,8 +1333,6 @@ form[data-diazo="insitu-search-form"] .input-group {
   border: 6px solid #E3F37D; }
 
 .bg-texture, body {
-  /*background-image: url("./bg-old-mathematics2.png");*/
-  /*background-attachment: fixed;*/
   background-color: #FFF; }
 
 .margin-content, #header-section .container-fluid#insitu-brand-utils .content, .main-content, .breadcrumbs, .insitu-jumbotron, .images-slider, .menu-sections, footer {
@@ -1409,24 +1382,24 @@ body {
   }
 }
 
-        #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:after {
-          content: '|';
-          margin-left: 10px;
-          color: #1e396b; }
-        #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:last-child:after {
-          content: ''; }
-        #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:last-child {
-          margin-right: -6px; }
-        #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li {
-          padding-right: 6px; }
-      #header-section .container-fluid#insitu-brand-utils .content .utils .col-lg-8.col-md-8.col-sm-12 {
-        padding: 0; }
-      #header-section .container-fluid#insitu-brand-utils .content .utils .btn.btn-default, #header-section .container-fluid#insitu-brand-utils .content .utils input {
-        font-size: 16px;
-        margin-bottom: 16px; }
-      #header-section .container-fluid#insitu-brand-utils .content .utils input.form-control.search-bar {
-        height: 100%;
-        border-color: #FFFFFF; }
+#header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:after {
+  content: '|';
+  margin-left: 10px;
+  color: #1e396b; }
+#header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:last-child:after {
+  content: ''; }
+#header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:last-child {
+  margin-right: -6px; }
+#header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li {
+  padding-right: 6px; }
+#header-section .container-fluid#insitu-brand-utils .content .utils .col-lg-8.col-md-8.col-sm-12 {
+padding: 0; }
+#header-section .container-fluid#insitu-brand-utils .content .utils .btn.btn-default, #header-section .container-fluid#insitu-brand-utils .content .utils input {
+font-size: 16px;
+margin-bottom: 16px; }
+#header-section .container-fluid#insitu-brand-utils .content .utils input.form-control.search-bar {
+height: 100%;
+border-color: #FFFFFF; }
 
 #header-section .utils .list-inline a {
   color: #1e396b;
@@ -1693,7 +1666,6 @@ article.main #parent-fieldname-title {
     font-size: 14px;
     text-align: left;
     background-color: #FFFFFF;
-    border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
@@ -1937,7 +1909,6 @@ div.images-slider a.right.carousel-control span {
 }
 
 ul.listing-items li.listing-item {
-  float: left;
   padding-top: 5px;
 }
 
