@@ -1,8 +1,8 @@
 Changelog
 =========
 
-5.9.dev0 - (unreleased)
------------------------
+5.9 - (2018-11-06)
+------------------
 - Improve: update description text for Imagery in homepage.
   [GhitaB #99867]
 - Improve: search results page styles.
