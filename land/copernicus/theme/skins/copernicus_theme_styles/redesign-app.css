@@ -2199,6 +2199,8 @@ body.template-view.portaltype-eea-meeting-emails a.btn.btn-default {
   text-decoration: none !important;
 }
 
+body.template-view.portaltype-eea-meeting-emails #plone-contentmenu-factories,
+body.template-folder_contents.portaltype-eea-meeting-emails #plone-contentmenu-factories,
 body.template-view.portaltype-eea-meeting-subscribers #plone-contentmenu-factories,
 body.template-folder_contents.portaltype-eea-meeting-subscribers #plone-contentmenu-factories {
   display: none;
