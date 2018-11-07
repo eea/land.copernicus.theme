@@ -136,8 +136,8 @@
     profile="land.copernicus.theme:default">
 
     <genericsetup:upgradeDepends
-      title="Import profile steps with changes: css and js"
-      import_steps="cssregistry"
+      title="Import profile steps with changes: css, js, skins, propertiestool, browserlayer"
+      import_steps="cssregistry jsregistry browserlayer propertiestool skins"
     />
   </genericsetup:upgradeSteps>
 </configure>
