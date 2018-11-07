@@ -3,6 +3,8 @@ Changelog
 
 6.0.dev0 - (unreleased)
 -----------------------
+- Improve: hide Add new menu in Subscribers view.
+  [GhitaB #99958]
 
 5.9 - (2018-11-06)
 ------------------
