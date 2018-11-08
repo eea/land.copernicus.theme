@@ -8,8 +8,6 @@
     border: 0.3em solid #ddd;
 }
 #edit-bar {
-    background-color: #75ad0a;
-    border: 0.25em solid #75ad0a;
     font-size: 80%;
     min-height: 2em;
     margin-bottom: 1em;
@@ -17,7 +15,6 @@
 }
 #content-views {
     float: left;
-    background-color: #75ad0a;
 }
 /* fix shift on content views list under ie6 */
 /* .ie6 is set on <html> by Modernizr library */
@@ -143,12 +140,10 @@ div.field span.required:after {
 
 #contentActionMenus dl.actionMenu a,
 #contentActionMenus dl.actionMenu.activated dd {
-    background-color: #75ad0a;
     color: White;
     z-index: 5;
 }
 #contentActionMenus dl.actionMenu.activated dd {
-    border-bottom: 0.5em solid #75ad0a;
         right: -3px;
 }
 #contentActionMenus dl.actionMenu.activated dd a:hover,
@@ -171,7 +166,6 @@ div.field span.required:after {
 
 #contentActionMenus {
     float: right;
-    background: #75ad0a;
     margin: 0;
     position: relative;
     top: -0.23em;
