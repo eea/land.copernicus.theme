@@ -11,25 +11,20 @@ dl.portalMessage.info dd {
 }
 
 #edit-bar {
-  background-color: #783F34 !important;
-  border-color: #783F34 !important;
-}
-
-#content-views {
-  background-color: #783F34 !important;
+  background-color: #783F34;
+  border-color: #783F34;
 }
 
 #contentActionMenus {
-  background-color: #783F34 !important;
   margin-right: 5px;
 }
 
 #contentActionMenus dl.actionMenu a, #contentActionMenus dl.actionMenu.activated dd {
-  background-color: #783F34 !important;
+  background-color: #783F34;
 }
 
 #contentActionMenus dl.actionMenu.activated dd {
-  border-bottom: 0.5em solid #783F34 !important;
+  border-bottom: 0.5em solid #783F34;
 }
 
 #breadcrumbs-you-are-here {
