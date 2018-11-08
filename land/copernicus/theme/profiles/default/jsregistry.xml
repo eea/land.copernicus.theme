@@ -17,8 +17,8 @@
     expression="" id="collective.js.jqueryui.custom.min.js" inline="False"
     />
  <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="safe" conditionalcomment="" cookable="False" enabled="False"
-    expression="" id="++resource++enableinputlabel.js" inline="False"
+    compression="none" conditionalcomment="" cookable="False" enabled="True"
+    expression="" id="jquery-migrate.min.js" inline="False"
     />
  <javascript authenticated="False" bundle="default" cacheable="True"
     compression="safe" conditionalcomment="" cookable="True" enabled="True"
