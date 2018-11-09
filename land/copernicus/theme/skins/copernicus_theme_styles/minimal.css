@@ -1416,16 +1416,16 @@ form[data-diazo="insitu-search-form"] .input-group {
   margin-left: 15%;
   margin-right: 15%; }
 
-
-
-
-
 body {
   padding: 0px;
   margin: 0px;
   position: relative;
   z-index: 1; }
 
+/* search-by-tags page has it's header changed by angular so we hide the original h1 tag*/
+.template-search-by-tags  #insitu-article-title {
+    display: none;
+}
 #header-section {
     background-image: url("/copernicus/header-photo-texture.jpg");
     background-size: cover;
