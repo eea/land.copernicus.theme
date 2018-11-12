@@ -1427,7 +1427,6 @@ body {
     display: none;
 }
 #header-section {
-    background-image: url("/copernicus/header-photo-texture.jpg");
     background-size: cover;
     background-position: left top;
     background-repeat: no-repeat;
