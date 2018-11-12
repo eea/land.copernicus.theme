@@ -13,6 +13,14 @@
         permission="zope2.View"
         />
 
+    <browser:viewletManager
+      name="plone.resourceregistries.scripts"
+      provides="Products.ResourceRegistries.interfaces.IHtmlHeadScripts"
+      template="templates/scripts_viewlet_override.pt"
+      layer="land.copernicus.theme.interfaces.ICopernicusTheme"
+      permission="zope2.View"
+    />
+
     <browser:viewlet
         name="plone.resourceregistries"
         manager="plone.app.layout.viewlets.interfaces.IHtmlHead"
