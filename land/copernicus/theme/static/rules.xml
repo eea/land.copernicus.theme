@@ -179,22 +179,28 @@
       </rules>
 
       <!-- Simple page tags section -->
+      <!--
       <replace css:theme="[data-diazo='insitu-tags']"
                href="simplepage-content/simplepage-tags" method="document"
                css:content-children="#content-core" />
       <drop css:content="#content-core [data-diazo='insitu-tags']" />
 
+      -->
       <!-- Simple page stay informed -->
+      <!--
       <replace css:theme="[data-diazo='insitu-stay-informed']"
                href="simplepage-content/simplepage-stay-informed" method="document"
                css:content-children="#content-core" />
       <drop css:content="#content-core [data-diazo='insitu-stay-informed']" />
+      -->
 
       <!-- Simple page footer -->
+      <!--
       <replace css:theme="[data-diazo='insitu-footer']"
                href="simplepage-content/simplepage-footer" method="document"
                css:content-children="#content-core" />
       <drop css:content="#content-core [data-diazo='insitu-footer']" />
+      -->
 
       <!-- Footer -->
       <replace css:theme="[data-diazo='insitu-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
