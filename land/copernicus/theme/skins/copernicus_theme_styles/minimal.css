@@ -171,7 +171,7 @@ ol {
     padding: 0;
 }
 .insitu-article-title-container {
-    /*background-image: url(/homepage-content/slider_pyranometer.png);*/
+    background-color: #783F34;
     margin-bottom: 20px;
     background-size: cover;
     background-position: center center;
@@ -948,6 +948,7 @@ form[data-diazo="insitu-search-form"] .input-group {
   .carousel-inner > .item {
     display: none;
     position: relative;
+    height: 230px;
     -webkit-transition: 0.6s ease-in-out left;
     -o-transition: 0.6s ease-in-out left;
     transition: 0.6s ease-in-out left; }

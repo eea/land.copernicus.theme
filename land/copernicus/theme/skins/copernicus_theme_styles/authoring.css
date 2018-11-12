@@ -165,6 +165,7 @@ div.field span.required:after {
 /* @end */
 
 #contentActionMenus {
+    background-color: #783F34;
     float: right;
     margin: 0;
     position: relative;
