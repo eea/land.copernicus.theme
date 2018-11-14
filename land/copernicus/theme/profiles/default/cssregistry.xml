@@ -16,6 +16,8 @@
  <stylesheet  id="++resource++jquery.tokeninput.css" remove="True" />
  <stylesheet  id="++resource++jquery.select2uislider.css" remove="True" />
  <stylesheet  id="ploneCustom.css" remove="True" />
+ <stylesheet  id="++resource++eea.translations-logo.css" remove="True" />
+ <stylesheet  id="++resource++eea.uberlisting.css/uberlisting_view.css" remove="True" />
 
 
  <stylesheet title="" applyPrefix="False" authenticated="False"
@@ -26,11 +28,10 @@
     bundle="default" cacheable="True" compression="safe" conditionalcomment=""
     cookable="True" enabled="on" expression="" id="reset.css" media="screen"
     rel="stylesheet" rendering="link"/>
- <stylesheet title="" applyPrefix="False"
-    authenticated="False" bundle="default" cacheable="True" compression="safe"
-    conditionalcomment="" cookable="True" enabled="on" expression=""
-    id="++resource++jquery.tokeninput.facebook.css"
-    media="all"
+
+ <stylesheet title="" applyPrefix="False" authenticated="False"
+    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+    cookable="True" enabled="on" expression="" id="fonts.css" media="screen"
     rel="stylesheet" rendering="link"/>
  <stylesheet title="" applyPrefix="False" authenticated="False"
     bundle="default" cacheable="True" compression="safe" conditionalcomment=""
@@ -45,12 +46,6 @@
  <stylesheet title="" applyPrefix="False" authenticated="False"
     bundle="default" cacheable="True" compression="safe" conditionalcomment=""
     cookable="True" enabled="on" expression="" id="forms.css"
-    media="screen" rel="stylesheet"
-    rendering="link"/>
- <stylesheet title="" applyPrefix="False" authenticated="False"
-    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
-    cookable="True" enabled="on" expression=""
-    id="++resource++plone.app.discussion.stylesheets/discussion.css"
     media="screen" rel="stylesheet"
     rendering="link"/>
  <stylesheet title="" applyPrefix="False" authenticated="False"
@@ -80,48 +75,11 @@
     id="++resource++plone.app.jquerytools.dateinput.css"
     media="screen" rel="stylesheet" rendering="link"/>
  <stylesheet title="" applyPrefix="False" authenticated="False"
-    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
-    cookable="True" enabled="on" expression=""
-    id="++resource++eea.translations-logo.css"
-    media="screen" rel="stylesheet"
-    rendering="link"/>
- <stylesheet title="" applyPrefix="False" authenticated="False"
-    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
-    cookable="True" enabled="on" expression=""
-    id="++resource++eea.alchemy.css"
-    media="screen"
-    rel="stylesheet" rendering="link"/>
- <stylesheet title="" applyPrefix="False" authenticated="False"
-    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
-    cookable="True" enabled="on" expression=""
-    id="++resource++eea.uberlisting.css/uberlisting_view.css"
-    media="screen" rel="stylesheet"
-    rendering="link"/>
- <stylesheet title="EEA Geotags" applyPrefix="False" authenticated="False"
-    bundle="default" cacheable="True" compression="none" conditionalcomment=""
-    cookable="True" enabled="on" expression="" id="eea.geotags.css"
-    media="all" rel="stylesheet"
-    rendering="link"/>
- <stylesheet title="" applyPrefix="False" authenticated="False"
-    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
-    cookable="True" enabled="on" expression="" id="eeareferencebrowser.css"
-    media="screen" rel="stylesheet"
-    rendering="link"/>
- <stylesheet title="" applyPrefix="False" authenticated="False"
-   bundle="default" cacheable="True" compression="safe" conditionalcomment=""
-   cookable="True" enabled="on" expression="" id="helpcenter.css"
-   media="all" rel="stylesheet"
-   rendering="link"/>
- <stylesheet title="" applyPrefix="False" authenticated="False"
-   bundle="default" cacheable="True" compression="safe" conditionalcomment=""
-   cookable="True" enabled="on" expression="" id="helpcenter_print.css"
-   media="print" rel="stylesheet"
-   rendering="link"/>
- <stylesheet title="" applyPrefix="False" authenticated="False"
    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
    cookable="True" enabled="on" expression="" id="++resource++eea.pdf.css"
    media="screen" rel="stylesheet"
    rendering="link"/>
+
  <stylesheet title="" applyPrefix="False" authenticated="True"
    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
    cookable="True" enabled="on" expression="" id="authoring.css"
@@ -132,11 +90,49 @@
    cookable="True" enabled="on" expression="" id="member.css"
    media="screen"
    rel="stylesheet" rendering="link"/>
+ <stylesheet title="" applyPrefix="False"
+    authenticated="True" bundle="default" cacheable="True" compression="safe"
+    conditionalcomment="" cookable="True" enabled="on" expression=""
+    id="++resource++jquery.tokeninput.facebook.css"
+    media="all"
+    rel="stylesheet" rendering="link"/>
+ <stylesheet title="" applyPrefix="False" authenticated="True"
+   bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+   cookable="True" enabled="on" expression="" id="helpcenter.css"
+   media="all" rel="stylesheet"
+   rendering="link"/>
+ <stylesheet title="" applyPrefix="False" authenticated="True"
+   bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+   cookable="True" enabled="on" expression="" id="helpcenter_print.css"
+   media="print" rel="stylesheet"
+   rendering="link"/>
+ <stylesheet title="" applyPrefix="False" authenticated="True"
+    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+    cookable="True" enabled="on" expression="" id="eeareferencebrowser.css"
+    media="screen" rel="stylesheet"
+    rendering="link"/>
+ <stylesheet title="EEA Geotags" applyPrefix="False" authenticated="True"
+    bundle="default" cacheable="True" compression="none" conditionalcomment=""
+    cookable="True" enabled="on" expression="" id="eea.geotags.css"
+    media="all" rel="stylesheet"
+    rendering="link"/>
+ <stylesheet title="" applyPrefix="False" authenticated="True"
+    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+    cookable="True" enabled="on" expression=""
+    id="++resource++plone.app.discussion.stylesheets/discussion.css"
+    media="screen" rel="stylesheet"
+    rendering="link"/>
  <stylesheet title="" applyPrefix="False" authenticated="True"
    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
    cookable="True" enabled="on" expression="" id="controlpanel.css"
    media="screen" rel="stylesheet"
    rendering="link"/>
+ <stylesheet title="" applyPrefix="False" authenticated="True"
+    bundle="default" cacheable="True" compression="safe" conditionalcomment=""
+    cookable="True" enabled="on" expression=""
+    id="++resource++eea.alchemy.css"
+    media="screen"
+    rel="stylesheet" rendering="link"/>
  <stylesheet title="" applyPrefix="True" authenticated="True" bundle="default"
     cacheable="True" compression="safe" conditionalcomment="" cookable="True"
     enabled="on" expression=""

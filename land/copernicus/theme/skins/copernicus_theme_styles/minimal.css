@@ -73,7 +73,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: 'Roboto', Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto',"Franklin Gothic Medium", Tahoma, sans-serif; 
   font-size: 14px;
   line-height: 1.42857;
   color: #444444;
