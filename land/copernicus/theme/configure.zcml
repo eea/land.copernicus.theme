@@ -17,6 +17,7 @@
 
   <plone:static
     directory="static"
+    name="land.copernicus.theme"
     type="theme" />
 
 </configure>
