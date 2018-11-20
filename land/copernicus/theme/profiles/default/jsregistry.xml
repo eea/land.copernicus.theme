@@ -16,14 +16,6 @@
  <javascript authenticated="False" bundle="jquery" cacheable="True"
     compression="none" conditionalcomment="" cookable="True" enabled="True"
     expression="" id="++resource++plone.app.jquery.js" inline="False"/>
- <javascript authenticated="False" bundle="jqueryui" cacheable="True"
-    compression="none" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="collective.js.jqueryui.custom.min.js" inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="none" conditionalcomment="" cookable="False" enabled="True"
-    expression="" id="jquery-migrate.min.js" inline="False"
-    />
  <javascript authenticated="False" bundle="default" cacheable="True"
     compression="full" conditionalcomment="" cookable="True" enabled="True"
     expression="" id="jquery-integration.js" inline="False"
@@ -33,54 +25,12 @@
     expression="" id="event-registration.js" inline="False"
     />
  <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="full" conditionalcomment="" cookable="True" enabled="True"
+    compression="safe" conditionalcomment="" cookable="True" enabled="True"
     expression="" id="register_function.js" inline="False"
     />
  <javascript authenticated="False" bundle="default" cacheable="True"
     compression="full" conditionalcomment="" cookable="True" enabled="True"
     expression="" id="plone_javascript_variables.js" inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="none" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="++resource++plone.app.jquerytools.js" inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="full" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="++resource++plone.app.jquerytools.form.js"
-    inline="False" />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="full" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="++resource++plone.app.jquerytools.overlayhelpers.js"
-    inline="False" />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="none" conditionalcomment="" cookable="True" enabled="False"
-    expression="" id="++resource++plone.app.jquerytools.dateinput.js"
-    inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="none" conditionalcomment="" cookable="True" enabled="False"
-    expression="" id="++resource++plone.app.jquerytools.rangeinput.js"
-    inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="none" conditionalcomment="" cookable="True" enabled="False"
-    expression="" id="++resource++plone.app.jquerytools.validator.js"
-    inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="none" conditionalcomment="" cookable="True" enabled="False"
-    expression="" id="++resource++plone.app.jquerytools.plugins.js"
-    inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="none" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="++resource++plone.app.jquerytools.tooltip.js"
-    inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="none" conditionalcomment="" cookable="True" enabled="False"
-    expression="" id="++resource++plone.app.jquerytools.tooltip.plugins.js"
-    inline="False"
     />
  <javascript authenticated="False" bundle="default" cacheable="True"
     compression="full" conditionalcomment="" cookable="True" enabled="True"
@@ -107,21 +57,13 @@
     expression="" id="select_all.js" inline="False"
     />
  <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="full" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="dragdropreorder.js" inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
     compression="none" conditionalcomment="" cookable="True" enabled="True"
     expression="" id="mark_special_links.js" inline="False"
     />
- <javascript authenticated="False" bundle="default" cacheable="True"
+  <javascript authenticated="False" bundle="default" cacheable="True"
     compression="full" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="collapsiblesections.js" inline="False"
-    />
- <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="full" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="form_tabbing.js" inline="False"
-    />
+    expression="" id="dropdown.js" inline="False"
+  />
  <javascript authenticated="False" bundle="default" cacheable="True"
     compression="full" conditionalcomment="" cookable="True" enabled="False"
     expression="" id="popupforms.js" inline="False"
@@ -142,7 +84,7 @@
     expression="" id="collapsibleformfields.js" inline="False"
     />
   <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="full" conditionalcomment="" cookable="True" enabled="True"
+    compression="safe" conditionalcomment="" cookable="True" enabled="True"
     expression="" id="++resource++land.copernicus.theme.design.js"
     inline="False" />
 
@@ -172,8 +114,71 @@
     expression="" id="++resource++eea.jquery.screentimeanalytics.js"
     inline="False"
   />
- <javascript authenticated="true" bundle="default" cacheable="True"
+
+ <javascript authenticated="True" bundle="jqueryui" cacheable="True"
+    compression="none" conditionalcomment="" cookable="True" enabled="True"
+    expression="" id="collective.js.jqueryui.custom.min.js" inline="False"
+    />
+ <javascript authenticated="True" bundle="default" cacheable="True"
+    compression="none" conditionalcomment="" cookable="True" enabled="True"
+    expression="" id="jquery-migrate.min.js" inline="False"
+    />
+ <javascript authenticated="True" bundle="default" cacheable="True"
+    compression="none" conditionalcomment="" cookable="True" enabled="True"
+    expression="" id="++resource++plone.app.jquerytools.js" inline="False"
+    />
+ <javascript authenticated="True" bundle="default" cacheable="True"
     compression="full" conditionalcomment="" cookable="True" enabled="True"
+    expression="" id="++resource++plone.app.jquerytools.form.js"
+    inline="False" />
+ <javascript authenticated="True" bundle="default" cacheable="True"
+    compression="full" conditionalcomment="" cookable="True" enabled="True"
+    expression="" id="++resource++plone.app.jquerytools.overlayhelpers.js"
+    inline="False" />
+ <javascript authenticated="True" bundle="default" cacheable="True"
+    compression="none" conditionalcomment="" cookable="True" enabled="False"
+    expression="" id="++resource++plone.app.jquerytools.dateinput.js"
+    inline="False"
+    />
+ <javascript authenticated="True" bundle="default" cacheable="True"
+    compression="none" conditionalcomment="" cookable="True" enabled="False"
+    expression="" id="++resource++plone.app.jquerytools.rangeinput.js"
+    inline="False"
+    />
+ <javascript authenticated="True" bundle="default" cacheable="True"
+    compression="none" conditionalcomment="" cookable="True" enabled="False"
+    expression="" id="++resource++plone.app.jquerytools.validator.js"
+    inline="False"
+    />
+ <javascript authenticated="True" bundle="default" cacheable="True"
+    compression="none" conditionalcomment="" cookable="True" enabled="False"
+    expression="" id="++resource++plone.app.jquerytools.plugins.js"
+    inline="False"
+    />
+ <javascript authenticated="True" bundle="default" cacheable="True"
+    compression="none" conditionalcomment="" cookable="True" enabled="True"
+    expression="" id="++resource++plone.app.jquerytools.tooltip.js"
+    inline="False"
+    />
+ <javascript authenticated="True" bundle="default" cacheable="True"
+    compression="none" conditionalcomment="" cookable="True" enabled="False"
+    expression="" id="++resource++plone.app.jquerytools.tooltip.plugins.js"
+    inline="False"
+    />
+  <javascript authenticated="True" bundle="default" cacheable="True"
+    compression="full" conditionalcomment="" cookable="True" enabled="True"
+    expression="" id="form_tabbing.js" inline="False"
+  />
+  <javascript authenticated="True" bundle="default" cacheable="True"
+    compression="full" conditionalcomment="" cookable="True" enabled="True"
+    expression="" id="dragdropreorder.js" inline="False"
+  />
+  <javascript authenticated="True" bundle="default" cacheable="True"
+    compression="full" conditionalcomment="" cookable="True" enabled="True"
+    expression="" id="collapsiblesections.js" inline="False"
+  />
+ <javascript authenticated="true" bundle="default" cacheable="True"
+    compression="safe" conditionalcomment="" cookable="True" enabled="True"
     expression=""
     id="++resource++plone.app.discussion.javascripts/comments.js"
     inline="False" />
@@ -183,10 +188,6 @@
   />
  <javascript authenticated="True" bundle="default" cacheable="True"
     compression="full" conditionalcomment="" cookable="True" enabled="True"
-    expression="" id="dropdown.js" inline="False"
-    />
- <javascript authenticated="True" bundle="default" cacheable="True"
-    compression="full" conditionalcomment="" cookable="True" enabled="True"
     expression="" id="table_sorter.js" inline="False"
     />
  <javascript authenticated="True" bundle="default" cacheable="True"
@@ -194,7 +195,7 @@
     expression="" id="calendar_formfield.js" inline="False"
     />
   <javascript authenticated="True" bundle="default" cacheable="True"
-    compression="full" conditionalcomment="" cookable="True" enabled="True"
+    compression="safe" conditionalcomment="" cookable="True" enabled="True"
     expression="" id="kss-bbb.js" inline="False"
   />
   <javascript authenticated="True" bundle="default" cacheable="True"
@@ -236,7 +237,7 @@
     expression="python: 'search' in request.ACTUAL_URL" id="modernizr.js" inline="False"
   />
   <javascript authenticated="False" bundle="default" cacheable="True"
-    compression="full" conditionalcomment="" cookable="True" enabled="True"
+    compression="safe" conditionalcomment="" cookable="True" enabled="True"
     expression="python: 'search' in request.ACTUAL_URL" id="++resource++search.js" inline="False"
   />
  <javascript authenticated="False" bundle="default" cacheable="True"
