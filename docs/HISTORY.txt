@@ -1,8 +1,8 @@
 Changelog
 =========
 
-6.0.dev0 - (unreleased)
------------------------
+6.0 - (2018-11-21)
+------------------
 - Improve: hide Add new menu in Meeting emails archive.
   [GhitaB #99957]
 - Improve: hide Add new menu in Subscribers view.
