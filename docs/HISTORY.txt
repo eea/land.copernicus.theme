@@ -1,6 +1,9 @@
 Changelog
 =========
 
+6.1.dev0 - (unreleased)
+-----------------------
+
 6.0 - (2018-11-21)
 ------------------
 - Improve: hide Add new menu in Meeting emails archive.
