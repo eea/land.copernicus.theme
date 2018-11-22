@@ -22,9 +22,6 @@
  <stylesheet  id="helpcenter_print.css" remove="True" />
  <stylesheet  id="++resource++eea.pdf.css" remove="True" />
  <stylesheet  id="pdf.print.css" remove="True" />
- 
- 
-
 
  <stylesheet title="" applyPrefix="False" authenticated="False"
     bundle="default" cacheable="True" compression="full" conditionalcomment=""
@@ -80,7 +77,7 @@
  <stylesheet title="" applyPrefix="False" authenticated="True"
     bundle="jqueryui" cacheable="True" compression="none"
     conditionalcomment="" cookable="True" enabled="on" expression=""
-    id="collective.js.jqueryui.custom.min.css"
+    id="collective.js.jqueryui.custom.min.css" />
  <stylesheet title="" applyPrefix="False" authenticated="True"
    bundle="default" cacheable="True" compression="full" conditionalcomment=""
    cookable="True" enabled="on" expression="" id="authoring.css"
@@ -404,4 +401,3 @@
    cookable="True" enabled="on" expression="request/HTTP_X_THEME_ENABLED | nothing" id="ploneCustom.css"
    media="all" rel="stylesheet" rendering="link"/>
 </object>
-
