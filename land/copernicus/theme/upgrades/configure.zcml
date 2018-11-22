@@ -137,7 +137,7 @@
 
     <genericsetup:upgradeDepends
       title="Import profile steps with changes: css, js, skins, propertiestool, browserlayer"
-      import_steps="cssregistry jsregistry browserlayer propertiestool skins registry"
+      import_steps="cssregistry jsregistry browserlayer propertiestool skins plone.app.registry"
     />
   </genericsetup:upgradeSteps>
 </configure>
