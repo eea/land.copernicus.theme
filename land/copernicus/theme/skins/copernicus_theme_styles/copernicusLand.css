@@ -1045,3 +1045,7 @@ h2 {
 .portlet-static-partners .partners-logos {
   margin-left: 0px;
 }
+
+div.partners-banners ul.partners-logos img {
+  max-width: 200px;
+}
