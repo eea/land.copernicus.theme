@@ -5565,8 +5565,6 @@ button.close {
   border: 6px solid #E3F37D; }
 
 .bg-texture, body {
-  /*background-image: url("./bg-old-mathematics2.png");*/
-  /*background-attachment: fixed;*/
   background-color: #ffffff; }
 
 .margin-content, #header-section .container-fluid#insitu-brand-utils .content, .main-content, .breadcrumbs, .menu-sections {
@@ -6588,7 +6586,7 @@ div.pagination.listingBar span.current {
 }
 
 .insitu-article-title-container {
-  background-image: url("homepage-content/slider_pyranometer.png");
+  background-image: url("homepage-content/slider_pyranometer.jpg");
   height: 100px;
   margin-bottom: 20px;
   background-size: cover;
@@ -6618,7 +6616,7 @@ div.pagination.listingBar span.current {
 }
 
 .section-spatial-data .insitu-article-title-container {
-  background-image: url("homepage-content/slider_osmCopenhagen.png");
+  background-image: url("homepage-content/slider_osmCopenhagen.jpg");
 }
 
 .section-spatial-data #insitu-article-title {
@@ -6626,7 +6624,7 @@ div.pagination.listingBar span.current {
 }
 
 .section-observations .insitu-article-title-container {
-  background-image: url("homepage-content/slider_CBayo.png");
+  background-image: url("homepage-content/slider_CBayo.jpg");
 }
 
 .partners-banners ul.list-inline li {
