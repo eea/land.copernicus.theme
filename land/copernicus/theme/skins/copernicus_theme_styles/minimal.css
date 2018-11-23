@@ -73,7 +73,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-   font-family: 'Roboto', "Franklin Gothic Medium", Tahoma, sans-serif;
+  font-family: 'Roboto',"Franklin Gothic Medium", Tahoma, sans-serif; 
   font-size: 14px;
   line-height: 1.42857;
   color: #444444;
@@ -171,7 +171,7 @@ ol {
     padding: 0;
 }
 .insitu-article-title-container {
-    /*background-image: url(/homepage-content/slider_pyranometer.png);*/
+    background-color: #783F34;
     margin-bottom: 20px;
     background-size: cover;
     background-position: center center;
@@ -948,6 +948,7 @@ form[data-diazo="insitu-search-form"] .input-group {
   .carousel-inner > .item {
     display: none;
     position: relative;
+    height: 230px;
     -webkit-transition: 0.6s ease-in-out left;
     -o-transition: 0.6s ease-in-out left;
     transition: 0.6s ease-in-out left; }
@@ -1040,19 +1041,19 @@ form[data-diazo="insitu-search-form"] .input-group {
     filter: alpha(opacity=90); }
   .carousel-control .icon-prev,
   .carousel-control .icon-next,
-  .carousel-control .glyphicon-chevron-left,
-  .carousel-control .glyphicon-chevron-right {
+  .carousel-control .fa-chevron-left,
+  .carousel-control .fa-chevron-right {
     position: absolute;
     top: 50%;
     margin-top: -10px;
     z-index: 5;
     display: inline-block; }
   .carousel-control .icon-prev,
-  .carousel-control .glyphicon-chevron-left {
+  .carousel-control .fa-chevron-left {
     left: 50%;
     margin-left: -10px; }
   .carousel-control .icon-next,
-  .carousel-control .glyphicon-chevron-right {
+  .carousel-control .fa-chevron-right {
     right: 50%;
     margin-right: -10px; }
   .carousel-control .icon-prev,
@@ -1108,18 +1109,18 @@ form[data-diazo="insitu-search-form"] .input-group {
     text-shadow: none; }
 
 @media screen and (min-width: 768px) {
-  .carousel-control .glyphicon-chevron-left,
-  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .fa-chevron-left,
+  .carousel-control .fa-chevron-right,
   .carousel-control .icon-prev,
   .carousel-control .icon-next {
     width: 30px;
     height: 30px;
     margin-top: -10px;
     font-size: 30px; }
-  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .fa-chevron-left,
   .carousel-control .icon-prev {
     margin-left: -10px; }
-  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .fa-chevron-right,
   .carousel-control .icon-next {
     margin-right: -10px; }
   .carousel-caption {
@@ -1416,18 +1417,17 @@ form[data-diazo="insitu-search-form"] .input-group {
   margin-left: 15%;
   margin-right: 15%; }
 
-
-
-
-
 body {
   padding: 0px;
   margin: 0px;
   position: relative;
   z-index: 1; }
 
+/* search-by-tags page has it's header changed by angular so we hide the original h1 tag*/
+.template-search-by-tags  #insitu-article-title {
+    display: none;
+}
 #header-section {
-    background-image: url("/copernicus/header-photo-texture.jpg");
     background-size: cover;
     background-position: left top;
     background-repeat: no-repeat;
@@ -2105,7 +2105,3 @@ ul.listing-items li.listing-item {
      max-width: 200px;
    }
  }
-
-.template-search-by-tags  #insitu-article-title {
-  display: none;
-}
