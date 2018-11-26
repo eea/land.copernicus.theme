@@ -5989,6 +5989,7 @@ article.main #parent-fieldname-title {
   font-size: smaller;
   min-width: 4em; }
 
+body.template-register div.captchaAudio,
 body.section-eagle-contact div.captchaImage img[alt="Listen to audio for this captcha"],
 body.section-contact-form div.captchaImage img[alt="Listen to audio for this captcha"] {
   display: none;
