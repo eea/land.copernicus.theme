@@ -5989,13 +5989,6 @@ article.main #parent-fieldname-title {
   font-size: smaller;
   min-width: 4em; }
 
-body.template-register.portaltype-plone-site div#formfield-form-captcha div.fieldErrorBox,
-body.template-register.portaltype-plone-site div#formfield-form-captcha div.captchaAudio,
-body.template-register.portaltype-plone-site div#formfield-form-captcha input.textType,
-body.section-contact-form div.field.error.ArchetypesCaptchaWidget div.fieldErrorBox {
-  display: none;
-}
-
 body.template-register.portaltype-plone-site div#formfield-form-captcha > label > span:first-of-type:after {
   /* the answer is required, but the input field not */
   position: relative;
