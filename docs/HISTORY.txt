@@ -3,6 +3,8 @@ Changelog
 
 6.1.dev0 - (unreleased)
 -----------------------
+- Fix: captcha field styles in register form.
+  [GhitaB #99944]
 
 6.0 - (2018-11-21)
 ------------------
