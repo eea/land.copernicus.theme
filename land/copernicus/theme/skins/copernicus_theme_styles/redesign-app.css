@@ -5989,6 +5989,11 @@ article.main #parent-fieldname-title {
   font-size: smaller;
   min-width: 4em; }
 
+body.section-eagle-contact div.captchaImage img[alt="Listen to audio for this captcha"],
+body.section-contact-form div.captchaImage img[alt="Listen to audio for this captcha"] {
+  display: none;
+}
+
 body.template-register.portaltype-plone-site div#formfield-form-captcha > label > span:first-of-type:after {
   /* the answer is required, but the input field not */
   position: relative;
