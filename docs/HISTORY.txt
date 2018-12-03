@@ -3,6 +3,8 @@ Changelog
 
 6.2.dev0 - (unreleased)
 -----------------------
+- Fix: additional materials section layout in meeting view.
+  [GhitaB #97529]
 
 6.1 - (2018-11-26)
 ------------------
