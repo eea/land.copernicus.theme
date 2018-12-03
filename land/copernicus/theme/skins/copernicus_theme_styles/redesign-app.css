@@ -2138,6 +2138,10 @@ body.template-view.portaltype-eea-meeting div.event-metadata {
   max-width: 350px;
 }
 
+body.template-view.portaltype-eea-meeting div.meeting-items {
+  clear: both;
+}
+
 body.template-view.portaltype-eea-meeting div.geolocation_wrapper {
   width: 550px;
 }
