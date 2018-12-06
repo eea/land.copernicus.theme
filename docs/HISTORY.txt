@@ -3,6 +3,9 @@ Changelog
 
 6.3.dev0 - (unreleased)
 -----------------------
+- Improve: don't show excluded from navigation items in contents listing of
+  meeting view.
+  [GhitaB #97529]
 
 6.2 - (2018-12-05)
 ------------------
