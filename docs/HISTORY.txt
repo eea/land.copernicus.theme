@@ -1,6 +1,9 @@
 Changelog
 =========
 
+6.4.dev0 - (unreleased)
+-----------------------
+
 6.3 - (2018-12-11)
 ------------------
 - Improve: don't show excluded from navigation items in contents listing of
