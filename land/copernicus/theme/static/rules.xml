@@ -17,7 +17,10 @@
     <copy attributes="class id dir" content="/html/body" theme="/html/body" />
     <replace content="/html/head/meta" css:theme="[data-diazo='meta-after-placeholder']" />
     <drop css:theme=".portlet-content" />
-    <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
+
+    <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/noscript" /> <!-- Matomo Image Tracker -->
+    <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/script" /> <!-- Google Analytics & Matomo -->
+
     <replace content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
              css:theme="[data-diazo='links-and-scripts']" />
 
@@ -122,7 +125,9 @@
       <copy attributes="class id dir" content="/html/body" theme="/html/body" />
       <replace content="/html/head/meta" css:theme="[data-diazo='meta-after-placeholder']" />
 
-      <after theme-children="/html/body" content="//*[@id='portal-footer-wrapper']/div/script" />
+      <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/noscript" /> <!-- Matomo Image Tracker -->
+      <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/script" /> <!-- Google Analytics & Matomo -->
+
       <replace content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
                css:theme="[data-diazo='links-and-scripts']" />
 
