@@ -1,5 +1,26 @@
-.fa-clock-o {
-  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf017;');
+.fa-plus {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf067;');
+}
+.fa-close {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00d;');
+}
+.fa-remove {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00d;');
+}
+.fa-times {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00d;');
+}
+.fa-arrow-left {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf060;');
+}
+.fa-arrow-right {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf061;');
+}
+.fa-arrow-up {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf062;');
+}
+.fa-arrow-down {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf063;');
 }
 .fa-user-circle {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe900;');
@@ -34,7 +55,7 @@
 .fa-download {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90a;');
 }
-.fa-arrow-up {
+.fa-arrow-up1 {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90b;');
 }
 .fa-arrow-circle-right {
@@ -51,6 +72,9 @@
 }
 .fa-shrink {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe98a;');
+}
+.fa-clock-o {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf017;');
 }
 .fa-question-circle {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf059;');

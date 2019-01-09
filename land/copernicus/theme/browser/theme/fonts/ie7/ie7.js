@@ -13,7 +13,14 @@
 		el.innerHTML = '<span style="font-family: \'FontAwesome\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-		'fa-clock-o': '&#xf017;',
+		'fa-plus': '&#xf067;',
+		'fa-close': '&#xf00d;',
+		'fa-remove': '&#xf00d;',
+		'fa-times': '&#xf00d;',
+		'fa-arrow-left': '&#xf060;',
+		'fa-arrow-right': '&#xf061;',
+		'fa-arrow-up': '&#xf062;',
+		'fa-arrow-down': '&#xf063;',
 		'fa-user-circle': '&#xe900;',
 		'fa-twitter': '&#xe901;',
 		'fa-slideshare': '&#xe902;',
@@ -25,12 +32,13 @@
 		'fa-facebook-square': '&#xe908;',
 		'fa-envelope': '&#xe909;',
 		'fa-download': '&#xe90a;',
-		'fa-arrow-up': '&#xe90b;',
+		'fa-arrow-up1': '&#xe90b;',
 		'fa-arrow-circle-right': '&#xe90c;',
 		'fa-chevron-right': '&#xe90d;',
 		'fa-chevron-left': '&#xe90e;',
 		'fa-enlarge': '&#xe989;',
 		'fa-shrink': '&#xe98a;',
+		'fa-clock-o': '&#xf017;',
 		'fa-question-circle': '&#xf059;',
 		'0': 0
 		},
