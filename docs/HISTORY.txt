@@ -1,8 +1,8 @@
 Changelog
 =========
 
-6.4.dev0 - (unreleased)
------------------------
+6.4 - (2019-01-22)
+------------------
 - Improve: update icomoon font to include icons used by files library item.
   [GhitaB #99876]
 
