@@ -2206,8 +2206,13 @@ body.template-view.portaltype-eea-meeting-emails a.btn.btn-default {
 body.template-view.portaltype-eea-meeting-emails #plone-contentmenu-factories,
 body.template-folder_contents.portaltype-eea-meeting-emails #plone-contentmenu-factories,
 body.template-view.portaltype-eea-meeting-subscribers #plone-contentmenu-factories,
+body.template-view.portaltype-eea-meeting-subscribers div[data-diazo="land-secondary-column"],
 body.template-folder_contents.portaltype-eea-meeting-subscribers #plone-contentmenu-factories {
   display: none;
+}
+
+body.template-view.portaltype-eea-meeting-subscribers div.col-lg-9.col-md-12.col-sm-12.col-xs-12 {
+  width: 100%;
 }
 
 body.template-user-information label[for="form.disclaimer_permission"] span.required {

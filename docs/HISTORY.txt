@@ -1,8 +1,10 @@
 Changelog
 =========
 
-6.5 - (2019-01-29)
-------------------
+6.5.dev0 - (unreleased)
+-----------------------
+- Subscribers view: single column layout.
+  [GhitaB #97529]
 
 6.4 - (2019-01-22)
 ------------------
