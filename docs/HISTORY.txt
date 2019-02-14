@@ -3,6 +3,8 @@ Changelog
 
 6.6.dev0 - (unreleased)
 -----------------------
+- Improve: optimize events' slider in homepage.
+  [GhitaB #99728]
 
 6.5 - (2019-01-29)
 ------------------
