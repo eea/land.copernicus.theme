@@ -115,6 +115,10 @@
                   <tal:condition tal:condition="news_thumb">
                     <img class="land-img-preview"
                          tal:attributes="src python:news_thumb"/>
+                    <!-- <img class="land&#45;img&#45;preview" -->
+                    <!--      src="./preview_image.png" -->
+                    <!--      data&#45;role="progressive&#45;image" -->
+                    <!--      tal:attributes="data&#45;bigURL python:news_thumb"/> -->
                   </tal:condition>
                   <tal:condition tal:condition="not:news_thumb">
                     <img class="land-img-preview" src="./preview_image.png" alt="Preview image" />
