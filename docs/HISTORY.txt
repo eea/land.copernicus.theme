@@ -1,6 +1,9 @@
 Changelog
 =========
 
+6.7.dev0 - (unreleased)
+-----------------------
+
 6.6 - (2019-02-15)
 ------------------
 - Improve: optimize events' slider in homepage.
