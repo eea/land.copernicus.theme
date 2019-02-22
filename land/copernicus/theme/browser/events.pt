@@ -4,6 +4,10 @@
 
   <!-- Events list -->
   <h4 class="land-title">Coming events</h4>
+
+  <!-- TODO WIP here -->
+  <!-- <p tal:content="python:here.restrictedTraverse('/get_upcoming_events')()[:4]">ZZZ</p> -->
+
   <div class="listing block-inset">
     <div class="listing-body">
       <ul class="listing-items" tal:condition="python:has_events">
