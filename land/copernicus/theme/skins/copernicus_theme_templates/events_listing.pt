@@ -70,9 +70,22 @@
             </div>
 
             <div class="newsAbout">
-              <div>
+              <div tal:define="date2 python:resultObject.human_readable_date2">
                 <strong>When</strong><br />
-                <span tal:replace="python:resultObject.human_readable_date"></span>
+                <span tal:condition="python:date2[0] == date2[1]"
+                      tal:content="python:date2[0]">
+                  Jun 17, 2019
+                </span>
+
+                <span tal:condition="python:date2[0] != date2[1]">
+                  <span tal:replace="python:date2[0]">
+                    Jun 17, 2019
+                  </span>
+                  to <br />
+                  <span tal:replace="python:date2[1]">
+                    Jun 19, 2019
+                  </span>
+                </span>
               </div>
 
               <div tal:define="location resultObject/location"
