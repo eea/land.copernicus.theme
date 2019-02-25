@@ -49,7 +49,7 @@
             <li class="listing-item"
                 tal:define="event_object python:event;
                             event_date python:event_object.start;
-                            event_start_date python:{'month': event_date.month, 'day': event_date.day, 'year': event_date.year};
+                            event_start_date python:{'month': event_date.strftime('%b'), 'day': event_date.day, 'year': event_date.year};
                             event_month python:event_start_date.get('month');
                             event_day python:event_start_date.get('day');
                             event_year python:event_start_date.get('year');
