@@ -39,7 +39,41 @@
       <metal:block tal:repeat="result batch">
 
         <tal:meeting tal:condition="python:result.portal_type == 'eea.meeting'">
-          <h2>eea.meeting placeholder</h2>
+          <div class="newsItem clearfix eeameeting-item"
+               tal:define="resultObject result/getObject;
+                          creator result/Creator;
+                          resulturl resultObject/absolute_url;">
+
+            <div class="newsContent">
+              <h2>
+                <a href="/view"
+                   tal:attributes="href resulturl"
+                   tal:content="result/pretty_title_or_id">
+                  Event headline
+                </a>
+              </h2>
+              <p>
+                Published by
+                <span class="link-user">
+                  <a href=""
+                     tal:attributes="href python: home_url(creator)"
+                     tal:content="creator">
+                    Author
+                  </a>
+                </span>
+                on
+                <span tal:replace="python:toLocalizedTime(result.Date)">Publish date</span>
+              </p>
+              <p tal:content="python:resultObject.description" >
+                Description
+              </p>
+            </div>
+
+            <div class="newsAbout">
+              details
+            </div>
+
+          </div>
         </tal:meeting>
 
         <tal:event tal:condition="python:result.portal_type == 'Event'">
