@@ -70,7 +70,17 @@
             </div>
 
             <div class="newsAbout">
-              details
+              <div>
+                <strong>When</strong><br />
+                <span tal:replace="python:resultObject.human_readable_date"></span>
+              </div>
+
+              <div tal:define="location resultObject/location"
+                  tal:condition="python:resultObject.location and (resultObject.is_webinar() is not True)">
+
+                <strong>Where</strong><br />
+                <span tal:replace="location"></span>
+              </div>
             </div>
 
           </div>
