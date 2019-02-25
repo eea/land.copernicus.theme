@@ -46,23 +46,32 @@
           </tal:event>
 
           <tal:meeting tal:condition="python:event.portal_type == 'eea.meeting'">
-            <li class="listing-item">
+            <li class="listing-item"
+                tal:define="event_object python:event;
+                            event_date python:event_object.start;
+                            event_start_date python:{'month': event_date.month, 'day': event_date.day, 'year': event_date.year};
+                            event_month python:event_start_date.get('month');
+                            event_day python:event_start_date.get('day');
+                            event_year python:event_start_date.get('year');
+                            event_title python:event_object.title;
+                            event_url python:event_object.absolute_url();
+                            event_description python:event_object.description">
               <div class="event snippet">
                 <time datetime="" class="event-date">
-                  <span class="event-month" tal:content="python:'Sep'">Sep</span>
-                  <span class="event-day" tal:content="python:'25'">25</span>
-                  <span class="event-year" tal:content="python:'2016'">2016</span>
+                  <span class="event-month" tal:content="python:event_month">Sep</span>
+                  <span class="event-day" tal:content="python:event_day">25</span>
+                  <span class="event-year" tal:content="python:event_year">2016</span>
                 </time>
 
                 <div class="event-body">
                   <h4 class="event-title">
-                    <a href="" tal:content="python:'Title'"
-                       tal:attributes="href python:'url'">Event title</a>
+                    <a href="" tal:content="python:event_title"
+                       tal:attributes="href python:event_url">Event title</a>
                   </h4>
                   <div class="event-description">
                     <p>
-                      <span tal:replace="structure python:'Lorem ipsum'"></span>...
-                      <a href="" tal:attributes="href python:'url'">Read more</a>
+                      <span tal:replace="structure python:event_description[:120]"></span>...
+                      <a href="" tal:attributes="href python:event_url">Read more</a>
                     </p>
                   </div>
                 </div>
