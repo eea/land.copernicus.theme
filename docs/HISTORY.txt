@@ -1,6 +1,9 @@
 Changelog
 =========
 
+6.8.dev0 - (unreleased)
+-----------------------
+
 6.7 - (2019-02-25)
 ------------------
 - Feature: homepage / coming events - to include eea.meetings objects
