@@ -14,7 +14,7 @@
   <div id="content-core"
       tal:define="path context/@@plone_portal_state/navigation_root_path;
                   results python:context.portal_catalog.searchResults(dict(
-                    portal_type='Event',
+                    portal_type=['Event', 'Folderish Event', 'eea.meeting'],
                     sort_on='start',
                     sort_order='descending',
                     review_state='published',
@@ -38,70 +38,77 @@
 
       <metal:block tal:repeat="result batch">
 
-        <div class="newsItem clearfix"
-             metal:define-macro="listitem"
-             tal:define="resultObject result/getObject;
-                        creator result/Creator;
-                        resulturl resultObject/absolute_url;">
+        <tal:meeting tal:condition="python:result.portal_type == 'eea.meeting'">
+          <h2>eea.meeting placeholder</h2>
+        </tal:meeting>
 
-          <div class="newsContent">
-            <h2>
-              <a href="/view"
-                 tal:attributes="href resulturl"
-                 tal:content="result/pretty_title_or_id">
-                Event headline
-              </a>
-            </h2>
-            <p>
-              Published by 
-              <span class="link-user">
-                <a href=""
-                   tal:attributes="href python: home_url(creator)"
-                   tal:content="creator">
-                  Author
+        <tal:event tal:condition="python:result.portal_type == 'Event'">
+
+          <div class="newsItem clearfix"
+               metal:define-macro="listitem"
+               tal:define="resultObject result/getObject;
+                          creator result/Creator;
+                          resulturl resultObject/absolute_url;">
+
+            <div class="newsContent">
+              <h2>
+                <a href="/view"
+                   tal:attributes="href resulturl"
+                   tal:content="result/pretty_title_or_id">
+                  Event headline
                 </a>
-              </span> 
-              on 
-              <span tal:replace="python:toLocalizedTime(result.Date)">Publish date</span>
-            </p>
-            <p tal:content="resultObject/event_format" >
-              Description
-            </p>
-          </div>
-
-          <div class="newsAbout">
-            <div
-              tal:define="start_date python:toLocalizedTime(resultObject.start()); end_date python:toLocalizedTime(resultObject.end())"
-              >
-              <strong>When</strong><br />
-              <span tal:replace="start_date">Start Date</span>
-              <tal:end_date tal:condition="python: start_date != end_date">
-                to<br /><span tal:replace="end_date">End Date</span>
-              </tal:end_date>
+              </h2>
+              <p>
+                Published by
+                <span class="link-user">
+                  <a href=""
+                     tal:attributes="href python: home_url(creator)"
+                     tal:content="creator">
+                    Author
+                  </a>
+                </span>
+                on
+                <span tal:replace="python:toLocalizedTime(result.Date)">Publish date</span>
+              </p>
+              <p tal:content="resultObject/event_format" >
+                Description
+              </p>
             </div>
 
-            <div>
-              <strong>Where</strong><br />
-              <span tal:replace="python:result.location">location</span>
-            </div>
-          </div>
-
-          <div class="newsFooter"
-               tal:define="is_discussable python: isDiscussionAllowedFor and isDiscussionAllowedFor(resultObject) or False;">
-            <tal:discussable condition="is_discussable">
-              <div tal:attributes="class python: test(has_replies, 'visualCommentAlign link-comment','visualCommentAlign');"
-                   tal:define="talkback python: getDiscussionFor(resultObject);
-                               has_replies python: talkback.hasReplies(resultObject);">
-                <a href=""
-                   tal:define="reply_count python:talkback.replyCount(resultObject)"
-                   tal:condition="reply_count"
-                   tal:attributes="href string:${resulturl}#comments;">
-                  (<span tal:replace="python: reply_count" />)
-                </a>
+            <div class="newsAbout">
+              <div
+                tal:define="start_date python:toLocalizedTime(resultObject.start()); end_date python:toLocalizedTime(resultObject.end())"
+                >
+                <strong>When</strong><br />
+                <span tal:replace="start_date">Start Date</span>
+                <tal:end_date tal:condition="python: start_date != end_date">
+                  to<br /><span tal:replace="end_date">End Date</span>
+                </tal:end_date>
               </div>
-            </tal:discussable>
+
+              <div>
+                <strong>Where</strong><br />
+                <span tal:replace="python:result.location">location</span>
+              </div>
+            </div>
+
+            <div class="newsFooter"
+                 tal:define="is_discussable python: isDiscussionAllowedFor and isDiscussionAllowedFor(resultObject) or False;">
+              <tal:discussable condition="is_discussable">
+                <div tal:attributes="class python: test(has_replies, 'visualCommentAlign link-comment','visualCommentAlign');"
+                     tal:define="talkback python: getDiscussionFor(resultObject);
+                                 has_replies python: talkback.hasReplies(resultObject);">
+                  <a href=""
+                     tal:define="reply_count python:talkback.replyCount(resultObject)"
+                     tal:condition="reply_count"
+                     tal:attributes="href string:${resulturl}#comments;">
+                    (<span tal:replace="python: reply_count" />)
+                  </a>
+                </div>
+              </tal:discussable>
+            </div>
           </div>
-        </div>
+        </tal:event>
       </metal:block>
 
       <div metal:use-macro="context/batch_macros/macros/navigation" />
