@@ -2219,6 +2219,15 @@ body.template-user-information label[for="form.disclaimer_permission"] span.requ
   display: none;
 }
 
+img.land-img-bordered {
+  border: 1px solid #111 !important;
+}
+
+body:not(.userrole-site-administrator) div#plone-document-byline span.documentAuthor,
+body:not(.userrole-site-administrator) div#plone-document-byline span.contentHistory {
+  display: none;
+}
+
 body.template-landitem-view p.text-center a.btn-default.btn-login {
   color: #FFFFFF !important;
   text-decoration: none !important;
