@@ -3,7 +3,7 @@ Changelog
 
 6.8.dev0 - (unreleased)
 -----------------------
-- Fix: Simplified document byline for memebers (not admins).
+- Fix: Simplified document byline for members (not admins).
   [GhitaB #103611]
 
 6.7 - (2019-02-25)
