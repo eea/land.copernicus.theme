@@ -1,6 +1,9 @@
 Changelog
 =========
 
+7.0.dev0 - (unreleased)
+-----------------------
+
 6.9 - (2019-04-17)
 ------------------
 - Improve: Add diazo rules to prioritize raven scripts in order to log more
