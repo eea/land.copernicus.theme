@@ -3,6 +3,9 @@ Changelog
 
 6.9.dev0 - (unreleased)
 -----------------------
+- Improve: Add diazo rules to prioritize raven scripts in order to log more
+  js errors.
+  [GhitaB #103818]
 
 6.8 - (2019-03-15)
 ------------------
