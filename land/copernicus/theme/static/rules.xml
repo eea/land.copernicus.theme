@@ -19,6 +19,9 @@
 
     <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/noscript" /> <!-- Matomo Image Tracker -->
     <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/script" /> <!-- Google Analytics & Matomo -->
+    <!-- Load jquery then raven scripts in order to log js errors -->
+    <after theme-children="/html/head" content="//script[contains(@src, 'plone.app.jquery.js')]" />
+    <after theme-children="/html/head" content="//span[@data-diazo='raven-scripts']/script" />
 
     <replace content="/html/head/base | /html/head/style | /html/head/comment()" css:theme="[data-diazo='links-and-scripts']" />
     <replace css:theme="[data-diazo='footer-scripts']">
@@ -176,6 +179,10 @@
 
       <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/noscript" /> <!-- Matomo Image Tracker -->
       <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/script" /> <!-- Google Analytics & Matomo -->
+      <!-- Load jquery then raven scripts in order to log js errors -->
+      <after theme-children="/html/head" content="//script[contains(@src, 'plone.app.jquery.js')]" />
+      <after theme-children="/html/head" content="//span[@data-diazo='raven-scripts']/script" />
+
 
       <replace content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
                css:theme="[data-diazo='links-and-scripts']" />
