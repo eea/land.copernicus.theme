@@ -3,6 +3,8 @@ Changelog
 
 7.0.dev0 - (unreleased)
 -----------------------
+- Fix: Fix broken editor by wrong diazo rules.
+  [GhitaB #103818]
 
 6.9 - (2019-04-17)
 ------------------
