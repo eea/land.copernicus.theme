@@ -1,8 +1,8 @@
 Changelog
 =========
 
-7.0.dev0 - (unreleased)
------------------------
+7.0 - (2019-04-19)
+------------------
 - Fix: Fix broken editor by wrong diazo rules.
   [GhitaB #103818]
 
