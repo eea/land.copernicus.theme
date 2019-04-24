@@ -3,6 +3,8 @@ Changelog
 
 7.1.dev0 - (unreleased)
 -----------------------
+- Improve: Editable survey URL. Manual config: add survey_url string property.
+  [GhitaB #105137]
 
 7.0 - (2019-04-19)
 ------------------
