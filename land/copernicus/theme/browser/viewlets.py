@@ -2,6 +2,7 @@ from DateTime import DateTime
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from land.copernicus.content.config import MAX_NUMBER_EVENTS
 from land.copernicus.content.config import MAX_NUMBER_NEWS
+from plone import api
 from plone.app.layout.viewlets.common import ViewletBase
 from plone.memoize import ram
 from time import time
@@ -70,4 +71,7 @@ class CopernicusSurveyViewlet(ViewletBase):
 
     @property
     def survey_url(self):
-        return "https://ec.europa.eu/eusurvey/runner/clms2018"
+        return getattr(
+            api.portal.get(),
+            'survey_url',
+            'https://ec.europa.eu/eusurvey/runner/clms2018')
