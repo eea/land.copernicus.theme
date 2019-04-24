@@ -64,8 +64,7 @@ class CopernicusNewsViewlet(ViewletBase):
 
 
 class CopernicusSurveyViewlet(ViewletBase):
-    """ Satisfaction survey [refs #93752]
-        TODO: clean this when done.
+    """ Satisfaction survey [refs #93752, #105137]
     """
     render = ViewPageTemplateFile('survey.pt')
 
