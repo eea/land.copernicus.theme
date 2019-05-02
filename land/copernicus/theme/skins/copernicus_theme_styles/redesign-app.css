@@ -6847,6 +6847,13 @@ body.template-licenses-settings table.datagridwidget-table-view div.label {
   }
 }
 
+@media all and (min-width: 1200px) {
+  img[alt="survey banner"] {
+    width: 100% !important;
+    height: auto;
+  }
+}
+
 @media (min-width: 1235px) {
   .bg-multiple-colors {
     background: white !important;
