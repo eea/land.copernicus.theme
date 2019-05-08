@@ -93,62 +93,8 @@
     </replace>
 
     <!-- Navbar -->
-    <replace css:theme-children=".navbar.navbar-default ul.nav.navbar-nav li[data-diazo='land-nav-li']">
-      <xsl:for-each css:select="#portal-globalnav li">
-        <xsl:if test="not(@id = 'portaltab-user-corner')">
-          <xsl:element name='li'>
-
-            <xsl:if test="contains(./@id, 'portaltab-index_html')">
-              <xsl:attribute name="id">
-                <xsl:value-of select="@id" />
-              </xsl:attribute>
-              <li><a href="{./a/@href}"><i class="fa fa-home"></i></a></li>
-            </xsl:if>
-
-            <xsl:if test="contains(./@id, 'portaltab-news-items')">
-
-              <li class="dropdown" id="portaltab-news-items" data-hover="dropdown">
-
-                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
-                   aria-haspopup="true" id="dropdown-news" href="{./a/@href}">News</a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-news">
-                  <li id="portaltableaf-latest-news">
-                    <a href="{./a/@href}/latest-news">Latest News</a>
-                  </li>
-                  <li id="portaltableaf-events">
-                    <a href="{./a/@href}/events">Events</a>
-                  </li>
-                </ul>
-              </li>
-            </xsl:if>
-
-            <xsl:if test="contains(./@id, 'portaltab-product-portfolio')">
-
-              <li class="dropdown" id="portaltab-product-portfolio" data-hover="dropdown">
-
-                <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
-                   aria-haspopup="true" id="dropdown-product-portfolio" href="{./a/@href}">Product portfolio</a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-product-portfolio">
-                  <li id="portaltableaf-overview">
-                    <a href="{./a/@href}/overview">Overview</a>
-                  </li>
-                </ul>
-              </li>
-            </xsl:if>
-
-            <xsl:if test="not(contains(./@id, 'portaltab-index_html')) and
-                          not(contains(./@id, 'portaltab-news-items')) and
-                          not(contains(./@id, 'portaltab-product-portfolio'))">
-              <xsl:attribute name="id">
-                <xsl:value-of select="@id" />
-              </xsl:attribute>
-              <xsl:copy-of select="./*" />
-            </xsl:if>
-
-          </xsl:element>
-        </xsl:if>
-      </xsl:for-each>
-    </replace>
+    <replace css:theme="[data-diazo='land-main-menu']" css:content="[data-diazo='land-main-menu']" method="raw" />
+    <drop css:content="[data-diazo='land-main-menu']" />
 
     <!-- Footer -->
     <replace css:theme="[data-diazo='land-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />
@@ -209,62 +155,8 @@
       </replace>
 
       <!-- Navbar -->
-      <replace css:theme-children=".navbar.navbar-default ul.nav.navbar-nav li[data-diazo='land-nav-li']">
-        <xsl:for-each css:select="#portal-globalnav li">
-          <xsl:if test="not(@id = 'portaltab-user-corner')">
-            <xsl:element name='li'>
-
-              <xsl:if test="contains(./@id, 'portaltab-index_html')">
-                <xsl:attribute name="id">
-                  <xsl:value-of select="@id" />
-                </xsl:attribute>
-                <li><a href="{./a/@href}"><i class="fa fa-home"></i></a></li>
-              </xsl:if>
-
-              <xsl:if test="contains(./@id, 'portaltab-news-items')">
-
-                <li class="dropdown" id="portaltab-news-items" data-hover="dropdown">
-
-                  <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
-                     aria-haspopup="true" id="dropdown-news" href="{./a/@href}">News</a>
-                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-news">
-                    <li id="portaltableaf-latest-news">
-                      <a href="{./a/@href}/latest-news">Latest News</a>
-                    </li>
-                    <li id="portaltableaf-events">
-                      <a href="{./a/@href}/events">Events</a>
-                    </li>
-                  </ul>
-                </li>
-              </xsl:if>
-
-              <xsl:if test="contains(./@id, 'portaltab-product-portfolio')">
-
-                <li class="dropdown" id="portaltab-product-portfolio" data-hover="dropdown">
-
-                  <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
-                     aria-haspopup="true" id="dropdown-product-portfolio" href="{./a/@href}">Product portfolio</a>
-                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-product-portfolio">
-                    <li id="portaltableaf-overview">
-                      <a href="{./a/@href}/overview">Overview</a>
-                    </li>
-                  </ul>
-                </li>
-              </xsl:if>
-
-              <xsl:if test="not(contains(./@id, 'portaltab-index_html')) and
-                            not(contains(./@id, 'portaltab-news-items')) and
-                            not(contains(./@id, 'portaltab-product-portfolio'))">
-                <xsl:attribute name="id">
-                  <xsl:value-of select="@id" />
-                </xsl:attribute>
-                <xsl:copy-of select="./*" />
-              </xsl:if>
-
-            </xsl:element>
-          </xsl:if>
-        </xsl:for-each>
-      </replace>
+      <replace css:theme="[data-diazo='land-main-menu']" css:content="[data-diazo='land-main-menu']" method="raw" />
+      <drop css:content="[data-diazo='land-main-menu']" />
 
       <!-- Footer -->
       <replace css:theme="[data-diazo='land-partners-logos']" css:content=".portlet-static-partners ul.partners-logos" method="raw" />

@@ -1,0 +1,154 @@
+<nav class="navbar navbar-default" data-diazo="land-main-menu">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <div class="margin-content">
+        <ul class="nav navbar-nav land-social-icons collapsed">
+          <li class="dropdown" id="portaltab-product-portfolio" data-hover="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown"
+               data-hover="dropdown" aria-haspopup="true" id="dropdown-product-portfolio"
+               href="/product-portfolio">
+              Product portfolio
+            </a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-product-portfolio">
+              <li id="portaltableaf-overview">
+                <a href="/product-portfolio/overview">Overview</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/pages/Copernicus-EU/558113210871091" target="_blank">
+              <i class="fa fa-facebook-square color-white" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/copernicus_clms/" target="_blank">
+              <i class="fa fa-instagram color-white" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/CopernicusLand" target="_blank">
+              <i class="fa fa-twitter color-white" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.slideshare.net/CopernicusLandMonitoringService" target="_blank">
+              <i class="fa fa-slideshare color-white" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="dropdown" id="portaltab-news-items" data-hover="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true"
+               id="dropdown-news" href="/news-items">
+              News
+            </a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-news">
+              <li id="portaltableaf-latest-news">
+                <a href="/news-items/latest-news">Latest News</a>
+              </li>
+              <li id="portaltableaf-events">
+                <a href="/news-items/events">Events</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="margin-content">
+        <ul class="nav navbar-nav navbar-left">
+          <li data-diazo="land-nav-li"></li>
+          <li id="portaltab-index_html"></li>
+          <li>
+            <a href="/"><i class="fa fa-home"></i></a>
+          </li>
+          <li id="portaltab-global">
+            <a href="/global" title="The global land component is coordinated by the European Commission DG Joint Research Centre (JRC). It produces data across a wide range of biophysical variables at a global scale, which describe the state of vegetation (e.g. leaf area index), the energy budget (e.g. albedo) and the water cycle (e.g. soil moisture index).">
+              Global
+            </a>
+          </li>
+          <li id="portaltab-pan-european">
+            <a href="/pan-european" title="">
+              Pan-European
+            </a>
+          </li>
+          <li id="portaltab-local">
+            <a href="/local" title="The local component is coordinated by the European Environment Agency and aims to provide specific and more detailed information that is complementary to the information obtained through the Pan-European component.
+">
+              Local
+            </a>
+          </li>
+          <li id="portaltab-imagery-in-situ">
+            <a href="/imagery-in-situ" title="Copernicus land services need both satellite images and in-situ data in order to create reliable products and services.
+
+Satellite imagery forms the input for the creation of many information products and services, such as land cover maps or high resolution layers on land cover characteristics. Having all the satellite imagery available to cover 39 countries of EEA (EEA39),  the individual image scenes have been processed into a seamless pan-European ortho-rectified mosaics. The Copernicus Land Monitoring Service also provides access to Sentinel-2 Global Mosaic service.
+
+Many in-situ data are managed and made accessible at national level. However, due to issues such as data access and use restrictions, data quality and availability across EEA39 countries, Copernicus services and particularly Copernicus Land Monitoring Service also relies on pan-European in-situ datasets created and/or coordinated at European level.
+
+The LUCAS database is one such longstanding European database coordinated by DG ESTAT, which used for verification and validation of several information services in the Copernicus Land Monitoring Service portfolio.
+
+EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-interpreted river network and a modelled drainage network for EEA39 countries.">Imagery and reference data
+            </a>
+          </li>
+          <li></li>
+          <li></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right land-social-icons">
+          <li class="dropdown" id="portaltab-product-portfolio" data-hover="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true"
+               id="dropdown-product-portfolio" href="/product-portfolio">
+              Product portfolio
+            </a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-product-portfolio">
+              <li id="portaltableaf-overview">
+                <a href="/product-portfolio/overview">Overview</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/pages/Copernicus-EU/558113210871091" target="_blank">
+              <i class="fa fa-facebook-square color-white" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/copernicus_clms/" target="_blank">
+              <i class="fa fa-instagram color-white" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/CopernicusLand" target="_blank">
+              <i class="fa fa-twitter color-white" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.slideshare.net/CopernicusLandMonitoringService" target="_blank">
+              <i class="fa fa-slideshare color-white" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="dropdown" id="portaltab-news-items" data-hover="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true"
+               id="dropdown-news" href="/news-items">News</a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-news">
+                <li id="portaltableaf-latest-news">
+                  <a href="/news-items/latest-news">Latest News</a>
+                </li>
+                <li id="portaltableaf-events">
+                  <a href="/news-items/events">Events</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>

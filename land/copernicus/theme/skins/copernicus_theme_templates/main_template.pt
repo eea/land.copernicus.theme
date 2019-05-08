@@ -78,6 +78,9 @@
       </div>
     </div><!-- header -->
 
+    <!-- Navbar -->
+    <div id="land-main-menu" tal:content="structure context/land_main_menu"></div>
+
     <!-- content -->
     <div id="portal-columns" class="row">
 
