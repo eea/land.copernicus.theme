@@ -113,6 +113,37 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
               <li id="portaltableaf-overview">
                 <a href="/product-portfolio/overview">Overview</a>
               </li>
+              <li class="dropdown" id="portaltableaf-quick-access-to-products" data-hover="dropdown">
+                <a href="">Quick access to products</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="portaltableaf-quick-access-to-products">
+                  <li id="portaltableaf-aaa">
+                    <a href="">AAA</a>
+                  </li>
+                  <li id="portaltableaf-bbb">
+                    <a href="">BBB</a>
+                  </li>
+                  <li class="dropdown" id="portaltableaf-ccc" data-hover="dropdown">
+                    <a href="">Quick access to products</a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="portaltableaf-ccc">
+                      <li id="portaltableaf-ddd">
+                        <a href="">DDD</a>
+                      </li>
+                      <li id="portaltableaf-eee">
+                        <a href="">EEE</a>
+                      </li>
+                      <li id="portaltableaf-fff">
+                        <a href="">FFF</a>
+                      </li>
+                      <li id="portaltableaf-ggg">
+                        <a href="">GGG Lorem ipsum</a>
+                      </li>
+                      <li id="portaltableaf-hhh">
+                        <a href="">HHH Lorem ipsum</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </li>
           <li>
@@ -138,17 +169,17 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
           <li class="dropdown" id="portaltab-news-items" data-hover="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true"
                id="dropdown-news" href="/news-items">News</a>
-              <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-news">
-                <li id="portaltableaf-latest-news">
-                  <a href="/news-items/latest-news">Latest News</a>
-                </li>
-                <li id="portaltableaf-events">
-                  <a href="/news-items/events">Events</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-news">
+              <li id="portaltableaf-latest-news">
+                <a href="/news-items/latest-news">Latest News</a>
+              </li>
+              <li id="portaltableaf-events">
+                <a href="/news-items/events">Events</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>

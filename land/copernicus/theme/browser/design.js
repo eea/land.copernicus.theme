@@ -102,9 +102,9 @@ jQuery(document).ready(function($) {
 
   // Main menu behaviour for dropdown items (News, Product portfolio)
   $('ul.nav li.dropdown').hover(function() {
-    $(this).find('.dropdown-menu').stop(true, true).delay(30).fadeIn(200);
+    $(this).find('.dropdown-menu').first().stop(true, true).delay(30).fadeIn(200);
   }, function() {
-    $(this).find('.dropdown-menu').stop(true, true).delay(50).fadeOut(500);
+    // $(this).find('.dropdown-menu').first().stop(true, true).delay(50).fadeOut(500);
   });
 
   // Land item edit - Metadata tab - Bounding Boxes behaviour
