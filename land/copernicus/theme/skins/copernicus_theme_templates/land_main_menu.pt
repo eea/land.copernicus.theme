@@ -113,37 +113,37 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
               <li id="portaltableaf-overview">
                 <a href="/product-portfolio/overview">Overview</a>
               </li>
-              <li class="dropdown" id="portaltableaf-quick-access-to-products" data-hover="dropdown">
-                <a href="">Quick access to products</a>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="portaltableaf-quick-access-to-products">
-                  <li id="portaltableaf-aaa">
-                    <a href="">AAA</a>
-                  </li>
-                  <li id="portaltableaf-bbb">
-                    <a href="">BBB</a>
-                  </li>
-                  <li class="dropdown" id="portaltableaf-ccc" data-hover="dropdown">
-                    <a href="">Quick access to products</a>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="portaltableaf-ccc">
-                      <li id="portaltableaf-ddd">
-                        <a href="">DDD</a>
-                      </li>
-                      <li id="portaltableaf-eee">
-                        <a href="">EEE</a>
-                      </li>
-                      <li id="portaltableaf-fff">
-                        <a href="">FFF</a>
-                      </li>
-                      <li id="portaltableaf-ggg">
-                        <a href="">GGG Lorem ipsum</a>
-                      </li>
-                      <li id="portaltableaf-hhh">
-                        <a href="">HHH Lorem ipsum</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
+              <!-- <li class="dropdown" id="portaltableaf&#45;quick&#45;access&#45;to&#45;products" data&#45;hover="dropdown"> -->
+              <!--   <a href="">Quick access to products</a> -->
+              <!--   <ul class="dropdown&#45;menu" role="menu" aria&#45;labelledby="portaltableaf&#45;quick&#45;access&#45;to&#45;products"> -->
+              <!--     <li id="portaltableaf&#45;aaa"> -->
+              <!--       <a href="">AAA</a> -->
+              <!--     </li> -->
+              <!--     <li id="portaltableaf&#45;bbb"> -->
+              <!--       <a href="">BBB</a> -->
+              <!--     </li> -->
+              <!--     <li class="dropdown" id="portaltableaf&#45;ccc" data&#45;hover="dropdown"> -->
+              <!--       <a href="">Quick access to products</a> -->
+              <!--       <ul class="dropdown&#45;menu" role="menu" aria&#45;labelledby="portaltableaf&#45;ccc"> -->
+              <!--         <li id="portaltableaf&#45;ddd"> -->
+              <!--           <a href="">DDD</a> -->
+              <!--         </li> -->
+              <!--         <li id="portaltableaf&#45;eee"> -->
+              <!--           <a href="">EEE</a> -->
+              <!--         </li> -->
+              <!--         <li id="portaltableaf&#45;fff"> -->
+              <!--           <a href="">FFF</a> -->
+              <!--         </li> -->
+              <!--         <li id="portaltableaf&#45;ggg"> -->
+              <!--           <a href="">GGG Lorem ipsum</a> -->
+              <!--         </li> -->
+              <!--         <li id="portaltableaf&#45;hhh"> -->
+              <!--           <a href="">HHH Lorem ipsum</a> -->
+              <!--         </li> -->
+              <!--       </ul> -->
+              <!--     </li> -->
+              <!--   </ul> -->
+              <!-- </li> -->
             </ul>
           </li>
           <li>
