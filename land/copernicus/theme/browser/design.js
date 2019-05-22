@@ -1,4 +1,7 @@
 jQuery(document).ready(function($) {
+  // Show main menu
+  $("#land-main-menu").show();
+
   // Custom layout for section: Imagery and reference data
   if($('body').hasClass('template-atct_album_view') && $('body').hasClass('section-imagery-in-situ')) {
     function is_subsection($elem) {
