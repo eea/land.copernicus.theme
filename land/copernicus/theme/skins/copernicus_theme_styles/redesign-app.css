@@ -6281,6 +6281,12 @@ div.pagination.listingBar span.current {
   .navbar-nav ul.dropdown-menu li:last-child {
     margin-bottom: -5px; }
 
+@media screen and (min-width: 800px) {
+  ul.nav.navbar-nav.land-social-icons {
+    float: right !important;
+  }
+}
+
 #portaltab-news-items ul.dropdown-menu,
 #portaltab-product-portfolio ul.dropdown-menu {
   position: absolute;
