@@ -6237,6 +6237,7 @@ div.pagination.listingBar span.current {
 .nav.navbar-nav.land-social-icons.collapsed {
   float: left;
   margin-left: 10px;
+  display: contents;
 }
 
 .navbar-toggle {
