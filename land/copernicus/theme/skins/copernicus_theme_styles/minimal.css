@@ -583,10 +583,6 @@ select[multiple].input-sm,
 @media (min-width: 768px) {
   .navbar-header {
     float: left; }
-
-  .nav.navbar-nav.land-social-icons.collapsed {
-    display: none;
-  }
 }
 
 @media (max-width: 768px) {
