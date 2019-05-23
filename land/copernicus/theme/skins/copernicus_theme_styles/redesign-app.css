@@ -6230,12 +6230,6 @@ div.pagination.listingBar span.current {
   }
 }
 
-@media screen and (max-width: 800px) {
-  ul.nav.navbar-nav.land-social-icons {
-    display: contents;
-  }
-}
-
 #portaltab-news-items ul.dropdown-menu,
 #portaltab-product-portfolio ul.dropdown-menu {
   position: absolute;
