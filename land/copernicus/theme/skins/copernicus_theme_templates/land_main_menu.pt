@@ -12,7 +12,7 @@
     </div>
     <div class="collapse navbar-collapse">
       <div class="margin-content">
-        <ul class="nav navbar-nav land-social-icons collapsed">
+        <ul class="nav navbar-nav land-social-icons">
           <li>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product portfolio<b class="caret"></b></a>
             <ul class="dropdown-menu">
