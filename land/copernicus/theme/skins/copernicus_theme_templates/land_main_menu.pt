@@ -12,6 +12,7 @@
     </div>
     <div class="collapse navbar-collapse">
       <div class="margin-content">
+<<<<<<< HEAD
 
         <ul class="nav navbar-nav navbar-left">
           <li data-diazo="land-nav-li"></li>
@@ -51,6 +52,8 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
           <li></li>
         </ul>
 
+=======
+>>>>>>> f28cf325441b730512f427f2bcec94ad3c96c13c
         <ul class="nav navbar-nav land-social-icons">
           <li>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product portfolio<b class="caret"></b></a>
