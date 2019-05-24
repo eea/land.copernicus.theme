@@ -2551,7 +2551,7 @@ tbody.collapse.in {
     overflow: hidden;
     background-color: #e5e5e5; }
   .dropdown-menu > li > a {
-    display: inline-block;
+    display: block;
     padding: 3px 20px;
     clear: both;
     font-weight: normal;
@@ -3433,16 +3433,6 @@ tbody.collapse.in {
     fieldset[disabled] .navbar-inverse .btn-link:hover,
     fieldset[disabled] .navbar-inverse .btn-link:focus {
       color: #444; }
-
-.navbar-nav ul.dropdown-menu {
-  margin-top: 0px !important;
-}
-
-.navbar-nav ul.dropdown-menu,
-.navbar-nav ul.dropdown-menu li,
-.navbar-nav ul.dropdown-menu li a {
-  width: fit-content !important;
-}
 
 .breadcrumb {
   padding: 6px 16px !important;
