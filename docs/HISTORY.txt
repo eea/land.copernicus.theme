@@ -1,8 +1,8 @@
 Changelog
 =========
 
-7.2.dev0 - (unreleased)
------------------------
+7.2 - (2019-05-24)
+------------------
 - Improve: land main menu, adding extra options (multilevel menu) and using as
   a customizable template instead of complex diazo rules.
   [GhitaB #105524]
