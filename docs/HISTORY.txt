@@ -3,7 +3,10 @@ Changelog
 
 7.2.dev0 - (unreleased)
 -----------------------
-- Fix survey banner responsivity.
+- Improve: land main menu, adding extra options (multilevel menu) and using as
+  a customizable template instead of complex diazo rules.
+  [GhitaB #105524]
+- Fix: survey banner responsivity.
   [GhitaB #105137]
 
 7.1 - (2019-04-24)
