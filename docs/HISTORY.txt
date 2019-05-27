@@ -3,6 +3,8 @@ Changelog
 
 7.3.dev0 - (unreleased)
 -----------------------
+- Fix: options height and padding in navbar.
+  [GhitaB #105524]
 
 7.2 - (2019-05-24)
 ------------------
