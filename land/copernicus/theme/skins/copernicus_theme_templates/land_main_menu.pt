@@ -234,10 +234,10 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                           <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/Image%202012"> High Resolution Imagery 2012 </a></li>
                           <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2009/image-2009-cov1"> High Resolution Imagery 2009 </a></li>
                           <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2006"> High Resolution Imagery 2006 </a></li>
-                          <li><a href="/imagery-in-situ/global-image-mosaics/"> Global Image Mosaics </a></li>
                         </ul>
                       </li>
 
+                      <li><a href="/imagery-in-situ/global-image-mosaics/"> Global Image Mosaics </a></li>
                       <li class="dropdown-submenu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reference Data</a>
                         <ul class="dropdown-menu">
