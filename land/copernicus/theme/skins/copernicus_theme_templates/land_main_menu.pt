@@ -49,9 +49,13 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
           <li></li>
           <li></li>
         </ul>
+
+        <!-- 1 -->
         <ul class="nav navbar-nav land-social-icons">
           <li>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product portfolio<b class="caret"></b></a>
+
+            <!-- 2 -->
             <ul class="dropdown-menu">
               <li>
                 <a href="/product-portfolio/overview">Overview</a>
@@ -59,6 +63,8 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
 
               <li class="dropdown-submenu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick access to products </a>
+
+                <!-- 3 -->
                 <ul class="dropdown-menu">
                   <li class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Land Cover & Land Use Mapping</a>
@@ -66,6 +72,8 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                       <li><a href="/global/products/lc"> Global Dynamic Land Cover </a></li>
                     </ul>
                   </li>
+
+                  <!-- OK -->
 
                   <li class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">CORINE Land Cover</a>
