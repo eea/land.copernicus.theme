@@ -68,77 +68,82 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                 <ul class="dropdown-menu">
                   <li class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Land Cover & Land Use Mapping</a>
+
+                    <!-- 4 -->
                     <ul class="dropdown-menu">
                       <li><a href="/global/products/lc"> Global Dynamic Land Cover </a></li>
+                      <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">CORINE Land Cover</a>
+
+                        <!-- 5 -->
+                        <ul class="dropdown-menu">
+                          <li><a href="/pan-european/corine-land-cover/clc2018"> CORINE Land Cover 2018 </a></li>
+                          <li><a href="/pan-european/corine-land-cover/clc-2012"> CORINE Land Cover 2012 </a></li>
+                          <li><a href="/pan-european/corine-land-cover/clc-2006"> CORINE Land Cover 2006 </a></li>
+                          <li><a href="/pan-european/corine-land-cover/clc-2000"> CORINE Land Cover 2000 </a></li>
+                          <li><a href="/pan-european/corine-land-cover/clc-1990"> CORINE Land Cover 1990 </a></li>
+                          <li><a href="/pan-european/corine-land-cover/lcc-2012-2018"> CORINE Land Cover Change 2012-2018 </a></li>
+                          <li><a href="/pan-european/corine-land-cover/lcc-2006-2012"> CORINE Land Cover Change 2006-2012 </a></li>
+                          <li><a href="/pan-european/corine-land-cover/lcc-2000-2006"> CORINE Land Cover Change 2000-2006 </a></li>
+                          <li><a href="/pan-european/corine-land-cover/lcc-1990-2000"> CORINE Land Cover Change 1990-2000 </a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Forests</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2015"> Tree Cover Density 2015 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2012"> Tree Cover Density 2012 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/change-maps/2012-2015"> Tree Cover Density Change 2012-2015 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2015"> Dominant Leaf Type 2015 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2012"> Dominant Leaf Type 2012 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2015"> Forest Type 2015 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2012"> Forest Type 2012 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2015"> Forest Additional Support Layer 2015 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2012"> Forest Additional Support Layer 2012 </a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Grassland</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="/pan-european/high-resolution-layers/grassland/status-maps/2015"> Grassland 2015 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/ploughing-indicator"> Grassland Ploughing Indicator 2015 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/grassland-vegetation-probability-index"> Grassland Vegetation Probability Index 2015 </a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Imperviousness</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2015"> Imperviousness Degree 2015 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2012"> Imperviousness Degree 2012 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2009"> Imperviousness Degree 2009 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2006"> Imperviousness Degree 2006 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2012-2015/degree-change"> Imperviousness Change 2012-2015 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2009-2012/degree-change"> Imperviousness Change 2009-2012 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2009/degree-change"> Imperviousness Change 2006-2009 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2012-clc-synchronous/degree-change"> Imperviousness Change 2006-2012 (CLC Synchronous) </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2012-2015/classified-change"> Imperviousness Classified Change 2012-2015 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2009-2012/classified-change"> Imperviousness Classified Change 2009-2012 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2009"> Imperviousness Classified Change 2006-2009 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2012-clc-synchronous/classified-change"> Imperviousness Classified Change 2006-2012 (CLC Synchronous) </a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown-submenu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Water and Wetness</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="/pan-european/high-resolution-layers/water-wetness/status-maps/2015"> Water and Wetness 2015 </a></li>
+                          <li><a href="/pan-european/high-resolution-layers/water-wetness/expert-products/wetness-probability-index/2015"> Water and Wetness Probability Index 2015 </a></li>
+                        </ul>
+                      </li>
+
                     </ul>
                   </li>
 
                   <!-- OK -->
 
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">CORINE Land Cover</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/pan-european/corine-land-cover/clc2018"> CORINE Land Cover 2018 </a></li>
-                      <li><a href="/pan-european/corine-land-cover/clc-2012"> CORINE Land Cover 2012 </a></li>
-                      <li><a href="/pan-european/corine-land-cover/clc-2006"> CORINE Land Cover 2006 </a></li>
-                      <li><a href="/pan-european/corine-land-cover/clc-2000"> CORINE Land Cover 2000 </a></li>
-                      <li><a href="/pan-european/corine-land-cover/clc-1990"> CORINE Land Cover 1990 </a></li>
-                      <li><a href="/pan-european/corine-land-cover/lcc-2012-2018"> CORINE Land Cover Change 2012-2018 </a></li>
-                      <li><a href="/pan-european/corine-land-cover/lcc-2006-2012"> CORINE Land Cover Change 2006-2012 </a></li>
-                      <li><a href="/pan-european/corine-land-cover/lcc-2000-2006"> CORINE Land Cover Change 2000-2006 </a></li>
-                      <li><a href="/pan-european/corine-land-cover/lcc-1990-2000"> CORINE Land Cover Change 1990-2000 </a></li>
-                    </ul>
-                  </li>
-
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Forests</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2015"> Tree Cover Density 2015 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2012"> Tree Cover Density 2012 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/change-maps/2012-2015"> Tree Cover Density Change 2012-2015 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2015"> Dominant Leaf Type 2015 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2012"> Dominant Leaf Type 2012 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2015"> Forest Type 2015 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2012"> Forest Type 2012 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2015"> Forest Additional Support Layer 2015 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2012"> Forest Additional Support Layer 2012 </a></li>
-                    </ul>
-                  </li>
-
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Grassland</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/pan-european/high-resolution-layers/grassland/status-maps/2015"> Grassland 2015 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/ploughing-indicator"> Grassland Ploughing Indicator 2015 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/grassland-vegetation-probability-index"> Grassland Vegetation Probability Index 2015 </a></li>
-                    </ul>
-                  </li>
-
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Imperviousness</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2015"> Imperviousness Degree 2015 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2012"> Imperviousness Degree 2012 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2009"> Imperviousness Degree 2009 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2006"> Imperviousness Degree 2006 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2012-2015/degree-change"> Imperviousness Change 2012-2015 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2009-2012/degree-change"> Imperviousness Change 2009-2012 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2009/degree-change"> Imperviousness Change 2006-2009 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2012-clc-synchronous/degree-change"> Imperviousness Change 2006-2012 (CLC Synchronous) </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2012-2015/classified-change"> Imperviousness Classified Change 2012-2015 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2009-2012/classified-change"> Imperviousness Classified Change 2009-2012 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2009"> Imperviousness Classified Change 2006-2009 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2012-clc-synchronous/classified-change"> Imperviousness Classified Change 2006-2012 (CLC Synchronous) </a></li>
-                    </ul>
-                  </li>
-
-                  <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Water and Wetness</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/pan-european/high-resolution-layers/water-wetness/status-maps/2015"> Water and Wetness 2015 </a></li>
-                      <li><a href="/pan-european/high-resolution-layers/water-wetness/expert-products/wetness-probability-index/2015"> Water and Wetness Probability Index 2015 </a></li>
-                    </ul>
-                  </li>
 
                   <li class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Thematic Hotspot Mapping</a>
