@@ -1,6 +1,9 @@
 Changelog
 =========
 
+7.4.dev0 - (unreleased)
+-----------------------
+
 7.3 - (2019-06-04)
 ------------------
 - Fix: options height and padding in navbar. Update content.
