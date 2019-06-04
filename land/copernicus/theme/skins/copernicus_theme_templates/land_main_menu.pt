@@ -60,216 +60,210 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
               </li>
 
               <li class="dropdown-submenu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick access to products </a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Land Cover & Land Use Mapping</a>
 
                 <ul class="dropdown-menu">
+                  <li><a href="/global/products/lc"> Global Dynamic Land Cover </a></li>
                   <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Land Cover & Land Use Mapping</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">CORINE Land Cover</a>
 
                     <ul class="dropdown-menu">
-                      <li><a href="/global/products/lc"> Global Dynamic Land Cover </a></li>
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">CORINE Land Cover</a>
-
-                        <ul class="dropdown-menu">
-                          <li><a href="/pan-european/corine-land-cover/clc2018"> CORINE Land Cover 2018 </a></li>
-                          <li><a href="/pan-european/corine-land-cover/clc-2012"> CORINE Land Cover 2012 </a></li>
-                          <li><a href="/pan-european/corine-land-cover/clc-2006"> CORINE Land Cover 2006 </a></li>
-                          <li><a href="/pan-european/corine-land-cover/clc-2000"> CORINE Land Cover 2000 </a></li>
-                          <li><a href="/pan-european/corine-land-cover/clc-1990"> CORINE Land Cover 1990 </a></li>
-                          <li><a href="/pan-european/corine-land-cover/lcc-2012-2018"> CORINE Land Cover Change 2012-2018 </a></li>
-                          <li><a href="/pan-european/corine-land-cover/lcc-2006-2012"> CORINE Land Cover Change 2006-2012 </a></li>
-                          <li><a href="/pan-european/corine-land-cover/lcc-2000-2006"> CORINE Land Cover Change 2000-2006 </a></li>
-                          <li><a href="/pan-european/corine-land-cover/lcc-1990-2000"> CORINE Land Cover Change 1990-2000 </a></li>
-                        </ul>
-                      </li>
-
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Forests</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2015"> Tree Cover Density 2015 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2012"> Tree Cover Density 2012 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/change-maps/2012-2015"> Tree Cover Density Change 2012-2015 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2015"> Dominant Leaf Type 2015 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2012"> Dominant Leaf Type 2012 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2015"> Forest Type 2015 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2012"> Forest Type 2012 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2015"> Forest Additional Support Layer 2015 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2012"> Forest Additional Support Layer 2012 </a></li>
-                        </ul>
-                      </li>
-
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Grassland</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/pan-european/high-resolution-layers/grassland/status-maps/2015"> Grassland 2015 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/ploughing-indicator"> Grassland Ploughing Indicator 2015 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/grassland-vegetation-probability-index"> Grassland Vegetation Probability Index 2015 </a></li>
-                        </ul>
-                      </li>
-
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Imperviousness</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2015"> Imperviousness Degree 2015 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2012"> Imperviousness Degree 2012 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2009"> Imperviousness Degree 2009 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2006"> Imperviousness Degree 2006 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2012-2015/degree-change"> Imperviousness Change 2012-2015 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2009-2012/degree-change"> Imperviousness Change 2009-2012 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2009/degree-change"> Imperviousness Change 2006-2009 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2012-clc-synchronous/degree-change"> Imperviousness Change 2006-2012 (CLC Synchronous) </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2012-2015/classified-change"> Imperviousness Classified Change 2012-2015 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2009-2012/classified-change"> Imperviousness Classified Change 2009-2012 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2009"> Imperviousness Classified Change 2006-2009 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2012-clc-synchronous/classified-change"> Imperviousness Classified Change 2006-2012 (CLC Synchronous) </a></li>
-                        </ul>
-                      </li>
-
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Water and Wetness</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/pan-european/high-resolution-layers/water-wetness/status-maps/2015"> Water and Wetness 2015 </a></li>
-                          <li><a href="/pan-european/high-resolution-layers/water-wetness/expert-products/wetness-probability-index/2015"> Water and Wetness Probability Index 2015 </a></li>
-                        </ul>
-                      </li>
-
+                      <li><a href="/pan-european/corine-land-cover/clc2018"> CORINE Land Cover 2018 </a></li>
+                      <li><a href="/pan-european/corine-land-cover/clc-2012"> CORINE Land Cover 2012 </a></li>
+                      <li><a href="/pan-european/corine-land-cover/clc-2006"> CORINE Land Cover 2006 </a></li>
+                      <li><a href="/pan-european/corine-land-cover/clc-2000"> CORINE Land Cover 2000 </a></li>
+                      <li><a href="/pan-european/corine-land-cover/clc-1990"> CORINE Land Cover 1990 </a></li>
+                      <li><a href="/pan-european/corine-land-cover/lcc-2012-2018"> CORINE Land Cover Change 2012-2018 </a></li>
+                      <li><a href="/pan-european/corine-land-cover/lcc-2006-2012"> CORINE Land Cover Change 2006-2012 </a></li>
+                      <li><a href="/pan-european/corine-land-cover/lcc-2000-2006"> CORINE Land Cover Change 2000-2006 </a></li>
+                      <li><a href="/pan-european/corine-land-cover/lcc-1990-2000"> CORINE Land Cover Change 1990-2000 </a></li>
                     </ul>
                   </li>
 
                   <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Thematic Hotspot Mapping</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Forests</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/global/hsm"> Land Cover and Land Change </a></li>
-
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Natura 2000</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/local/natura/natura-2000-2012"> Natura 2000 - 2012 Update </a></li>
-                          <li><a href="/local/natura/natura-2000-2006"> Natura 2000 - 2006 Update </a></li>
-                        </ul>
-                      </li>
-
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Riparian Zones</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/local/riparian-zones/land-cover-land-use-lclu-image"> Land Cover and Land Use Information of Riparian Zones </a></li>
-                          <li><a href="/local/riparian-zones/riparian-zones-delineation"> Delineation of Riparian Zones </a></li>
-                          <li><a href="/local/riparian-zones/green-linear-elements-gle-image"> Green Linear Elements of Riparian Zones </a></li>
-                        </ul>
-                      </li>
-
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Urban Atlas</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/local/urban-atlas/urban-atlas-2012"> Urban Atlas 2012 </a></li>
-                          <li><a href="/local/urban-atlas/urban-atlas-2006"> Urban Atlas 2006 </a></li>
-                          <li><a href="/local/urban-atlas/change-2006-2009"> Urban Atlas Change 2006-2012 </a></li>
-                          <li><a href="/local/urban-atlas/building-height-2012"> Urban Atlas Building Height 2012 </a></li>
-                          <li><a href="/local/urban-atlas/street-tree-layer-stl"> Street Tree Layer </a></li>
-                        </ul>
-                      </li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2015"> Tree Cover Density 2015 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2012"> Tree Cover Density 2012 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/change-maps/2012-2015"> Tree Cover Density Change 2012-2015 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2015"> Dominant Leaf Type 2015 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2012"> Dominant Leaf Type 2012 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2015"> Forest Type 2015 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2012"> Forest Type 2012 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2015"> Forest Additional Support Layer 2015 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2012"> Forest Additional Support Layer 2012 </a></li>
                     </ul>
                   </li>
 
                   <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Biophysical Paratemters</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Grassland</a>
                     <ul class="dropdown-menu">
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cryosphere</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/global/products/lie"> Lake Ice Extent </a></li>
-                          <li><a href="/global/products/sce"> Fractional Snow Cover / Snow Cover Extent </a></li>
-                          <li><a href="/global/products/swe"> Snow Water Equivalent </a></li>
-                        </ul>
-                      </li>
-
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Energy</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/global/products/lst"> Land Surface Temperature </a></li>
-                          <li><a href="/global/products/sa"> Surface Albedo </a></li>
-                          <li><a href="/global/products/toc-r"> Top of Canopy Reflectance (TOC-r) </a></li>
-                        </ul>
-                      </li>
-
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vegetation and soil moisture</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/global/products/ba"> Burnt Area </a></li>
-                          <li><a href="/global/products/dmp"> Dry Matter Productivity </a></li>
-                          <li><a href="/global/products/fapar"> Fraction of Photosynthetically Active Radiation Absorbed by the Vegetation (FAPAR) </a></li>
-                          <li><a href="/global/products/fcover"> Fraction of Green Vegetation Cover </a></li>
-                          <li><a href="/global/products/dmp"> Gross Dry Matter Productivity </a></li>
-                          <li><a href="/global/products/lai"> Leaf Area Index </a></li>
-                          <li><a href="/global/products/ndvi"> Normalized Difference Vegetation Index (NDVI) </a></li>
-                          <li><a href="/global/products/swi"> Soil Water Index </a></li>
-                          <li><a href="/global/products/ssm"> Surface Soil Moisture </a></li>
-                          <li><a href="/global/products/vci"> Vegetation  Condition Index </a></li>
-                          <li><a href="/global/products/vpi"> Vegetation  Productivity Indicator </a></li>
-                        </ul>
-                      </li>
-
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Water</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/global/products/lswt"> Lake Surface Water Temperature </a></li>
-                          <li><a href="/global/products/lwq"> Lake Water Quality </a></li>
-                          <li><a href="/global/products/wb"> Water Bodies </a></li>
-                          <li><a href="/global/products/wl"> Water Level </a></li>
-                        </ul>
-                      </li>
-
+                      <li><a href="/pan-european/high-resolution-layers/grassland/status-maps/2015"> Grassland 2015 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/ploughing-indicator"> Grassland Ploughing Indicator 2015 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/grassland-vegetation-probability-index"> Grassland Vegetation Probability Index 2015 </a></li>
                     </ul>
                   </li>
 
                   <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Imagery, In situ and Reference Data</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Imperviousness</a>
                     <ul class="dropdown-menu">
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">European Image Mosaic</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/imagery-in-situ/european-image-mosaics/very-high-resolution/vhr-2012"> Very High Resolution Imagery 2012 </a></li>
-                          <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2015"> High Resolution Imagery 2015 </a></li>
-                          <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/Image%202012"> High Resolution Imagery 2012 </a></li>
-                          <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2009/image-2009-cov1"> High Resolution Imagery 2009 </a></li>
-                          <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2006"> High Resolution Imagery 2006 </a></li>
-                        </ul>
-                      </li>
-
-                      <li><a href="/imagery-in-situ/global-image-mosaics/"> Global Image Mosaics </a></li>
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reference Data</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1.1"> EU-DEM v1.1 </a></li>
-                          <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1-0-and-derived-products"> EU-DEM v1.0 </a></li>
-                          <li><a href="/imagery-in-situ/eu-hydro"> EU-Hydro public beta </a></li>
-                        </ul>
-                      </li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2015"> Imperviousness Degree 2015 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2012"> Imperviousness Degree 2012 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2009"> Imperviousness Degree 2009 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2006"> Imperviousness Degree 2006 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2012-2015/degree-change"> Imperviousness Change 2012-2015 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2009-2012/degree-change"> Imperviousness Change 2009-2012 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2009/degree-change"> Imperviousness Change 2006-2009 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2012-clc-synchronous/degree-change"> Imperviousness Change 2006-2012 (CLC Synchronous) </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2012-2015/classified-change"> Imperviousness Classified Change 2012-2015 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2009-2012/classified-change"> Imperviousness Classified Change 2009-2012 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2009"> Imperviousness Classified Change 2006-2009 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2012-clc-synchronous/classified-change"> Imperviousness Classified Change 2006-2012 (CLC Synchronous) </a></li>
                     </ul>
                   </li>
 
                   <li class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related Products</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Water and Wetness</a>
                     <ul class="dropdown-menu">
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">European Settlement Map</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/pan-european/GHSL/european-settlement-map/esm-2012-release-2017-urban-green"> European Settlement Map 2012 - 2017 Release </a></li>
-                          <li><a href="/pan-european/GHSL/european-settlement-map/EU%20GHSL%202014"> European Settlement Map 2012 - 2016 Release </a></li>
-                        </ul>
-                      </li>
-
-                      <li class="dropdown-submenu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">LUCAS</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/imagery-in-situ/lucas/lucas-2012"> LUCAS 2012 </a></li>
-                          <li><a href="/imagery-in-situ/lucas/lucas-2001-2009"> LUCAS 2001-2009 </a></li>
-                        </ul>
-                      </li>
-
+                      <li><a href="/pan-european/high-resolution-layers/water-wetness/status-maps/2015"> Water and Wetness 2015 </a></li>
+                      <li><a href="/pan-european/high-resolution-layers/water-wetness/expert-products/wetness-probability-index/2015"> Water and Wetness Probability Index 2015 </a></li>
                     </ul>
                   </li>
+
+                </ul>
+              </li>
+
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Thematic Hotspot Mapping</a>
+                <ul class="dropdown-menu">
+                  <li><a href="/global/hsm"> Land Cover and Land Change </a></li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Natura 2000</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/local/natura/natura-2000-2012"> Natura 2000 - 2012 Update </a></li>
+                      <li><a href="/local/natura/natura-2000-2006"> Natura 2000 - 2006 Update </a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Riparian Zones</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/local/riparian-zones/land-cover-land-use-lclu-image"> Land Cover and Land Use Information of Riparian Zones </a></li>
+                      <li><a href="/local/riparian-zones/riparian-zones-delineation"> Delineation of Riparian Zones </a></li>
+                      <li><a href="/local/riparian-zones/green-linear-elements-gle-image"> Green Linear Elements of Riparian Zones </a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Urban Atlas</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/local/urban-atlas/urban-atlas-2012"> Urban Atlas 2012 </a></li>
+                      <li><a href="/local/urban-atlas/urban-atlas-2006"> Urban Atlas 2006 </a></li>
+                      <li><a href="/local/urban-atlas/change-2006-2009"> Urban Atlas Change 2006-2012 </a></li>
+                      <li><a href="/local/urban-atlas/building-height-2012"> Urban Atlas Building Height 2012 </a></li>
+                      <li><a href="/local/urban-atlas/street-tree-layer-stl"> Street Tree Layer </a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Biophysical Paratemters</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cryosphere</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/global/products/lie"> Lake Ice Extent </a></li>
+                      <li><a href="/global/products/sce"> Fractional Snow Cover / Snow Cover Extent </a></li>
+                      <li><a href="/global/products/swe"> Snow Water Equivalent </a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Energy</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/global/products/lst"> Land Surface Temperature </a></li>
+                      <li><a href="/global/products/sa"> Surface Albedo </a></li>
+                      <li><a href="/global/products/toc-r"> Top of Canopy Reflectance (TOC-r) </a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vegetation and soil moisture</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/global/products/ba"> Burnt Area </a></li>
+                      <li><a href="/global/products/dmp"> Dry Matter Productivity </a></li>
+                      <li><a href="/global/products/fapar"> Fraction of Photosynthetically Active Radiation Absorbed by the Vegetation (FAPAR) </a></li>
+                      <li><a href="/global/products/fcover"> Fraction of Green Vegetation Cover </a></li>
+                      <li><a href="/global/products/dmp"> Gross Dry Matter Productivity </a></li>
+                      <li><a href="/global/products/lai"> Leaf Area Index </a></li>
+                      <li><a href="/global/products/ndvi"> Normalized Difference Vegetation Index (NDVI) </a></li>
+                      <li><a href="/global/products/swi"> Soil Water Index </a></li>
+                      <li><a href="/global/products/ssm"> Surface Soil Moisture </a></li>
+                      <li><a href="/global/products/vci"> Vegetation  Condition Index </a></li>
+                      <li><a href="/global/products/vpi"> Vegetation  Productivity Indicator </a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Water</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/global/products/lswt"> Lake Surface Water Temperature </a></li>
+                      <li><a href="/global/products/lwq"> Lake Water Quality </a></li>
+                      <li><a href="/global/products/wb"> Water Bodies </a></li>
+                      <li><a href="/global/products/wl"> Water Level </a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Imagery, In situ and Reference Data</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">European Image Mosaic</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/imagery-in-situ/european-image-mosaics/very-high-resolution/vhr-2012"> Very High Resolution Imagery 2012 </a></li>
+                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2015"> High Resolution Imagery 2015 </a></li>
+                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/Image%202012"> High Resolution Imagery 2012 </a></li>
+                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2009/image-2009-cov1"> High Resolution Imagery 2009 </a></li>
+                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2006"> High Resolution Imagery 2006 </a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="/imagery-in-situ/global-image-mosaics/"> Global Image Mosaics </a></li>
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reference Data</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1.1"> EU-DEM v1.1 </a></li>
+                      <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1-0-and-derived-products"> EU-DEM v1.0 </a></li>
+                      <li><a href="/imagery-in-situ/eu-hydro"> EU-Hydro public beta </a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="dropdown-submenu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related Products</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">European Settlement Map</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/pan-european/GHSL/european-settlement-map/esm-2012-release-2017-urban-green"> European Settlement Map 2012 - 2017 Release </a></li>
+                      <li><a href="/pan-european/GHSL/european-settlement-map/EU%20GHSL%202014"> European Settlement Map 2012 - 2016 Release </a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">LUCAS</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/imagery-in-situ/lucas/lucas-2012"> LUCAS 2012 </a></li>
+                      <li><a href="/imagery-in-situ/lucas/lucas-2001-2009"> LUCAS 2001-2009 </a></li>
+                    </ul>
+                  </li>
+
                 </ul>
               </li>
             </ul>
