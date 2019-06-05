@@ -1,8 +1,8 @@
 Changelog
 =========
 
-7.4.dev0 - (unreleased)
------------------------
+7.4 - (2019-06-05)
+------------------
 - Improve: main menu content.
   [GhitaB #105524]
 
