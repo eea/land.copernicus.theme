@@ -4,6 +4,7 @@ Changelog
 7.5.dev0 - (unreleased)
 -----------------------
 - Improve: add a separator between groups of options in main menu.
+- Improve: set submenus direction to left.
   [GhitaB #105524]
 
 7.4 - (2019-06-05)
