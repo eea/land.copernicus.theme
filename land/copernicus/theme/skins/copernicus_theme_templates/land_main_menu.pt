@@ -66,7 +66,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
 
                 <ul class="dropdown-menu">
                   <li><a href="/global/products/lc">Global Dynamic Land Cover</a></li>
-                  <li class="dropdown-submenu">
+                  <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">CORINE Land Cover</a>
 
                     <ul class="dropdown-menu">
@@ -82,7 +82,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     </ul>
                   </li>
 
-                  <li class="dropdown-submenu">
+                  <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Forests</a>
                     <ul class="dropdown-menu">
                       <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2015">Tree Cover Density 2015</a></li>
@@ -97,7 +97,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     </ul>
                   </li>
 
-                  <li class="dropdown-submenu">
+                  <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Grassland</a>
                     <ul class="dropdown-menu">
                       <li><a href="/pan-european/high-resolution-layers/grassland/status-maps/2015">Grassland 2015</a></li>
@@ -106,7 +106,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     </ul>
                   </li>
 
-                  <li class="dropdown-submenu">
+                  <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Imperviousness</a>
                     <ul class="dropdown-menu">
                       <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2015">Imperviousness Degree 2015</a></li>
@@ -124,7 +124,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     </ul>
                   </li>
 
-                  <li class="dropdown-submenu">
+                  <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Water and Wetness</a>
                     <ul class="dropdown-menu">
                       <li><a href="/pan-european/high-resolution-layers/water-wetness/status-maps/2015">Water and Wetness 2015</a></li>
@@ -140,7 +140,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                 <ul class="dropdown-menu">
                   <li><a href="/global/hsm">Land Cover and Land Change</a></li>
 
-                  <li class="dropdown-submenu">
+                  <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Natura 2000</a>
                     <ul class="dropdown-menu">
                       <li><a href="/local/natura/natura-2000-2012">Natura 2000 - 2012 Update</a></li>
@@ -148,7 +148,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     </ul>
                   </li>
 
-                  <li class="dropdown-submenu">
+                  <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Riparian Zones</a>
                     <ul class="dropdown-menu">
                       <li><a href="/local/riparian-zones/land-cover-land-use-lclu-image">Land Cover and Land Use Information of Riparian Zones</a></li>
@@ -157,7 +157,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     </ul>
                   </li>
 
-                  <li class="dropdown-submenu">
+                  <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Urban Atlas</a>
                     <ul class="dropdown-menu">
                       <li><a href="/local/urban-atlas/urban-atlas-2012">Urban Atlas 2012</a></li>
@@ -200,7 +200,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
               <li class="dropdown-submenu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Imagery, In situ and Reference Data</a>
                 <ul class="dropdown-menu">
-                  <li class="dropdown-submenu">
+                  <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">European Image Mosaic</a>
                     <ul class="dropdown-menu">
                       <li><a href="/imagery-in-situ/european-image-mosaics/very-high-resolution/vhr-2012">Very High Resolution Imagery 2012</a></li>
@@ -212,7 +212,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   </li>
 
                   <li><a href="/imagery-in-situ/global-image-mosaics/">Global Image Mosaics</a></li>
-                  <li class="dropdown-submenu">
+                  <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reference Data</a>
                     <ul class="dropdown-menu">
                       <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1.1">EU-DEM v1.1</a></li>
@@ -226,7 +226,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
               <li class="dropdown-submenu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related Products</a>
                 <ul class="dropdown-menu">
-                  <li class="dropdown-submenu">
+                  <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">European Settlement Map</a>
                     <ul class="dropdown-menu">
                       <li><a href="/pan-european/GHSL/european-settlement-map/esm-2012-release-2017-urban-green">European Settlement Map 2012 - 2017 Release</a></li>
@@ -234,7 +234,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     </ul>
                   </li>
 
-                  <li class="dropdown-submenu">
+                  <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">LUCAS</a>
                     <ul class="dropdown-menu">
                       <li><a href="/imagery-in-situ/lucas/lucas-2012">LUCAS 2012</a></li>
