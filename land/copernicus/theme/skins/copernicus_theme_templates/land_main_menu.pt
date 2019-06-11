@@ -151,9 +151,9 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Riparian Zones</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/local/riparian-zones/land-cover-land-use-lclu-image">Land Cover and Land Use Information of Riparian Zones</a></li>
+                      <li><a href="/local/riparian-zones/land-cover-land-use-lclu-image">Land Cover and Land Use</a></li>
                       <li><a href="/local/riparian-zones/riparian-zones-delineation">Delineation of Riparian Zones</a></li>
-                      <li><a href="/local/riparian-zones/green-linear-elements-gle-image">Green Linear Elements of Riparian Zones</a></li>
+                      <li><a href="/local/riparian-zones/green-linear-elements-gle-image">Green Linear Elements</a></li>
                     </ul>
                   </li>
 
@@ -217,7 +217,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     <ul class="dropdown-menu">
                       <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1.1">EU-DEM v1.1</a></li>
                       <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1-0-and-derived-products">EU-DEM v1.0</a></li>
-                      <li><a href="/imagery-in-situ/eu-hydro">EU-Hydro public beta</a></li>
+                      <li><a href="/imagery-in-situ/eu-hydro/eu-hydro-public-beta">EU-Hydro public beta</a></li>
                     </ul>
                   </li>
                 </ul>
