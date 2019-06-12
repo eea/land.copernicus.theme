@@ -103,13 +103,6 @@ jQuery(document).ready(function($) {
     return false;
   });
 
-  // Main menu behaviour for dropdown items (News, Product portfolio)
-  $('ul.nav li.dropdown').hover(function() {
-    $(this).find('.dropdown-menu').first().stop(true, true).delay(30).fadeIn(200);
-  }, function() {
-    $(this).find('.dropdown-menu').first().stop(true, true).delay(50).fadeOut(500);
-  });
-
   // Land item edit - Metadata tab - Bounding Boxes behaviour
   // Empty fields are hidden by default, just show them on "Add" pressed
   if($('body').hasClass('template-atct_edit') && $('body').hasClass('portaltype-landitem')) {
