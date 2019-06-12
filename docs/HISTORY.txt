@@ -4,7 +4,7 @@ Changelog
 7.6.dev0 - (unreleased)
 -----------------------
 - Fix: navbar items spacing problem.
-- Fix: update URL in main menu.
+- Fix: update URL in main menu. Fix typo.
 - Improve: clean code, remove unused js from old menu.
 - Fix: restore sticky menu behavior.
   [GhitaB #105524]
