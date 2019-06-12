@@ -6204,11 +6204,11 @@ div.pagination.listingBar span.current {
   .navbar-nav ul.dropdown-menu li {
     padding: 0px; }
   .navbar-nav ul.dropdown-menu li a {
-    height: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 6px;
-    padding-bottom: 6px; }
+    height: auto !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important; }
   .navbar-nav ul.dropdown-menu li:first-child {
     margin-top: -5px; }
   .navbar-nav ul.dropdown-menu li:last-child {
