@@ -1,7 +1,7 @@
 $(document).ready(function(){
   /* sticky menu */
   $(function() {
-    var div = $("nav.navbar-default");
+    var div = $("div.navbar-default");
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
 
