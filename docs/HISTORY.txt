@@ -1,6 +1,9 @@
 Changelog
 =========
 
+7.7.dev0 - (unreleased)
+-----------------------
+
 7.6 - (2019-06-14)
 ------------------
 - Fix: navbar items spacing problem.
