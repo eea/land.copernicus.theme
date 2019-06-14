@@ -1,8 +1,8 @@
 Changelog
 =========
 
-7.6.dev0 - (unreleased)
------------------------
+7.6 - (2019-06-14)
+------------------
 - Fix: navbar items spacing problem.
 - Fix: update URL in main menu. Fix typo.
 - Improve: clean code, remove unused js from old menu.
