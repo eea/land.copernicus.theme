@@ -20,6 +20,9 @@
     <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/noscript" /> <!-- Matomo Image Tracker -->
     <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/script" /> <!-- Google Analytics & Matomo -->
 
+    <after theme-children="/html/body" content="//*[@id='sentry-config']" method="raw" />
+    <drop content="//*[@id='sentry']" method="raw" />
+
     <replace content="/html/head/base | /html/head/style | /html/head/comment()" css:theme="[data-diazo='links-and-scripts']" />
     <replace css:theme="[data-diazo='footer-scripts']">
       <xsl:for-each select="/html/head/script">
@@ -122,6 +125,9 @@
 
       <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/noscript" /> <!-- Matomo Image Tracker -->
       <after theme-children="/html/head" content="//*[@id='portal-footer-wrapper']/div/script" /> <!-- Google Analytics & Matomo -->
+
+      <after theme-children="/html/body" content="//*[@id='sentry-config']" method="raw" />
+      <drop content="//*[@id='sentry']" method="raw" />
 
       <replace content="/html/head/base | /html/head/style | /html/head/script | /html/head/link | /html/head/comment()"
                css:theme="[data-diazo='links-and-scripts']" />

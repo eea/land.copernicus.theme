@@ -52,6 +52,7 @@
       tal:attributes="class body_class;
                       dir python:isRTL and 'rtl' or 'ltr'">
 
+
   <div id="visual-portal-wrapper">
 
     <!-- header -->
@@ -194,7 +195,14 @@
         </div>
       </div>
     </div><!--  footer -->
+  </div>
 
+  <div id="sentry-config">
+    <!-- Sentry start -->
+    <div tal:replace="structure context/@@sentry" />
+    <script type="text/javascript" src="/++resource++raven.min.js"></script>
+    <script type="text/javascript" src="/++resource++sentry.js"></script>
+  <!-- Sentry end -->
   </div>
 </body>
 </html>

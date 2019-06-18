@@ -37,6 +37,7 @@ setup(
     install_requires=[
         'setuptools',
         'plone.app.theming',
+        'eea.sentry',
         # -*- Extra requirements: -*-
     ],
     extras_require={
