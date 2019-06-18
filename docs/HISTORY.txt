@@ -3,6 +3,8 @@ Changelog
 
 7.7.dev0 - (unreleased)
 -----------------------
+- Feature: use eea.sentry. Adapt diazo rules.
+  [GhitaB #103818]
 
 7.6 - (2019-06-14)
 ------------------
