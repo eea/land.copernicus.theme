@@ -2238,6 +2238,16 @@ body.template-landitem-view li.formTab.hide-me {
   display: none !important;
 }
 
+body.template-landitem-view button.fullscreen-map {
+  top: -5px !important;
+  margin-bottom: -29px !important;
+  font-size: 18px !important;
+}
+
+body.template-landitem-view button.fullscreen-map.on {
+  top: 6px !important;
+}
+
 .btn-primary {
   color: #FFFFFF;
   background-color: #A0B228;
@@ -6218,6 +6228,10 @@ div.pagination.listingBar span.current {
   ul.nav.navbar-nav.land-social-icons {
     float: right !important;
   }
+}
+
+#portaltab-product-portfolio {
+  margin-right: 0px !important;
 }
 
 #portaltab-news-items ul.dropdown-menu,

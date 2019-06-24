@@ -11,4 +11,11 @@
     provides="Products.GenericSetup.interfaces.EXTENSION"
     />
 
+  <genericsetup:registerProfile
+    name="upgrade59"
+    title="Copernicus theme upgrade profile for v5.9"
+    directory="profiles/upgrades/to_59"
+    description='Copernicus theme upgrade profile for v5.9'
+    provides="Products.GenericSetup.interfaces.EXTENSION" />
+
 </configure>

@@ -46,6 +46,11 @@
     file="sticky-menu.js"
     />
 
+  <browser:resource
+    name="land.copernicus.theme.jquery-migrate.min.js"
+    file="jquery-migrate.min.js"
+    />
+
   <browser:resourceDirectory
     name="land.copernicus.theme"
     directory="./theme/"

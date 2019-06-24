@@ -139,4 +139,18 @@
       />
 
   </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+    source="5.8"
+    destination="5.9"
+    profile="land.copernicus.theme:default">
+
+      <genericsetup:upgradeDepends
+          title="Import js and css resources."
+          description="Added css and js reorganization"
+          import_profile="land.copernicus.theme:upgrade59"
+      />
+
+  </genericsetup:upgradeSteps>
+
 </configure>

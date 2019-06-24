@@ -1,0 +1,788 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts" meta_type="JavaScripts Registry">
+    <!-- default -->
+    <javascript authenticated="True" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       id="++resource++collective.z3cform.datagridfield/datagridfield.js"
+       inline="False" expression=""
+       insert-after="++resource++eea.facetednavigation.widgets.alphabets.edit.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.meeting.interfaces.meeting.IMeeting') or 'edit' in request.URL0"
+       id="++resource++plone.formwidget.geolocation/libs.js" inline="False"
+       insert-after="++resource++collective.z3cform.datagridfield/datagridfield.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.meeting.interfaces.meeting.IMeeting') or 'edit' in request.URL0"
+       id="++resource++plone.formwidget.geolocation/maps.js" inline="False"
+       insert-after="++resource++plone.formwidget.geolocation/libs.js"/>
+
+    <javascript authenticated="True" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.meeting.interfaces.meeting.IMeeting') or 'edit' in request.URL0"
+       id="++resource++eea.meeting/meeting_edit.js" inline="False"
+       insert-after="++resource++plone.formwidget.geolocation/maps.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="False" enabled="True"
+       expression="python:'pdf.' in request['URL0'] or '.pdf' in request['URL0']"
+       id="pdf.print.js" inline="False"
+       insert-after="++resource++enableinputlabel.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="jquery-integration.js" inline="False"
+       insert-after="collective.js.jqueryui.custom.min.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="register_function.js" inline="False"
+       insert-after="event-registration.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="plone_javascript_variables.js" inline="False"
+       insert-after="register_function.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++plone.app.jquerytools.js" inline="False"
+       insert-after="plone_javascript_variables.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++plone.app.jquerytools.form.js"
+       inline="False" insert-after="++resource++plone.app.jquerytools.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++plone.app.jquerytools.overlayhelpers.js"
+       inline="False" insert-after="++resource++plone.app.jquerytools.form.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++plone.app.jquerytools.dateinput.js" inline="False"
+       insert-after="++resource++plone.app.jquerytools.overlayhelpers.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++plone.app.jquerytools.tooltip.js"
+       inline="False"
+       insert-after="++resource++plone.app.jquerytools.plugins.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="nodeutilities.js" inline="False"
+       insert-after="++resource++plone.app.jquerytools.tooltip.plugins.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="cookie_functions.js" inline="False"
+       insert-after="nodeutilities.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: 'search' in request.ACTUAL_URL" id="modernizr.js" inline="False"
+       insert-after="cookie_functions.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="full" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="livesearch.js" inline="False"
+       insert-after="modernizr.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: 'search' in request.ACTUAL_URL" id="++resource++search.js"
+       inline="False" insert-after="livesearch.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="select_all.js" inline="False"
+       insert-after="fullscreenmode.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'folder_contents' in request.ACTUAL_URL"
+       id="dragdropreorder.js" inline="False" insert-after="select_all.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="mark_special_links.js" inline="False"
+       insert-after="dragdropreorder.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="full" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="collapsiblesections.js" inline="False"
+       insert-after="mark_special_links.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="form_tabbing.js" inline="False" insert-after="collapsiblesections.js"/>
+
+    <javascript authenticated="True" bundle="default" cacheable="True"
+       compression="full" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="first_input_focus.js" inline="False"
+       insert-after="jquery.highlightsearchterms.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="full" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="accessibility.js" inline="False"
+       insert-after="first_input_focus.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="styleswitcher.js" inline="False"
+       insert-after="accessibility.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="toc.js" inline="False" insert-after="styleswitcher.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="collapsibleformfields.js" inline="False"
+       insert-after="toc.js"/>
+
+    <javascript authenticated="True" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression=""
+       id="++resource++plone.app.discussion.javascripts/comments.js"
+       inline="False" insert-after="collapsibleformfields.js"/>
+
+    <javascript authenticated="True" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="dropdown.js" inline="False"
+       insert-after="++resource++plone.app.discussion.javascripts/comments.js"/>
+
+    <javascript authenticated="True" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="kss-bbb.js" inline="False" insert-after="dropdown.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="inline_validation.js" inline="False" insert-after="kss-bbb.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++land.copernicus.theme.design.js"
+       inline="False" insert-after="inline_validation.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++jquery.cookie.js" inline="False"
+       insert-after="++resource++land.copernicus.theme.design.js"/>
+
+    <javascript authenticated="True" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++jquery.ajaxfileupload.js" inline="False"
+       insert-after="++resource++jquery.cookie.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++jquery.bbq.js" inline="False"
+       insert-after="++resource++jquery.ajaxfileupload.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or 'edit' in request.URL0"
+       id="++resource++jquery.jstree.js" inline="False" insert-after="++resource++jquery.bbq.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or 'edit' in request.URL0"
+       id="++resource++jquery.select2uislider.js" inline="False"
+       insert-after="++resource++jquery.jstree.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or 'edit' in request.URL0"
+       id="++resource++jquery.tagcloud.js" inline="False"
+       insert-after="++resource++jquery.select2uislider.js"/>
+
+    <javascript authenticated="True" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++eea.alchemy.js" inline="False"
+       insert-after="++resource++jquery.tagcloud.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="++resource++jquery.splitter.js" inline="False"
+       insert-after="++resource++eea.alchemy.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="eea.geotags.js" inline="False"
+       insert-after="++resource++jquery.splitter.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'portal_relations' in request.URL0"
+       id="++resource++eea.jquery.dracula/raphael.js"
+       inline="False" insert-after="eea.geotags.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'portal_relations' in request.URL0"
+       id="++resource++eea.jquery.dracula/graffle.js"
+       inline="False" insert-after="++resource++eea.jquery.dracula/raphael.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'portal_relations' in request.URL0"
+       id="++resource++eea.jquery.dracula/graph.js" inline="False"
+       insert-after="++resource++eea.jquery.dracula/graffle.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="eeareferencebrowser.js" inline="False"
+       insert-after="++resource++eea.jquery.dracula/graph.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="eea_relations.js" inline="False"
+       insert-after="eeareferencebrowser.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="++resource++jquery.tokeninput.js" inline="False"
+       insert-after="eea_relations.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.uberlisting.browser.app.interfaces.IUberlistingView')"
+       id="++resource++eea.uberlisting.js/uberlisting_view.js"
+       inline="False" insert-after="++resource++jquery.tokeninput.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="++resource++eea.forms.edit.js" inline="False"
+       insert-after="++resource++eea.uberlisting.js/uberlisting_view.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++eea.pdf.js" inline="False"
+       insert-after="++resource++eea.forms.edit.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++tcp_scripts/cookiepolicy.js" inline="False"
+       insert-after="++resource++markFrozen.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++land.copernicus.theme.bootstrap-min.js"
+       inline="False" insert-after="++resource++tcp_scripts/cookiepolicy.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="full" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++land.copernicus.theme.sticky-menu.js"
+       inline="False"
+       insert-after="++resource++land.copernicus.theme.bootstrap-min.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++eea.jquery.screentimeanalytics.js"
+       inline="False"
+       insert-after="++resource++land.copernicus.theme.sticky-menu.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'portal_relations' in request.URL0"
+       id="++resource++eea.relations.js/tool.js" inline="False"
+       insert-after="++resource++frozenEntrynoclick.js"/>
+
+    <javascript authenticated="True" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="table_sorter.js" inline="False"
+       insert-after="++resource++eea.relations.js/tool.js"/>
+
+    <javascript authenticated="True" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="calendar_formfield.js" inline="False"
+       insert-after="table_sorter.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="formUnload.js" inline="False" insert-after="calendar_formfield.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="formsubmithelpers.js" inline="False" insert-after="formUnload.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="unlockOnFormUnload.js" inline="False" insert-after="formsubmithelpers.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="jquery.tinymce.js" inline="False" insert-after="unlockOnFormUnload.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="tiny_mce_gzip.js" inline="False" insert-after="jquery.tinymce.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="False"
+       compression="safe" conditionalcomment="" cookable="False" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="++resource++eea.tinymce.plugins.js" inline="False"
+       insert-after="https://land.copernicus.eu/portal_skins/custom/fix_IE_2018_09_27_endsWith.js/"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="False"
+       compression="safe" conditionalcomment="" cookable="False" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="eeatinymceutils.js" inline="False" insert-after="++resource++eea.tinymce.plugins.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: (not here.restrictedTraverse('@@plone_portal_state').anonymous()) and 'edit' in request.ACTUAL_URL"
+       id="++resource++select2/select2.min.js" inline="False"
+       insert-after="++resource++quickupload_static/helpers.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="True"
+       expression=""
+       id="++resource++land.copernicus.theme.jquery-migrate.min.js"
+       inline="False" insert-after="++resource++select2/select2.min.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0 or not here.restrictedTraverse('@@plone_portal_state').anonymous()"
+       id="collective.js.jqueryui.custom.min.js" inline="False"
+       insert-after="++resource++jquery-migrate.js"/>
+
+    <!-- jquery -->
+    <javascript authenticated="False" bundle="jquery" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++plone.app.jquery.js" inline="False"
+       insert-after="pdf.print.js"/>
+
+    <javascript authenticated="False" bundle="jquery" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="" id="++resource++jquery-migrate.js" inline="False"
+       insert-after="++resource++plone.app.jquery.js"/>
+
+    <!-- faceted-view -->
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.faceted-navigation.js" inline="False"
+       insert-after="https://land.copernicus.eu/portal_skins/custom/jayan_fix_2017_01.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.text.view.js"
+       inline="False" insert-after="++resource++eea.faceted-navigation.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       id="++resource++eea.facetednavigation.widgets.tal.view.js"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.text.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.tagscloud.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.tal.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.sorting.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.tagscloud.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.select.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.sorting.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.resultsperpage.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.select.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.resultsfilter.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.resultsperpage.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.range.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.resultsfilter.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.radio.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.range.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.portlet.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.radio.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.path.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.portlet.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       id="++resource++eea.facetednavigation.widgets.path.tree.js"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.path.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.multiselect.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.path.tree.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.etag.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.multiselect.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.debug.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.etag.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.daterange.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.debug.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       id="++resource++eea.facetednavigation.widgets.date.view.js"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.daterange.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.criteria.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.date.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.checkbox.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.criteria.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.autocomplete.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.checkbox.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.alphabets.view.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.autocomplete.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       id="++resource++eea.faceted-navigation-independent.js"
+       inline="False"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       insert-after="++resource++eea.facetednavigation.widgets.alphabets.view.js"/>
+
+    <javascript authenticated="False" bundle="faceted-view" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0"
+       id="++resource++eea.faceted-navigation-expand.js"
+       inline="False"
+       insert-after="++resource++eea.faceted-navigation-independent.js"/>
+
+    <!-- faceted-edit -->
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.faceted-navigation-edit.js" inline="False"
+       insert-after="++resource++eea.faceted-navigation-expand.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.text.edit.js" inline="False"
+       insert-after="++resource++eea.faceted-navigation-edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.tal.edit.js" inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.text.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.tagscloud.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.tal.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.sorting.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.tagscloud.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.select.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.sorting.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.resultsperpage.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.select.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.resultsfilter.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.resultsperpage.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.range.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.resultsfilter.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.radio.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.range.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.portlet.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.radio.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.path.edit.js" inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.portlet.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.multiselect.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.path.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.etag.edit.js" inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.multiselect.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.debug.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.etag.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.daterange.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.debug.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.date.edit.js" inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.daterange.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.criteria.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.date.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.checkbox.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.criteria.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.autocomplete.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.checkbox.edit.js"/>
+
+    <javascript authenticated="False" bundle="faceted-edit" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="True"
+       expression="python:'configure_faceted.html' in request.URL0"
+       id="++resource++eea.facetednavigation.widgets.alphabets.edit.js"
+       inline="False"
+       insert-after="++resource++eea.facetednavigation.widgets.autocomplete.edit.js"/>
+
+    <!-- DISABLED -->
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="False" enabled="False"
+       expression="" id="++resource++enableinputlabel.js" inline="False"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="False"
+       expression="" id="event-registration.js" inline="False"
+       insert-after="jquery-integration.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="False"
+       expression="" id="++resource++plone.app.jquerytools.rangeinput.js"
+       inline="False"
+       insert-after="++resource++plone.app.jquerytools.dateinput.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="False"
+       expression="" id="++resource++plone.app.jquerytools.validator.js"
+       inline="False"
+       insert-after="++resource++plone.app.jquerytools.rangeinput.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="False"
+       expression="" id="++resource++plone.app.jquerytools.plugins.js"
+       inline="False"
+       insert-after="++resource++plone.app.jquerytools.validator.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="none" conditionalcomment="" cookable="True" enabled="False"
+       expression="" id="++resource++plone.app.jquerytools.tooltip.plugins.js"
+       inline="False"
+       insert-after="++resource++plone.app.jquerytools.tooltip.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="False"
+       expression="" id="fullscreenmode.js" inline="False"
+       insert-after="++resource++search.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="False"
+       expression="" id="popupforms.js" inline="False"
+       insert-after="form_tabbing.js"/>
+
+    <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="False"
+       expression="" id="jquery.highlightsearchterms.js" inline="False"
+       insert-after="popupforms.js"/>
+
+   <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="False"
+       expression="" id="++resource++markFrozen.js" inline="False"
+       insert-after="++resource++eea.pdf.js"/>
+
+   <javascript authenticated="False" bundle="default" cacheable="True"
+       compression="safe" conditionalcomment="" cookable="True" enabled="False"
+       expression="python: here.restrictedTraverse('@@plone_portal_state').anonymous()"
+       id="++resource++frozenEntrynoclick.js" inline="False"
+       insert-after="++resource++eea.jquery.screentimeanalytics.js"/>
+
+   <javascript authenticated="False" bundle="default" cacheable="False"
+      compression="none" conditionalcomment="" cookable="False" enabled="False"
+      expression=""
+      id="https://land.copernicus.eu/portal_skins/custom/fix_IE_2018_09_27_endsWith.js/"
+      inline="False" insert-after="tiny_mce_gzip.js"/>
+
+   <javascript authenticated="True" bundle="default" cacheable="True"
+      compression="safe" conditionalcomment="" cookable="True" enabled="False"
+      expression="" id="++resource++quickupload_static/swfobject.js"
+      inline="False" insert-after="eeatinymceutils.js"/>
+
+   <javascript authenticated="True" bundle="default" cacheable="True"
+      compression="safe" conditionalcomment="" cookable="True" enabled="False"
+      expression="" id="++resource++quickupload_static/jquery.uploadify.js"
+      inline="False"
+      insert-after="++resource++quickupload_static/swfobject.js"/>
+
+   <javascript authenticated="True" bundle="default" cacheable="True"
+      compression="safe" conditionalcomment="" cookable="True" enabled="False"
+      expression="" id="++resource++quickupload_static/fileuploader.js"
+      inline="False"
+      insert-after="++resource++quickupload_static/jquery.uploadify.js"/>
+
+   <javascript authenticated="True" bundle="default" cacheable="True"
+      compression="safe" conditionalcomment="" cookable="True" enabled="False"
+      expression="" id="++resource++quickupload_static/helpers.js"
+      inline="False"
+      insert-after="++resource++quickupload_static/fileuploader.js"/>
+
+   <javascript authenticated="False" bundle="default" cacheable="False"
+      compression="none" conditionalcomment="" cookable="False" enabled="False"
+      expression="" inline="False"
+      id="https://land.copernicus.eu/portal_skins/custom/jayan_fix_2017_01.js"
+      insert-after="++resource++land.copernicus.theme.jquery-migrate.min.js"/>
+
+   <javascript authenticated="False" bundle="default" cacheable="False" remove="True"
+      compression="none" conditionalcomment="" cookable="False" enabled="False"
+      expression=""
+      id="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"
+      inline="False" insert-after="++resource++select2/select2.min.js"/>
+
+</object>
