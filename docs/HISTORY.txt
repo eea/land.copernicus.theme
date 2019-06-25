@@ -3,6 +3,8 @@ Changelog
 
 7.8.dev0 - (unreleased)
 -----------------------
+- Fix: Use youtube-nocookie for video embed in homepage.
+  [GhitaB #106585]
 
 7.7 - (2019-06-18)
 ------------------
