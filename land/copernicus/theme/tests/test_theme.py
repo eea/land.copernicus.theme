@@ -30,7 +30,7 @@ class TestCase(unittest.TestCase):
 
         browser = Browser(app)
         browser.open(portal.absolute_url())
-        marker_text = 'Copernicus Land Monitoring Services'
+        marker_text = 'Copernicus Logo'
         self.assertTrue(marker_text in browser.contents)
 
     def test_theme_transformation(self):
