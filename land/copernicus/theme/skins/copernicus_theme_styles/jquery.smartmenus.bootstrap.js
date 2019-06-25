@@ -1,3 +1,4 @@
+/* jslint:disable */
 /*!
  * SmartMenus jQuery Plugin Bootstrap Addon - v0.4.1 - September 17, 2017
  * http://www.smartmenus.org/

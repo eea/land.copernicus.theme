@@ -6,6 +6,18 @@ function init() {
 	tinyMCEPopup.resizeToInnerSize();
 	ed = tinyMCEPopup.editor;
 
+
+	function insertHelpIFrame() {
+		var html;
+
+		if (tinyMCEPopup.getParam('docs_url')) {
+			html = '<iframe width="100%" height="300" src="' + tinyMCEPopup.editor.baseURI.toAbsolute(tinyMCEPopup.getParam('docs_url')) + '"></iframe>';
+			document.getElementById('iframecontainer').innerHTML = html;
+			document.getElementById('help_tab').style.display = 'block';
+			document.getElementById('help_tab').setAttribute("aria-hidden", "false");
+		}
+	}
+
 	// Give FF some time
 	window.setTimeout(insertHelpIFrame, 10);
 
@@ -26,22 +38,25 @@ function init() {
 	tinymce.each(ed.plugins, function(p, n) {
 		var info;
 
-		if (!p.getInfo)
+		if (!p.getInfo) {
 			return;
+		}
 
 		html += '<tr>';
 
 		info = p.getInfo();
 
-		if (info.infourl != null && info.infourl != '')
+		if (info.infourl !== null && info.infourl !== '') {
 			html += '<td width="50%" title="' + n + '"><a href="' + info.infourl + '" target="_blank">' + info.longname + '</a></td>';
-		else
+		} else {
 			html += '<td width="50%" title="' + n + '">' + info.longname + '</td>';
+		}
 
-		if (info.authorurl != null && info.authorurl != '')
+		if (info.authorurl !== null && info.authorurl !== '') {
 			html += '<td width="35%"><a href="' + info.authorurl + '" target="_blank">' + info.author + '</a></td>';
-		else
+		} else {
 			html += '<td width="35%">' + info.author + '</td>';
+		}
 
 		html += '<td width="15%">' + info.version + '</td>';
 		html += '</tr>';
@@ -57,17 +72,6 @@ function init() {
 
 	tinyMCEPopup.dom.get('version').innerHTML = tinymce.majorVersion + "." + tinymce.minorVersion;
 	tinyMCEPopup.dom.get('date').innerHTML = tinymce.releaseDate;
-}
-
-function insertHelpIFrame() {
-	var html;
-
-	if (tinyMCEPopup.getParam('docs_url')) {
-		html = '<iframe width="100%" height="300" src="' + tinyMCEPopup.editor.baseURI.toAbsolute(tinyMCEPopup.getParam('docs_url')) + '"></iframe>';
-		document.getElementById('iframecontainer').innerHTML = html;
-		document.getElementById('help_tab').style.display = 'block';
-		document.getElementById('help_tab').setAttribute("aria-hidden", "false");
-	}
 }
 
 tinyMCEPopup.onInit.add(init);

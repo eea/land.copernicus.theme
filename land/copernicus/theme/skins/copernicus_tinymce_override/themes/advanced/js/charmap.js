@@ -273,11 +273,6 @@ var charmap = [
 	['&shy;',     '&#173;',  false,'soft hyphen']
 ];
 
-tinyMCEPopup.onInit.add(function() {
-	tinyMCEPopup.dom.setHTML('charmapView', renderCharMapHTML());
-	addKeyboardNavigation();
-});
-
 function addKeyboardNavigation(){
 	var tableElm, cells, settings;
 
@@ -290,7 +285,7 @@ function addKeyboardNavigation(){
 	cells[0].tabindex=0;
 	tinyMCEPopup.dom.addClass(cells[0], "mceFocus");
 	if (tinymce.isGecko) {
-		cells[0].focus();		
+		cells[0].focus();
 	} else {
 		setTimeout(function(){
 			cells[0].focus();
@@ -310,15 +305,15 @@ function renderCharMapHTML() {
 	for (i=0; i<charmap.length; i++) {
 		var previewCharFn;
 
-		if (charmap[i][2]==true) {
+		if (charmap[i][2]===true) {
 			cols++;
 			previewCharFn = 'previewChar(\'' + charmap[i][1].substring(1,charmap[i][1].length) + '\',\'' + charmap[i][0].substring(1,charmap[i][0].length) + '\',\'' + charmap[i][3] + '\');';
-			html += ''
-				+ '<td class="charmap">'
-				+ '<a class="charmaplink" role="button" onmouseover="'+previewCharFn+'" onfocus="'+previewCharFn+'" href="javascript:void(0)" onclick="insertChar(\'' + charmap[i][1].substring(2,charmap[i][1].length-1) + '\');" onclick="return false;" onmousedown="return false;" title="' + charmap[i][3] + ' '+ tinyMCEPopup.editor.translate("advanced_dlg.charmap_usage")+'">'
-				+ charmap[i][1]
-				+ '</a></td>';
-			if ((cols+1) % charsPerRow == 0) {
+			html += '' +
+				 '<td class="charmap">' +
+				 '<a class="charmaplink" role="button" onmouseover="'+previewCharFn+'" onfocus="'+previewCharFn+'" href="javascript:void(0)" onclick="insertChar(\'' + charmap[i][1].substring(2,charmap[i][1].length-1) + '\');" onclick="return false;" onmousedown="return false;" title="' + charmap[i][3] + ' '+ tinyMCEPopup.editor.translate("advanced_dlg.charmap_usage")+'">' +
+				 charmap[i][1] +
+				 '</a></td>';
+			if ((cols+1) % charsPerRow === 0) {
 				if ((cols+1) == charsPerRow) {
 					html += '<td rowspan="10">';
 					html += '<div style="width: 110px; height: 55px; font-size: 400%;" id="codeV">&nbsp</div>';
@@ -329,15 +324,16 @@ function renderCharMapHTML() {
 					html += '<div style="height: 30px;" id="codeB">&nbsp</div>';
 					html += '</td>';
 				}
-				html += '</tr><tr class="' + (((cols+1) / charsPerRow) % 2 == 0 ? 'odd' : 'even') + '" height="' + tdHeight + '">';
+				html += '</tr><tr class="' + (((cols+1) / charsPerRow) % 2 === 0 ? 'odd' : 'even') + '" height="' + tdHeight + '">';
 			}
 		}
 	 }
 
 	if (cols % charsPerRow > 0) {
 		var padd = charsPerRow - (cols % charsPerRow);
-		for (var i=0; i<padd-1; i++)
+		for (i=0; i<padd-1; i++) {
 			html += '<td width="' + tdWidth + '">&nbsp;</td>';
+		}
 	}
 
 	html += '</tr></table></div>';
@@ -346,12 +342,18 @@ function renderCharMapHTML() {
 	return html;
 }
 
+tinyMCEPopup.onInit.add(function() {
+	tinyMCEPopup.dom.setHTML('charmapView', renderCharMapHTML());
+	addKeyboardNavigation();
+});
+
 function insertChar(chr) {
 	tinyMCEPopup.execCommand('mceInsertContent', false, '&#' + chr + ';');
 
 	// Refocus in window
-	if (tinyMCEPopup.isWindow)
+	if (tinyMCEPopup.isWindow) {
 		window.focus();
+	}
 
 	tinyMCEPopup.editor.focus();
 	tinyMCEPopup.close();

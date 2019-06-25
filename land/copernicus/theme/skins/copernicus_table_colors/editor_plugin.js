@@ -22,7 +22,7 @@
           height : 400 + ed.getLang('copernicus_table_colors.delta_height', 0),
           inline : 1
         }, {
-          plugin_url : url, // Plugin absolute URL
+          plugin_url : url // Plugin absolute URL
         });
       });
 
@@ -79,7 +79,7 @@
 
         if(fill_type == "row") {
           $(element).parent().children().each(function() {
-            table_fill_cell($(this), color)
+            table_fill_cell($(this), color);
           });
         }
 

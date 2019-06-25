@@ -1,39 +1,36 @@
 jQuery(document).ready(function($) {
   // Show main menu
   $("#land-main-menu").show();
+  function is_subsection($elem) {
+    var classes = $elem.attr('class').split(" ");
+    var i=0;
+    var is_found = false;
+    while(i < classes.length && !is_found) {
+      if(classes[i].indexOf('subsection') === 0) {  // starts with subsection
+        is_found = true;
+      }
+      i++;
+    }
+    return is_found;
+  }
 
   // Custom layout for section: Imagery and reference data
   if($('body').hasClass('template-atct_album_view') && $('body').hasClass('section-imagery-in-situ')) {
-    function is_subsection($elem) {
-      var classes = $elem.attr('class').split(" ");
-      var i=0;
-      var is_found = false;
-      while(i < classes.length && !is_found) {
-        if(classes[i].indexOf('subsection') == 0) {  // starts with subsection
-          is_found = true;
-        }
-        i++;
-      }
-      return is_found;
-    }
-
     if(!is_subsection($('body'))) {  // Do not apply layout for subsections.
       var $content_core = $("div#content-core");
       var $albums = $content_core.find("div.photoAlbumEntry");
 
       $content_core.prepend(
-          "<div class='row'>"
-
-        + "<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>"
-        + "<div class='row'>"
-        + "<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 items-row-1'></div>"
-        + "</div>"
-        + "<div class='row'>"
-        + "<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 items-row-2'></div>"
-        + "</div>"
-        + "</div>"
-
-        + "</div>"
+          "<div class='row'>" +
+          "<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>" +
+          "<div class='row'>" +
+          "<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 items-row-1'></div>" +
+          "</div>" +
+          "<div class='row'>" +
+          "<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 items-row-2'></div>" +
+          "</div>" +
+         "</div>" +
+         "</div>"
       );
 
       $content_core.find("div.items-row-1").append($albums[0]); // EU-DEM
@@ -52,18 +49,18 @@ jQuery(document).ready(function($) {
     var $form = $("article.main #content #content-core form");
     if($form.length == 1) {
       $(
-          "<div class='info-box'>"
-        + "<p>You must be a registered user in order to download the data made available on this website. Please note: no registration is required for viewing information or accessing web services.</p>"
-        + "<h2>Have an EIONET account?</h2>"
-        + "<p>Members of the EIONET network can use their EIONET account or choose to create a new one.</p>"
-        + "</div>"
+          "<div class='info-box'>" +
+          "<p>You must be a registered user in order to download the data made available on this website. Please note: no registration is required for viewing information or accessing web services.</p>" +
+          "<h2>Have an EIONET account?</h2>" +
+          "<p>Members of the EIONET network can use their EIONET account or choose to create a new one.</p>" +
+          "</div>"
       ).insertBefore($form);
 
       $(
-          "<span class='info-text-bottom'>"
-        + "Please contact <a href='http://land.copernicus.eu/contact-form'>the service desk</a>,"
-        + " if you have any questions.<p>"
-        + "</span>"
+          "<span class='info-text-bottom'>" +
+          "Please contact <a href='http://land.copernicus.eu/contact-form'>the service desk</a>," +
+          " if you have any questions.<p>" +
+          "</span>"
       ).insertAfter($("#actionsView span.actionButtons"));
     }
   }

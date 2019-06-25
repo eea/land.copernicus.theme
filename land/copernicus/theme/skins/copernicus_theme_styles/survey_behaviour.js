@@ -1,3 +1,4 @@
+/* jslint:disable */
 function survey_behaviour() {
   $(document).ready(function($) {
 

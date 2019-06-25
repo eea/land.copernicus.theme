@@ -26,15 +26,17 @@ var AnchorDialog = {
 
 		tinyMCEPopup.restoreSelection();
 
-		if (this.action != 'update')
+		if (this.action != 'update') {
 			ed.selection.collapse(1);
+		}
 
 		elm = ed.dom.getParent(ed.selection.getNode(), 'A');
 		if (elm) {
 			elm.setAttribute('name', name);
 			elm.name = name;
-		} else
+		} else {
 			ed.execCommand('mceInsertContent', 0, ed.dom.createHTML('a', {name : name, 'class' : 'mceItemAnchor'}, ''));
+		}
 
 		tinyMCEPopup.close();
 	}

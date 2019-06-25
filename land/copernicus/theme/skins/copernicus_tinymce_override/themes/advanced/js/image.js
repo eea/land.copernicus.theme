@@ -1,3 +1,4 @@
+/* jslint:disable */
 var ImageDialog = {
 	preInit : function() {
 		var url;
@@ -224,7 +225,7 @@ var ImageDialog = {
 	resetImageData : function() {
 		var f = document.forms[0];
 
-		f.width.value = f.height.value = "";	
+		f.width.value = f.height.value = "";
 	},
 
 	updateImageData : function() {

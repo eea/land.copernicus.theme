@@ -5,7 +5,7 @@ pipeline {
         GIT_NAME = "land.copernicus.theme"
         SONARQUBE_TAGS = "land.copernicus.eu"
         FTEST_DIR = "land/copernicus/theme/ftests"
-        JSLINT_CUSTOM_FIND = "! -path */docs/* ! -path */langs/*"
+        JSLINT_CUSTOM_FIND = "! -path */code/docs/*"
         PYFLAKES_CUSTOM_FIND = "-name docs -prune -o"
         I18N_EXCLUDE = "password_template notify_template"
     }
