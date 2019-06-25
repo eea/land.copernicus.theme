@@ -6,7 +6,6 @@ from plone.app.layout.viewlets.common import ViewletBase
 from plone.app.layout.viewlets.common import GlobalSectionsViewlet
 from plone.memoize import ram
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
-from Products.CMFPlone import utils
 from time import time
 import plone.api as api
 

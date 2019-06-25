@@ -31,7 +31,7 @@
                   portal context/@@plone_portal_state/portal;
                   show_about python:not isAnon or context.portal_properties.site_properties.allowAnonymousViewAbout">
 
-    <h1 class="insitu-title">Events</h1>
+    <h1 class="insitu-title" i18n:translate="">Events</h1>
 
     <form name="searchresults" action="" method="post" tal:condition="results"
           tal:define="batch python:Batch(results, 15, int(b_start), orphan=1);
@@ -72,15 +72,15 @@
             <div
               tal:define="start_date python:toLocalizedTime(resultObject.start()); end_date python:toLocalizedTime(resultObject.end())"
               >
-              <strong>When</strong><br />
+              <strong i18n:translate="">When</strong><br />
               <span tal:replace="start_date">Start Date</span>
-              <tal:end_date tal:condition="python: start_date != end_date">
-                to<br /><span tal:replace="end_date">End Date</span>
+              <tal:end_date tal:condition="python: start_date != end_date" i18n:translate="">
+                to<br /><span tal:replace="end_date" i18n:name="date">End Date</span>
               </tal:end_date>
             </div>
 
             <div>
-              <strong>Where</strong><br />
+              <strong i18n:translate="">Where</strong><br />
               <span tal:replace="python:result.location">location</span>
             </div>
           </div>

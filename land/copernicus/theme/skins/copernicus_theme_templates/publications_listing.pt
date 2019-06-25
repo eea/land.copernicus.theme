@@ -13,7 +13,7 @@
 <metal:main fill-slot="main">
   <div id="content-core">
 
-    <h1 class="insitu-title">Publications</h1>
+    <h1 class="insitu-title" i18n:translate="">Publications</h1>
 
     <div class="land-publications-container"
          tal:define="files python:context.getFolderContents(contentFilter={'portal_type':['File']});
@@ -34,6 +34,7 @@
                 <a href="https://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/view"
                    tal:attributes="href python:file_view_url">
                   <img src="https://land.copernicus.eu/user-corner/publications/gio-land-high-resolution-layers/image_preview" alt="GIO land High Resolution Layers" title="GIO land High Resolution Layers"
+                       i18n:attributes="alt; title"
                        tal:attributes="src python:file_cover_img;
                                        alt python:file_title">
                 </a>

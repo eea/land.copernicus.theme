@@ -6,8 +6,8 @@
 
   <!-- Latest news -->
   <div class="panel panel-default">
-    <div class="panel-heading">
-      <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+    <div class="panel-heading" i18n:translate="">
+      <i class="fa fa-newspaper-o" aria-hidden="true" i18n:name="icon"></i>
       News
     </div>
     <div class="panel-body">
@@ -34,7 +34,7 @@
                       <img class="insitu-img-preview" tal:attributes="src python:news_image_src" />
                     </tal:condition>
                     <tal:condition tal:condition="not:news_image">
-                      <img class="insitu-img-preview" src="./preview_image.png" alt="Preview image">
+                      <img class="insitu-img-preview" src="./preview_image.png" alt="Preview image" i18n:attributes="alt">
                     </tal:condition>
                   </div>
 
@@ -58,10 +58,10 @@
             </tal:repeat>
           </ul>
 
-          <p tal:condition="python:has_news is False">No news.</p>
+          <p tal:condition="python:has_news is False" i18n:translate="">No news.</p>
 
           <h4  class="text-right insitu-view-all-news">
-            <a href="./news">view all</a>
+            <a href="./news" i18n:translate="">view all</a>
           </h4>
         </div>
       </div><!-- Latest news -->

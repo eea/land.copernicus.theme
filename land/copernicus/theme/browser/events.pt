@@ -6,8 +6,8 @@
 
   <!-- Events list -->
   <div class="panel panel-default">
-    <div class="panel-heading">
-      <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+    <div class="panel-heading" i18n:translate="">
+      <i class="fa fa-calendar-check-o" aria-hidden="true" i18n:name="icon"></i>
       Events
     </div>
     <div class="panel-body">
@@ -49,11 +49,11 @@
             </tal:repeat>
           </ul>
 
-          <p tal:condition="python:has_events is False">No upcoming events at this time.</p>
+          <p tal:condition="python:has_events is False" i18n:translate="">No upcoming events at this time.</p>
 
           <h4 class="text-right insitu-view-all-events">
-            <a tal:condition="python:has_events is False" href="/news/events">view past events</a>
-            <a tal:condition="python:has_events is True" href="/news/events">view all</a>
+            <a tal:condition="python:has_events is False" href="/news/events" i18n:translate="">view past events</a>
+            <a tal:condition="python:has_events is True" href="/news/events" i18n:translate="">view all</a>
           </h4>
         </div>
       </div><!-- Events list -->

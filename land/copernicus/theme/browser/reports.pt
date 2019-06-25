@@ -6,8 +6,8 @@
 
   <!-- Reports -->
   <div class="panel panel-default">
-    <div class="panel-heading">
-      <i class="fa fa-paperclip" aria-hidden="true"></i>
+    <div class="panel-heading" i18n:translate="">
+      <i class="fa fa-paperclip" aria-hidden="true" i18n:name="icon"></i>
       Reports
     </div>
     <div class="panel-body">
@@ -34,7 +34,7 @@
                       <img class="insitu-img-preview" tal:attributes="src python:report_image_src" />
                     </tal:condition>
                     <tal:condition tal:condition="not:report_image">
-                      <img class="insitu-img-preview" src="./preview_image.png" alt="Preview image">
+                      <img class="insitu-img-preview" src="./preview_image.png" alt="Preview image" i18n:attributes="alt">
                     </tal:condition>
                   </div>
 
@@ -58,10 +58,10 @@
             </tal:repeat>
           </ul>
 
-          <p tal:condition="python:has_report is False">No report.</p>
+          <p tal:condition="python:has_report is False" i18n:translate="">No report.</p>
 
           <h4  class="text-right insitu-view-all-news">
-            <a tal:attributes="href string:${context/portal_url}/library/reports">view all</a>
+            <a tal:attributes="href string:${context/portal_url}/library/reports" i18n:translate="">view all</a>
           </h4>
         </div>
       </div><!-- Reports -->

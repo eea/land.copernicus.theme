@@ -37,7 +37,7 @@
           });
         </script>
         <div id="cover-me">
-         <h1>Loading...</h1>
+         <h1 i18n:translate="">Loading...</h1>
          <style>
            #cover-me {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #FFFFFF; z-index:999999;}
            section#header-section nav.navbar {display:none;}
