@@ -1,13 +1,13 @@
 <ul id="copernicus-footer-info">
-  <li class="first">Copyright Copernicus Programme</li>
+  <li class="first" i18n:translate="">Copyright Copernicus Programme</li>
   <li>
-    <a href="/terms-of-use">Privacy policy and terms of use</a>
+    <a href="/terms-of-use" i18n:translate="">Privacy policy and terms of use</a>
   </li>
   <li tal:define="last_update_date view/last_update;
-                  localized_date python: here.toLocalizedTime(last_update_date)">
-    Last update <span tal:replace="localized_date">May 31, 2013</span>
+                  localized_date python: here.toLocalizedTime(last_update_date)" i18n:translate="">
+    Last update <span tal:replace="localized_date" i18n:name="date">May 31, 2013</span>
   </li>
   <li>
-    <a href="#" class="go-top">Top <i class="fa fa-arrow-up"></i></a>
+    <a href="#" class="go-top" i18n:translate="">Top <i class="fa fa-arrow-up" i18n:name="icon"></i></a>
   </li>
 </ul>

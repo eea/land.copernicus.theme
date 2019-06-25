@@ -13,7 +13,7 @@
 <metal:main fill-slot="main">
   <div id="content-core" tal:define="max_words_number python:getattr(context, 'summary_max_words_number', 30)">
 
-    <h1 class="land-title">News</h1>
+    <h1 class="land-title" i18n:translate="">News</h1>
 
     <div class="container-fluid land-news-list-container"
          tal:define="news_items python:context.getFolderContents(contentFilter={'portal_type':['News Item'], 'sort_on': 'effective', 'sort_order': 'descending',});
@@ -49,7 +49,7 @@
                 <img src="" tal:attributes="src python:news_image_src" />
               </tal:condition>
               <tal:condition tal:condition="not:news_thumb">
-                <img src="./preview_image.png" alt="Preview image" />
+                <img src="./preview_image.png" alt="Preview image" i18n:attributes="alt"/>
               </tal:condition>
             </div>
 
@@ -75,7 +75,7 @@
               </div>
               <p class="land-news-read-more">
                 <a href="" tal:attributes="href python:news_url"
-                   class="btn btn-default pull-right land-btn-read-more">Read more</a>
+                   class="btn btn-default pull-right land-btn-read-more" i18n:translate="">Read more</a>
               </p>
             </div>
           </div><!-- News item -->

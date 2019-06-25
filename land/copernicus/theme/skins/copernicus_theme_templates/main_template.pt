@@ -62,13 +62,13 @@
       </div>
 
       <div class="row" id="site-identity">
-        <a id="portal-logo" href="http://www.copernicus.eu/" target="_blank" title="copernicus.eu">
-          <img src="Copernicus_logo_RGB.png" alt="Copernicus logo" />
+        <a id="portal-logo" href="http://www.copernicus.eu/" target="_blank" title="copernicus.eu" i18n:attributes="title">
+          <img src="Copernicus_logo_RGB.png" alt="Copernicus logo" i18n:attributes="alt" />
         </a>
         <div id="portal-title-container">
           <div id="portal-title">
             <h1>
-              <a href="" title="Go to homepage" tal:attributes="href portal_url">
+              <a href="" title="Go to homepage" tal:attributes="href portal_url" i18n:attributes="title">
                 <span tal:replace="portal_state/portal_title">
                   Site Title: Copernicus Land Monitoring Services or Copernicus In Situ Component
                 </span>

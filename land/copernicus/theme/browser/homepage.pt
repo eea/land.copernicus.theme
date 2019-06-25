@@ -18,7 +18,7 @@
             <div class="land-jumbotron">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <p>
+                  <p i18n:translate="">
                     Copernicus is a European system for monitoring the Earth. Data is collected by different sources, including Earth observation satellites and in-situ sensors. The data is processed and provides reliable and up-to-date information in six thematic areas: land, marine, atmosphere, climate change, emergency management and security. The land theme is divided into four main components:
                   </p>
                 </div>
@@ -29,12 +29,12 @@
                   <a tal:attributes="href string:${portal_url}/global">
                     <div class="text-center">
                       <div class="circle" id="circles-1">
-                        <img class="sprite land-icon-global" alt="Global" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==" />
+                        <img class="sprite land-icon-global" alt="Global" i18n:attributes="alt" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==" />
                       </div>
                       <h4 class="text-center">
-                        <strong>Global</strong>
+                        <strong i18n:translate="">Global</strong>
                       </h4>
-                      <p class="small-font"><em>provides a series of bio-geophysical products on the status and evolution of the land surface at global scale at mid and low spatial resolution</em></p>
+                      <p class="small-font"><em i18n:translate="">provides a series of bio-geophysical products on the status and evolution of the land surface at global scale at mid and low spatial resolution</em></p>
                     </div>
                   </a>
                 </div>
@@ -42,12 +42,12 @@
                   <a tal:attributes="href string:${portal_url}/pan-european">
                     <div class="text-center">
                       <div class="circle" id="circles-2">
-                        <img class="sprite land-icon-pan-european" alt="Pan-European" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==">
+                        <img class="sprite land-icon-pan-european" alt="Pan-European" i18n:attributes="alt" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==">
                       </div>
                       <h4 class="text-center">
-                        <strong>Pan-European</strong>
+                        <strong i18n:translate="">Pan-European</strong>
                       </h4>
-                      <p class="small-font"><em>provides information about the land cover and land use (LC/LU), land cover and land use changes and land cover characteristics</em></p>
+                      <p class="small-font"><em i18n:translate="">provides information about the land cover and land use (LC/LU), land cover and land use changes and land cover characteristics</em></p>
                     </div>
                   </a>
                 </div>
@@ -55,12 +55,12 @@
                   <a tal:attributes="href string:${portal_url}/local">
                     <div class="text-center">
                       <div class="circle" id="circles-3">
-                        <img class="sprite land-icon-local" alt="Local" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==">
+                        <img class="sprite land-icon-local" alt="Local" i18n:attributes="alt" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==">
                       </div>
                       <h4 class="text-center">
-                        <strong>Local</strong>
+                        <strong i18n:translate="">Local</strong>
                       </h4>
-                      <p class="small-font"><em>focuses on different hotspots, i.e. areas that are prone to specific environmental challenges and problems</em></p>
+                      <p class="small-font"><em i18n:translate="">focuses on different hotspots, i.e. areas that are prone to specific environmental challenges and problems</em></p>
                     </div>
                   </a>
                 </div>
@@ -68,13 +68,13 @@
                   <a tal:attributes="href string:${portal_url}/imagery-in-situ">
                     <div class="text-center">
                       <div class="circle" id="circles-4">
-                        <img class="sprite land-icon-reference-data" alt="Imagery and reference data" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==">
+                        <img class="sprite land-icon-reference-data" alt="Imagery and reference data" i18n:attributes="alt" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQMAAACyIsh+AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAB5JREFUeNrtwQEBAAAAgiD/r25IQAEAAAAAAAAAvwYgOgABzelbjAAAAABJRU5ErkJggg==">
                       </div>
                       <h4 class="text-center">
-                        <strong>Imagery and reference data</strong>
+                        <strong i18n:translate="">Imagery and reference data</strong>
                       </h4>
                       <p class="small-font">
-                        <em>
+                        <em i18n:translate="">
                           satellite imagery forms the input for the creation of Copernicus land products. In order to ensure an efficient and effective use of satellite data the Copernicus land monitoring service needs access to in-situ data
                         </em>
                       </p>
@@ -99,7 +99,7 @@
             <li data-target="#myCarousel" data-slide-to="3"></li>
           </ol>
 
-          <div class="carousel-news-title">
+          <div class="carousel-news-title" i18n:translate="">
             Latest news
           </div>
           <div class="carousel-inner" role="listbox">
@@ -119,17 +119,17 @@
                          tal:attributes="data-bigURL python:news_thumb"/>
                   </tal:condition>
                   <tal:condition tal:condition="not:news_thumb">
-                    <img class="land-img-preview" src="./preview_image.png" alt="Preview image" />
+                    <img class="land-img-preview" src="./preview_image.png" alt="Preview image" i18n:attributes="alt"/>
                   </tal:condition>
                   <div class="container">
                     <div class="carousel-caption">
-                      <h4 tal:content="python:news_title">News title</h4>
+                      <h4 tal:content="python:news_title" >News title</h4>
                       <p tal:content="python:news_date">Date</p>
                       <p>
                         <span tal:replace="structure python:news_description[:120]"></span>...
-                        <a href="" tal:attributes="href python:news_url">Read more</a>
+                        <a href="" tal:attributes="href python:news_url" i18n:translate="">Read more</a>
                       </p>
-                      <a href="./news" class="pull-right">more news <i class="fa fa-arrow-circle-right"></i></a>
+                      <a href="./news" class="pull-right" i18n:translate="">more news <i class="fa fa-arrow-circle-right" i18n:name="icon"></i></a>
                     </div>
                   </div>
                 </div>
@@ -139,11 +139,11 @@
 
           <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
             <span class="fa fa-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
+            <span class="sr-only" i18n:translate="">Previous</span>
           </a>
           <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
             <span class="fa fa-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
+            <span class="sr-only" i18n:translate="">Next</span>
           </a>
         </div>
         <!-- NEWS SLIDER -->
@@ -157,9 +157,9 @@
                   <a href="./user-corner/contract-opportunities">
                     <div class="land-box1">
                       <div class="land-icon-box">
-                        <img class="sprite land-icon-contract-oportunities" alt="Contract opportunities" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABTAQMAAAC4ZIsBAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIKBBgAEigABxy187AAAAABJRU5ErkJggg==">
+                        <img class="sprite land-icon-contract-oportunities" i18n:attributes="alt" alt="Contract opportunities" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABTAQMAAAC4ZIsBAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIKBBgAEigABxy187AAAAABJRU5ErkJggg==">
                       </div>
-                      <h4>Contract opportunities</h4>
+                      <h4 i18n:translate="">Contract opportunities</h4>
                     </div>
                   </a>
                 </div>
@@ -167,9 +167,9 @@
                   <a tal:attributes="href string:${portal_url}/eagle/welcome">
                     <div class="land-box1">
                       <div class="land-icon-box">
-                        <img class="sprite land-icon-eagle" alt="EAGLE" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABjAQMAAAAhE4UkAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIRDQAFBwABE3MVpQAAAABJRU5ErkJggg==">
+                        <img class="sprite land-icon-eagle" alt="EAGLE" i18n:attributes="alt" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABjAQMAAAAhE4UkAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIIRDQAFBwABE3MVpQAAAABJRU5ErkJggg==">
                       </div>
-                      <h4>EAGLE</h4>
+                      <h4 i18n:translate="">EAGLE</h4>
                     </div>
                   </a>
                 </div>
@@ -177,9 +177,9 @@
                   <a href="./user-corner/land-use-cases">
                     <div class="land-box1">
                       <div class="land-icon-box">
-                        <img class="sprite land-icon-land-use-cases" alt="Land use cases" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAABkAQMAAACIMIHWAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABdJREFUeNpjYBgFo2AUjIJRMApGAS0BAAdsAAHOwqKdAAAAAElFTkSuQmCC">
+                        <img class="sprite land-icon-land-use-cases" alt="Land use cases" i18n:attributes="alt" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAABkAQMAAACIMIHWAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABdJREFUeNpjYBgFo2AUjIJRMApGAS0BAAdsAAHOwqKdAAAAAElFTkSuQmCC">
                       </div>
-                      <h4>Use Cases</h4>
+                      <h4 i18n:translate="">Use Cases</h4>
                     </div>
                   </a>
                 </div>
@@ -187,9 +187,9 @@
                   <a href="./user-corner/publications">
                     <div class="land-box1">
                       <div class="land-icon-box">
-                        <img class="sprite land-icon-publications" alt="Publications" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAABXAQMAAADvbPP8AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABRJREFUeNpjYBgFo2AUjIJRQA8AAAVwAAGSMYZ5AAAAAElFTkSuQmCC">
+                        <img class="sprite land-icon-publications" alt="Publications" i18n:attributes="alt" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAABXAQMAAADvbPP8AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABRJREFUeNpjYBgFo2AUjIJRQA8AAAVwAAGSMYZ5AAAAAElFTkSuQmCC">
                       </div>
-                      <h4>Publications</h4>
+                      <h4 i18n:translate="">Publications</h4>
                     </div>
                   </a>
                 </div>
@@ -197,9 +197,9 @@
                   <a href="./user-corner/technical-library">
                     <div class="land-box1">
                       <div class="land-icon-box">
-                        <img class="sprite land-icon-technical-library" alt="Technical library" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAABcAQMAAABA2ZmuAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIKRDQAFCAABkDm4agAAAABJRU5ErkJggg==">
+                        <img class="sprite land-icon-technical-library" alt="Technical library" i18n:attributes="alt" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAABcAQMAAABA2ZmuAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABJJREFUeNpjYBgFo2AUjIKRDQAFCAABkDm4agAAAABJRU5ErkJggg==">
                       </div>
-                      <h4>Technical library</h4>
+                      <h4 i18n:translate="">Technical library</h4>
                     </div>
                   </a>
                 </div>
@@ -207,9 +207,9 @@
                   <a href="./looking-for-national-products">
                     <div class="land-box1">
                       <div class="land-icon-box">
-                        <img class="sprite land-icon-faq" alt="Looking for national products?" src="land-icon-faq.png">
+                        <img class="sprite land-icon-faq" alt="Looking for national products?" i18n:attributes="alt" src="land-icon-faq.png">
                       </div>
-                      <h4>Looking for national products?</h4>
+                      <h4 i18n:translate="">Looking for national products?</h4>
                     </div>
                   </a>
                 </div>
@@ -221,7 +221,7 @@
         <metal:before-content define-slot="before-content"></metal:before-content>
         <metal:homepage-content define-slot="homepage-content">
         <!-- MAIN CONTENT -->
-        <h4 class="land-title">Learn more about us</h4>
+        <h4 class="land-title" i18n:translate="">Learn more about us</h4>
         <!-- 16:9 aspect ratio -->
         <div class="embed-responsive embed-responsive-16by9"><iframe height="240" id="yt-embed" src="" width="320"></iframe></div>
         <script>window.addEventListener('load', function(){document.getElementById('yt-embed').src = "https://www.youtube.com/embed/wHg5RBPg5Jc"});</script>

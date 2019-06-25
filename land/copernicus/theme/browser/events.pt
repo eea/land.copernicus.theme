@@ -3,7 +3,7 @@
      id="land-events">
 
   <!-- Events list -->
-  <h4 class="land-title">Coming events</h4>
+  <h4 class="land-title" i18n:translate="">Coming events</h4>
 
   <div class="listing block-inset">
     <div class="listing-body">
@@ -36,7 +36,7 @@
                   <div class="event-description">
                     <p>
                       <span tal:replace="structure python:event_description[:120]"></span>...
-                      <a href="" tal:attributes="href python:event_url">Read more</a>
+                      <a href="" tal:attributes="href python:event_url" i18n:translate="">Read more</a>
                     </p>
                   </div>
                 </div>
@@ -71,7 +71,7 @@
                   <div class="event-description">
                     <p>
                       <span tal:replace="structure python:event_description[:120]"></span>...
-                      <a href="" tal:attributes="href python:event_url">Read more</a>
+                      <a href="" tal:attributes="href python:event_url" i18n:translate="">Read more</a>
                     </p>
                   </div>
                 </div>
@@ -82,11 +82,11 @@
         </tal:repeat>
       </ul>
 
-      <p tal:condition="python:has_events is False">No upcoming events at this time.</p>
+      <p tal:condition="python:has_events is False" i18n:translate="">No upcoming events at this time.</p>
 
       <h4 class="text-right">
-        <a tal:condition="python:has_events is False" href="./user-corner/events">view past events <i class="fa fa-arrow-circle-right"></i></a>
-        <a tal:condition="python:has_events is True" href="./user-corner/events">view all events <i class="fa fa-arrow-circle-right"></i></a>
+        <a tal:condition="python:has_events is False" href="./user-corner/events" i18n:translate="">view past events <i class="fa fa-arrow-circle-right" i18n:name="icon"></i></a>
+        <a tal:condition="python:has_events is True" href="./user-corner/events" i18n:translate="">view all events <i class="fa fa-arrow-circle-right" i18n:name="icon"></i></a>
       </h4>
     </div>
   </div><!-- Events list -->

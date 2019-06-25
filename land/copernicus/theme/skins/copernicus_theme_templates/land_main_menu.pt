@@ -4,7 +4,7 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse"
               data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only" i18n:translate="">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -19,18 +19,18 @@
             <a href="/"><i class="fa fa-home"></i></a>
           </li>
           <li id="portaltab-global">
-            <a href="/global" title="The global land component is coordinated by the European Commission DG Joint Research Centre (JRC). It produces data across a wide range of biophysical variables at a global scale, which describe the state of vegetation (e.g. leaf area index), the energy budget (e.g. albedo) and the water cycle (e.g. soil moisture index).">
+            <a href="/global" title="The global land component is coordinated by the European Commission DG Joint Research Centre (JRC). It produces data across a wide range of biophysical variables at a global scale, which describe the state of vegetation (e.g. leaf area index), the energy budget (e.g. albedo) and the water cycle (e.g. soil moisture index)." i18n:translate="" i18n:attributes="title">
               Global
             </a>
           </li>
           <li id="portaltab-pan-european">
-            <a href="/pan-european" title="">
+            <a href="/pan-european" title="" i18n:translate="">
               Pan-European
             </a>
           </li>
           <li id="portaltab-local">
             <a href="/local" title="The local component is coordinated by the European Environment Agency and aims to provide specific and more detailed information that is complementary to the information obtained through the Pan-European component.
-">
+" i18n:translate="" i18n:attributes="title">
               Local
             </a>
           </li>
@@ -43,7 +43,7 @@ Many in-situ data are managed and made accessible at national level. However, du
 
 The LUCAS database is one such longstanding European database coordinated by DG ESTAT, which used for verification and validation of several information services in the Copernicus Land Monitoring Service portfolio.
 
-EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-interpreted river network and a modelled drainage network for EEA39 countries.">Imagery and reference data
+EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-interpreted river network and a modelled drainage network for EEA39 countries." i18n:translate="" i18n:attributes="title">Imagery and reference data
             </a>
           </li>
           <li></li>
@@ -52,83 +52,83 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
 
         <ul class="nav navbar-nav land-social-icons">
           <li>
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product portfolio<b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Product portfolio<b class="caret" i18n:name="icon"></b></a>
 
             <ul class="dropdown-menu">
               <li>
-                <a href="/product-portfolio/overview">Overview</a>
+                <a href="/product-portfolio/overview" i18n:translate="">Overview</a>
               </li>
 
               <li><hr style="margin:0; border-color:#1E1E1E;" /><!-- separator --></li>
 
               <li class="dropdown-submenu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Land Cover & Land Use Mapping</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Land Cover & Land Use Mapping</a>
 
                 <ul class="dropdown-menu">
-                  <li><a href="/global/products/lc">Global Dynamic Land Cover</a></li>
+                  <li><a href="/global/products/lc" i18n:translate="">Global Dynamic Land Cover</a></li>
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">CORINE Land Cover</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">CORINE Land Cover</a>
 
                     <ul class="dropdown-menu">
-                      <li><a href="/pan-european/corine-land-cover/clc2018">CORINE Land Cover 2018</a></li>
-                      <li><a href="/pan-european/corine-land-cover/clc-2012">CORINE Land Cover 2012</a></li>
-                      <li><a href="/pan-european/corine-land-cover/clc-2006">CORINE Land Cover 2006</a></li>
-                      <li><a href="/pan-european/corine-land-cover/clc-2000">CORINE Land Cover 2000</a></li>
-                      <li><a href="/pan-european/corine-land-cover/clc-1990">CORINE Land Cover 1990</a></li>
-                      <li><a href="/pan-european/corine-land-cover/lcc-2012-2018">CORINE Land Cover Change 2012-2018</a></li>
-                      <li><a href="/pan-european/corine-land-cover/lcc-2006-2012">CORINE Land Cover Change 2006-2012</a></li>
-                      <li><a href="/pan-european/corine-land-cover/lcc-2000-2006">CORINE Land Cover Change 2000-2006</a></li>
-                      <li><a href="/pan-european/corine-land-cover/lcc-1990-2000">CORINE Land Cover Change 1990-2000</a></li>
+                      <li><a href="/pan-european/corine-land-cover/clc2018" i18n:translate="">CORINE Land Cover 2018</a></li>
+                      <li><a href="/pan-european/corine-land-cover/clc-2012" i18n:translate="">CORINE Land Cover 2012</a></li>
+                      <li><a href="/pan-european/corine-land-cover/clc-2006" i18n:translate="">CORINE Land Cover 2006</a></li>
+                      <li><a href="/pan-european/corine-land-cover/clc-2000" i18n:translate="">CORINE Land Cover 2000</a></li>
+                      <li><a href="/pan-european/corine-land-cover/clc-1990" i18n:translate="">CORINE Land Cover 1990</a></li>
+                      <li><a href="/pan-european/corine-land-cover/lcc-2012-2018" i18n:translate="">CORINE Land Cover Change 2012-2018</a></li>
+                      <li><a href="/pan-european/corine-land-cover/lcc-2006-2012" i18n:translate="">CORINE Land Cover Change 2006-2012</a></li>
+                      <li><a href="/pan-european/corine-land-cover/lcc-2000-2006" i18n:translate="">CORINE Land Cover Change 2000-2006</a></li>
+                      <li><a href="/pan-european/corine-land-cover/lcc-1990-2000" i18n:translate="">CORINE Land Cover Change 1990-2000</a></li>
                     </ul>
                   </li>
 
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Forests</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">HRL Forests</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2015">Tree Cover Density 2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2012">Tree Cover Density 2012</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/change-maps/2012-2015">Tree Cover Density Change 2012-2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2015">Dominant Leaf Type 2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2012">Dominant Leaf Type 2012</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2015">Forest Type 2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2012">Forest Type 2012</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2015">Forest Additional Support Layer 2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2012">Forest Additional Support Layer 2012</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2015" i18n:translate="">Tree Cover Density 2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2012" i18n:translate="">Tree Cover Density 2012</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/change-maps/2012-2015" i18n:translate="">Tree Cover Density Change 2012-2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2015" i18n:translate="">Dominant Leaf Type 2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2012" i18n:translate="">Dominant Leaf Type 2012</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2015" i18n:translate="">Forest Type 2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2012" i18n:translate="">Forest Type 2012</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2015" i18n:translate="">Forest Additional Support Layer 2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2012" i18n:translate="">Forest Additional Support Layer 2012</a></li>
                     </ul>
                   </li>
 
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Grassland</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">HRL Grassland</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/pan-european/high-resolution-layers/grassland/status-maps/2015">Grassland 2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/ploughing-indicator">Grassland Ploughing Indicator 2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/grassland-vegetation-probability-index">Grassland Vegetation Probability Index 2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/grassland/status-maps/2015" i18n:translate="">Grassland 2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/ploughing-indicator" i18n:translate="">Grassland Ploughing Indicator 2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/grassland-vegetation-probability-index" i18n:translate="">Grassland Vegetation Probability Index 2015</a></li>
                     </ul>
                   </li>
 
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Imperviousness</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">HRL Imperviousness</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2015">Imperviousness Degree 2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2012">Imperviousness Degree 2012</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2009">Imperviousness Degree 2009</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2006">Imperviousness Degree 2006</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2012-2015/degree-change">Imperviousness Change 2012-2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2009-2012/degree-change">Imperviousness Change 2009-2012</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2009/degree-change">Imperviousness Change 2006-2009</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2012-clc-synchronous/degree-change">Imperviousness Change 2006-2012</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2012-2015/classified-change">Imperviousness Classified Change 2012-2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2009-2012/classified-change">Imperviousness Classified Change 2009-2012</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2009/classified-change">Imperviousness Classified Change 2006-2009</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2012-clc-synchronous/classified-change">Imperviousness Classified Change 2006-2012</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2015" i18n:translate="">Imperviousness Degree 2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2012" i18n:translate="">Imperviousness Degree 2012</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2009" i18n:translate="">Imperviousness Degree 2009</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2006" i18n:translate="">Imperviousness Degree 2006</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2012-2015/degree-change" i18n:translate="">Imperviousness Change 2012-2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2009-2012/degree-change" i18n:translate="">Imperviousness Change 2009-2012</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2009/degree-change" i18n:translate="">Imperviousness Change 2006-2009</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2012-clc-synchronous/degree-change" i18n:translate="">Imperviousness Change 2006-2012</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2012-2015/classified-change" i18n:translate="">Imperviousness Classified Change 2012-2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2009-2012/classified-change" i18n:translate="">Imperviousness Classified Change 2009-2012</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2009/classified-change" i18n:translate="">Imperviousness Classified Change 2006-2009</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2006-2012-clc-synchronous/classified-change" i18n:translate="">Imperviousness Classified Change 2006-2012</a></li>
                     </ul>
                   </li>
 
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">HRL Water and Wetness</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">HRL Water and Wetness</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/pan-european/high-resolution-layers/water-wetness/status-maps/2015">Water and Wetness 2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/water-wetness/expert-products/wetness-probability-index/2015">Water and Wetness Probability Index 2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/water-wetness/status-maps/2015" i18n:translate="">Water and Wetness 2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/water-wetness/expert-products/wetness-probability-index/2015" i18n:translate="">Water and Wetness Probability Index 2015</a></li>
                     </ul>
                   </li>
 
@@ -136,109 +136,109 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
               </li>
 
               <li class="dropdown-submenu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Thematic Hotspot Mapping</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Thematic Hotspot Mapping</a>
                 <ul class="dropdown-menu">
-                  <li><a href="/global/hsm">Land Cover and Land Change</a></li>
+                  <li><a href="/global/hsm" i18n:translate="">Land Cover and Land Change</a></li>
 
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Natura 2000</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Natura 2000</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/local/natura/natura-2000-2012">Natura 2000 - 2012 Update</a></li>
-                      <li><a href="/local/natura/natura-2000-2006">Natura 2000 - 2006 Update</a></li>
+                      <li><a href="/local/natura/natura-2000-2012" i18n:translate="">Natura 2000 - 2012 Update</a></li>
+                      <li><a href="/local/natura/natura-2000-2006" i18n:translate="">Natura 2000 - 2006 Update</a></li>
                     </ul>
                   </li>
 
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Riparian Zones</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Riparian Zones</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/local/riparian-zones/land-cover-land-use-lclu-image">Land Cover and Land Use</a></li>
-                      <li><a href="/local/riparian-zones/riparian-zones-delineation">Delineation of Riparian Zones</a></li>
-                      <li><a href="/local/riparian-zones/green-linear-elements-gle-image">Green Linear Elements</a></li>
+                      <li><a href="/local/riparian-zones/land-cover-land-use-lclu-image" i18n:translate="">Land Cover and Land Use</a></li>
+                      <li><a href="/local/riparian-zones/riparian-zones-delineation" i18n:translate="">Delineation of Riparian Zones</a></li>
+                      <li><a href="/local/riparian-zones/green-linear-elements-gle-image" i18n:translate="">Green Linear Elements</a></li>
                     </ul>
                   </li>
 
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Urban Atlas</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Urban Atlas</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/local/urban-atlas/urban-atlas-2012">Urban Atlas 2012</a></li>
-                      <li><a href="/local/urban-atlas/urban-atlas-2006">Urban Atlas 2006</a></li>
-                      <li><a href="/local/urban-atlas/change-2006-2009">Urban Atlas Change 2006-2012</a></li>
-                      <li><a href="/local/urban-atlas/building-height-2012">Urban Atlas Building Height 2012</a></li>
-                      <li><a href="/local/urban-atlas/street-tree-layer-stl">Street Tree Layer</a></li>
+                      <li><a href="/local/urban-atlas/urban-atlas-2012" i18n:translate="">Urban Atlas 2012</a></li>
+                      <li><a href="/local/urban-atlas/urban-atlas-2006" i18n:translate="">Urban Atlas 2006</a></li>
+                      <li><a href="/local/urban-atlas/change-2006-2009" i18n:translate="">Urban Atlas Change 2006-2012</a></li>
+                      <li><a href="/local/urban-atlas/building-height-2012" i18n:translate="">Urban Atlas Building Height 2012</a></li>
+                      <li><a href="/local/urban-atlas/street-tree-layer-stl" i18n:translate="">Street Tree Layer</a></li>
                     </ul>
                   </li>
                 </ul>
               </li>
 
               <li class="dropdown-submenu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Biophysical Parameters</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Biophysical Parameters</a>
                 <ul class="dropdown-menu">
-                  <li><a href="/global/products/lie">Lake Ice Extent</a></li>
-                  <li><a href="/global/products/sce">Snow Cover Extent</a></li>
-                  <li><a href="/global/products/swe">Snow Water Equivalent</a></li>
-                  <li><a href="/global/products/lst">Land Surface Temperature</a></li>
-                  <li><a href="/global/products/sa">Surface Albedo</a></li>
-                  <li><a href="/global/products/toc-r">TOC-r</a></li>
-                  <li><a href="/global/products/ba">Burnt Area</a></li>
-                  <li><a href="/global/products/dmp">Dry Matter Productivity</a></li>
-                  <li><a href="/global/products/fapar">FAPAR</a></li>
-                  <li><a href="/global/products/fcover">Fraction of Green Vegetation Cover</a></li>
-                  <li><a href="/global/products/dmp">Gross Dry Matter Productivity</a></li>
-                  <li><a href="/global/products/lai">Leaf Area Index</a></li>
-                  <li><a href="/global/products/ndvi">NDVI</a></li>
-                  <li><a href="/global/products/swi">Soil Water Index</a></li>
-                  <li><a href="/global/products/ssm">Surface Soil Moisture</a></li>
-                  <li><a href="/global/products/vci">Condition Index</a></li>
-                  <li><a href="/global/products/vpi">Productivity Indicator</a></li>
-                  <li><a href="/global/products/lswt">Lake Surface Water Temperature</a></li>
-                  <li><a href="/global/products/lwq">Lake Water Quality</a></li>
-                  <li><a href="/global/products/wb">Water Bodies</a></li>
-                  <li><a href="/global/products/wl">Water Level</a></li>
+                  <li><a href="/global/products/lie" i18n:translate="">Lake Ice Extent</a></li>
+                  <li><a href="/global/products/sce" i18n:translate="">Snow Cover Extent</a></li>
+                  <li><a href="/global/products/swe" i18n:translate="">Snow Water Equivalent</a></li>
+                  <li><a href="/global/products/lst" i18n:translate="">Land Surface Temperature</a></li>
+                  <li><a href="/global/products/sa" i18n:translate="">Surface Albedo</a></li>
+                  <li><a href="/global/products/toc-r" i18n:translate="">TOC-r</a></li>
+                  <li><a href="/global/products/ba" i18n:translate="">Burnt Area</a></li>
+                  <li><a href="/global/products/dmp" i18n:translate="">Dry Matter Productivity</a></li>
+                  <li><a href="/global/products/fapar" i18n:translate="">FAPAR</a></li>
+                  <li><a href="/global/products/fcover" i18n:translate="">Fraction of Green Vegetation Cover</a></li>
+                  <li><a href="/global/products/dmp" i18n:translate="">Gross Dry Matter Productivity</a></li>
+                  <li><a href="/global/products/lai" i18n:translate="">Leaf Area Index</a></li>
+                  <li><a href="/global/products/ndvi" i18n:translate="">NDVI</a></li>
+                  <li><a href="/global/products/swi" i18n:translate="">Soil Water Index</a></li>
+                  <li><a href="/global/products/ssm" i18n:translate="">Surface Soil Moisture</a></li>
+                  <li><a href="/global/products/vci" i18n:translate="">Condition Index</a></li>
+                  <li><a href="/global/products/vpi" i18n:translate="">Productivity Indicator</a></li>
+                  <li><a href="/global/products/lswt" i18n:translate="">Lake Surface Water Temperature</a></li>
+                  <li><a href="/global/products/lwq" i18n:translate="">Lake Water Quality</a></li>
+                  <li><a href="/global/products/wb" i18n:translate="">Water Bodies</a></li>
+                  <li><a href="/global/products/wl" i18n:translate="">Water Level</a></li>
                 </ul>
               </li>
 
               <li class="dropdown-submenu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Imagery, In situ and Reference Data</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Imagery, In situ and Reference Data</a>
                 <ul class="dropdown-menu">
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">European Image Mosaic</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">European Image Mosaic</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/imagery-in-situ/european-image-mosaics/very-high-resolution/vhr-2012">Very High Resolution Imagery 2012</a></li>
-                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2015">High Resolution Imagery 2015</a></li>
-                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/Image%202012">High Resolution Imagery 2012</a></li>
-                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2009/image-2009-cov1">High Resolution Imagery 2009</a></li>
-                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2006">High Resolution Imagery 2006</a></li>
+                      <li><a href="/imagery-in-situ/european-image-mosaics/very-high-resolution/vhr-2012" i18n:translate="">Very High Resolution Imagery 2012</a></li>
+                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2015" i18n:translate="">High Resolution Imagery 2015</a></li>
+                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/Image%202012" i18n:translate="">High Resolution Imagery 2012</a></li>
+                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2009/image-2009-cov1" i18n:translate="">High Resolution Imagery 2009</a></li>
+                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2006" i18n:translate="">High Resolution Imagery 2006</a></li>
                     </ul>
                   </li>
 
-                  <li><a href="/imagery-in-situ/global-image-mosaics/">Global Image Mosaics</a></li>
+                  <li><a href="/imagery-in-situ/global-image-mosaics/" i18n:translate="">Global Image Mosaics</a></li>
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reference Data</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Reference Data</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1.1">EU-DEM v1.1</a></li>
-                      <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1-0-and-derived-products">EU-DEM v1.0</a></li>
-                      <li><a href="/imagery-in-situ/eu-hydro/eu-hydro-public-beta">EU-Hydro public beta</a></li>
+                      <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1.1" i18n:translate="">EU-DEM v1.1</a></li>
+                      <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1-0-and-derived-products" i18n:translate="">EU-DEM v1.0</a></li>
+                      <li><a href="/imagery-in-situ/eu-hydro/eu-hydro-public-beta" i18n:translate="">EU-Hydro public beta</a></li>
                     </ul>
                   </li>
                 </ul>
               </li>
 
               <li class="dropdown-submenu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Related Products</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Related Products</a>
                 <ul class="dropdown-menu">
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">European Settlement Map</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">European Settlement Map</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/pan-european/GHSL/european-settlement-map/esm-2012-release-2017-urban-green">European Settlement Map 2012 - 2017 Release</a></li>
-                      <li><a href="/pan-european/GHSL/european-settlement-map/EU%20GHSL%202014">European Settlement Map 2012 - 2016 Release</a></li>
+                      <li><a href="/pan-european/GHSL/european-settlement-map/esm-2012-release-2017-urban-green" i18n:translate="">European Settlement Map 2012 - 2017 Release</a></li>
+                      <li><a href="/pan-european/GHSL/european-settlement-map/EU%20GHSL%202014" i18n:translate="">European Settlement Map 2012 - 2016 Release</a></li>
                     </ul>
                   </li>
 
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">LUCAS</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">LUCAS</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/imagery-in-situ/lucas/lucas-2012">LUCAS 2012</a></li>
-                      <li><a href="/imagery-in-situ/lucas/lucas-2001-2009">LUCAS 2001-2009</a></li>
+                      <li><a href="/imagery-in-situ/lucas/lucas-2012" i18n:translate="">LUCAS 2012</a></li>
+                      <li><a href="/imagery-in-situ/lucas/lucas-2001-2009" i18n:translate="">LUCAS 2001-2009</a></li>
                     </ul>
                   </li>
 
@@ -269,13 +269,13 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
             </li>
 
             <li>
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">News<b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">News<b class="caret" i18n:name="icon"></b></a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="/news-items/latest-news">Latest News</a>
+                  <a href="/news-items/latest-news" i18n:translate="">Latest News</a>
                 </li>
                 <li>
-                  <a href="/news-items/events">Events</a>
+                  <a href="/news-items/events" i18n:translate="">Events</a>
                 </li>
               </ul>
             </li>

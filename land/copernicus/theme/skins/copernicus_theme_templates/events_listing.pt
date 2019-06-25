@@ -30,7 +30,7 @@
                   portal context/@@plone_portal_state/portal;
                   show_about python:not isAnon or context.portal_properties.site_properties.allowAnonymousViewAbout">
 
-    <h1 class="land-title">Events</h1>
+    <h1 class="land-title" i18n:translate="">Events</h1>
 
     <form name="searchresults" action="" method="post" tal:condition="results"
           tal:define="batch python:Batch(results, 15, int(b_start), orphan=1);
@@ -52,9 +52,9 @@
                   Event headline
                 </a>
               </h2>
-              <p>
+              <p i18n:translate="">
                 Published by
-                <span class="link-user">
+                <span class="link-user" i18n:name="author">
                   <a href=""
                      tal:attributes="href python: home_url(creator)"
                      tal:content="creator">
@@ -62,7 +62,7 @@
                   </a>
                 </span>
                 on
-                <span tal:replace="python:toLocalizedTime(result.Date)">Publish date</span>
+                <span tal:replace="python:toLocalizedTime(result.Date)" i18n:name="date">Publish date</span>
               </p>
               <p tal:content="python:resultObject.description" >
                 Description
@@ -71,18 +71,18 @@
 
             <div class="newsAbout">
               <div tal:define="date2 python:resultObject.human_readable_date2">
-                <strong>When</strong><br />
+                <strong i18n:translate="">When</strong><br />
                 <span tal:condition="python:date2[0] == date2[1]"
                       tal:content="python:date2[0]">
                   Jun 17, 2019
                 </span>
 
-                <span tal:condition="python:date2[0] != date2[1]">
-                  <span tal:replace="python:date2[0]">
+                <span tal:condition="python:date2[0] != date2[1]" i18n:translate="">
+                  <span tal:replace="python:date2[0]" i18n:name="from">
                     Jun 17, 2019
                   </span>
                   to <br />
-                  <span tal:replace="python:date2[1]">
+                  <span tal:replace="python:date2[1]" i18n:name="to">
                     Jun 19, 2019
                   </span>
                 </span>
@@ -91,7 +91,7 @@
               <div tal:define="location resultObject/location"
                   tal:condition="python:resultObject.location and (resultObject.is_webinar() is not True)">
 
-                <strong>Where</strong><br />
+                <strong i18n:translate="">Where</strong><br />
                 <span tal:replace="location"></span>
               </div>
             </div>
@@ -115,9 +115,9 @@
                   Event headline
                 </a>
               </h2>
-              <p>
+              <p i18n:translate="">
                 Published by
-                <span class="link-user">
+                <span class="link-user" i18n:name="author">
                   <a href=""
                      tal:attributes="href python: home_url(creator)"
                      tal:content="creator">
@@ -125,7 +125,7 @@
                   </a>
                 </span>
                 on
-                <span tal:replace="python:toLocalizedTime(result.Date)">Publish date</span>
+                <span tal:replace="python:toLocalizedTime(result.Date)" i18n:name="date">Publish date</span>
               </p>
               <p tal:content="resultObject/event_format" >
                 Description
@@ -136,15 +136,15 @@
               <div
                 tal:define="start_date python:toLocalizedTime(resultObject.start()); end_date python:toLocalizedTime(resultObject.end())"
                 >
-                <strong>When</strong><br />
+                <strong i18n:translate="">When</strong><br />
                 <span tal:replace="start_date">Start Date</span>
-                <tal:end_date tal:condition="python: start_date != end_date">
-                  to<br /><span tal:replace="end_date">End Date</span>
+                <tal:end_date tal:condition="python: start_date != end_date" i18n:translate="">
+                  to<br /><span tal:replace="end_date" i18n:name="date">End Date</span>
                 </tal:end_date>
               </div>
 
               <div>
-                <strong>Where</strong><br />
+                <strong i18n:translate="">Where</strong><br />
                 <span tal:replace="python:result.location">location</span>
               </div>
             </div>

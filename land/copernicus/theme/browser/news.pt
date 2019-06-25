@@ -3,7 +3,7 @@
      id="land-news">
 
   <!-- Latest news -->
-  <h4 class="land-title">Latest news</h4>
+  <h4 class="land-title" i18n:translate="">Latest news</h4>
   <div class="listing block-inset">
     <div class="listing-body">
       <ul class="listing-items" tal:condition="python:has_news">
@@ -23,7 +23,7 @@
                   <img class="land-img-preview" tal:replace="structure news_thumb/tag" />
                 </tal:condition>
                 <tal:condition tal:condition="not:news_thumb">
-                  <img class="land-img-preview" src="./preview_image.png" alt="Preview image">
+                  <img class="land-img-preview" src="./preview_image.png" alt="Preview image" i18n:attributes="alt">
                 </tal:condition>
               </div>
 
@@ -35,7 +35,7 @@
                 <div class="news-description">
                   <p>
                     <span tal:replace="structure python:news_description[:120]"></span>...
-                    <a href="" tal:attributes="href python:news_url">Read more</a>
+                    <a href="" tal:attributes="href python:news_url" i18n:translate="">Read more</a>
                   </p>
                 </div>
               </div>
@@ -45,10 +45,10 @@
         </tal:repeat>
       </ul>
 
-      <p tal:condition="python:has_news is False">No news.</p>
+      <p tal:condition="python:has_news is False" i18n:translate="">No news.</p>
 
       <h4  class="text-right">
-        <a href="./news">more news <i class="fa fa-arrow-circle-right"></i></a>
+        <a href="./news" i18n:translate="">more news <i class="fa fa-arrow-circle-right" i18n:name="icon"></i></a>
       </h4>
     </div>
   </div><!-- Latest news -->
