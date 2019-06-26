@@ -3,6 +3,12 @@ Changelog
 
 7.8.dev0 - (unreleased)
 -----------------------
+- Improve: Added jquery 3.4.1 file.
+  [Petchesi-Iulian #106508]
+- Improve: css resources.
+  [Petchesi-Iulian #106537]
+- Feature: Update Jenkins pipeline, fix jslint warnings, fix i18n, fix tests.
+  [avoinea #106584]
 - Fix: Use youtube-nocookie for video embed in homepage. Allow speaker.
   [GhitaB #106585]
 
