@@ -1,8 +1,8 @@
 Changelog
 =========
 
-7.8.dev0 - (unreleased)
------------------------
+7.8 - (2019-06-26)
+------------------
 - Improve: Added jquery 3.4.1 file.
   [Petchesi-Iulian #106508]
 - Improve: css resources.
