@@ -150,7 +150,7 @@ pipeline {
           "Resource regression test": {
             node(label: 'docker') {
               script {
-                sh '''docker run -i --rm --name="$BUILD_TAG-reg" -e GIT_SRC="https://github.com/eea/$GIT_NAME.git" -e GIT_NAME="$GIT_NAME" -e GIT_BRANCH="$BRANCH_NAME" -e JS_ORG="1" -e CSS_ORG="1" -e GIT_CHANGE_ID="$CHANGE_ID" ipetchesi/test-href:0.4'''
+                sh '''docker run -i --rm --name="$BUILD_TAG-reg" -e GIT_SRC="https://github.com/eea/$GIT_NAME.git" -e GIT_NAME="$GIT_NAME" -e GIT_BRANCH="$BRANCH_NAME" -e JS_ORG="1" -e CSS_ORG="1" -e REG_URL="https://land.copernicus.eu/" -e GIT_CHANGE_ID="$CHANGE_ID" ipetchesi/test-href:0.6'''
               }
             }
           }
