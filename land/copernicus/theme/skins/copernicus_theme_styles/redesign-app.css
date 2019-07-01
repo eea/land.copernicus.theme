@@ -12,14 +12,6 @@ abbr, html\:abbr {
   cursor: help;
 }
 
-h1, h2 {
-  letter-spacing: 0em;
-}
-
-h3 {
-  font-size: 16px;
-}
-
 a:focus,
 a:hover,
 a:active,
@@ -39,11 +31,6 @@ a:active,
 #portal-columns {
   margin: 15px 0px 20px;
   padding: 0px 10px;
-}
-
-#tabbed-portlet {
-  height: auto;
-  float: left;
 }
 
 .tabbed-content .heading {
@@ -247,6 +234,14 @@ h2 {
   font-size: 1.25em;
 }
 
+h1, h2 {
+  letter-spacing: 0em;
+}
+
+h3 {
+  font-size: 16px;
+}
+
 .external-link a {
   background: url(link_icon.gif) no-repeat 0px 3px;
   padding-left: 20px;
@@ -258,24 +253,12 @@ h2 {
 
 
 /*  RESPONSIVE LAYOUT + changes from #17266 */
-#portal-footer-wrapper {
-  width: 1220px;
-}
-
-#tabbed-portlet {
-  width: 76%;
-}
-
 .widen {
   width: 100%;
 }
 
 #portal-columns {
   margin: 0px 0px 20px;
-}
-
-#tabbed-portlet #content dd {
-  margin-left: 0px;
 }
 
 @media screen and (max-width: 1152px) {
@@ -287,10 +270,6 @@ h2 {
 @media screen and (max-width: 1024px) {
   .partners-logos .EEA {
     margin-top: 20px;
-  }
-
-  #tabbed-portlet {
-    width: 97.5%;
   }
 
   #user-corner-portlet {
@@ -306,10 +285,6 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: portrait)
 and (resolution: 163dpi) {
-
-  #tabbed-portlet {
-    width: 732px;
-  }
 
   #user-corner-portlet {
     float: none;
@@ -329,10 +304,6 @@ and (resolution: 163dpi) {
     margin: 0 0 1em 1em;
   }
 
-  #portal-footer-wrapper ul {
-    float: none;
-  }
-
   .partners-logos .EEA {
     margin-top: 20px;
   }
@@ -340,53 +311,7 @@ and (resolution: 163dpi) {
 
 
 /* Enlarge map on smaller resolutions */
-@media screen and (max-width: 976px) {
-  #portal-footer-wrapper {
-    width: 946px;
-  }
-}
-
-@media screen and (max-width: 962px) {
-  #portal-footer-wrapper {
-    width: 930px;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  #portal-footer-wrapper {
-    width: 948px;
-  }
-
-  #portal-footer-wrapper ul {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 854px) {
-  #portal-footer-wrapper {
-    width: 825px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  #portal-footer-wrapper {
-    width: 720px;
-  }
-
-  #tabbed-portlet {
-    width: 700px;
-  }
-}
-
 @media screen and (max-width: 640px) {
-  #portal-footer-wrapper {
-    width: 610px;
-  }
-
-  #tabbed-portlet {
-    width: 595px;
-  }
-
   #user-corner-portlet {
     width: 50%;
   }
@@ -403,48 +328,7 @@ and (resolution: 163dpi) {
 
 }
 
-@media screen and (max-width: 619px) {
-  #portal-footer-wrapper {
-    width: 590px;
-  }
-
-  #tabbed-portlet {
-    width: 575px;
-  }
-
-}
-
-@media screen and (max-width: 593px) {
-  #portal-footer-wrapper {
-    width: 560px;
-  }
-
-  #tabbed-portlet {
-    width: 545px;
-  }
-
-}
-
-@media screen and (max-width: 568px) {
-  #portal-footer-wrapper {
-    width: 540px;
-  }
-
-  #tabbed-portlet {
-    width: 525px;
-  }
-
-}
-
 @media screen and (max-width: 487px) {
-  #portal-footer-wrapper {
-    width: 456px;
-  }
-
-  #tabbed-portlet {
-    width: 430px;
-  }
-
   #user-corner-portlet {
     width: 70%;
   }
@@ -452,20 +336,6 @@ and (resolution: 163dpi) {
 }
 
 @media screen and (max-width: 480px) {
-  #portal-footer-wrapper {
-    width: 430px;
-  }
-
-  #tabbed-portlet {
-    width: 420px;
-  }
-
-  #portal-footer-wrapper ul li {
-    display: block;
-    border-left: 0;
-  }
-
-
   /* overrides lines 6-12 of Plone's mobile.css, which were hiding 98% of page content, on 480px mobile screens */
   #portal-column-one,
   #portal-column-two,
@@ -1004,10 +874,6 @@ body.template-register #formfield-form-captcha .widget {
 
 #login_form_container #login-form label {
   padding-top: 0px;
-}
-
-.template-login_form #tabbed-portlet {
-  width: 100%;
 }
 
 /* Login button */
