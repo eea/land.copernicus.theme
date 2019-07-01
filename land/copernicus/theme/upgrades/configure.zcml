@@ -153,4 +153,16 @@
 
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="5.9"
+    destination="6.0"
+    profile="land.copernicus.theme:default">
+
+      <genericsetup:upgradeDepends
+          title="Clean css resources."
+          description="Removed unused css."
+          import_profile="land.copernicus.theme:upgrade60"
+      />
+
+  </genericsetup:upgradeSteps>
 </configure>
