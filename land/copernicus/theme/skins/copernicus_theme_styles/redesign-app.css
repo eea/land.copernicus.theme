@@ -5,6 +5,1140 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/* - copernicusLand.css - */
+abbr, html\:abbr {
+  border-bottom: 1px dashed #CCC;
+  cursor: help;
+}
+
+h1, h2 {
+  letter-spacing: 0em;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+a:focus,
+a:hover,
+a:active,
+#content-core a {
+  text-decoration: underline;
+}
+
+#content {
+  font-size: 100%;
+}
+
+#content .download-field ul,
+#content .webservices-field ul {
+  margin-left: 0px;
+}
+
+#portal-columns {
+  margin: 15px 0px 20px;
+  padding: 0px 10px;
+}
+
+#tabbed-portlet {
+  height: auto;
+  float: left;
+}
+
+.tabbed-content .heading {
+  margin: 10px 0px;
+  width: 90%;
+  float: left;
+}
+
+#content .printButton {
+  display: inline-block;
+  padding-top: 7px;
+  float: right;
+  margin: -21px 10px 0;
+  position: relative;
+  top: -16px;
+}
+
+#content .printButton img {
+  margin-right: 3px;
+}
+
+.tabbed-content .description {
+  padding: 10px 0px;
+}
+
+.photoAlbumEntry {
+  width: 166px;
+  float: left;
+  margin-right: 10px;
+  background: none;
+  padding: 0px;
+  text-align: left;
+}
+
+.photoAlbumEntry img {
+  width: 156px;
+  height: 117px;
+  margin: 0;
+  padding: 3px;
+}
+
+.photoAlbumEntry img:hover {
+  background: #F5F6F7;
+}
+
+.photoAlbumEntry a {
+  width: 100%;
+  display: block;
+}
+
+.photoAlbumEntryTitle {
+  font-size: 13px;
+  color: #A0B228;
+  width: 96%;
+  font-weight: bold;
+}
+
+#content .documentDescription {
+  margin-top: 15px;
+  font-weight: normal;
+  font-size: 13px;
+  white-space: pre-wrap;
+  color: #333;
+  font: 100% Arial, FreeSans, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 19.5px;
+}
+
+#content a:visited,
+dl.portlet a:visited {
+  border-bottom: 0px;
+  text-decoration: underline;
+}
+
+#content a:hover,
+dl.portlet a:hover {
+  color: #A0B228;
+}
+
+#content a:link,
+dl.portlet a:link,
+#content a.link-overlay {
+  border-bottom: 0px !important;
+}
+
+#portal-sitemap li {
+  background-position: 0px 14px;
+}
+
+#portal-sitemap li li {
+  background-position: 0px 4px;
+  padding-left: 15px;
+}
+
+#content-core table th {
+  border: 1px solid #999;
+  padding: 2px 5px;
+}
+
+#content-core table td {
+  border: 1px solid #999;
+  padding: 5px;
+}
+
+#land-use-cases td:first-of-type {
+  width: 40%;
+}
+
+.external-pdf img {
+  padding-right: 5px;
+}
+
+#content ul.formTabs {
+  background-color: #fff;
+  border: 0px;
+  border-bottom: 1px solid #BFD630;
+  margin-top: 8px;
+}
+
+body #content li.formTab a {
+  color: #616161;
+  font-weight: bold;
+}
+
+#content-core li.formTab a {
+  line-height:20px !important;
+}
+
+#content li.formTab a.selected,
+#content li.formTab a.selected:hover {
+  background: #BFD630;
+  color: #616161;
+  border-radius: 0px;
+}
+
+#content li.formTab a:hover {
+  background: #BFD630;
+  color: #616161 !important;
+  border-radius: 0px;
+}
+
+.documentEditable {
+  margin-top: 5px;
+}
+
+#edit-bar {
+  padding-bottom: 3px;
+}
+
+.login-req-warning {
+  display: block;
+  position: absolute;
+  bottom: 14%;
+  right: 2%;
+  float: right;
+  color: #999;
+}
+
+
+/*  REDESIGN */
+ul.partners-logos {
+  width: auto;
+}
+
+ul.partners-logos li {
+  border: 0px;
+  margin-right: 15px;
+  display:inline !important
+}
+
+ul.partners-logos a {
+  display: inline-block;
+  vertical-align: top;
+}
+
+body .partners-logos label {
+  font-weight: normal;
+  margin-top: 35px;
+  display: inline-block;
+  width: 73px;
+}
+
+.partners-logos .EC {
+  height: 96px;
+}
+
+.portlet-static-partners {
+  overflow:hidden;
+}
+
+.global-nav-menu {
+  border-bottom: 3px solid #A0B228;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+.external-link a {
+  background: url(link_icon.gif) no-repeat 0px 3px;
+  padding-left: 20px;
+}
+
+#edit-bar {
+  min-height: 24px;
+}
+
+
+/*  RESPONSIVE LAYOUT + changes from #17266 */
+#portal-footer-wrapper {
+  width: 1220px;
+}
+
+#tabbed-portlet {
+  width: 76%;
+}
+
+.widen {
+  width: 100%;
+}
+
+#portal-columns {
+  margin: 0px 0px 20px;
+}
+
+#tabbed-portlet #content dd {
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 1152px) {
+  .partners-logos a {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .partners-logos .EEA {
+    margin-top: 20px;
+  }
+
+  #tabbed-portlet {
+    width: 97.5%;
+  }
+
+  #user-corner-portlet {
+    float: left;
+    width: 40%;
+  }
+}
+
+
+/*  iPad mini portrait mode */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (resolution: 163dpi) {
+
+  #tabbed-portlet {
+    width: 732px;
+  }
+
+  #user-corner-portlet {
+    float: none;
+    clear: both;
+  }
+
+  #portal-columns {
+    padding: 0px;
+  }
+
+  .tabbed-content .printButton {
+    float: none;
+    margin: 0px;
+  }
+
+  #content dd {
+    margin: 0 0 1em 1em;
+  }
+
+  #portal-footer-wrapper ul {
+    float: none;
+  }
+
+  .partners-logos .EEA {
+    margin-top: 20px;
+  }
+}
+
+
+/* Enlarge map on smaller resolutions */
+@media screen and (max-width: 976px) {
+  #portal-footer-wrapper {
+    width: 946px;
+  }
+}
+
+@media screen and (max-width: 962px) {
+  #portal-footer-wrapper {
+    width: 930px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #portal-footer-wrapper {
+    width: 948px;
+  }
+
+  #portal-footer-wrapper ul {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  #portal-footer-wrapper {
+    width: 825px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #portal-footer-wrapper {
+    width: 720px;
+  }
+
+  #tabbed-portlet {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #portal-footer-wrapper {
+    width: 610px;
+  }
+
+  #tabbed-portlet {
+    width: 595px;
+  }
+
+  #user-corner-portlet {
+    width: 50%;
+  }
+
+  #contentActionMenus {
+    width: 98%;
+    margin-top: 5px;
+    margin-right: 11px;
+  }
+
+  .tabbed-content .printButton {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 619px) {
+  #portal-footer-wrapper {
+    width: 590px;
+  }
+
+  #tabbed-portlet {
+    width: 575px;
+  }
+
+}
+
+@media screen and (max-width: 593px) {
+  #portal-footer-wrapper {
+    width: 560px;
+  }
+
+  #tabbed-portlet {
+    width: 545px;
+  }
+
+}
+
+@media screen and (max-width: 568px) {
+  #portal-footer-wrapper {
+    width: 540px;
+  }
+
+  #tabbed-portlet {
+    width: 525px;
+  }
+
+}
+
+@media screen and (max-width: 487px) {
+  #portal-footer-wrapper {
+    width: 456px;
+  }
+
+  #tabbed-portlet {
+    width: 430px;
+  }
+
+  #user-corner-portlet {
+    width: 70%;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  #portal-footer-wrapper {
+    width: 430px;
+  }
+
+  #tabbed-portlet {
+    width: 420px;
+  }
+
+  #portal-footer-wrapper ul li {
+    display: block;
+    border-left: 0;
+  }
+
+
+  /* overrides lines 6-12 of Plone's mobile.css, which were hiding 98% of page content, on 480px mobile screens */
+  #portal-column-one,
+  #portal-column-two,
+  #portal-column-content {
+    margin-left: 0;
+  }
+
+  body .loading_message {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  body #squaresWaveG {
+    left: 95px;
+  }
+}
+
+.newsItem {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.newsContent {
+  float: left;
+  width: 60%;
+  margin-right: 12px;
+}
+
+.newsAbout {
+  float: right;
+  width: 30%;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.publication_view {
+  float: left;
+  width: 60%;
+  margin-right: 12px;
+}
+
+.publication_cover {
+  float: right;
+  width: 20%;
+}
+
+.image_cover {
+  float: right;
+}
+
+#personaltools-login {
+  margin-right: 3px;
+}
+
+#siteaction-contact {
+  margin-right: -1px;
+}
+
+#personaltools-logout {
+  padding-right: 1px;
+}
+
+
+/* Personal Information edit styles */
+.template-personal-information .edit-form fieldset {
+  border: none !important;
+}
+
+.template-personal-information .edit-form {
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  width: 100%;
+}
+
+.template-personal-information .edit-form .field {
+  position: relative;
+  overflow: hidden;
+}
+
+.template-personal-information .edit-form .field label:first-child {
+  float: left;
+  text-align: right;
+  width: 17%;
+}
+
+.template-personal-information .edit-form .widget {
+  text-align: left;
+  width: 70%;
+  top: 5%;
+  right: 0;
+  float: right;
+  margin-top: -15px;
+}
+
+.template-personal-information .edit-form .field:nth-of-type(3) {
+  overflow: visible;
+  position: relative;
+  top: 10px;
+}
+
+.template-personal-information .edit-form .field:nth-of-type(3) .widget {
+  width: 100%;
+}
+
+.template-personal-information .edit-form .field:nth-of-type(3) label[for='form.disclaimer_permission'] {
+  display: none;
+}
+
+.template-personal-information .edit-form .field:nth-of-type(4),
+.template-personal-information .edit-form .field:nth-of-type(5),
+.template-personal-information .edit-form .field:nth-of-type(6),
+.template-personal-information .edit-form .field:nth-of-type(7),
+.template-personal-information .edit-form .field:nth-of-type(8),
+.template-personal-information .edit-form .field:nth-of-type(9)
+{
+  display: none;
+}
+
+.template-personal-information .edit-form .field label {
+  font-weight: normal;
+}
+
+.template-personal-information .edit-form .field label:first-child {
+  font-weight: bold;
+  position: relative;
+  top: 6px
+}
+
+.template-personal-information span.fieldRequired {
+  color: transparent; /* Fix hide text Required */
+  margin-left: 38px;
+  position: relative;
+  top: 6px;
+}
+
+
+/* Registration form styles */
+.kssattr-formname-register .field {
+  position: relative;
+  overflow: hidden;
+}
+
+.kssattr-formname-register .field label span:first-child {
+  float: left;
+  text-align: right;
+  width: 17%;
+}
+
+.kssattr-formname-register .formHelp {
+  float: right;
+  width: 79%;  /* fix text indentation left */
+  right: 0px;
+  bottom: 0px;
+  margin-top: 3em;
+}
+
+.kssattr-formname-register .widget {
+  text-align: left;
+  width: 80%;
+  top: 5%;
+  position: absolute;
+  right: 0;
+}
+
+body.template-register.portaltype-plone-site div.info-box {
+  border: 1px solid #DDD;
+  margin-bottom: 2em;
+  padding: 15px;
+}
+
+body.template-register div#formfield-form-disclaimer_permission label span:first-of-type {
+  display: none;
+}
+
+body.template-register #formfield-form-mail_me {
+  display: none;
+}
+
+input#form\.disclaimer_permission {
+  float: left;
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+
+body.template-register div#formfield-form-disclaimer_permission {
+  width: 100%;
+  float: right;
+  overflow: visible;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 930px) and (max-width: 1200px) {
+  body.template-register div#formfield-form-disclaimer_permission {
+    min-height: 60px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 930px) {
+  body.template-register div#formfield-form-disclaimer_permission {
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  body.template-register div#formfield-form-disclaimer_permission {
+    min-height: 180px;
+  }
+}
+
+body.template-register div#formfield-form-disclaimer_permission label.disclaimer-permission {
+  font-weight: normal;
+}
+
+body.template-register #formfield-form-captcha .fieldErrorBox {
+  margin-bottom: 20px;
+}
+
+body.template-register #formfield-form-captcha .widget {
+  position: relative;
+  float: right;
+}
+
+#formfield-form-thematic_domain .widget,
+#formfield-form-institutional_domain .widget {
+  text-align: left;
+  width: 80%;
+  right: 0;
+  position: relative;
+  float: right;
+  margin-top: -15px;
+}
+
+#formfield-form-fullname span:first-child,
+#formfield-form-username span:first-child,
+#formfield-form-email span:first-child {
+  margin-top: 8px;  /* fix vertical center label to input */
+}
+
+#formfield-form-username span.required::after,
+#formfield-form-email span.required::after {
+  position: absolute;
+  margin-top: 8px;  /* fix vertical center red square to text */
+}
+
+.kssattr-formname-register .checkboxType,
+.template-personal-information .checkboxType {
+  /* fix vertical center label */
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -3px;
+  *overflow: hidden;
+}
+
+#formfield-form-thematic_domain label,
+#formfield-form-institutional_domain label {
+  font-weight: normal;
+}
+
+#formfield-form-thematic_domain label:first-child,
+#formfield-form-institutional_domain label:first-child {
+  font-weight: bold;
+}
+
+/* Terms of use - modal dialog */
+.terms-of-use-dialog .ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix {
+  background: #BFD630 !important;
+}
+
+.terms-of-use-dialog p {
+  margin-bottom: 15px;
+}
+
+.terms-of-use-dialog ul {
+  list-style-type: disc;
+  margin-left: 2em;
+}
+
+.terms-of-use-dialog ul li {
+  margin-bottom: 0.25em;
+  line-height: 1.5em;
+  display: list-item;
+}
+
+.terms-of-use-dialog a {
+  color: #205c90;
+}
+
+
+/* Terms of use */
+#formfield-form-disclaimer {
+  height: 60px;
+  width: 100%;
+  display: inline;
+  float: left;
+  font-size: 14px;
+}
+
+#formfield-form-disclaimer label span:first-child {
+  display: none;
+}
+
+#formfield-form-disclaimer .widget {
+  top: 37%;
+}
+
+#formfield-form-disclaimer label {
+  position: absolute;
+  top: -7px;
+  left: 18px;
+  font-weight: normal;
+}
+
+#formfield-form-disclaimer .formHelp {
+  display: none;  /* Hide Accept terms of use Description */
+}
+
+/* Register button */
+.actionButtons input {
+  display: inline;
+  margin-left: 10px;
+  margin-top: 15px;
+
+  background-color: #50AEEC;
+  border-radius: 5px;
+  border-top: 0px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-bottom: 2px solid #999999;
+  font-size: 100% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Send button */
+#feedback_form div.formControls .context {
+  margin-left: -12px;
+  margin-top: 0px;
+
+  background-color: #50AEEC;
+  border-radius: 5px;
+  border-top: 0px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-bottom: 2px solid #999999;
+  font-size: 100% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.actionButtons input:hover,
+#feedback_form div.formControls .context:hover {
+  background-color: #205c90
+}
+
+/* Horizontal Line Top */
+#formfield-form-fullname:before {
+  border-top: 1px solid #999999;
+  width: 100%;
+  height: 99%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+}
+
+#formfield-form-fullname {
+  padding-top: 20px; /* fix space for line */
+}
+
+#formfield-form-fullname input {
+  margin-top: 20px; /* fix space for line */
+}
+
+#formfield-form-institutional_domain .widget {
+  margin-bottom: 20px; /* fix space for line */
+}
+
+@media screen and (min-width: 770px) {
+  /* Personal information edit form styles with 2 columns for large screens */
+  .template-personal-information .edit-form .field:first-child {
+    float: left;
+    width: 50%;
+  }
+
+  .template-personal-information .edit-form .field:nth-child(2) {
+    float: right;
+    width: 50%;
+    clear: none;
+  }
+
+  .template-personal-information .edit-form .field label:first-child {
+    width: 32%;
+    position: relative;
+    top: 6px;
+  }
+
+  .template-personal-information .edit-form .widget {
+    width: 63%;
+  }
+
+  .template-personal-information span.fieldRequired {
+    margin-left: 3px;
+  }
+
+  /* Register form styles with 2 columns for large screens */
+  #formfield-form-thematic_domain {
+    float: left;
+    width: 50%;
+  }
+
+  #formfield-form-institutional_domain {
+    float: right;
+    width: 50%;
+    clear: none;
+  }
+
+  #formfield-form-thematic_domain label span:first-child,
+  #formfield-form-institutional_domain label span:first-child {
+    width: 34%;
+  }
+
+  #formfield-form-thematic_domain .widget,
+  #formfield-form-institutional_domain .widget {
+    width: 63%;
+  }
+
+  #formfield-form-thematic_domain .value,
+  #formfield-form-institutional_domain .value {
+    margin-left: 10px;
+  }
+
+  #formfield-form-disclaimer {
+    clear: left;
+  }
+
+  .kssattr-formname-register .actionButtons input {
+    margin-left: 0px !important;
+  }
+}
+
+.kssattr-formname-register #actionsView {
+  float: left;
+}
+
+/* Fix "You can log in again below." text in logged_out */
+.template-logged_out #content .documentDescription {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+
+/* Login page styles */
+#login_page_title {
+  text-align: left;
+  padding-left: 10%;
+  margin-left: 15px;
+}
+
+#login_form_container {
+  width: 75%;
+  margin-left: 10%;
+  border: 1px solid #DDD;
+  padding: 15px;
+  overflow: hidden;
+}
+
+#login_form_container #login_form {
+  width: 25%;
+  float: left;
+  text-align: left;
+  padding-right: 1%;
+}
+
+#login_form_container #login_form_details {
+  width: 74%;
+  float: right;
+  text-align: left;
+  padding-left: 3%;
+  border-left: 1px solid #DDD;
+}
+
+#login_form_container #login-form label {
+  text-align: left;
+}
+
+#login_form_container #login-form #__ac_name,
+#login_form_container #login-form #__ac_password,
+#login_form_container #login-form div.formControls .context {
+  width: 100%;
+  margin-top: 5px;
+}
+
+#login_form_container #login-form div.formControls,
+#login_form_container #login-form div.formControls input {
+  margin: 0px;
+}
+
+#login_form_container #login_form_details .discreet {
+  margin-bottom: 15px;
+}
+
+#login_form_container #login_form_details a {
+  color: #08C;
+}
+
+#login_form_container #login-form label {
+  padding-top: 0px;
+}
+
+.template-login_form #tabbed-portlet {
+  width: 100%;
+}
+
+/* Login button */
+#login_form_container #login-form div.formControls .context {
+  margin-left: 1px;
+  background-color: #50AEEC;
+  border-radius: 5px;
+  border-top: 0px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-bottom: 2px solid #999999;
+  font-size: 100% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Submit EAGLE Contact button */
+.section-eagle-contact div.formControls .context {
+  margin-left: -12px;
+  background-color: #50AEEC;
+  border-radius: 5px;
+  border-top: 0px solid;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-bottom: 2px solid #999999;
+  font-size: 100% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+/* buttons hover */
+#login_form_container #login-form div.formControls .context:hover,
+.section-eagle-contact div.formControls .context:hover {
+  background-color: #205c90
+}
+
+#viewlet-cookiepolicy {
+  background-color: #f3f3f3;
+}
+
+/* Download information before table */
+#fieldset-download #download-info {
+  border: 1px solid #BFD630;
+  border-radius: 10px;
+  background: #fff;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  margin-top:-10px;
+  margin-bottom: 25px;
+}
+
+.portlet-static-partners .partners-logos {
+  margin-left: 0px;
+}
+
+/* Hide PloneHelpCenter sub menu */
+.template-referencemanual_view.section-eagle #sub-nav {
+  display: none;
+}
+
+/* Fix simplify breadcrumbs in Manual methodology */
+.template-referencemanual_view.section-eagle #breadcrumbs-2,
+.template-referencemanual_view.section-eagle #breadcrumbs-3 {
+  display: none;
+}
+
+/* Fix larger checkboxes in download table */
+#fieldset-download #datatable-container input[type="checkbox"] {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid #0070BB;
+}
+
+/* Pages and sections titles in reference manual alreay have numbers. */
+.template-referencemanual_view ol,
+.template-referencemanualsection_view ol {
+  list-style-type: none !important;
+}
+
+/* REDESIGN related */
+/* Full column when no info in right column */
+body.template-login_form .main-content .col-lg-9,
+body.template-register .main-content .col-lg-9 {
+  width: 100%;
+}
+
+body.template-register label {
+  display: initial;
+}
+
+body.template-register input[type=text] {
+  width: 100% !important;
+}
+
+body.template-register .kssattr-formname-register #actionsView {
+  width: 80%;
+  position: relative;
+  left: 20%;
+}
+
+body.template-register form {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body.template-register span.info-text-bottom {
+  font-style: italic;
+  font-size: 90%;
+  float: right;
+  position: relative;
+  top: 2em;
+}
+
+div[data-diazo="land-news-list"] .listing-items .listing-item,
+div[data-diazo="land-events-list"] .listing-items .listing-item {
+  width: 100% !important;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
