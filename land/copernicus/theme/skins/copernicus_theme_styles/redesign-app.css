@@ -271,11 +271,6 @@ h3 {
   .partners-logos .EEA {
     margin-top: 20px;
   }
-
-  #user-corner-portlet {
-    float: left;
-    width: 40%;
-  }
 }
 
 
@@ -285,12 +280,6 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: portrait)
 and (resolution: 163dpi) {
-
-  #user-corner-portlet {
-    float: none;
-    clear: both;
-  }
-
   #portal-columns {
     padding: 0px;
   }
@@ -312,10 +301,6 @@ and (resolution: 163dpi) {
 
 /* Enlarge map on smaller resolutions */
 @media screen and (max-width: 640px) {
-  #user-corner-portlet {
-    width: 50%;
-  }
-
   #contentActionMenus {
     width: 98%;
     margin-top: 5px;
@@ -324,13 +309,6 @@ and (resolution: 163dpi) {
 
   .tabbed-content .printButton {
     display: none;
-  }
-
-}
-
-@media screen and (max-width: 487px) {
-  #user-corner-portlet {
-    width: 70%;
   }
 
 }
