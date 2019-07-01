@@ -16,114 +16,8 @@ a:focus,
 a:hover,
 a:active,
 #content-core a {
-  color: #08C;
   text-decoration: underline;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  color: #555;
-}
-
-#portal-header {
-  overflow: hidden;
-}
-
-.top-menu {
-  width: 100%;
-  float: left;
-  margin: 10px 0px 10px;
-}
-
-.top-menu ul {
-  text-align: right;
-  font-size: 11px;
-  margin-right: 10px;
-}
-
-.top-menu li {
-  padding: 0px 6px;
-  border-left: 1px solid #749AC4;
-}
-
-.top-menu li:first-of-type {
-  border-left: 0px;
-}
-
-#portal-searchbox {
-  width: auto;
-  float: right;
-  display: none;
-}
-
-#site-identity {
-  z-index: -1;
-  margin-top: -16px;
-}
-
-#portal-logo {
-  margin: 0px;
-  float: right;
-  padding-right: 60px;
-  margin-top: 14px;
-}
-
-#portal-title-container {
-  width: 57%;
-  display: inline-block;
-  margin-left: 10px;
-}
-
-#portal-title h1 {
-  color: #A0B228;
-  font-size: 28px;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  font-weight: normal;
-}
-
-#portal-title a,
-#portal-title a:hover {
-  color: #A0B228;
-  text-decoration: none;
-}
-
-#copernicus-logo {
-  width: 155px;
-  display: inline-block;
-  float: right;
-  margin-right: 60px;
-}
-
-#copernicus-logo a[target="_blank"] {
-  background: none;
-  padding-left: 0px;
-}
-
-.stripe {
-  background: #BFD630;
-  height: 55px;
-  z-index: 0;
-  margin-top: -35px;
-}
-
-#portal-breadcrumbs {
-  min-height: 18px;
-  color: #616161;
-  margin: 0;
-  padding: 0px 0px 0px 10px;
-  overflow: hidden;
-  line-height: 1.6;
-  font-size: 11px;
-  background: #BFD630;
-  box-shadow: 0px 1px 3px #888;
-  margin-bottom: 4px;
-}
-
-#portal-breadcrumbs a,
-.breadcrumbSeparator {
-    color: #616161;
-}
-
 
 #content {
   font-size: 100%;
@@ -142,70 +36,6 @@ h1, h2, h3, h4, h5, h6 {
 #tabbed-portlet {
   height: auto;
   float: left;
-}
-
-#user-corner-portlet {
-  float: left;
-  margin-left: 15px;
-}
-
-#user-corner-portlet .portletHeader {
-  color: #555;
-  padding-top: 8px;
-  font-weight: normal;
-  font-size: 16px;
-  border-bottom: 3px solid #A0B228;
-  margin-bottom: 10px;
-}
-
-#user-corner-portlet .portletHeader h3 {
-  margin-top: 5px;
-}
-
-#user-corner-portlet dl.portlet dd.portletItem {
-  padding: 5px;
-  font-size: 12px;
-}
-
-#user-corner-portlet a.eagle-link {
-  margin-left: 20px;
-}
-
-body #nav {
-  background: #FFF;
-  overflow: hidden;
-  padding: 0px;
-  margin-top: 0px;
-}
-
-#nav li {
-  float: left;
-  margin-right: 10px;
-}
-
-#nav h2 {
-  font-size: 16px;
-}
-
-#nav a {
-  display: block;
-  padding: 5px 10px 0px;
-  color: #555;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
-}
-
-#nav .selected a,
-#nav .selected a:hover {
-  color: #fff;
-  background: #A0B228;
-}
-
-#nav a:hover {
-  background: #BFD630;
 }
 
 .tabbed-content .heading {
@@ -356,29 +186,6 @@ body #content li.formTab a {
   padding-bottom: 3px;
 }
 
-body #portal-footer-wrapper {
-  margin: 0 auto;
-  padding: 10px 0px 10px;
-  float: none;
-  text-align: left;
-}
-
-#portal-footer-wrapper ul {
-  font-size: 11px;
-  padding-bottom: 5px;
-  width: 400px;
-  float: left;
-}
-
-#portal-footer-wrapper li {
-  padding: 0px 6px;
-  border-left: 1px solid #749AC4;
-}
-
-#portal-footer-wrapper .first {
-  border-left: 0px;
-}
-
 .login-req-warning {
   display: block;
   position: absolute;
@@ -451,12 +258,6 @@ h2 {
   width: 76%;
 }
 
-#user-corner-portlet {
-  width: 21%;
-  float: right;
-  margin-right: 9px;
-}
-
 .widen {
   width: 100%;
 }
@@ -469,47 +270,13 @@ h2 {
   margin-left: 0px;
 }
 
-#portal-logo {
-  padding-right: 96px;
-}
-
-@media screen and (max-width: 1200px) {
-  #portal-footer-wrapper {
-    width: 1165px;
-  }
-}
-
 @media screen and (max-width: 1152px) {
-  #portal-footer-wrapper {
-    width: 1120px;
-  }
-
   .partners-logos a {
     margin-bottom: 15px;
   }
 }
 
-@media screen and (max-width: 1093px) {
-  #portal-footer-wrapper {
-    width: 1072px;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  #portal-footer-wrapper {
-    width: 1064px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
-  #portal-footer-wrapper {
-    width: 990px;
-  }
-
-  #portal-logo {
-    padding-right: 48px;
-  }
-
   .partners-logos .EEA {
     margin-top: 20px;
   }
@@ -532,10 +299,6 @@ and (max-device-width: 1024px)
 and (orientation: portrait)
 and (resolution: 163dpi) {
 
-  #portal-footer-wrapper {
-    width: 734px;
-  }
-
   #tabbed-portlet {
     width: 732px;
   }
@@ -543,18 +306,6 @@ and (resolution: 163dpi) {
   #user-corner-portlet {
     float: none;
     clear: both;
-  }
-
-  #portal-logo {
-    padding-right: 5px;
-  }
-
-  #portal-title-container {
-    width: 65%;
-  }
-
-  .top-menu ul {
-    margin-right: 0px;
   }
 
   #portal-columns {
@@ -642,9 +393,6 @@ and (resolution: 163dpi) {
     display: none;
   }
 
-  #nav li {
-    margin-right: 0;
-  }
 }
 
 @media screen and (max-width: 619px) {
@@ -656,9 +404,6 @@ and (resolution: 163dpi) {
     width: 575px;
   }
 
-  #nav li {
-    margin-right: 0;
-  }
 }
 
 @media screen and (max-width: 593px) {
@@ -670,9 +415,6 @@ and (resolution: 163dpi) {
     width: 545px;
   }
 
-  #nav li {
-    margin-right: 0;
-  }
 }
 
 @media screen and (max-width: 568px) {
@@ -684,9 +426,6 @@ and (resolution: 163dpi) {
     width: 525px;
   }
 
-  #nav li {
-    margin-right: 0;
-  }
 }
 
 @media screen and (max-width: 487px) {
@@ -698,21 +437,10 @@ and (resolution: 163dpi) {
     width: 430px;
   }
 
-  #portal-title-container {
-    width: 100%;
-  }
-
-  #portal-title h1 {
-    font-size: 26px;
-  }
-
   #user-corner-portlet {
     width: 70%;
   }
 
-  #nav li {
-    margin-right: 0;
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -729,9 +457,6 @@ and (resolution: 163dpi) {
     border-left: 0;
   }
 
-  #nav li {
-    margin-right: 0;
-  }
 
   /* overrides lines 6-12 of Plone's mobile.css, which were hiding 98% of page content, on 480px mobile screens */
   #portal-column-one,
