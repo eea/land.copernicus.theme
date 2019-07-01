@@ -1,10 +1,4 @@
 /* - copernicusLand.css - */
-body {
-  font-size: 13px;
-  color: #333;
-  background: #F5F6F7;
-}
-
 abbr, html\:abbr {
   border-bottom: 1px dashed #CCC;
   cursor: help;
@@ -16,15 +10,6 @@ h1, h2 {
 
 h3 {
   font-size: 16px;
-}
-
-#visual-portal-wrapper {
-  margin: 0px auto;
-  overflow: hidden;
-  background: #FFF;
-  box-shadow: 0px 1px 3px #999;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
 }
 
 a:focus,
@@ -458,7 +443,6 @@ h2 {
 
 
 /*  RESPONSIVE LAYOUT + changes from #17266 */
-#visual-portal-wrapper ,
 #portal-footer-wrapper {
   width: 1220px;
 }
@@ -490,14 +474,12 @@ h2 {
 }
 
 @media screen and (max-width: 1200px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 1165px;
   }
 }
 
 @media screen and (max-width: 1152px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 1120px;
   }
@@ -508,30 +490,20 @@ h2 {
 }
 
 @media screen and (max-width: 1093px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 1072px;
   }
 }
 
 @media screen and (max-width: 1080px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 1064px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 990px;
-  }
-
-  #visual-portal-wrapper {
-    box-shadow: none;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom: 1px solid #DDD;
   }
 
   #portal-logo {
@@ -560,7 +532,6 @@ and (max-device-width: 1024px)
 and (orientation: portrait)
 and (resolution: 163dpi) {
 
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 734px;
   }
@@ -611,21 +582,18 @@ and (resolution: 163dpi) {
 
 /* Enlarge map on smaller resolutions */
 @media screen and (max-width: 976px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 946px;
   }
 }
 
 @media screen and (max-width: 962px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 930px;
   }
 }
 
 @media screen and (max-width: 960px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 948px;
   }
@@ -636,14 +604,12 @@ and (resolution: 163dpi) {
 }
 
 @media screen and (max-width: 854px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 825px;
   }
 }
 
 @media screen and (max-width: 800px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 720px;
   }
@@ -654,7 +620,6 @@ and (resolution: 163dpi) {
 }
 
 @media screen and (max-width: 640px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 610px;
   }
@@ -683,7 +648,6 @@ and (resolution: 163dpi) {
 }
 
 @media screen and (max-width: 619px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 590px;
   }
@@ -698,7 +662,6 @@ and (resolution: 163dpi) {
 }
 
 @media screen and (max-width: 593px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 560px;
   }
@@ -713,7 +676,6 @@ and (resolution: 163dpi) {
 }
 
 @media screen and (max-width: 568px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 540px;
   }
@@ -728,7 +690,6 @@ and (resolution: 163dpi) {
 }
 
 @media screen and (max-width: 487px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 456px;
   }
@@ -755,7 +716,6 @@ and (resolution: 163dpi) {
 }
 
 @media screen and (max-width: 480px) {
-  #visual-portal-wrapper,
   #portal-footer-wrapper {
     width: 430px;
   }
