@@ -190,8 +190,6 @@ body #content li.formTab a {
   color: #999;
 }
 
-
-/*  REDESIGN */
 ul.partners-logos {
   width: auto;
 }
@@ -251,8 +249,6 @@ h3 {
   min-height: 24px;
 }
 
-
-/*  RESPONSIVE LAYOUT + changes from #17266 */
 .widen {
   width: 100%;
 }
@@ -272,7 +268,6 @@ h3 {
     margin-top: 20px;
   }
 }
-
 
 /*  iPad mini portrait mode */
 @media only screen
@@ -297,7 +292,6 @@ and (resolution: 163dpi) {
     margin-top: 20px;
   }
 }
-
 
 /* Enlarge map on smaller resolutions */
 @media screen and (max-width: 640px) {
@@ -393,7 +387,6 @@ and (resolution: 163dpi) {
   padding-right: 1px;
 }
 
-
 /* Personal Information edit styles */
 .template-personal-information .edit-form fieldset {
   border: none !important;
@@ -465,7 +458,6 @@ and (resolution: 163dpi) {
   position: relative;
   top: 6px;
 }
-
 
 /* Registration form styles */
 .kssattr-formname-register .field {
@@ -622,7 +614,6 @@ body.template-register #formfield-form-captcha .widget {
 .terms-of-use-dialog a {
   color: #205c90;
 }
-
 
 /* Terms of use */
 #formfield-form-disclaimer {
@@ -789,7 +780,6 @@ body.template-register #formfield-form-captcha .widget {
   color: #333;
 }
 
-
 /* Login page styles */
 #login_page_title {
   text-align: left;
@@ -936,7 +926,6 @@ body.template-register #formfield-form-captcha .widget {
   list-style-type: none !important;
 }
 
-/* REDESIGN related */
 /* Full column when no info in right column */
 body.template-login_form .main-content .col-lg-9,
 body.template-register .main-content .col-lg-9 {
@@ -7721,7 +7710,6 @@ body.template-mail_password_form #content fieldset {
   }
 
 }
-
 
 ul.partners-logos {
   display: flex;
