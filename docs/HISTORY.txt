@@ -3,6 +3,8 @@ Changelog
 
 8.0.dev0 - (unreleased)
 -----------------------
+- Improve: Remove custom css used for old search.
+  [GhitaB #106507]
 
 7.9 - (2019-07-08)
 ------------------
