@@ -1,8 +1,8 @@
 Changelog
 =========
 
-7.9.dev0 - (unreleased)
------------------------
+7.9 - (2019-07-08)
+------------------
 - Improve: css, by removing unused files and improving the code.
   [GhitaB #106507]
 
