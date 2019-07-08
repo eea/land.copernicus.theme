@@ -7347,29 +7347,6 @@ div.images-slider a.right.carousel-control span {
   background: #819110;
 }
 
-body.template-search.portaltype-plone-site div.main-content div.col-lg-9 {
-  width: 100%;
-}
-body.template-search.portaltype-plone-site div.main-content div.col-lg-3 {
-  display: none;
-}
-body.template-search.portaltype-plone-site div.main-content article.main {
-  padding: 10px;
-}
-body.template-search.portaltype-plone-site div.main-content input.searchButton {
-  padding: 8px;
-  color: #FFFFFF;
-  border-radius: 6px;
-  border: none;
-  background: #A0B228;
-}
-body.template-search.portaltype-plone-site div.main-content input.searchButton:hover {
-  background: #819110;
-}
-body.template-search.portaltype-plone-site div.main-content dl.searchResults > dd {
-  margin-bottom: 20px;
-}
-
 #edit-bar ul li {
   padding: 2px;
 }
