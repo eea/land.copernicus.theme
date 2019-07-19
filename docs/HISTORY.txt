@@ -3,6 +3,8 @@ Changelog
 
 8.0.dev0 - (unreleased)
 -----------------------
+- Fix logo copernicus responsivity issue.
+  [GhitaB #107872]
 - Improve: Remove custom css used for old search.
   [GhitaB #106507]
 
