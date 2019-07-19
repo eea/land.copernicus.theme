@@ -6769,7 +6769,8 @@ body {
       padding-top: 6px; }
       #header-section .container-fluid#land-brand-utils .content .brand .img-brand {
         margin-top: 6px;
-        height: 71px; }
+        width: 184.75px;
+        height: auto; }
       #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated {
         margin-bottom: 10px; }
       #header-section .container-fluid#land-brand-utils img.img-brand.sprite-logo-copernicus {
