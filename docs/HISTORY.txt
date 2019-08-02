@@ -3,6 +3,8 @@ Changelog
 
 8.1.dev0 - (unreleased)
 -----------------------
+- Feature: add style for survey section box.
+  [GhitaB #108219]
 
 8.0 - (2019-07-19)
 ------------------
