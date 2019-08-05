@@ -3,6 +3,9 @@ Changelog
 
 8.1.dev0 - (unreleased)
 -----------------------
+- Fix: condition for jqueryui, now Terms of use dialog is
+  working again in /@@register.
+  [GhitaB #106509]
 - Feature: add style for survey section box.
   [GhitaB #108219]
 
