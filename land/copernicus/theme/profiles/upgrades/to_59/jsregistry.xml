@@ -360,7 +360,7 @@
 
     <javascript authenticated="False" bundle="default" cacheable="True"
        compression="none" conditionalcomment="" cookable="True" enabled="True"
-       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'edit' in request.URL0 or not here.restrictedTraverse('@@plone_portal_state').anonymous()"
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.facetednavigation.subtypes.interfaces.IFacetedNavigable') or  'register' in request.URL0 or  'edit' in request.URL0 or not here.restrictedTraverse('@@plone_portal_state').anonymous()"
        id="collective.js.jqueryui.custom.min.js" inline="False"
        insert-after="++resource++jquery-migrate.js"/>
 
