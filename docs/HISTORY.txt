@@ -3,6 +3,8 @@ Changelog
 
 8.1.dev0 - (unreleased)
 -----------------------
+- Improve: Update content for main menu.
+  [GhitaB #108643]
 - Fix: condition for jqueryui, now Terms of use dialog is
   working again in /@@register.
   [GhitaB #106509]
