@@ -173,6 +173,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
               <li class="dropdown-submenu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Biophysical Parameters</a>
                 <ul class="dropdown-menu">
+                  <li><a href="/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring" i18n:translate="">High Resolution Snow and Ice Monitoring</a></li>
                   <li><a href="/global/products/lie" i18n:translate="">Lake Ice Extent</a></li>
                   <li><a href="/global/products/sce" i18n:translate="">Snow Cover Extent</a></li>
                   <li><a href="/global/products/swe" i18n:translate="">Snow Water Equivalent</a></li>
@@ -189,6 +190,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   <li><a href="/global/products/swi" i18n:translate="">Soil Water Index</a></li>
                   <li><a href="/global/products/ssm" i18n:translate="">Surface Soil Moisture</a></li>
                   <li><a href="/global/products/vci" i18n:translate="">Condition Index</a></li>
+                  <li><a href="/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity" i18n:translate="">High Resolution Vegetation Phenology and Productivity</a></li>
                   <li><a href="/global/products/vpi" i18n:translate="">Productivity Indicator</a></li>
                   <li><a href="/global/products/lswt" i18n:translate="">Lake Surface Water Temperature</a></li>
                   <li><a href="/global/products/lwq" i18n:translate="">Lake Water Quality</a></li>
@@ -221,6 +223,10 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     </ul>
                   </li>
                 </ul>
+              </li>
+
+              <li>
+                <a href="/pan-european/european-ground-motion-service" i18n:translate="">European Ground Motion Service</a>
               </li>
 
               <li class="dropdown-submenu">
