@@ -138,6 +138,8 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
               <li class="dropdown-submenu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Thematic Hotspot Mapping</a>
                 <ul class="dropdown-menu">
+                  <li><a href="/local/coastal-zones" i18n:translate="">Coastal Zones</a></li>
+
                   <li><a href="/global/hsm" i18n:translate="">Land Cover and Land Change</a></li>
 
                   <li data-sm-reverse="true" class="dropdown-submenu">
