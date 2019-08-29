@@ -18,7 +18,7 @@
             <tal:repeat tal:repeat="news python:news_list">
               <li class="listing-item"
                   tal:define="news_object python:news.getObject();
-                              news_date python:news_object.getField('modification_date').getAccessor(news_object)();
+                              news_date python:news_object.getField('effectiveDate').getAccessor(news_object)();
                               news_title python:news_object.getField('title').getAccessor(news_object)();
                               news_image python:news_object.getField('image').getAccessor(news_object)();
                               news_url python:news_object.absolute_url();
