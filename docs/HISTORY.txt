@@ -1,8 +1,10 @@
 Changelog
 =========
 
-Current "version" used by InSitu
---------------------------------
+"Versions" as used by insitu.copernicus.eu. Just note what and when happened.
+
+2.5.1 - (2019-08-29)
+--------------------
 - Improve: Use publishing date (effectiveDate, effective) in News viewlet
   listed in homepage.
 - Improve: Use publishing date (effectiveDate, effective) in News section, too.
