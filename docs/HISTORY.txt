@@ -1,6 +1,16 @@
 Changelog
 =========
 
+Current "version" used by InSitu
+--------------------------------
+- Improve: Use publishing date (effectiveDate, effective) in News viewlet
+  listed in homepage.
+  [GhitaB #108830]
+
+-------------------------------------------------------------------------------
+  Two volumes of unwritten history are missing here. :)
+-------------------------------------------------------------------------------
+
 2.5.dev0 - (unreleased)
 -----------------------
 - Fix: non-ASCII characters in title of publications generate error because of
