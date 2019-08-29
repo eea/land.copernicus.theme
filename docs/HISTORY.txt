@@ -5,6 +5,9 @@ Current "version" used by InSitu
 --------------------------------
 - Improve: Use publishing date (effectiveDate, effective) in News viewlet
   listed in homepage.
+- Improve: Use publishing date (effectiveDate, effective) in News section, too.
+  Manual step: delete custom news_listing template in skins, then in case
+  changes are not visible, re-enable news_listing display for news folder.
   [GhitaB #108830]
 
 -------------------------------------------------------------------------------
