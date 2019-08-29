@@ -14,9 +14,8 @@
   <div id="content-core" tal:define="max_words_number python:getattr(context, 'summary_max_words_number', 30)">
 
     <h1 class="insitu-title" i18n:translate="">News</h1>
-
     <div class="container-fluid insitu-news-list-container"
-         tal:define="news_items python:context.getFolderContents(contentFilter={'portal_type':['News Item'], 'sort_on': 'Date', 'sort_order': 'descending',});
+         tal:define="news_items python:context.getFolderContents(contentFilter={'portal_type':['News Item'], 'sort_on': 'effective', 'sort_order': 'descending',});
                      Batch python:modules['Products.CMFPlone'].Batch;
                      b_size python:8;
                      b_start python:0;
@@ -31,7 +30,7 @@
           <!-- News item -->
           <div class="row insitu-news-item"
                tal:define="news_object python:news_item.getObject();
-                           news_date python:news_object.getField('modification_date').getAccessor(news_object)();
+                           news_date python:news_object.getField('effectiveDate').getAccessor(news_object)();
                            news_title python:news_object.getField('title').getAccessor(news_object)();
                            news_description python:news_object.getField('description').getAccessor(news_object)();
                            news_url python:news_object.absolute_url();
