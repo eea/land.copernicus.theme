@@ -9,19 +9,19 @@
 
     <javascript authenticated="False" bundle="default" cacheable="True"
        compression="safe" conditionalcomment="" cookable="True" enabled="True"
-       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.meeting.interfaces.meeting.IMeeting') or 'edit' in request.URL0 or '++add++eea.meeting' in request.URL0""
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.meeting.interfaces.meeting.IMeeting') or 'edit' in request.URL0 or '++add++eea.meeting' in request.URL0"
        id="++resource++plone.formwidget.geolocation/libs.js" inline="False"
        insert-after="++resource++collective.z3cform.datagridfield/datagridfield.js"/>
 
     <javascript authenticated="False" bundle="default" cacheable="True"
        compression="safe" conditionalcomment="" cookable="True" enabled="True"
-       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.meeting.interfaces.meeting.IMeeting') or 'edit' in request.URL0 or '++add++eea.meeting' in request.URL0""
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.meeting.interfaces.meeting.IMeeting') or 'edit' in request.URL0 or '++add++eea.meeting' in request.URL0"
        id="++resource++plone.formwidget.geolocation/maps.js" inline="False"
        insert-after="++resource++plone.formwidget.geolocation/libs.js"/>
 
     <javascript authenticated="True" bundle="default" cacheable="True"
        compression="safe" conditionalcomment="" cookable="True" enabled="True"
-       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.meeting.interfaces.meeting.IMeeting') or 'edit' in request.URL0 or '++add++eea.meeting' in request.URL0""
+       expression="python: object.restrictedTraverse('@@plone_interface_info').provides('eea.meeting.interfaces.meeting.IMeeting') or 'edit' in request.URL0 or '++add++eea.meeting' in request.URL0"
        id="++resource++eea.meeting/meeting_edit.js" inline="False"
        insert-after="++resource++plone.formwidget.geolocation/maps.js"/>
 
