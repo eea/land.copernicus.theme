@@ -3,6 +3,11 @@ Changelog
 
 "Versions" as used by insitu.copernicus.eu. Just note what and when happened.
 
+2.5.2 - (unreleased)
+--------------------
+- Fix: error in case publishing date is not defined in news listing.
+  [GhitaB #106583]
+
 2.5.1 - (2019-08-29)
 --------------------
 - Improve: Use publishing date (effectiveDate, effective) in News viewlet
