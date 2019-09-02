@@ -49,7 +49,7 @@
             <p class="insitu-news-info">
               <span class="insitu-news-date">
                 <i class="fa fa-clock-o"></i>
-                <span>
+                <span tal:on-error="string:N/A.">
                   <span tal:replace="python:news_date.Month()[:3]"></span>
                   <span tal:replace="python:news_date.day()"></span>,
                   <span tal:replace="python:news_date.year()"></span>
