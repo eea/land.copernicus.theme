@@ -3,6 +3,8 @@ Changelog
 
 8.1.dev0 - (unreleased)
 -----------------------
+- Fix: album view for long titles."
+  [GhitaB #108954]
 - Fix: update conditions for geolocation js and css used in add meeting.
   [GhitaB #108643]
 - Improve: Update content for main menu.
