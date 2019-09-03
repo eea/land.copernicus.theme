@@ -63,6 +63,8 @@ a:active,
   background: none;
   padding: 0px;
   text-align: left;
+  overflow: visible;
+  height: 210px;
 }
 
 .photoAlbumEntry img {
