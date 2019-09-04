@@ -7,7 +7,7 @@
   <!-- Events list -->
   <div class="panel panel-default">
     <div class="panel-heading" i18n:translate="">
-      <i class="fa fa-calendar-check-o" aria-hidden="true" i18n:name="icon"></i>
+      <i class="fa fa-calendar-check" aria-hidden="true" i18n:name="icon"></i>
       Events
     </div>
     <div class="panel-body">

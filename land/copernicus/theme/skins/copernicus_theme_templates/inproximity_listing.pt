@@ -48,7 +48,7 @@
 
             <p class="insitu-inproximity-info">
               <span class="insitu-inproximity-date">
-                <i class="fa fa-clock-o"></i>
+                <i class="fa fa-clock"></i>
                 <span>
                   <span tal:replace="python:inproximity_date.Month()[:3]"></span>
                   <span tal:replace="python:inproximity_date.day()"></span>,

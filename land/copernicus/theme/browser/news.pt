@@ -7,7 +7,7 @@
   <!-- Latest news -->
   <div class="panel panel-default">
     <div class="panel-heading" i18n:translate="">
-      <i class="fa fa-newspaper-o" aria-hidden="true" i18n:name="icon"></i>
+      <i class="fa fa-newspaper" aria-hidden="true" i18n:name="icon"></i>
       News
     </div>
     <div class="panel-body">
