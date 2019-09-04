@@ -3,7 +3,7 @@ Changelog
 
 "Versions" as used by insitu.copernicus.eu. Just note what and when happened.
 
-2.5.2 - (unreleased)
+2.5.2 - (2019-09-04)
 --------------------
 - Improve: Get rid of fontawesome from CDN. Update missing icons.
   [GhitaB #106583]
