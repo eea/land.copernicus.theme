@@ -5,6 +5,8 @@ Changelog
 
 2.5.2 - (unreleased)
 --------------------
+- Improve: Get rid of fontawesome from CDN. Update missing icons.
+  [GhitaB #106583]
 - Fix: error in case publishing date is not defined in news listing.
   [GhitaB #106583]
 
