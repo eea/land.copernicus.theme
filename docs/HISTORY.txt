@@ -3,6 +3,8 @@ Changelog
 
 8.1.dev0 - (unreleased)
 -----------------------
+- Fix: title overlaping print button issue.
+  [GhitaB #109061]
 - Fix: album view for long titles."
   [GhitaB #108954]
 - Fix: update conditions for geolocation js and css used in add meeting.
