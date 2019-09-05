@@ -3,6 +3,8 @@ Changelog
 
 8.1.dev0 - (unreleased)
 -----------------------
+- Improve: Hide content type icons in sitemap listing.
+  [GhitaB #109065]
 - Fix: title overlaping print button issue.
   [GhitaB #109061]
 - Fix: album view for long titles."
