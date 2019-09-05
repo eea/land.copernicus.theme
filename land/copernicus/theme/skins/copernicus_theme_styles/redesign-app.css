@@ -7383,6 +7383,14 @@ ul#portal-sitemap > li > div > a {
   background-position-y: 12px;
 }
 
+body.template-sitemap.portaltype-plone-site #content a {
+  background: none;
+}
+
+body.template-sitemap.portaltype-plone-site #content a img {
+ display: none;
+}
+
 .breadcrumb i.fa.fa-map-marker {
   color: #A4A4A4;
 }
