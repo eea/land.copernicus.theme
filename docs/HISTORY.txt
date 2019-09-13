@@ -1,6 +1,9 @@
 Changelog
 =========
 
+8.2.dev0 - (unreleased)
+-----------------------
+
 8.1 - (2019-09-13)
 ------------------
 - Improve: Hide content type icons in sitemap listing.
