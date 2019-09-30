@@ -33,12 +33,12 @@
               <div class="controls">
                 <a class="left carousel-control" href="#random_number1" data-slide="prev">
                   <div class="left-button">
-                    <div class="glyphicon glyphicon-chevron-left"></div>
+                    <span class="fa fa-chevron-left"></span>
                   </div>
                 </a>
                 <a class="right carousel-control" href="#random_number1" data-slide="next">
                   <div class="right-button">
-                    <div class="glyphicon glyphicon-chevron-right"></div>
+                    <span class="fa fa-chevron-right"></span>
                   </div>
                 </a>
               </div>
@@ -155,20 +155,6 @@ jQuery('.carousel').bind('slid.bs.carousel', function (event) {
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-.carousel-control .glyphicon-chevron-left{
-  top:35%;
-  font-size: 20px;
-  left:5%;
-  margin: 0;
-}
-
-.carousel-control .glyphicon-chevron-right{
-  top:35%;
-  font-size: 20px;
-  left:33%;
-  margin: 0;
 }
 
 .carousel-control.left, .carousel-control.right {
