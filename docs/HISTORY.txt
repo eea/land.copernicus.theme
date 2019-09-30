@@ -3,6 +3,9 @@ Changelog
 
 8.2.dev0 - (unreleased)
 -----------------------
+- Feature: new design (custom template) for Land use cases section.
+  Manual step: configure use_cases_listing as display option, set it in place.
+  [GhitaB #109822]
 
 8.1 - (2019-09-13)
 ------------------
