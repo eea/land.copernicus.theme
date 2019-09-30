@@ -3,6 +3,8 @@ Changelog
 
 8.3.dev0 - (unreleased)
 -----------------------
+- Improve: update videos description.
+  [GhitaB #109822]
 
 8.2 - (2019-09-30)
 ------------------
