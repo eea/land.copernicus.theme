@@ -23,11 +23,11 @@
               <div class="carousel-inner">
                 <div class="video-container item active">
                   <div class="youtube-video" id='bIbC9Lbu-sk'></div>
-                  <div class="carousel-caption">Video 1 description here</div>
+                  <div class="carousel-caption">Environment Agency Austria</div>
                 </div>
                 <div class="video-container item">
                   <div class="youtube-video" id='DoPafzevO60'></div>
-                  <div class="carousel-caption">Video 2 description here</div>
+                  <div class="carousel-caption">Viridian Raven</div>
                 </div>
               </div>
               <div class="controls">
