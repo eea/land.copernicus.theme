@@ -3,6 +3,7 @@ Changelog
 
 8.3.dev0 - (unreleased)
 -----------------------
+- Fix: jenkins tests.
 - Improve: update videos description.
   [GhitaB #109822]
 
