@@ -6656,6 +6656,10 @@ button.close {
 .color-green-light {
   color: #BDCE49; }
 
+li#land-language-selector li:after {
+  display: none;
+}
+
 .color-green-primary, a, #header-section .container-fluid#land-brand-utils .content .utils .list-inline.land-list-separated li:after, footer .text .list-inline.land-list-separated li:after, footer .text ul li .fa-arrow-up {
   color: #A0B228; }
 
