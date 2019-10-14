@@ -99,8 +99,8 @@
         </a>
         <ul class="dropdown-menu" role="menu">
           <li><a href="/">English</a></li>
-          <li><a href="/french">Français</a></li>
-          <li><a href="/german">Deutsch</a></li>
+          <li><a href="/fr">Français</a></li>
+          <li><a href="/de">Deutsch</a></li>
         </ul>
       </li>
     </replace>
@@ -174,8 +174,8 @@
           </a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="/">English</a></li>
-            <li><a href="/french">Français</a></li>
-            <li><a href="/german">Deutsch</a></li>
+            <li><a href="/fr">Français</a></li>
+            <li><a href="/de">Deutsch</a></li>
           </ul>
         </li>
       </replace>
