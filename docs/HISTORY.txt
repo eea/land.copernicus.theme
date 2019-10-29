@@ -3,6 +3,8 @@ Changelog
 
 8.5.dev0 - (unreleased)
 -----------------------
+- Feature: Add language selector in main menu.
+  [GhitaB #105298]
 
 8.4 - (2019-10-14)
 ------------------
