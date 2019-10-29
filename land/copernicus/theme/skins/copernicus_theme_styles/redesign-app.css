@@ -7770,6 +7770,11 @@ body.subsection-urban-atlas-ancillary-data-on-population-estimates-by-urban-atla
 }
 /* END FIX */
 
+body.template-document_view.section-fr.subsection-clms-product-portfolio-overview div.main-content > div.col-lg-9,
+body.template-document_view.section-de.subsection-clms-product-portfolio-overview div.main-content > div.col-lg-9 {
+  width: 100% !important;
+}
+
 ul.user-corner-menu .fa {
   color: #A0B228;
   width: 16px;
