@@ -1,6 +1,9 @@
 Changelog
 =========
 
+8.7.dev0 - (unreleased)
+-----------------------
+
 8.6 - (2019-11-01)
 ------------------
 - Fix: extra space in footer (homepage).
