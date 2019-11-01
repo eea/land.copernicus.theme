@@ -3,6 +3,8 @@ Changelog
 
 8.6.dev0 - (unreleased)
 -----------------------
+- Fix: extra space in footer (homepage).
+  [GhitaB #110761]
 
 8.5 - (2019-10-29)
 ------------------
