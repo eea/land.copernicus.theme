@@ -6698,6 +6698,10 @@ li#land-language-selector li:after {
   background: #FFFFFF;
 }
 
+body.template-homepage div.row.land-row-footer {
+  margin: 0px;
+}
+
 .color-white, footer .partners {
   color: #FFFFFF; }
 
