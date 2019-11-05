@@ -4,6 +4,7 @@ Changelog
 8.7.dev0 - (unreleased)
 -----------------------
 - Improve:  Hide unlisted meetings in homepage "Coming events".
+- Improve: Hide unlisted meetings in events_listing.
   [GhitaB #110772]
 
 8.6 - (2019-11-01)
