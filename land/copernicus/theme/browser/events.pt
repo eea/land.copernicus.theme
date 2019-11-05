@@ -47,6 +47,7 @@
 
           <tal:meeting tal:condition="python:event.portal_type == 'eea.meeting'">
             <li class="listing-item"
+                tal:condition="python:event.is_unlisted is False"
                 tal:define="event_object python:event;
                             event_date python:event_object.start;
                             event_start_date python:{'month': event_date.strftime('%b'), 'day': event_date.day, 'year': event_date.year};
