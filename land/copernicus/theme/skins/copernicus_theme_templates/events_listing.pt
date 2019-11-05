@@ -38,12 +38,12 @@
 
       <metal:block tal:repeat="result batch">
 
-        <tal:meeting tal:condition="python:result.portal_type == 'eea.meeting'">
+        <tal:meeting tal:condition="python:result.portal_type == 'eea.meeting'"
+                     tal:define="resultObject result/getObject;
+                                creator result/Creator;
+                                resulturl resultObject/absolute_url;">
           <div class="newsItem clearfix eeameeting-item"
-               tal:define="resultObject result/getObject;
-                          creator result/Creator;
-                          resulturl resultObject/absolute_url;">
-
+               tal:condition="python:resultObject.is_unlisted is False">
             <div class="newsContent">
               <h2>
                 <a href="/view"
