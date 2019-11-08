@@ -7774,9 +7774,18 @@ body.subsection-urban-atlas-ancillary-data-on-population-estimates-by-urban-atla
 }
 /* END FIX */
 
+body.template-document_view.section-fr.subsection-about-clms div.main-content > div.col-lg-9,
+body.template-document_view.section-de.subsection-about-clms div.main-content > div.col-lg-9,
 body.template-document_view.section-fr.subsection-clms-product-portfolio-overview div.main-content > div.col-lg-9,
 body.template-document_view.section-de.subsection-clms-product-portfolio-overview div.main-content > div.col-lg-9 {
   width: 100% !important;
+}
+
+body.template-document_view.section-fr.subsection-about-clms div.main-content > div.col-lg-3,
+body.template-document_view.section-de.subsection-about-clms div.main-content > div.col-lg-3,
+body.template-document_view.section-fr.subsection-clms-product-portfolio-overview div.main-content > div.col-lg-3,
+body.template-document_view.section-de.subsection-clms-product-portfolio-overview div.main-content > div.col-lg-3 {
+  display: none;
 }
 
 ul.user-corner-menu .fa {
