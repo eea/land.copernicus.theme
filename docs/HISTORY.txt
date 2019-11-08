@@ -3,6 +3,8 @@ Changelog
 
 8.8.dev0 - (unreleased)
 -----------------------
+- Improve: Add style for download info msg in land item view.
+  [GhitaB #110927]
 - Improve: Remove language selector from personal menu.
 - Improve: Custom single column layout for FR and DE.
   Manual step: set pages as display for DE and FR.
