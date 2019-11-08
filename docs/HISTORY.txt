@@ -4,6 +4,7 @@ Changelog
 8.8.dev0 - (unreleased)
 -----------------------
 - Improve: Remove language selector from personal menu.
+  Manual step: set pages as display for DE and FR.
   [GhitaB #105298]
 
 8.7 - (2019-11-07)
