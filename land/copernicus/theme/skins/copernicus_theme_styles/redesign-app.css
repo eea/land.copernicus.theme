@@ -3198,6 +3198,11 @@ body:not(.userrole-site-administrator) div#plone-document-byline span.contentHis
   display: none;
 }
 
+body.template-landitem-view div.download-info-msg {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 body.template-landitem-view p.text-center a.btn-default.btn-login {
   color: #FFFFFF !important;
   text-decoration: none !important;
