@@ -3,6 +3,8 @@ Changelog
 
 8.8.dev0 - (unreleased)
 -----------------------
+- Improve: Remove language selector from personal menu.
+  [GhitaB #105298]
 
 8.7 - (2019-11-07)
 ------------------
