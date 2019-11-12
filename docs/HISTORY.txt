@@ -1,8 +1,8 @@
 Changelog
 =========
 
-8.9.dev0 - (unreleased)
------------------------
+8.9 - (2019-11-12)
+------------------
 - Improve: Add style for download msg in land item view.
   [GhitaB #110927]
 
