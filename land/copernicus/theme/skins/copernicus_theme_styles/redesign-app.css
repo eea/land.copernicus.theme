@@ -3201,6 +3201,11 @@ body:not(.userrole-site-administrator) div#plone-document-byline span.contentHis
 body.template-landitem-view div.download-info-msg {
   padding-top: 1em;
   padding-bottom: 1em;
+  background: #eaeada;
+  border: 1px solid #ccc;
+  margin-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 body.template-landitem-view p.text-center a.btn-default.btn-login {
