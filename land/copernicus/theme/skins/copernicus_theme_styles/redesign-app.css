@@ -3208,6 +3208,17 @@ body.template-landitem-view div.download-info-msg {
   padding-right: 1em;
 }
 
+div.land-intro-info-box {
+  background: #eaeada;
+  border: 1px solid #ccc;
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+div.land-intro-info-box p {
+  margin: 0;
+}
+
 body.template-landitem-view p.text-center a.btn-default.btn-login {
   color: #FFFFFF !important;
   text-decoration: none !important;

@@ -6,8 +6,9 @@ Changelog
 - Fix: doctype change css issues.
   Manual step: Set Site setup - Theme settings - Advanced settings - Doctype
   [GhitaB #110756]
-
-TODO add custom styles from demo temp fixes #105298
+- Improve: add styles for info box (used in languages sections).
+  Manual step: clear css temp fixes after deploy.
+  [GhitaB #105298]
 
 8.9 - (2019-11-12)
 ------------------
