@@ -8029,3 +8029,12 @@ body.template-licenses-settings table.datagridwidget-table-view div.label {
 .fa-arrow-down:before {
   content: "\f063";
 }
+@media (max-width: 1000px) {
+  body.template-login_form #login_form {
+    width: 100% !important;
+  }
+  body.template-login_form #login_form_details {
+    width: 100% !important;
+    border-left: none !important;
+  }
+}
