@@ -3,6 +3,10 @@ Changelog
 
 9.0.dev0 - (unreleased)
 -----------------------
+- Improve: login form for mobile screens.
+  [iugin #110762]
+- Fix: responsivity for failed login template.
+  [GhitaB #110762]
 - Fix: doctype change css issues.
   Manual step: Set Site setup - Theme settings - Advanced settings - Doctype
   [GhitaB #110756]
