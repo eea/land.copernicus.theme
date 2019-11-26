@@ -7074,4 +7074,13 @@ body.template-search-by-tags p.item-description {
   #header-section {
     height: 200px;
   }
+  body.template-login_failed #login_form,
+  body.template-login_form #login_form {
+    width: 100% !important;
+  }
+  body.template-login_failed #login_form_details,
+  body.template-login_form #login_form_details {
+    width: 100% !important;
+    border-left: none !important;
+  }
 }
