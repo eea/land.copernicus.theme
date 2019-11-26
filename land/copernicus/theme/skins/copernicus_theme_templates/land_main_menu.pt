@@ -222,7 +222,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     <ul class="dropdown-menu">
                       <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1.1" i18n:translate="">EU-DEM v1.1</a></li>
                       <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1-0-and-derived-products" i18n:translate="">EU-DEM v1.0</a></li>
-                      <li><a href="/imagery-in-situ/eu-hydro/eu-hydro" i18n:translate="">EU-Hydro</a></li>
+                      <li><a href="/imagery-in-situ/eu-hydro" i18n:translate="">EU-Hydro</a></li>
                     </ul>
                   </li>
                 </ul>
