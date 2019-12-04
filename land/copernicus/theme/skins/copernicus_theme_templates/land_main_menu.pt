@@ -207,8 +207,8 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">European Image Mosaic</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/high-resolution-image-mosaics-2018" i18n:translate="">High Resolution Imagery 2018</a></li>
                       <li><a href="/imagery-in-situ/european-image-mosaics/very-high-resolution/vhr-2012" i18n:translate="">Very High Resolution Imagery 2012</a></li>
+                      <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/high-resolution-image-mosaics-2018" i18n:translate="">High Resolution Imagery 2018</a></li>
                       <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2015" i18n:translate="">High Resolution Imagery 2015</a></li>
                       <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/Image%202012" i18n:translate="">High Resolution Imagery 2012</a></li>
                       <li><a href="/imagery-in-situ/european-image-mosaics/high-resolution/image-2009/image-2009-cov1" i18n:translate="">High Resolution Imagery 2009</a></li>
@@ -222,7 +222,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     <ul class="dropdown-menu">
                       <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1.1" i18n:translate="">EU-DEM v1.1</a></li>
                       <li><a href="/imagery-in-situ/eu-dem/eu-dem-v1-0-and-derived-products" i18n:translate="">EU-DEM v1.0</a></li>
-                      <li><a href="/imagery-in-situ/eu-hydro/eu-hydro" i18n:translate="">EU-Hydro</a></li>
+                      <li><a href="/imagery-in-situ/eu-hydro" i18n:translate="">EU-Hydro</a></li>
                     </ul>
                   </li>
                 </ul>
