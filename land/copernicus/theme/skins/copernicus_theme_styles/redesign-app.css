@@ -8041,3 +8041,17 @@ body.template-licenses-settings table.datagridwidget-table-view div.label {
     border-left: none !important;
   }
 }
+form#land-search button.search-button {
+  height:32px !important;
+}
+ul.nav.navbar-nav {
+  height: 36px !important;
+}
+body.template-sitemap.portaltype-plone-site #content a.contenttype-fileslibraryitem {
+  padding-left: 20px;
+}
+body.template-landitem-view button.fullscreen-map {
+  top: 1px !important;
+  margin-bottom: -29px !important;
+  font-size: 18px !important;
+}
