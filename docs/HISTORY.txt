@@ -4,7 +4,8 @@ Changelog
 9.0.dev0 - (unreleased)
 -----------------------
 - Fix: css issues after changing DOCTYPE HTML.
-  Manual step: Set Site setup - Theme settings - Advanced settings - Doctype
+  Manual step: Set Site setup - Theming - Theme settings - Advanced settings -
+  Doctype: <!DOCTYPE html>
   [Eugen Tripon, GhitaB #110756]
 - Improve: update main menu.
   [Eugen Tripon #111438]
