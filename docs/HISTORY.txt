@@ -1,8 +1,8 @@
 Changelog
 =========
 
-9.0.dev0 - (unreleased)
------------------------
+9.0 - (2019-12-11)
+------------------
 - Fix: css issues after changing DOCTYPE HTML.
   Manual step: Set Site setup - Theming - Theme settings - Advanced settings -
   Doctype: <!DOCTYPE html>
