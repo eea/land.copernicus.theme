@@ -8055,3 +8055,6 @@ body.template-landitem-view button.fullscreen-map {
   margin-bottom: -29px !important;
   font-size: 18px !important;
 }
+ul.nav.navbar-nav.navbar-left.sm-collapsible {
+  display: contents;
+}
