@@ -7084,3 +7084,9 @@ body.template-search-by-tags p.item-description {
     border-left: none !important;
   }
 }
+
+@media (min-width: 1000px) {
+  .images-slider .carousel-caption {
+    margin-bottom: 2% !important;
+  }
+}
