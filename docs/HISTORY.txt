@@ -1,17 +1,21 @@
 Changelog
 =========
 
-9.0.dev0 - (unreleased)
+9.1.dev0 - (unreleased)
 -----------------------
+
+9.0 - (2019-12-11)
+------------------
+- Fix: css issues after changing DOCTYPE HTML.
+  Manual step: Set Site setup - Theming - Theme settings - Advanced settings -
+  Doctype: <!DOCTYPE html>
+  [Eugen Tripon, GhitaB #110756]
 - Improve: update main menu.
   [Eugen Tripon #111438]
 - Improve: login form for mobile screens.
   [iugin #110762]
 - Fix: responsivity for failed login template.
   [GhitaB #110762]
-- Fix: doctype change css issues.
-  Manual step: Set Site setup - Theme settings - Advanced settings - Doctype
-  [GhitaB #110756]
 - Improve: add styles for info box (used in languages sections).
   Manual step: clear css temp fixes after deploy.
   [GhitaB #105298]
