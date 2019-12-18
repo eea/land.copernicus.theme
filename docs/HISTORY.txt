@@ -3,8 +3,10 @@ Changelog
 
 "Versions" as used by insitu.copernicus.eu. Just note what and when happened.
 
-2.5.3 - (unreleased)
+2.5.3 - (2019-12-13)
 --------------------
+- Improve: Login form for mobile screen.
+  [GhitaB #110763]
 
 2.5.2 - (2019-09-04)
 --------------------
