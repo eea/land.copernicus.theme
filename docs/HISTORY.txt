@@ -3,6 +3,8 @@ Changelog
 
 9.1.dev0 - (unreleased)
 -----------------------
+- Improve: exclude instagram icon from main menu.
+  [Eugen Tripon #111900]
 
 9.0 - (2019-12-11)
 ------------------
