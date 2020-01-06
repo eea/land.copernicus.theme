@@ -261,11 +261,13 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                 <i class="fa fa-facebook-square color-white" aria-hidden="true"></i>
               </a>
             </li>
+            <!--
             <li>
               <a href="https://www.instagram.com/copernicus_clms/" target="_blank">
                 <i class="fa fa-instagram color-white" aria-hidden="true"></i>
               </a>
             </li>
+            -->
             <li>
               <a href="https://twitter.com/CopernicusLand" target="_blank">
                 <i class="fa fa-twitter color-white" aria-hidden="true"></i>
