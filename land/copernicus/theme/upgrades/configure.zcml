@@ -165,4 +165,17 @@
       />
 
   </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+    source="6.0"
+    destination="6.1"
+    profile="land.copernicus.theme:default">
+
+      <genericsetup:upgradeDepends
+          title="Reorder js scripts."
+          description="Merged js files in less itterations."
+          import_profile="land.copernicus.theme:upgrade61"
+      />
+
+  </genericsetup:upgradeSteps>
 </configure>
