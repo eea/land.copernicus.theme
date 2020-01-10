@@ -178,4 +178,17 @@
       />
 
   </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+    source="6.1"
+    destination="6.2"
+    profile="land.copernicus.theme:default">
+
+      <genericsetup:upgradeDepends
+          title="Reorder css stylesheets."
+          description="Merged css files."
+          import_profile="land.copernicus.theme:upgrade62"
+      />
+
+  </genericsetup:upgradeSteps>
 </configure>

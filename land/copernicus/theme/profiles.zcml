@@ -32,4 +32,10 @@
       description='Copernicus theme upgrade profile for v6.1'
       provides="Products.GenericSetup.interfaces.EXTENSION" />
 
+    <genericsetup:registerProfile
+      name="upgrade62"
+      title="Copernicus theme upgrade profile for v6.2"
+      directory="profiles/upgrades/to_62"
+      description='Copernicus theme upgrade profile for v6.2'
+      provides="Products.GenericSetup.interfaces.EXTENSION" />
 </configure>
