@@ -1,6 +1,10 @@
 Changelog
 =========
 
+9.2.dev0 - (unreleased)
+-----------------------
+- Fix: retry release
+
 9.1 - (2020-01-13)
 ------------------
 - Improve: CSS and JS optimization.
