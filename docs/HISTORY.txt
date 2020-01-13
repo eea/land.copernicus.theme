@@ -1,8 +1,8 @@
 Changelog
 =========
 
-9.1.dev0 - (unreleased)
------------------------
+9.1 - (2020-01-13)
+------------------
 - Improve: CSS and JS optimization.
   [Eugen Tripon #106509]
 - Improve: exclude instagram icon from main menu.
