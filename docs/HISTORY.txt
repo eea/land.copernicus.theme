@@ -3,6 +3,8 @@ Changelog
 
 9.1.dev0 - (unreleased)
 -----------------------
+- Improve: CSS and JS optimization.
+  [Eugen Tripon #106509]
 - Improve: exclude instagram icon from main menu.
   [Eugen Tripon #111900]
 - Fix: main menu on mobile screen issue.
