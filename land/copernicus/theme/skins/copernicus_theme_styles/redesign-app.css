@@ -8058,3 +8058,7 @@ body.template-landitem-view button.fullscreen-map {
 ul.nav.navbar-nav.navbar-left.sm-collapsible {
   display: contents;
 }
+form#land-search button.search-button i.fa-search {
+  position: relative;
+  top: -2px;
+}
