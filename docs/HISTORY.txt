@@ -1,6 +1,9 @@
 Changelog
 =========
 
+9.4.dev0 - (unreleased)
+-----------------------
+
 9.3 - (2020-01-14)
 ------------------
 - Fix: icon position in search button.
