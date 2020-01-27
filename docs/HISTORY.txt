@@ -3,6 +3,8 @@ Changelog
 
 9.4.dev0 - (unreleased)
 -----------------------
+- Improve: Set vertical align for tables in FR and DE sections.
+  [GhitaB #113320]
 
 9.3 - (2020-01-14)
 ------------------
