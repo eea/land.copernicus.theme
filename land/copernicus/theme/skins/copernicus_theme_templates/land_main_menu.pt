@@ -179,9 +179,11 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   <li><a href="/global/products/lie" i18n:translate="">Lake Ice Extent</a></li>
                   <li><a href="/global/products/sce" i18n:translate="">Snow Cover Extent</a></li>
                   <li><a href="/global/products/swe" i18n:translate="">Snow Water Equivalent</a></li>
+                  <li><hr style="margin:0; border-color:#1E1E1E;" /><!-- separator --></li>
                   <li><a href="/global/products/lst" i18n:translate="">Land Surface Temperature</a></li>
                   <li><a href="/global/products/sa" i18n:translate="">Surface Albedo</a></li>
                   <li><a href="/global/products/toc-r" i18n:translate="">TOC-r</a></li>
+                  <li><hr style="margin:0; border-color:#1E1E1E;" /><!-- separator --></li>
                   <li><a href="/global/products/ba" i18n:translate="">Burnt Area</a></li>
                   <li><a href="/global/products/dmp" i18n:translate="">Dry Matter Productivity</a></li>
                   <li><a href="/global/products/fapar" i18n:translate="">FAPAR</a></li>
@@ -194,6 +196,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   <li><a href="/global/products/vci" i18n:translate="">Condition Index</a></li>
                   <li><a href="/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity" i18n:translate="">High Resolution Vegetation Phenology and Productivity</a></li>
                   <li><a href="/global/products/vpi" i18n:translate="">Productivity Indicator</a></li>
+                  <li><hr style="margin:0; border-color:#1E1E1E;" /><!-- separator --></li>
                   <li><a href="/global/products/lswt" i18n:translate="">Lake Surface Water Temperature</a></li>
                   <li><a href="/global/products/lwq" i18n:translate="">Lake Water Quality</a></li>
                   <li><a href="/global/products/wb" i18n:translate="">Water Bodies</a></li>

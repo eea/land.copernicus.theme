@@ -1,8 +1,11 @@
 Changelog
 =========
 
-9.4 - (2020-01-28)
-------------------
+9.4.dev0 - (unreleased)
+-----------------------
+- Improve: Add separators in main menu.
+- Improve: Set vertical align for tables in FR and DE sections.
+  [GhitaB #113320]
 
 9.3 - (2020-01-14)
 ------------------
