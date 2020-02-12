@@ -6,6 +6,7 @@ Changelog
 2.5.5 - (unreleased)
 --------------------
 - Improve: Add styles for new newsletter subscribe.
+  Manual step: remove old newsletter subscribe, create section, add content.
   [GhitaB #114321]
 
 2.5.4 - (2020-01-06)
