@@ -6792,7 +6792,7 @@ body.section-newsletter.subsection-subscribe div.newsletter-subscribe-container 
 }
 
 body.section-newsletter.subsection-subscribe div.newsletter-subscribe-container a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 body.template-search-by-tags div.main-content > div.col-lg-8 {
