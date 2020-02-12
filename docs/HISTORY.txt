@@ -3,7 +3,7 @@ Changelog
 
 "Versions" as used by insitu.copernicus.eu. Just note what and when happened.
 
-2.5.5 - (unreleased)
+2.5.5 - (2020-02-12)
 --------------------
 - Improve: Add styles for new newsletter subscribe.
   Manual step: remove old newsletter subscribe, create section, add content.
