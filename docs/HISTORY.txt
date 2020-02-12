@@ -3,6 +3,11 @@ Changelog
 
 "Versions" as used by insitu.copernicus.eu. Just note what and when happened.
 
+2.5.5 - (unreleased)
+--------------------
+- Improve: Add styles for new newsletter subscribe.
+  [GhitaB #114321]
+
 2.5.4 - (2020-01-06)
 --------------------
 - Improve: fix space in homepage carousel.
