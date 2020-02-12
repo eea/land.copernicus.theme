@@ -8,6 +8,8 @@ Changelog
 - Improve: Add styles for new newsletter subscribe.
   Manual step: remove old newsletter subscribe, create section, add content.
   [GhitaB #114321]
+- Improve: Add Status link in footer. Remove unuseful last update.
+  [GhitaB #114027]
 
 2.5.4 - (2020-01-06)
 --------------------
