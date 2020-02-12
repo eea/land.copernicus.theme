@@ -6779,6 +6779,22 @@ input#long_title {
   display: none;
 }
 
+body.section-newsletter.subsection-subscribe .insitu-btn-tags-container {
+  display: none;
+}
+
+body.section-newsletter.subsection-subscribe div.newsletter-subscribe-container {
+  margin-bottom: 4em;
+}
+
+body.section-newsletter.subsection-subscribe div.newsletter-subscribe-container a.btn {
+  color: white !important;
+}
+
+body.section-newsletter.subsection-subscribe div.newsletter-subscribe-container a:hover {
+  text-decoration: none;
+}
+
 body.template-search-by-tags div.main-content > div.col-lg-8 {
   width: 100%;
 }
