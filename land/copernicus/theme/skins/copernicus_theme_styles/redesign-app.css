@@ -7809,6 +7809,11 @@ body.template-document_view.section-de.subsection-clms-product-portfolio-overvie
   display: none;
 }
 
+body.template-document_view.section-fr.subsection-clms-product-portfolio-overview div.main-content table tr,
+body.template-document_view.section-de.subsection-clms-product-portfolio-overview div.main-content table tr {
+  vertical-align: top;
+}
+
 ul.user-corner-menu .fa {
   color: #A0B228;
   width: 16px;

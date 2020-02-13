@@ -1,10 +1,25 @@
 Changelog
 =========
 
-9.3.dev0 - (unreleased)
+9.6.dev0 - (unreleased)
 -----------------------
 - Add EEA status in footer
   [Eugen Tripon #114027]
+
+9.5 - (2020-01-28)
+------------------
+- Fix: retry release
+
+9.4 - (2020-01-28)
+------------------
+- Improve: Add separators in main menu.
+- Improve: Set vertical align for tables in FR and DE sections.
+  [GhitaB #113320]
+
+9.3 - (2020-01-14)
+------------------
+- Fix: icon position in search button.
+  [Eugen Tripon #106509]
 
 9.2 - (2020-01-13)
 ------------------
