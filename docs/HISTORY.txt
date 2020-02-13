@@ -3,6 +3,8 @@ Changelog
 
 9.3.dev0 - (unreleased)
 -----------------------
+- Add EEA status in footer
+  [Eugen Tripon #114027]
 
 9.2 - (2020-01-13)
 ------------------
@@ -565,4 +567,3 @@ Changelog
 - Feature WIP: added diazo integration code for the theme; added static
   resources provided by designer
   [#14617 robaaoli]
-
