@@ -260,24 +260,24 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
           </li>
           <li>
             <li>
-              <a href="https://www.facebook.com/pages/Copernicus-EU/558113210871091" target="_blank">
+              <a href="https://www.facebook.com/pages/Copernicus-EU/558113210871091" target="_blank" rel="noopener">
                 <i class="fa fa-facebook-square color-white" aria-hidden="true"></i>
               </a>
             </li>
             <!--
             <li>
-              <a href="https://www.instagram.com/copernicus_clms/" target="_blank">
+              <a href="https://www.instagram.com/copernicus_clms/" target="_blank" rel="noopener">
                 <i class="fa fa-instagram color-white" aria-hidden="true"></i>
               </a>
             </li>
             -->
             <li>
-              <a href="https://twitter.com/CopernicusLand" target="_blank">
+              <a href="https://twitter.com/CopernicusLand" target="_blank" rel="noopener">
                 <i class="fa fa-twitter color-white" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.slideshare.net/CopernicusLandMonitoringService" target="_blank">
+              <a href="https://www.slideshare.net/CopernicusLandMonitoringService" target="_blank" rel="noopener">
                 <i class="fa fa-slideshare color-white" aria-hidden="true"></i>
               </a>
             </li>
