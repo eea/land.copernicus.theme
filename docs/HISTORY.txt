@@ -1,6 +1,9 @@
 Changelog
 =========
 
+9.7.dev0 - (unreleased)
+-----------------------
+
 9.6 - (2020-02-27)
 ------------------
 - Improve: Add EEA status in footer
