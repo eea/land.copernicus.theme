@@ -3,8 +3,10 @@ Changelog
 
 9.6.dev0 - (unreleased)
 -----------------------
-- Add EEA status in footer
+- Improve: Add EEA status in footer
   [Eugen Tripon #114027]
+- Improve: add rel to links opening in new tab
+  [Eugen Tripon #114024]
 
 9.5 - (2020-01-28)
 ------------------
