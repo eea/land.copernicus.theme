@@ -1,8 +1,8 @@
 Changelog
 =========
 
-9.7.dev0 - (unreleased)
------------------------
+9.7 - (2020-02-27)
+------------------
 - Improve: Upgrade bootstrap version.
   [Eugen Tripon #114024]
 
@@ -589,3 +589,4 @@ Changelog
 - Feature WIP: added diazo integration code for the theme; added static
   resources provided by designer
   [#14617 robaaoli]
+
