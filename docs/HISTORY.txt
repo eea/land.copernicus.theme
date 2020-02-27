@@ -1,8 +1,8 @@
 Changelog
 =========
 
-9.6.dev0 - (unreleased)
------------------------
+9.6 - (2020-02-27)
+------------------
 - Improve: Add EEA status in footer
   [Eugen Tripon #114027]
 - Improve: add rel to links opening in new tab
@@ -584,3 +584,4 @@ Changelog
 - Feature WIP: added diazo integration code for the theme; added static
   resources provided by designer
   [#14617 robaaoli]
+
