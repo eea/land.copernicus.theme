@@ -3,6 +3,8 @@ Changelog
 
 9.8.dev0 - (unreleased)
 -----------------------
+* Improve: accessibility audit
+  [Eugen Tripon #114026]
 
 9.7 - (2020-02-27)
 ------------------
@@ -592,4 +594,3 @@ Changelog
 - Feature WIP: added diazo integration code for the theme; added static
   resources provided by designer
   [#14617 robaaoli]
-

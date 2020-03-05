@@ -31,12 +31,12 @@
                 </div>
               </div>
               <div class="controls">
-                <a class="left carousel-control" href="#land-videos" data-slide="prev">
+                <a class="left carousel-control" href="#land-videos" data-slide="prev" alt="Previous">
                   <div class="left-button">
                     <span class="fa fa-chevron-left"></span>
                   </div>
                 </a>
-                <a class="right carousel-control" href="#land-videos" data-slide="next">
+                <a class="right carousel-control" href="#land-videos" data-slide="next" alt="Next">
                   <div class="right-button">
                     <span class="fa fa-chevron-right"></span>
                   </div>

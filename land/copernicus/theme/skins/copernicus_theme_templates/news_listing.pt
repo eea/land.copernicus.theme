@@ -46,10 +46,10 @@
 
             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 land-news-image">
               <tal:condition tal:condition="news_thumb">
-                <img src="" tal:attributes="src python:news_image_src" />
+                <img src="" alt="" tal:attributes="src python:news_image_src;alt python:news_title" i18n:attributes="alt" />
               </tal:condition>
               <tal:condition tal:condition="not:news_thumb">
-                <img src="./preview_image.png" alt="Preview image" i18n:attributes="alt"/>
+                <img src="./preview_image.png" alt="Preview image" i18n:attributes="alt" />
               </tal:condition>
             </div>
 

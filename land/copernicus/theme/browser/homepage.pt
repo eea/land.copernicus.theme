@@ -92,17 +92,17 @@
              data-diazo="land-carousel" id="myCarousel" class="carousel slide" data-ride="carousel"
              tal:condition="python:has_news is True">
 
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
+          <ol class="carousel-indicators" role="tablist">
+            <li data-target="#myCarousel" data-slide-to="0" class="active" role="tab" aria-selected="false" aria-controls="listbox-1-pane" active></li>
+            <li data-target="#myCarousel" data-slide-to="1" role="tab" aria-selected="false" tabindex="-1" aria-controls="listbox-2-pane"></li>
+            <li data-target="#myCarousel" data-slide-to="2" role="tab" aria-selected="false" tabindex="-1" aria-controls="listbox-3-pane"></li>
+            <li data-target="#myCarousel" data-slide-to="3" role="tab" aria-selected="false" tabindex="-1" aria-controls="listbox-4-pane"></li>
           </ol>
 
           <div class="carousel-news-title" i18n:translate="">
             Latest news
           </div>
-          <div class="carousel-inner" role="listbox">
+          <div class="carousel-inner">
             <tal:news tal:repeat="news python:news_list">
               <tal:news-item tal:define="news_object python:news.getObject();
                           news_date python:news_object.getField('effectiveDate').getAccessor(news_object)().strftime('%d/%m/%Y');
@@ -113,7 +113,7 @@
                           news_class python:'item active' if repeat['news'].index == 0 else 'item'">
                 <div tal:attributes="class python:news_class">
                   <tal:condition tal:condition="news_thumb">
-                    <img class="land-img-preview"
+                    <img class="land-img-preview" alt="Preview image" i18n:attributes="alt"
                          src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%0A%20%20%20%20%20%20%20%20%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%0A%20%20%20%20%20%20%20%20%20width%3D%22707%22%20height%3D%22226%22%0A%20%20%20%20%20%20%20%20%20viewBox%3D%220%200%20707%20226%22%3E%0A%20%20%20%20%20%20%3Cfilter%0A%20%20%20%20%20%20%20%20id%3D%22blur%22%0A%20%20%20%20%20%20%20%20filterUnits%3D%22userSpaceOnUse%22%0A%20%20%20%20%20%20%20%20color-interpolation-filters%3D%22sRGB%22%3E%0A%20%20%20%20%20%20%20%20%3CfeGaussianBlur%20stdDeviation%3D%2220%2020%22%20edgeMode%3D%22duplicate%22%20/%3E%0A%20%20%20%20%20%20%20%20%3CfeComponentTransfer%3E%0A%20%20%20%20%20%20%20%20%20%20%3CfeFuncA%20type%3D%22discrete%22%20tableValues%3D%221%201%22%20/%3E%0A%20%20%20%20%20%20%20%20%3C/feComponentTransfer%3E%0A%20%20%20%20%20%20%3C/filter%3E%0A%20%20%20%20%20%20%3Cimage%20filter%3D%22url%28%23blur%29%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20xlink%3Ahref%3D%22data%3Aimage/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACMAAAALCAIAAAB6RKNVAAAD4ElEQVR4nAXByW4bZQAA4H%2Bf3RkvddzUSe0kTQpUqAVBi5A4ABeuHDlwAW6It%2BAJ4AngChc4I5CAVrQFuqSlcdqoWbzEduzxjGf559/4Pvjjg2/7s0e3uh9iYz%2Bb/uNJ%2BxX2OkO%2B7TaBUZJHBNixpY%2Bs53uje59f%2BHqh90/jvbGeWJbXca4y1qjr7hl/yMvpb8mvbda66b0PSYBwAD2EcxtLMy4eTMsTMslOLrk7lqjWSCN3RVJMTtRRG245Bilkclj20rtc4jE/a6HV3%2BffNdFKh%2By24e4YRBZsuKgJAEyJ9EknzCuX7e3DojfRo53gvSrouCFJipj4TVpyEvMzTNXpokLs%2BkyN53gSmlphQa4zmc61R34a/lC1VresbQuhF8W/Tes9SDFlKzv2NYzsveQPGzl1Z90ztQ8aX0yKp21y0TfBUg5YZIkWML45i4bn5Yh0nNdysKjQZr94OFUDRYqO87ZWOhX9XKd4yT6rfaWwieQ0Q9jGwRzHVcalHt%2Bd/NIKdjN3dlgcN8GlVbC5AV%2BtBO/kxejv5HZeplcqbLXoBoGNteNxSULSqsCL53mvSuvX2S2sBc5lDOdDOctEclA%2B%2B7T25ZHoMcRCVO%2BE2/PyhBhtC6TKyd758%2BuVdw/zM9vdlk65z%2B/0k8c2t0XJ13Er0kMM3CTzKFOm5PDnv76Ril%2B2d2ooHOQvCatyMUaAjtF8y71RqEyoxaF%2B0cVdBZTA7jqsgYJraJAFI7REmZCAU%2BZR6itEZsvT2MyZDtZRYwnSWEd5he7W3vQSjWyDN91rNXs70nOK8Sl/4uNwapJLlRuZmM%2ByZzE4b%2BA6Qf5CJpfh5lrtBnJbheEvxehxdn9pIk5hoEPM4Yj3tW07tHpS9v5TPYZYF18JIrU/vj8xM7KCLkRqdpw8oZAYpdboBkPWCA5AKnm%2BtBB1ub2KGzMwxqrI5Fk/Yi26EcNDJcWjyW0/tNbszkD2pe9YLKAalwtxJXjjnB%2B5qEpIrQ3KPE3lckIwAlLEFBKjEUNeqtMFSi2E03zukaAJV33oH6tDEtQ21NUV2nXYhaQYEoiarPFx%2BAnBVmmjhZwneihjebP%2B0Ug%2BJJAtxUJRjkWqkeMzi/MFKXRGqa0NAhK1netnuudhn%2BZQ0TKk645GEnBjiJZ5pKZ5GbfRLY%2BtaaxhlR4fHzR0NRM6VjwSo4PogVZiF24O8v0Nd0MhJKDisoDMNpLAO/e%2BL10KKfYiGeK1tEKBKKfLngdDH1gKyQzpFdpVRA%2BSp1VJLGet7b%2BFDdJe%2BmL6Jy7EAiyP2aQwHOh8C3Tqqi4RhoQOy4MKqDNqldA0pP8/XTIucI0Wg44AAAAASUVORK5CYII%3D%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20x%3D%220%22%20y%3D%220%22%0A%20%20%20%20%20%20%20%20%20%20%20%20%20height%3D%22100%25%22%20width%3D%22100%25%22/%3E%0A%20%20%20%20%3C/svg%3E"
                          data-role="progressive-image"
                          tal:attributes="data-bigURL python:news_thumb"/>
@@ -223,7 +223,7 @@
         <!-- MAIN CONTENT -->
         <h4 class="land-title" i18n:translate="">Learn more about us</h4>
         <!-- 16:9 aspect ratio -->
-        <div class="embed-responsive embed-responsive-16by9"><iframe height="240" id="yt-embed" src="" width="320" allow="speaker"></iframe></div>
+        <div class="embed-responsive embed-responsive-16by9"><iframe height="240" id="yt-embed" src="" width="320" allow="speaker" title="Speaker" i18n:attributes="title" ></iframe></div>
         <script>window.addEventListener('load', function(){document.getElementById('yt-embed').src = "https://www.youtube-nocookie.com/embed/wHg5RBPg5Jc"});</script>
         <!-- MAIN CONTENT -->
         </metal:homepage-content>
