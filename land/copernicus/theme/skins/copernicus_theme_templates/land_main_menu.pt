@@ -16,7 +16,7 @@
           <li data-diazo="land-nav-li"></li>
           <li id="portaltab-index_html"></li>
           <li>
-            <a href="/"><i class="fa fa-home"></i></a>
+            <a href="/" aria-label="Home" i18n:attributes="aria-label"><i class="fa fa-home"></i></a>
           </li>
           <li id="portaltab-global">
             <a href="/global" title="The global land component is coordinated by the European Commission DG Joint Research Centre (JRC). It produces data across a wide range of biophysical variables at a global scale, which describe the state of vegetation (e.g. leaf area index), the energy budget (e.g. albedo) and the water cycle (e.g. soil moisture index)." i18n:translate="" i18n:attributes="title">
@@ -260,7 +260,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
           </li>
           <li>
             <li>
-              <a href="https://www.facebook.com/pages/Copernicus-EU/558113210871091" target="_blank" rel="noopener">
+              <a href="https://www.facebook.com/pages/Copernicus-EU/558113210871091" target="_blank" rel="noopener" aria-label="facebook" i18n:attributes="aria-label">
                 <i class="fa fa-facebook-square color-white" aria-hidden="true"></i>
               </a>
             </li>
@@ -272,12 +272,12 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
             </li>
             -->
             <li>
-              <a href="https://twitter.com/CopernicusLand" target="_blank" rel="noopener">
+              <a href="https://twitter.com/CopernicusLand" target="_blank" rel="noopener" aria-label="Twitter" i18n:attributes="aria-label">
                 <i class="fa fa-twitter color-white" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.slideshare.net/CopernicusLandMonitoringService" target="_blank" rel="noopener">
+              <a href="https://www.slideshare.net/CopernicusLandMonitoringService" target="_blank" rel="noopener" aria-label="Slideshare" i18n:attributes="aria-label">
                 <i class="fa fa-slideshare color-white" aria-hidden="true"></i>
               </a>
             </li>
