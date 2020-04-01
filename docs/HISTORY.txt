@@ -3,9 +3,12 @@ Changelog
 
 10.0.dev0 - (unreleased)
 ------------------------
+* Improve: css mobile version.
+  [Eugen Tripon #115864]
 
 9.9 - (2020-03-06)
 ------------------
+* Retry
 
 9.8 - (2020-03-06)
 ------------------
