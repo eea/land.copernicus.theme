@@ -31,7 +31,7 @@
                 <div tal:attributes="class python:news_snippet_class">
                   <div class="news-preview">
                     <tal:condition tal:condition="news_image">
-                      <img class="insitu-img-preview" tal:attributes="src python:news_image_src" />
+                      <img class="insitu-img-preview" tal:attributes="src python:news_image_src" alt="Preview image" i18n:attributes="alt" />
                     </tal:condition>
                     <tal:condition tal:condition="not:news_image">
                       <img class="insitu-img-preview" src="./preview_image.png" alt="Preview image" i18n:attributes="alt">

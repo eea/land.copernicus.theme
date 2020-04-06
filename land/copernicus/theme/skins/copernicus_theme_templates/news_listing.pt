@@ -58,7 +58,7 @@
             </p>
 
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 insitu-news-image">
-              <img src="" tal:attributes="src python:news_image_src" />
+              <img src="" tal:attributes="src python:news_image_src; alt python:news_title" />
             </div>
             <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 insitu-news-text">
               <div class="insitu-tags-labels"
