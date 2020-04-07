@@ -3,6 +3,11 @@ Changelog
 
 "Versions" as used by insitu.copernicus.eu. Just note what and when happened.
 
+2.5.6 - (2020-04-07)
+--------------------
+- Improve: Performance audit updates.
+  [Eugen Tripon #115866]
+
 2.5.5 - (2020-02-12)
 --------------------
 - Improve: Add styles for new newsletter subscribe.
@@ -166,4 +171,3 @@ Changelog
 - Feature WIP: added diazo integration code for the theme; added static
   resources provided by designer
   [#14617 robaaoli]
-
