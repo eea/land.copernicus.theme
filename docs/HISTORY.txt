@@ -1,8 +1,8 @@
 Changelog
 =========
 
-10.1.dev0 - (unreleased)
-------------------------
+10.1 - (2020-04-07)
+-------------------
 * Improve: Accesibility audit.
   [Eugen Tripon #115866]
 
