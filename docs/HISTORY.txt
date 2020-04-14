@@ -3,6 +3,9 @@ Changelog
 
 10.2.dev0 - (unreleased)
 ------------------------
+- Improve: Update YouTube video player in Use cases listing to use
+  nocookie mode.
+  [GhitaB #116827]
 
 10.1 - (2020-04-07)
 -------------------
