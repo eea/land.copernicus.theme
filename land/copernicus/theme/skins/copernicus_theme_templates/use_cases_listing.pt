@@ -73,6 +73,7 @@ function onYouTubeIframeAPIReady(){
 		      wmode: "transparent",
 		      html5: 1
        	},
+        host: 'https://www.youtube-nocookie.com',
         events: {
           'onStateChange': onPlayerStateChange
         }
