@@ -2,6 +2,10 @@ Changelog
 =========
 
 "Versions" as used by insitu.copernicus.eu. Just note what and when happened.
+2.5.7 - (2020-04-16)
+--------------------
+- Improve: mobile version.
+  [Eugen Tripon #116727]
 
 2.5.6 - (2020-04-07)
 --------------------
