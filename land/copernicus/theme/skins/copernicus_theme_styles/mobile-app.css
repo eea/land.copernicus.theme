@@ -39,6 +39,7 @@
   }
   ul.list-inline.insitu-list-icons {
     display: none !important;
+    padding-left: 20px;
   }
   div.images-slider div.carousel-inner div.active img{
     padding-top: 20% !important;
