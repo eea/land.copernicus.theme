@@ -252,7 +252,7 @@
     display: none;
   }
 
-  #content-section.simple-page {
+  section#content-section.simple-page {
     position: relative;
     top: 0px;
   }

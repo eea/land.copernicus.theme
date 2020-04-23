@@ -3,6 +3,8 @@ Changelog
 
 10.2.dev0 - (unreleased)
 ------------------------
+- Improve: Print version where is available
+  [Eugen Tripon#116727]
 - Improve: Update YouTube video player in Use cases listing to use
   nocookie mode.
   [GhitaB #116827]
@@ -614,4 +616,3 @@ Changelog
 - Feature WIP: added diazo integration code for the theme; added static
   resources provided by designer
   [#14617 robaaoli]
-
