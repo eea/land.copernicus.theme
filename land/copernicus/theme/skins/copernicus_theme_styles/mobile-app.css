@@ -9,11 +9,18 @@
   {
     font-size: 16pt !important;
   }
+  body #header-section .container-fluid#insitu-brand-utils .content .utils {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+  body #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated {
+    overflow: hidden !important;
+  }
   body #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li:after {
     display: none;
   }
   body #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated li a{
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
   body section#content-section .breadcrumbs,
   body section#content-section .main-content
@@ -42,11 +49,12 @@
     padding-left: 20px;
   }
   div.images-slider div.carousel-inner div.active img{
-    padding-top: 20% !important;
     vertical-align: middle !important;
   }
   div.insitu-images-slider-container div.images-slider .carousel-caption {
     margin-bottom: 15% !important;
+    left: auto;
+    right: auto;
   }
   div.insitu-images-slider-container .carousel-indicators {
     text-align: center !important;
@@ -85,8 +93,8 @@
   }
 
   #header-section {
-     position: relative;
      height: unset;
+     position: static !important;
    }
    #content-section.homepage {
      top: unset;
@@ -105,7 +113,6 @@
    }
    .navbar-nav li.expanded ul.dropdown-menu {
      display: block;
-     position: relative;
      width: 100%;
      height: auto;
      margin-bottom: 2rem;
@@ -114,11 +121,125 @@
      position: absolute;
      top: 50%;
      transform: translateY(-50%);
-     right: 0;
+     right: 5px !important;
+   }
+   .navbar-nav li a {
+     font-size:14px !important;
+   }
+   .navbar-default .navbar-toggle {
+     margin-right: 10px;
+     border:1px solid #ddd;
+   }
+   [data-diazo='insitu-stay-informed'] a.btn {
+     margin-top:20px;
+   }
+   [data-diazo='insitu-footer'] {
+     margin-left: -50px !important;
+     margin-right: -50px !important;
+   }
+   [data-diazo='insitu-footer'] a {
+     font-size: 14pt;
+   }
+   .insitu-news-item {
+      display: flex;
+     flex-direction: column;
+   }
+   .insitu-news-item  .insitu-news-image{
+     order:1;
+   }
+   .insitu-news-item > a{
+     order:2;
+   }
+   .insitu-news-item .insitu-news-info {
+     order:3;
+   }
+   .insitu-news-item .insitu-news-text {
+     order:3;
    }
 }
 @media(min-width: 574px) {
   .navbar-nav li button {
     display: none;
+  }
+}
+/** same for mobile and tablet*/
+@media only screen and (max-width: 951px) {
+  #header-section {
+    position: relative;
+    height: unset;
+  }
+  #content-section.homepage {
+    top: unset;
+  }
+  .navbar-default {
+    top: unset;
+  }
+  .images-slider {
+    margin-top: 0;
+  }
+  ul.list-inline.insitu-list-icons {
+    display: block!important;
+  }
+  .navbar-nav li:hover ul.dropdown-menu {
+    display: none;
+  }
+  .navbar-nav li.expanded ul.dropdown-menu {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .navbar-nav li button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+  body #content-section.homepage {
+    top: 0px !important;
+  }
+  div.item {
+    height: 230px;
+  }
+  div.item >img {
+    object-fit: cover;
+    height: 100% !important;
+  }
+   div#category a.insitu-btn-spatial-data, div#category a.insitu-btn-observations {
+     font-size:14px !important;
+     padding: 10px !important;
+   }
+
+}
+
+/** only for tablet*/
+@media only screen and (min-device-width: 601px) and (max-width: 951px) {
+  div.insitu-news-body,
+  div.documentDescription,
+  label,
+  body #login_form_container #login-form div.formControls .context,
+  body #login_form_container #login-form #__ac_password,
+  body #login_form_container #login-form #__ac_name,
+  body
+  {
+    font-size: 14pt !important;
+  }
+  .row.insitu-document-title {
+    margin-left: 0%;
+  }
+  .margin-content, #header-section .container-fluid#insitu-brand-utils .content, .main-content, .breadcrumbs, .menu-sections {
+      margin-left: 0;
+      margin-right: 0;
+  }
+  .navbar-default .navbar-nav > li > a {
+      color: #FFFFFF;
+      font-size: 12px !important;
+  }
+  .carousel-caption p {
+    font-size:10pt;
+  }
+  body #content-section.simple-page {
+    top: 0px !important;
   }
 }

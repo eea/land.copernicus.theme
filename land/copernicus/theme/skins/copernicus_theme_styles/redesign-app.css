@@ -3169,8 +3169,8 @@ tbody.collapse.in {
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
       color: #FFFFFF;
       background-color: #60332a; }
-  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #444444;
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .selected > a, .navbar-default .navbar-nav > .selected > a:hover, .navbar-default .navbar-nav > .selected > a:focus {
     background-color: #60332a; }
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #444444;
@@ -4615,9 +4615,10 @@ button.close {
     transition: 0.6s ease-in-out left; }
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
+      object-fit: cover;
+      height: 100% !important;
       display: block;
       width: 100%;
-      height: auto;
       line-height: 1; }
     @media all and (transform-3d), (-webkit-transform-3d) {
       .carousel-inner > .item {
@@ -6920,6 +6921,22 @@ body.template-search-by-tags p#results {
 
 body.template-search-by-tags p.item-description {
   margin-bottom: 20px;
+}
+
+.carousel-indicators {
+  left: 50%;
+}
+.carousel-caption {
+  width: 60% !important;
+  margin-left: 0px !important;
+  margin-bottom: 5% !important;
+}
+.carousel-caption p{
+  font-style: normal !important;
+  font-size:12px;
+}
+.carousel-caption a.insitu-btn-read-more{
+  font-size:12px;
 }
 
 /* RESPONSIVITY fixes */
