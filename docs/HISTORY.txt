@@ -7,7 +7,7 @@ Changelog
 10.2 - (2020-05-08)
 -------------------
 - Improve: Print version where is available
-  [Eugen Tripon#116727]
+  [Eugen Tripon #116727]
 - Improve: Update YouTube video player in Use cases listing to use
   nocookie mode.
   [GhitaB #116827]
