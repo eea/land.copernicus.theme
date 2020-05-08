@@ -171,6 +171,9 @@
   #content-section.homepage {
     top: unset;
   }
+  .row.insitu-document-title {
+    margin-left: 0%;
+  }
   .navbar-default {
     top: unset;
   }
@@ -206,6 +209,10 @@
     object-fit: cover;
     height: 100% !important;
   }
+  .carousel-inner .item .carousel-caption p:nth-child(3)
+  {
+    display:block !important;
+  }
    div#category a.insitu-btn-spatial-data, div#category a.insitu-btn-observations {
      font-size:14px !important;
      padding: 10px !important;
@@ -225,9 +232,6 @@
   {
     font-size: 14pt !important;
   }
-  .row.insitu-document-title {
-    margin-left: 0%;
-  }
   .margin-content, #header-section .container-fluid#insitu-brand-utils .content, .main-content, .breadcrumbs, .menu-sections {
       margin-left: 0;
       margin-right: 0;
@@ -238,6 +242,9 @@
   }
   .carousel-caption p {
     font-size:10pt;
+  }
+  .carousel-caption {
+      margin-bottom: 10% !important;
   }
   body #content-section.simple-page {
     top: 0px !important;
