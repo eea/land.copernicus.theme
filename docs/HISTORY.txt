@@ -1,8 +1,8 @@
 Changelog
 =========
 
-10.2.dev0 - (unreleased)
-------------------------
+10.2 - (2020-05-08)
+-------------------
 - Improve: Print version where is available
   [Eugen Tripon#116727]
 - Improve: Update YouTube video player in Use cases listing to use
@@ -616,3 +616,4 @@ Changelog
 - Feature WIP: added diazo integration code for the theme; added static
   resources provided by designer
   [#14617 robaaoli]
+
