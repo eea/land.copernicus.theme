@@ -3,6 +3,10 @@ Changelog
 
 10.3.dev0 - (unreleased)
 ------------------------
+- Fix: Solve cdn dependency for bluebird.min.js to fix Blocked 'script'
+  from 'cdnjs.cloudflare.com' error related to security headers configuration
+  update.
+  [GhitaB #114022]
 
 10.2 - (2020-05-08)
 -------------------
@@ -14,21 +18,21 @@ Changelog
 
 10.1 - (2020-04-07)
 -------------------
-* Improve: Accesibility audit.
+- Improve: Accesibility audit.
   [Eugen Tripon #115866]
 
 10.0 - (2020-04-01)
 -------------------
-* Improve: css mobile version.
+- Improve: css mobile version.
   [Eugen Tripon #115864]
 
 9.9 - (2020-03-06)
 ------------------
-* Retry
+- Retry
 
 9.8 - (2020-03-06)
 ------------------
-* Improve: accessibility audit
+- Improve: accessibility audit
   [Eugen Tripon #114026]
 
 9.7 - (2020-02-27)
