@@ -3,6 +3,7 @@ Changelog
 
 10.4.dev0 - (unreleased)
 ------------------------
+TODO: fix columns align in homepage and simple page. plonehelpcenter css?
 
 10.3 - (2020-05-13)
 -------------------
