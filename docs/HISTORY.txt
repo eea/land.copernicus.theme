@@ -3,8 +3,6 @@ Changelog
 
 10.4.dev0 - (unreleased)
 ------------------------
-TODO: fix columns align in homepage and simple page. plonehelpcenter css?
-
 - Improve: Update main menu with Biophysical Parameters items.
   [GhitaB #118343]
 
