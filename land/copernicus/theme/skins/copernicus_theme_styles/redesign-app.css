@@ -43,7 +43,7 @@ a:active,
   display: inline-block;
   padding-top: 7px;
   float: right;
-  margin: -21px 10px 0;
+  margin: -35px 10px 0;
   position: relative;
   top: -16px;
 }
@@ -6988,16 +6988,20 @@ footer .text {
   z-index: 2 !important; }
 
 .land-title,
+div#content h1.documentFirstHeading,
 #parent-fieldname-title {
   border-bottom: 3px solid #BDCE49;
   font-size: 20px;
   margin-top: 3px;
 }
 
+div#content h1.documentFirstHeading,
 article.main #parent-fieldname-title {
   font-size: 24px;
   margin-top: 0px;
   padding-right: 80px;
+  position: relative;
+  top: -20px;
 }
 
 .event-date {
