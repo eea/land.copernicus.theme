@@ -3,6 +3,8 @@ Changelog
 
 10.5.dev0 - (unreleased)
 ------------------------
+- Fix: h1 styles - missing border.
+  [GhitaB #119889]
 - Fix: column titles horizontal align in homepage.
   [GhitaB #119892]
 
