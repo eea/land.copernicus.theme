@@ -6987,6 +6987,11 @@ footer .text {
   position: relative;
   z-index: 2 !important; }
 
+body.template-homepage div#content-core {
+  position: relative;
+  top: -20px;
+}
+
 .land-title,
 div#content h1.documentFirstHeading,
 #parent-fieldname-title {
