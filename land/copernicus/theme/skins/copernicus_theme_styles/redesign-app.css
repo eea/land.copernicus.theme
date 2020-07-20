@@ -7135,3 +7135,7 @@ body.template-search-by-tags p.item-description {
     overflow: hidden !important;
   }
 }
+
+.navbar-default .navbar-toggle {
+  border-color: #ddd !important;
+}
