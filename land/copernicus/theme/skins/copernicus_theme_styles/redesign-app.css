@@ -7129,3 +7129,9 @@ body.template-search-by-tags p.item-description {
     margin-bottom: 2% !important;
   }
 }
+
+@media (min-width: 600px) and (max-width: 800px) {
+  body #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated {
+    overflow: hidden !important;
+  }
+}
