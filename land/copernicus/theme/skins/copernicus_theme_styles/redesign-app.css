@@ -7141,7 +7141,15 @@ body.template-search-by-tags p.item-description {
 }
 
 @media (min-width: 600px) and (max-width: 800px) {
-div.insitu-images-slider-container div.images-slider .carousel-caption {
+  div.insitu-images-slider-container div.images-slider .carousel-caption {
     left: auto;
     right: auto;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 950px) {
+  div.insitu-images-slider-container div.images-slider .carousel-caption {
+    left: auto;
+    right: auto;
+  }
 }
