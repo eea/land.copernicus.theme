@@ -3,6 +3,11 @@ Changelog
 
 "Versions" as used by insitu.copernicus.eu. Just note what and when happened.
 
+2.5.9 - (unreleased)
+--------------------
+- Fix: breadcrumbs responsivity in simple page.
+  [GhitaB #116727]
+
 2.5.8 - (2020-05-08)
 --------------------
 - Improve: css mobile review updates
