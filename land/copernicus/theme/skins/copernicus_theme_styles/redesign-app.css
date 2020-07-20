@@ -7075,11 +7075,17 @@ body.template-search-by-tags p.item-description {
   }
 }
 
-@media (min-width: 570px) and (max-width: 1000px) {
+@media (min-width: 570px) and (max-width: 950px) {
   #content-section.simple-page {
     top: 315px !important;
     position: relative;
     z-index: 2 !important;
+  }
+}
+
+@media (max-width: 1105px) and (min-width: 951px) {
+  #content-section.simple-page {
+    top: 365px !important;
   }
 }
 
