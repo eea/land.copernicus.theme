@@ -8,6 +8,7 @@ Changelog
 - Fix: breadcrumbs responsivity in simple page.
 - Fix: personal menu responsivity.
 - Fix: menu toggle button border color.
+- Fix: center slider caption in medium screens.
   [GhitaB #116727]
 
 2.5.8 - (2020-05-08)

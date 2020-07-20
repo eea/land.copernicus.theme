@@ -7139,3 +7139,9 @@ body.template-search-by-tags p.item-description {
 .navbar-default .navbar-toggle {
   border-color: #ddd !important;
 }
+
+@media (min-width: 600px) and (max-width: 800px) {
+div.insitu-images-slider-container div.images-slider .carousel-caption {
+    left: auto;
+    right: auto;
+}
