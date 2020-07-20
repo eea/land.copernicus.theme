@@ -6,6 +6,7 @@ Changelog
 2.5.9 - (unreleased)
 --------------------
 - Fix: breadcrumbs responsivity in simple page.
+- Fix: personal menu responsivity.
   [GhitaB #116727]
 
 2.5.8 - (2020-05-08)
