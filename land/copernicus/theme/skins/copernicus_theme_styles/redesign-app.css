@@ -4786,8 +4786,7 @@ button.close {
     left: 20%;
     right: 20%;
     padding-bottom: 30px; }
-  .carousel-indicators {
-    bottom: 20px; } }
+}
 
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -7090,4 +7089,16 @@ body.template-search-by-tags p.item-description {
 .carousel-control .fa-chevron-left,
 .carousel-control .fa-chevron-right {
   margin: 0 auto;
+}
+
+div.insitu-images-slider-container .carousel-indicators {
+  text-align: center !important;
+  width: 100% !important;
+  left:10% !important;
+}
+div.insitu-images-slider-container .carousel-indicators li {
+  background-color: #000000;
+}
+div.insitu-images-slider-container .carousel-indicators li.active {
+  background-color: #783F34;
 }
