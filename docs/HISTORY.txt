@@ -13,6 +13,7 @@ Changelog
 - Fix: layout styles for header, slider and content sections.
 - Fix: position of slider controls.
 - Fix: Better font size for tags.
+- Improve: title container styles.
   [GhitaB #116727]
 
 2.5.8 - (2020-05-08)
