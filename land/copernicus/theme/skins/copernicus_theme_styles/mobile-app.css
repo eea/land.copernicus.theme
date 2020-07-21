@@ -157,11 +157,6 @@
      order:3;
    }
 }
-@media(min-width: 574px) {
-  .navbar-nav li button {
-    display: none;
-  }
-}
 /** same for mobile and tablet*/
 @media only screen and (max-width: 951px) {
   #header-section {
