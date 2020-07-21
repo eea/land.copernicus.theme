@@ -245,3 +245,9 @@
     top: 0px !important;
   }
 }
+
+@media(min-width: 768px) {
+  .navbar-nav li button {
+    display: none;
+  }
+}
