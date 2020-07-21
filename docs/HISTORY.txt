@@ -10,6 +10,7 @@ Changelog
 - Fix: menu toggle button border color.
 - Fix: center slider caption in medium screens.
 - Fix: missing expand menu buttons.
+- Fix: layout styles for header, slider and content sections.
   [GhitaB #116727]
 
 2.5.8 - (2020-05-08)
