@@ -6882,7 +6882,7 @@ body.template-search-by-tags .row-pagination-top {
 .btn.label.insitu-btn-observations,
 .btn.label.insitu-btn-spatial-data {
   padding: .2em .6em .3em !important;
-  font-size: 75% !important;
+  font-size: 14px !important;
 }
 
 body.template-search-by-tags div.search-item {
