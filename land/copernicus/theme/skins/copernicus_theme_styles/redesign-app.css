@@ -7086,3 +7086,9 @@ body.template-search-by-tags p.item-description {
     right: auto;
   }
 }
+
+.carousel-control .icon-prev,
+.carousel-control .fa-chevron-left,
+.carousel-control .fa-chevron-right {
+  margin: 0 auto;
+}
