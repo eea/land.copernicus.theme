@@ -1546,7 +1546,7 @@ section#header-section #insitu-brand-utils li#siteaction-newsletter, section#hea
     max-width: 100%; }
 
 .images-slider {
-  margin: 25px 0 0 0;
+  margin: 0px;
   border-radius: 0px; }
   .images-slider .carousel-caption {
     background: rgba(0, 0, 0, 0.5);
