@@ -4703,7 +4703,7 @@ button.close {
   .carousel-control .fa-chevron-left,
   .carousel-control .fa-chevron-right {
     position: absolute;
-    top: 50%;
+    top: 45%;
     margin-top: -10px;
     z-index: 5;
     display: inline-block; }
