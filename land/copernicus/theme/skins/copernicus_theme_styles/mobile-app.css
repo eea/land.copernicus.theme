@@ -276,3 +276,7 @@ nav.navbar li.dropdown .btn-primary.active:focus,
 nav.navbar li.dropdown .btn-primary.active.focus {
   background-color: initial;
 }
+
+nav.navbar li.dropdown.expanded {
+  font-weight: 900;
+}
