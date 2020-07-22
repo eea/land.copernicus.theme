@@ -9,10 +9,6 @@
   {
     font-size: 16pt !important;
   }
-  body #header-section .container-fluid#insitu-brand-utils .content .utils {
-    margin-left: -24px;
-    margin-right: -24px;
-  }
   body #header-section .container-fluid#insitu-brand-utils .content .utils .list-inline.insitu-list-separated {
     overflow: hidden !important;
   }
