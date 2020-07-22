@@ -262,3 +262,7 @@
     background-color: initial;
   }
 }
+
+nav.navbar li.dropdown button.btn.btn-primary.btn-sm {
+  border: 1px solid #FFF !important;
+}
