@@ -7102,17 +7102,3 @@ div.insitu-images-slider-container .carousel-indicators li {
 div.insitu-images-slider-container .carousel-indicators li.active {
   background-color: #783F34;
 }
-
-li.dropdown:before {
-  position: absolute;
-  top: 9px;
-  left: 4px;
-  content:"\f107";
-  font-family:"Font Awesome 5 Free";
-  font-style:normal;
-  font-weight:normal;
-  float: right;
-  font-weight: 900;
-  color: white;
-  z-index: 3;
-}
