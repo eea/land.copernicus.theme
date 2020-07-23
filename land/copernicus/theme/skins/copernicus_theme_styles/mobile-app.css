@@ -310,4 +310,11 @@ nav.navbar li.dropdown.expanded {
     position: relative;
     top: -6px;
   }
+
+  div.insitu-footer-section,
+  div.insitu-footer-section div.partners-banners,
+  div.insitu-footer-section col-lg-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
