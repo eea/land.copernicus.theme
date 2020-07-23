@@ -303,5 +303,11 @@ nav.navbar li.dropdown.expanded {
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+
+  ul.list-inline.insitu-list-icons {
+    position: relative;
+    top: -6px;
   }
 }
