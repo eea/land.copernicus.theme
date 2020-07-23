@@ -6390,6 +6390,7 @@ div.news.snippet.last {
 }
 
 .utils .list-inline.insitu-list-icons {
+  margin-left: 15px;
   padding-right: 30px;
   float: right;
   display: inline-block;
