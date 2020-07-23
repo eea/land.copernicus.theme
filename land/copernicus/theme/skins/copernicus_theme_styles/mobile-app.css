@@ -296,3 +296,10 @@ nav.navbar li.dropdown.expanded {
     z-index: 3;
   }
 }
+
+div.utils div.row:nth-of-type(1) div.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
