@@ -284,11 +284,12 @@ nav.navbar li.dropdown.expanded {
 @media (min-width: 768px) {
   li.dropdown:before {
     position: absolute;
-    top: 9px;
-    left: 4px;
+    top: 10px;
+    left: 6px;
     content:"\f107";
     font-family:"Font Awesome 5 Free";
     font-style:normal;
+    font-size: 11px;
     font-weight:normal;
     float: right;
     font-weight: 900;
