@@ -40,7 +40,7 @@
     width:100% !important;
     height: auto !important;
   }
-  ul.navbar ul.dropdown-menu li.selected {
+  ul.navbar-nav li.selected {
     font-weight: bold;
   }
   ul.list-inline.insitu-list-icons {
