@@ -7034,7 +7034,9 @@ body.template-search-by-tags p.item-description {
 @media (min-width: 800px) and (max-width: 1200px) {
   .carousel-caption {
     font-size: 7px;
-    margin-bottom: 1px !important;
+  }
+  .carousel-indicators {
+    bottom: 0px;
   }
 }
 
