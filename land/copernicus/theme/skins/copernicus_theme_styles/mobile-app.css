@@ -311,7 +311,13 @@ nav.navbar li.dropdown.expanded {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 333px) {
+  .utils .list-inline.insitu-list-icons {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 951px) {
   div.utils div.row:nth-of-type(1) div.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
     display: flex;
     justify-content: center;
@@ -324,7 +330,9 @@ nav.navbar li.dropdown.expanded {
     position: relative;
     top: -6px;
   }
+}
 
+@media (max-width: 768px) {
   div.insitu-footer-section,
   div.insitu-footer-section div.partners-banners,
   div.insitu-footer-section col-lg-12 {

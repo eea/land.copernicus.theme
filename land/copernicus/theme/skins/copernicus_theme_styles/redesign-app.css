@@ -7040,7 +7040,7 @@ body.template-search-by-tags p.item-description {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 951px) {
   form[data-diazo="insitu-search-form"] .input-group {
     width: 100%;
   }
