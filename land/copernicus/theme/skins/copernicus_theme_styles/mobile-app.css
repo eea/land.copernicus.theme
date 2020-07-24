@@ -139,6 +139,9 @@
    [data-diazo='insitu-footer'] a {
      font-size: 14pt;
    }
+   [data-diazo='insitu-footer'] a:hover {
+     color: #333333 !important;
+   }
    .insitu-news-item {
       display: flex;
      flex-direction: column;
