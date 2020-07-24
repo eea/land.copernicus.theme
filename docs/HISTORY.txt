@@ -3,7 +3,7 @@ Changelog
 
 "Versions" as used by insitu.copernicus.eu. Just note what and when happened.
 
-2.5.9 - (unreleased)
+2.5.9 - (2020-07-24)
 --------------------
 - Fix: breadcrumbs responsivity in simple page.
 - Fix: personal menu responsivity.
@@ -16,6 +16,7 @@ Changelog
 - Improve: title container styles.
 - Improve: Carousel indicators position.
 - Improve: carousel responsivity.
+- Improve: responsivity and design. Multiple fixes.
   [GhitaB #116727]
 
 2.5.8 - (2020-05-08)
