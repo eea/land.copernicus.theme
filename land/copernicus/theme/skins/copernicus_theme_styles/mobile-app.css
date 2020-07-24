@@ -1,4 +1,11 @@
 @media only screen and (max-width: 600px) {
+  footer ul.partners-logos img {
+    margin: 5px !important;
+  }
+  footer ul.partners-logos li:nth-child(2) img {
+    max-width: 70px !important;
+    height: auto !important;
+  }
   div.insitu-news-body,
   div.documentDescription,
   label,
