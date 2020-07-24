@@ -226,6 +226,9 @@
 
 /** only for tablet*/
 @media only screen and (min-device-width: 601px) and (max-width: 951px) {
+  div.navbar-collapse.in {
+    overflow-y: unset;
+  }
   div.insitu-news-body,
   div.documentDescription,
   label,
