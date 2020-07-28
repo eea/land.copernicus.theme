@@ -7701,11 +7701,6 @@ body.template-mail_password_form #content fieldset {
   border: none;
 }
 
-/* You are running on an old version of the buildout, re-run buildout. - fix broken title when msg here. */
-#viewlet-above-content-title {
-  display: inline-block;
-}
-
 .eventDetails.vcard .vertical.listing th {
     width: 25%;
     background: #A0B228;
