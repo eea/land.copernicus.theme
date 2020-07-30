@@ -8029,3 +8029,13 @@ form#land-search button.search-button i.fa-search {
     padding-bottom: 70px;
   }
 }
+
+@media (min-width: 992px) {
+  section#header-section.homepage {
+    padding-bottom: 200px;
+  }
+  section#content-section.homepage {
+    position: relative;
+    top: -70px;
+  }
+}
