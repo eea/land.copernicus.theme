@@ -8023,3 +8023,9 @@ form#land-search button.search-button i.fa-search {
   position: relative;
   top: -2px;
 }
+
+@media (min-width: 600px) {
+  section#header-section.simple-page {
+    padding-bottom: 70px;
+  }
+}
