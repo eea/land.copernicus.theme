@@ -430,7 +430,7 @@ and (resolution: 163dpi) {
   width: 100%;
 }
 
-.template-personal-information .edit-form .field:nth-of-type(3) label[for='form.disclaimer_permission'] {
+.template-personal-information .edit-form .field:nth-of-type(3) label[for='form.disclaimer_permission']:nth-child(1) {
   display: none;
 }
 
