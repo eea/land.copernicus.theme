@@ -1,8 +1,8 @@
 Changelog
 =========
 
-10.7.dev0 - (unreleased)
-------------------------
+10.7 - (2020-08-03)
+-------------------
 - Improve: theme styles (mobile, responsivity).
 - Fix: missing label for checkbox in personal information form.
 - Improve: add script for uglify minimal css.
