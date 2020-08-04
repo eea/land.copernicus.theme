@@ -3,6 +3,8 @@ Changelog
 
 10.8.dev0 - (unreleased)
 ------------------------
+- Fix: label text position in Register.
+  [GhitaB #120299]
 
 10.7 - (2020-08-03)
 -------------------
