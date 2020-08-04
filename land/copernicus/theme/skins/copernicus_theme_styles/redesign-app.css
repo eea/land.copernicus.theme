@@ -646,7 +646,7 @@ body.template-register #formfield-form-captcha .widget {
 
 #formfield-form-disclaimer label {
   position: absolute;
-  top: -7px;
+  top: 0px;
   left: 18px;
   font-weight: normal;
 }
