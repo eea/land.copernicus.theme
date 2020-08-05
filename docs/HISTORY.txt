@@ -3,6 +3,7 @@ Changelog
 
 10.8.dev0 - (unreleased)
 ------------------------
+- Fix: hamburger icon in main menu.
 - Fix: label text position in Register.
   [GhitaB #120299]
 

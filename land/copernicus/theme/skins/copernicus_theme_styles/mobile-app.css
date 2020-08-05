@@ -19,6 +19,10 @@
     padding-bottom: 5pt !important;
   }
 
+  div.navbar div.navbar-header button.navbar-toggle {
+    margin-right: 2% !important;
+  }
+
   ul.filters-list li.search-filter {
     padding: 0px !important;
     font-size: 18px !important;
