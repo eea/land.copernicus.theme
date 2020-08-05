@@ -23,6 +23,10 @@
     margin-right: 2% !important;
   }
 
+  #header-section div.brand {
+    text-align: center !important;
+  }
+
   ul.filters-list li.search-filter {
     padding: 0px !important;
     font-size: 18px !important;
