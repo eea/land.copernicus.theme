@@ -23,6 +23,13 @@
     margin-right: 2% !important;
   }
 
+  div.navbar li.dropdown-submenu a:after {
+    content: "+";
+    color:white;
+    float: right;
+    position: absolute;
+  }
+
   #header-section div.brand {
     text-align: center !important;
   }
