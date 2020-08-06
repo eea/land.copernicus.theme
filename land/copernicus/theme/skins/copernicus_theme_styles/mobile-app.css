@@ -23,7 +23,7 @@
     margin-right: 2% !important;
   }
 
-  div.navbar li.dropdown-submenu a:after {
+  div.navbar li.dropdown-submenu > a:after {
     content: "+";
     color:white;
     float: right;
