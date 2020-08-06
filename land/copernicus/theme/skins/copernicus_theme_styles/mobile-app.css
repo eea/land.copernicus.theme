@@ -48,6 +48,10 @@
     background-color: #BDCE49 !important;
   }
 
+  div.navbar li:hover a {
+    background-color: unset !important;
+  }
+
   #header-section div.brand {
     text-align: center !important;
   }
