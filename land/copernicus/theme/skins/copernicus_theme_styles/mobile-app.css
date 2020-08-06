@@ -57,6 +57,10 @@
     background-color: unset !important;
   }
 
+  div.navbar li.land-select-language {
+    background: unset !important;
+  }
+
   #header-section div.brand {
     text-align: center !important;
   }
