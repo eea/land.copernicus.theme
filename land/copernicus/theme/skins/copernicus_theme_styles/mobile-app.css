@@ -40,6 +40,10 @@
     padding: 2px 11px 2px 11px;
   }
 
+  div.navbar li.dropdown-submenu ul[aria-expanded='true'] > li:not(.dropdown-submenu) > a {
+    background-color: #819110 !important;
+  }
+
   #header-section div.brand {
     text-align: center !important;
   }
