@@ -35,6 +35,10 @@
     padding: 2px;
   }
 
+  div.navbar li.dropdown-submenu > a[aria-expanded='true']:after {
+    content: "-";
+  }
+
   #header-section div.brand {
     text-align: center !important;
   }
