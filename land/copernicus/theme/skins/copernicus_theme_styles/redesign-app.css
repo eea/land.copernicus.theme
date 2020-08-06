@@ -8039,3 +8039,9 @@ form#land-search button.search-button i.fa-search {
     top: -70px;
   }
 }
+
+@media (min-width: 451px) and (max-width: 803px) {
+  ul.list-inline.land-list-separated {
+    overflow-x: hidden !important;
+  }
+}
