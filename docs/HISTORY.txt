@@ -3,6 +3,7 @@ Changelog
 
 10.8.dev0 - (unreleased)
 ------------------------
+- Improve: main menu and personal menu styles.
 - Fix: center brand logos in header for small screen.
 - Fix: hamburger icon in main menu.
 - Fix: label text position in Register.
