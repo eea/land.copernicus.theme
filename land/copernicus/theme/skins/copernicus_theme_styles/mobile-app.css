@@ -65,6 +65,7 @@
     display: none;
   }
 
+  div.navbar li.land-news.open ul.dropdown-menu li a,
   div.navbar li.land-select-language.open ul.dropdown-menu li a {
     background-color: #819110 !important;
   }
