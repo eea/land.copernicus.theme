@@ -30,13 +30,14 @@
     position: relative;
     right: 0px;
     top: -3px;
-    border: 1px solid white;
-    border-radius: 2px;
-    padding: 2px;
+    border: 1px solid #819110;
+    border-radius: 6px;
+    padding: 2px 10px 2px 10px;
   }
 
   div.navbar li.dropdown-submenu > a[aria-expanded='true']:after {
     content: "-";
+    padding: 2px 11px 2px 11px;
   }
 
   #header-section div.brand {
