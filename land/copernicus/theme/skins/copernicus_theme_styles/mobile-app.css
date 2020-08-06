@@ -44,6 +44,10 @@
     background-color: #819110 !important;
   }
 
+  div.navbar li.dropdown-submenu.open a {
+    background-color: #BDCE49 !important;
+  }
+
   #header-section div.brand {
     text-align: center !important;
   }
