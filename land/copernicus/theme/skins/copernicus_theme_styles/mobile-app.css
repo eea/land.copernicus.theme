@@ -52,6 +52,11 @@
     background-color: unset !important;
   }
 
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: unset !important;
+  }
+
   #header-section div.brand {
     text-align: center !important;
   }
