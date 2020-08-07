@@ -16,6 +16,12 @@
     font-size: 18px;
   }
 
+  body.template-landitem-view div.detailed-metadata-container dt {
+    width: 100%;
+    float: left;
+    text-align: left;
+  }
+
   body.template-default_error_message div#content-core dl {
     font-size: 18px;
   }
