@@ -37,6 +37,10 @@
     margin-bottom: 10px;
   }
 
+  body.template-landitem-view div.detailed-metadata-container a.label-tag {
+    margin-bottom: 6px;
+  }
+
   body.template-landitem-view div.detailed-metadata-container .section-title {
     padding-left: unset;
     text-align: center;
