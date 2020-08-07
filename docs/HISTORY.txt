@@ -3,6 +3,7 @@ Changelog
 
 10.8.dev0 - (unreleased)
 ------------------------
+- Fix: layout for datasets listing.
 - Improve: not found page styles.
 - Improve: font sizes for mobile.
 - Improve: main menu and personal menu styles.
