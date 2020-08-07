@@ -22,8 +22,19 @@
     text-align: left;
   }
 
+  body.template-landitem-view div.detailed-metadata-container dt img,
+  body.template-landitem-view div.detailed-metadata-container dt span {
+    position: relative;
+    left: -5px;
+  }
+
+  body.template-landitem-view div.detailed-metadata-container dt img {
+    top: -3px;
+  }
+
   body.template-landitem-view div.detailed-metadata-container dd {
     width: 100%;
+    margin-bottom: 10px;
   }
 
   body.template-landitem-view div.detailed-metadata-container .section-title {
