@@ -3,6 +3,7 @@ Changelog
 
 10.8.dev0 - (unreleased)
 ------------------------
+- Improve: metadata table for mobile screen.
 - Fix: layout for datasets listing.
 - Improve: not found page styles.
 - Improve: font sizes for mobile.
