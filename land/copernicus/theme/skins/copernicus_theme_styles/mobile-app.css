@@ -20,6 +20,15 @@
     font-size: 18px;
   }
 
+  body.template-default_error_message div#content-core dl dt {
+    background-size: 16px;
+  }
+
+  body.template-default_error_message div#content-core dl img {
+    width: 18px;
+    height: auto;
+  }
+
   label{
     padding-bottom: 5pt !important;
   }
