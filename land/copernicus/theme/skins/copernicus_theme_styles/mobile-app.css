@@ -22,6 +22,15 @@
     text-align: left;
   }
 
+  body.template-landitem-view div.detailed-metadata-container dd {
+    width: 100%;
+  }
+
+  body.template-landitem-view div.detailed-metadata-container .section-title {
+    padding-left: unset;
+    text-align: center;
+  }
+
   body.template-default_error_message div#content-core dl {
     font-size: 18px;
   }
