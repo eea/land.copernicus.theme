@@ -8046,7 +8046,10 @@ form#land-search button.search-button i.fa-search {
 }
 
 div.navbar li.dropdown-submenu > a:after {
-  content: "+";
+  content: "\25B8";
   color:white;
   float: right;
+  font-family: serif;
+  position: absolute;
+  right: 5px;
 }
