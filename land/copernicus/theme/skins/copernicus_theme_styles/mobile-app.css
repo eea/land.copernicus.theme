@@ -15,6 +15,11 @@
   {
     font-size: 18px;
   }
+
+  body.template-default_error_message div#content-core dl {
+    font-size: 18px;
+  }
+
   label{
     padding-bottom: 5pt !important;
   }
