@@ -8045,11 +8045,12 @@ form#land-search button.search-button i.fa-search {
   }
 }
 
-div.navbar li.dropdown-submenu > a:after {
-  content: "\25B8";
-  color:white;
-  float: right;
-  font-family: serif;
-  position: absolute;
-  right: 5px;
+@media (min-width: 768px) {
+  div.navbar li.dropdown-submenu > a:after {
+    content: "\25B8";
+    color:white;
+    float: right;
+    position: absolute;
+    right: 3px;
+  }
 }
