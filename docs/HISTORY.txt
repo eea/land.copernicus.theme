@@ -3,6 +3,7 @@ Changelog
 
 10.8.dev0 - (unreleased)
 ------------------------
+- Improve: not found page styles.
 - Improve: font sizes for mobile.
 - Improve: main menu and personal menu styles.
 - Fix: center brand logos in header for small screen.
