@@ -8044,3 +8044,9 @@ form#land-search button.search-button i.fa-search {
     overflow-x: hidden !important;
   }
 }
+
+div.navbar li.dropdown-submenu > a:after {
+  content: "+";
+  color:white;
+  float: right;
+}
