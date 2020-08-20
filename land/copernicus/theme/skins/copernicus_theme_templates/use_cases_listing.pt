@@ -23,28 +23,28 @@
               <div class="carousel-inner">
                 <div class="video-container item active">
                   <div class="youtube-video" id='bIbC9Lbu-sk'></div>
-                  <div class="carousel-caption">Environment Agency Austria</div>
+                  <div class="carousel-caption" i18n:translate="">Environment Agency Austria</div>
                 </div>
                 <div class="video-container item">
                   <div class="youtube-video" id='DoPafzevO60'></div>
-                  <div class="carousel-caption">Viridian Raven</div>
+                  <div class="carousel-caption" i18n:translate="">Viridian Raven</div>
                 </div>
-	        <div class="video-container item">
+                <div class="video-container item">
                   <div class="youtube-video" id='DC-q5tOnnLM'></div>
-                  <div class="carousel-caption">German Meteorological Service</div>
+                  <div class="carousel-caption" i18n:translate="">German Meteorological Service</div>
                 </div>
                 <div class="video-container item">
                   <div class="youtube-video" id='yjX8RTDlOaM'></div>
-                  <div class="carousel-caption">GAF</div>
+                  <div class="carousel-caption" i18n:translate="">GAF</div>
                 </div>
               </div>
               <div class="controls">
-                <a class="left carousel-control" href="#land-videos" data-slide="prev">
+                <a class="left carousel-control" href="#land-videos" data-slide="prev" alt="Previous">
                   <div class="left-button">
                     <span class="fa fa-chevron-left"></span>
                   </div>
                 </a>
-                <a class="right carousel-control" href="#land-videos" data-slide="next">
+                <a class="right carousel-control" href="#land-videos" data-slide="next" alt="Next">
                   <div class="right-button">
                     <span class="fa fa-chevron-right"></span>
                   </div>
