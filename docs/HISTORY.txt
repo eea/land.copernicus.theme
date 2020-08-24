@@ -1,8 +1,8 @@
 Changelog
 =========
 
-10.9.dev0 - (unreleased)
-------------------------
+10.9 - (2020-08-24)
+-------------------
 - Improve: Add videos in Use cases listing.
   [GhitaB #120853]
 
