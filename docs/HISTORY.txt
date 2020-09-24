@@ -3,6 +3,9 @@ Changelog
 
 11.0.dev0 - (unreleased)
 ------------------------
+- Fix: title center align in meeting register.
+- Improve: styles for event details in meeting view.
+  [GhitaB #121632]
 - Improve: Update title for Looking for National - section.
   [GhitaB #121920]
 
