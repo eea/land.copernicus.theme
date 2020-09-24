@@ -3104,6 +3104,10 @@ body.template-view.portaltype-eea-meeting div.event-information {
   margin-bottom: 15px;
 }
 
+body.template-register.portaltype-eea-meeting h1.documentFirstHeading.land-title {
+  padding-right: 0px !important;
+}
+
 body.template-view.portaltype-eea-meeting p.event-timezone {
   margin-top: 5px;
   margin-bottom: 0px;
