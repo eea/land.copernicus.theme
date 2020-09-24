@@ -1,8 +1,8 @@
 Changelog
 =========
 
-11.0.dev0 - (unreleased)
-------------------------
+11.0 - (2020-09-24)
+-------------------
 - Fix: title center align in meeting register.
 - Improve: styles for event details in meeting view.
   [GhitaB #121632]
