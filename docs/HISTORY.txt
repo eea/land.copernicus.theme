@@ -1,6 +1,9 @@
 Changelog
 =========
 
+11.1.dev0 - (unreleased)
+------------------------
+
 11.0 - (2020-09-24)
 -------------------
 - Fix: title center align in meeting register.
