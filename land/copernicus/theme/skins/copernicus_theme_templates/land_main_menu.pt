@@ -85,30 +85,33 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">HRL Forests</a>
                     <ul class="dropdown-menu">
+                      <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/tree-cover-density-2018" i18n:translate="">Tree Cover Density 2018</a></li>
                       <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2015" i18n:translate="">Tree Cover Density 2015</a></li>
                       <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/2012" i18n:translate="">Tree Cover Density 2012</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/dominant-leaf-type-2018" i18n:translate="">Dominant Leaf Type 2018</a></li>
                       <li><a href="/pan-european/high-resolution-layers/forests/tree-cover-density/change-maps/2012-2015" i18n:translate="">Tree Cover Density Change 2012-2015</a></li>
                       <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2015" i18n:translate="">Dominant Leaf Type 2015</a></li>
                       <li><a href="/pan-european/high-resolution-layers/forests/dominant-leaf-type/status-maps/2012" i18n:translate="">Dominant Leaf Type 2012</a></li>
                       <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2015" i18n:translate="">Forest Type 2015</a></li>
                       <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/status-maps/2012" i18n:translate="">Forest Type 2012</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2015" i18n:translate="">Forest Additional Support Layer 2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/forests/forest-type-1/expert-products/forest-additional-support-layer/2012" i18n:translate="">Forest Additional Support Layer 2012</a></li>
                     </ul>
                   </li>
 
                   <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">HRL Grassland</a>
                     <ul class="dropdown-menu">
+                      <li><a href="/pan-european/high-resolution-layers/grassland/status-maps/grassland-2018" i18n:translate="">Grassland 2018</a></li>
                       <li><a href="/pan-european/high-resolution-layers/grassland/status-maps/2015" i18n:translate="">Grassland 2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/ploughing-indicator" i18n:translate="">Grassland Ploughing Indicator 2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/grassland/expert-products/grassland-vegetation-probability-index" i18n:translate="">Grassland Vegetation Probability Index 2015</a></li>
                     </ul>
                   </li>
 
                   <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">HRL Imperviousness</a>
                     <ul class="dropdown-menu">
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/imperviousness-density-2018" i18n:translate="">Imperviousness 2018</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/impervious-built-up-2018" i18n:translate="">Impervious Built-up</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2015-2018/imperviousness-change-2015-2018" i18n:translate="">Imperviousness Change 2015-2018</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/imperviousness/change-maps/2015-2018/imperviousness-classified-change-2015-2018" i18n:translate="">Imperviousness Classified Change 2015-2018</a></li>
                       <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2015" i18n:translate="">Imperviousness Degree 2015</a></li>
                       <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2012" i18n:translate="">Imperviousness Degree 2012</a></li>
                       <li><a href="/pan-european/high-resolution-layers/imperviousness/status-maps/2009" i18n:translate="">Imperviousness Degree 2009</a></li>
@@ -127,11 +130,17 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">HRL Water and Wetness</a>
                     <ul class="dropdown-menu">
+                      <li><a href="/pan-european/high-resolution-layers/water-wetness/status-maps/water-wetness-2018" i18n:translate="">Water and Wetness 2018</a></li>
                       <li><a href="/pan-european/high-resolution-layers/water-wetness/status-maps/2015" i18n:translate="">Water and Wetness 2015</a></li>
-                      <li><a href="/pan-european/high-resolution-layers/water-wetness/expert-products/wetness-probability-index/2015" i18n:translate="">Water and Wetness Probability Index 2015</a></li>
                     </ul>
                   </li>
 
+                  <li data-sm-reverse="true" class="dropdown-submenu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">HRL Small Woody Features</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="" i18n:translate="/pan-european/high-resolution-layers/small-woody-features/small-woody-features-2015">Small Woody Features 2015</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
 
@@ -162,11 +171,14 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Urban Atlas</a>
                     <ul class="dropdown-menu">
+                      <li><a href="/local/urban-atlas/urban-atlas-2018" i18n:translate="">Urban Atlas 2018</a></li>
                       <li><a href="/local/urban-atlas/urban-atlas-2012" i18n:translate="">Urban Atlas 2012</a></li>
                       <li><a href="/local/urban-atlas/urban-atlas-2006" i18n:translate="">Urban Atlas 2006</a></li>
+                      <li><a href="/local/urban-atlas/urban-atlas-change-2012-2018" i18n:translate="">Urban Atlas Change 2012-2018</a></li>
+                      <li><a href="/local/urban-atlas/street-tree-layer-stl-2018" i18n:translate="">Street Tree Layer 2018</a></li>
                       <li><a href="/local/urban-atlas/change-2006-2009" i18n:translate="">Urban Atlas Change 2006-2012</a></li>
                       <li><a href="/local/urban-atlas/building-height-2012" i18n:translate="">Urban Atlas Building Height 2012</a></li>
-                      <li><a href="/local/urban-atlas/street-tree-layer-stl" i18n:translate="">Street Tree Layer</a></li>
+                      <li><a href="/local/urban-atlas/street-tree-layer-stl" i18n:translate="">Street Tree Layer 2012</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -261,6 +273,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">European Settlement Map</a>
                     <ul class="dropdown-menu">
+                      <li><a href="/pan-european/GHSL/european-settlement-map/esm-2015-release-2019" i18n:translate="">ESM 2015 - 2019 Release</a></li>
                       <li><a href="/pan-european/GHSL/european-settlement-map/esm-2012-release-2017-urban-green" i18n:translate="">European Settlement Map 2012 - 2017 Release</a></li>
                       <li><a href="/pan-european/GHSL/european-settlement-map/EU%20GHSL%202014" i18n:translate="">European Settlement Map 2012 - 2016 Release</a></li>
                     </ul>
@@ -269,6 +282,8 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">LUCAS</a>
                     <ul class="dropdown-menu">
+                      <li><a href="/imagery-in-situ/lucas/lucas-2018" i18n:translate="">LUCAS 2018</a></li>
+                      <li><a href="/imagery-in-situ/lucas/lucas-2015" i18n:translate="">LUCAS 2015</a></li>
                       <li><a href="/imagery-in-situ/lucas/lucas-2012" i18n:translate="">LUCAS 2012</a></li>
                       <li><a href="/imagery-in-situ/lucas/lucas-2001-2009" i18n:translate="">LUCAS 2001-2009</a></li>
                     </ul>
