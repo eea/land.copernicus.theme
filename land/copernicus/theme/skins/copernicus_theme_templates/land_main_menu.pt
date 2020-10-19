@@ -174,11 +174,11 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                       <li><a href="/local/urban-atlas/urban-atlas-2018" i18n:translate="">Urban Atlas 2018</a></li>
                       <li><a href="/local/urban-atlas/urban-atlas-2012" i18n:translate="">Urban Atlas 2012</a></li>
                       <li><a href="/local/urban-atlas/urban-atlas-2006" i18n:translate="">Urban Atlas 2006</a></li>
-                      <li><a href="/local/urban-atlas/urban-atlas-change-2012-2018" i18n:translate="">Urban Atlas Change 2012-2018</a></li>
                       <li><a href="/local/urban-atlas/street-tree-layer-stl-2018" i18n:translate="">Street Tree Layer 2018</a></li>
+                      <li><a href="/local/urban-atlas/street-tree-layer-stl" i18n:translate="">Street Tree Layer 2012</a></li>
+                      <li><a href="/local/urban-atlas/urban-atlas-change-2012-2018" i18n:translate="">Urban Atlas Change 2012-2018</a></li>
                       <li><a href="/local/urban-atlas/change-2006-2009" i18n:translate="">Urban Atlas Change 2006-2012</a></li>
                       <li><a href="/local/urban-atlas/building-height-2012" i18n:translate="">Urban Atlas Building Height 2012</a></li>
-                      <li><a href="/local/urban-atlas/street-tree-layer-stl" i18n:translate="">Street Tree Layer 2012</a></li>
                     </ul>
                   </li>
                 </ul>
