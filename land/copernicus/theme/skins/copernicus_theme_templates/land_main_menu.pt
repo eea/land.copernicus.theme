@@ -103,6 +103,7 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     <ul class="dropdown-menu">
                       <li><a href="/pan-european/high-resolution-layers/grassland/status-maps/grassland-2018" i18n:translate="">Grassland 2018</a></li>
                       <li><a href="/pan-european/high-resolution-layers/grassland/status-maps/2015" i18n:translate="">Grassland 2015</a></li>
+                      <li><a href="/pan-european/high-resolution-layers/grassland/change-maps/grassland-change-2015-2018" i18n:translate="">Grassland Change 2015-2018</a></li>
                     </ul>
                   </li>
 
