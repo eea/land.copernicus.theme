@@ -1,8 +1,8 @@
 Changelog
 =========
 
-11.3.dev0 - (unreleased)
-------------------------
+11.3 - (2020-10-21)
+-------------------
 - Improve: Update content in main menu.
   [GhitaB #122629]
 
