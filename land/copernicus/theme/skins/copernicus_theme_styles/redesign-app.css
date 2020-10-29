@@ -7217,6 +7217,13 @@ div.pagination.listingBar span.current {
     margin-bottom: -5px; }
 
 @media screen and (min-width: 768px) {
+  .nav.navbar-nav a[aria-label='Home']:hover,
+  .nav.navbar-nav.land-social-icons a[aria-label='facebook']:hover,
+  .nav.navbar-nav.land-social-icons a[aria-label='Slideshare']:hover,
+  .nav.navbar-nav.land-social-icons a[aria-label='Twitter']:hover {
+    height: 36px !important;
+  }
+
   ul.nav.navbar-nav.land-social-icons {
     float: right !important;
   }
