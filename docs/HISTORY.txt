@@ -3,6 +3,8 @@ Changelog
 
 11.4.dev0 - (unreleased)
 ------------------------
+- Fix: wrong height on hover for fa icons in navbar.
+  [GhitaB #121227]
 
 11.3 - (2020-10-21)
 -------------------
