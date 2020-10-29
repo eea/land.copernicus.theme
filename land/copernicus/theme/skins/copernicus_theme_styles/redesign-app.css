@@ -7335,6 +7335,10 @@ div.row {
   margin-right: 10px;
 }
 
+body.template-homepage footer.footer {
+  margin-bottom: -70px;
+}
+
 footer ul.list-inline.land-list-separated {
   position: relative;
   top: -6px;
