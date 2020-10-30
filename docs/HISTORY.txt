@@ -1,8 +1,8 @@
 Changelog
 =========
 
-11.4.dev0 - (unreleased)
-------------------------
+11.4 - (2020-10-30)
+-------------------
 - Fix: Get rid of wrong space under footer in homepage.
 - Fix: wrong height on hover for fa icons in navbar.
   [GhitaB #121227]
