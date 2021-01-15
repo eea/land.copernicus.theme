@@ -222,9 +222,6 @@
         <metal:homepage-content define-slot="homepage-content">
         <!-- MAIN CONTENT -->
         <h4 class="land-title" i18n:translate="">Learn more about us</h4>
-        <!-- 16:9 aspect ratio -->
-        <div class="embed-responsive embed-responsive-16by9"><iframe height="240" id="yt-embed" src="" width="320" allow="speaker" title="Speaker" i18n:attributes="title" ></iframe></div>
-        <script>window.addEventListener('load', function(){document.getElementById('yt-embed').src = "https://www.youtube-nocookie.com/embed/wHg5RBPg5Jc"});</script>
         <!-- MAIN CONTENT -->
         </metal:homepage-content>
         <metal:after-content define-slot="after-content"></metal:after-content>
