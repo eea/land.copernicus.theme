@@ -187,9 +187,9 @@
                   <a href="./user-corner/publications">
                     <div class="land-box1">
                       <div class="land-icon-box">
-                        <img class="sprite land-icon-publications" alt="Publications" i18n:attributes="alt" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAABXAQMAAADvbPP8AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABRJREFUeNpjYBgFo2AUjIJRQA8AAAVwAAGSMYZ5AAAAAElFTkSuQmCC">
+                        <img class="sprite land-icon-publications" alt="Outreach materials" i18n:attributes="alt" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAABXAQMAAADvbPP8AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABRJREFUeNpjYBgFo2AUjIJRQA8AAAVwAAGSMYZ5AAAAAElFTkSuQmCC">
                       </div>
-                      <h4 i18n:translate="">Publications</h4>
+                      <h4 i18n:translate="">Outreach materials</h4>
                     </div>
                   </a>
                 </div>
