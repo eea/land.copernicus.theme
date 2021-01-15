@@ -82,6 +82,8 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                     </ul>
                   </li>
 
+                  <li><a href="/pan-european/clc-plus" i18n:translate="">CLC+</a></li>
+
                   <li data-sm-reverse="true" class="dropdown-submenu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">HRL Forests</a>
                     <ul class="dropdown-menu">
