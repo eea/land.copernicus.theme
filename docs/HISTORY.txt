@@ -3,6 +3,8 @@ Changelog
 
 11.5.dev0 - (unreleased)
 ------------------------
+- Improve: update main menu content, update homepage content.
+  [GhitaB #126691]
 
 11.4 - (2020-10-30)
 -------------------
