@@ -252,6 +252,7 @@
     border: 2px solid #eaeada;
     border-radius: 6px;
     padding: 6px;
+    margin-bottom: 10px;
   }
 
   div.dashboards-container div.dashboard-item:hover {
