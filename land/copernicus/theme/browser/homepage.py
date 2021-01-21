@@ -13,10 +13,11 @@ class HomepageView(BrowserView):
         catalog = self.context.portal_catalog
         query = {
             'portal_type': 'DashboardItem',
+            'sort_on': 'getObjPositionInParent',
             'review_state': 'published',
         }
 
-        result = [x for x in catalog(**query)]
+        result = [x.getObject() for x in catalog(**query)]
 
         return result
 
