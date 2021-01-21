@@ -229,7 +229,8 @@
                tal:repeat="dashboard_item python:dashboard_items_list">
             <a href="" title="" tal:attributes="href dashboard_item/absolute_url">
               <span class="photoAlbumEntryWrapper">
-                <img src="http://localhost:8080/copernicus/pan-european/corine-land-cover/image_thumb" title="The Corine Land Cover inventory was initiated in 1985 (reference year 1990).  Updates have been produced in 2000 and 2006, and the latest 2012 update is under production. It consists of an inventory of land cover in 44 classes. CLC uses a Minimum Mapping Unit (MMU) of 25 ha for areal phenomena and a minimum width of 100 m for linear phenomena. The time series are complemented by change layers, which highlight changes in land cover with an MMU of 5 ha.">
+                <img tal:attributes="src python:dashboard_item.absolute_url() +'/@@images/logo'" class="dashboard-logo"
+                     tal:condition="python:dashboard_item.logo" />
               </span>
               <span class="photoAlbumEntryTitle" tal:content="dashboard_item/Title">Title</span>
             </a>
