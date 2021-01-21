@@ -9,6 +9,17 @@ class HomepageView(BrowserView):
     def __call__(self):
         return self.index()
 
+    def dashboard_items(self):
+        catalog = self.context.portal_catalog
+        query = {
+            'portal_type': 'DashboardItem',
+            'review_state': 'published',
+        }
+
+        result = [x for x in catalog(**query)]
+
+        return result
+
     def news(self, limit=MAX_NUMBER_NEWS):
         catalog = self.context.portal_catalog
         query = {
