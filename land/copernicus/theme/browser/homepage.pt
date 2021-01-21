@@ -234,6 +234,9 @@
               </span>
               <span class="photoAlbumEntryTitle" tal:content="dashboard_item/Title">Title</span>
             </a>
+            <span class="photoAlbumEntryDescription" tal:on-error="nothing">
+              <span tal:replace="structure python:dashboard_item.short_description.output">Based on ... data</span>
+            </span>
           </div>
         </div>
         <!-- MAIN CONTENT -->
