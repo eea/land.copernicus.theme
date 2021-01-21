@@ -225,20 +225,48 @@
         <p i18n:translate="">To see how our products and services can help you and to understand the changes in the land cover and use around you, check out our new dashboards:</p>
 
         <div class="dashboards-container" tal:define="dashboard_items_list view/dashboard_items;">
-          <div class="photoAlbumEntry"
+          <div class="dashboard-item"
                tal:repeat="dashboard_item python:dashboard_items_list">
             <a href="" title="" tal:attributes="href dashboard_item/absolute_url">
-              <span class="photoAlbumEntryWrapper">
+              <span class="dashboard-logo-container">
                 <img tal:attributes="src python:dashboard_item.absolute_url() +'/@@images/logo'" class="dashboard-logo"
                      tal:condition="python:dashboard_item.logo" />
               </span>
-              <span class="photoAlbumEntryTitle" tal:content="dashboard_item/Title">Title</span>
+              <p class="dashboard-item-title" tal:content="dashboard_item/Title">Title</p>
             </a>
-            <span class="photoAlbumEntryDescription" tal:on-error="nothing">
+            <span class="dashboard-item-description" tal:on-error="nothing">
               <span tal:replace="structure python:dashboard_item.short_description.output">Based on ... data</span>
             </span>
           </div>
         </div>
+<style>
+  div.dashboards-container {
+    width: 100%;
+    background: red !important;
+  }
+
+  div.dashboards-container div.dashboard-item {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    border: 2px solid #eaeada;
+    border-radius: 6px;
+    padding: 6px;
+  }
+
+  div.dashboards-container div.dashboard-item:hover {
+    border: 2px solid #b8b7ae;
+  }
+
+  div.dashboards-container div.dashboard-item img.dashboard-logo {
+    width: 200px;
+    height: auto;
+  }
+
+  div.dashboards-container div.dashboard-item span.dashboard-item-description {
+    font-size: 11px;
+  }
+</style>
         <!-- MAIN CONTENT -->
         </metal:homepage-content>
         <metal:after-content define-slot="after-content"></metal:after-content>
