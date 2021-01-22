@@ -1,6 +1,9 @@
 Changelog
 =========
 
+11.6.dev0 - (unreleased)
+------------------------
+
 11.5 - (2021-01-22)
 -------------------
 - Feature: dashboard items listing.
