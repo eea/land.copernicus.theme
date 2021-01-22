@@ -6751,6 +6751,21 @@ div.dashboards-container div.dashboard-item:hover {
   border: 2px solid #b8b7ae;
 }
 
+div.dashboards-container div.dashboard-item > a {
+  text-decoration: none !important;
+}
+
+div.dashboards-container div.dashboard-item p.dashboard-item-title {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div.dashboards-container div.dashboard-item:hover p.dashboard-item-title {
+  color: #a0b228;
+}
+
 div.dashboards-container div.dashboard-item img.dashboard-logo {
   width: 200px;
   height: auto;
