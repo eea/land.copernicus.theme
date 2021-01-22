@@ -3,6 +3,7 @@ Changelog
 
 11.5.dev0 - (unreleased)
 ------------------------
+- Feature: dashboard items listing.
 - Improve: update main menu content, update homepage content.
   [GhitaB #126691]
 
