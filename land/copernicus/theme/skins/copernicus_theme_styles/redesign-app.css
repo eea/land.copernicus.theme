@@ -7267,6 +7267,7 @@ div.pagination.listingBar span.current {
   top: 30px;
 }
 
+body.template-view.portaltype-dashboarditem div.main-content div.col-lg-9,
 body.subsection-overview-product-portfolio-overview div.main-content div.col-lg-9 {
   width: 100% !important;
 }
