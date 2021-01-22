@@ -6732,6 +6732,34 @@ body.template-homepage div.row.land-row-footer {
   margin: 0px;
 }
 
+div.dashboards-container {
+  width: 100%;
+  background: red !important;
+}
+
+div.dashboards-container div.dashboard-item {
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+  border: 2px solid #eaeada;
+  border-radius: 6px;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+div.dashboards-container div.dashboard-item:hover {
+  border: 2px solid #b8b7ae;
+}
+
+div.dashboards-container div.dashboard-item img.dashboard-logo {
+  width: 200px;
+  height: auto;
+}
+
+div.dashboards-container div.dashboard-item span.dashboard-item-description {
+  font-size: 11px;
+}
+
 .color-white, footer .partners {
   color: #FFFFFF; }
 
