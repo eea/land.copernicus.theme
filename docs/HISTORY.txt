@@ -1,8 +1,8 @@
 Changelog
 =========
 
-11.6.dev0 - (unreleased)
-------------------------
+11.6 - (2021-01-25)
+-------------------
 - Fix: missing styles for dashboards listing in homepage.
   [GhitaB #126691]
 
