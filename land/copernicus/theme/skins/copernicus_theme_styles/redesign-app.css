@@ -7380,6 +7380,11 @@ div.row {
   margin-right: 10px;
 }
 
+body.template-homepage div.main-content {
+  margin-top: 36px;
+  border-radius: 6px;
+}
+
 body.template-homepage footer.footer {
   margin-bottom: -70px;
 }

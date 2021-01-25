@@ -2294,6 +2294,11 @@ div.dashboards-container div.dashboard-item span.dashboard-item-description {
   font-size: 11px;
 }
 
+body.template-homepage div.main-content {
+  margin-top: 36px;
+  border-radius: 6px;
+}
+
 #content-section.homepage {
   position: relative;
   z-index: 2 !important
