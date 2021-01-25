@@ -3,7 +3,7 @@
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+/ */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -2249,6 +2249,49 @@ footer .text .list-inline.land-list-separated .go-top {
 
 footer .text .list-inline.land-list-separated .go-top:hover {
   color: #5B6800
+}
+
+div.dashboards-container {
+  width: 100%;
+  background: red !important;
+}
+
+div.dashboards-container div.dashboard-item {
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+  border: 2px solid #eaeada;
+  border-radius: 6px;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+div.dashboards-container div.dashboard-item:hover {
+  border: 2px solid #b8b7ae;
+}
+
+div.dashboards-container div.dashboard-item > a {
+  text-decoration: none !important;
+}
+
+div.dashboards-container div.dashboard-item p.dashboard-item-title {
+  color: #1e1e1e;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div.dashboards-container div.dashboard-item:hover p.dashboard-item-title {
+  color: #a0b228;
+}
+
+div.dashboards-container div.dashboard-item img.dashboard-logo {
+  width: 200px;
+  height: auto;
+}
+
+div.dashboards-container div.dashboard-item span.dashboard-item-description {
+  font-size: 11px;
 }
 
 #content-section.homepage {
