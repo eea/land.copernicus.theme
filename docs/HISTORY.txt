@@ -3,6 +3,7 @@ Changelog
 
 11.7.dev0 - (unreleased)
 ------------------------
+- Improve: change order of sections in homepage.
 - Improve: same height for dashboard items in homepage listing.
 - Improve: simplify layout for dashboard item view (hide secondary column).
   [GhitaB #126691]
