@@ -3185,6 +3185,7 @@ body.template-view.portaltype-eea-meeting-emails a.btn.btn-default {
 body.template-view.portaltype-eea-meeting-emails #plone-contentmenu-factories,
 body.template-folder_contents.portaltype-eea-meeting-emails #plone-contentmenu-factories,
 body.template-view.portaltype-eea-meeting-subscribers #plone-contentmenu-factories,
+body.template-view.portaltype-dashboarditem div[data-diazo="land-secondary-column"],
 body.template-view.portaltype-eea-meeting-subscribers div[data-diazo="land-secondary-column"],
 body.template-folder_contents.portaltype-eea-meeting-subscribers #plone-contentmenu-factories {
   display: none;

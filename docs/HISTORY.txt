@@ -3,6 +3,8 @@ Changelog
 
 11.7.dev0 - (unreleased)
 ------------------------
+- Improve: simplify layout for dashboard item view (hide secondary column).
+  [GhitaB #126691]
 
 11.6 - (2021-01-25)
 -------------------
