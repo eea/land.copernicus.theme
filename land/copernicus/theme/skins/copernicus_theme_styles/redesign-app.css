@@ -6735,7 +6735,7 @@ body.template-homepage div.row.land-row-footer {
 
 div.dashboards-container {
   width: 100%;
-  background: red !important;
+  display: flex;
 }
 
 div.dashboards-container div.dashboard-item {

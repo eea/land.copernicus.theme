@@ -2253,7 +2253,7 @@ footer .text .list-inline.land-list-separated .go-top:hover {
 
 div.dashboards-container {
   width: 100%;
-  background: red !important;
+  display: flex;
 }
 
 div.dashboards-container div.dashboard-item {
