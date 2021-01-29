@@ -224,8 +224,8 @@
         <h4 class="land-title" i18n:translate="">Copernicus Land Monitoring Service at a glance</h4>
         <p i18n:translate="">To see how our products and services can help you and to understand the changes in the land cover and use around you, check out our new dashboards:</p>
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+        <link rel="stylesheet" href="./glider.min.css">
+        <script src="./glider.min.js"></script>
 
         <div class="dashboards-container" tal:define="dashboard_items_list view/dashboard_items;">
           <div class="dashboard-item"
