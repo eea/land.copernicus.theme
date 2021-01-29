@@ -247,7 +247,9 @@
 
         <script>
           var dashboard_items = document.getElementsByClassName("dashboard-item");
-          if(dashboard_items.length > 2) {
+          var container_width = document.getElementsByClassName("main")[0].offsetWidth;
+
+          if(dashboard_items.length > 2 && (dashboard_items.length * 150 > container_width)) {
             document.getElementsByClassName("glider-prev")[0].style.display = '';
             document.getElementsByClassName("glider-next")[0].style.display = '';
 
