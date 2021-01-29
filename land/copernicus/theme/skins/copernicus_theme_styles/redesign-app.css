@@ -7380,6 +7380,12 @@ div.row {
   margin-right: 10px;
 }
 
+button.glider-btn {
+  margin-top: 100px;
+  padding: 14px;
+  font-size: 30px;
+}
+
 body.template-homepage div.main-content {
   margin-top: 36px;
   border-radius: 6px;

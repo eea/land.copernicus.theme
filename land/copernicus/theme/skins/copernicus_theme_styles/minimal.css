@@ -2299,6 +2299,12 @@ body.template-homepage div.main-content {
   border-radius: 6px;
 }
 
+button.glider-btn {
+  margin-top: 100px;
+  padding: 14px;
+  font-size: 30px;
+}
+
 #content-section.homepage {
   position: relative;
   z-index: 2 !important

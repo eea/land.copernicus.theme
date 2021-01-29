@@ -247,14 +247,6 @@
 
         <script src="./glider_dashboard_items_carousel.js"></script>
 
-        <style>
-          button.glider-btn {
-            margin-top: 100px;
-            padding: 14px;
-            font-size: 30px;
-          }
-        </style>
-
         <!-- MAIN CONTENT -->
         </metal:homepage-content>
         <metal:after-content define-slot="after-content"></metal:after-content>
