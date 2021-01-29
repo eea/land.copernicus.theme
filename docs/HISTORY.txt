@@ -3,6 +3,8 @@ Changelog
 
 11.8.dev0 - (unreleased)
 ------------------------
+- Improve: display dashboard items as carousel.
+  [GhitaB #126691]
 
 11.7 - (2021-01-25)
 -------------------
