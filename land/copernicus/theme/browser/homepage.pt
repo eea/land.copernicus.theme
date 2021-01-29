@@ -242,20 +242,26 @@
             </span>
           </div>
         </div>
-        <button aria-label="Previous" class="glider-btn glider-prev">«</button>
-        <button aria-label="Next" class="glider-btn glider-next">»</button>
+        <button aria-label="Previous" class="glider-btn glider-prev" style="display:none;">«</button>
+        <button aria-label="Next" class="glider-btn glider-next" style="display:none;">»</button>
 
         <script>
-          new Glider(document.querySelector('.dashboards-container'), {
-            slidesToShow: 6,
-            slidesToScroll: 1,
-            draggable: true,
-            dots: '.dots',
-            arrows: {
-              prev: '.glider-prev',
-              next: '.glider-next'
-            }
-          });
+          var dashboard_items = document.getElementsByClassName("dashboard-item");
+          if(dashboard_items.length > 2) {
+            document.getElementsByClassName("glider-prev")[0].style.display = '';
+            document.getElementsByClassName("glider-next")[0].style.display = '';
+
+            new Glider(document.querySelector('.dashboards-container'), {
+              slidesToShow: 6,
+              slidesToScroll: 1,
+              draggable: true,
+              dots: '.dots',
+              arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+              }
+            });
+          }
         </script>
 
         <style>
