@@ -6733,7 +6733,7 @@ body.template-homepage div.row.land-row-footer {
   margin: 0px;
 }
 
-div.dashboards-container {
+div.dashboards-container div.glider {
   width: 100%;
   display: flex;
 }
@@ -7381,7 +7381,6 @@ div.row {
 }
 
 button.glider-btn {
-  padding: 14px;
   font-size: 30px;
 }
 

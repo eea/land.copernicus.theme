@@ -2251,7 +2251,7 @@ footer .text .list-inline.land-list-separated .go-top:hover {
   color: #5B6800
 }
 
-div.dashboards-container {
+div.dashboards-container div.glider {
   width: 100%;
   display: flex;
 }
@@ -2300,7 +2300,6 @@ body.template-homepage div.main-content {
 }
 
 button.glider-btn {
-  padding: 14px;
   font-size: 30px;
 }
 
