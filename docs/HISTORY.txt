@@ -3,6 +3,8 @@ Changelog
 
 11.9.dev0 - (unreleased)
 ------------------------
+- Fix: Solve markup issue for << and >> buttons in dashboards carousel.
+  [GhitaB #126691]
 
 11.8 - (2021-01-29)
 -------------------
