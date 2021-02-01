@@ -5,7 +5,7 @@ if(dashboard_items.length > 2 && (dashboard_items.length * 150 > container_width
   document.getElementsByClassName("glider-prev")[0].style.display = '';
   document.getElementsByClassName("glider-next")[0].style.display = '';
 
-  new Glider(document.querySelector('.dashboards-container'), {
+  new Glider(document.querySelector('.glider'), {
     slidesToShow: 6,
     slidesToScroll: 1,
     draggable: true,

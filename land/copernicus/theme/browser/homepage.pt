@@ -227,23 +227,25 @@
         <link rel="stylesheet" href="./glider.min.css">
         <script src="./glider.min.js"></script>
 
-        <div class="dashboards-container" tal:define="dashboard_items_list view/dashboard_items;">
-          <div class="dashboard-item"
-               tal:repeat="dashboard_item python:dashboard_items_list">
-            <a href="" title="" tal:attributes="href dashboard_item/absolute_url">
-              <span class="dashboard-logo-container">
-                <img tal:attributes="src python:dashboard_item.absolute_url() +'/@@images/logo'" class="dashboard-logo"
-                     tal:condition="python:dashboard_item.logo" />
+        <div class="dashboards-container glider-contain" tal:define="dashboard_items_list view/dashboard_items;">
+          <div class="glider">
+            <div class="dashboard-item"
+                 tal:repeat="dashboard_item python:dashboard_items_list">
+              <a href="" title="" tal:attributes="href dashboard_item/absolute_url">
+                <span class="dashboard-logo-container">
+                  <img tal:attributes="src python:dashboard_item.absolute_url() +'/@@images/logo'" class="dashboard-logo"
+                       tal:condition="python:dashboard_item.logo" />
+                </span>
+                <p class="dashboard-item-title" tal:content="dashboard_item/Title">Title</p>
+              </a>
+              <span class="dashboard-item-description" tal:on-error="nothing">
+                <span tal:replace="structure python:dashboard_item.short_description.output">Based on ... data</span>
               </span>
-              <p class="dashboard-item-title" tal:content="dashboard_item/Title">Title</p>
-            </a>
-            <span class="dashboard-item-description" tal:on-error="nothing">
-              <span tal:replace="structure python:dashboard_item.short_description.output">Based on ... data</span>
-            </span>
+            </div>
           </div>
+          <button aria-label="Previous" class="glider-btn glider-prev" style="display:none;">«</button>
+          <button aria-label="Next" class="glider-btn glider-next" style="display:none;">»</button>
         </div>
-        <button aria-label="Previous" class="glider-btn glider-prev" style="display:none;">«</button>
-        <button aria-label="Next" class="glider-btn glider-next" style="display:none;">»</button>
 
         <script src="./glider_dashboard_items_carousel.js"></script>
 
