@@ -3,6 +3,8 @@ Changelog
 
 12.0.dev0 - (unreleased)
 ------------------------
+- Fix: Temporary undo dahboards in homepage.
+  [GhitaB #126691]
 
 11.9 - (2021-02-02)
 -------------------
