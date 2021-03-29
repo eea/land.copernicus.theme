@@ -251,8 +251,8 @@
               </span>
             </div>
           </div>
-          <button aria-label="Previous" class="glider-btn glider-prev" style="display:none;">«</button>
-          <button aria-label="Next" class="glider-btn glider-next" style="display:none;">»</button>
+          <button aria-label="Previous" class="glider-btn glider-prev" style="display:none;" i18n:translate="">«</button>
+          <button aria-label="Next" class="glider-btn glider-next" style="display:none;" i18n:translate="">»</button>
         </div>
 
         <script src="./glider_dashboard_items_carousel.js"></script>
