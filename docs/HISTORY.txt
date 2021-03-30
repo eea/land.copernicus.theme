@@ -1,8 +1,8 @@
 Changelog
 =========
 
-12.1.dev0 - (unreleased)
-------------------------
+12.1 - (2021-03-30)
+-------------------
 - Improve: update content in main menu.
 - Feature: activate dashboards.
   [GhitaB #126691]
