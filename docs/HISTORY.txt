@@ -3,6 +3,8 @@ Changelog
 
 12.2.dev0 - (unreleased)
 ------------------------
+- Improve: update content in main menu.
+  [georgiana-aspru #135447]
 
 12.1 - (2021-03-30)
 -------------------
