@@ -166,10 +166,13 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   <li><a href="/global/hsm" i18n:translate="">Land Cover and Land Change</a></li>
 
                   <li data-sm-reverse="true" class="dropdown-submenu">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Natura 2000</a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">N2K</a>
                     <ul class="dropdown-menu">
-                      <li><a href="/local/natura/natura-2000-2012" i18n:translate="">Natura 2000 - 2012 Update</a></li>
-                      <li><a href="/local/natura/natura-2000-2006" i18n:translate="">Natura 2000 - 2006 Update</a></li>
+                      <li><a href="/local/natura/n2k-2018" i18n:translate="">N2K 2018</a></li>
+                      <li><a href="/local/natura/n2k-2012" i18n:translate="">N2K 2012</a></li>
+                      <li><a href="/local/natura/n2k-2006" i18n:translate="">N2K 2006</a></li>
+                      <li><a href="/local/natura/n2k-change-2012-2018" i18n:translate="">N2K 2012-2018</a></li>
+                      <li><a href="/local/natura/n2k-change-2006-2012" i18n:translate="">N2K 2006-2012</a></li>
                     </ul>
                   </li>
 
@@ -201,27 +204,11 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
               <li class="dropdown-submenu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" i18n:translate="">Biophysical Parameters</a>
                 <ul class="dropdown-menu">
-                  <li>
-                    <a href="/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring/fractional-snow-cover" i18n:translate="">
-                      Fractional Snow Cover
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring/persistent-snow-area" i18n:translate="">
-                      Persistent Snow Area
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring/river-and-lake-ice-extent" i18n:translate="">
-                      River and Lake Ice Extent
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring/aggregated-river-and-lake-ice-extent" i18n:translate="">
-                      Aggregated River and Lake Ice Extent
-                    </a>
-                  </li>
-
+                  <li><a href="/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring/snow-products/snow-cover" i18n:translate="">High Resolution Snow Cover</a></li>
+                  <li><a href="/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring/snow-products/snow-state-conditions" i18n:translate="">High Resolution Snow State Conditions</a></li>
+                  <li><a href="/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring/snow-products/persistent-snow-area" i18n:translate="">High Resolution Persistent Snow Area</a></li>
+                  <li><a href="/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring/ice-products/ice-cover" i18n:translate="">High Resolution River and Lake Ice Extent</a></li>
+                  <li><a href="/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring/ice-products/aggregated-river-and-lake-ice-extent" i18n:translate="">High Resolution Aggregated River and Lake Ice Extent</a></li>
                   <li><a href="/global/products/lie" i18n:translate="">Lake Ice Extent</a></li>
                   <li><a href="/global/products/sce" i18n:translate="">Snow Cover Extent</a></li>
                   <li><a href="/global/products/swe" i18n:translate="">Snow Water Equivalent</a></li>
@@ -240,7 +227,9 @@ EU-DEM is a pan-European digital surface model and EU-Hydro provides a photo-int
                   <li><a href="/global/products/swi" i18n:translate="">Soil Water Index</a></li>
                   <li><a href="/global/products/ssm" i18n:translate="">Surface Soil Moisture</a></li>
                   <li><a href="/global/products/vci" i18n:translate="">Condition Index</a></li>
-                  <li><a href="/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity" i18n:translate="">High Resolution Vegetation Phenology and Productivity</a></li>
+                  <li><a href="/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity/vegetation-indices" i18n:translate="">High Resolution Vegetation Indices</a></li>
+                  <li><a href="/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity/seasonal-trajectories" i18n:translate="">High Resolution Seasonal Trajectories</a></li>
+                  <li><a href="/pan-european/biophysical-parameters/high-resolution-vegetation-phenology-and-productivity/vegetation-phenology-and-productivity" i18n:translate="">High Resolution Vegetation Phenology and Productivity Parameters</a></li>
                   <li><a href="/global/products/vpi" i18n:translate="">Productivity Indicator</a></li>
                   <li><hr style="margin:0; border-color:#1E1E1E;" /><!-- separator --></li>
                   <li><a href="/global/products/lswt" i18n:translate="">Lake Surface Water Temperature</a></li>
