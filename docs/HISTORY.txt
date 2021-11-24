@@ -3,6 +3,8 @@ Changelog
 
 12.5.dev0 - (unreleased)
 ------------------------
+- Improve: Use title for Read more link in News slider, on homepage.
+  [GhitaB #141257]
 - Improve: Make sure we use a small image for dashboard items in homepage.
 - Fix: Add missing alt for dashboard items in homepage listing.
   [GhitaB #141153]
