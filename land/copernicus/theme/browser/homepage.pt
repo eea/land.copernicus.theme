@@ -127,7 +127,7 @@
                       <p tal:content="python:news_date">Date</p>
                       <p>
                         <span tal:replace="structure python:news_description[:120]"></span>...
-                        <a href="" tal:attributes="href python:news_url" i18n:translate="">Read more</a>
+                        <a href="" tal:attributes="href python:news_url; title python:news_title" i18n:translate="">Read more</a>
                       </p>
                       <a href="./news" class="pull-right" i18n:translate="">more news <i class="fa fa-arrow-circle-right" i18n:name="icon"></i></a>
                     </div>
