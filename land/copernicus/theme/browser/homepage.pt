@@ -233,7 +233,8 @@
                  tal:repeat="dashboard_item python:dashboard_items_list">
               <a href="" title="" tal:attributes="href dashboard_item/absolute_url">
                 <span class="dashboard-logo-container">
-                  <img tal:attributes="src python:dashboard_item.absolute_url() +'/@@images/logo'" class="dashboard-logo"
+                  <img tal:attributes="src python:dashboard_item.absolute_url() +'/@@images/logo';
+                                       alt python:dashboard_item.title" class="dashboard-logo"
                        tal:condition="python:dashboard_item.logo" />
                 </span>
                 <p class="dashboard-item-title" tal:content="dashboard_item/Title">Title</p>
