@@ -3,6 +3,7 @@ Changelog
 
 12.5.dev0 - (unreleased)
 ------------------------
+- Improve: Make sure we use a small image for dashboard items in homepage.
 - Fix: Add missing alt for dashboard items in homepage listing.
   [GhitaB #141153]
 - Improve: Remove unused images. Add css fix from production temp.
