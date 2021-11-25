@@ -1,6 +1,9 @@
 Changelog
 =========
 
+12.6.dev0 - (unreleased)
+------------------------
+
 12.5 - (2021-11-25)
 -------------------
 - Improve: Use title for Read more link in News slider, on homepage.
