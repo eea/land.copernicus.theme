@@ -3,6 +3,8 @@ Changelog
 
 12.6.dev0 - (unreleased)
 ------------------------
+- Fix: Solve broken Sentry by updating the js filename.
+  [GhitaB #141257]
 
 12.5 - (2021-11-25)
 -------------------
